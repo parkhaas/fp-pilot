@@ -61,8 +61,8 @@ a { color: inherit; }
   border-radius: 16px;
   background: color-mix(in srgb, var(--bg-elev) 58%, transparent);
   background: rgba(18, 18, 24, 0.55);
-  backdrop-filter: blur(26px) saturate(150%);
-  -webkit-backdrop-filter: blur(26px) saturate(150%);
+  backdrop-filter: blur(10px) saturate(150%);
+  -webkit-backdrop-filter: blur(10px) saturate(150%);
   border: 1px solid rgba(255, 255, 255, 0.09);
   box-shadow: 0 24px 64px rgba(0, 0, 0, 0.5);
 }
@@ -76,9 +76,14 @@ a { color: inherit; }
 .drawer-secondary {
   left: calc(100% + 10px);
   width: 208px;
+  top: 0;
+  bottom: auto;                 /* 내용 높이에 맞게 (전체 높이 X) */
+  height: auto;
+  max-height: 100%;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
-  padding: 10px 8px 14px;
+  padding: 12px 8px 100px;      /* 하단 여백 100px */
   opacity: 0;
   transform: translateX(-10px);
   pointer-events: none;
