@@ -23,7 +23,7 @@
   };
 
   const el = {
-    nav: document.getElementById("nav"),
+    nav: document.getElementById("sidebar"),
     pane1: document.getElementById("navPane1"),
     pane2: document.getElementById("navPane2"),
     pane2Title: document.getElementById("navPane2Title"),
@@ -512,8 +512,6 @@
         <h1>FROMIS-FLIX 소개</h1>
         <p class="about-lead">
           프로미스나인(fromis_9)의 영상을 한곳에서 모아보는 <strong>비영리 팬 아카이브</strong>입니다.
-          <a href="https://adam-yam.github.io/SCENE-FLIX/" target="_blank" rel="noopener noreferrer">SCENE-FLIX</a>의
-          구조를 참고해 만들었습니다.
         </p>
 
         <div class="about-stats">
@@ -522,6 +520,7 @@
           <div class="stat"><b>${updated}</b><span>마지막 업데이트</span></div>
           <div class="stat"><b>${escapeHtml(gen)}</b><span>수집 방식</span></div>
         </div>
+        
         <ul class="about-catlist">${rows}</ul>
 
         <h2>페이지 안내</h2>

@@ -35,25 +35,59 @@ a { color: inherit; }
 
 /* ---------- 레이아웃 ---------- */
 
-.app { display: flex; min-height: 100vh; }
+.app { display: block; min-height: 100vh; }
+.main { min-width: 0; }        /* 드로어는 오버레이 — 본문은 전체 폭 */
 
-.main {
-  flex: 1;
-  min-width: 0;              /* 그리드 오버플로 방지 */
-  margin-left: var(--sidebar-w);
-}
-
-/* ---------- 사이드바 / 드로어 ---------- */
+/* ---------- 플로팅 반투명 드로어 ---------- */
 
 .sidebar {
   position: fixed;
-  inset: 0 auto 0 0;
-  width: var(--sidebar-w);
-  background: #101015;
-  border-right: 1px solid var(--line);
+  left: 14px;
+  top: 14px;
+  bottom: 14px;
+  width: 218px;
+  z-index: 60;
+  overflow: visible;          /* 2단 패널이 오른쪽으로 삐져나옴 */
+  transform: translateX(calc(-100% - 28px));
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 0.26s ease, opacity 0.22s ease, visibility 0.26s;
+}
+.sidebar.is-open { transform: none; opacity: 1; visibility: visible; }
+
+.drawer-panel {
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--bg-elev) 78%, transparent);
+  background: rgba(18, 18, 24, 0.72);
+  backdrop-filter: blur(22px) saturate(150%);
+  -webkit-backdrop-filter: blur(22px) saturate(150%);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.55);
+}
+
+.drawer-primary {
   display: flex;
   flex-direction: column;
-  z-index: 60;
+  overflow: hidden;
+}
+
+.drawer-secondary {
+  left: calc(100% + 10px);
+  width: 208px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 8px 14px;
+  opacity: 0;
+  transform: translateX(-10px);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.sidebar.at-sub .drawer-secondary {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
 }
 
 .sidebar-head {
@@ -76,34 +110,19 @@ a { color: inherit; }
 .brand-accent { color: var(--accent); }
 
 .drawer-close {
-  display: none;
   background: none;
   border: 0;
   color: var(--text-dim);
   font-size: 16px;
   padding: 4px 8px;
 }
+.drawer-close:hover { color: var(--text); }
 
-/* 2단(슬라이드) 드로어 내비게이션 */
 .nav {
   flex: 1;
   min-height: 0;
-  overflow: hidden;
-  position: relative;
-}
-.nav-track {
-  display: flex;
-  width: 200%;
-  height: 100%;
-  transition: transform 0.24s ease;
-}
-.nav.at-sub .nav-track { transform: translateX(-50%); }
-
-.nav-pane {
-  width: 50%;
-  height: 100%;
   overflow-y: auto;
-  padding: 8px 8px 14px;
+  padding: 8px 8px 12px;
   display: flex;
   flex-direction: column;
   gap: 1px;
@@ -200,7 +219,7 @@ a { color: inherit; }
 .drawer-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.3);
   z-index: 55;
 }
 .drawer-backdrop[hidden] { display: none; }
@@ -224,7 +243,7 @@ a { color: inherit; }
 .topbar.is-scrolled { border-bottom-color: var(--line); }
 
 .hamburger {
-  display: none;
+  display: block;
   background: none;
   border: 0;
   color: var(--text);
@@ -540,21 +559,22 @@ a { color: inherit; }
 }
 .modal-yt:hover { text-decoration: underline; }
 
-/* ---------- 반응형: 드로어 모드 ---------- */
+/* ---------- 반응형 ---------- */
 
-@media (max-width: 900px) {
-  .main { margin-left: 0; }
-
+/* 좁은 화면: 2단 패널을 1단 위에 겹쳐서 표시 */
+@media (max-width: 680px) {
   .sidebar {
-    transform: translateX(-100%);
-    transition: transform 0.24s ease;
-    width: 280px;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    width: min(320px, calc(100vw - 28px));
+    left: 12px;
+    top: 12px;
+    bottom: 12px;
   }
-  .sidebar.is-open { transform: translateX(0); }
-  .drawer-close { display: block; }
-
-  .hamburger { display: block; }
+  .drawer-secondary {
+    left: 0;
+    width: 100%;
+    transform: translateX(14px);
+  }
+  .sidebar.at-sub .drawer-secondary { transform: none; }
 }
 
 @media (max-width: 560px) {

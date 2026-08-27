@@ -12,32 +12,31 @@
 </head>
 <body>
   <div class="app">
-    <!-- 좌측 드로어 내비게이션 -->
+    <!-- 좌측 플로팅 드로어 (1단 + 옆에 뜨는 2단) -->
     <aside class="sidebar" id="sidebar" aria-label="사이트 메뉴">
-      <div class="sidebar-head">
-        <a class="brand" href="./" aria-label="FROMIS-FLIX 홈">
-          <img src="image/logo.svg" alt="" class="brand-mark" />
-          <span class="brand-text">FROMIS<span class="brand-accent">-FLIX</span></span>
-        </a>
-        <button class="drawer-close" id="drawerClose" aria-label="메뉴 닫기">✕</button>
+      <div class="drawer-panel drawer-primary">
+        <div class="sidebar-head">
+          <a class="brand" href="./" aria-label="FROMIS-FLIX 홈">
+            <img src="image/logo.svg" alt="" class="brand-mark" />
+            <span class="brand-text">FROMIS<span class="brand-accent">-FLIX</span></span>
+          </a>
+          <button class="drawer-close" id="drawerClose" aria-label="메뉴 닫기">✕</button>
+        </div>
+
+        <nav class="nav" id="navPane1" aria-label="카테고리"></nav>
+
+        <div class="sidebar-foot">
+          <button class="nav-item nav-about" data-view="about">
+            <span class="nav-ico">ⓘ</span> 소개
+          </button>
+          <p class="side-note">비영리 팬 아카이브<br />영상은 YouTube 임베드로만 제공</p>
+        </div>
       </div>
 
-      <nav class="nav" id="nav" aria-label="카테고리">
-        <div class="nav-track" id="navTrack">
-          <div class="nav-pane" id="navPane1"></div>
-          <div class="nav-pane" id="navPane2">
-            <button class="nav-back" id="navBack"><span aria-hidden="true">‹</span> 뒤로</button>
-            <p class="nav-pane2-title" id="navPane2Title"></p>
-            <div class="nav-pane2-list" id="navPane2List"></div>
-          </div>
-        </div>
-      </nav>
-
-      <div class="sidebar-foot">
-        <button class="nav-item nav-about" data-view="about">
-          <span class="nav-ico">ⓘ</span> 소개
-        </button>
-        <p class="side-note">비영리 팬 아카이브<br />영상은 YouTube 임베드로만 제공</p>
+      <div class="drawer-panel drawer-secondary" id="navPane2" aria-label="하위 분류">
+        <button class="nav-back" id="navBack"><span aria-hidden="true">‹</span> 뒤로</button>
+        <p class="nav-pane2-title" id="navPane2Title"></p>
+        <div class="nav-pane2-list" id="navPane2List"></div>
       </div>
     </aside>
     <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
