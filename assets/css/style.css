@@ -641,20 +641,18 @@ a { color: inherit; }
 
 /* ---------- 반응형 ---------- */
 
-/* 좁은 화면: 2단 패널을 1단 위에 겹쳐서 표시 */
+/* 좁은 화면: 1단·2단을 나란히 유지하되 두 패널 모두 화면에 들어오도록 축소 */
 @media (max-width: 680px) {
   .sidebar {
-    width: min(320px, calc(100vw - 28px));
-    left: 12px;
-    top: 12px;
-    bottom: 12px;
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
+    width: min(46vw, 210px);
   }
   .drawer-secondary {
-    left: 0;
-    width: 100%;
-    transform: translateX(14px);
+    left: calc(100% + 6px);
+    width: min(46vw, 210px);
   }
-  .sidebar.at-sub .drawer-secondary { transform: none; }
 }
 
 @media (max-width: 560px) {
