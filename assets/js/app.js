@@ -13,9 +13,10 @@
     videos: [],
     members: [],
     meta: {},
-    view: "browse", // "browse" | "about"
+    view: "about", // "browse" | "about" (파라미터 없이 접속하면 소개가 시작 페이지)
     sel: {}, // { cat?, cats?[], year?, song? }
     subGroup: null, // 2단 드로어에서 열려 있는 그룹 id
+    chartBy: "category", // 소개 페이지 파이차트 기준: "category" | "year"
     member: "all",
     sort: "added",
     q: "",
@@ -136,7 +137,6 @@
 
   function readUrl() {
     const p = new URLSearchParams(location.search);
-    state.view = p.get("view") === "about" ? "about" : "browse";
     const sel = {};
     if (p.get("cat")) sel.cat = p.get("cat");
     if (p.get("cats")) sel.cats = p.get("cats").split(",").filter(Boolean);
@@ -146,12 +146,18 @@
     state.member = p.get("member") || "all";
     state.sort = p.get("sort") || "added";
     state.q = p.get("q") || "";
+
+    const hasSel = sel.cat || sel.cats || sel.year || sel.song || state.q ||
+      state.member !== "all";
+    if (p.get("view") === "about") state.view = "about";
+    else if (p.get("view") === "browse" || hasSel) state.view = "browse";
+    else state.view = "about"; // 파라미터 없음 = 시작 페이지(소개)
   }
 
   function writeUrl(replace) {
     const p = new URLSearchParams();
     if (state.view === "about") {
-      p.set("view", "about");
+      // 파라미터 없는 "/" 가 곧 소개 페이지
     } else {
       const s = state.sel;
       if (s.cat) p.set("cat", s.cat);
@@ -161,6 +167,7 @@
       if (state.member !== "all") p.set("member", state.member);
       if (state.sort !== "added") p.set("sort", state.sort);
       if (state.q) p.set("q", state.q);
+      if (![...p].length) p.set("view", "browse"); // 필터 없는 전체보기
     }
     const qs = p.toString();
     const url = qs ? `?${qs}` : location.pathname;
@@ -495,6 +502,77 @@
     el.content.appendChild(d);
   }
 
+  const CHART_PALETTE = [
+    "#ff5fa2", "#6ec1ff", "#ffd166", "#8be28b", "#c792ea", "#ff9e64",
+    "#4fd1c5", "#f8737f", "#7dd3fc", "#fcd34d", "#86efac", "#d8b4fe",
+    "#fca5a5", "#a0aec0",
+  ];
+
+  // entries: [{label, value, sel?}] → 도넛 SVG + 범례 HTML
+  function buildChart(entries) {
+    const total = entries.reduce((s, e) => s + e.value, 0) || 1;
+    const R = 15.91549431; // 둘레 ≈ 100 → dasharray 를 백분율로 사용
+    let acc = 0;
+    const segs = entries
+      .map((e, i) => {
+        const pct = (e.value / total) * 100;
+        const seg = `<circle class="donut-seg" cx="21" cy="21" r="${R}" fill="none"
+          stroke="${CHART_PALETTE[i % CHART_PALETTE.length]}" stroke-width="5.5"
+          stroke-dasharray="${pct.toFixed(3)} ${(100 - pct).toFixed(3)}"
+          stroke-dashoffset="${(25 - acc).toFixed(3)}"
+          ><title>${escapeHtml(e.label)} · ${e.value.toLocaleString("ko")} (${pct.toFixed(1)}%)</title></circle>`;
+        acc += pct;
+        return seg;
+      })
+      .join("");
+
+    const svg = `
+      <svg class="donut" viewBox="0 0 42 42" role="img" aria-label="영상 통계 파이 그래프">
+        <circle cx="21" cy="21" r="${R}" fill="none" stroke="var(--line)" stroke-width="5.5" />
+        <g transform="rotate(-90 21 21)">${segs}</g>
+        <text x="21" y="20.2" text-anchor="middle" class="donut-total">${total.toLocaleString("ko")}</text>
+        <text x="21" y="24.4" text-anchor="middle" class="donut-cap">영상</text>
+      </svg>`;
+
+    const legend = entries
+      .map((e, i) => {
+        const pct = ((e.value / total) * 100).toFixed(1);
+        const color = CHART_PALETTE[i % CHART_PALETTE.length];
+        const data = e.sel
+          ? e.sel.cat
+            ? ` data-sel-cat="${escapeHtml(e.sel.cat)}"`
+            : ` data-sel-year="${escapeHtml(e.sel.year)}"`
+          : "";
+        return `<li${data}${e.sel ? ' class="lg-link" role="button" tabindex="0"' : ""}>
+          <span class="sw" style="background:${color}"></span>
+          <span class="lg-label">${escapeHtml(e.label)}</span>
+          <b>${e.value.toLocaleString("ko")}</b>
+          <span class="lg-pct">${pct}%</span>
+        </li>`;
+      })
+      .join("");
+
+    return `<div class="about-chart">${svg}<ul class="chart-legend">${legend}</ul></div>`;
+  }
+
+  function chartEntries() {
+    if (state.chartBy === "year") {
+      const m = new Map();
+      for (const v of state.videos) {
+        const y = yearOf(v);
+        if (y) m.set(y, (m.get(y) || 0) + 1);
+      }
+      return [...m.entries()]
+        .sort((a, b) => b[0].localeCompare(a[0]))
+        .map(([y, n]) => ({ label: `${y}년`, value: n, sel: { year: y } }));
+    }
+    const counts = catCounts();
+    return Object.keys(CFG.catLabels)
+      .filter((c) => counts[c])
+      .sort((a, b) => counts[b] - counts[a])
+      .map((c) => ({ label: catLabel(c), value: counts[c], sel: { cat: c } }));
+  }
+
   function renderAbout() {
     const counts = catCounts();
     const total = state.videos.length;
@@ -502,10 +580,11 @@
     const updated = state.meta.updatedAt ? fmtDate(state.meta.updatedAt) : "―";
     const gen = state.meta.generator || "―";
 
-    const rows = Object.keys(CFG.catLabels)
-      .filter((c) => counts[c])
-      .map((c) => `<li><span>${escapeHtml(catLabel(c))}</span><b>${counts[c].toLocaleString("ko")}</b></li>`)
-      .join("");
+    const toggle = `
+      <div class="chart-toggle" role="group" aria-label="통계 기준">
+        <button data-chart="category" class="${state.chartBy === "category" ? "is-active" : ""}">카테고리별</button>
+        <button data-chart="year" class="${state.chartBy === "year" ? "is-active" : ""}">연도별</button>
+      </div>`;
 
     el.content.innerHTML = `
       <section class="about">
@@ -520,8 +599,10 @@
           <div class="stat"><b>${updated}</b><span>마지막 업데이트</span></div>
           <div class="stat"><b>${escapeHtml(gen)}</b><span>수집 방식</span></div>
         </div>
-        
-        <ul class="about-catlist">${rows}</ul>
+
+        <h2>영상 통계</h2>
+        ${toggle}
+        ${buildChart(chartEntries())}
 
         <h2>페이지 안내</h2>
         <p>이 페이지는 <strong>수익을 목적으로 하지 않으며</strong>, 광고를 넣을 계획이 없습니다.
@@ -656,7 +737,29 @@
 
     document.addEventListener("click", (e) => {
       const aboutBtn = e.target.closest('[data-view="about"]');
-      if (aboutBtn) goAbout();
+      if (aboutBtn) {
+        goAbout();
+        return;
+      }
+      const chartBtn = e.target.closest("[data-chart]");
+      if (chartBtn) {
+        state.chartBy = chartBtn.dataset.chart;
+        renderAbout();
+        return;
+      }
+      const leg = e.target.closest("[data-sel-cat],[data-sel-year]");
+      if (leg) {
+        select(leg.dataset.selCat ? { cat: leg.dataset.selCat } : { year: leg.dataset.selYear });
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key !== "Enter" && e.key !== " ") return;
+      const leg = e.target.closest("[data-sel-cat],[data-sel-year]");
+      if (leg) {
+        e.preventDefault();
+        select(leg.dataset.selCat ? { cat: leg.dataset.selCat } : { year: leg.dataset.selYear });
+      }
     });
 
     el.hamburger.addEventListener("click", openDrawer);
