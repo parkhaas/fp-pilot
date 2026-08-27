@@ -418,6 +418,7 @@
       render();
     }
     buildNav();
+    if (!showPanel) closeDrawer(); // 2단 패널이 없으면 일반 항목처럼 드로어를 닫음
   }
   function closeSub() {
     state.subGroup = null;
