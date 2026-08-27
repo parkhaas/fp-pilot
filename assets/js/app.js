@@ -651,7 +651,7 @@
         <div class="about-stats">
           <div class="stat"><b>${total.toLocaleString("ko")}</b><span>영상</span></div>
           <div class="stat"><b>${catN}</b><span>카테고리</span></div>
-          <div class="stat"><b>${up ? `${up.year}.${up.month}.${up.day}` : "―"}</b><span>마지막 업데이트${up ? `<br>${up.hour}:${up.minute}:${up.second} KST` : ""}</span></div>
+          <div class="stat stat--dt"><b>${up ? `${up.year}.${up.month}.${up.day} ${up.hour}:${up.minute}:${up.second} KST` : "―"}</b><span>마지막 업데이트</span></div>
           <div class="stat"><b>${escapeHtml(gen)}</b><span>수집 방식</span></div>
         </div>
 
