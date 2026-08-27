@@ -99,19 +99,28 @@ def resolve_channel(cfg: dict, api_key: str) -> tuple[str, str]:
     return channel_id, uploads
 
 
-def collect_playlist(playlist_id: str, category: str, api_key: str, cap: int) -> list[dict]:
+def collect_playlist(playlist_id: str, api_key: str, cap: int,
+                     filter_kw: list[str] | None = None) -> list[str]:
+    """재생목록의 videoId 목록. filter_kw 가 있으면 제목에 그 키워드 중 하나라도
+    포함된 항목만 남긴다(대소문자 무시, OR 조건). 외부 채널의 큰 재생목록에서
+    특정 그룹/멤버 영상만 골라낼 때 사용."""
     raw = paginate(
         "playlistItems",
         {"part": "contentDetails,snippet", "playlistId": playlist_id},
         api_key,
         cap,
     )
+    kw = [k.lower() for k in (filter_kw or [])]
     out = []
     for it in raw:
         vid = it.get("contentDetails", {}).get("videoId")
         if not vid:
             continue
-        out.append({"videoId": vid, "category_hint": category})
+        if kw:
+            title = (it.get("snippet", {}).get("title") or "").lower()
+            if not any(k in title for k in kw):
+                continue
+        out.append(vid)
     return out
 
 
@@ -206,22 +215,25 @@ def main() -> None:
 
     # 1) 소스 목록 구성
     _, uploads_playlist = resolve_channel(cfg, args.api_key)
-    tasks: list[tuple[str, str, list]] = []  # (playlistId, category, defaultMembers)
+    # (playlistId, category, defaultMembers, filterKeywords)
+    tasks: list[tuple[str, str, list, list]] = []
     if cfg.get("includeUploads", True):
-        tasks.append((uploads_playlist, cfg.get("uploadsCategory", "auto"), []))
+        tasks.append((uploads_playlist, cfg.get("uploadsCategory", "auto"), [], []))
     for pl in cfg.get("playlists", []):
         if pl.get("id"):
-            tasks.append((pl["id"], pl.get("category", "auto"), pl.get("members", [])))
+            tasks.append((pl["id"], pl.get("category", "auto"),
+                          pl.get("members", []), pl.get("filterKeywords", [])))
     for ex in cfg.get("extraChannels", []):
         if ex.get("playlistId"):
-            tasks.append((ex["playlistId"], ex.get("category", "auto"), ex.get("members", [])))
+            tasks.append((ex["playlistId"], ex.get("category", "auto"),
+                          ex.get("members", []), ex.get("filterKeywords", [])))
 
     # 2) 수집 (뒤에 오는 소스의 category/members 가 우선)
     hint_by_id: dict[str, tuple[str, list]] = {}
-    for playlist_id, category, def_members in tasks:
+    for playlist_id, category, def_members, filter_kw in tasks:
         try:
-            for row in collect_playlist(playlist_id, category, args.api_key, cap):
-                hint_by_id[row["videoId"]] = (category, def_members)
+            for vid in collect_playlist(playlist_id, args.api_key, cap, filter_kw):
+                hint_by_id[vid] = (category, def_members)
         except RuntimeError as e:
             print(f"[경고] 재생목록 {playlist_id} 건너뜀: {e}", file=sys.stderr)
 

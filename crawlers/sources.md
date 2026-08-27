@@ -45,6 +45,7 @@ sources.json
 | `playlists[].members` | string[] | — | 이 재생목록 영상의 기본 멤버. 제목·설명에서 멤버가 검출되지 않을 때만 이 값을 씀 (예: 하냥카세 → `["hayoung"]`). `extraChannels[]` 에도 동일하게 쓸 수 있음 |
 | `extraChannels[]` | array | 아니오 | **공식 외** 채널의 재생목록. 각 항목 `{ playlistId, category, label }` |
 | `extraChannels[].playlistId` | string | — | 외부 재생목록 ID. 비어 있으면 무시 |
+| `extraChannels[].filterKeywords` | string[] | — | 있으면 **제목에 이 키워드 중 하나라도 포함된 영상만** 수집(대소문자 무시, OR). 여러 아이돌이 섞인 큰 재생목록에서 특정 그룹만 골라낼 때. `playlists[]` 에도 동일 적용 |
 | `keywordRules` | object | 아니오 | `"auto"` 분류에 쓰는 카테고리별 키워드 목록 (아래 5·6절) |
 | `maxShortsSeconds` | number | 아니오 (기본 `61`) | 이 길이(초) 이하면 무조건 `shorts` 로 분류 |
 | `_comment` 등 `_` 로 시작하는 키 | any | — | 주석용. 크롤러가 무시하므로 자유롭게 메모 가능 |
@@ -225,6 +226,22 @@ sources.json
 ]
 ```
 제목에 "백지헌"이 들어 있으면 멤버 태깅도 자동으로 `jiheon` 이 됩니다.
+
+### 8-4. 여러 아이돌이 섞인 외부 예능 재생목록에서 우리 그룹만
+
+```json
+"extraChannels": [
+  {
+    "playlistId": "PLHqqPM2t7weLoaMZe5JLFB2iOVydteL9R",
+    "category": "workdol",
+    "label": "워크맨 · 워크돌",
+    "members": ["jiwon"],
+    "filterKeywords": ["프로미스나인"]
+  }
+]
+```
+128개 재생목록 중 제목에 "프로미스나인"이 있는 회차만 수집합니다.
+`category` 값(`workdol`)은 `assets/js/config.js` 의 `categories[]` 에도 추가해야 탭이 보입니다.
 
 ---
 

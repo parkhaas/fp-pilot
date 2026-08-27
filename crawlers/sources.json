@@ -20,7 +20,15 @@
     { "id": "PLwUBcVcUN10kY9zP39bezValB9Z5Pb_qw", "category": "sp_chaeng",   "label": "스프 : 챙그랑",    "members": ["chaeyoung"] }
   ],
 
-  "extraChannels": [],
+  "extraChannels": [
+    {
+      "playlistId": "PLHqqPM2t7weLoaMZe5JLFB2iOVydteL9R",
+      "category": "workdol",
+      "label": "워크맨 · 워크돌 (프로미스나인 박지원 MC)",
+      "members": ["jiwon"],
+      "filterKeywords": ["프로미스나인"]
+    }
+  ],
 
   "keywordRules": {
     "shorts":          ["#shorts", "shorts"],
