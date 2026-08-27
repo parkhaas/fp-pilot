@@ -1,6 +1,18 @@
 {
-  "updatedAt": null,
-  "generator": "seed",
-  "total": 6,
-  "counts": {}
+  "updatedAt": "2026-08-27T04:43:27Z",
+  "generator": "yt-dlp",
+  "total": 345,
+  "counts": {
+    "sp_beauty": 8,
+    "sp_original": 17,
+    "sp_corp": 8,
+    "sp_etc": 7,
+    "sp_vlog": 8,
+    "sp_chaeng": 8,
+    "sp_hayoung": 3,
+    "sp_jiwon": 5,
+    "sp_game": 3,
+    "sp_survive": 7,
+    "shorts": 271
+  }
 }

@@ -37,7 +37,35 @@ python -m http.server 8080
 # http://localhost:8080 접속
 ```
 
-## 데이터 수집 (YouTube Data API v3)
+## 데이터 수집 — 두 가지 방법
+
+| 방법 | 스크립트 | 설정 | API 키 | 정확도 |
+|---|---|---|---|---|
+| **A. yt-dlp** (기본) | `crawlers/collect_ytdlp.py` | `crawlers/collect.json` | 불필요 | 발행일이 **근사치**(연·월만 신뢰) |
+| **B. 공식 API** | `crawlers/youtube_crawler.py` | `crawlers/sources.json` | 필요 | 발행일·길이 정확 |
+
+현재 `data/` 에는 **방법 A** 로 수집한 `@studiofromis_9`(스튜디오 프로미스나인, 자체콘텐츠)
+데이터가 들어 있습니다. 관련 채널:
+
+| 채널 | 핸들 | channelId | 성격 |
+|---|---|---|---|
+| fromis_9 | `@fromis_9` | `UCcv8TMaKxLhVax56o8q7dfQ` | 메인/팬용 |
+| 스튜디오 프로미스나인 | `@studiofromis_9` | `UCeUJ8B3krxw8zuDi19AlhaA` | 자체콘텐츠(현재 메인) |
+| fromis_9 (Stone Music) | `@fromis9_official` | `UCXbRURMKT3H_w8dT-DWLIxA` | MV·티저·공식 음원 |
+
+### 방법 A — yt-dlp (API 키 불필요)
+
+```bash
+python -m pip install --user yt-dlp
+python crawlers/collect_ytdlp.py --config crawlers/collect.json --out data --dry-run
+python crawlers/collect_ytdlp.py --config crawlers/collect.json --out data
+```
+
+`collect.json` 은 `playlists[]`(재생목록별 `category`/`members`)와 `channels[]`
+(`includeUploads`, `includeShorts`, `uploadsCategory`)로 구성됩니다. 카테고리 id 는
+`assets/js/config.js` 의 `categories[].id` 와 일치해야 화면에 노출됩니다.
+
+### 방법 B — YouTube Data API v3
 
 1. [Google Cloud Console](https://console.cloud.google.com/) 에서 프로젝트 생성 →
    **YouTube Data API v3** 사용 설정 → **API 키** 발급 (무료, 일 10,000 유닛 쿼터).
@@ -60,9 +88,10 @@ python crawlers/youtube_crawler.py --config crawlers/sources.json --out data
 
 ## 배포 (GitHub Pages)
 
-1. GitHub 저장소 생성 후 이 디렉터리를 push (`git init` 필요 — 아직 git 저장소 아님).
-2. **Settings → Secrets and variables → Actions** 에 `YOUTUBE_API_KEY` 추가.
-3. **Settings → Pages → Build and deployment → Source** 를 **GitHub Actions** 로 설정.
+1. GitHub 저장소에 push.
+2. **Settings → Pages → Build and deployment → Source** 를 **GitHub Actions** 로 설정.
+3. (선택) 공식 API 를 쓰려면 **Settings → Secrets and variables → Actions** 에
+   `YOUTUBE_API_KEY` 추가. 없으면 `update-data.yml` 이 자동으로 yt-dlp 방식으로 수집.
 4. main 에 push 하면 `deploy.yml` 이 배포. `update-data.yml` 은 6시간마다 자동 수집.
    수동 실행: Actions 탭 → update-data → **Run workflow**.
 

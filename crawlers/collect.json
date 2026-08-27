@@ -1,0 +1,30 @@
+{
+  "_comment": "API 키 없이 yt-dlp 로 수집할 때 쓰는 설정. crawlers/collect_ytdlp.py 가 사용. API 키가 있으면 sources.json + youtube_crawler.py 를 쓰세요.",
+
+  "channels": [
+    {
+      "url": "https://www.youtube.com/@studiofromis_9",
+      "includeUploads": true,
+      "includeShorts": true,
+      "uploadsCategory": "sp_etc"
+    }
+  ],
+
+  "playlists": [
+    { "url": "https://www.youtube.com/playlist?list=PLwUBcVcUN10lm4sCOPiD7h1AAC8yA3Wf3", "category": "sp_original", "label": "오리지널",   "members": [] },
+    { "url": "https://www.youtube.com/playlist?list=PLwUBcVcUN10nanVuI5xnYKYZMvsNe66sE", "category": "sp_vlog",     "label": "슾log",      "members": [] },
+    { "url": "https://www.youtube.com/playlist?list=PLwUBcVcUN10khLQIKVLmqfh0vCCR3mEMf", "category": "sp_game",     "label": "게임할꼬",   "members": [] },
+    { "url": "https://www.youtube.com/playlist?list=PLwUBcVcUN10nSR6mFn56nb9BbwRx0XX-x", "category": "sp_survive",  "label": "살아남기",   "members": [] },
+    { "url": "https://www.youtube.com/playlist?list=PLwUBcVcUN10nIx3JRmd-QjSyZWXd6cVsy", "category": "sp_beauty",   "label": "뷰티&패션", "members": [] },
+    { "url": "https://www.youtube.com/playlist?list=PLA7OSXHRo5-k",                       "category": "sp_corp",     "label": "프나상사",   "members": [] },
+    { "url": "https://www.youtube.com/playlist?list=PLwUBcVcUN10lDK2WG6FbuXQXBNKzLfBPk", "category": "sp_hayoung",  "label": "하냥카세",   "members": ["hayoung"] },
+    { "url": "https://www.youtube.com/playlist?list=PLwUBcVcUN10kTmYQZ3HDe3x0jOEYqt6tN", "category": "sp_jiwon",    "label": "젼메추",     "members": ["jiwon"] },
+    { "url": "https://www.youtube.com/playlist?list=PLwUBcVcUN10kY9zP39bezValB9Z5Pb_qw", "category": "sp_chaeng",   "label": "챙그랑",     "members": ["chaeyoung"] }
+  ],
+
+  "keywordRules": {
+    "shorts": ["#shorts", "shorts"]
+  },
+  "maxShortsSeconds": 61,
+  "maxPerSource": 1000
+}

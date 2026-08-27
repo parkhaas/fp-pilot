@@ -1,2 +1,5 @@
-# 외부 의존성 없음 — Python 3.10+ 표준 라이브러리만 사용합니다.
-# (urllib, json, argparse 등)
+# youtube_crawler.py (공식 API 방식) — 외부 의존성 없음, Python 3.10+ 표준 라이브러리만 사용.
+#
+# collect_ytdlp.py (API 키 불필요 방식) — yt-dlp 필요:
+#   python -m pip install --user yt-dlp
+yt-dlp>=2025.1.1
