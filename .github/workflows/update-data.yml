@@ -7,8 +7,13 @@ name: update-data
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # 6시간마다 (UTC)
+    - cron: "0 */12 * * *"  # 12시간마다 (UTC) — search 쿼터 절약
   workflow_dispatch:
+    inputs:
+      since:
+        description: "search 시작일 override (YYYY-MM-DD). 비우면 최근 30일"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -35,7 +40,11 @@ jobs:
             echo "::error::YOUTUBE_API_KEY 시크릿이 없습니다. Settings > Secrets and variables > Actions 에 추가하세요."
             exit 1
           fi
-          python crawlers/youtube_crawler.py --config crawlers/sources.json --out data
+          # 정기 실행은 최근 30일만 검색(쿼터 절약). 전체 백필은 로컬에서 --since 없이 실행.
+          SINCE="${{ github.event.inputs.since }}"
+          [ -z "$SINCE" ] && SINCE=$(date -u -d '30 days ago' +%Y-%m-%d)
+          echo "증분 수집 --since $SINCE"
+          python crawlers/youtube_crawler.py --config crawlers/sources.json --out data --since "$SINCE"
 
       - name: Commit data changes
         run: |

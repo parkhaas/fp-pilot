@@ -330,6 +330,23 @@ sources.json
   `channels` 를 꼭 필요한 곳만, `order: "date"` 로 최신부터.
 - `channelId` 를 채워두면 매 실행 `channels.list forHandle` 1회를 아낍니다.
 
+### 전체 백필 vs 증분 수집
+
+- `sources.json` 의 `searchPublishedAfter` 는 **전체 백필용**(예: 데뷔 연도). 로컬에서
+  `--since` 없이 1회 실행해 과거 데이터를 모두 채웁니다. (`--dry-run` 도 실제 API 를
+  호출하므로 여러 번 돌리면 그날 쿼터가 소진됩니다.)
+- 정기 실행(`update-data.yml`)은 `--since <최근 날짜>` 를 넘겨 **최근 며칠만** 검색합니다.
+  크롤러는 기존 `data/videos.json` 을 병합(기존 `addedAt` 보존, 신규만 추가)하므로
+  백필 결과 위에 증분이 계속 쌓입니다.
+
+```bash
+# 전체 백필(로컬, 쿼터 여유 있을 때 1회)
+python crawlers/youtube_crawler.py --config crawlers/sources.json --out data
+
+# 증분(정기) — 최근 30일만
+python crawlers/youtube_crawler.py --config crawlers/sources.json --out data --since 2025-08-01
+```
+
 ---
 
 ## 10. 자주 하는 실수

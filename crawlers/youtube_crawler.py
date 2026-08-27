@@ -332,6 +332,10 @@ def main() -> None:
     ap.add_argument("--config", default="crawlers/sources.json")
     ap.add_argument("--out", default="data", help="데이터 디렉터리")
     ap.add_argument("--api-key", default=os.environ.get("YOUTUBE_API_KEY", ""))
+    ap.add_argument("--since", default="",
+                    help="search 시작일 override (YYYY-MM-DD 또는 ISO8601). "
+                         "정기 실행은 최근 N일만 검색해 쿼터를 아끼고, 생략 시 sources.json 의 "
+                         "searchPublishedAfter(전체 백필)를 사용")
     ap.add_argument("--dry-run", action="store_true", help="파일을 쓰지 않고 요약만 출력")
     args = ap.parse_args()
 
@@ -348,7 +352,11 @@ def main() -> None:
     max_shorts = int(cfg.get("maxShortsSeconds", 61))
     cap = int(cfg.get("maxPerPlaylist", 500))
     default_filter = cfg.get("defaultFilter", {})
-    default_after = cfg.get("searchPublishedAfter", "")
+    default_after = (args.since or cfg.get("searchPublishedAfter", "")).strip()
+    if default_after and "T" not in default_after:
+        default_after += "T00:00:00Z"
+    if default_after:
+        print(f"search 시작일: {default_after}")
 
     def shorthand(kw) -> dict:
         return {"titleAny": list(kw)} if kw else {}

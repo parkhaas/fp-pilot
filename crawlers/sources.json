@@ -30,7 +30,8 @@
     }
   ],
 
-  "searchPublishedAfter": "2024-01-01T00:00:00Z",
+  "_searchNote": "searchPublishedAfter 는 로컬 전체 백필용(2018 데뷔). 정기 실행(update-data.yml)은 --since 로 최근 며칠만 검색해 쿼터를 아낌.",
+  "searchPublishedAfter": "2018-01-01T00:00:00Z",
 
   "defaultFilter": {
     "titleAny": ["프로미스나인", "fromis_9", "fromis9", "fromis 9"],
@@ -40,32 +41,37 @@
 
   "search": [
     {
-      "label": "방송국 무대·교차편집",
-      "queries": ["프로미스나인 교차편집", "프로미스나인 무대", "fromis_9 stage mix"],
+      "label": "방송국 무대·교차편집 (KBS·MBC·SBS·Mnet, 2018~)",
+      "queries": ["프로미스나인"],
       "channelIds": [
         "UCeLPm9yH_a_QH8n6445G-Ow", "UCe52oeb7Xv_KaJsEzcKXJJg",
-        "UCS_hnpJLQTvBkqALgapi_4g", "UCqJ3rYYs-n5blu6JxpciQjA",
-        "UCbNC3nyv42BLe71Q9mW5H0Q", "UCweOkPb1wVVH0Q0Tlj4a5Pw"
+        "UCS_hnpJLQTvBkqALgapi_4g", "UCqJ3rYYs-n5blu6JxpciQjA"
       ],
       "category": "music_show",
       "order": "date",
-      "maxPerQuery": 40
+      "maxPerQuery": 200
     },
     {
-      "label": "직캠 (MPD·1theK)",
-      "queries": ["프로미스나인 직캠", "프로미스나인 4K 직캠", "fromis_9 fancam"],
-      "channelIds": ["UCbNC3nyv42BLe71Q9mW5H0Q", "UCweOkPb1wVVH0Q0Tlj4a5Pw"],
+      "label": "직캠·포커스캠 (M2/MPD직캠·STUDIO CHOOM)",
+      "queries": ["프로미스나인", "fromis_9"],
+      "channelIds": ["UCTQVIXvcHrR9jYoJ6qaBAow", "UCEIi7zFR_wE23jFncVtd6-A"],
       "category": "stage_fancam",
       "order": "date",
-      "maxPerQuery": 40
+      "maxPerQuery": 300,
+      "filter": {
+        "titleAny": ["직캠", "fancam", "fan cam", "focus", "focused", "포커스"],
+        "textAny": ["프로미스나인", "fromis_9", "fromis9", "fromis 9"],
+        "excludeText": ["cover", "커버", "reaction", "리액션", "릴레이댄스", "relay dance", "#shorts"],
+        "minSec": 45
+      }
     },
     {
       "label": "스페셜 (킬링보이스·라이브클립·퍼스트테이크)",
       "queries": ["프로미스나인", "fromis_9"],
       "channels": ["@dingomusic", "@The_FirstTake"],
       "category": "special_stage",
-      "order": "relevance",
-      "maxPerQuery": 25,
+      "order": "date",
+      "maxPerQuery": 80,
       "filter": {
         "titleAny": ["프로미스나인", "fromis"],
         "excludeText": ["cover", "커버", "reaction", "리액션", "shorts", "#shorts"]
