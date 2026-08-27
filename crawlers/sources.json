@@ -1,5 +1,5 @@
 {
-  "_comment": "YouTube Data API v3 로 수집할 소스 정의. channelId 를 알면 채워두면 handle 조회 1회를 아낍니다.",
+  "_comment": "YouTube Data API v3 로 수집할 소스 정의. 작성법 상세: crawlers/sources.md 참고. channelId 를 알면 채워두면 handle 조회 1회를 아낍니다.",
 
   "handle": "@fromis_9",
   "channelId": "",

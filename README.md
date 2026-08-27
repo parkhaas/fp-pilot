@@ -41,7 +41,7 @@ python -m http.server 8080
 
 1. [Google Cloud Console](https://console.cloud.google.com/) 에서 프로젝트 생성 →
    **YouTube Data API v3** 사용 설정 → **API 키** 발급 (무료, 일 10,000 유닛 쿼터).
-2. `crawlers/sources.json` 편집:
+2. `crawlers/sources.json` 편집 — **작성법 상세 가이드: [crawlers/sources.md](crawlers/sources.md)**
    - `handle` 은 공식 채널 핸들 (기본 `@fromis_9`). `channelId` 를 알면 채워두면 조회 1회 절약.
    - `playlists[].id` 에 자체콘텐츠/MV/음악방송 **재생목록 ID** 를 넣고 `category` 지정.
    - `extraChannels[].playlistId` 로 공식 외 채널(직캠 등)의 특정 재생목록도 추가 가능.
