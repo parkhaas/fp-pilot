@@ -3,14 +3,14 @@
    - data/*.json 은 network-first (최신 데이터 우선, 오프라인 시 캐시)
    - YouTube 등 외부 요청은 건드리지 않음 */
 
-const VERSION = "ff-v15";
+const VERSION = "ff-v16";
 const SHELL = [
   "./",
   "./index.html",
   "./assets/css/style.css",
   "./assets/js/config.js",
   "./assets/js/app.js",
-  "./image/logo.svg",
+  "./image/logo.png",
   "./manifest.json",
 ];
 
