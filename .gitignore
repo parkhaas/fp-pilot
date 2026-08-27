@@ -1,0 +1,15 @@
+# OS / 에디터
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 로컬 비밀값 (API 키는 절대 커밋하지 마세요 — GitHub Secrets 사용)
+.env
+*.local

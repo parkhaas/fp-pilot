@@ -1,0 +1,36 @@
+{
+  "_comment": "YouTube Data API v3 로 수집할 소스 정의. channelId 를 알면 채워두면 handle 조회 1회를 아낍니다.",
+
+  "handle": "@fromis_9",
+  "channelId": "",
+
+  "includeUploads": true,
+  "uploadsCategory": "auto",
+  "maxPerPlaylist": 500,
+
+  "playlists": [
+    { "id": "", "category": "self_content",     "label": "채널나인 / 자체콘텐츠 재생목록 ID 를 넣으세요" },
+    { "id": "", "category": "mv_teaser",         "label": "MV·티저 재생목록" },
+    { "id": "", "category": "music_show",        "label": "음악방송 무대 재생목록" }
+  ],
+
+  "extraChannels": [
+    {
+      "_comment": "공식 외 채널(예: M2, 스브스케이팝 등)의 특정 재생목록만 카테고리 지정해 추가",
+      "playlistId": "",
+      "category": "stage_fancam",
+      "label": ""
+    }
+  ],
+
+  "keywordRules": {
+    "shorts":          ["#shorts", "shorts"],
+    "stage_fancam":    ["직캠", "fancam", "focus cam", "세로직캠", "4k 직캠"],
+    "music_show":      ["교차편집", "stage mix", "인기가요", "음악중심", "뮤직뱅크", "music bank", "엠카운트다운", "mcountdown", "쇼챔피언", "show champion", "the show", "더쇼", "음악방송"],
+    "mv_teaser":       ["m/v", "official mv", "mv teaser", "티저", "teaser", "concept trailer", "highlight medley", "예고편", "trailer", "performance video", "special video"],
+    "self_content":    ["채널나인", "flowering", "logbook", "비하인드", "behind", "메이킹", "making", "브이로그", "vlog", "ep.", "ep ", "화보", "flover", "다이어리"],
+    "variety_external": []
+  },
+
+  "maxShortsSeconds": 61
+}

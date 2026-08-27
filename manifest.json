@@ -1,0 +1,13 @@
+{
+  "name": "FROMIS-FLIX · 프로미스나인 팬 아카이브",
+  "short_name": "FROMIS-FLIX",
+  "description": "프로미스나인(fromis_9)의 음악방송·자체콘텐츠·무대·MV를 모아보는 비영리 팬 아카이브",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b0b0f",
+  "theme_color": "#0b0b0f",
+  "icons": [
+    { "src": "image/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

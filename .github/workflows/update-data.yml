@@ -1,0 +1,48 @@
+name: update-data
+
+# YouTube Data API 로 data/*.json 을 갱신하고 변경이 있으면 커밋합니다.
+# 커밋이 main 에 푸시되면 deploy 워크플로가 GitHub Pages 를 재배포합니다.
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # 6시간마다 (UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run YouTube crawler
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          if [ -z "$YOUTUBE_API_KEY" ]; then
+            echo "::warning::YOUTUBE_API_KEY 시크릿이 없어 수집을 건너뜁니다. Settings > Secrets 에 추가하세요."
+            exit 0
+          fi
+          python crawlers/youtube_crawler.py --config crawlers/sources.json --out data
+
+      - name: Commit data changes
+        run: |
+          git config user.name  "fromis-flix-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet -- data; then
+            echo "변경 없음"
+          else
+            git add data
+            git commit -m "chore(data): refresh YouTube archive [skip ci]"
+            git push
+          fi

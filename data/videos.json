@@ -1,0 +1,71 @@
+{
+  "note": "샘플(seed) 데이터입니다. crawlers/youtube_crawler.py 실행 또는 GitHub Actions 자동 수집이 이 파일을 덮어씁니다. videoId 는 실제 값으로 교체하세요.",
+  "videos": [
+    {
+      "id": "yt:0LiQp7y8Wwc",
+      "videoId": "0LiQp7y8Wwc",
+      "title": "fromis_9 (프로미스나인) 'Supersonic' Official MV",
+      "category": "mv_teaser",
+      "channelTitle": "fromis_9",
+      "publishedAt": "2024-08-12T09:00:00Z",
+      "addedAt": "2024-08-12T09:00:00Z",
+      "members": ["all"],
+      "source": "youtube"
+    },
+    {
+      "id": "yt:k48x4iI_Fn4",
+      "videoId": "k48x4iI_Fn4",
+      "title": "fromis_9 (프로미스나인) 'Supersonic' Official Teaser",
+      "category": "mv_teaser",
+      "channelTitle": "fromis_9",
+      "publishedAt": "2024-08-05T09:00:00Z",
+      "addedAt": "2024-08-05T09:00:00Z",
+      "members": ["all"],
+      "source": "youtube"
+    },
+    {
+      "id": "yt:seed-musicshow-1",
+      "videoId": "seed-musicshow-1",
+      "title": "[교차편집] fromis_9 - Supersonic (Stage Mix) · 샘플 항목",
+      "category": "music_show",
+      "channelTitle": "샘플 · 실제 videoId 로 교체 필요",
+      "publishedAt": "2024-08-18T09:00:00Z",
+      "addedAt": "2024-08-18T09:00:00Z",
+      "members": ["all"],
+      "source": "youtube"
+    },
+    {
+      "id": "yt:seed-self-1",
+      "videoId": "seed-self-1",
+      "title": "채널나인 EP.1 · 샘플 항목",
+      "category": "self_content",
+      "channelTitle": "샘플 · 실제 videoId 로 교체 필요",
+      "publishedAt": "2024-07-01T09:00:00Z",
+      "addedAt": "2024-07-01T09:00:00Z",
+      "members": ["all"],
+      "source": "youtube"
+    },
+    {
+      "id": "yt:seed-fancam-1",
+      "videoId": "seed-fancam-1",
+      "title": "[4K 직캠] fromis_9 이나경 - Supersonic · 샘플 항목",
+      "category": "stage_fancam",
+      "channelTitle": "샘플 · 실제 videoId 로 교체 필요",
+      "publishedAt": "2024-08-19T09:00:00Z",
+      "addedAt": "2024-08-19T09:00:00Z",
+      "members": ["nagyung"],
+      "source": "youtube"
+    },
+    {
+      "id": "yt:seed-shorts-1",
+      "videoId": "seed-shorts-1",
+      "title": "fromis_9 백지헌 #shorts · 샘플 항목",
+      "category": "shorts",
+      "channelTitle": "샘플 · 실제 videoId 로 교체 필요",
+      "publishedAt": "2024-08-20T09:00:00Z",
+      "addedAt": "2024-08-20T09:00:00Z",
+      "members": ["jiheon"],
+      "source": "youtube"
+    }
+  ]
+}
