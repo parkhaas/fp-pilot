@@ -35,15 +35,23 @@
     },
     {
       "playlistId": "PLUNcOGd0jJluSJhSLOua8p8P-yDbFODhh",
-      "category": "sp_iai",
+      "category": "pulmuone_ei2",
       "label": "풀무원 · 이아이는요2 (미미미누 & 송하영)",
       "members": ["hayoung"]
     },
     {
       "playlistId": "PLOgyJF7ku-poV48gE-uXG-8vrL7NCZ1mp",
-      "category": "sp_seongsugi",
+      "category": "musinsa_seongsugi",
       "label": "무신사 TV · 성수기 (프로미스나인 회차만)",
-      "filterKeywords": ["프로미스나인", "fromis", "프롬", "아홉"]
+      "filterKeywords": ["프로미스나인", "fromis", "프롬", "아홉"],
+      "_note": "새 시즌은 MC 가 프로미스나인이 아님 → 정기(증분) 크롤링에서는 생략",
+      "skipIncremental": true
+    },
+    {
+      "playlistId": "PLO3aIfqWv8yCL8WZhJTR-w42zGWCK2Vv2",
+      "category": "plunen_idanjang",
+      "label": "플루넨 · 이단장 (이채영, e스포츠)",
+      "members": ["chaeyoung"]
     }
   ],
 

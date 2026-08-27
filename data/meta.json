@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2026-08-27T07:49:43Z",
+  "updatedAt": "2026-08-27T08:02:39Z",
   "generator": "youtube-api",
-  "total": 272,
+  "total": 354,
   "counts": {
-    "sp_iai": 28,
-    "sp_seongsugi": 22,
+    "plunen_idanjang": 82,
+    "pulmuone_ei2": 28,
+    "musinsa_seongsugi": 22,
     "sp_ch9": 128,
     "workdol": 29,
     "sp_original": 17,

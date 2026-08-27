@@ -46,6 +46,7 @@ sources.json
 | `extraChannels[]` | array | 아니오 | **공식 외** 채널의 재생목록. 각 항목 `{ playlistId, category, label }` |
 | `extraChannels[].playlistId` | string | — | 외부 재생목록 ID. 비어 있으면 무시 |
 | `extraChannels[].filterKeywords` | string[] | — | 있으면 **제목에 이 키워드 중 하나라도 포함된 영상만** 수집(대소문자 무시, OR). 여러 아이돌이 섞인 큰 재생목록에서 특정 그룹만 골라낼 때. `playlists[]` 에도 동일 적용 |
+| `extraChannels[].skipIncremental` | bool | — | `true` 면 `--since` 로 도는 **정기(증분) 크롤에서는 생략**하고, `--since` 없는 **수동 실행에서만** 수집. (예: 새 시즌 MC 가 우리 그룹이 아니게 된 컬래버 시리즈) `playlists[]` 에도 동일 적용 |
 | `keywordRules` | object | 아니오 | `"auto"` 분류에 쓰는 카테고리별 키워드 목록 (아래 5·6절) |
 | `maxShortsSeconds` | number | 아니오 (기본 `61`) | 이 길이(초) 이하면 무조건 `shorts` 로 분류 |
 | `_comment` 등 `_` 로 시작하는 키 | any | — | 주석용. 크롤러가 무시하므로 자유롭게 메모 가능 |

@@ -16,8 +16,10 @@ FROMIS-FLIX 데이터 수집기 — YouTube Data API v3 (공식 API 우선, 표�
 
 sources.json 주요 키:
     handle/channelId, includeUploads, uploadsCategory, maxPerPlaylist
-    playlists[]      { id, category, members[], filter{} | filterKeywords[] }
-    extraChannels[]  { playlistId, category, members[], filter{} | filterKeywords[] }
+    playlists[]      { id, category, members[], filter{} | filterKeywords[], skipIncremental }
+    extraChannels[]  { playlistId, category, members[], filter{} | filterKeywords[], skipIncremental }
+                     skipIncremental: true → --since 로 실행하는 정기(증분) 크롤에서는 생략,
+                                              --since 없는 수동 실행에서만 수집
     search[]         { queries[], channels[]/channelIds[], category, members[],
                        order, maxPerQuery, publishedAfter, filter{} }
     defaultFilter{}  search 항목에 filter 가 없을 때 적용되는 공통 규칙
@@ -371,8 +373,15 @@ def main() -> None:
         for vid in collect_playlist(uploads_playlist, args.api_key, cap):
             candidates[vid] = (cfg.get("uploadsCategory", "auto"), [], {})
 
+    incremental = bool(args.since)  # --since 가 있으면 정기(증분) 실행으로 간주
+    skipped_cats: set[str] = set()  # 이번 실행에서 생략된 소스의 category (기존 데이터 보존용)
+
     for pl in cfg.get("playlists", []):
         if not pl.get("id"):
+            continue
+        if incremental and pl.get("skipIncremental"):
+            print(f"  [증분 생략] {pl.get('label') or pl['id']}")
+            skipped_cats.add(pl.get("category"))
             continue
         fspec = pl.get("filter") or shorthand(pl.get("filterKeywords"))
         try:
@@ -383,6 +392,10 @@ def main() -> None:
 
     for ex in cfg.get("extraChannels", []):
         if not ex.get("playlistId"):
+            continue
+        if incremental and ex.get("skipIncremental"):
+            print(f"  [증분 생략] {ex.get('label') or ex['playlistId']}")
+            skipped_cats.add(ex.get("category"))
             continue
         fspec = ex.get("filter") or shorthand(ex.get("filterKeywords"))
         try:
@@ -454,6 +467,15 @@ def main() -> None:
                 "source": "youtube",
             }
         )
+
+    # 생략된 소스(skipIncremental)의 기존 영상은 그대로 유지
+    if skipped_cats:
+        seen = {r["videoId"] for r in records}
+        kept = [v for v in existing
+                if v.get("category") in skipped_cats and v.get("videoId") not in seen]
+        if kept:
+            print(f"  생략 소스 기존 데이터 유지: {len(kept)}개")
+            records.extend(kept)
 
     records.sort(key=lambda r: (r["addedAt"] or "", r["publishedAt"] or ""), reverse=True)
 
