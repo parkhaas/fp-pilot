@@ -83,7 +83,7 @@ a { color: inherit; }
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  padding: 12px 8px 100px;      /* 하단 여백 100px */
+  padding: 12px 8px 40px;      /* 하단 여백 40px */
   opacity: 0;
   transform: translateX(-10px);
   pointer-events: none;
@@ -301,6 +301,19 @@ a { color: inherit; }
 }
 .chip:hover { color: var(--text); border-color: var(--text-mute); }
 .chip.is-active { color: #fff; background: var(--accent); border-color: var(--accent); }
+
+/* 멤버 필터: 이전(탈퇴) 멤버는 (+) 로 펼치기 전엔 숨김 (활성 상태면 계속 노출) */
+.chip-former { display: none; }
+.member-filter.expanded .chip-former,
+.chip-former.is-active { display: inline-flex; }
+.chip-former { opacity: 0.85; border-style: dashed; }
+.chip-former.is-active { opacity: 1; border-style: solid; }
+
+.chip-toggle {
+  color: var(--text-mute);
+  border-style: dashed;
+}
+.chip-toggle:hover { color: var(--text); }
 
 .sort-control {
   display: flex;

@@ -17,6 +17,7 @@
     sel: {}, // { cat?, cats?[], year?, song? }
     subGroup: null, // 2단 드로어에서 열려 있는 그룹 id
     chartBy: "category", // 소개 페이지 파이차트 기준: "category" | "year"
+    membersExpanded: false, // 멤버 필터에서 이전(탈퇴) 멤버 노출 여부
     member: "all",
     sort: "added",
     q: "",
@@ -706,11 +707,11 @@
 
   function buildMemberFilter() {
     el.memberFilter.innerHTML = "";
-    const ids = ["all", ...state.members.filter((m) => m.id !== "all").map((m) => m.id)];
-    for (const id of ids) {
+
+    const mkChip = (id, label, cls) => {
       const b = document.createElement("button");
-      b.className = "chip";
-      b.textContent = id === "all" ? "전원" : memberName(id);
+      b.className = "chip" + (cls ? " " + cls : "");
+      b.textContent = label;
       b.dataset.member = id;
       b.addEventListener("click", () => {
         state.member = id;
@@ -720,11 +721,39 @@
         render();
       });
       el.memberFilter.appendChild(b);
+      return b;
+    };
+
+    mkChip("all", "전원");
+    for (const m of state.members) {
+      if (m.id === "all" || m.status === "former") continue;
+      mkChip(m.id, m.name);
     }
+
+    const former = state.members
+      .filter((m) => m.status === "former")
+      .sort((a, b) => (b.left || "").localeCompare(a.left || "")); // 탈퇴 역순
+
+    if (former.length) {
+      const t = document.createElement("button");
+      t.className = "chip chip-toggle";
+      t.type = "button";
+      t.textContent = state.membersExpanded ? "− 접기" : `+ 이전 멤버 ${former.length}`;
+      t.addEventListener("click", () => {
+        state.membersExpanded = !state.membersExpanded;
+        buildMemberFilter();
+        syncMemberUI();
+      });
+      el.memberFilter.appendChild(t);
+
+      for (const m of former) mkChip(m.id, m.name, "chip-former");
+    }
+
+    el.memberFilter.classList.toggle("expanded", !!state.membersExpanded);
   }
 
   function syncMemberUI() {
-    el.memberFilter.querySelectorAll(".chip").forEach((c) => {
+    el.memberFilter.querySelectorAll(".chip[data-member]").forEach((c) => {
       c.classList.toggle("is-active", c.dataset.member === state.member);
     });
   }
