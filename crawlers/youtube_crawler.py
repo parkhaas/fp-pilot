@@ -24,7 +24,7 @@ sources.json 주요 키:
                        order, maxPerQuery, publishedAfter, filter{} }
     defaultFilter{}  search 항목에 filter 가 없을 때 적용되는 공통 규칙
     searchPublishedAfter   search 기본 시작일(ISO8601)
-    keywordRules{}, maxShortsSeconds   "auto" 분류용
+    keywordRules{}   "auto" 분류용 (Shorts 는 길이로 판정하지 않음)
 
 주의: 영상 메타데이터만 저장하며 영상 자체는 저장/재배포하지 않습니다.
 """
@@ -290,10 +290,11 @@ def fetch_details(video_ids: list[str], api_key: str) -> dict[str, dict]:
     return details
 
 
-def classify(title: str, desc: str, dur: int, rules: dict, max_shorts: int) -> str:
+def classify(title: str, desc: str, rules: dict) -> str:
     text = f"{title}\n{desc}".lower()
-    # shorts 는 길이 조건 우선
-    if 0 < dur <= max_shorts or any(k in text for k in rules.get("shorts", [])):
+    # Shorts 는 길이만으로 판정하지 않는다(세로직캠은 3분↑ 세로영상이지 Shorts 가 아님).
+    # 제목에 #shorts 가 있을 때만. 정확한 Shorts 분류는 collect_ytdlp.py(URL /shorts/ + 세로비율).
+    if any(k in text for k in rules.get("shorts", [])):
         return "shorts"
     order = ["stage_fancam", "music_show", "mv_teaser", "self_content"]
     for cat in order:
@@ -353,7 +354,6 @@ def main() -> None:
     existing_by_id = {v["videoId"]: v for v in existing if v.get("videoId")}
 
     rules = cfg.get("keywordRules", {})
-    max_shorts = int(cfg.get("maxShortsSeconds", 61))
     cap = int(cfg.get("maxPerPlaylist", 500))
     default_filter = cfg.get("defaultFilter", {})
     default_after = (args.since or cfg.get("searchPublishedAfter", "")).strip()
@@ -444,7 +444,7 @@ def main() -> None:
         title = sn.get("title", "")
         desc = sn.get("description", "")
         dur = duration_seconds(d.get("contentDetails", {}).get("duration", ""))
-        category = hint if hint and hint != "auto" else classify(title, desc, dur, rules, max_shorts)
+        category = hint if hint and hint != "auto" else classify(title, desc, rules)
 
         hits = detect_members(title, members)
         if def_members:

@@ -12,6 +12,12 @@ crawlers/sources.json 을 그대로 읽어 playlists / extraChannels / search[] 
     python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data
     python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --only search --dry-run
 
+Shorts 판정 (길이로 판정하지 않음):
+  - 신호 #1: 영상 URL 이 /shorts/ 형태 (= YouTube 가 Shorts 로 분류) → shorts.
+            sources.json 의 shortsChannels[] 로 채널 /shorts 탭을 통째로 수집.
+  - 신호 #3: --shorts-aspect 옵션. 3분 이내 & 세로(height>width) 인 것만 shorts 로 재분류.
+            (세로직캠은 3분↑ 세로영상이라 제외됨). 영상별 상세 조회라 느림.
+
 주의:
   - search[] 는 "채널 내 검색" 탭( youtube.com/channel/<ID>/search?query= )을 flat 추출합니다.
     flat 모드엔 description 이 없어 textAny/textAll 은 제목 기준으로만 검사됩니다.
@@ -106,14 +112,49 @@ def ytdlp_flat(url: str, cap: int, retries: int = 2) -> list[dict]:
 # 분류 / 필터 / 멤버 (youtube_crawler.py 와 동일 규칙, 제목 기준)
 # --------------------------------------------------------------------------- #
 
-def classify(title: str, dur: int, rules: dict, max_shorts: int) -> str:
+SHORT_MAX_SEC = 180  # Shorts 판정 시 최대 길이(3분). 세로직캠(3분↑)은 Shorts 아님.
+
+
+def is_short_url(entry: dict) -> bool:
+    """신호 #1 — YouTube 가 이 영상을 Shorts 로 분류(URL 이 /shorts/ 형태)."""
+    return "/shorts/" in (entry.get("url") or entry.get("webpage_url") or "")
+
+
+def classify(title: str, rules: dict) -> str:
     t = (title or "").lower()
-    if 0 < dur <= max_shorts or any(k in t for k in rules.get("shorts", [])):
+    if any(k in t for k in rules.get("shorts", [])):  # 제목에 #shorts
         return "shorts"
     for cat in ("stage_fancam", "music_show", "mv_teaser", "self_content"):
         if any(k in t for k in rules.get(cat, [])):
             return cat
     return "variety_external"
+
+
+def fetch_portrait_ids(ids: list[str]) -> set[str]:
+    """신호 #3 — 세로(portrait) 비율인 영상 id 집합. 영상별 상세 1회씩 조회(느림).
+    호출부에서 '길이 3분 이내' 후보로만 좁혀서 넘길 것."""
+    portrait: set[str] = set()
+    for i in range(0, len(ids), 40):
+        chunk = ids[i:i + 40]
+        cmd = [sys.executable, "-m", "yt_dlp", "--skip-download", "--no-warnings",
+               "--ignore-errors", "--print", "%(id)s\t%(width)s\t%(height)s"]
+        cmd += [f"https://www.youtube.com/watch?v={v}" for v in chunk]
+        try:
+            out = subprocess.run(cmd, capture_output=True, text=True,
+                                 encoding="utf-8", timeout=600)
+        except subprocess.TimeoutExpired:
+            continue
+        for line in (out.stdout or "").splitlines():
+            parts = line.strip().split("\t")
+            if len(parts) == 3:
+                vid, w, h = parts
+                try:
+                    if int(h) > int(w):
+                        portrait.add(vid)
+                except ValueError:
+                    pass
+        print(f"  세로비율 확인: {i + len(chunk)}/{len(ids)}")
+    return portrait
 
 
 def _any(text: str, terms) -> bool:
@@ -186,7 +227,9 @@ def main() -> None:
     ap = argparse.ArgumentParser(description="FLOVER-FLIX yt-dlp 수집기 (API 불필요)")
     ap.add_argument("--config", default="crawlers/sources.json")
     ap.add_argument("--out", default="data")
-    ap.add_argument("--only", choices=["all", "search", "playlists"], default="all")
+    ap.add_argument("--only", choices=["all", "search", "playlists", "shorts"], default="all")
+    ap.add_argument("--shorts-aspect", action="store_true",
+                    help="신호 #3: 3분 이내 후보를 영상별로 조회해 세로비율이면 shorts 로 재분류 (느림)")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
@@ -197,13 +240,13 @@ def main() -> None:
     existing_by_id = {v["videoId"]: v for v in existing if v.get("videoId")}
 
     rules = cfg.get("keywordRules", {})
-    max_shorts = int(cfg.get("maxShortsSeconds", 61))
     pl_cap = int(cfg.get("maxPerPlaylist", 800))
     default_filter = cfg.get("defaultFilter", {})
     ts = now_iso()
 
     do_pl = args.only in ("all", "playlists")
     do_search = args.only in ("all", "search")
+    do_shorts = args.only in ("all", "shorts")
 
     def shorthand(kw) -> dict:
         return {"titleAny": list(kw)} if kw else {}
@@ -251,6 +294,22 @@ def main() -> None:
                              entry.get("members", []), fspec, overwrite=False)
             print(f"검색 [{entry.get('label') or (queries[0] if queries else '?')}]: 원시 {got}개")
 
+    # 2.5) shortsChannels — 채널 /shorts 탭 = YouTube 가 Shorts 로 분류한 것(신호 #1)
+    if do_shorts:
+        for sc in cfg.get("shortsChannels", []):
+            ref = (sc.get("handle") or sc.get("channelId") or "").strip()
+            if not ref:
+                continue
+            if ref.startswith("UC") and len(ref) == 24:
+                url = f"https://www.youtube.com/channel/{ref}/shorts"
+            else:
+                url = f"https://www.youtube.com/@{ref.lstrip('@')}/shorts"
+            fspec = sc.get("filter") or shorthand(sc.get("filterKeywords"))
+            ents = ytdlp_flat(url, int(sc.get("cap", 2000)))
+            for e in ents:
+                take(e, sc.get("category", "shorts"), sc.get("members", []), fspec, overwrite=True)
+            print(f"쇼츠 탭 [{ref}]: {len(ents)}개")
+
     if not cand:
         sys.exit("[중단] 수집된 후보가 없습니다. sources.json 을 확인하세요.")
 
@@ -263,7 +322,12 @@ def main() -> None:
             continue
         title = e.get("title") or "(제목 없음)"
         dur = dur_seconds(e.get("duration"))
-        category = hint if hint and hint != "auto" else classify(title, dur, rules, max_shorts)
+        if is_short_url(e):                       # 신호 #1: YouTube 분류가 Shorts
+            category = "shorts"
+        elif hint and hint != "auto":
+            category = hint
+        else:
+            category = classify(title, rules)
         prev = existing_by_id.get(vid)
         records.append({
             "id": f"yt:{vid}",
@@ -277,6 +341,20 @@ def main() -> None:
             "duration": e.get("duration"),
             "source": "youtube",
         })
+
+    # 3.5) 신호 #3 (opt-in): 3분 이내 & shorts 아닌 것 중 세로비율이면 shorts 로 재분류
+    if args.shorts_aspect:
+        cands = [r for r in records
+                 if r["category"] != "shorts"
+                 and 0 < dur_seconds(r.get("duration")) <= SHORT_MAX_SEC]
+        print(f"세로비율 확인 대상: {len(cands)}개 (3분 이내, shorts 아님)")
+        portrait = fetch_portrait_ids([r["videoId"] for r in cands])
+        moved = 0
+        for r in records:
+            if r["videoId"] in portrait and r["category"] != "shorts":
+                r["category"] = "shorts"
+                moved += 1
+        print(f"세로 → shorts 재분류: {moved}개")
 
     # 병합: 이번 실행에서 다시 만나지 않은 기존 영상은 그대로 유지
     #  (스크래핑 일부 실패·부분 실행 대비. 신규가 기존보다 우선)

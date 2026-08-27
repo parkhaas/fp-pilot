@@ -48,8 +48,11 @@ sources.json
 | `extraChannels[].filterKeywords` | string[] | — | 있으면 **제목에 이 키워드 중 하나라도 포함된 영상만** 수집(대소문자 무시, OR). 여러 아이돌이 섞인 큰 재생목록에서 특정 그룹만 골라낼 때. `playlists[]` 에도 동일 적용 |
 | `extraChannels[].skipIncremental` | bool | — | `true` 면 `--since` 로 도는 **정기(증분) 크롤에서는 생략**하고, `--since` 없는 **수동 실행에서만** 수집. (예: 새 시즌 MC 가 우리 그룹이 아니게 된 컬래버 시리즈) `playlists[]` 에도 동일 적용 |
 | `keywordRules` | object | 아니오 | `"auto"` 분류에 쓰는 카테고리별 키워드 목록 (아래 5·6절) |
-| `maxShortsSeconds` | number | 아니오 (기본 `61`) | 이 길이(초) 이하면 무조건 `shorts` 로 분류 |
+| `shortsChannels` | array | 아니오 | 채널 `/shorts` 탭을 통째로 `shorts` 로 수집 (collect_ytdlp.py 전용). `{ handle\|channelId, category, filterKeywords?, members? }` |
 | `_comment` 등 `_` 로 시작하는 키 | any | — | 주석용. 크롤러가 무시하므로 자유롭게 메모 가능 |
+
+> `maxShortsSeconds` 는 제거됨. Shorts 는 **길이로 판정하지 않음** — 세로직캠처럼
+> 3분 넘는 세로영상은 Shorts 가 아니기 때문. Shorts 판정은 9절 참고.
 
 > **카테고리 값 주의**: `category` 에 넣는 문자열은 `assets/js/config.js` 의 `categories[].id` 와
 > **정확히 일치**해야 화면에 노출됩니다. 현재 유효한 값:
@@ -95,9 +98,11 @@ sources.json
 
 1. **재생목록에 `category` 를 `"auto"` 가 아닌 값으로 지정** → 무조건 그 값
 2. 지정이 없거나 `"auto"` → 아래 자동 분류:
-   1. 영상 길이 ≤ `maxShortsSeconds` **또는** 제목·설명에 `keywordRules.shorts` 키워드 → **`shorts`**
+   1. 제목·설명에 `keywordRules.shorts` 키워드(`#shorts`) → **`shorts`**
    2. 아니면 다음 순서로 첫 매칭: **`stage_fancam` → `music_show` → `mv_teaser` → `self_content`**
    3. 아무것도 안 걸리면 → **`variety_external`** (기본값)
+
+   (길이 기반 Shorts 판정은 없앰. collect_ytdlp.py 는 URL `/shorts/` + `--shorts-aspect` 로 구분 — 9절)
 
 > 자동 분류의 검사 순서는 크롤러에 고정되어 있습니다(`stage_fancam` 이 `music_show` 보다 먼저).
 > "직캠"이면서 "교차편집"인 영상은 `stage_fancam` 이 됩니다. 원치 않으면 해당 영상을
@@ -181,8 +186,7 @@ sources.json
     "mv_teaser": ["m/v", "official mv", "teaser", "티저"],
     "self_content": ["채널나인", "behind", "비하인드", "making", "메이킹", "vlog"],
     "variety_external": []
-  },
-  "maxShortsSeconds": 61
+  }
 }
 ```
 
@@ -214,8 +218,7 @@ sources.json
     "mv_teaser": ["m/v", "official mv", "teaser", "티저", "concept trailer", "highlight medley", "예고편", "special video", "performance video"],
     "self_content": ["채널나인", "flowering", "behind", "비하인드", "making", "메이킹", "vlog", "브이로그", "ep.", "다이어리"],
     "variety_external": []
-  },
-  "maxShortsSeconds": 61
+  }
 }
 ```
 
@@ -355,12 +358,16 @@ python crawlers/youtube_crawler.py --config crawlers/sources.json --out data --s
 
 ```bash
 python -m pip install --user yt-dlp
-python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data           # 전체
+python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data                  # 전체
 python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --only search
+python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --only shorts
+python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --shorts-aspect  # 신호#3 (느림)
 ```
 
 - `search[]` 는 `youtube.com/channel/<ID>/search?query=` 탭을 flat 추출 → 2018 데뷔분까지 수집.
 - flat 모드엔 description 이 없어 `textAny/textAll` 은 **제목 기준**으로만 검사됩니다.
+- `shortsChannels[]` 는 채널 `/shorts` 탭 = YouTube 가 Shorts 로 분류한 것(신호 #1).
+  `--shorts-aspect` 는 3분 이내 & 세로비율만 추가로 shorts 처리(신호 #3, 영상별 조회라 느림).
 - 기존 `data/videos.json` 과 병합(addedAt 보존) — API 데이터 위에 얹어도 됩니다.
 - **GitHub Actions IP 는 봇 차단을 자주 맞으므로** 정기 수집은 API(`youtube_crawler.py`),
   이 스크립트는 **로컬 백필 전용**으로 쓰세요.
