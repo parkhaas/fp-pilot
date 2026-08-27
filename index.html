@@ -5,55 +5,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#0b0b0f" />
   <title>FROMIS-FLIX · 프로미스나인 팬 아카이브</title>
-  <meta name="description" content="프로미스나인(fromis_9)의 음악방송 · 자체콘텐츠 · 무대 · MV를 한 곳에서 모아보는 비영리 팬 아카이브." />
+  <meta name="description" content="프로미스나인(fromis_9)의 음악방송 · 직캠 · 자체콘텐츠를 한 곳에서 모아보는 비영리 팬 아카이브." />
   <link rel="icon" href="image/logo.svg" type="image/svg+xml" />
   <link rel="manifest" href="manifest.json" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <header class="site-header" id="siteHeader">
-    <div class="header-inner">
-      <a class="brand" href="./" aria-label="FROMIS-FLIX 홈">
-        <img src="image/logo.svg" alt="" class="brand-mark" />
-        <span class="brand-text">FROMIS<span class="brand-accent">-FLIX</span></span>
-      </a>
+  <div class="app">
+    <!-- 좌측 드로어 내비게이션 -->
+    <aside class="sidebar" id="sidebar" aria-label="사이트 메뉴">
+      <div class="sidebar-head">
+        <a class="brand" href="./" aria-label="FROMIS-FLIX 홈">
+          <img src="image/logo.svg" alt="" class="brand-mark" />
+          <span class="brand-text">FROMIS<span class="brand-accent">-FLIX</span></span>
+        </a>
+        <button class="drawer-close" id="drawerClose" aria-label="메뉴 닫기">✕</button>
+      </div>
 
-      <nav class="tabs" id="categoryTabs" aria-label="카테고리"></nav>
+      <nav class="nav" id="nav" aria-label="카테고리"></nav>
 
-      <div class="header-tools">
+      <div class="sidebar-foot">
+        <button class="nav-item nav-about" data-view="about">
+          <span class="nav-ico">ⓘ</span> 소개
+        </button>
+        <p class="side-note">비영리 팬 아카이브<br />영상은 YouTube 임베드로만 제공</p>
+      </div>
+    </aside>
+    <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+
+    <!-- 본문 -->
+    <div class="main">
+      <header class="topbar" id="topbar">
+        <button class="hamburger" id="hamburger" aria-label="메뉴 열기" aria-expanded="false">☰</button>
+        <h1 class="topbar-title" id="topbarTitle">홈</h1>
         <div class="search-box">
           <input type="search" id="searchInput" placeholder="영상 검색…" autocomplete="off" aria-label="영상 검색" />
         </div>
+      </header>
+
+      <div class="filter-bar" id="filterBar">
+        <div class="member-filter" id="memberFilter" role="group" aria-label="멤버 필터"></div>
+        <label class="sort-control">
+          <span>정렬</span>
+          <select id="sortSelect" aria-label="정렬 방식">
+            <option value="added">추가된 순</option>
+            <option value="newest">최신 발행순</option>
+            <option value="oldest">오래된순</option>
+            <option value="title">제목순</option>
+          </select>
+        </label>
       </div>
+
+      <main id="content" class="content">
+        <div class="loading" id="loading">불러오는 중…</div>
+      </main>
+
+      <footer class="site-footer">
+        <p class="meta-line" id="metaLine"></p>
+        <button class="link-btn" data-view="about">사이트 소개 및 저작권 안내 →</button>
+      </footer>
     </div>
-
-    <div class="filter-bar" id="filterBar">
-      <div class="member-filter" id="memberFilter" role="group" aria-label="멤버 필터"></div>
-      <label class="sort-control">
-        <span>정렬</span>
-        <select id="sortSelect" aria-label="정렬 방식">
-          <option value="added">추가된 순</option>
-          <option value="newest">최신 발행순</option>
-          <option value="oldest">오래된순</option>
-          <option value="title">제목순</option>
-        </select>
-      </label>
-    </div>
-  </header>
-
-  <main id="content" class="content">
-    <div class="loading" id="loading">불러오는 중…</div>
-  </main>
-
-  <footer class="site-footer">
-    <p class="disclaimer">
-      이 페이지는 프로미스나인(fromis_9)을 응원하는 팬이 만든 비영리 아카이브입니다.
-      모든 영상의 저작권은 원저작자(소속사, 각 방송사 및 업로더)에게 있으며,
-      이 사이트는 영상을 재호스팅하지 않고 YouTube 임베드로만 제공합니다.
-      권리자의 요청이 있을 경우 즉시 해당 항목을 삭제합니다.
-    </p>
-    <p class="meta-line" id="metaLine"></p>
-  </footer>
+  </div>
 
   <!-- 영상 재생 모달 -->
   <div class="modal" id="videoModal" hidden>
