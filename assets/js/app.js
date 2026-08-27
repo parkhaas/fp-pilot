@@ -357,7 +357,7 @@
         active: browsing && (state.subGroup === node.id || nodeContainsSel(node, state.sel)),
       });
       b.classList.add("nav-lv1", "nav-grouphead");
-      b.addEventListener("click", () => openSub(node.id));
+      b.addEventListener("click", () => openSub(node));
       el.pane1.appendChild(b);
     }
 
@@ -382,9 +382,20 @@
     }
   }
 
-  function openSub(id) {
-    state.subGroup = id;
-    buildNav();
+  function openSub(node) {
+    state.subGroup = node.id;
+    // 하위 메뉴가 있는 1단계 항목을 누르면 바로 그 그룹의 "전체" 를 선택
+    // (드로어는 열어 둔 채로)
+    if (node.withAll && node.sel && Object.keys(node.sel).length) {
+      state.view = "browse";
+      state.sel = { ...node.sel };
+      state.limit = CFG.pageSize;
+      writeUrl();
+      buildNav();
+      render();
+    } else {
+      buildNav();
+    }
   }
   function closeSub() {
     state.subGroup = null;
