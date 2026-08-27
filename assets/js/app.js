@@ -384,11 +384,20 @@
 
   function openSub(node) {
     state.subGroup = node.id;
-    // 하위 메뉴가 있는 1단계 항목을 누르면 바로 그 그룹의 "전체" 를 선택
-    // (드로어는 열어 둔 채로)
+    // 하위 메뉴가 있는 1단계 항목을 누르면 드로어는 유지한 채 바로 화면 적용
+    let target = null;
     if (node.withAll && node.sel && Object.keys(node.sel).length) {
+      target = { ...node.sel }; // 그룹의 "전체"
+    } else if (node.subBy === "year") {
+      // 기간별 보기: 올해(없으면 가장 최근 연도) 적용
+      const kids = childrenOf(node); // 최신순
+      const cur = String(new Date().getFullYear());
+      const hit = kids.find((k) => k.sel.year === cur) || kids[0];
+      if (hit) target = { ...hit.sel };
+    }
+    if (target) {
       state.view = "browse";
-      state.sel = { ...node.sel };
+      state.sel = target;
       state.limit = CFG.pageSize;
       writeUrl();
       buildNav();
