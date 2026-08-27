@@ -3,11 +3,8 @@
   "note": "aliases 는 크롤러가 영상 제목/설명에서 멤버를 추정할 때 사용합니다. 대소문자 무시, 부분일치.",
   "members": [
     { "id": "all",       "name": "전원",   "aliases": [] },
-    { "id": "saerom",    "name": "이새롬", "aliases": ["이새롬", "새롬", "saerom", "lee saerom"] },
     { "id": "hayoung",   "name": "송하영", "aliases": ["송하영", "하영", "hayoung", "song hayoung"] },
     { "id": "jiwon",     "name": "박지원", "aliases": ["박지원", "지원", "jiwon", "park jiwon"] },
-    { "id": "jisun",     "name": "노지선", "aliases": ["노지선", "지선", "jisun", "roh jisun", "no jisun"] },
-    { "id": "seoyeon",   "name": "이서연", "aliases": ["이서연", "서연", "seoyeon", "lee seoyeon"] },
     { "id": "chaeyoung", "name": "이채영", "aliases": ["이채영", "채영", "chaeyoung", "lee chaeyoung"] },
     { "id": "nagyung",   "name": "이나경", "aliases": ["이나경", "나경", "nagyung", "lee nagyung"] },
     { "id": "jiheon",    "name": "백지헌", "aliases": ["백지헌", "지헌", "jiheon", "baek jiheon"] }
