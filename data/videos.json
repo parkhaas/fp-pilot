@@ -1,103 +1,185 @@
 {
   "videos": [
     {
-      "id": "yt:4km2omUD24w",
-      "videoId": "4km2omUD24w",
-      "title": "🏝️올여름 지헌이가 애정했던 여름 옷 총집합! ㅣ ˗ˋˏSummer Haulˎˊ˗ 여름이었다…🩷",
-      "category": "sp_beauty",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-08-27T03:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": 1062,
-      "source": "youtube"
-    },
-    {
       "id": "yt:P7jpejjWGxM",
       "videoId": "P7jpejjWGxM",
       "title": "멤버들과 사이 안 좋아질 뻔한 🚨위험한 초대🚨 ㅣ 벼랑 끝에 프로미스나인",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-08-21T00:00:00Z",
+      "publishedAt": "2026-08-20T09:00:17Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1626,
+      "duration": "PT27M6S",
       "source": "youtube"
     },
     {
       "id": "yt:5TisoPUaViw",
       "videoId": "5TisoPUaViw",
-      "title": "How is this company even running... | Puna Trading Co. EP3",
+      "title": "회사가 도대체 어떻게 돌아가려고...  l 프나상사 EP3",
       "category": "sp_corp",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-08-14T00:00:00Z",
+      "publishedAt": "2026-08-13T09:00:04Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 848,
+      "duration": "PT14M8S",
       "source": "youtube"
     },
     {
-      "id": "yt:56EuA5o-84E",
-      "videoId": "56EuA5o-84E",
-      "title": "Chaeyoung & Nagyung Reveal Their Flirting Secrets❤️‍🔥",
-      "category": "sp_etc",
-      "channelTitle": "",
-      "publishedAt": "2026-08-13T00:00:00Z",
+      "id": "yt:UfUBB3w9fBE",
+      "videoId": "UfUBB3w9fBE",
+      "title": "저는 아아 아니면 안 마셔요",
+      "category": "sp_corp",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-07-24T09:00:34Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "chaeyoung",
-        "nagyung"
+        "all"
       ],
-      "duration": 1147,
+      "duration": "PT23S",
       "source": "youtube"
     },
     {
-      "id": "yt:oAlPIwSlNls",
-      "videoId": "oAlPIwSlNls",
-      "title": "'Is it really okay to reveal all this...?' Revealing Jiheon’s full beauty routine l A day of self...",
-      "category": "sp_etc",
-      "channelTitle": "",
-      "publishedAt": "2026-08-06T00:00:00Z",
+      "id": "yt:i3Z0ypLW-zc",
+      "videoId": "i3Z0ypLW-zc",
+      "title": "프린터기도 안다는 사내 연애",
+      "category": "sp_corp",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-07-24T07:00:08Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "jiheon"
+        "all"
       ],
-      "duration": 1915,
+      "duration": "PT58S",
       "source": "youtube"
     },
     {
-      "id": "yt:z_r8g2YNINE",
-      "videoId": "z_r8g2YNINE",
-      "title": "fromis_9 Jiwon & Jiheon's Pyongyang Naengmyeon Restaurant Recommendations | Jyeon-Me-Chu Ep. 5",
-      "category": "sp_etc",
-      "channelTitle": "",
-      "publishedAt": "2026-08-06T00:00:00Z",
+      "id": "yt:kvnZFcYN7jU",
+      "videoId": "kvnZFcYN7jU",
+      "title": "둘이 했는데 한 명만 기억하는 세상",
+      "category": "sp_corp",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-07-24T03:00:36Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "jiheon",
-        "jiwon"
+        "all"
       ],
-      "duration": 832,
+      "duration": "PT21S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:83h-RXCKe-c",
+      "videoId": "83h-RXCKe-c",
+      "title": "프나상사 협업 문의 받습니다",
+      "category": "sp_corp",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-07-24T01:00:30Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT32S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:YsJMJbDBuhU",
+      "videoId": "YsJMJbDBuhU",
+      "title": "부사장님도 놀란 프로미스나인의 발표 실력ㅣ프나상사 EP2",
+      "category": "sp_corp",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-07-23T09:00:01Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT20M34S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:DWN_1n_7XwE",
+      "videoId": "DWN_1n_7XwE",
+      "title": "최애는 나에게 다가오는 것",
+      "category": "sp_chaeng",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-07-22T10:00:36Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT36S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:xw8X1AqwGO0",
+      "videoId": "xw8X1AqwGO0",
+      "title": "아련 섹시",
+      "category": "sp_chaeng",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-07-22T10:00:03Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT40S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:AcZTUBlaCsw",
+      "videoId": "AcZTUBlaCsw",
+      "title": "강소라가 샤라웃한 아이돌",
+      "category": "sp_chaeng",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-07-22T10:00:02Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT23S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:kXsEL5nVCTs",
+      "videoId": "kXsEL5nVCTs",
+      "title": "용기내서 번호 따고 싶게 생긴 얼굴",
+      "category": "sp_chaeng",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-07-22T10:00:00Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT18S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:vL_uxXgaUTo",
+      "videoId": "vL_uxXgaUTo",
+      "title": "프나상사에서~ 누가 돌아왔~게 나야 젠지 회사원 프로미스나인 l 프나상사 EP1",
+      "category": "sp_corp",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-07-16T09:00:24Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT25M53S",
       "source": "youtube"
     },
     {
       "id": "yt:fiVf5h_rdIs",
       "videoId": "fiVf5h_rdIs",
-      "title": "Lee Na-gyung goes to eat Sindang-dong Tteokbokki with her dad while dressed as a Gyaru",
+      "title": "갸루 분장하고 아빠랑 신당동 떡볶이 먹으러 간 이나경",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-07-27T00:00:00Z",
+      "publishedAt": "2026-07-09T09:00:03Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "all"
+        "nagyung"
       ],
-      "duration": 984,
+      "duration": "PT16M24S",
       "source": "youtube"
     },
     {
@@ -106,194 +188,55 @@
       "title": "한남동 아이돌 출몰지역 ㅣ 다큐1일 이채영",
       "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-07-27T00:00:00Z",
+      "publishedAt": "2026-07-02T09:00:05Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 1097,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:UfUBB3w9fBE",
-      "videoId": "UfUBB3w9fBE",
-      "title": "I only drink iced americano",
-      "category": "sp_corp",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-07-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 23,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:i3Z0ypLW-zc",
-      "videoId": "i3Z0ypLW-zc",
-      "title": "Even the Printer Knows About the Office Romance",
-      "category": "sp_corp",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-07-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 58,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:kvnZFcYN7jU",
-      "videoId": "kvnZFcYN7jU",
-      "title": "A World Where Two People Did It, But Only One Is Remembered",
-      "category": "sp_corp",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-07-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 21,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:83h-RXCKe-c",
-      "videoId": "83h-RXCKe-c",
-      "title": "Accepting Collaboration Inquiries for Fromis_9",
-      "category": "sp_corp",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-07-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 32,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:YsJMJbDBuhU",
-      "videoId": "YsJMJbDBuhU",
-      "title": "fromis_9's presentation skills that stunned the Vice President | PNA Company EP2",
-      "category": "sp_corp",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-07-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1234,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:vL_uxXgaUTo",
-      "videoId": "vL_uxXgaUTo",
-      "title": "Guess who’s back at Funa Trading~ It’s me, the Gen Z employee from fromis_9 | Funa Trading EP1",
-      "category": "sp_corp",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-07-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1553,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:DWN_1n_7XwE",
-      "videoId": "DWN_1n_7XwE",
-      "title": "My ultimate bias is coming towards me",
-      "category": "sp_chaeng",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-07-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 36,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:xw8X1AqwGO0",
-      "videoId": "xw8X1AqwGO0",
-      "title": "Pensive Sexy",
-      "category": "sp_chaeng",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-07-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 40,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:AcZTUBlaCsw",
-      "videoId": "AcZTUBlaCsw",
-      "title": "The Idol Who Got A Shoutout From Kang So-ra",
-      "category": "sp_chaeng",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-07-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 23,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:kXsEL5nVCTs",
-      "videoId": "kXsEL5nVCTs",
-      "title": "A Face That Makes You Want to Work Up the Courage to Ask for Their Number",
-      "category": "sp_chaeng",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-07-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 18,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:QfvZzVj_WlY",
-      "videoId": "QfvZzVj_WlY",
-      "title": "Luxury vs. Budget Staycation: fromis_9 Filming Their Own Version of Single's Inferno and Transit ...",
-      "category": "sp_original",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-06-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1652,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:wE8tnxDY8Ts",
-      "videoId": "wE8tnxDY8Ts",
-      "title": "fromis_9's main vocal Song Ha-young, training her whistle even on her day off | Documentary 1 Day...",
-      "category": "sp_vlog",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-06-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1511,
+      "duration": "PT18M17S",
       "source": "youtube"
     },
     {
       "id": "yt:gyDLyMs2glk",
       "videoId": "gyDLyMs2glk",
-      "title": "Before the comeback, a heartfelt conversation while feeding Nagyung🍚 | Hanyang-kase",
+      "title": "컴백 전, 나경이 밥 먹이면서 진솔한 대화🍚 l 하냥카세",
       "category": "sp_hayoung",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-06-27T00:00:00Z",
+      "publishedAt": "2026-06-25T09:00:08Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
+        "hayoung",
         "nagyung"
       ],
-      "duration": 1849,
+      "duration": "PT30M49S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:QfvZzVj_WlY",
+      "videoId": "QfvZzVj_WlY",
+      "title": "럭셔리vs가성비 호캉스 와서 나는솔로지옥에서환승연애시그널 찍은 프로미스나인",
+      "category": "sp_original",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-06-18T09:00:00Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT27M32S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:UmHDiXypnw0",
+      "videoId": "UmHDiXypnw0",
+      "title": "토크쇼에 초대했는데 덕질만 하고 간 강소라 ㅣ 챙그랑 EP3",
+      "category": "sp_chaeng",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-06-11T09:00:05Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT20M56S",
       "source": "youtube"
     },
     {
@@ -302,55 +245,55 @@
       "title": "🍗이태원 이색 맛집 먹방한 지원 나경 l #젼메추 ep4",
       "category": "sp_jiwon",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-06-27T00:00:00Z",
+      "publishedAt": "2026-06-04T09:00:12Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "jiwon",
         "nagyung"
       ],
-      "duration": 1121,
+      "duration": "PT18M41S",
       "source": "youtube"
     },
     {
-      "id": "yt:UmHDiXypnw0",
-      "videoId": "UmHDiXypnw0",
-      "title": "Kang So-ra, who came to my talk show and spent the whole time fan-girling | Chaeng-grang EP.3",
-      "category": "sp_chaeng",
+      "id": "yt:wE8tnxDY8Ts",
+      "videoId": "wE8tnxDY8Ts",
+      "title": "쉬는 날에도 휘슬 단련하는 프나메보 송하영 l 다큐 1일 송하영",
+      "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-06-27T00:00:00Z",
+      "publishedAt": "2026-05-28T09:00:20Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "chaeyoung"
+        "hayoung"
       ],
-      "duration": 1256,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Hx43rVB73K8",
-      "videoId": "Hx43rVB73K8",
-      "title": "fromis_9’s Guide to the Ultimate Sauna Experience: Beating the Heat with a Feast(?!)",
-      "category": "sp_original",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-05-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 978,
+      "duration": "PT25M11S",
       "source": "youtube"
     },
     {
       "id": "yt:k5KfDMWsZto",
       "videoId": "k5KfDMWsZto",
-      "title": "What happens when you go to the Han River with someone you like💖",
+      "title": "좋아하는 사람이랑 한강 가면 생기는 일💖",
       "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-05-27T00:00:00Z",
+      "publishedAt": "2026-05-21T09:00:46Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 799,
+      "duration": "PT13M19S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Hx43rVB73K8",
+      "videoId": "Hx43rVB73K8",
+      "title": "이열치열로 찜질방 먹방(?!)부수고온 프로미스나인의 찜질방 국룰 이용법",
+      "category": "sp_original",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-05-14T09:00:01Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT16M18S",
       "source": "youtube"
     },
     {
@@ -359,26 +302,26 @@
       "title": "저희 아부지를 드디어 모셨습니다 ㅣ 하냥카세",
       "category": "sp_hayoung",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-05-27T00:00:00Z",
+      "publishedAt": "2026-05-07T09:00:36Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "hayoung"
       ],
-      "duration": 1691,
+      "duration": "PT28M11S",
       "source": "youtube"
     },
     {
       "id": "yt:ZQ2KZDxG9m8",
       "videoId": "ZQ2KZDxG9m8",
-      "title": "SUNMI Meets Her Visual Twin, the Baby Nine-Tailed Fox💜 l Chaengrang EP2",
+      "title": "매혹(E) 비법 전수하러 온 선미 선배님💜 l 챙그랑EP2",
       "category": "sp_chaeng",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-05-27T00:00:00Z",
+      "publishedAt": "2026-04-30T09:00:02Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 1607,
+      "duration": "PT26M47S",
       "source": "youtube"
     },
     {
@@ -387,41 +330,27 @@
       "title": "🎢놀이동산에서 먹방 찍는 걸그룹이 있다?! 알차게 즐긴 이채영, 백지헌",
       "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-04-27T00:00:00Z",
+      "publishedAt": "2026-04-23T09:00:02Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "chaeyoung",
         "jiheon"
       ],
-      "duration": 1153,
+      "duration": "PT19M13S",
       "source": "youtube"
     },
     {
       "id": "yt:5v9GxfYGHvw",
       "videoId": "5v9GxfYGHvw",
-      "title": "🏍️ Lee Na-kyung, who almost became a delivery driver while preparing for her motorcycle license |...",
+      "title": "🏍️바이크 면허 준비하다가 배달할 뻔한 이나경 l 게임할꼬 EP3",
       "category": "sp_game",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-04-27T00:00:00Z",
+      "publishedAt": "2026-04-16T09:00:02Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "all"
+        "nagyung"
       ],
-      "duration": 735,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:PybB45lBxs4",
-      "videoId": "PybB45lBxs4",
-      "title": "하냥카세 정식 오픈 ㅣ 봄동 막차 탑승합니다🥬",
-      "category": "sp_jiwon",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-04-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "jiwon"
-      ],
-      "duration": 1381,
+      "duration": "PT12M15S",
       "source": "youtube"
     },
     {
@@ -430,27 +359,26 @@
       "title": "오마카세 도시락 먹으면서 역대급 고민에 지원이는 완전히 멘탈이 나가버렸습니다 l 젼메추 ep번외 고민상담젼",
       "category": "sp_jiwon",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-04-27T00:00:00Z",
+      "publishedAt": "2026-04-09T09:01:33Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "jiwon"
       ],
-      "duration": 796,
+      "duration": "PT13M16S",
       "source": "youtube"
     },
     {
-      "id": "yt:E1k0TWHiL8c",
-      "videoId": "E1k0TWHiL8c",
-      "title": "동물에게 둘러싸인 하영 나경을 봐 동물에게 둘러싸였어🐮ㅣ사육사 체험하면서 사심 다 채움",
-      "category": "sp_original",
+      "id": "yt:PybB45lBxs4",
+      "videoId": "PybB45lBxs4",
+      "title": "하냥카세 정식 오픈 ㅣ 봄동 막차 탑승합니다🥬",
+      "category": "sp_jiwon",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-03-27T00:00:00Z",
+      "publishedAt": "2026-04-02T09:00:26Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "hayoung",
-        "nagyung"
+        "jiwon"
       ],
-      "duration": 1057,
+      "duration": "PT23M1S",
       "source": "youtube"
     },
     {
@@ -459,12 +387,27 @@
       "title": "🔥디진다 돈까스🔥먹고 탈주한 프로미스나인 l ???:불냉면은 장난이네",
       "category": "sp_survive",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-03-27T00:00:00Z",
+      "publishedAt": "2026-03-26T09:00:02Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 725,
+      "duration": "PT12M5S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:E1k0TWHiL8c",
+      "videoId": "E1k0TWHiL8c",
+      "title": "동물에게 둘러싸인 하영 나경을 봐 동물에게 둘러싸였어🐮ㅣ사육사 체험하면서 사심 다 채움",
+      "category": "sp_original",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-03-12T09:00:29Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "hayoung",
+        "nagyung"
+      ],
+      "duration": "PT17M37S",
       "source": "youtube"
     },
     {
@@ -473,26 +416,12 @@
       "title": "그때 기억나...? 10년만에 만난 연습생 동생 전소미 l 챙그랑 EP1",
       "category": "sp_chaeng",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-03-27T00:00:00Z",
+      "publishedAt": "2026-03-05T09:00:06Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 1358,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:MuMFgf07QX4",
-      "videoId": "MuMFgf07QX4",
-      "title": "Homebodies Who Bet Their Lives on Leaving Work | The Ultimate Homebody Showdown🔥",
-      "category": "sp_etc",
-      "channelTitle": "",
-      "publishedAt": "2026-03-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1460,
+      "duration": "PT22M38S",
       "source": "youtube"
     },
     {
@@ -501,27 +430,12 @@
       "title": "잠 안 와? 그럼 우리한테 와🌙 | ASMR 하꼬야✎ꪑ",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-02-27T00:00:00Z",
+      "publishedAt": "2026-02-26T09:00:24Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 4119,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:-3nN1flJojY",
-      "videoId": "-3nN1flJojY",
-      "title": "핫한 성수에 하영지헌의 등장이라...💖ㅣ맏내와 막내의 첫 데이트 VLOG #슾log",
-      "category": "sp_vlog",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-02-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "hayoung",
-        "jiheon"
-      ],
-      "duration": 1037,
+      "duration": "PT1H8M39S",
       "source": "youtube"
     },
     {
@@ -530,26 +444,27 @@
       "title": "켠 김에 왕까지 하다가 울면서 집에 간  이나경 l 8번 출구, 디바우어, 항아리 게임",
       "category": "sp_game",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-02-27T00:00:00Z",
+      "publishedAt": "2026-02-19T09:00:02Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "nagyung"
       ],
-      "duration": 1256,
+      "duration": "PT20M56S",
       "source": "youtube"
     },
     {
-      "id": "yt:8PKjIW86f-I",
-      "videoId": "8PKjIW86f-I",
-      "title": "Cooking a home-cooked meal for the youngest 🍚 | Welcome to Hanyangkase",
-      "category": "sp_hayoung",
+      "id": "yt:-3nN1flJojY",
+      "videoId": "-3nN1flJojY",
+      "title": "핫한 성수에 하영지헌의 등장이라...💖ㅣ맏내와 막내의 첫 데이트 VLOG #슾log",
+      "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-02-27T00:00:00Z",
+      "publishedAt": "2026-02-12T09:00:11Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "hayoung"
+        "hayoung",
+        "jiheon"
       ],
-      "duration": 1252,
+      "duration": "PT17M17S",
       "source": "youtube"
     },
     {
@@ -558,12 +473,26 @@
       "title": "혹시 제가 왼얼사 창시자가 마즈나요?! 이채영 두쫀쿠 만들면서 의식의 흐름대로 TMI 뱉기 l 챙그랑 ep0",
       "category": "sp_chaeng",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-02-27T00:00:00Z",
+      "publishedAt": "2026-02-05T09:00:24Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 792,
+      "duration": "PT13M12S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:8PKjIW86f-I",
+      "videoId": "8PKjIW86f-I",
+      "title": "막내 집밥 해 먹이기🍚ㅣWelcome to 하냥카세",
+      "category": "sp_hayoung",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-01-29T09:00:03Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT20M52S",
       "source": "youtube"
     },
     {
@@ -572,12 +501,12 @@
       "title": "👑괴성이 난무하는 공주들의 비밀스러운 파티 현장👑",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-01-27T00:00:00Z",
+      "publishedAt": "2026-01-22T09:00:42Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1366,
+      "duration": "PT22M46S",
       "source": "youtube"
     },
     {
@@ -586,27 +515,12 @@
       "title": "두쫀쿠 재벌 된 박지원의 두쫀쿠 먹방 ㅣ 요즘 핫한 21가지 디저트 리뷰 #젼메추 ep2",
       "category": "sp_jiwon",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-01-27T00:00:00Z",
+      "publishedAt": "2026-01-08T09:00:14Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "jiwon"
       ],
-      "duration": 1114,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:O_wQAWsxG8M",
-      "videoId": "O_wQAWsxG8M",
-      "title": "Polar Opposite Aesthetics: Jiwon & Jiheon's Makeup Swap Challenge💄",
-      "category": "sp_etc",
-      "channelTitle": "",
-      "publishedAt": "2026-01-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "jiheon",
-        "jiwon"
-      ],
-      "duration": 981,
+      "duration": "PT18M34S",
       "source": "youtube"
     },
     {
@@ -615,12 +529,12 @@
       "title": "fromis_9(프로미스나인) '하얀 그리움'  LlVE CLIP",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-12-27T00:00:00Z",
+      "publishedAt": "2025-12-25T09:00:01Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 181,
+      "duration": "PT3M1S",
       "source": "youtube"
     },
     {
@@ -629,40 +543,26 @@
       "title": "fromis_9 '하얀 그리움' Live clip 이었을 뻔 하다가 마이크 잃어버림",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-12-27T00:00:00Z",
+      "publishedAt": "2025-12-24T09:00:01Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 49,
+      "duration": "PT49S",
       "source": "youtube"
     },
     {
-      "id": "yt:eThKgokW5fw",
-      "videoId": "eThKgokW5fw",
-      "title": "8 Years Since Debut, My First Solo Vlog... Chaeng Shakes Up the Sluggish Vlog Scene",
-      "category": "sp_vlog",
+      "id": "yt:FZArkSNPFeI",
+      "videoId": "FZArkSNPFeI",
+      "title": "오늘 저녁 메뉴 추천은 지원이가 책임진다 ˃ᴗ˂)⍝ #젼메추 ep1",
+      "category": "sp_jiwon",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-12-27T00:00:00Z",
+      "publishedAt": "2025-12-18T09:00:03Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "all"
+        "jiwon"
       ],
-      "duration": 1269,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:jqe7yVp1p_Y",
-      "videoId": "jqe7yVp1p_Y",
-      "title": "Your fish-shaped bun is chubby🐟l Song Ha-young, whose dream is to sell fish-shaped buns in Gangnam",
-      "category": "sp_survive",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-12-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 779,
+      "duration": "PT15M51S",
       "source": "youtube"
     },
     {
@@ -671,26 +571,68 @@
       "title": "내돈내산 지헌이의 겨울 하울*.❅·☃️l교복템부터 자취꿀템까지 코디 아이템 낋여옴(무신사, 29CM, 지그재그 탈탈)",
       "category": "sp_beauty",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-12-27T00:00:00Z",
+      "publishedAt": "2025-12-11T09:00:09Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "jiheon"
       ],
-      "duration": 1153,
+      "duration": "PT19M13S",
       "source": "youtube"
     },
     {
-      "id": "yt:FZArkSNPFeI",
-      "videoId": "FZArkSNPFeI",
-      "title": "I've Got Your Dinner Plans Covered ˃ᴗ˂)⍝ #DinnerRecs ep1",
-      "category": "sp_jiwon",
+      "id": "yt:eThKgokW5fw",
+      "videoId": "eThKgokW5fw",
+      "title": "데뷔 8년 차 혼자서 브이로그는 처음이라... 느슨해진 vlog씬에 챙이 등장",
+      "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-12-27T00:00:00Z",
+      "publishedAt": "2025-12-04T09:00:35Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "jiwon"
+        "all"
       ],
-      "duration": 951,
+      "duration": "PT21M9S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:jqe7yVp1p_Y",
+      "videoId": "jqe7yVp1p_Y",
+      "title": "당신 붕어빵 뚱뚱해요🐟l 강남에서 붕어빵 파는 게 소원인 송하영",
+      "category": "sp_survive",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-11-27T09:00:14Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT12M59S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:VyMSKlQTNV8",
+      "videoId": "VyMSKlQTNV8",
+      "title": "걸그룹 최초 무인도에서 살아남기, 무인도 탈출하려고 전원 입수 함;;",
+      "category": "sp_survive",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-11-20T09:00:01Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT56M40S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:lXpGjgzZfvA",
+      "videoId": "lXpGjgzZfvA",
+      "title": "딸깍, 펜타킬!! 이나경 찐 롤 실력 l 리그오브레전드 생새우 먹방 #게임할꼬 ep1",
+      "category": "sp_game",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-11-13T09:00:28Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": "PT9M52S",
       "source": "youtube"
     },
     {
@@ -699,294 +641,166 @@
       "title": "쉬는 날 자유로운 챙&허니를 봐 자유로워l 서촌 데이트 grwm ootd 소품샵 #슾log",
       "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-11-27T00:00:00Z",
+      "publishedAt": "2025-11-06T09:00:01Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1458,
+      "duration": "PT24M18S",
       "source": "youtube"
     },
     {
       "id": "yt:KESH9frmdWY",
       "videoId": "KESH9frmdWY",
-      "title": "Okay, Who Made Us Do This? fromis_9's Deserted Island Packing Vlog | S.f. log",
+      "title": "공약 건 사람 누구야…? 무인도 짐 싸는 프로미스나인 #슾log",
       "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-11-27T00:00:00Z",
+      "publishedAt": "2025-10-30T09:01:13Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1272,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:lXpGjgzZfvA",
-      "videoId": "lXpGjgzZfvA",
-      "title": "Click, Pentakill! NAGYUNG's LoL Skills l League of Legends, Raw Shrimp Mukbang #Game On, Kko Ep1",
-      "category": "sp_game",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-11-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "nagyung"
-      ],
-      "duration": 592,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:VyMSKlQTNV8",
-      "videoId": "VyMSKlQTNV8",
-      "title": "First Girl-Group Survival on a Deserted Island: A Full-Team Ocean Dive Just to Escape",
-      "category": "sp_survive",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-11-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 3400,
+      "duration": "PT21M12S",
       "source": "youtube"
     },
     {
       "id": "yt:pb3IRjhuHP0",
       "videoId": "pb3IRjhuHP0",
-      "title": "🔥Time to burn the fat🔥Trying out hottest low-calorie foods (zero-calorie drinks, diet meals)",
+      "title": "🔥다이어트 시작해야지🔥요즘 핫한 저칼로리 음식 리뷰 (제로 칼로리, 다이어트 식단)",
       "category": "sp_beauty",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-10-27T00:00:00Z",
+      "publishedAt": "2025-10-09T09:00:21Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1079,
+      "duration": "PT17M59S",
       "source": "youtube"
     },
     {
       "id": "yt:P96bTFLgzjY",
       "videoId": "P96bTFLgzjY",
-      "title": "ZARA autumn new arrivals made my account empty... (Autumn knitwear, leather jackets, trench coats)",
+      "title": "ZARA 가을 신상 입고 텅장 됨… (니트, 가디건, 레더자켓, 트렌치코트)",
       "category": "sp_beauty",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-10-27T00:00:00Z",
+      "publishedAt": "2025-10-02T09:00:11Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1324,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:X2W_KVLIsHc",
-      "videoId": "X2W_KVLIsHc",
-      "title": "Stacking Labubu boxes and opening them feels rich | Tail end Labubu unboxing giveaway event",
-      "category": "sp_etc",
-      "channelTitle": "",
-      "publishedAt": "2025-10-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 552,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:J7ircdGHwKw",
-      "videoId": "J7ircdGHwKw",
-      "title": "What We’ve Been Using Lately⭐️ The Ultimate Fall Care Essentials Collection",
-      "category": "sp_etc",
-      "channelTitle": "",
-      "publishedAt": "2025-10-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1007,
+      "duration": "PT22M4S",
       "source": "youtube"
     },
     {
       "id": "yt:EtHW3dYxd_8",
       "videoId": "EtHW3dYxd_8",
-      "title": "Don't worry, everyone. It's really safe l ???: Oh, my head...",
+      "title": "여러분 걱정하지 마세요. 진짜 안전한 거니까 l ???:아 내 머리;;",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-09-27T00:00:00Z",
+      "publishedAt": "2025-09-25T09:00:15Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 735,
+      "duration": "PT12M15S",
       "source": "youtube"
     },
     {
       "id": "yt:dRqU3Us4SnY",
       "videoId": "dRqU3Us4SnY",
-      "title": "fromis_9 Rents a Whole Pool and Feasts a Day Before WATERBOMB",
+      "title": "워터밤 출연 전날에 폭식하는 아이돌 프로미스나인의 수영장 통째로 빌린 후기",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-09-27T00:00:00Z",
+      "publishedAt": "2025-09-18T09:00:01Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1044,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:c2bwlit0-kU",
-      "videoId": "c2bwlit0-kU",
-      "title": "An idol’s unfiltered honest review of a past life experience",
-      "category": "sp_original",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-09-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 805,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:wNg9KimrlWo",
-      "videoId": "wNg9KimrlWo",
-      "title": "How Idols Take Care of Themselves: Frozen🥶 and Steamed🥵 to Depuff!",
-      "category": "sp_survive",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-09-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1063,
+      "duration": "PT17M24S",
       "source": "youtube"
     },
     {
       "id": "yt:yp00URtVCiM",
       "videoId": "yp00URtVCiM",
-      "title": "Fragrance Lovers: 19 Life-Changing Perfumes of fromis_9",
+      "title": "향덕후 프로미스나인 인생 향수 19가지 (플로럴, 비누향, 머스크, 우디, 시트러스 총집합)",
       "category": "sp_beauty",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-09-27T00:00:00Z",
+      "publishedAt": "2025-09-11T09:01:14Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1392,
+      "duration": "PT23M12S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:c2bwlit0-kU",
+      "videoId": "c2bwlit0-kU",
+      "title": "아이돌이 말아주는 전생 체험 노필터 솔직후기",
+      "category": "sp_original",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-09-04T09:01:00Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT13M25S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:wNg9KimrlWo",
+      "videoId": "wNg9KimrlWo",
+      "title": "얼리고🥶 지지는🥵 요즘 아이돌 붓기 관리법",
+      "category": "sp_survive",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-08-28T09:00:51Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT17M43S",
       "source": "youtube"
     },
     {
       "id": "yt:8WAqCp-IgY0",
       "videoId": "8WAqCp-IgY0",
-      "title": "On-site Raid🚨The Truth of fromis_9 Revealed at Rehearsal",
+      "title": "현장 급습🚨 리허설 현장에서 드러난 프로미스나인 멤버들 실제 인성(?!)",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-27T00:00:00Z",
+      "publishedAt": "2025-08-25T09:00:25Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 504,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:x2YzxFKZqeU",
-      "videoId": "x2YzxFKZqeU",
-      "title": "Invading fromis_9 maknae's first solo apartment❗️Excuse me! Is this Jiheon’s place?",
-      "category": "sp_original",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": 951,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:XJp0EsQQgWE",
-      "videoId": "XJp0EsQQgWE",
-      "title": "An actual drinking show, 8 years after debut. Is this how you play the drinking game?",
-      "category": "sp_original",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1281,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:b4wldVyGaA0",
-      "videoId": "b4wldVyGaA0",
-      "title": "fromis_9's JIWON, Impossible to Find by Name Alone | HAYOUNG & NAGYUNG's Freakishly Accurate Saju",
-      "category": "sp_original",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "hayoung",
-        "jiwon",
-        "nagyung"
-      ],
-      "duration": 578,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:S5jTVupUSbQ",
-      "videoId": "S5jTVupUSbQ",
-      "title": "What's the story behind the Gayo Daejejeon tears? What is \"Studio fromis_9\"? When is the comeback?",
-      "category": "sp_original",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 541,
+      "duration": "PT8M24S",
       "source": "youtube"
     },
     {
       "id": "yt:mg7C-hUZESs",
       "videoId": "mg7C-hUZESs",
-      "title": "Seoul's top 4 spicy naengmyeon 🔥 Huff huff huff fromis_9",
+      "title": "서울 4대 불냉면🔥 먹고 습하습하습하소닉 완곡한 프로미스나인",
       "category": "sp_survive",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-27T00:00:00Z",
+      "publishedAt": "2025-07-31T09:00:41Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 655,
+      "duration": "PT10M55S",
       "source": "youtube"
     },
     {
-      "id": "yt:G3QSyNkIfGQ",
-      "videoId": "G3QSyNkIfGQ",
-      "title": "군통령이라 해서 철원 갔다가 초통령 된 썰 풉니다 l 멤버 아바타 원격조종",
-      "category": "sp_survive",
+      "id": "yt:x2YzxFKZqeU",
+      "videoId": "x2YzxFKZqeU",
+      "title": "프로미스나인 막내의 첫 자취방 습격❗️여기가 지헌 웅니네 마즈나요?",
+      "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-27T00:00:00Z",
+      "publishedAt": "2025-07-24T09:01:19Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "all"
+        "jiheon"
       ],
-      "duration": 833,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:MPOBoYS-Auc",
-      "videoId": "MPOBoYS-Auc",
-      "title": "Went on a little outing before the comeback l ??? : Who’s driving that car? Beep beep!! 🚘",
-      "category": "sp_survive",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 778,
+      "duration": "PT15M51S",
       "source": "youtube"
     },
     {
@@ -995,13 +809,41 @@
       "title": "올리브영에서 2시간 동안 쇼핑하고 온 이채영 백지헌  아이돌 뷰티템 싹다 공개!! 쿨톤 필수 시청",
       "category": "sp_beauty",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-27T00:00:00Z",
+      "publishedAt": "2025-07-17T12:01:54Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "chaeyoung",
         "jiheon"
       ],
-      "duration": 1624,
+      "duration": "PT27M4S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:XJp0EsQQgWE",
+      "videoId": "XJp0EsQQgWE",
+      "title": "데뷔 8년 만에 본격 음주방송. 새내기 술게임 이거 맞아?",
+      "category": "sp_original",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-07-10T09:11:35Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT21M21S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:G3QSyNkIfGQ",
+      "videoId": "G3QSyNkIfGQ",
+      "title": "군통령이라 해서 철원 갔다가 초통령 된 썰 풉니다 l 멤버 아바타 원격조종",
+      "category": "sp_survive",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-07-03T09:00:02Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT13M53S",
       "source": "youtube"
     },
     {
@@ -1010,3836 +852,70 @@
       "title": "아이돌 사복 패션참견 해보았습니다. (꾸안꾸, 워터밤, 데일리룩)",
       "category": "sp_beauty",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-27T00:00:00Z",
+      "publishedAt": "2025-06-27T11:02:36Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1251,
+      "duration": "PT20M51S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:MPOBoYS-Auc",
+      "videoId": "MPOBoYS-Auc",
+      "title": "컴백 전 나들이 좀 다녀왔습니다 l ??? : 자동차를 몰꼬에오 빵빵!! 🚘",
+      "category": "sp_survive",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-06-19T09:00:17Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT12M58S",
       "source": "youtube"
     },
     {
       "id": "yt:Iy6_bk1b6MA",
       "videoId": "Iy6_bk1b6MA",
-      "title": "[First Reveal] fromis_9's Ultimate Self Care Essentials | Diet, De-puffing, Skincare, Brightening",
+      "title": "(최초공개) 8년차 아이돌 프로미스나인의 관리 인생템 | 다이어트 붓기관리 스킨케어 미백",
       "category": "sp_beauty",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-27T00:00:00Z",
+      "publishedAt": "2025-06-12T09:00:25Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1602,
+      "duration": "PT26M42S",
       "source": "youtube"
     },
     {
-      "id": "yt:m5zsw7qa1hI",
-      "videoId": "m5zsw7qa1hI",
-      "title": "",
-      "category": "sp_corp",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ML0nYLiTfEs",
-      "videoId": "ML0nYLiTfEs",
-      "title": "I came out because the unreleased content was frustrating, but now I’m even more frustrated",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:7F5DfegU6x4",
-      "videoId": "7F5DfegU6x4",
-      "title": "[Unreleased Video] Why no one is happy even though I succeeded",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:G5ndnq7umDU",
-      "videoId": "G5ndnq7umDU",
-      "title": "[Unreleased Video] Speed Interview: How many people can you get through in 100 seconds?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:O3ZPukyfG8s",
-      "videoId": "O3ZPukyfG8s",
-      "title": "Baek Ji-heon becomes the nation's first accidental test subject",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ZXy2kvqT_Qc",
-      "videoId": "ZXy2kvqT_Qc",
-      "title": "[선공개] 벼랑 끝에 프로미스나인",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:bAhM79-oUf0",
-      "videoId": "bAhM79-oUf0",
-      "title": "Might Have Cried Because Every Word Was Spot On",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:RLWqZhZ93Jc",
-      "videoId": "RLWqZhZ93Jc",
-      "title": "Who wants to go see Park Alley?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:VSXkob9PZ_g",
-      "videoId": "VSXkob9PZ_g",
-      "title": "Why does this sound so familiar?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:80q8pJ-lluM",
-      "videoId": "80q8pJ-lluM",
-      "title": "No Wonder They Keep Calling Me",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:BVKjAb5YrFo",
-      "videoId": "BVKjAb5YrFo",
-      "title": "Secrets to a Long-Term Relationship",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:MM13HPLKvyg",
-      "videoId": "MM13HPLKvyg",
-      "title": "You look really pretty today",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:UXihGFAhLbM",
-      "videoId": "UXihGFAhLbM",
-      "title": "I’ll Make an Acrostic Poem for You",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:5fYC3rH1VJw",
-      "videoId": "5fYC3rH1VJw",
-      "title": "When did you grow up so fast?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:qZlv-bP1M4I",
-      "videoId": "qZlv-bP1M4I",
-      "title": "Focus only on me",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:RSczIelSnXc",
-      "videoId": "RSczIelSnXc",
-      "title": "Baek Ji-heon, who often gets misunderstood when she has a neutral expression",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ZpRcXRRmx7Y",
-      "videoId": "ZpRcXRRmx7Y",
-      "title": "Baek Ji-heon's workout is intense",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:fzK4cXfziqI",
-      "videoId": "fzK4cXfziqI",
-      "title": "Oddly addictive",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:W2qGIf2qGY0",
-      "videoId": "W2qGIf2qGY0",
-      "title": "Let's try everything that's good for you",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:dAjzE4s2ei0",
-      "videoId": "dAjzE4s2ei0",
-      "title": "Once you're hooked, there's no turning back",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:xdhiS1cbDPI",
-      "videoId": "xdhiS1cbDPI",
-      "title": "이성의 끈을 잡음",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:QCL3d93MAo0",
-      "videoId": "QCL3d93MAo0",
-      "title": "So Gen Z it’s basically Alpha",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:FlZIAF55l_o",
-      "videoId": "FlZIAF55l_o",
-      "title": "Why are our girls so cool?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:dsUFnBSbWo0",
-      "videoId": "dsUFnBSbWo0",
-      "title": "수육 아니야?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:e0llLic7FC8",
-      "videoId": "e0llLic7FC8",
-      "title": "Man, what a rough day.",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:tdJYUQQtW-E",
-      "videoId": "tdJYUQQtW-E",
-      "title": "[Unreleased Footage] See? I told you I was right",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Dfp6521CucA",
-      "videoId": "Dfp6521CucA",
-      "title": "[Unreleased Video] *First Reveal* Unreleased Video of Lee Na-kyung's Resolve for Joining the Company",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:TMXY7dEZf-o",
-      "videoId": "TMXY7dEZf-o",
-      "title": "[Unreleased Video] Damned if I do, damned if I don't",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:V1249Lt6zOY",
-      "videoId": "V1249Lt6zOY",
-      "title": "[Unreleased Clip] Idea Meeting with Someone Who Wants Ice Cream",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:YdXDnLnI5Rs",
-      "videoId": "YdXDnLnI5Rs",
-      "title": "[Unreleased Footage] Items that boost work efficiency by 200%",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:PVznjJwakYY",
-      "videoId": "PVznjJwakYY",
-      "title": "This Is How a Legendary Performance Is Made",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ieowzkRkcqg",
-      "videoId": "ieowzkRkcqg",
-      "title": "Hayoung pulled out something suspicious",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:PTgND5ndhvk",
-      "videoId": "PTgND5ndhvk",
-      "title": "👀",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:PHf9VjUwfhI",
-      "videoId": "PHf9VjUwfhI",
-      "title": "The microphone-blowing high note",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:0CeiWuWwhQQ",
-      "videoId": "0CeiWuWwhQQ",
-      "title": "Real tension hits",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:y3-w9gHJXkY",
-      "videoId": "y3-w9gHJXkY",
-      "title": "Ma'am, I'm really good with kids",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:1NsU0PeIqnA",
-      "videoId": "1NsU0PeIqnA",
-      "title": "Nakyung turns into a total sweetheart",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:nMmQm3oGM2o",
-      "videoId": "nMmQm3oGM2o",
-      "title": "The first exercise my personal trainer had me do",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Yhvj322Airw",
-      "videoId": "Yhvj322Airw",
-      "title": "스나이퍼가 되..",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:OQb9G9NU3ec",
-      "videoId": "OQb9G9NU3ec",
-      "title": "Life is still worth living, so why are you like this?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:_XtXsRwUaIw",
-      "videoId": "_XtXsRwUaIw",
-      "title": "Idols who are more comfortable in the car than at home",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:kHf2VfKcxaQ",
-      "videoId": "kHf2VfKcxaQ",
-      "title": "When is the next episode coming out?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:IbrZjUiWQeg",
-      "videoId": "IbrZjUiWQeg",
-      "title": "Seriously, book a table right now",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:HHaL8nrIf8k",
-      "videoId": "HHaL8nrIf8k",
-      "title": "It only takes 3 seconds for Lee Na-kyung to get hired",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:M9ikG-rIyNg",
-      "videoId": "M9ikG-rIyNg",
-      "title": "Actually, we always talk about dieting while eating",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:FtUIROtyUSM",
-      "videoId": "FtUIROtyUSM",
-      "title": "An Idol's New Task Added_Catching Squid",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:yU1hKTKx4q0",
-      "videoId": "yU1hKTKx4q0",
-      "title": "LOL",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:P7fNvt_SJC0",
-      "videoId": "P7fNvt_SJC0",
-      "title": "Park Ji-won, who has no trouble breaking the ice with foreigners",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:AiyQd91Nzmc",
-      "videoId": "AiyQd91Nzmc",
-      "title": "First Time Seeing a Paper Mukbang, Right?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:bFCyqykDcRg",
-      "videoId": "bFCyqykDcRg",
-      "title": "😺Nyagyeong-i 🐶Namong-i",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ciWCD6AKdkQ",
-      "videoId": "ciWCD6AKdkQ",
-      "title": "I've been meaning to buy this",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:fwEZ5Nh2U9c",
-      "videoId": "fwEZ5Nh2U9c",
-      "title": "How Song Ha-young Finds Happiness",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Zd6hUyRfrYo",
-      "videoId": "Zd6hUyRfrYo",
-      "title": "I Can't Even Imagine How Much Fun They Had",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:QZBMbrPpuoo",
-      "videoId": "QZBMbrPpuoo",
-      "title": "Puna Eating Ice Cream",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:zqWJFyOWfFg",
-      "videoId": "zqWJFyOWfFg",
-      "title": "9 Years Into Their Idol Career, There’s a Reason They’re Still Loved",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ljDUvOprDM4",
-      "videoId": "ljDUvOprDM4",
-      "title": "Turn the Tables",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:0bTk7JzXK2I",
-      "videoId": "0bTk7JzXK2I",
-      "title": "Hello, I’m Hyooji🐶",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:F1vwnspgkUk",
-      "videoId": "F1vwnspgkUk",
-      "title": "Crying",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:oLIhv7zAemY",
-      "videoId": "oLIhv7zAemY",
-      "title": "This is going to be interesting",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:CnPzNNtl91Y",
-      "videoId": "CnPzNNtl91Y",
-      "title": "I have no clue how Gen Z this is going to be",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:g4DEqkHLCTI",
-      "videoId": "g4DEqkHLCTI",
-      "title": "Turning into a gyaru to celebrate bleaching my hair..",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:E8kJ_thNpKA",
-      "videoId": "E8kJ_thNpKA",
-      "title": "Twice as loud because there are two of us",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:En2vvQFk2Mo",
-      "videoId": "En2vvQFk2Mo",
-      "title": "Our memories accumulated over the past year",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:IYfQsMwIops",
-      "videoId": "IYfQsMwIops",
-      "title": "We have invited two ramen experts🍜",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:mUa0JStrLqk",
-      "videoId": "mUa0JStrLqk",
-      "title": "Nakyung and Jiheon’s Fun Picnic from the Get-Go",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:RTVrE6T6m7U",
-      "videoId": "RTVrE6T6m7U",
-      "title": "Flatten out",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:xQ13dF8w940",
-      "videoId": "xQ13dF8w940",
-      "title": "So what happened?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:zkKL8k4v0TQ",
-      "videoId": "zkKL8k4v0TQ",
-      "title": "Ramen Expert Song Ha-young",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:fkw58armoAc",
-      "videoId": "fkw58armoAc",
-      "title": "Song Ha-young is cute even when she's cooking",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:uqtNLsEMDCY",
-      "videoId": "uqtNLsEMDCY",
-      "title": "Today's first MC walking a tightrope",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:N2WVWkfDD-Y",
-      "videoId": "N2WVWkfDD-Y",
-      "title": "Signed a lifetime contract with my daughter",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Nij-rG3XEKk",
-      "videoId": "Nij-rG3XEKk",
-      "title": "As expected, comedian SBN is different.",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:kX4WDsHXr7I",
-      "videoId": "kX4WDsHXr7I",
-      "title": "Glamorous yet lonely",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:e4Mg2VCvs2o",
-      "videoId": "e4Mg2VCvs2o",
-      "title": "You don't really have to do anything",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:eYKb402GSRs",
-      "videoId": "eYKb402GSRs",
-      "title": "What comes next?!",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:i9JG7gMifWI",
-      "videoId": "i9JG7gMifWI",
-      "title": "You Can Do It Too",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:fYkVBrbaz9g",
-      "videoId": "fYkVBrbaz9g",
-      "title": "An Idol Who Is Serious About Driving But Has No License",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Wd3P3bXJqV8",
-      "videoId": "Wd3P3bXJqV8",
-      "title": "Baek Ji-heon aiming for Yang Se-chan's spot",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:EkjDv91Er9E",
-      "videoId": "EkjDv91Er9E",
-      "title": "This is why you have to listen to both sides of the story.",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:RvnzCvmw_Bg",
-      "videoId": "RvnzCvmw_Bg",
-      "title": "The perfect way to enjoy Lotte World",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:3NWvXlZgp90",
-      "videoId": "3NWvXlZgp90",
-      "title": "Why you and I are friends",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Jb5uuRMY-4M",
-      "videoId": "Jb5uuRMY-4M",
-      "title": "It's easy",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:tRrNFQ_V1H0",
-      "videoId": "tRrNFQ_V1H0",
-      "title": "The person who ordered Jjajangmyeon",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:IlcwQduHYIo",
-      "videoId": "IlcwQduHYIo",
-      "title": "They say they actually made it to the Han River like that",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:JqR1C3ouLto",
-      "videoId": "JqR1C3ouLto",
-      "title": "Melts in your mouth",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:YcwOONedAG8",
-      "videoId": "YcwOONedAG8",
-      "title": "Let's get it done",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:eZyPXuav2_I",
-      "videoId": "eZyPXuav2_I",
-      "title": "It's definitely Korean, so why does it sound like Japanese?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:vgmd9FbxBfw",
-      "videoId": "vgmd9FbxBfw",
-      "title": "Hayoung's Ramen Shop",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:K6m-Cp14kcQ",
-      "videoId": "K6m-Cp14kcQ",
-      "title": "At this level, it's not cooking, it's talent.",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:J4RK2deYmJo",
-      "videoId": "J4RK2deYmJo",
-      "title": "두쫀쿠 중독🥹",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:IVkTUiNHKdQ",
-      "videoId": "IVkTUiNHKdQ",
-      "title": "What are your thoughts?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:08AX35ADmC8",
-      "videoId": "08AX35ADmC8",
-      "title": "Hanyang who wants to go home",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:DzP_bEG0xZ8",
-      "videoId": "DzP_bEG0xZ8",
-      "title": "You get a lot of exercise.",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:D8tTYW5ciwc",
-      "videoId": "D8tTYW5ciwc",
-      "title": "One two one two",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:alXahIP7ab4",
-      "videoId": "alXahIP7ab4",
-      "title": "Song Hayoung's Popularity Update (Small Version)",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:xtnmdHL_-jg",
-      "videoId": "xtnmdHL_-jg",
-      "title": "Lee Na-kyung, who almost made a comeback with short hair",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:CdqFnD6YP68",
-      "videoId": "CdqFnD6YP68",
-      "title": "The new fighter is a suplex master who can't be beaten",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:MH5YV8KiVgM",
-      "videoId": "MH5YV8KiVgM",
-      "title": "새들한테 간택당한 하꼬야",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:oabDCTTxdng",
-      "videoId": "oabDCTTxdng",
-      "title": "Song Ha-young Reveals Her Secret Perfume Tip (You Must Spray It Secretly by Yourself)",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:NigHUClft1U",
-      "videoId": "NigHUClft1U",
-      "title": "I can't go together because the price isn't my style.",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:SKG3Vo1rMlI",
-      "videoId": "SKG3Vo1rMlI",
-      "title": "Hesitation only delays the payment",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:VjG-vYsKLEM",
-      "videoId": "VjG-vYsKLEM",
-      "title": "Jiheon, the ultimate self-control user who only adds items to the wishlist",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:K8etHnZ0Pjc",
-      "videoId": "K8etHnZ0Pjc",
-      "title": "Conquer this era",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:VMtujF7klT8",
-      "videoId": "VMtujF7klT8",
-      "title": "You have been chosen.",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:66t7FjyxA1c",
-      "videoId": "66t7FjyxA1c",
-      "title": "The editor says, \"Achu! It looks like pollen is flying around in my heart.\"",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ctSmA3-xtLE",
-      "videoId": "ctSmA3-xtLE",
-      "title": "Ah, those times again",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:kZ4IG0vTXIA",
-      "videoId": "kZ4IG0vTXIA",
-      "title": "Kawaii dake ja, ii desu yo!!",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:AzMbE59Wbos",
-      "videoId": "AzMbE59Wbos",
-      "title": "Why can't I see better?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:jJxU-azVIF8",
-      "videoId": "jJxU-azVIF8",
-      "title": "Not 1L of milk",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:bvT08izLyOs",
-      "videoId": "bvT08izLyOs",
-      "title": "예쁨",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:zbeiEd5pqew",
-      "videoId": "zbeiEd5pqew",
-      "title": "Thanks, girls",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ZmI9xJn4p8U",
-      "videoId": "ZmI9xJn4p8U",
-      "title": "제미나이는 채영이라고 하긴 하던데",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:FK3BynKimfc",
-      "videoId": "FK3BynKimfc",
-      "title": "딥초코 멜팅 두쫀쿠",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:n40Yauildq4",
-      "videoId": "n40Yauildq4",
-      "title": "아스므르 호 됨",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:G3g7b0dIZfU",
-      "videoId": "G3g7b0dIZfU",
-      "title": "The reason Baek Ji-heon was moved by Song Ha-young",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:j9YzCLfJIxI",
-      "videoId": "j9YzCLfJIxI",
-      "title": "풀코팅으로 차려주는 하냥카세",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:5Yx43njeokE",
-      "videoId": "5Yx43njeokE",
-      "title": "From now on, call it a \"full coating\"",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:TW3qeRB_ysY",
-      "videoId": "TW3qeRB_ysY",
-      "title": "백지헌이 반한 송하영 가지 튀김",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
+      "id": "yt:b4wldVyGaA0",
+      "videoId": "b4wldVyGaA0",
+      "title": "본인 이름 검색해도 나오지 않는 프로미스나인 박지원 l 소름 돋게 다 맞는 하영, 나경 미친 사주(positive)",
+      "category": "sp_original",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-06-05T09:00:56Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "hayoung",
-        "jiheon"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:bAwu4UGjC7Y",
-      "videoId": "bAwu4UGjC7Y",
-      "title": "낙지 스트레스 많이 받을거야",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:lfssT4JhyhU",
-      "videoId": "lfssT4JhyhU",
-      "title": "Why are you so puffy?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:-z4XlLtRWA4",
-      "videoId": "-z4XlLtRWA4",
-      "title": "They are such a perfect match",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:eBmrl9TlOhg",
-      "videoId": "eBmrl9TlOhg",
-      "title": "너무 따숩다",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:U6uz1E9Kqig",
-      "videoId": "U6uz1E9Kqig",
-      "title": "Song Ha-young, the Master of Sensory Play",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:BVNg4kV8C60",
-      "videoId": "BVNg4kV8C60",
-      "title": "백설지헌 진짜 권력있다",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:myvP6W5077g",
-      "videoId": "myvP6W5077g",
-      "title": "The effect of nose contouring was incredible",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:_ChtCF3_L3w",
-      "videoId": "_ChtCF3_L3w",
-      "title": "The man I see in Jiwon's face",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "jiwon"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ZjY4NiKuQqQ",
-      "videoId": "ZjY4NiKuQqQ",
-      "title": "Who told our Jiheon that?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:XVwpYg0ipRM",
-      "videoId": "XVwpYg0ipRM",
-      "title": "It's so serious, can I laugh a little?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:2QLXm37kaRM",
-      "videoId": "2QLXm37kaRM",
-      "title": "The Road to Expertise is Long and Arduous",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:YZxlSXQeVcA",
-      "videoId": "YZxlSXQeVcA",
-      "title": "두쫀쿠는 증거를 남긴다",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:_RtUHSnDfF8",
-      "videoId": "_RtUHSnDfF8",
-      "title": "아빠... 내 건 가짜야",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:M7OcdobTKcU",
-      "videoId": "M7OcdobTKcU",
-      "title": "제품 찍자고 했지 나 빠지라고는 안 했잖아",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:sXmEmXMugYk",
-      "videoId": "sXmEmXMugYk",
-      "title": "What is this 'napsemi'?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:3R5F3kJRcLg",
-      "videoId": "3R5F3kJRcLg",
-      "title": "To all the parents in Korea, hang in there!",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:D5uL4L4Ox9Q",
-      "videoId": "D5uL4L4Ox9Q",
-      "title": "마늘 플러팅 하는 아이돌",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:rGGggqtFFas",
-      "videoId": "rGGggqtFFas",
-      "title": "Frustrated Lightweight Who Looks Like a Heavy Drinker",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:vxFdl1W4KZw",
-      "videoId": "vxFdl1W4KZw",
-      "title": "얼큰한 취향의 아이돌",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:TbN9CKTnFtY",
-      "videoId": "TbN9CKTnFtY",
-      "title": "Chaeyoung’s compliments turn Jiheon’s bank account into a void",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "chaeyoung",
-        "jiheon"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Kpmp2cDT-yc",
-      "videoId": "Kpmp2cDT-yc",
-      "title": "They say nobody can recognize me… We recognized you first 🤍🤓",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:g6vXEUW-H8k",
-      "videoId": "g6vXEUW-H8k",
-      "title": "The cutest aegyo threat in the world",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:aEnG9MhN2yA",
-      "videoId": "aEnG9MhN2yA",
-      "title": "The moment my winter mood switches from OFF to ON 🍢",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:3PQS-8U7EH4",
-      "videoId": "3PQS-8U7EH4",
-      "title": "/all mute",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:9IZxesENHz8",
-      "videoId": "9IZxesENHz8",
-      "title": "갈리오가 고생했네",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:aU6_y0g6fRc",
-      "videoId": "aU6_y0g6fRc",
-      "title": "연예인도 사람이었어",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:sfudpJnxoWc",
-      "videoId": "sfudpJnxoWc",
-      "title": "Can't resist delicious food",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:hu53lLSALKo",
-      "videoId": "hu53lLSALKo",
-      "title": "Lee Na-gyung eating live shrimp mukbang",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:gb8u0UpLTuM",
-      "videoId": "gb8u0UpLTuM",
-      "title": "Hanyang just wants to make fish-shaped buns",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:X69iyRyErUg",
-      "videoId": "X69iyRyErUg",
-      "title": "INFP's Biggest Life Crisis",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:LJ75AWRaViQ",
-      "videoId": "LJ75AWRaViQ",
-      "title": "The member you think of when you're in a crisis",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:DwHhyNOoeCk",
-      "videoId": "DwHhyNOoeCk",
-      "title": "A Master of Treasure Hunting",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:yE88P7rnkts",
-      "videoId": "yE88P7rnkts",
-      "title": "무인도 탈출이고 뭐고 배고픔",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:m1k2nRntSoc",
-      "videoId": "m1k2nRntSoc",
-      "title": "First time prepping gizzard shad",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:H1DfJ7uWNAM",
-      "videoId": "H1DfJ7uWNAM",
-      "title": "프로미스나인 12월 컴백 스포",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:zpZVfMggSfM",
-      "videoId": "zpZVfMggSfM",
-      "title": "프로미스나인 무인도 살아남는 방법",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Xy3eLCVHbN0",
-      "videoId": "Xy3eLCVHbN0",
-      "title": "1 Million Subscriber Special: Desert Island Trip",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:zftQHQawuFw",
-      "videoId": "zftQHQawuFw",
-      "title": "The Little Match Girl has gone wild",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:2PVO06tRvak",
-      "videoId": "2PVO06tRvak",
-      "title": "무인도 갈 사람  “저희요”",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:GSmB6a9ccKE",
-      "videoId": "GSmB6a9ccKE",
-      "title": "유낳괴의 현장",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:j4XssVIp9qg",
-      "videoId": "j4XssVIp9qg",
-      "title": "라면 광고 오고 있나요",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:2PNghS-JBgQ",
-      "videoId": "2PNghS-JBgQ",
-      "title": "Relatable Content for Cat Owners 20000%",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:_uMK_207TCk",
-      "videoId": "_uMK_207TCk",
-      "title": "Chaeng & Honey's Heart-Fluttering Confession",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:xU5w0W5Hi8s",
-      "videoId": "xU5w0W5Hi8s",
-      "title": "이채영이 사람 홀림",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:d7rADi_weMY",
-      "videoId": "d7rADi_weMY",
-      "title": "무인도에 진심인 송하영 ASMR",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:9_-uJWyrbfo",
-      "videoId": "9_-uJWyrbfo",
-      "title": "이거어디까지올라가는거예요?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:M94kMJPItJQ",
-      "videoId": "M94kMJPItJQ",
-      "title": "이채영의 자기님",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Ko0K9VWVh_Y",
-      "videoId": "Ko0K9VWVh_Y",
-      "title": "내돈내산 전투식량 사는 송하영",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:hXfAPTUxgS4",
-      "videoId": "hXfAPTUxgS4",
-      "title": "ANNOUNCING THE SECRET EVENT WINNERS",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:56fjFa1lHVw",
-      "videoId": "56fjFa1lHVw",
-      "title": "포브스 선정 이 달의 착한 아이돌",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:d9YQ1XiQgF8",
-      "videoId": "d9YQ1XiQgF8",
-      "title": "이젠 솔직해지기로 해",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:7yTjYTmEIoI",
-      "videoId": "7yTjYTmEIoI",
-      "title": "인형 같은 아이돌",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:T4u-clrvnMo",
-      "videoId": "T4u-clrvnMo",
-      "title": "랜덤깡 할 때 다 이렇잖아요",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:WqnilpdXPiQ",
-      "videoId": "WqnilpdXPiQ",
-      "title": "피부에 양보하세요",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:gMbZWwfylMk",
-      "videoId": "gMbZWwfylMk",
-      "title": "Which cushion foundation do you use?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:T-yqyR4tCI4",
-      "videoId": "T-yqyR4tCI4",
-      "title": "악건성 아침 세안법",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:NFJ9RnYdxu8",
-      "videoId": "NFJ9RnYdxu8",
-      "title": "Jiwon's bratty moments",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "jiwon"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:MqQUmrAquMI",
-      "videoId": "MqQUmrAquMI",
-      "title": "Skin Barrier: About to Collapse",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:8RXIOhHimCc",
-      "videoId": "8RXIOhHimCc",
-      "title": "핵심은 ’광’",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ZGkd-4IoHW0",
-      "videoId": "ZGkd-4IoHW0",
-      "title": "아시는 분이 있다면 댓글로",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:otJQRbppK0U",
-      "videoId": "otJQRbppK0U",
-      "title": "10,000kcal 챌린지가 되",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:PJKjFw0NLI4",
-      "videoId": "PJKjFw0NLI4",
-      "title": "You're really just eating Greek yogurt for a meal...?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:__rrLSlYeCk",
-      "videoId": "__rrLSlYeCk",
-      "title": "어릴 땐 싫더니",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:wPa1Qn4dC2Q",
-      "videoId": "wPa1Qn4dC2Q",
-      "title": "밥 먹고 낮잠=극락",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:7WknIA-GUrY",
-      "videoId": "7WknIA-GUrY",
-      "title": "The Youngest Sister That the Older Sisters Adore",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:w5UlIXf7j2U",
-      "videoId": "w5UlIXf7j2U",
-      "title": "Lee Chaeyoung’s Fashion Tips: Take Notes!",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:7znHH3VSjpg",
-      "videoId": "7znHH3VSjpg",
-      "title": "The Queen's Posture",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:d3587jUybAQ",
-      "videoId": "d3587jUybAQ",
-      "title": "첫사랑을 잊지 못하는 이유",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:4LTdh-PfAt8",
-      "videoId": "4LTdh-PfAt8",
-      "title": "Autumn Nejo Girl Outfit",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:V0PoBUuxSxw",
-      "videoId": "V0PoBUuxSxw",
-      "title": "ZARA 가을 꾸안꾸 데일리룩",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:2WC6rjepL9s",
-      "videoId": "2WC6rjepL9s",
-      "title": "친해야 나오는 바이브",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:090mgYDgBas",
-      "videoId": "090mgYDgBas",
-      "title": "그래서 누가 이겼다고…?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Wela4nvJXXk",
-      "videoId": "Wela4nvJXXk",
-      "title": "자부심 가질만 함",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:YiARJLCEwyE",
-      "videoId": "YiARJLCEwyE",
-      "title": "The impact is crazy (positive)",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:qEEslvycLE8",
-      "videoId": "qEEslvycLE8",
-      "title": "배보다 배꼽이 큼",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:rLP_svgU5DI",
-      "videoId": "rLP_svgU5DI",
-      "title": "막내의 서러움",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:wg5BPDb1MTg",
-      "videoId": "wg5BPDb1MTg",
-      "title": "첫째=여왕 막내=시녀 국룰",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:z2ojYaMSfP4",
-      "videoId": "z2ojYaMSfP4",
-      "title": "최고의 도파민",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:M3vcT4INVvQ",
-      "videoId": "M3vcT4INVvQ",
-      "title": "아기 냄새나는 바디워시 ㅊㅊ",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:rJ3qWSVM4kk",
-      "videoId": "rJ3qWSVM4kk",
-      "title": "How to wear perfume with an elegant vibe",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:GiyW-GICLBw",
-      "videoId": "GiyW-GICLBw",
-      "title": "향수 뿌리기 치트키",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:1Gor_g3VYjQ",
-      "videoId": "1Gor_g3VYjQ",
-      "title": "프나 이나경의 N통째 쓰는 향기템",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:xCxEPMEEEIA",
-      "videoId": "xCxEPMEEEIA",
-      "title": "내가 달달구리로 보이냐아!",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ZJMljVrPfqQ",
-      "videoId": "ZJMljVrPfqQ",
-      "title": "본방 사수해야함",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:81ja0zqlzsQ",
-      "videoId": "81ja0zqlzsQ",
-      "title": "아이돌이 승리함",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:dAQ-noXi4r4",
-      "videoId": "dAQ-noXi4r4",
-      "title": "하면 잘 통함",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:o-ca6zn-2b0",
-      "videoId": "o-ca6zn-2b0",
-      "title": "엄마가 이 쇼츠를 좋아합니더",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:UoLYKmKK5P4",
-      "videoId": "UoLYKmKK5P4",
-      "title": "송하영이 보우하사 (only #shorts )",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:zjE3HXZR_OI",
-      "videoId": "zjE3HXZR_OI",
-      "title": "프로미스나인의 데일리 루틴 공개( only #shorts )",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:RSPvQlpr05I",
-      "videoId": "RSPvQlpr05I",
-      "title": "뭐가부어!!",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:KbE6B2K4yD4",
-      "videoId": "KbE6B2K4yD4",
-      "title": "찜질방 아이스방 vs 불한증막( only #shorts )",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:CI8cNIUh1xM",
-      "videoId": "CI8cNIUh1xM",
-      "title": "귀여운 개, 세상을 구한다( only #shorts )",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:GGuq6POP_B4",
-      "videoId": "GGuq6POP_B4",
-      "title": "Older sister stealing her younger sister's lip gloss",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:TetRbgVPFYI",
-      "videoId": "TetRbgVPFYI",
-      "title": "The Real Identity of the Spicy Cold Noodles That Made Song Ha-young Cry #shorts",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:-eMIK-LFHZw",
-      "videoId": "-eMIK-LFHZw",
-      "title": "Bedtime Relatability #shorts",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:CHbrG9yQSzE",
-      "videoId": "CHbrG9yQSzE",
-      "title": "Playing Music in the Shower vs. Not #shorts",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:s2UUUY2ZW5U",
-      "videoId": "s2UUUY2ZW5U",
-      "title": "Driving Expert Jeoni #shorts",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:YHoNIYVeODo",
-      "videoId": "YHoNIYVeODo",
-      "title": "불냉면 먹고 탭댄스 춤  ( only #shorts )",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:l1YAdC48I84",
-      "videoId": "l1YAdC48I84",
-      "title": "프로미스나인 콘서트 오프닝 유출...더보기  ( only #shorts )",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Idv2NVPWs48",
-      "videoId": "Idv2NVPWs48",
-      "title": "Song Hayoung’s first attempt at acting at the concert #shorts",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:wwQcxTda8O0",
-      "videoId": "wwQcxTda8O0",
-      "title": "1 Million View Goal Accomplished (+Bungee Jumping)",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:BBLs7AwpaDU",
-      "videoId": "BBLs7AwpaDU",
-      "title": "불냉 먹자마자 안광 사라짐",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:iY44x9r5yjk",
-      "videoId": "iY44x9r5yjk",
-      "title": "이거 불냉면 마즈나요",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:WHaUFTdy2vc",
-      "videoId": "WHaUFTdy2vc",
-      "title": "웃지 못한 이나경",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
+        "jiwon",
         "nagyung"
       ],
-      "duration": null,
+      "duration": "PT9M38S",
       "source": "youtube"
     },
     {
-      "id": "yt:ssLZPs6RotU",
-      "videoId": "ssLZPs6RotU",
-      "title": "Shaking Hands, Shaking Soul",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
+      "id": "yt:S5jTVupUSbQ",
+      "videoId": "S5jTVupUSbQ",
+      "title": "프로미스나인 MBC 가요대제전 뿌앵 썰, 스프 이게 뭐에요?!, 컴백 언제 하나요?",
+      "category": "sp_original",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-05-29T09:00:30Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:WUarLcSeKsA",
-      "videoId": "WUarLcSeKsA",
-      "title": "You eat it, it's real",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:6m66Jy-oAMU",
-      "videoId": "6m66Jy-oAMU",
-      "title": "습하소닉",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:2LyyEkr24B0",
-      "videoId": "2LyyEkr24B0",
-      "title": "등대고 앉음^^",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:UqYeaY0GrrI",
-      "videoId": "UqYeaY0GrrI",
-      "title": "이 편지는 영국에서 시작되어..",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:hB-5h846RfY",
-      "videoId": "hB-5h846RfY",
-      "title": "자취 1일차 특",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:HB7tKcC8Oy0",
-      "videoId": "HB7tKcC8Oy0",
-      "title": "하집사의 삶",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:VW1SMsC0-lU",
-      "videoId": "VW1SMsC0-lU",
-      "title": "8년 만에 독립에 성공한 막내",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:wJb5GSf487A",
-      "videoId": "wJb5GSf487A",
-      "title": "밑도 끝도 없는 만약에 시리즈",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:hlvEyo3Vtrs",
-      "videoId": "hlvEyo3Vtrs",
-      "title": "The Real Boss of fromis_9",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:YUcF655zEqg",
-      "videoId": "YUcF655zEqg",
-      "title": "언니 앞에 선 돌려 마셔야지",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:39MfqngPbNU",
-      "videoId": "39MfqngPbNU",
-      "title": "송하영 면치기 원본",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ddHDL8aXivI",
-      "videoId": "ddHDL8aXivI",
-      "title": "2025 요즘 소맥 비율",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ii06kEuR2kg",
-      "videoId": "ii06kEuR2kg",
-      "title": "I can totally do that red ginseng thing",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:o1g-A1oxR_o",
-      "videoId": "o1g-A1oxR_o",
-      "title": "내가 백지헌이랬지!!",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:hANxSrHf7zQ",
-      "videoId": "hANxSrHf7zQ",
-      "title": "정품입니다만",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:jB9XxMIHrhU",
-      "videoId": "jB9XxMIHrhU",
-      "title": "Looking for Nakyoung to go to a deserted island with Hayoung",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:PdhKaGpaBhM",
-      "videoId": "PdhKaGpaBhM",
-      "title": "똥강아지가 되..",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Fzt_ZB3ZOwA",
-      "videoId": "Fzt_ZB3ZOwA",
-      "title": "LIKE YOU BETTER 들으러가야지",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:F0mqMs66QVo",
-      "videoId": "F0mqMs66QVo",
-      "title": "현타 제대로 온 이채영",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:FVY_nB2L7pI",
-      "videoId": "FVY_nB2L7pI",
-      "title": "철원에서 백지헌 인생네컷 only #shorts",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:DgwwOEQTVBo",
-      "videoId": "DgwwOEQTVBo",
-      "title": "Next time, I'm really cleaning out the closet",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Q7vue3NfcPE",
-      "videoId": "Q7vue3NfcPE",
-      "title": "집사 괌",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:SiZuxt5ywbQ",
-      "videoId": "SiZuxt5ywbQ",
-      "title": "I'm the only one wearing it",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:eMjsDgqNv7A",
-      "videoId": "eMjsDgqNv7A",
-      "title": "A barrage of awkward moments",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:fp_IvLtqLzQ",
-      "videoId": "fp_IvLtqLzQ",
-      "title": "Is this Architecture 101?🤔",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:QTnkoQ2Ilq8",
-      "videoId": "QTnkoQ2Ilq8",
-      "title": "프나 막내를 강하게 키워",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:WnBGY9nDtHQ",
-      "videoId": "WnBGY9nDtHQ",
-      "title": "Song Hayoung's New Vocal Technique",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:1qO8pacyWjY",
-      "videoId": "1qO8pacyWjY",
-      "title": "가짜의 삶을 벗어 던진 프로미스나인",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:LQtJlMcheY4",
-      "videoId": "LQtJlMcheY4",
-      "title": "If I crash, my bank account crashes too",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:MWv68VaWY7c",
-      "videoId": "MWv68VaWY7c",
-      "title": "I never want to sleep again",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:lKIUqVTygyk",
-      "videoId": "lKIUqVTygyk",
-      "title": "발이 안 닿아...",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:f2C639NJ75w",
-      "videoId": "f2C639NJ75w",
-      "title": "검은깨 3알 = 비숑",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Esn1HSCthjA",
-      "videoId": "Esn1HSCthjA",
-      "title": "It’s not that I don’t trust you, but we have a comeback to do...",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:tq2l7f8txUw",
-      "videoId": "tq2l7f8txUw",
-      "title": "장롱면허 운전 대성공?!",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:WAcxe6tpjyY",
-      "videoId": "WAcxe6tpjyY",
-      "title": "Lee Chae-young's holy grail items for serious brightening(?!)",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:nOEvA9SDCp4",
-      "videoId": "nOEvA9SDCp4",
-      "title": "다음 콘텐츠 이거다",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:35-xastFMo4",
-      "videoId": "35-xastFMo4",
-      "title": "So where do you buy this?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:D0giSCAQ8Sc",
-      "videoId": "D0giSCAQ8Sc",
-      "title": "편집자) 바로 쟁임",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:htNAV9KTZW8",
-      "videoId": "htNAV9KTZW8",
-      "title": "밥 맛 좋은 소식좌",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:LGf1A7U3FAQ",
-      "videoId": "LGf1A7U3FAQ",
-      "title": "어떻냐구 어떻냐구",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:8wT70Fk10J0",
-      "videoId": "8wT70Fk10J0",
-      "title": "역술가님… 플로버 시죠..?",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:hdREBhH9zKw",
-      "videoId": "hdREBhH9zKw",
-      "title": "Why buy cherry tomatoes? Song Ha-young harvests them at home",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:9765jQKhJH0",
-      "videoId": "9765jQKhJH0",
-      "title": "약간 공포의 쓴맛 잘할 것 같은 채널주",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:GO6Fgrq436I",
-      "videoId": "GO6Fgrq436I",
-      "title": "배가 고파서 슬픈 채영이",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:NcsuycDEs7I",
-      "videoId": "NcsuycDEs7I",
-      "title": "언니들 평생 나 책임져ㅠ",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:7FYAbcJzBHs",
-      "videoId": "7FYAbcJzBHs",
-      "title": "썸머퀸의 자리 나로부터ㅋㅋ",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:0kcYjwzbe6Q",
-      "videoId": "0kcYjwzbe6Q",
-      "title": "Subscribe if you're curious about the Funa house tour!!",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:SRnn6si2Cmk",
-      "videoId": "SRnn6si2Cmk",
-      "title": "We were supposed to film from behind, weren't we? ㅠㅠ",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:j5KI1jY9pqc",
-      "videoId": "j5KI1jY9pqc",
-      "title": "프나 웃긴 채널 낋여 옴 많관부  [ only #shorts ]",
-      "category": "shorts",
-      "channelTitle": "",
-      "publishedAt": null,
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": null,
+      "duration": "PT9M1S",
       "source": "youtube"
     }
   ]

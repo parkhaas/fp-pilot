@@ -42,6 +42,7 @@ sources.json
 | `playlists[].id` | string | — | 재생목록 ID(`PL...`). 비어 있으면 그 항목은 무시됨 |
 | `playlists[].category` | string | — | 이 재생목록 영상의 카테고리. `"auto"` 면 자동 분류 |
 | `playlists[].label` | string | — | 사람이 알아보기 위한 메모(크롤러는 사용 안 함) |
+| `playlists[].members` | string[] | — | 이 재생목록 영상의 기본 멤버. 제목·설명에서 멤버가 검출되지 않을 때만 이 값을 씀 (예: 하냥카세 → `["hayoung"]`). `extraChannels[]` 에도 동일하게 쓸 수 있음 |
 | `extraChannels[]` | array | 아니오 | **공식 외** 채널의 재생목록. 각 항목 `{ playlistId, category, label }` |
 | `extraChannels[].playlistId` | string | — | 외부 재생목록 ID. 비어 있으면 무시 |
 | `keywordRules` | object | 아니오 | `"auto"` 분류에 쓰는 카테고리별 키워드 목록 (아래 5·6절) |
@@ -149,6 +150,8 @@ sources.json
 { "id": "nagyung", "name": "이나경", "aliases": ["이나경", "나경", "nagyung", "lee nagyung"] }
 ```
 
+- 특정 멤버 코너(하냥카세 등)는 재생목록에 `"members": ["hayoung"]` 를 지정하면
+  제목에 이름이 없어도 그 멤버로 태깅됩니다(제목에서 다른 멤버가 잡히면 그쪽이 우선).
 - 직캠처럼 특정 멤버 영상이 많은 소스인데 이름 표기가 제각각이면 alias 를 보강하세요.
 - 두 글자 alias(`지원`, `지선`, `채영` 등)는 다른 단어에 우연히 포함될 수 있습니다.
   오탐이 잦으면 두 글자 alias 를 빼고 `박지원` / `노지선` 처럼 성을 붙인 형태만 남기세요.

@@ -156,15 +156,17 @@ def classify(title: str, desc: str, dur: int, rules: dict, max_shorts: int) -> s
     return "variety_external"
 
 
-def detect_members(title: str, desc: str, members: list[dict]) -> list[str]:
-    text = f"{title} {desc}".lower()
+def detect_members(title: str, members: list[dict]) -> list[str]:
+    """제목에서만 멤버를 추정한다. 설명란 해시태그는 보통 전 멤버를 나열해
+    필터 의미가 없어지므로 제외한다."""
+    text = (title or "").lower()
     hits = []
     for m in members:
         if m["id"] == "all":
             continue
         if any(alias.lower() in text for alias in m.get("aliases", [])):
             hits.append(m["id"])
-    return hits or ["all"]
+    return hits
 
 
 # --------------------------------------------------------------------------- #
@@ -204,22 +206,22 @@ def main() -> None:
 
     # 1) 소스 목록 구성
     _, uploads_playlist = resolve_channel(cfg, args.api_key)
-    tasks: list[tuple[str, str]] = []  # (playlistId, category)
+    tasks: list[tuple[str, str, list]] = []  # (playlistId, category, defaultMembers)
     if cfg.get("includeUploads", True):
-        tasks.append((uploads_playlist, cfg.get("uploadsCategory", "auto")))
+        tasks.append((uploads_playlist, cfg.get("uploadsCategory", "auto"), []))
     for pl in cfg.get("playlists", []):
         if pl.get("id"):
-            tasks.append((pl["id"], pl.get("category", "auto")))
+            tasks.append((pl["id"], pl.get("category", "auto"), pl.get("members", [])))
     for ex in cfg.get("extraChannels", []):
         if ex.get("playlistId"):
-            tasks.append((ex["playlistId"], ex.get("category", "auto")))
+            tasks.append((ex["playlistId"], ex.get("category", "auto"), ex.get("members", [])))
 
-    # 2) 수집 (뒤에 오는 재생목록의 category_hint 가 우선)
-    hint_by_id: dict[str, str] = {}
-    for playlist_id, category in tasks:
+    # 2) 수집 (뒤에 오는 소스의 category/members 가 우선)
+    hint_by_id: dict[str, tuple[str, list]] = {}
+    for playlist_id, category, def_members in tasks:
         try:
             for row in collect_playlist(playlist_id, category, args.api_key, cap):
-                hint_by_id[row["videoId"]] = row["category_hint"]
+                hint_by_id[row["videoId"]] = (category, def_members)
         except RuntimeError as e:
             print(f"[경고] 재생목록 {playlist_id} 건너뜀: {e}", file=sys.stderr)
 
@@ -233,7 +235,7 @@ def main() -> None:
     ts = now_iso()
     records: list[dict] = []
     skipped = 0
-    for vid, hint in hint_by_id.items():
+    for vid, (hint, def_members) in hint_by_id.items():
         d = details.get(vid)
         if not d:
             skipped += 1
@@ -251,6 +253,12 @@ def main() -> None:
         dur = duration_seconds(d.get("contentDetails", {}).get("duration", ""))
         category = hint if hint and hint != "auto" else classify(title, desc, dur, rules, max_shorts)
 
+        hits = detect_members(title, members)
+        if def_members:
+            mem = sorted(set(def_members) | set(hits))   # 코너 고정 멤버 + 제목에 언급된 게스트
+        else:
+            mem = hits or ["all"]
+
         prev = existing_by_id.get(vid)
         records.append(
             {
@@ -261,7 +269,7 @@ def main() -> None:
                 "channelTitle": sn.get("channelTitle", ""),
                 "publishedAt": sn.get("publishedAt"),
                 "addedAt": prev["addedAt"] if prev and prev.get("addedAt") else ts,
-                "members": detect_members(title, desc, members),
+                "members": mem,
                 "duration": d.get("contentDetails", {}).get("duration", ""),
                 "source": "youtube",
             }

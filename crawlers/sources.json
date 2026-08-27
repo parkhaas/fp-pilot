@@ -1,27 +1,26 @@
 {
-  "_comment": "YouTube Data API v3 로 수집할 소스 정의. 작성법 상세: crawlers/sources.md 참고. channelId 를 알면 채워두면 handle 조회 1회를 아낍니다.",
+  "_comment": "YouTube Data API v3 로 수집할 소스 정의. 작성법 상세: crawlers/sources.md 참고.",
 
-  "handle": "@fromis_9",
-  "channelId": "",
+  "handle": "@studiofromis_9",
+  "channelId": "UCeUJ8B3krxw8zuDi19AlhaA",
 
-  "includeUploads": true,
+  "includeUploads": false,
   "uploadsCategory": "auto",
-  "maxPerPlaylist": 500,
+  "maxPerPlaylist": 800,
 
   "playlists": [
-    { "id": "", "category": "self_content",     "label": "채널나인 / 자체콘텐츠 재생목록 ID 를 넣으세요" },
-    { "id": "", "category": "mv_teaser",         "label": "MV·티저 재생목록" },
-    { "id": "", "category": "music_show",        "label": "음악방송 무대 재생목록" }
+    { "id": "PLwUBcVcUN10lm4sCOPiD7h1AAC8yA3Wf3", "category": "sp_original", "label": "스프 : 오리지널",  "members": [] },
+    { "id": "PLwUBcVcUN10nanVuI5xnYKYZMvsNe66sE", "category": "sp_vlog",     "label": "스프 : 슾log",     "members": [] },
+    { "id": "PLwUBcVcUN10khLQIKVLmqfh0vCCR3mEMf", "category": "sp_game",     "label": "스프 : 게임할꼬",  "members": [] },
+    { "id": "PLwUBcVcUN10nSR6mFn56nb9BbwRx0XX-x", "category": "sp_survive",  "label": "스프 : 살아남기",  "members": [] },
+    { "id": "PLwUBcVcUN10nIx3JRmd-QjSyZWXd6cVsy", "category": "sp_beauty",   "label": "스프 : 뷰티&패션", "members": [] },
+    { "id": "PLA7OSXHRo5-k",                       "category": "sp_corp",     "label": "스프 : 프나상사",  "members": [] },
+    { "id": "PLwUBcVcUN10lDK2WG6FbuXQXBNKzLfBPk", "category": "sp_hayoung",  "label": "스프 : 하냥카세",  "members": ["hayoung"] },
+    { "id": "PLwUBcVcUN10kTmYQZ3HDe3x0jOEYqt6tN", "category": "sp_jiwon",    "label": "스프 : 젼메추",    "members": ["jiwon"] },
+    { "id": "PLwUBcVcUN10kY9zP39bezValB9Z5Pb_qw", "category": "sp_chaeng",   "label": "스프 : 챙그랑",    "members": ["chaeyoung"] }
   ],
 
-  "extraChannels": [
-    {
-      "_comment": "공식 외 채널(예: M2, 스브스케이팝 등)의 특정 재생목록만 카테고리 지정해 추가",
-      "playlistId": "",
-      "category": "stage_fancam",
-      "label": ""
-    }
-  ],
+  "extraChannels": [],
 
   "keywordRules": {
     "shorts":          ["#shorts", "shorts"],

@@ -20,8 +20,6 @@ window.FF_CONFIG = {
     { id: "sp_hayoung",  label: "하냥카세" },
     { id: "sp_jiwon",    label: "젼메추" },
     { id: "sp_chaeng",   label: "챙그랑" },
-    { id: "shorts",      label: "쇼츠" },
-    { id: "sp_etc",      label: "기타" },
   ],
 
   /* 홈 화면 캐러셀에서 카테고리별로 보여줄 최대 개수 */
