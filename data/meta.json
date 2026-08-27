@@ -1,8 +1,11 @@
 {
-  "updatedAt": "2026-08-27T08:02:39Z",
-  "generator": "youtube-api",
-  "total": 354,
+  "updatedAt": "2026-08-27T08:35:04Z",
+  "generator": "yt-dlp",
+  "total": 1088,
   "counts": {
+    "music_show": 506,
+    "stage_fancam": 216,
+    "special_stage": 12,
     "plunen_idanjang": 82,
     "pulmuone_ei2": 28,
     "musinsa_seongsugi": 22,

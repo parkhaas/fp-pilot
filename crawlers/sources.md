@@ -348,6 +348,23 @@ python crawlers/youtube_crawler.py --config crawlers/sources.json --out data
 python crawlers/youtube_crawler.py --config crawlers/sources.json --out data --since 2025-08-01
 ```
 
+### 쿼터 없이 백필: `collect_ytdlp.py` (yt-dlp)
+
+`search.list` 쿼터(호출당 100)를 쓰기 싫거나 소진됐을 때, 같은 `sources.json` 을
+읽어 **yt-dlp 스크래핑**으로 수집합니다. API 키·쿼터 불필요.
+
+```bash
+python -m pip install --user yt-dlp
+python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data           # 전체
+python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --only search
+```
+
+- `search[]` 는 `youtube.com/channel/<ID>/search?query=` 탭을 flat 추출 → 2018 데뷔분까지 수집.
+- flat 모드엔 description 이 없어 `textAny/textAll` 은 **제목 기준**으로만 검사됩니다.
+- 기존 `data/videos.json` 과 병합(addedAt 보존) — API 데이터 위에 얹어도 됩니다.
+- **GitHub Actions IP 는 봇 차단을 자주 맞으므로** 정기 수집은 API(`youtube_crawler.py`),
+  이 스크립트는 **로컬 백필 전용**으로 쓰세요.
+
 ---
 
 ## 10. 자주 하는 실수
