@@ -19,7 +19,7 @@
     chartBy: "category", // 소개 페이지 파이차트 기준: "category" | "year"
     membersExpanded: false, // 멤버 필터에서 이전(탈퇴) 멤버 노출 여부
     member: "all",
-    sort: "added",
+    sort: "newest", // 기본 정렬: 최신 발행순
     q: "",
     limit: CFG.pageSize,
   };
@@ -59,11 +59,30 @@
     return m ? m.name : id;
   };
 
-  const fmtDate = (iso) => {
-    if (!iso) return "";
+  // KST(Asia/Seoul) 로 변환한 날짜/시간 파트
+  const kstParts = (iso) => {
+    if (!iso) return null;
     const d = new Date(iso);
-    if (isNaN(d)) return "";
-    return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`;
+    if (isNaN(d)) return null;
+    const p = new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Asia/Seoul",
+      year: "numeric", month: "2-digit", day: "2-digit",
+      hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false,
+    }).formatToParts(d).reduce((o, x) => ((o[x.type] = x.value), o), {});
+    if (p.hour === "24") p.hour = "00";
+    return p;
+  };
+
+  // 카드/모달용: "YYYY.MM.DD HH:mm" (KST)
+  const fmtDate = (iso) => {
+    const p = kstParts(iso);
+    return p ? `${p.year}.${p.month}.${p.day} ${p.hour}:${p.minute}` : "";
+  };
+
+  // About "마지막 업데이트"용: "YYYY.MM.DD HH:mm:ss KST"
+  const fmtDateTimeSec = (iso) => {
+    const p = kstParts(iso);
+    return p ? `${p.year}.${p.month}.${p.day} ${p.hour}:${p.minute}:${p.second} KST` : "―";
   };
 
   const catLabel = (id) => (CFG.catLabels && CFG.catLabels[id]) || id;
@@ -145,7 +164,7 @@
     if (p.get("song")) sel.song = p.get("song");
     state.sel = sel;
     state.member = p.get("member") || "all";
-    state.sort = p.get("sort") || "added";
+    state.sort = p.get("sort") || "newest";
     state.q = p.get("q") || "";
 
     const hasSel = sel.cat || sel.cats || sel.year || sel.song || state.q ||
@@ -166,7 +185,7 @@
       if (s.year) p.set("year", s.year);
       if (s.song) p.set("song", s.song);
       if (state.member !== "all") p.set("member", state.member);
-      if (state.sort !== "added") p.set("sort", state.sort);
+      if (state.sort !== "newest") p.set("sort", state.sort);
       if (state.q) p.set("q", state.q);
       if (![...p].length) p.set("view", "browse"); // 필터 없는 전체보기
     }
@@ -613,7 +632,7 @@
     const counts = catCounts();
     const total = state.videos.length;
     const catN = Object.keys(counts).length;
-    const updated = state.meta.updatedAt ? fmtDate(state.meta.updatedAt) : "―";
+    const up = kstParts(state.meta.updatedAt);
     const gen = state.meta.generator || "―";
 
     const toggle = `
@@ -632,7 +651,7 @@
         <div class="about-stats">
           <div class="stat"><b>${total.toLocaleString("ko")}</b><span>영상</span></div>
           <div class="stat"><b>${catN}</b><span>카테고리</span></div>
-          <div class="stat"><b>${updated}</b><span>마지막 업데이트</span></div>
+          <div class="stat"><b>${up ? `${up.year}.${up.month}.${up.day}` : "―"}</b><span>마지막 업데이트${up ? `<br>${up.hour}:${up.minute}:${up.second} KST` : ""}</span></div>
           <div class="stat"><b>${escapeHtml(gen)}</b><span>수집 방식</span></div>
         </div>
 

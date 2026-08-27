@@ -15,8 +15,11 @@ crawlers/sources.json 을 그대로 읽어 playlists / extraChannels / search[] 
 Shorts 판정 (길이로 판정하지 않음):
   - 신호 #1: 영상 URL 이 /shorts/ 형태 (= YouTube 가 Shorts 로 분류) → shorts.
             sources.json 의 shortsChannels[] 로 채널 /shorts 탭을 통째로 수집.
-  - 신호 #3: --shorts-aspect 옵션. 3분 이내 & 세로(height>width) 인 것만 shorts 로 재분류.
-            (세로직캠은 3분↑ 세로영상이라 제외됨). 영상별 상세 조회라 느림.
+  - --shorts-aspect: shorts 아닌 3분 이내 후보를 (a) youtube.com/shorts/<id> 리다이렉트로
+            확인(200=Shorts) → 재분류, (b) 남은 것 중 세로(height>width) → 재분류.
+            (세로직캠은 3분↑ 이라 후보 아님. (b)는 영상별 조회라 느림)
+  - 참고: yt-dlp/API 키워드·해시태그 검색은 Shorts 를 결과로 돌려주지 않음(테스트 확인).
+          그래서 Shorts 는 채널 /shorts 탭이 유일한 확실한 소스.
 
 주의:
   - search[] 는 "채널 내 검색" 탭( youtube.com/channel/<ID>/search?query= )을 flat 추출합니다.
@@ -29,12 +32,15 @@ Shorts 판정 (길이로 판정하지 않음):
 from __future__ import annotations
 
 import argparse
+import concurrent.futures
 import json
 import re
 import subprocess
 import sys
 import time
+import urllib.error
 import urllib.parse
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -118,6 +124,35 @@ SHORT_MAX_SEC = 180  # Shorts 판정 시 최대 길이(3분). 세로직캠(3분�
 def is_short_url(entry: dict) -> bool:
     """신호 #1 — YouTube 가 이 영상을 Shorts 로 분류(URL 이 /shorts/ 형태)."""
     return "/shorts/" in (entry.get("url") or entry.get("webpage_url") or "")
+
+
+_NO_REDIRECT = urllib.request.build_opener(type(
+    "NR", (urllib.request.HTTPRedirectHandler,),
+    {"redirect_request": lambda *a, **k: None})())
+
+
+def probe_is_short(vid: str) -> bool:
+    """신호 #2 — youtube.com/shorts/<id> 가 200(유지)이면 Shorts, 303(→/watch)이면 아님.
+    검색으로 모은 임의 채널 영상에 쓴다(API·yt-dlp flat 로는 Shorts 여부를 못 주므로)."""
+    req = urllib.request.Request(f"https://www.youtube.com/shorts/{vid}", method="HEAD",
+                                 headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        with _NO_REDIRECT.open(req, timeout=10) as r:
+            return r.status == 200
+    except urllib.error.HTTPError as e:
+        return e.code == 200
+    except Exception:  # noqa: BLE001
+        return False
+
+
+def probe_shorts(ids: list[str]) -> set[str]:
+    out: set[str] = set()
+    with concurrent.futures.ThreadPoolExecutor(max_workers=12) as ex:
+        for vid, ok in zip(ids, ex.map(probe_is_short, ids)):
+            if ok:
+                out.add(vid)
+    print(f"  /shorts/ 확인: {len(ids)}개 중 {len(out)}개가 Shorts")
+    return out
 
 
 def classify(title: str, rules: dict) -> str:
@@ -342,19 +377,25 @@ def main() -> None:
             "source": "youtube",
         })
 
-    # 3.5) 신호 #3 (opt-in): 3분 이내 & shorts 아닌 것 중 세로비율이면 shorts 로 재분류
+    # 3.5) --shorts-aspect (opt-in): shorts 아닌 3분 이내 후보를
+    #   (a) youtube.com/shorts/<id> 리다이렉트로 확인(신호 #2, 빠름) → Shorts 면 재분류
+    #   (b) 남은 것 중 세로비율(신호 #3) → 재분류. (세로직캠은 3분↑ 이라 후보 아님)
     if args.shorts_aspect:
         cands = [r for r in records
                  if r["category"] != "shorts"
                  and 0 < dur_seconds(r.get("duration")) <= SHORT_MAX_SEC]
-        print(f"세로비율 확인 대상: {len(cands)}개 (3분 이내, shorts 아님)")
-        portrait = fetch_portrait_ids([r["videoId"] for r in cands])
+        print(f"Shorts 재확인 대상: {len(cands)}개 (3분 이내, shorts 아님)")
+        ids = [r["videoId"] for r in cands]
+        by_probe = probe_shorts(ids)
+        rest = [v for v in ids if v not in by_probe]
+        by_aspect = fetch_portrait_ids(rest) if rest else set()
+        promote = by_probe | by_aspect
         moved = 0
         for r in records:
-            if r["videoId"] in portrait and r["category"] != "shorts":
+            if r["videoId"] in promote and r["category"] != "shorts":
                 r["category"] = "shorts"
                 moved += 1
-        print(f"세로 → shorts 재분류: {moved}개")
+        print(f"→ shorts 재분류: {moved}개 (리다이렉트 {len(by_probe)} + 세로비율 {len(by_aspect)})")
 
     # 병합: 이번 실행에서 다시 만나지 않은 기존 영상은 그대로 유지
     #  (스크래핑 일부 실패·부분 실행 대비. 신규가 기존보다 우선)
