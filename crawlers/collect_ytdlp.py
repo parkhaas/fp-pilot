@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 """
+[비활성화됨] 이 수집기는 현재 사용하지 않습니다.
+공식 경로는 crawlers/youtube_crawler.py (YouTube Data API v3) 입니다.
+다시 쓰려면 환경변수 ALLOW_YTDLP=1 을 설정하고 실행하세요.
+
 FROMIS-FLIX 데이터 수집기 (API 키 불필요, yt-dlp 사용)
 
 YouTube Data API 키가 없을 때 쓰는 대체 수집기입니다. 공개 페이지의 메타데이터만
@@ -25,6 +29,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -103,6 +108,13 @@ def main() -> None:
     ap.add_argument("--out", default="data")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
+
+    if os.environ.get("ALLOW_YTDLP") != "1":
+        sys.exit(
+            "[비활성화됨] yt-dlp 수집은 현재 막혀 있습니다. "
+            "공식 경로는 crawlers/youtube_crawler.py 입니다. "
+            "그래도 실행하려면 ALLOW_YTDLP=1 을 설정하세요."
+        )
 
     cfg = load_json(Path(args.config), {})
     out_dir = Path(args.out)

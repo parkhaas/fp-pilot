@@ -1,10 +1,9 @@
 name: update-data
 
-# data/*.json 을 갱신하고 변경이 있으면 커밋합니다.
+# YouTube Data API v3 로 data/*.json 을 갱신하고 변경이 있으면 커밋합니다.
 # 커밋이 main 에 푸시되면 deploy 워크플로가 GitHub Pages 를 재배포합니다.
 #
-# 기본은 yt-dlp 수집(API 키 불필요). YOUTUBE_API_KEY 시크릿이 있으면
-# 공식 API 수집(youtube_crawler.py)을 대신 사용합니다.
+# yt-dlp 수집(collect_ytdlp.py)은 현재 비활성화되어 있습니다.
 
 on:
   schedule:
@@ -28,18 +27,15 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Collect data
+      - name: Collect data (YouTube Data API v3)
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
-          if [ -n "$YOUTUBE_API_KEY" ]; then
-            echo "공식 API 수집 사용"
-            python crawlers/youtube_crawler.py --config crawlers/sources.json --out data
-          else
-            echo "yt-dlp 수집 사용 (API 키 없음)"
-            python -m pip install --quiet yt-dlp
-            python crawlers/collect_ytdlp.py --config crawlers/collect.json --out data
+          if [ -z "$YOUTUBE_API_KEY" ]; then
+            echo "::error::YOUTUBE_API_KEY 시크릿이 없습니다. Settings > Secrets and variables > Actions 에 추가하세요."
+            exit 1
           fi
+          python crawlers/youtube_crawler.py --config crawlers/sources.json --out data
 
       - name: Commit data changes
         run: |
