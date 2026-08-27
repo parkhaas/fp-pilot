@@ -245,12 +245,89 @@ sources.json
 
 ---
 
+## 8-5. `search` — 검색 기반 수집 (방송국 무대 / 직캠 / 킬링보이스 등)
+
+재생목록이 없는 콘텐츠는 `search[]` 로 `search.list` API 를 씁니다.
+**호출당 100 쿼터**이므로 `queries` · `channels` · `maxPerQuery` 로 범위를 좁히세요.
+
+```jsonc
+"searchPublishedAfter": "2024-01-01T00:00:00Z",   // search 공통 시작일
+
+"defaultFilter": {                                 // filter 없는 search 항목에 적용
+  "titleAny": ["프로미스나인", "fromis_9", "fromis9"],
+  "excludeText": ["cover", "커버", "reaction", "리액션", "dance practice", "안무 연습"]
+},
+
+"search": [
+  {
+    "label": "방송국 무대·교차편집",
+    "queries": ["프로미스나인 교차편집", "프로미스나인 무대"],
+    "channelIds": ["UCeLPm9yH_a_QH8n6445G-Ow", "..."],  // 이 채널들로만 검색 (권장)
+    "category": "music_show",
+    "order": "date",           // date | relevance | viewCount
+    "maxPerQuery": 40          // (쿼리 × 채널) 조합당 상한
+  },
+  {
+    "label": "스페셜 (킬링보이스 등)",
+    "queries": ["프로미스나인", "fromis_9"],
+    "channels": ["@dingomusic", "@The_FirstTake"],       // 핸들도 가능 (자동 ID 변환)
+    "category": "special_stage",
+    "order": "relevance",
+    "maxPerQuery": 25,
+    "filter": { "titleAny": ["프로미스나인", "fromis"], "excludeText": ["cover", "리액션"] }
+  }
+]
+```
+
+- `channels`(핸들) 와 `channelIds`(UC..) 는 합쳐집니다. 하나라도 있으면 그 채널들 안에서만 검색.
+  둘 다 없으면 **전체 검색**(노이즈 많음 → `filter` 를 빡세게).
+- 검색 후보는 `videos.list` 상세 조회를 거쳐 아래 `filter` 규칙으로 최종 선별됩니다.
+- 확보해 둔 채널 ID: `crawlers/sources.json` 의 `search[].channelIds` 주석 참고
+  (KBS `UCeLPm9yH_a_QH8n6445G-Ow`, MBC `UCe52oeb7Xv_KaJsEzcKXJJg`,
+   SBS `UCS_hnpJLQTvBkqALgapi_4g`, Mnet `UCqJ3rYYs-n5blu6JxpciQjA`,
+   M2/MPD `UCbNC3nyv42BLe71Q9mW5H0Q`, 1theK `UCweOkPb1wVVH0Q0Tlj4a5Pw`).
+
+---
+
+## 8-6. `filter` — 상세 필터 규칙 (playlists · extraChannels · search 공용)
+
+`filter` 는 `videos.list` 상세(제목·설명·채널명·길이·게시일)에 적용됩니다.
+지정한 항목만 검사하며 **모두 AND** 로 동작합니다.
+
+| 키 | 의미 |
+|---|---|
+| `titleAny` / `titleAll` | 제목에 (하나 이상 / 전부) 포함 |
+| `textAny` / `textAll` | 제목+설명에 (하나 이상 / 전부) 포함 |
+| `channelAny` | `channelTitle` 에 하나 이상 포함 (전체 검색 시 방송국만 남길 때) |
+| `excludeText` | 제목+설명에 하나라도 있으면 **탈락** (커버·리액션·안무연습 등) |
+| `excludeChannels` | `channelTitle` 에 하나라도 있으면 탈락 |
+| `minSec` / `maxSec` | 영상 길이(초) 하한 / 상한 (`0` = 무제한). 예: 직캠만 원하면 `minSec: 60` |
+| `publishedAfter` / `publishedBefore` | ISO8601 게시일 범위 |
+
+- 모든 비교는 **소문자·부분 일치**.
+- `playlists[]` / `extraChannels[]` 의 `filterKeywords: [...]` 는 `filter: { "titleAny": [...] }` 의 축약형입니다. 둘 다 있으면 `filter` 가 우선.
+- `search[]` 항목에 `filter` 가 없으면 최상위 `defaultFilter` 가 적용됩니다(`filter: {}` 로 명시하면 필터 없음).
+
+예 — 전체 검색에서 방송 4사 무대만, 30초 이상, 커버 제외:
+```json
+"filter": {
+  "channelAny": ["kbs", "mbc", "sbs", "mnet", "m2", "1thek"],
+  "excludeText": ["cover", "커버", "reaction", "리액션", "교차편집 by"],
+  "minSec": 30
+}
+```
+
+---
+
 ## 9. API 쿼터
 
-- 기본 일일 한도 **10,000 유닛**. `playlistItems.list` · `videos.list` · `channels.list` 는
-  호출당 **1 유닛**(최대 50개 처리).
-- 영상 800개 재생목록 ≈ (16 페이지 + 16 상세) ≈ **32 유닛**. 재생목록 10개를 6시간마다 돌려도
-  하루 1,300 유닛 수준이라 여유롭습니다.
+- 기본 일일 한도 **10,000 유닛**.
+- `playlistItems.list` · `videos.list` · `channels.list` = 호출당 **1 유닛**(최대 50개).
+- **`search.list` = 호출당 100 유닛.** `search[]` 는 (쿼리 수 × 채널 수 × 페이지 수) 만큼
+  호출되니 주의. 예: 쿼리 3 × 채널 6 × 1페이지 = 18호출 ≈ **1,800 유닛**.
+- 영상 800개 재생목록 ≈ (16 페이지 + 16 상세) ≈ **32 유닛**.
+- 쿼터 절약: `searchPublishedAfter` 를 최근으로 올리기, `maxPerQuery` 낮추기,
+  `channels` 를 꼭 필요한 곳만, `order: "date"` 로 최신부터.
 - `channelId` 를 채워두면 매 실행 `channels.list forHandle` 1회를 아낍니다.
 
 ---
@@ -265,7 +342,10 @@ sources.json
 | 라이브/예정 영상이 안 들어옴 | 의도된 동작. `liveBroadcastContent` 가 `live`/`upcoming` 이면 제외 |
 | 비공개·임베드 불가 영상 누락 | 의도된 동작(`privacyStatus != public` 또는 `embeddable == false` 제외) |
 | "추가된 순"이 매번 뒤섞임 | `data/videos.json` 을 커밋하지 않아 `addedAt` 이 유지되지 않음. Actions가 커밋하도록 두거나 로컬 결과를 커밋 |
-| `HTTP 403 ... quota` 로 중단 | 쿼터 초과. 다음 날(태평양시간 자정) 초기화, 또는 `maxPerPlaylist` 축소 |
+| `HTTP 403 ... quota` 로 중단 | 쿼터 초과. `search[]` 가 원인인 경우가 많음 → `maxPerQuery`·쿼리 수 줄이기, `searchPublishedAfter` 올리기. 다음 날(태평양시간 자정) 초기화 |
+| `HTTP 403 ... referer ... blocked` | API 키에 **HTTP 리퍼러 제한**이 걸림. 스크립트/Actions 에서는 못 씀 → Cloud Console 에서 애플리케이션 제한을 **없음**, API 제한만 YouTube Data API v3 로 |
+| search 결과에 커버·리액션·직캠러 영상 섞임 | `filter.excludeText` / `filter.excludeChannels` 보강, `channels` 로 채널 제한, `filter.channelAny` 로 방송국만 |
+| search 가 우리 그룹 아닌 영상까지 가져옴 | `defaultFilter.titleAny` 또는 항목별 `filter.titleAny` 에 그룹명 필수 지정 |
 
 ---
 

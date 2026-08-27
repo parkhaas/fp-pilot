@@ -30,6 +30,49 @@
     }
   ],
 
+  "searchPublishedAfter": "2024-01-01T00:00:00Z",
+
+  "defaultFilter": {
+    "titleAny": ["프로미스나인", "fromis_9", "fromis9", "fromis 9"],
+    "excludeText": ["cover", "커버", "reaction", "리액션", "dance practice", "안무 연습",
+                    "커버댄스", "cover dance", "교실", "lesson", "따라잡기", "거울모드", "mirrored"]
+  },
+
+  "search": [
+    {
+      "label": "방송국 무대·교차편집",
+      "queries": ["프로미스나인 교차편집", "프로미스나인 무대", "fromis_9 stage mix"],
+      "channelIds": [
+        "UCeLPm9yH_a_QH8n6445G-Ow", "UCe52oeb7Xv_KaJsEzcKXJJg",
+        "UCS_hnpJLQTvBkqALgapi_4g", "UCqJ3rYYs-n5blu6JxpciQjA",
+        "UCbNC3nyv42BLe71Q9mW5H0Q", "UCweOkPb1wVVH0Q0Tlj4a5Pw"
+      ],
+      "category": "music_show",
+      "order": "date",
+      "maxPerQuery": 40
+    },
+    {
+      "label": "직캠 (MPD·1theK)",
+      "queries": ["프로미스나인 직캠", "프로미스나인 4K 직캠", "fromis_9 fancam"],
+      "channelIds": ["UCbNC3nyv42BLe71Q9mW5H0Q", "UCweOkPb1wVVH0Q0Tlj4a5Pw"],
+      "category": "stage_fancam",
+      "order": "date",
+      "maxPerQuery": 40
+    },
+    {
+      "label": "스페셜 (킬링보이스·라이브클립·퍼스트테이크)",
+      "queries": ["프로미스나인", "fromis_9"],
+      "channels": ["@dingomusic", "@The_FirstTake"],
+      "category": "special_stage",
+      "order": "relevance",
+      "maxPerQuery": 25,
+      "filter": {
+        "titleAny": ["프로미스나인", "fromis"],
+        "excludeText": ["cover", "커버", "reaction", "리액션", "shorts", "#shorts"]
+      }
+    }
+  ],
+
   "keywordRules": {
     "shorts":          ["#shorts", "shorts"],
     "stage_fancam":    ["직캠", "fancam", "focus cam", "세로직캠", "4k 직캠"],
