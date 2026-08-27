@@ -295,6 +295,17 @@
     return !node.divider && (node.children || node.subBy);
   }
 
+  // 2단 패널을 보여줄 가치가 있는가?  "전체" 를 뺀 실질 하위 항목이 2개 이상일 때만.
+  // (예: 이아이는요2 처럼 연도가 2026 하나뿐이면 패널 없이 바로 이동)
+  function hasSub(node) {
+    if (!isGroup(node)) return false;
+    const real = childrenOf(node).filter((k) => {
+      const isAll = node.withAll && selKey(k.sel) === selKey(node.sel);
+      return !isAll && k.count > 0;
+    });
+    return real.length >= 2;
+  }
+
   function nodeContainsSel(node, sel) {
     const k = selKey(sel);
     // 그룹의 base sel 이 비어 있으면(예: "기간별 보기") 그 자체로는 선택 대상이 아님 —
@@ -354,7 +365,7 @@
       const total = applySel(state.videos, node.sel || {}).length;
       if (!total && !CFG.showEmptyGroups) continue;
       const b = navBtn(node.label, total, {
-        drill: true,
+        drill: hasSub(node),
         active: browsing && (state.subGroup === node.id || nodeContainsSel(node, state.sel)),
       });
       b.classList.add("nav-lv1", "nav-grouphead");
@@ -364,7 +375,7 @@
 
     // --- 2단: 하위 ---
     const node = navNode(state.subGroup);
-    if (node) {
+    if (node && hasSub(node)) {
       el.pane2Title.textContent = node.label;
       el.pane2List.innerHTML = "";
       for (const k of childrenOf(node)) {
@@ -384,28 +395,29 @@
   }
 
   function openSub(node) {
-    state.subGroup = node.id;
-    // 하위 메뉴가 있는 1단계 항목을 누르면 드로어는 유지한 채 바로 화면 적용
+    // 하위 항목이 2개 이상일 때만 2단 패널을 띄우고, 아니면 바로 이동
+    const showPanel = hasSub(node);
+    state.subGroup = showPanel ? node.id : null;
+
     let target = null;
     if (node.withAll && node.sel && Object.keys(node.sel).length) {
       target = { ...node.sel }; // 그룹의 "전체"
     } else if (node.subBy === "year") {
-      // 기간별 보기: 올해(없으면 가장 최근 연도) 적용
-      const kids = childrenOf(node); // 최신순
-      const cur = String(new Date().getFullYear());
-      const hit = kids.find((k) => k.sel.year === cur) || kids[0];
-      if (hit) target = { ...hit.sel };
+      // 연도형(withAll 없음): 패널 있으면 올해, 없으면 유일한 연도
+      const years = childrenOf(node).filter((k) => k.sel.year && k.count > 0);
+      if (years.length) {
+        const cur = String(new Date().getFullYear());
+        target = { ...((years.find((k) => k.sel.year === cur)) || years[0]).sel };
+      }
     }
     if (target) {
       state.view = "browse";
       state.sel = target;
       state.limit = CFG.pageSize;
       writeUrl();
-      buildNav();
       render();
-    } else {
-      buildNav();
     }
+    buildNav();
   }
   function closeSub() {
     state.subGroup = null;
