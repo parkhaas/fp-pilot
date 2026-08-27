@@ -336,6 +336,8 @@ def main() -> None:
                     help="search 시작일 override (YYYY-MM-DD 또는 ISO8601). "
                          "정기 실행은 최근 N일만 검색해 쿼터를 아끼고, 생략 시 sources.json 의 "
                          "searchPublishedAfter(전체 백필)를 사용")
+    ap.add_argument("--no-search", action="store_true",
+                    help="search[] 항목을 건너뜀 (재생목록만 갱신, search 쿼터 절약)")
     ap.add_argument("--dry-run", action="store_true", help="파일을 쓰지 않고 요약만 출력")
     args = ap.parse_args()
 
@@ -389,7 +391,7 @@ def main() -> None:
         except RuntimeError as e:
             print(f"[경고] 재생목록 {ex['playlistId']} 건너뜀: {e}", file=sys.stderr)
 
-    for s in cfg.get("search", []):
+    for s in (cfg.get("search", []) if not args.no_search else []):
         fspec = s.get("filter")
         if fspec is None:
             fspec = default_filter
