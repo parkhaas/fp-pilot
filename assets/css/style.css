@@ -112,10 +112,11 @@ a { color: inherit; }
   font-size: 18px;
 }
 .brand-mark {
-  width: 28px;
-  height: 22px;
+  width: 24px;
+  height: 26px;
   object-fit: contain;
-  filter: brightness(0) invert(1); /* 검정 로고를 드로어(어두운 배경)에서 흰색으로 표시 */
+  /* 드로어는 항상 어두우므로 로고를 흰색으로 강제 (OS 테마와 무관) */
+  filter: brightness(0) invert(1);
 }
 .brand-accent { color: var(--accent); }
 

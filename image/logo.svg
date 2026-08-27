@@ -1,6 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="FLOVER-FLIX">
-  <rect width="64" height="64" rx="14" fill="#0b0b0f"/>
-  <path d="M20 14h24a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H20a4 4 0 0 1-4-4V18a4 4 0 0 1 4-4Z" fill="#16161d"/>
-  <path d="M27 22v20l16-10-16-10Z" fill="#ff5fa2"/>
-  <circle cx="32" cy="32" r="30" fill="none" stroke="#ff5fa2" stroke-width="2" opacity="0.35"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 239 274" width="239" height="274" role="img" aria-label="FLOVER-FLIX">
+  <style>
+    /* 파비콘/외부 이미지로 쓰일 때 브라우저(OS) 테마에 맞춰 색 반전 */
+    path { fill: #14141a; }
+    @media (prefers-color-scheme: dark) { path { fill: #f4f4f6; } }
+  </style>
+  <path fill-rule="evenodd" d="M 85 0 L 71 0 L 70 1 L 59 2 L 43 8 L 30 16 L 16 30 L 11 37 L 3 54 L 0 67 L 0 91 L 2 100 L 10 119 L 17 129 L 28 140 L 38 147 L 57 155 L 66 157 L 73 157 L 75 159 L 74 162 L 74 189 L 73 190 L 72 202 L 68 215 L 59 231 L 49 241 L 43 245 L 59 273 L 62 272 L 79 253 L 85 245 L 94 228 L 101 207 L 102 191 L 103 190 L 103 178 L 105 176 L 198 176 L 198 144 L 197 143 L 127 143 L 126 142 L 143 124 L 152 107 L 155 97 L 156 83 L 157 82 L 155 63 L 157 61 L 170 61 L 180 64 L 197 75 L 207 85 L 210 90 L 212 90 L 238 77 L 237 73 L 230 63 L 219 52 L 206 43 L 193 37 L 173 32 L 154 32 L 153 33 L 143 34 L 131 20 L 117 10 L 97 2 L 86 1 Z M 129 74 L 130 75 L 130 85 L 127 97 L 119 111 L 111 119 L 107 121 L 106 120 L 106 110 L 110 96 L 118 83 L 127 74 Z M 85 27 L 103 33 L 109 37 L 116 45 L 98 60 L 86 77 L 81 88 L 77 102 L 76 129 L 75 130 L 68 130 L 54 125 L 44 118 L 38 112 L 33 105 L 28 93 L 26 83 L 26 74 L 29 61 L 34 51 L 47 37 L 55 32 L 66 28 Z"/>
 </svg>
