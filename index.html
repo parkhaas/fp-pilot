@@ -22,7 +22,16 @@
         <button class="drawer-close" id="drawerClose" aria-label="메뉴 닫기">✕</button>
       </div>
 
-      <nav class="nav" id="nav" aria-label="카테고리"></nav>
+      <nav class="nav" id="nav" aria-label="카테고리">
+        <div class="nav-track" id="navTrack">
+          <div class="nav-pane" id="navPane1"></div>
+          <div class="nav-pane" id="navPane2">
+            <button class="nav-back" id="navBack"><span aria-hidden="true">‹</span> 뒤로</button>
+            <p class="nav-pane2-title" id="navPane2Title"></p>
+            <div class="nav-pane2-list" id="navPane2List"></div>
+          </div>
+        </div>
+      </nav>
 
       <div class="sidebar-foot">
         <button class="nav-item nav-about" data-view="about">

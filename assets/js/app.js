@@ -15,7 +15,7 @@
     meta: {},
     view: "browse", // "browse" | "about"
     sel: {}, // { cat?, cats?[], year?, song? }
-    open: new Set(), // 펼쳐진 nav 그룹 id
+    subGroup: null, // 2단 드로어에서 열려 있는 그룹 id
     member: "all",
     sort: "added",
     q: "",
@@ -24,6 +24,11 @@
 
   const el = {
     nav: document.getElementById("nav"),
+    pane1: document.getElementById("navPane1"),
+    pane2: document.getElementById("navPane2"),
+    pane2Title: document.getElementById("navPane2Title"),
+    pane2List: document.getElementById("navPane2List"),
+    navBack: document.getElementById("navBack"),
     sidebar: document.getElementById("sidebar"),
     hamburger: document.getElementById("hamburger"),
     drawerClose: document.getElementById("drawerClose"),
@@ -189,8 +194,8 @@
     state.meta = meta || {};
     state.videos = (videosRaw.videos || []).map(normalizeVideo);
 
-    // 현재 선택을 포함하는 그룹을 펼침
-    openGroupFor(state.sel);
+    // 현재 선택이 속한 그룹의 2단 패널을 열어 둠
+    state.subGroup = subGroupFor(state.sel);
 
     buildMemberFilter();
     el.sortSelect.value = state.sort;
@@ -288,80 +293,100 @@
     return childrenOf(node).some((c) => selKey(c.sel) === k);
   }
 
-  function openGroupFor(sel) {
+  // 현재 선택을 포함하는 그룹 id (없으면 null) — 2단 드로어에서 열어 둘 패널
+  function subGroupFor(sel) {
+    const k = selKey(sel);
+    if (k === selKey({})) return null;
     for (const node of CFG.nav || []) {
-      if (isGroup(node) && nodeContainsSel(node, sel)) state.open.add(node.id);
+      if (!isGroup(node)) continue;
+      if (node.sel && selKey(node.sel) !== selKey({}) && selKey(node.sel) === k) return node.id;
+      if (childrenOf(node).some((c) => selKey(c.sel) === k)) return node.id;
     }
+    return null;
+  }
+
+  const navNode = (id) => (CFG.nav || []).find((n) => n.id === id);
+
+  function navBtn(label, count, opts) {
+    opts = opts || {};
+    const b = document.createElement("button");
+    b.className = "nav-item";
+    b.innerHTML =
+      `<span class="nav-label">${escapeHtml(label)}</span>` +
+      (count != null ? `<span class="nav-count">${count.toLocaleString("ko")}</span>` : "") +
+      (opts.drill ? '<span class="nav-drill" aria-hidden="true">›</span>' : "");
+    if (opts.active) b.classList.add("is-active");
+    return b;
   }
 
   function buildNav() {
-    el.nav.innerHTML = "";
     const activeKey = selKey(state.sel);
+    const browsing = state.view === "browse";
 
+    // --- 1단: 최상위 ---
+    el.pane1.innerHTML = "";
     for (const node of CFG.nav || []) {
       if (node.divider) {
-        el.nav.appendChild(document.createElement("hr")).className = "nav-sep";
+        const hr = document.createElement("hr");
+        hr.className = "nav-sep";
+        el.pane1.appendChild(hr);
         continue;
       }
-
       if (!isGroup(node)) {
-        const b = navBtn(node.label, applySel(state.videos, node.sel).length,
-          state.view === "browse" && activeKey === selKey(node.sel));
-        b.classList.add("nav-item", "nav-lv1");
+        const b = navBtn(node.label, applySel(state.videos, node.sel).length, {
+          active: browsing && activeKey === selKey(node.sel),
+        });
+        b.classList.add("nav-lv1");
         b.addEventListener("click", () => select(node.sel));
-        el.nav.appendChild(b);
+        el.pane1.appendChild(b);
         continue;
       }
-
-      const kids = childrenOf(node);
       const total = applySel(state.videos, node.sel || {}).length;
       if (!total && !CFG.showEmptyGroups) continue;
-
-      const wrap = document.createElement("div");
-      wrap.className = "nav-group";
-      const isOpen = state.open.has(node.id);
-      if (isOpen) wrap.classList.add("open");
-
-      const head = navBtn(node.label, total, false, true);
-      head.classList.add("nav-item", "nav-lv1", "nav-grouphead");
-      head.setAttribute("aria-expanded", String(isOpen));
-      head.addEventListener("click", () => {
-        if (state.open.has(node.id)) state.open.delete(node.id);
-        else state.open.add(node.id);
-        buildNav();
+      const b = navBtn(node.label, total, {
+        drill: true,
+        active: browsing && (state.subGroup === node.id || nodeContainsSel(node, state.sel)),
       });
-      wrap.appendChild(head);
+      b.classList.add("nav-lv1", "nav-grouphead");
+      b.addEventListener("click", () => openSub(node.id));
+      el.pane1.appendChild(b);
+    }
 
-      const sub = document.createElement("div");
-      sub.className = "nav-sub";
-      for (const k of kids) {
+    // --- 2단: 하위 ---
+    const node = navNode(state.subGroup);
+    if (node) {
+      el.pane2Title.textContent = node.label;
+      el.pane2List.innerHTML = "";
+      for (const k of childrenOf(node)) {
         const isAll = node.withAll && selKey(k.sel) === selKey(node.sel);
-        if (k.count === 0 && !isAll) continue; // 빈 하위 항목 숨김("전체"는 유지)
-        const cb = navBtn(k.label, k.count, activeKey === selKey(k.sel));
-        cb.classList.add("nav-item", "nav-lv2");
+        if (k.count === 0 && !isAll) continue;
+        const cb = navBtn(k.label, k.count, {
+          active: browsing && activeKey === selKey(k.sel),
+        });
+        cb.classList.add("nav-lv2");
         cb.addEventListener("click", () => select(k.sel));
-        sub.appendChild(cb);
+        el.pane2List.appendChild(cb);
       }
-      wrap.appendChild(sub);
-      el.nav.appendChild(wrap);
+      el.nav.classList.add("at-sub");
+    } else {
+      el.nav.classList.remove("at-sub");
     }
   }
 
-  function navBtn(label, count, active, caret) {
-    const b = document.createElement("button");
-    b.innerHTML =
-      (caret ? '<span class="nav-caret">▸</span>' : "") +
-      `<span class="nav-label">${escapeHtml(label)}</span>` +
-      `<span class="nav-count">${count.toLocaleString("ko")}</span>`;
-    if (active) b.classList.add("is-active");
-    return b;
+  function openSub(id) {
+    state.subGroup = id;
+    buildNav();
+  }
+  function closeSub() {
+    state.subGroup = null;
+    buildNav();
   }
 
   function select(sel) {
     state.view = "browse";
     state.sel = { ...sel };
     state.limit = CFG.pageSize;
-    openGroupFor(state.sel);
+    state.subGroup = subGroupFor(state.sel);
     writeUrl();
     buildNav();
     render();
@@ -638,6 +663,7 @@
     el.hamburger.addEventListener("click", openDrawer);
     el.drawerClose.addEventListener("click", closeDrawer);
     el.drawerBackdrop.addEventListener("click", closeDrawer);
+    el.navBack.addEventListener("click", closeSub);
 
     el.modal.addEventListener("click", (e) => {
       if (e.target.hasAttribute("data-close")) closeModal();
@@ -645,6 +671,7 @@
     document.addEventListener("keydown", (e) => {
       if (e.key !== "Escape") return;
       if (!el.modal.hidden) closeModal();
+      else if (el.nav.classList.contains("at-sub")) closeSub();
       else if (el.sidebar.classList.contains("is-open")) closeDrawer();
     });
 
@@ -653,7 +680,7 @@
       el.sortSelect.value = state.sort;
       el.search.value = state.q;
       state.limit = CFG.pageSize;
-      openGroupFor(state.sel);
+      state.subGroup = subGroupFor(state.sel);
       buildNav();
       render();
     });
