@@ -296,7 +296,9 @@
 
   function nodeContainsSel(node, sel) {
     const k = selKey(sel);
-    if (node.sel && selKey(node.sel) === k) return true;
+    // 그룹의 base sel 이 비어 있으면(예: "기간별 보기") 그 자체로는 선택 대상이 아님 —
+    // 실제 하위 항목이 일치할 때만 그룹을 활성 표시
+    if (node.sel && selKey(node.sel) !== selKey({}) && selKey(node.sel) === k) return true;
     return childrenOf(node).some((c) => selKey(c.sel) === k);
   }
 
