@@ -1,6 +1,6 @@
 /* FROMIS-FLIX — 정적 팬 아카이브 프론트엔드 (빌드 도구 없음, 바닐라 JS)
    데이터: data/videos.json, data/members.json, data/meta.json
-   상태는 URL 쿼리스트링(?view=&cat=&member=&sort=&q=)에 반영해 공유 가능하게 유지 */
+   상태는 URL 쿼리스트링(?view=&cat=&cats=&year=&song=&member=&sort=&q=)에 반영 */
 
 (() => {
   "use strict";
@@ -14,7 +14,8 @@
     members: [],
     meta: {},
     view: "browse", // "browse" | "about"
-    cat: "home",
+    sel: {}, // { cat?, cats?[], year?, song? }
+    open: new Set(), // 펼쳐진 nav 그룹 id
     member: "all",
     sort: "added",
     q: "",
@@ -22,12 +23,13 @@
   };
 
   const el = {
-    sidebar: document.getElementById("sidebar"),
     nav: document.getElementById("nav"),
+    sidebar: document.getElementById("sidebar"),
     hamburger: document.getElementById("hamburger"),
     drawerClose: document.getElementById("drawerClose"),
     drawerBackdrop: document.getElementById("drawerBackdrop"),
     topbarTitle: document.getElementById("topbarTitle"),
+    topbar: document.getElementById("topbar"),
     filterBar: document.getElementById("filterBar"),
     memberFilter: document.getElementById("memberFilter"),
     sortSelect: document.getElementById("sortSelect"),
@@ -35,7 +37,6 @@
     content: document.getElementById("content"),
     loading: document.getElementById("loading"),
     metaLine: document.getElementById("metaLine"),
-    topbar: document.getElementById("topbar"),
     modal: document.getElementById("videoModal"),
     modalPlayer: document.getElementById("modalPlayer"),
     modalTitle: document.getElementById("modalTitle"),
@@ -58,13 +59,22 @@
     return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`;
   };
 
-  const catLabel = (id) => {
-    const c = CFG.categories.find((x) => x.id === id);
-    return c ? c.label : id;
-  };
+  const catLabel = (id) => (CFG.catLabels && CFG.catLabels[id]) || id;
 
   const thumbUrl = (v) =>
     v.thumbnail || `https://i.ytimg.com/vi/${v.videoId}/hqdefault.jpg`;
+
+  const yearOf = (v) => (v.publishedAt || v.addedAt || "").slice(0, 4);
+
+  function songOf(v) {
+    let t = v.title || "";
+    t = t.replace(/^\s*[[(][^\])]*[\])]\s*/, ""); // 앞쪽 [..] / (..) 하나 제거
+    const parts = t.split(/\s[-–—]\s/);
+    let s = parts.length > 1 ? parts.slice(1).join(" - ") : t;
+    s = s.split(/[[(|ㅣ]|교차편집|stage\s*mix|4k|풀캠|직캠|fancam/i)[0];
+    s = s.replace(/["'"'`]/g, "").replace(/\s+/g, " ").trim();
+    return s.length >= 1 && s.length <= 40 ? s : null;
+  }
 
   const debounce = (fn, ms) => {
     let t;
@@ -79,16 +89,58 @@
       "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
     }[c]));
 
+  /* ---------- 선택(sel) ---------- */
+
+  function selKey(sel) {
+    return JSON.stringify({
+      cat: sel.cat || null,
+      cats: sel.cats ? [...sel.cats].sort() : null,
+      year: sel.year || null,
+      song: sel.song || null,
+    });
+  }
+
+  function applySel(list, sel) {
+    if (sel.cat) list = list.filter((v) => v.category === sel.cat);
+    if (sel.cats) list = list.filter((v) => sel.cats.includes(v.category));
+    if (sel.year) list = list.filter((v) => yearOf(v) === sel.year);
+    if (sel.song) list = list.filter((v) => songOf(v) === sel.song);
+    return list;
+  }
+
+  function navGroupLabel(cats) {
+    const key = [...cats].sort().join(",");
+    const node = (CFG.nav || []).find(
+      (n) => n.sel && n.sel.cats && [...n.sel.cats].sort().join(",") === key
+    );
+    return node ? node.label : null;
+  }
+
+  function titleFor(sel) {
+    if (sel.song) return sel.song;
+    const base = sel.cat
+      ? catLabel(sel.cat)
+      : sel.cats
+      ? navGroupLabel(sel.cats) || "자체컨텐츠"
+      : "";
+    if (sel.year) return base ? `${base} · ${sel.year}` : `${sel.year}년`;
+    return base || "전체";
+  }
+
   /* ---------- URL 상태 ---------- */
 
   function readUrl() {
     const p = new URLSearchParams(location.search);
     state.view = p.get("view") === "about" ? "about" : "browse";
-    state.cat = p.get("cat") || "home";
+    const sel = {};
+    if (p.get("cat")) sel.cat = p.get("cat");
+    if (p.get("cats")) sel.cats = p.get("cats").split(",").filter(Boolean);
+    if (p.get("year")) sel.year = p.get("year");
+    if (p.get("song")) sel.song = p.get("song");
+    state.sel = sel;
     state.member = p.get("member") || "all";
     state.sort = p.get("sort") || "added";
     state.q = p.get("q") || "";
-    if (!CFG.categories.some((c) => c.id === state.cat)) state.cat = "home";
   }
 
   function writeUrl(replace) {
@@ -96,7 +148,11 @@
     if (state.view === "about") {
       p.set("view", "about");
     } else {
-      if (state.cat !== "home") p.set("cat", state.cat);
+      const s = state.sel;
+      if (s.cat) p.set("cat", s.cat);
+      if (s.cats) p.set("cats", s.cats.join(","));
+      if (s.year) p.set("year", s.year);
+      if (s.song) p.set("song", s.song);
       if (state.member !== "all") p.set("member", state.member);
       if (state.sort !== "added") p.set("sort", state.sort);
       if (state.q) p.set("q", state.q);
@@ -133,12 +189,15 @@
     state.meta = meta || {};
     state.videos = (videosRaw.videos || []).map(normalizeVideo);
 
-    buildNav();
+    // 현재 선택을 포함하는 그룹을 펼침
+    openGroupFor(state.sel);
+
     buildMemberFilter();
     el.sortSelect.value = state.sort;
     el.search.value = state.q;
 
     bindEvents();
+    buildNav();
     render();
     renderMeta();
   }
@@ -162,9 +221,8 @@
   /* ---------- 필터/정렬 ---------- */
 
   function filtered() {
-    let list = state.videos;
+    let list = applySel(state.videos, state.sel);
 
-    if (state.cat !== "home") list = list.filter((v) => v.category === state.cat);
     if (state.member !== "all")
       list = list.filter((v) => v.members.includes(state.member));
 
@@ -189,6 +247,127 @@
     return c;
   };
 
+  /* ---------- 좌측 2단 내비게이션 ---------- */
+
+  // 노드의 하위 항목 목록 [{label, sel, count}]
+  function childrenOf(node) {
+    const scoped = applySel(state.videos, node.sel || {});
+    const kids = [];
+
+    if (node.withAll) kids.push({ label: "전체", sel: node.sel || {} });
+
+    if (node.children) {
+      for (const cid of node.children) {
+        kids.push({ label: catLabel(cid), sel: { cat: cid } });
+      }
+    } else if (node.subBy === "year") {
+      const ys = [...new Set(scoped.map(yearOf).filter(Boolean))].sort().reverse();
+      for (const y of ys) kids.push({ label: y, sel: { ...(node.sel || {}), year: y } });
+    } else if (node.subBy === "song") {
+      const m = new Map();
+      for (const v of scoped) {
+        const s = songOf(v);
+        if (s) m.set(s, (m.get(s) || 0) + 1);
+      }
+      for (const [s] of [...m.entries()].sort((a, b) => b[1] - a[1])) {
+        kids.push({ label: s, sel: { ...(node.sel || {}), song: s } });
+      }
+    }
+
+    for (const k of kids) k.count = applySel(state.videos, k.sel).length;
+    return kids;
+  }
+
+  function isGroup(node) {
+    return !node.divider && (node.children || node.subBy);
+  }
+
+  function nodeContainsSel(node, sel) {
+    const k = selKey(sel);
+    if (node.sel && selKey(node.sel) === k) return true;
+    return childrenOf(node).some((c) => selKey(c.sel) === k);
+  }
+
+  function openGroupFor(sel) {
+    for (const node of CFG.nav || []) {
+      if (isGroup(node) && nodeContainsSel(node, sel)) state.open.add(node.id);
+    }
+  }
+
+  function buildNav() {
+    el.nav.innerHTML = "";
+    const activeKey = selKey(state.sel);
+
+    for (const node of CFG.nav || []) {
+      if (node.divider) {
+        el.nav.appendChild(document.createElement("hr")).className = "nav-sep";
+        continue;
+      }
+
+      if (!isGroup(node)) {
+        const b = navBtn(node.label, applySel(state.videos, node.sel).length,
+          state.view === "browse" && activeKey === selKey(node.sel));
+        b.classList.add("nav-item", "nav-lv1");
+        b.addEventListener("click", () => select(node.sel));
+        el.nav.appendChild(b);
+        continue;
+      }
+
+      const kids = childrenOf(node);
+      const total = applySel(state.videos, node.sel || {}).length;
+      if (!total && !CFG.showEmptyGroups) continue;
+
+      const wrap = document.createElement("div");
+      wrap.className = "nav-group";
+      const isOpen = state.open.has(node.id);
+      if (isOpen) wrap.classList.add("open");
+
+      const head = navBtn(node.label, total, false, true);
+      head.classList.add("nav-item", "nav-lv1", "nav-grouphead");
+      head.setAttribute("aria-expanded", String(isOpen));
+      head.addEventListener("click", () => {
+        if (state.open.has(node.id)) state.open.delete(node.id);
+        else state.open.add(node.id);
+        buildNav();
+      });
+      wrap.appendChild(head);
+
+      const sub = document.createElement("div");
+      sub.className = "nav-sub";
+      for (const k of kids) {
+        const isAll = node.withAll && selKey(k.sel) === selKey(node.sel);
+        if (k.count === 0 && !isAll) continue; // 빈 하위 항목 숨김("전체"는 유지)
+        const cb = navBtn(k.label, k.count, activeKey === selKey(k.sel));
+        cb.classList.add("nav-item", "nav-lv2");
+        cb.addEventListener("click", () => select(k.sel));
+        sub.appendChild(cb);
+      }
+      wrap.appendChild(sub);
+      el.nav.appendChild(wrap);
+    }
+  }
+
+  function navBtn(label, count, active, caret) {
+    const b = document.createElement("button");
+    b.innerHTML =
+      (caret ? '<span class="nav-caret">▸</span>' : "") +
+      `<span class="nav-label">${escapeHtml(label)}</span>` +
+      `<span class="nav-count">${count.toLocaleString("ko")}</span>`;
+    if (active) b.classList.add("is-active");
+    return b;
+  }
+
+  function select(sel) {
+    state.view = "browse";
+    state.sel = { ...sel };
+    state.limit = CFG.pageSize;
+    openGroupFor(state.sel);
+    writeUrl();
+    buildNav();
+    render();
+    closeDrawer();
+  }
+
   /* ---------- 렌더 ---------- */
 
   function render(opts) {
@@ -197,19 +376,14 @@
 
     const about = state.view === "about";
     el.filterBar.hidden = about;
-    el.topbarTitle.textContent = about
-      ? "소개"
-      : state.cat === "home"
-      ? "홈"
-      : catLabel(state.cat);
+    el.topbarTitle.textContent = about ? "소개" : titleFor(state.sel);
     document.title = about
       ? "소개 · FROMIS-FLIX"
-      : `${state.cat === "home" ? "홈" : catLabel(state.cat)} · FROMIS-FLIX`;
+      : `${titleFor(state.sel)} · FROMIS-FLIX`;
 
     if (about) renderAbout();
     else renderGrid();
 
-    syncNavUI();
     syncMemberUI();
     if (!(opts && opts.keepScroll)) window.scrollTo(0, 0);
   }
@@ -217,29 +391,12 @@
   function renderGrid() {
     const list = filtered();
 
-    // 홈: 카테고리 바로가기 버튼 (가로 스크롤 대신 줄바꿈)
-    if (state.cat === "home" && !state.q) {
-      const counts = catCounts();
-      const bar = document.createElement("div");
-      bar.className = "cat-buttons";
-      for (const c of CFG.categories) {
-        if (c.id === "home") continue;
-        const n = counts[c.id] || 0;
-        if (!n) continue;
-        const b = document.createElement("button");
-        b.className = "cat-btn";
-        b.dataset.cat = c.id;
-        b.innerHTML = `${escapeHtml(c.label)}<span class="cat-btn-n">${n}</span>`;
-        bar.appendChild(b);
-      }
-      el.content.appendChild(bar);
-    }
-
     const head = document.createElement("div");
     head.className = "grid-head";
-    head.innerHTML = `<h2>${state.cat === "home" ? "전체" : escapeHtml(catLabel(state.cat))}${
-      state.member !== "all" ? ` · ${escapeHtml(memberName(state.member))}` : ""
-    }</h2><span class="count">${list.length.toLocaleString("ko")}개</span>`;
+    head.innerHTML =
+      `<h2>${escapeHtml(titleFor(state.sel))}${
+        state.member !== "all" ? ` · ${escapeHtml(memberName(state.member))}` : ""
+      }</h2><span class="count">${list.length.toLocaleString("ko")}개</span>`;
     el.content.appendChild(head);
 
     if (!list.length) {
@@ -308,8 +465,8 @@
     d.className = "empty";
     d.innerHTML = `
       <p>표시할 영상이 없습니다.</p>
-      <p class="empty-hint">데이터를 수집하려면 <code>crawlers/youtube_crawler.py</code> 를 실행하거나
-      GitHub Actions 자동 수집을 설정하세요.</p>`;
+      <p class="empty-hint">이 분류는 아직 수집된 영상이 없습니다.
+      <code>crawlers/youtube_crawler.py</code> 실행 후 채워집니다.</p>`;
     el.content.appendChild(d);
   }
 
@@ -320,9 +477,9 @@
     const updated = state.meta.updatedAt ? fmtDate(state.meta.updatedAt) : "―";
     const gen = state.meta.generator || "―";
 
-    const rows = CFG.categories
-      .filter((c) => c.id !== "home" && counts[c.id])
-      .map((c) => `<li><span>${escapeHtml(c.label)}</span><b>${counts[c.id].toLocaleString("ko")}</b></li>`)
+    const rows = Object.keys(CFG.catLabels)
+      .filter((c) => counts[c])
+      .map((c) => `<li><span>${escapeHtml(catLabel(c))}</span><b>${counts[c].toLocaleString("ko")}</b></li>`)
       .join("");
 
     el.content.innerHTML = `
@@ -418,26 +575,7 @@
     el.hamburger.setAttribute("aria-expanded", "false");
   }
 
-  /* ---------- UI 빌드 ---------- */
-
-  function buildNav() {
-    el.nav.innerHTML = "";
-    for (const c of CFG.categories) {
-      const b = document.createElement("button");
-      b.className = "nav-item";
-      b.dataset.cat = c.id;
-      b.textContent = c.label;
-      b.addEventListener("click", () => {
-        state.view = "browse";
-        state.cat = c.id;
-        state.limit = CFG.pageSize;
-        writeUrl();
-        render();
-        closeDrawer();
-      });
-      el.nav.appendChild(b);
-    }
-  }
+  /* ---------- 멤버 필터 ---------- */
 
   function buildMemberFilter() {
     el.memberFilter.innerHTML = "";
@@ -451,22 +589,11 @@
         state.member = id;
         state.limit = CFG.pageSize;
         writeUrl();
+        buildNav();
         render();
       });
       el.memberFilter.appendChild(b);
     }
-  }
-
-  function syncNavUI() {
-    el.nav.querySelectorAll(".nav-item").forEach((t) => {
-      t.classList.toggle(
-        "is-active",
-        state.view === "browse" && t.dataset.cat === state.cat
-      );
-    });
-    document
-      .querySelectorAll(".nav-about")
-      .forEach((b) => b.classList.toggle("is-active", state.view === "about"));
   }
 
   function syncMemberUI() {
@@ -478,6 +605,7 @@
   function goAbout() {
     state.view = "about";
     writeUrl();
+    buildNav();
     render();
     closeDrawer();
   }
@@ -502,17 +630,7 @@
       }, 200)
     );
 
-    // 홈 화면의 카테고리 바로가기 버튼 + About 링크(푸터/사이드바)
     document.addEventListener("click", (e) => {
-      const catBtn = e.target.closest(".cat-btn");
-      if (catBtn) {
-        state.view = "browse";
-        state.cat = catBtn.dataset.cat;
-        state.limit = CFG.pageSize;
-        writeUrl();
-        render();
-        return;
-      }
       const aboutBtn = e.target.closest('[data-view="about"]');
       if (aboutBtn) goAbout();
     });
@@ -535,6 +653,8 @@
       el.sortSelect.value = state.sort;
       el.search.value = state.q;
       state.limit = CFG.pageSize;
+      openGroupFor(state.sel);
+      buildNav();
       render();
     });
 

@@ -87,30 +87,69 @@ a { color: inherit; }
 .nav {
   flex: 1;
   overflow-y: auto;
-  padding: 10px 8px;
+  padding: 8px 8px 12px;
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 1px;
 }
+.nav-sep {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 8px 10px;
+}
+
 .nav-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
   text-align: left;
   background: none;
   border: 0;
   color: var(--text-dim);
-  padding: 9px 12px;
+  padding: 8px 10px;
   border-radius: 8px;
   font-weight: 600;
-  font-size: 14px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   transition: background 0.14s, color 0.14s;
 }
 .nav-item:hover { background: var(--bg-elev); color: var(--text); }
-.nav-item.is-active {
-  background: var(--accent);
-  color: #fff;
+.nav-item.is-active { background: var(--accent); color: #fff; }
+.nav-item.is-active .nav-count { color: rgba(255, 255, 255, 0.8); }
+
+.nav-label {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
+.nav-count {
+  flex-shrink: 0;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-mute);
+  font-variant-numeric: tabular-nums;
+}
+.nav-caret {
+  flex-shrink: 0;
+  font-size: 9px;
+  color: var(--text-mute);
+  transition: transform 0.15s;
+}
+
+.nav-lv1 { font-size: 14px; }
+.nav-lv2 { font-size: 13px; padding-left: 26px; font-weight: 500; }
+.nav-lv2 .nav-label { color: inherit; }
+
+.nav-group .nav-sub {
+  display: none;
+  margin: 1px 0 4px;
+  border-left: 1px solid var(--line);
+  margin-left: 15px;
+  padding-left: 2px;
+}
+.nav-group.open .nav-sub { display: block; }
+.nav-group.open .nav-grouphead .nav-caret { transform: rotate(90deg); }
 
 .sidebar-foot {
   border-top: 1px solid var(--line);
@@ -230,33 +269,6 @@ a { color: inherit; }
   min-height: 60vh;
 }
 .loading { color: var(--text-mute); padding: 60px 0; text-align: center; }
-
-/* 홈: 카테고리 바로가기 버튼 (줄바꿈, 가로 스크롤 없음) */
-.cat-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 8px 0 22px;
-}
-.cat-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  background: var(--bg-elev);
-  border: 1px solid var(--line);
-  color: var(--text);
-  padding: 8px 14px;
-  border-radius: 999px;
-  font-weight: 600;
-  font-size: 13px;
-  transition: border-color 0.14s, background 0.14s;
-}
-.cat-btn:hover { border-color: var(--accent); background: #21212a; }
-.cat-btn-n {
-  color: var(--text-mute);
-  font-size: 12px;
-  font-weight: 700;
-}
 
 .grid-head {
   display: flex;
