@@ -3,15 +3,15 @@
   "note": "최초 데뷔 9인을 모두 분류합니다. status: current(현 멤버) / former(탈퇴·계약만료). left 는 탈퇴 시점(YYYY-MM). 화면에는 current 5인 + 전원을 기본 표시하고, (+) 로 former 를 탈퇴 역순으로 노출합니다. aliases 는 크롤러가 제목에서 멤버를 추정할 때 사용(대소문자 무시, 부분일치).",
   "members": [
     { "id": "all",       "name": "전원",   "status": "current", "aliases": [] },
-    { "id": "hayoung",   "name": "송하영", "status": "current", "aliases": ["송하영", "하영", "hayoung", "song hayoung"] },
-    { "id": "jiwon",     "name": "박지원", "status": "current", "aliases": ["박지원", "지원", "jiwon", "park jiwon"] },
-    { "id": "chaeyoung", "name": "이채영", "status": "current", "aliases": ["이채영", "채영", "chaeyoung", "lee chaeyoung"] },
-    { "id": "nagyung",   "name": "이나경", "status": "current", "aliases": ["이나경", "나경", "nagyung", "lee nagyung"] },
-    { "id": "jiheon",    "name": "백지헌", "status": "current", "aliases": ["백지헌", "지헌", "jiheon", "baek jiheon"] },
+    { "id": "hayoung",   "name": "송하영", "status": "current", "aliases": ["송하영", "하영", "하냥", "하빵", "hayoung", "song hayoung"] },
+    { "id": "jiwon",     "name": "박지원", "status": "current", "aliases": ["박지원", "지원", "져니", "메건", "jiwon", "park jiwon"] },
+    { "id": "chaeyoung", "name": "이채영", "status": "current", "aliases": ["이채영", "채영", "챙", "꽹", "챙람쥐", "chaeyoung", "lee chaeyoung"] },
+    { "id": "nagyung",   "name": "이나경", "status": "current", "aliases": ["이나경", "나경", "나꼬", "nagyung", "lee nagyung"] },
+    { "id": "jiheon",    "name": "백지헌", "status": "current", "aliases": ["백지헌", "지헌", "꿀깅", "jiheon", "baek jiheon"] },
 
-    { "id": "saerom",    "name": "이새롬", "status": "former", "left": "2024-08", "aliases": ["이새롬", "새롬", "saerom", "lee saerom"] },
-    { "id": "jisun",     "name": "노지선", "status": "former", "left": "2024-08", "aliases": ["노지선", "지선", "jisun", "roh jisun", "no jisun"] },
-    { "id": "seoyeon",   "name": "이서연", "status": "former", "left": "2024-08", "aliases": ["이서연", "서연", "seoyeon", "lee seoyeon"] },
-    { "id": "gyuri",     "name": "장규리", "status": "former", "left": "2021-08", "aliases": ["장규리", "규리", "gyuri", "jang gyuri"] }
+    { "id": "saerom",    "name": "이새롬", "status": "former", "left": "2024-08", "aliases": ["이새롬", "새롬", "롬쌔", "saerom", "lee saerom"] },
+    { "id": "jisun",     "name": "노지선", "status": "former", "left": "2024-08", "aliases": ["노지선", "지선", "지센", "노장금", "jisun", "roh jisun", "no jisun"] },
+    { "id": "seoyeon",   "name": "이서연", "status": "former", "left": "2024-08", "aliases": ["이서연", "서연", "션", "셔니", "seoyeon", "lee seoyeon"] },
+    { "id": "gyuri",     "name": "장규리", "status": "former", "left": "2021-08", "aliases": ["장규리", "규리", "장귤", "귤아빠", "gyuri", "jang gyuri"] }
   ]
 }

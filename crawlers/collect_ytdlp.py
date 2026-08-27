@@ -4,7 +4,7 @@
 공식 경로는 crawlers/youtube_crawler.py (YouTube Data API v3) 입니다.
 다시 쓰려면 환경변수 ALLOW_YTDLP=1 을 설정하고 실행하세요.
 
-FROMIS-FLIX 데이터 수집기 (API 키 불필요, yt-dlp 사용)
+FLOVER-FLIX 데이터 수집기 (API 키 불필요, yt-dlp 사용)
 
 YouTube Data API 키가 없을 때 쓰는 대체 수집기입니다. 공개 페이지의 메타데이터만
 읽어 data/videos.json 을 만듭니다. 영상 자체는 저장/재배포하지 않습니다.
@@ -103,7 +103,7 @@ def is_short(title: str, dur, max_short: int, kw: list[str]) -> bool:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="FROMIS-FLIX yt-dlp 수집기 (API 키 불필요)")
+    ap = argparse.ArgumentParser(description="FLOVER-FLIX yt-dlp 수집기 (API 키 불필요)")
     ap.add_argument("--config", default="crawlers/collect.json")
     ap.add_argument("--out", default="data")
     ap.add_argument("--dry-run", action="store_true")

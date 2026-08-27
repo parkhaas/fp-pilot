@@ -1,9 +1,9 @@
-/* FROMIS-FLIX service worker
+/* FLOVER-FLIX service worker
    - 앱 셸(HTML/CSS/JS)은 stale-while-revalidate
    - data/*.json 은 network-first (최신 데이터 우선, 오프라인 시 캐시)
    - YouTube 등 외부 요청은 건드리지 않음 */
 
-const VERSION = "ff-v14";
+const VERSION = "ff-v15";
 const SHELL = [
   "./",
   "./index.html",

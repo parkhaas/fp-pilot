@@ -1,6 +1,6 @@
-/* FROMIS-FLIX 설정 */
+/* FLOVER-FLIX 설정 */
 window.FF_CONFIG = {
-  site: { title: "FROMIS-FLIX", fandom: "flover", group: "fromis_9" },
+  site: { title: "FLOVER-FLIX", fandom: "flover", group: "fromis_9" },
 
   /* 카테고리 id → 표시 이름 (카드/모달 라벨, 자체컨텐츠 하위 메뉴에 사용).
      id 는 data/videos.json 의 category, crawlers/sources.json 의 category 와 일치. */

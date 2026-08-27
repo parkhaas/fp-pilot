@@ -1,4 +1,4 @@
-/* FROMIS-FLIX — 정적 팬 아카이브 프론트엔드 (빌드 도구 없음, 바닐라 JS)
+/* FLOVER-FLIX — 정적 팬 아카이브 프론트엔드 (빌드 도구 없음, 바닐라 JS)
    데이터: data/videos.json, data/members.json, data/meta.json
    상태는 URL 쿼리스트링(?view=&cat=&cats=&year=&song=&member=&sort=&q=)에 반영 */
 
@@ -433,8 +433,8 @@
     el.filterBar.hidden = about;
     el.topbarTitle.textContent = about ? "소개" : titleFor(state.sel);
     document.title = about
-      ? "소개 · FROMIS-FLIX"
-      : `${titleFor(state.sel)} · FROMIS-FLIX`;
+      ? "소개 · FLOVER-FLIX"
+      : `${titleFor(state.sel)} · FLOVER-FLIX`;
 
     if (about) renderAbout();
     else renderGrid();
@@ -611,7 +611,7 @@
 
     el.content.innerHTML = `
       <section class="about">
-        <h1>FROMIS-FLIX 소개</h1>
+        <h1>FLOVER-FLIX 소개</h1>
         <p class="about-lead">
           프로미스나인(fromis_9)의 영상을 한곳에서 모아보는 <strong>비영리 팬 아카이브</strong>입니다.
         </p>
@@ -738,7 +738,7 @@
       const t = document.createElement("button");
       t.className = "chip chip-toggle";
       t.type = "button";
-      t.textContent = state.membersExpanded ? "− 접기" : `+ 이전 멤버 ${former.length}`;
+      t.textContent = state.membersExpanded ? "− 접기" : `+ 그리고 ${former.length}`;
       t.addEventListener("click", () => {
         state.membersExpanded = !state.membersExpanded;
         buildMemberFilter();

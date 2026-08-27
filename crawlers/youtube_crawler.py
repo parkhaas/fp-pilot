@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-FROMIS-FLIX 데이터 수집기 — YouTube Data API v3 (공식 API 우선, 표준 라이브러리만 사용)
+FLOVER-FLIX 데이터 수집기 — YouTube Data API v3 (공식 API 우선, 표준 라이브러리만 사용)
 
 사용법:
     export YOUTUBE_API_KEY="..."      # 또는 --api-key 로 전달
@@ -330,7 +330,7 @@ def load_json(path: Path, default):
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="FROMIS-FLIX YouTube 수집기")
+    ap = argparse.ArgumentParser(description="FLOVER-FLIX YouTube 수집기")
     ap.add_argument("--config", default="crawlers/sources.json")
     ap.add_argument("--out", default="data", help="데이터 디렉터리")
     ap.add_argument("--api-key", default=os.environ.get("YOUTUBE_API_KEY", ""))
