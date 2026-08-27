@@ -494,12 +494,13 @@ a { color: inherit; }
 .stat b { display: block; font-size: 20px; }
 .stat span { font-size: 11px; color: var(--text-mute); }
 
-/* 마지막 업데이트: 날짜+시간을 한 줄로, 그 아래 라벨 */
-.stat--dt { grid-column: span 2; }
-.stat--dt b { white-space: nowrap; }
-@media (max-width: 480px) {
-  .stat--dt { grid-column: auto; }
-  .stat--dt b { white-space: normal; font-size: 16px; }
+/* 마지막 업데이트: 날짜 / 시간 / 라벨 3줄 */
+.stat b .stat-time {
+  display: block;
+  margin-top: 3px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-dim);
 }
 
 /* 파이(도넛) 차트 */
