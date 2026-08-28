@@ -8,9 +8,19 @@ crawlers/sources.json 을 그대로 읽어 playlists / extraChannels / search[] 
 준비:
     python -m pip install --user yt-dlp
 
-사용 (로컬 전체 백필):
-    python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data
-    python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --only search --dry-run
+수집 대상 이원화 (--only):
+    video      재생목록 + extraChannels + search[]  (Shorts 제외)  — "영상"
+    shorts     shortsChannels[] 채널 /shorts 탭만                  — "쇼츠"
+    all        video + shorts (한 번에)
+    playlists / search   각각 단독
+
+사용:
+    # 로컬 전체 백필 — 영상 → 쇼츠 순차
+    python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --only video
+    python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --only shorts
+
+    # 정기 수집(GitHub)은 youtube_crawler.py(API) 로 영상을 갱신한 뒤
+    # 이 스크립트로 shorts 만 추가 수행 → --only shorts
 
 Shorts 판정 (길이로 판정하지 않음):
   - 신호 #1: 영상 URL 이 /shorts/ 형태 (= YouTube 가 Shorts 로 분류) → shorts.
@@ -24,8 +34,9 @@ Shorts 판정 (길이로 판정하지 않음):
 주의:
   - search[] 는 "채널 내 검색" 탭( youtube.com/channel/<ID>/search?query= )을 flat 추출합니다.
     flat 모드엔 description 이 없어 textAny/textAll 은 제목 기준으로만 검사됩니다.
-  - GitHub Actions IP 에서는 yt-dlp 가 봇 차단을 자주 맞습니다. 정기 수집은
-    youtube_crawler.py(API) 를 쓰고, 이 스크립트는 로컬 백필용으로 쓰세요.
+  - GitHub Actions IP 에서는 yt-dlp 가 봇 차단을 자주 맞습니다. 정기 수집의 영상 갱신은
+    youtube_crawler.py(API) 로 하고, 이 스크립트는 shorts 만(--only shorts) 얹습니다.
+    부분 실행(--only 가 all 이 아님)에서 아무것도 못 긁으면 파일을 건드리지 않고 정상 종료합니다.
   - 기존 data/videos.json 과 병합합니다(addedAt 보존). API 데이터 위에 얹혀도 됩니다.
 """
 
@@ -262,7 +273,9 @@ def main() -> None:
     ap = argparse.ArgumentParser(description="FLOVER-FLIX yt-dlp 수집기 (API 불필요)")
     ap.add_argument("--config", default="crawlers/sources.json")
     ap.add_argument("--out", default="data")
-    ap.add_argument("--only", choices=["all", "search", "playlists", "shorts"], default="all")
+    ap.add_argument("--only", choices=["all", "video", "search", "playlists", "shorts"],
+                    default="all",
+                    help="video=재생목록+검색(쇼츠 제외) / shorts=쇼츠 탭만 / all=둘 다")
     ap.add_argument("--shorts-aspect", action="store_true",
                     help="신호 #3: 3분 이내 후보를 영상별로 조회해 세로비율이면 shorts 로 재분류 (느림)")
     ap.add_argument("--dry-run", action="store_true")
@@ -279,8 +292,8 @@ def main() -> None:
     default_filter = cfg.get("defaultFilter", {})
     ts = now_iso()
 
-    do_pl = args.only in ("all", "playlists")
-    do_search = args.only in ("all", "search")
+    do_pl = args.only in ("all", "video", "playlists")
+    do_search = args.only in ("all", "video", "search")
     do_shorts = args.only in ("all", "shorts")
 
     def shorthand(kw) -> dict:
@@ -346,7 +359,11 @@ def main() -> None:
             print(f"쇼츠 탭 [{ref}]: {len(ents)}개")
 
     if not cand:
-        sys.exit("[중단] 수집된 후보가 없습니다. sources.json 을 확인하세요.")
+        if args.only == "all":
+            sys.exit("[중단] 수집된 후보가 없습니다. sources.json 을 확인하세요.")
+        # 부분 실행(예: --only shorts 가 봇 차단) — 기존 파일을 건드리지 않고 종료
+        print(f"[건너뜀] --only {args.only}: 긁힌 후보 없음. data/*.json 그대로 둡니다.")
+        return
 
     # 3) 필터 → 레코드
     records: list[dict] = []
@@ -411,7 +428,13 @@ def main() -> None:
     for r in records:
         counts[r["category"]] = counts.get(r["category"], 0) + 1
 
-    meta = {"updatedAt": ts, "generator": "yt-dlp", "total": len(records), "counts": counts}
+    # --only shorts 로 API 데이터 위에 얹는 경우 생성기 표기를 합쳐서 남긴다
+    generator = "yt-dlp"
+    if args.only == "shorts":
+        prev_gen = load_json(out_dir / "meta.json", {}).get("generator", "")
+        if prev_gen and "yt-dlp" not in prev_gen:
+            generator = f"{prev_gen} + yt-dlp(shorts)"
+    meta = {"updatedAt": ts, "generator": generator, "total": len(records), "counts": counts}
 
     print(f"\n합계 {len(records)}개 / 필터 제외 {dropped}개 / "
           f"신규 {sum(1 for r in records if r['addedAt'] == ts)}개")

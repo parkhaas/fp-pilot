@@ -5,11 +5,12 @@
 
 | 크롤러 | 방식 | 용도 |
 |---|---|---|
-| `youtube_crawler.py` | YouTube Data API v3 (키·쿼터 필요) | **정기 증분** (GitHub Actions) |
-| `collect_ytdlp.py` | yt-dlp 스크래핑 (키·쿼터 불필요) | **로컬 대량 백필** (2018 데뷔분까지) |
+| `youtube_crawler.py` | YouTube Data API v3 (키·쿼터 필요) | **정기 증분 — 영상** (GitHub Actions) |
+| `collect_ytdlp.py` | yt-dlp 스크래핑 (키·쿼터 불필요) | **로컬 대량 백필** + **정기 증분 — 쇼츠** (`--only shorts`) |
 
-> GitHub Actions IP 는 yt-dlp 봇 차단을 자주 맞으므로, 정기 수집은 API, `collect_ytdlp.py`
-> 는 로컬에서만 씁니다.
+> API 는 `/shorts` 탭을 못 주므로 쇼츠는 항상 yt-dlp 로 수집한다. 정기 수집(`update-data.yml`)은
+> API 로 영상을 갱신한 뒤 `collect_ytdlp.py --only shorts` 를 best-effort 로 얹는다
+> (GitHub IP 가 봇 차단되면 그 스텝만 건너뛰고 기존 쇼츠 유지). 자세한 흐름은 11절.
 
 ---
 
@@ -260,11 +261,17 @@ API 크롤러는 aspect 를 못 봐서 `#shorts` 키워드만 봅니다. 정확�
 
 ## 11. 백필 vs 증분 · 실행
 
-- **전체 백필**: `--since` 없이 1회. `searchPublishedAfter`(2018) 부터 다 긁음.
-  `--dry-run` 도 실제 API 를 호출하므로 여러 번 돌리면 그날 `search` 쿼터가 소진됩니다.
-- **증분(정기)**: `--since <최근 날짜>` → 최근 며칠만 검색. 기존 `data/videos.json` 과
-  병합(`addedAt` 보존)하므로 백필 위에 계속 쌓입니다. `update-data.yml` 이 12시간마다
-  `--since $(30일 전)` 로 실행.
+**영상 / 쇼츠 이원화** — API 크롤러는 `/shorts` 탭을 못 주므로, 쇼츠는 항상 yt-dlp 로 별도 수집한다.
+
+| | 영상 (music_show·직캠·자체콘텐츠 …) | 쇼츠 |
+|---|---|---|
+| **전체 백필 (로컬)** | `collect_ytdlp.py --only video` 또는 `youtube_crawler.py`(`--since` 없이) | 이어서 `collect_ytdlp.py --only shorts` |
+| **정기 (GitHub `update-data.yml`)** | `youtube_crawler.py --since $(30일 전)` (API) | 이어서 `collect_ytdlp.py --only shorts` (best-effort, 봇 차단 시 스킵) |
+
+- 두 크롤러 모두 기존 `data/videos.json` 과 **병합**(`addedAt` 보존)하며, 증분(`--since`) 실행은
+  이번에 재수집 안 된 기존 영상을 **삭제하지 않는다**. 전체 정리는 `--since` 없는 로컬 실행에서만.
+- `collect_ytdlp.py` 는 `--only` 가 `all` 이 아닐 때 아무것도 못 긁으면 파일을 안 건드리고 정상 종료.
+- `--dry-run` 도 실제 API 를 호출하므로 여러 번 돌리면 그날 `search` 쿼터가 소진됩니다.
 
 ### 명령
 
@@ -277,15 +284,15 @@ python crawlers/youtube_crawler.py --config crawlers/sources.json --out data
 python crawlers/youtube_crawler.py --config crawlers/sources.json --out data --since 2025-08-01
 python crawlers/youtube_crawler.py --config crawlers/sources.json --out data --no-search   # 재생목록만
 
-# yt-dlp (키·쿼터 불필요, 로컬 백필용)
+# yt-dlp (키·쿼터 불필요) — 백필은 video → shorts 순차
 python -m pip install --user yt-dlp
-python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data                 # 전체
-python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --only search    # 방송무대·직캠·스페셜
-python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --only shorts    # /shorts 탭
-python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --shorts-aspect  # 신호#3 (느림)
+python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --only video     # 재생목록+검색(쇼츠 제외)
+python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --only shorts     # /shorts 탭만
+python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data                   # = video + shorts
+python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --shorts-aspect   # 신호#3 (느림)
 ```
 
-`--only` 값: `all`(기본) \| `search` \| `playlists` \| `shorts`.
+`--only` 값: `all`(기본) \| `video` \| `search` \| `playlists` \| `shorts`.
 
 로컬 확인: `python -m http.server 8080` → `http://localhost:8080`.
 

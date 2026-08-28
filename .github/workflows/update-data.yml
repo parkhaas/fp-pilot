@@ -1,10 +1,14 @@
 name: update-data
 
-# YouTube Data API v3 로 data/*.json 을 갱신·커밋하고, 이어서 GitHub Pages 를 재배포합니다.
+# 정기 수집: (1) YouTube Data API v3 로 "영상" 을 증분 갱신하고
+#            (2) yt-dlp 로 "쇼츠" 만 얹은 뒤 (API 는 /shorts 탭을 못 줌)
+#            data/*.json 을 커밋하고 GitHub Pages 를 재배포합니다.
 # (봇의 git push 는 GITHUB_TOKEN 특성상 deploy 워크플로를 트리거하지 못하므로
 #  이 워크플로 안에서 직접 배포까지 합니다.)
 #
-# yt-dlp 수집(collect_ytdlp.py)은 로컬 백필 전용 — 여기선 안 씁니다.
+# 쇼츠 수집은 yt-dlp 라 GitHub Actions IP 에서 봇 차단을 맞을 수 있어 best-effort
+# (continue-on-error) 입니다. 실패하면 기존 쇼츠 데이터를 그대로 둡니다.
+# 전체 백필은 로컬에서: collect_ytdlp.py --only video → --only shorts (또는 --since 없이 API).
 
 on:
   schedule:
@@ -51,6 +55,12 @@ jobs:
           [ -z "$SINCE" ] && SINCE=$(date -u -d '30 days ago' +%Y-%m-%d)
           echo "증분 수집 --since $SINCE"
           python crawlers/youtube_crawler.py --config crawlers/sources.json --out data --since "$SINCE"
+
+      - name: Collect Shorts (yt-dlp, best-effort)
+        continue-on-error: true   # GitHub IP 봇 차단 시 기존 쇼츠 유지하고 계속
+        run: |
+          python -m pip install --quiet --upgrade yt-dlp
+          python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --only shorts
 
       - name: Guard against data loss
         run: |
