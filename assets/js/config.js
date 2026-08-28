@@ -33,8 +33,9 @@ window.FF_CONFIG = {
      - withAll: 하위에 "전체" 항목 추가
      - divider: 구분선 */
   nav: [
-    { id: "all",     label: "전체보기",    sel: {} },
-    { id: "period",  label: "기간별 보기",  sel: {}, subBy: "year" },
+    { id: "all",      label: "전체보기",    sel: {} },
+    { id: "period",   label: "기간별 보기",  sel: {}, subBy: "year" },
+    { id: "byMember", label: "멤버별 보기",  sel: {}, subBy: "member" },
     { divider: true },
     {
       id: "self",

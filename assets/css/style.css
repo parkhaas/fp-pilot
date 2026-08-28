@@ -193,55 +193,14 @@ html.dark #themeToggle .ico-dark { display: block; }
   box-shadow: 0 0 0 3px var(--brand-weak);
 }
 
-/* ---------- 필터 바 ---------- */
-.filter-bar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 10px 14px;
-  width: 100%;
-  max-width: 1180px;
-  margin: 18px auto 0;
-  padding: 0 28px;
-}
-
-.member-filter {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 6px 13px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  background: var(--surface);
-  color: var(--text-2);
-  font-size: 0.82rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
-}
-.chip:hover { border-color: var(--border-strong); color: var(--text); }
-.chip.is-active {
-  background: var(--brand);
-  border-color: var(--brand);
-  color: #fff;
-}
-.chip-toggle { color: var(--brand-strong); border-color: var(--border); }
-.chip-toggle svg { width: 14px; height: 14px; }
-.chip-former { display: none; }
-.member-filter.expanded .chip-former { display: inline-flex; }
-
+/* ---------- 정렬 컨트롤 (그리드 헤더 우측) ---------- */
 .sort-control {
   margin-left: auto;
   display: inline-flex;
   align-items: center;
   gap: 8px;
   font-size: 0.8rem;
+  font-weight: 500;
   color: var(--text-3);
 }
 #sortSelect {
@@ -448,8 +407,9 @@ html.dark #themeToggle .ico-dark { display: block; }
 /* ---------- 그리드 & 카드 ---------- */
 .grid-head {
   display: flex;
-  align-items: baseline;
-  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 10px;
   margin-bottom: 18px;
 }
 .grid-head h2 {
@@ -459,6 +419,7 @@ html.dark #themeToggle .ico-dark { display: block; }
   letter-spacing: -0.01em;
 }
 .grid-count { font-size: 0.85rem; color: var(--text-3); }
+.grid-head .sort-control { flex-shrink: 0; }
 
 .grid {
   display: grid;
@@ -816,7 +777,6 @@ html.dark #themeToggle .ico-dark { display: block; }
 /* ---------- 반응형 ---------- */
 @media (max-width: 680px) {
   .content { padding: 20px 16px 56px; }
-  .filter-bar { margin-top: 14px; padding: 0 16px; }
   .topbar { padding: 10px 14px; }
   .topbar-title { font-size: 1rem; }
   .sidebar { top: 10px; left: 10px; bottom: 10px; }
@@ -825,7 +785,6 @@ html.dark #themeToggle .ico-dark { display: block; }
   .site-footer { padding: 20px 16px; }
   .chart { gap: 18px; }
   .donut { width: 140px; height: 140px; }
-  .sort-control { margin-left: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
