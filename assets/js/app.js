@@ -14,9 +14,11 @@
     members: [],
     meta: {},
     view: "about", // "browse" | "about" (파라미터 없이 접속하면 소개가 시작 페이지)
-    sel: {}, // { cat?, cats?[], year?, song?, member? }
+    sel: {}, // { cat?, cats?[], year?, song? }
     subGroup: null, // 2단 드로어에서 열려 있는 그룹 id
     chartBy: "category", // 소개 페이지 파이차트 기준: "category" | "year"
+    membersExpanded: false, // 멤버 필터에서 이전(탈퇴) 멤버 노출 여부
+    member: "all",
     sort: "newest", // 기본 정렬: 최신 발행순
     q: "",
     limit: CFG.pageSize,
@@ -36,6 +38,9 @@
     themeToggle: document.getElementById("themeToggle"),
     topbarTitle: document.getElementById("topbarTitle"),
     topbar: document.getElementById("topbar"),
+    filterBar: document.getElementById("filterBar"),
+    memberFilter: document.getElementById("memberFilter"),
+    sortSelect: document.getElementById("sortSelect"),
     search: document.getElementById("searchInput"),
     content: document.getElementById("content"),
     loading: document.getElementById("loading"),
@@ -117,7 +122,6 @@
       cats: sel.cats ? [...sel.cats].sort() : null,
       year: sel.year || null,
       song: sel.song || null,
-      member: sel.member || null,
     });
   }
 
@@ -126,7 +130,6 @@
     if (sel.cats) list = list.filter((v) => sel.cats.includes(v.category));
     if (sel.year) list = list.filter((v) => yearOf(v) === sel.year);
     if (sel.song) list = list.filter((v) => songOf(v) === sel.song);
-    if (sel.member) list = list.filter((v) => (v.members || []).includes(sel.member));
     return list;
   }
 
@@ -140,14 +143,13 @@
 
   function titleFor(sel) {
     if (sel.song) return sel.song;
-    let t = sel.cat
+    const base = sel.cat
       ? catLabel(sel.cat)
       : sel.cats
       ? navGroupLabel(sel.cats) || "자체컨텐츠"
       : "";
-    if (sel.year) t = t ? `${t} · ${sel.year}` : `${sel.year}년`;
-    if (sel.member) t = t ? `${t} · ${memberName(sel.member)}` : memberName(sel.member);
-    return t || "전체";
+    if (sel.year) return base ? `${base} · ${sel.year}` : `${sel.year}년`;
+    return base || "전체";
   }
 
   /* ---------- URL 상태 ---------- */
@@ -159,12 +161,13 @@
     if (p.get("cats")) sel.cats = p.get("cats").split(",").filter(Boolean);
     if (p.get("year")) sel.year = p.get("year");
     if (p.get("song")) sel.song = p.get("song");
-    if (p.get("member")) sel.member = p.get("member");
     state.sel = sel;
+    state.member = p.get("member") || "all";
     state.sort = p.get("sort") || "newest";
     state.q = p.get("q") || "";
 
-    const hasSel = sel.cat || sel.cats || sel.year || sel.song || sel.member || state.q;
+    const hasSel = sel.cat || sel.cats || sel.year || sel.song || state.q ||
+      state.member !== "all";
     if (p.get("view") === "about") state.view = "about";
     else if (p.get("view") === "browse" || hasSel) state.view = "browse";
     else state.view = "about"; // 파라미터 없음 = 시작 페이지(소개)
@@ -180,7 +183,7 @@
       if (s.cats) p.set("cats", s.cats.join(","));
       if (s.year) p.set("year", s.year);
       if (s.song) p.set("song", s.song);
-      if (s.member) p.set("member", s.member);
+      if (state.member !== "all") p.set("member", state.member);
       if (state.sort !== "newest") p.set("sort", state.sort);
       if (state.q) p.set("q", state.q);
       if (![...p].length) p.set("view", "browse"); // 필터 없는 전체보기
@@ -220,6 +223,8 @@
     // 현재 선택이 속한 그룹의 2단 패널을 열어 둠
     state.subGroup = subGroupFor(state.sel);
 
+    buildMemberFilter();
+    el.sortSelect.value = state.sort;
     el.search.value = state.q;
 
     bindEvents();
@@ -248,6 +253,9 @@
 
   function filtered() {
     let list = applySel(state.videos, state.sel);
+
+    if (state.member !== "all")
+      list = list.filter((v) => v.members.includes(state.member));
 
     if (state.q) {
       const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
@@ -293,14 +301,6 @@
       }
       for (const [s] of [...m.entries()].sort((a, b) => b[1] - a[1])) {
         kids.push({ label: s, sel: { ...(node.sel || {}), song: s } });
-      }
-    } else if (node.subBy === "member") {
-      const current = state.members.filter((m) => m.id !== "all" && m.status !== "former");
-      const former = state.members
-        .filter((m) => m.status === "former")
-        .sort((a, b) => (b.left || "").localeCompare(a.left || "")); // 탈퇴 역순
-      for (const m of [...current, ...former]) {
-        kids.push({ label: m.name, sel: { ...(node.sel || {}), member: m.id } });
       }
     }
 
@@ -455,6 +455,7 @@
     el.content.innerHTML = "";
 
     const about = state.view === "about";
+    el.filterBar.hidden = about;
     el.topbarTitle.textContent = about ? "소개" : titleFor(state.sel);
     document.title = about
       ? "소개 · FLOVER-FLIX"
@@ -463,6 +464,7 @@
     if (about) renderAbout();
     else renderGrid();
 
+    syncMemberUI();
     paintIcons();
     if (!(opts && opts.keepScroll)) window.scrollTo(0, 0);
   }
@@ -473,18 +475,9 @@
     const head = document.createElement("div");
     head.className = "grid-head";
     head.innerHTML =
-      `<h2>${escapeHtml(titleFor(state.sel))}</h2>` +
-      `<span class="grid-count">${list.length.toLocaleString("ko")}개</span>` +
-      `<label class="sort-control">
-        <span>정렬</span>
-        <select id="sortSelect" aria-label="정렬 방식">
-          <option value="newest">최신 발행순</option>
-          <option value="added">추가된 순</option>
-          <option value="oldest">오래된순</option>
-          <option value="title">제목순</option>
-        </select>
-      </label>`;
-    head.querySelector("#sortSelect").value = state.sort;
+      `<h2>${escapeHtml(titleFor(state.sel))}${
+        state.member !== "all" ? ` · ${escapeHtml(memberName(state.member))}` : ""
+      }</h2><span class="grid-count">${list.length.toLocaleString("ko")}개</span>`;
     el.content.appendChild(head);
 
     if (!list.length) {
@@ -759,6 +752,64 @@
     } catch (e) {}
   }
 
+  /* ---------- 멤버 필터 ---------- */
+
+  function buildMemberFilter() {
+    el.memberFilter.innerHTML = "";
+
+    const mkChip = (id, label, cls) => {
+      const b = document.createElement("button");
+      b.className = "chip" + (cls ? " " + cls : "");
+      b.textContent = label;
+      b.dataset.member = id;
+      b.addEventListener("click", () => {
+        state.member = id;
+        state.limit = CFG.pageSize;
+        writeUrl();
+        buildNav();
+        render();
+      });
+      el.memberFilter.appendChild(b);
+      return b;
+    };
+
+    mkChip("all", "전원");
+    for (const m of state.members) {
+      if (m.id === "all" || m.status === "former") continue;
+      mkChip(m.id, m.name);
+    }
+
+    const former = state.members
+      .filter((m) => m.status === "former")
+      .sort((a, b) => (b.left || "").localeCompare(a.left || "")); // 탈퇴 역순
+
+    if (former.length) {
+      const t = document.createElement("button");
+      t.className = "chip chip-toggle";
+      t.type = "button";
+      t.innerHTML = state.membersExpanded
+        ? '<i data-lucide="minus"></i> 접기'
+        : `<i data-lucide="plus"></i> 그리고 ${former.length}`;
+      t.addEventListener("click", () => {
+        state.membersExpanded = !state.membersExpanded;
+        buildMemberFilter();
+        syncMemberUI();
+      });
+      el.memberFilter.appendChild(t);
+
+      for (const m of former) mkChip(m.id, m.name, "chip-former");
+    }
+
+    el.memberFilter.classList.toggle("expanded", !!state.membersExpanded);
+    paintIcons();
+  }
+
+  function syncMemberUI() {
+    el.memberFilter.querySelectorAll(".chip[data-member]").forEach((c) => {
+      c.classList.toggle("is-active", c.dataset.member === state.member);
+    });
+  }
+
   function goAbout() {
     state.view = "about";
     writeUrl();
@@ -770,11 +821,10 @@
   /* ---------- 이벤트 ---------- */
 
   function bindEvents() {
-    el.content.addEventListener("change", (e) => {
-      if (e.target.id !== "sortSelect") return;
-      state.sort = e.target.value;
+    el.sortSelect.addEventListener("change", () => {
+      state.sort = el.sortSelect.value;
       writeUrl();
-      render({ keepScroll: true });
+      render();
     });
 
     el.search.addEventListener(
@@ -835,6 +885,7 @@
 
     window.addEventListener("popstate", () => {
       readUrl();
+      el.sortSelect.value = state.sort;
       el.search.value = state.q;
       state.limit = CFG.pageSize;
       state.subGroup = subGroupFor(state.sel);
