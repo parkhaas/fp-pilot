@@ -115,7 +115,6 @@
 
   "_shortsNote": "Shorts 는 길이로 판정하지 않음. (1) shortsChannels = 채널 /shorts 탭 (2) --shorts-aspect = 3분 이내 후보를 /shorts/ 리다이렉트+세로비율로 확인. 키워드 검색은 Shorts 를 안 돌려줌(테스트 확인).",
   "shortsChannels": [
-    { "handle": "@studiofromis_9", "category": "shorts" },
-    { "handle": "@fromis_9",       "category": "shorts", "filterKeywords": ["프로미스나인", "fromis", "프롬"] }
+    { "handle": "@studiofromis_9", "category": "shorts" }
   ]
 }

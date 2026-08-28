@@ -246,10 +246,10 @@ yt-dlp 는 채널 검색 탭 스크래핑(무료).
    `shortsChannels[]` 로 채널 `/shorts` 탭을 통째로 수집:
    ```json
    "shortsChannels": [
-     { "handle": "@studiofromis_9", "category": "shorts" },
-     { "handle": "@fromis_9", "category": "shorts", "filterKeywords": ["프로미스나인"] }
+     { "handle": "@studiofromis_9", "category": "shorts" }
    ]
    ```
+   ※ `@fromis_9` 는 `/shorts` 탭이 없어(매 실행 에러) 제외함.
 2. **신호 #3 (`--shorts-aspect`, opt-in)** — 길이 3분 이내 **and** 세로비율(height>width)
    후보만 영상별 조회해 `shorts` 로 재분류. 세로직캠(3분↑)은 자동 제외. 느림.
 
@@ -323,5 +323,5 @@ python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --sho
 - **playlists** (자체콘텐츠 9종): 스프 오리지널/슾log/게임할꼬/살아남기/뷰티&패션/프나상사/하냥카세/젼메추/챙그랑
 - **extraChannels**: 워크돌(`filterKeywords:["프로미스나인"]`) · 채널나인 · 이아이는요2 · 성수기(`skipIncremental`) · 이단장
 - **search**: 방송무대(KBS·MBC·SBS·Mnet) · 직캠(M2·STUDIO CHOOM) · 스페셜(딩고·퍼스트테이크)
-- **shortsChannels**: `@studiofromis_9`, `@fromis_9`
+- **shortsChannels**: `@studiofromis_9` (`@fromis_9` 은 쇼츠 탭 없어 제외)
 - `searchPublishedAfter`: `2018-01-01`
