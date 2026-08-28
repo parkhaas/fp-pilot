@@ -1,12 +1,96 @@
 {
   "videos": [
     {
+      "id": "yt:4qqiR2ZLuBQ",
+      "videoId": "4qqiR2ZLuBQ",
+      "title": "INTRO + LIKE YOU BETTER - fromis_9 (프로미스나인) [2025 가요대축제 글로벌 페스티벌] | KBS 251219 방송",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2025-12-28T00:00:00Z",
+      "addedAt": "2026-08-28T10:13:23Z",
+      "members": [
+        "all"
+      ],
+      "duration": 102,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:zcnDlCp52lw",
+      "videoId": "zcnDlCp52lw",
+      "title": "[가요대제전] 프로미스나인 백지헌 – Supersonic 직캠 (fromis_9 BAEK JIHEON Fancam) | Gayo Daejejeon 2024 | MBC250129",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2025-08-28T00:00:00Z",
+      "addedAt": "2026-08-28T10:13:23Z",
+      "members": [
+        "jiheon"
+      ],
+      "duration": 195,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:0IkyjqYmfLE",
+      "videoId": "0IkyjqYmfLE",
+      "title": "[Leemujin Service] EP.67 fromis_9 LEE SEO YEON | #menow, I hate you, It must have been love, etc",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2023-08-28T00:00:00Z",
+      "addedAt": "2026-08-28T10:13:23Z",
+      "members": [
+        "all"
+      ],
+      "duration": 1573,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:k9mVFmvR4Ic",
+      "videoId": "k9mVFmvR4Ic",
+      "title": "[K-Choreo 8k] 프로미스나인 'Feel Good (SECRET CODE)' (fromis_9 Choreography) l @MusicBank 201009",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2021-08-28T00:00:00Z",
+      "addedAt": "2026-08-28T10:13:23Z",
+      "members": [
+        "all"
+      ],
+      "duration": 240,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:EoxsOwteXq4",
+      "videoId": "EoxsOwteXq4",
+      "title": "FUN! - 프로미스나인(fromis_9) 이서연 / 190621 뮤직뱅크 직캠",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-28T10:13:23Z",
+      "members": [
+        "seoyeon"
+      ],
+      "duration": 184,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Ax73i0RRvow",
+      "videoId": "Ax73i0RRvow",
+      "title": "프로미스나인(fromis_9) 지원 - 러브 밤(LOVE BOMB) / 181019 뮤직뱅크 직캠",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-28T10:13:23Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": 205,
+      "source": "youtube"
+    },
+    {
       "id": "yt:q_BFdFUbxjE",
       "videoId": "q_BFdFUbxjE",
       "title": "🏝️Jiheon’s Favorite Summer Outfits! | ˗ˋˏSummer Haulˎˊ˗ It was summer…🩷",
       "category": "sp_beauty",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-08-27T10:00:00Z",
+      "publishedAt": "2026-08-27T00:00:00Z",
       "addedAt": "2026-08-28T07:54:51Z",
       "members": [
         "jiheon"
@@ -99,20 +183,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:tqLhnRguEtY",
-      "videoId": "tqLhnRguEtY",
-      "title": "[K-Fancam] 프로미스나인 송하영 직캠 '짧은치마' (fromis_9 SONG HAYOUNG Fancam) @가요대축제 글로벌페스티벌 251219",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2025-12-28T00:00:00Z",
-      "addedAt": "2026-08-28T07:54:51Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 186,
-      "source": "youtube"
-    },
-    {
       "id": "yt:-dOgbjA1Gik",
       "videoId": "-dOgbjA1Gik",
       "title": "하얀 눈이 내려오면 보고 싶은 프롬이들❄️ 프로미스나인 무대 몰아보기 | fromis_9 Stage Compilation",
@@ -124,6 +194,20 @@
         "all"
       ],
       "duration": 4351,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:tqLhnRguEtY",
+      "videoId": "tqLhnRguEtY",
+      "title": "[K-Fancam] 프로미스나인 송하영 직캠 '짧은치마' (fromis_9 SONG HAYOUNG Fancam) @가요대축제 글로벌페스티벌 251219",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2025-12-28T00:00:00Z",
+      "addedAt": "2026-08-28T07:54:51Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": 186,
       "source": "youtube"
     },
     {
@@ -421,23 +505,9 @@
       "source": "youtube"
     },
     {
-      "id": "yt:OGzEr6mfDeg",
-      "videoId": "OGzEr6mfDeg",
-      "title": "[K-Fancam] 프로미스나인 장규리 직캠 'DM' (fromis_9 Jang Gyuri Fancam) l @MusicBank 220121",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-28T07:54:51Z",
-      "members": [
-        "gyuri"
-      ],
-      "duration": 223,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:siVKRgIN2Tg",
-      "videoId": "siVKRgIN2Tg",
-      "title": "[FULL] 썸머퀸 프로미스나인과 매터돌 바캉스 떠나실분?😎 [매터돌 EP.17] IDOL’S Snack Spree🛒 | fromis_9 | Stay This Way",
+      "id": "yt:KopaXFf0UYg",
+      "videoId": "KopaXFf0UYg",
+      "title": "[K-Choreo 8k] 프로미스나인 'Talk & Talk' (fromis_9 Choreography) l @MusicBank 210903",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2022-08-28T00:00:00Z",
@@ -445,7 +515,7 @@
       "members": [
         "all"
       ],
-      "duration": 3591,
+      "duration": 241,
       "source": "youtube"
     },
     {
@@ -463,17 +533,17 @@
       "source": "youtube"
     },
     {
-      "id": "yt:KopaXFf0UYg",
-      "videoId": "KopaXFf0UYg",
-      "title": "[K-Choreo 8k] 프로미스나인 'Talk & Talk' (fromis_9 Choreography) l @MusicBank 210903",
+      "id": "yt:OGzEr6mfDeg",
+      "videoId": "OGzEr6mfDeg",
+      "title": "[K-Fancam] 프로미스나인 장규리 직캠 'DM' (fromis_9 Jang Gyuri Fancam) l @MusicBank 220121",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2022-08-28T00:00:00Z",
       "addedAt": "2026-08-28T07:54:51Z",
       "members": [
-        "all"
+        "gyuri"
       ],
-      "duration": 241,
+      "duration": 223,
       "source": "youtube"
     },
     {
@@ -530,6 +600,20 @@
         "all"
       ],
       "duration": 213,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:siVKRgIN2Tg",
+      "videoId": "siVKRgIN2Tg",
+      "title": "[FULL] 썸머퀸 프로미스나인과 매터돌 바캉스 떠나실분?😎 [매터돌 EP.17] IDOL’S Snack Spree🛒 | fromis_9 | Stay This Way",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-28T07:54:51Z",
+      "members": [
+        "all"
+      ],
+      "duration": 3591,
       "source": "youtube"
     },
     {
@@ -603,6 +687,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:Mz8PnBkqglM",
+      "videoId": "Mz8PnBkqglM",
+      "title": "FUN! - fromis_9 / 190614 Music Bank Fancam (Full Cam ver.)(4K)",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-28T07:54:51Z",
+      "members": [
+        "all"
+      ],
+      "duration": 183,
+      "source": "youtube"
+    },
+    {
       "id": "yt:iWNlKybd7vs",
       "videoId": "iWNlKybd7vs",
       "title": "뮤직뱅크 Music Bank - LOVE BOMB  - 프로미스나인(fromis_9).20181102",
@@ -614,20 +712,6 @@
         "all"
       ],
       "duration": 199,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Mz8PnBkqglM",
-      "videoId": "Mz8PnBkqglM",
-      "title": "FUN! - 프로미스나인(fromis_9) / 190614 뮤직뱅크 직캠(풀캠ver)(4K)",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-28T07:54:51Z",
-      "members": [
-        "all"
-      ],
-      "duration": 183,
       "source": "youtube"
     },
     {
@@ -3660,7 +3744,7 @@
     {
       "id": "yt:CI8cNIUh1xM",
       "videoId": "CI8cNIUh1xM",
-      "title": "귀여운 개, 세상을 구한다( only #shorts )",
+      "title": "Cute dog saves the world ( only #shorts )",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -4540,20 +4624,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:0Dph_hABb5k",
-      "videoId": "0Dph_hABb5k",
-      "title": "찌는 더위☀️ 비타민 일일 권장량 달성하는 방법🍋 상큼함을 책임질 절세ME인들의 매점가요 ✨피로회복 시력개선✨ 완벽 보장! #인기가요끝나면매점가요2 EP.15 #fromis_9",
-      "category": "music_show",
-      "channelTitle": "SBSKPOP X INKIGAYO",
-      "publishedAt": "2026-08-15T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1643,
-      "source": "youtube"
-    },
-    {
       "id": "yt:YAd9KLkfAs0",
       "videoId": "YAd9KLkfAs0",
       "title": "[#직캠보고서🔍] #fromis_9 #프로미스나인 왔다. 내 여름 보양식. ㄴ비타민이 어떻게 보양식?? ㄴ저는 되던데요... 음중 사전녹화 비하인드⏯️",
@@ -4565,6 +4635,20 @@
         "all"
       ],
       "duration": 1514,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:0Dph_hABb5k",
+      "videoId": "0Dph_hABb5k",
+      "title": "찌는 더위☀️ 비타민 일일 권장량 달성하는 방법🍋 상큼함을 책임질 절세ME인들의 매점가요 ✨피로회복 시력개선✨ 완벽 보장! #인기가요끝나면매점가요2 EP.15 #fromis_9",
+      "category": "music_show",
+      "channelTitle": "SBSKPOP X INKIGAYO",
+      "publishedAt": "2026-08-14T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 1643,
       "source": "youtube"
     },
     {
@@ -4582,9 +4666,9 @@
       "source": "youtube"
     },
     {
-      "id": "yt:nMoLR6kyncc",
-      "videoId": "nMoLR6kyncc",
-      "title": "Vitamin ME - fromis_9 (프로미스나인) [뮤직뱅크/Music Bank] | KBS 260731 방송",
+      "id": "yt:WwZnaLbph1k",
+      "videoId": "WwZnaLbph1k",
+      "title": "[4K] fromis_9 'Vitamin ME' Music Bank 1st Place Encore Facecam @Music Bank 07/31/26",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2026-08-07T00:00:00Z",
@@ -4592,7 +4676,7 @@
       "members": [
         "all"
       ],
-      "duration": 224,
+      "duration": 451,
       "source": "youtube"
     },
     {
@@ -4607,20 +4691,6 @@
         "all"
       ],
       "duration": 231,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:WwZnaLbph1k",
-      "videoId": "WwZnaLbph1k",
-      "title": "[4K] fromis_9 'Vitamin ME' Music Bank 1st Place Encore Facecam @Music Bank 07/31/26",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 451,
       "source": "youtube"
     },
     {
@@ -4666,15 +4736,15 @@
       "source": "youtube"
     },
     {
-      "id": "yt:VT9V9mAU8EA",
-      "videoId": "VT9V9mAU8EA",
-      "title": "[K-Fancam] fromis_9 LEE CHAEYOUNG 'Vitamin ME' (fromis_9 LEECHAEYOUNG Fancam) @Music Bank 07/31/26",
+      "id": "yt:b7s7iUmtRnc",
+      "videoId": "b7s7iUmtRnc",
+      "title": "[K-Fancam] fromis_9 BAEKJIHEON 'Vitamin ME' (fromis_9 BAEKJIHEON Fancam) @Music Bank 260731",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2026-08-07T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "chaeyoung"
+        "jiheon"
       ],
       "duration": 221,
       "source": "youtube"
@@ -4682,7 +4752,7 @@
     {
       "id": "yt:mvKEMlkZyc4",
       "videoId": "mvKEMlkZyc4",
-      "title": "[K-Fancam] 프로미스나인 송하영 'Vitamin ME' (fromis_9 SONGHAYOUNG Fancam) @뮤직뱅크(Music Bank) 260731",
+      "title": "[K-Fancam] fromis_9 SONGHAYOUNG 'Vitamin ME' (fromis_9 SONGHAYOUNG Fancam) @Music Bank 07/31/26",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2026-08-07T00:00:00Z",
@@ -4708,20 +4778,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:rMuu3gpPHo4",
-      "videoId": "rMuu3gpPHo4",
-      "title": "[#최애직캠] fromis_9 SONG HAYOUNG (프로미스나인 송하영) – Vitamin ME | 쇼! 음악중심 | MBC260801",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 234,
-      "source": "youtube"
-    },
-    {
       "id": "yt:K9yrPWslIHE",
       "videoId": "K9yrPWslIHE",
       "title": "[#음중직캠] fromis_9 (프로미스나인) – Vitamin ME 1위 직캠 | 쇼! 음악중심 | MBC260801",
@@ -4733,6 +4789,20 @@
         "all"
       ],
       "duration": 445,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:rMuu3gpPHo4",
+      "videoId": "rMuu3gpPHo4",
+      "title": "[#최애직캠] fromis_9 SONG HAYOUNG (프로미스나인 송하영) – Vitamin ME | 쇼! 음악중심 | MBC260801",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2026-08-07T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": 234,
       "source": "youtube"
     },
     {
@@ -4834,20 +4904,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:FnbOCcjIv2o",
-      "videoId": "FnbOCcjIv2o",
-      "title": "fromis_9(프로미스나인).zip 📂유리구두부터 Vitamin ME까지 | Show! MusicCore",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 2478,
-      "source": "youtube"
-    },
-    {
       "id": "yt:EPwxgmc6b4w",
       "videoId": "EPwxgmc6b4w",
       "title": "[쇼! 음악중심] 영양제 대신 프나의 비타민 미이이이이x2 🌊 #프로미스나인 #shorts",
@@ -4876,6 +4932,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:VT9V9mAU8EA",
+      "videoId": "VT9V9mAU8EA",
+      "title": "[K-Fancam] fromis_9 LEE CHAEYOUNG 'Vitamin ME' (fromis_9 LEECHAEYOUNG Fancam) @Music Bank 07/31/26",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-08-07T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": 221,
+      "source": "youtube"
+    },
+    {
       "id": "yt:0W9gYyH4toM",
       "videoId": "0W9gYyH4toM",
       "title": "[K-Choreo 8K] fromis_9 Fancam 'Vitamin ME' (fromis_9 Choreography) @MusicBank 260731",
@@ -4885,20 +4955,6 @@
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "all"
-      ],
-      "duration": 221,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:b7s7iUmtRnc",
-      "videoId": "b7s7iUmtRnc",
-      "title": "[K-Fancam] fromis_9 BAEKJIHEON 'Vitamin ME' (fromis_9 BAEKJIHEON Fancam) @Music Bank 260731",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-08-06T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiheon"
       ],
       "duration": 221,
       "source": "youtube"
@@ -4918,6 +4974,34 @@
       "source": "youtube"
     },
     {
+      "id": "yt:nMoLR6kyncc",
+      "videoId": "nMoLR6kyncc",
+      "title": "Vitamin ME - fromis_9 (프로미스나인) [뮤직뱅크/Music Bank] | KBS 260731 방송",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-07-31T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 224,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:FnbOCcjIv2o",
+      "videoId": "FnbOCcjIv2o",
+      "title": "fromis_9(프로미스나인).zip 📂유리구두부터 Vitamin ME까지 | Show! MusicCore",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2026-07-31T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 2478,
+      "source": "youtube"
+    },
+    {
       "id": "yt:DXgssBhQh_Y",
       "videoId": "DXgssBhQh_Y",
       "title": "[MPD직캠] 프로미스나인 직캠 4K 'Vitamin ME' (fromis_9 FanCam) | @MCOUNTDOWN_2026.7.30",
@@ -4932,20 +5016,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:iRUfkgnWU9E",
-      "videoId": "iRUfkgnWU9E",
-      "title": "fromis_9 (프로미스나인) - Vitamin ME [더 시즌즈-성시경의 고막남친] | KBS 260724 방송",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 193,
-      "source": "youtube"
-    },
-    {
       "id": "yt:4zPuqYdkOwo",
       "videoId": "4zPuqYdkOwo",
       "title": "[K-Choreo 8K] fromis_9 Fancam 'Vitamin ME' (fromis_9 Choreography) 🎧Spatial Audio Ver. @MusicBank...",
@@ -4957,6 +5027,20 @@
         "all"
       ],
       "duration": 252,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:iRUfkgnWU9E",
+      "videoId": "iRUfkgnWU9E",
+      "title": "fromis_9 (프로미스나인) - Vitamin ME [더 시즌즈-성시경의 고막남친] | KBS 260724 방송",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-07-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 193,
       "source": "youtube"
     },
     {
@@ -4988,34 +5072,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:5NW_quR1Dlk",
-      "videoId": "5NW_quR1Dlk",
-      "title": "fromis_9 (프로미스나인) - Supersonic (Band VER.) [더 시즌즈-성시경의 고막남친] | KBS 260724 방송",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 178,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:qNCw6wncm-4",
-      "videoId": "qNCw6wncm-4",
-      "title": "[Facecam 4K] fromis_9 SONGHAYOUNG 'Vitamin ME' @Music Bank 07/26/24",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 278,
-      "source": "youtube"
-    },
-    {
       "id": "yt:yA1CFVr6jso",
       "videoId": "yA1CFVr6jso",
       "title": "[Extreme Close-up Facecam 4K] fromis_9 BAEKJIHEON 'Vitamin ME' @Music Bank 07/26/24",
@@ -5044,9 +5100,23 @@
       "source": "youtube"
     },
     {
-      "id": "yt:uVUZCd42OUY",
-      "videoId": "uVUZCd42OUY",
-      "title": "[가로] fromis_9 (프로미스나인) - Supersonic (Band VER.)  [더 시즌즈-성시경의 고막남친] | KBS 260724 방송",
+      "id": "yt:qNCw6wncm-4",
+      "videoId": "qNCw6wncm-4",
+      "title": "[Facecam 4K] fromis_9 SONGHAYOUNG 'Vitamin ME' @Music Bank 07/26/24",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-07-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": 278,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:5NW_quR1Dlk",
+      "videoId": "5NW_quR1Dlk",
+      "title": "fromis_9 (프로미스나인) - Supersonic (Band VER.) [더 시즌즈-성시경의 고막남친] | KBS 260724 방송",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2026-07-28T00:00:00Z",
@@ -5055,20 +5125,6 @@
         "all"
       ],
       "duration": 178,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:UoMbexElwAs",
-      "videoId": "UoMbexElwAs",
-      "title": "[가로] fromis_9 (프로미스나인) - Vitamin ME  [더 시즌즈-성시경의 고막남친] | KBS 260724 방송",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 194,
       "source": "youtube"
     },
     {
@@ -5083,6 +5139,20 @@
         "all"
       ],
       "duration": 95,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:UoMbexElwAs",
+      "videoId": "UoMbexElwAs",
+      "title": "[가로] fromis_9 (프로미스나인) - Vitamin ME  [더 시즌즈-성시경의 고막남친] | KBS 260724 방송",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-07-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 194,
       "source": "youtube"
     },
     {
@@ -5170,6 +5240,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:JnFSpvZHpXc",
+      "videoId": "JnFSpvZHpXc",
+      "title": "[K-Fancam] fromis_9 SONGHAYOUNG 'Vitamin ME' (fromis_9 SONGHAYOUNG Fancam) @Music Bank 07/26/24",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-07-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": 228,
+      "source": "youtube"
+    },
+    {
       "id": "yt:h3Ztxg_dGlU",
       "videoId": "h3Ztxg_dGlU",
       "title": "군대 떼창 레전드 찍은 ‘ 군통령 ’ 프로미스나인 위엄👑 [더 시즌즈-성시경의 고막남친] | KBS 260724 방송",
@@ -5184,17 +5268,31 @@
       "source": "youtube"
     },
     {
-      "id": "yt:JnFSpvZHpXc",
-      "videoId": "JnFSpvZHpXc",
-      "title": "[K-Fancam] fromis_9 SONGHAYOUNG 'Vitamin ME' (fromis_9 SONGHAYOUNG Fancam) @Music Bank 07/26/24",
+      "id": "yt:nc15jkU5jwM",
+      "videoId": "nc15jkU5jwM",
+      "title": "(ENG)[MusicBank Interview Cam] fromis_9 (fromis_9 Interview) l @MusicBank KBS 07/26/24",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2026-07-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "hayoung"
+        "all"
       ],
-      "duration": 228,
+      "duration": 189,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:M3sDTrPRz_8",
+      "videoId": "M3sDTrPRz_8",
+      "title": "[K-Fancam] fromis_9 LEE CHAEYOUNG 'Vitamin ME' (fromis_9 LEE CHAEYOUNG Fancam) @Music Bank 07/26/24",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-07-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": 239,
       "source": "youtube"
     },
     {
@@ -5214,7 +5312,7 @@
     {
       "id": "yt:npu-3BWjVlQ",
       "videoId": "npu-3BWjVlQ",
-      "title": "[하이라이트] fromis_9 (프로미스나인) - 8282 [더 시즌즈-성시경의 고막남친] | KBS 방송",
+      "title": "[Highlight] fromis_9 - 8282 [The Seasons: Sung Si-kyung’s Ear-Candy] | KBS Broadcast",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2026-07-28T00:00:00Z",
@@ -5296,6 +5394,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:JKmOqtzShlw",
+      "videoId": "JKmOqtzShlw",
+      "title": "[#음중직캠] fromis_9 SONG HAYOUNG (프로미스나인 송하영) – Vitamin ME FanCam | 쇼! 음악중심 | MBC260725",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2026-07-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": 211,
+      "source": "youtube"
+    },
+    {
       "id": "yt:DHmANPq3dXw",
       "videoId": "DHmANPq3dXw",
       "title": "[#음중직캠] fromis_9 PARK JIWON (프로미스나인 박지원) – Vitamin ME FanCam | 쇼! 음악중심 | MBC260725",
@@ -5310,17 +5422,17 @@
       "source": "youtube"
     },
     {
-      "id": "yt:JKmOqtzShlw",
-      "videoId": "JKmOqtzShlw",
-      "title": "[#음중직캠] fromis_9 SONG HAYOUNG (프로미스나인 송하영) – Vitamin ME FanCam | 쇼! 음악중심 | MBC260725",
+      "id": "yt:efE1HK32_cA",
+      "videoId": "efE1HK32_cA",
+      "title": "[#음중직캠] fromis_9 BAEK JIHEON (프로미스나인 백지헌) – Vitamin ME FanCam | 쇼! 음악중심 | MBC260725",
       "category": "music_show",
       "channelTitle": "MBCkpop",
       "publishedAt": "2026-07-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "hayoung"
+        "jiheon"
       ],
-      "duration": 211,
+      "duration": 232,
       "source": "youtube"
     },
     {
@@ -5450,20 +5562,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:mUIJIEMSrnc",
-      "videoId": "mUIJIEMSrnc",
-      "title": "[FanCam] fromis_9 LEE CHAE YOUNG 'Vitamin ME' 4K FanCam | @MCOUNTDOWN_2026.7.23",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 227,
-      "source": "youtube"
-    },
-    {
       "id": "yt:rcBCqnW-MzA",
       "videoId": "rcBCqnW-MzA",
       "title": "[MPD직캠] 프로미스나인 이나경 직캠 4K 'Vitamin ME' (fromis_9 LEE NA GYUNG FanCam) | @MCOUNTDOWN_2026.7.23",
@@ -5475,6 +5573,20 @@
         "nagyung"
       ],
       "duration": 213,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:mUIJIEMSrnc",
+      "videoId": "mUIJIEMSrnc",
+      "title": "[FanCam] fromis_9 LEE CHAE YOUNG 'Vitamin ME' 4K FanCam | @MCOUNTDOWN_2026.7.23",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2026-07-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 227,
       "source": "youtube"
     },
     {
@@ -5562,45 +5674,17 @@
       "source": "youtube"
     },
     {
-      "id": "yt:nc15jkU5jwM",
-      "videoId": "nc15jkU5jwM",
-      "title": "(ENG)[MusicBank Interview Cam] fromis_9 (fromis_9 Interview) l @MusicBank KBS 07/26/24",
+      "id": "yt:uVUZCd42OUY",
+      "videoId": "uVUZCd42OUY",
+      "title": "[가로] fromis_9 (프로미스나인) - Supersonic (Band VER.)  [더 시즌즈-성시경의 고막남친] | KBS 260724 방송",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-07-27T00:00:00Z",
+      "publishedAt": "2026-07-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "all"
       ],
-      "duration": 189,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:M3sDTrPRz_8",
-      "videoId": "M3sDTrPRz_8",
-      "title": "[K-Fancam] fromis_9 LEE CHAEYOUNG 'Vitamin ME' (fromis_9 LEE CHAEYOUNG Fancam) @Music Bank 07/26/24",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-07-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 239,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:efE1HK32_cA",
-      "videoId": "efE1HK32_cA",
-      "title": "[#음중직캠] fromis_9 BAEK JIHEON (프로미스나인 백지헌) – Vitamin ME FanCam | 쇼! 음악중심 | MBC260725",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2026-07-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": 232,
+      "duration": 178,
       "source": "youtube"
     },
     {
@@ -5632,6 +5716,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:UtDlXHKzGf8",
+      "videoId": "UtDlXHKzGf8",
+      "title": "[K-Choreo 8k] 프로미스나인 '짧은 치마 (Miniskirt) (원곡: AOA)' (fromis_9 Choreography) @가요대축제글로벌페스티벌 251219",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2025-12-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 146,
+      "source": "youtube"
+    },
+    {
       "id": "yt:8Ngt_eTtjpo",
       "videoId": "8Ngt_eTtjpo",
       "title": "하얀 그리움 - fromis_9 (프로미스나인) [뮤직뱅크/Music Bank] | KBS 251205 방송",
@@ -5657,34 +5755,6 @@
         "all"
       ],
       "duration": 222,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:UtDlXHKzGf8",
-      "videoId": "UtDlXHKzGf8",
-      "title": "[K-Choreo 8k] 프로미스나인 '짧은 치마 (Miniskirt) (원곡: AOA)' (fromis_9 Choreography) @가요대축제글로벌페스티벌 251219",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2025-12-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 146,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:QzjVyhFbGew",
-      "videoId": "QzjVyhFbGew",
-      "title": "하얀 그리움 - fromis_9 (프로미스나인) [2025 가요대축제 글로벌 페스티벌] | KBS 251219 방송",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2025-12-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 233,
       "source": "youtube"
     },
     {
@@ -5716,20 +5786,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:9RaO1sFqRx4",
-      "videoId": "9RaO1sFqRx4",
-      "title": "[얼빡직캠 4K] 프로미스나인 이나경 '하얀 그리움' (fromis_9 LEE NA GYUNG Facecam) @뮤직뱅크(Music Bank) 251205",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2025-12-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "nagyung"
-      ],
-      "duration": 209,
-      "source": "youtube"
-    },
-    {
       "id": "yt:Smgcwn3HNG8",
       "videoId": "Smgcwn3HNG8",
       "title": "[K-Choreo 8k] 프로미스나인 '하얀 그리움' (fromis_9 Choreography) @MusicBank 251205",
@@ -5758,20 +5814,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:QGBMQVFNpvI",
-      "videoId": "QGBMQVFNpvI",
-      "title": "[얼빡직캠 4K] 프로미스나인 송하영 'LIKE YOU BETTER+하얀 그리움' (fromis_9 SONG HAYOUNG Facecam) @가요대축제 글로벌페스티벌251219",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2025-12-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 351,
-      "source": "youtube"
-    },
-    {
       "id": "yt:5ZysU-htzWk",
       "videoId": "5ZysU-htzWk",
       "title": "[얼빡직캠 4K] 프로미스나인 이채영 '하얀 그리움' (fromis_9 LEE CHAE YOUNG Facecam) @뮤직뱅크(Music Bank) 251205",
@@ -5783,6 +5825,20 @@
         "chaeyoung"
       ],
       "duration": 224,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:QGBMQVFNpvI",
+      "videoId": "QGBMQVFNpvI",
+      "title": "[얼빡직캠 4K] 프로미스나인 송하영 'LIKE YOU BETTER+하얀 그리움' (fromis_9 SONG HAYOUNG Facecam) @가요대축제 글로벌페스티벌251219",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2025-12-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": 351,
       "source": "youtube"
     },
     {
@@ -5814,6 +5870,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:a-ir3Dtdimo",
+      "videoId": "a-ir3Dtdimo",
+      "title": "(ENG) [MusicBank Interview Cam] fromis_9 Interview | @MusicBank KBS 12/05/25",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2025-12-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 195,
+      "source": "youtube"
+    },
+    {
       "id": "yt:J60L2ptQ_0M",
       "videoId": "J60L2ptQ_0M",
       "title": "프로미스나인 이채영 직캠 'INTRO + LIKE YOU BETTER + 하얀 그리움' (fromis_9 LEE CHAEYOUNG Fancam)@가요대축제 글로벌페스티벌251219",
@@ -5828,45 +5898,17 @@
       "source": "youtube"
     },
     {
-      "id": "yt:v5D82qQYU5s",
-      "videoId": "v5D82qQYU5s",
-      "title": "[K-Fancam] 프로미스나인 송하영 직캠 '하얀 그리움' (fromis_9 SONG HA YOUNG Fancam) @뮤직뱅크(Music Bank) 251205",
+      "id": "yt:WhgNU9AtuMk",
+      "videoId": "WhgNU9AtuMk",
+      "title": "[얼빡직캠 4K] 프로미스나인 박지원 '하얀 그리움' (fromis_9 PARK JI WON Facecam) @뮤직뱅크(Music Bank) 251205",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2025-12-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "hayoung"
+        "jiwon"
       ],
-      "duration": 238,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:99kOkpidRHg",
-      "videoId": "99kOkpidRHg",
-      "title": "[얼빡직캠 4K] 프로미스나인 송하영 '하얀 그리움' (fromis_9 SONG HA YOUNG Facecam) @뮤직뱅크(Music Bank) 251205",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2025-12-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 214,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:3QkjsILjjro",
-      "videoId": "3QkjsILjjro",
-      "title": "프로미스나인 송하영 직캠 'INTRO + LIKE YOU BETTER + 하얀 그리움' (fromis_9 SONG HAYOUNG Fancam) @가요대축제 글로벌페스티벌251219",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2025-12-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 346,
+      "duration": 224,
       "source": "youtube"
     },
     {
@@ -5898,6 +5940,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:3QkjsILjjro",
+      "videoId": "3QkjsILjjro",
+      "title": "프로미스나인 송하영 직캠 'INTRO + LIKE YOU BETTER + 하얀 그리움' (fromis_9 SONG HAYOUNG Fancam) @가요대축제 글로벌페스티벌251219",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2025-12-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": 346,
+      "source": "youtube"
+    },
+    {
       "id": "yt:fXyVxWRjSco",
       "videoId": "fXyVxWRjSco",
       "title": "fromis_9 (프로미스나인) - White Memories (하얀 그리움) | Show! MusicCore | MBC251206방송",
@@ -5912,20 +5968,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:dU00XlBhZmk",
-      "videoId": "dU00XlBhZmk",
-      "title": "[#음중풀캠8K] fromis_9 (프로미스나인) – 하얀 그리움 FullCam | 쇼! 음악중심 | MBC251206",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2025-12-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 207,
-      "source": "youtube"
-    },
-    {
       "id": "yt:_e1ojvsRrxY",
       "videoId": "_e1ojvsRrxY",
       "title": "fromis_9(프로미스 나인).zip 📂 유리구두부터 하얀 그리움까지 | Show! MusicCore",
@@ -5937,6 +5979,20 @@
         "all"
       ],
       "duration": 2265,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:dU00XlBhZmk",
+      "videoId": "dU00XlBhZmk",
+      "title": "[#음중풀캠8K] fromis_9 (프로미스나인) – 하얀 그리움 FullCam | 쇼! 음악중심 | MBC251206",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2025-12-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 207,
       "source": "youtube"
     },
     {
@@ -6066,31 +6122,59 @@
       "source": "youtube"
     },
     {
-      "id": "yt:a-ir3Dtdimo",
-      "videoId": "a-ir3Dtdimo",
-      "title": "(ENG) [MusicBank Interview Cam] fromis_9 Interview | @MusicBank KBS 12/05/25",
+      "id": "yt:QzjVyhFbGew",
+      "videoId": "QzjVyhFbGew",
+      "title": "하얀 그리움 - fromis_9 (프로미스나인) [2025 가요대축제 글로벌 페스티벌] | KBS 251219 방송",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
-      "publishedAt": "2025-12-27T00:00:00Z",
+      "publishedAt": "2025-12-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "all"
       ],
-      "duration": 195,
+      "duration": 233,
       "source": "youtube"
     },
     {
-      "id": "yt:WhgNU9AtuMk",
-      "videoId": "WhgNU9AtuMk",
-      "title": "[얼빡직캠 4K] 프로미스나인 박지원 '하얀 그리움' (fromis_9 PARK JI WON Facecam) @뮤직뱅크(Music Bank) 251205",
+      "id": "yt:9RaO1sFqRx4",
+      "videoId": "9RaO1sFqRx4",
+      "title": "[얼빡직캠 4K] 프로미스나인 이나경 '하얀 그리움' (fromis_9 LEE NA GYUNG Facecam) @뮤직뱅크(Music Bank) 251205",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
-      "publishedAt": "2025-12-27T00:00:00Z",
+      "publishedAt": "2025-12-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "jiwon"
+        "nagyung"
       ],
-      "duration": 224,
+      "duration": 209,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:v5D82qQYU5s",
+      "videoId": "v5D82qQYU5s",
+      "title": "[K-Fancam] 프로미스나인 송하영 직캠 '하얀 그리움' (fromis_9 SONG HA YOUNG Fancam) @뮤직뱅크(Music Bank) 251205",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2025-12-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": 238,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:99kOkpidRHg",
+      "videoId": "99kOkpidRHg",
+      "title": "[얼빡직캠 4K] 프로미스나인 송하영 '하얀 그리움' (fromis_9 SONG HA YOUNG Facecam) @뮤직뱅크(Music Bank) 251205",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2025-12-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": 214,
       "source": "youtube"
     },
     {
@@ -6178,34 +6262,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:8It9hW0eS04",
-      "videoId": "8It9hW0eS04",
-      "title": "[얼빡직캠 4K] 프로미스나인 박지원 'LIKE YOU BETTER' (fromis_9 PARK JI WON Facecam) @뮤직뱅크(Music Bank) 250627",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiwon"
-      ],
-      "duration": 218,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:G0ZA8iIb_sA",
-      "videoId": "G0ZA8iIb_sA",
-      "title": "[K-Fancam] 프로미스나인 백지헌 직캠 'LIKE YOU BETTER' (fromis_9 BAEK JI HEON Fancam) @뮤직뱅크(Music Bank) 250627",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": 211,
-      "source": "youtube"
-    },
-    {
       "id": "yt:SIUG9C8sBsM",
       "videoId": "SIUG9C8sBsM",
       "title": "[K-Fancam] 프로미스나인 송하영 직캠 'LIKE YOU BETTER' (fromis_9 SONG HA YOUNG Fancam) @뮤직뱅크(Music Bank) 250627",
@@ -6231,20 +6287,6 @@
         "jiwon"
       ],
       "duration": 211,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:pAMLFya-5bY",
-      "videoId": "pAMLFya-5bY",
-      "title": "[얼빡직캠 4K] 프로미스나인 이나경 'LIKE YOU BETTER' (fromis_9 LEE NA GYUNG Facecam) @뮤직뱅크(Music Bank) 250627",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "nagyung"
-      ],
-      "duration": 229,
       "source": "youtube"
     },
     {
@@ -6318,20 +6360,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:ihsGl3QgXww",
-      "videoId": "ihsGl3QgXww",
-      "title": "[가요대제전] 프로미스나인 송하영 – Supersonic 직캠 (fromis_9 SONG HAYOUNG Fancam) | Gayo Daejejeon 2024 | MBC250129",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 193,
-      "source": "youtube"
-    },
-    {
       "id": "yt:xfXgCcNmNVY",
       "videoId": "xfXgCcNmNVY",
       "title": "fromis_9(프로미스나인).zip 📂 유리구두부터 LIKE YOU BETTER까지 | Show! MusicCore",
@@ -6346,17 +6374,17 @@
       "source": "youtube"
     },
     {
-      "id": "yt:6kyFlLiIKh0",
-      "videoId": "6kyFlLiIKh0",
-      "title": "[#음중직캠] fromis_9 LEE NAGYUNG (프로미스나인 이나경) – LIKE YOU BETTER FanCam | 쇼! 음악중심 | MBC250628",
+      "id": "yt:ihsGl3QgXww",
+      "videoId": "ihsGl3QgXww",
+      "title": "[가요대제전] 프로미스나인 송하영 – Supersonic 직캠 (fromis_9 SONG HAYOUNG Fancam) | Gayo Daejejeon 2024 | MBC250129",
       "category": "music_show",
       "channelTitle": "MBCkpop",
       "publishedAt": "2025-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "nagyung"
+        "hayoung"
       ],
-      "duration": 206,
+      "duration": 193,
       "source": "youtube"
     },
     {
@@ -6371,6 +6399,20 @@
         "hayoung"
       ],
       "duration": 207,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:6kyFlLiIKh0",
+      "videoId": "6kyFlLiIKh0",
+      "title": "[#음중직캠] fromis_9 LEE NAGYUNG (프로미스나인 이나경) – LIKE YOU BETTER FanCam | 쇼! 음악중심 | MBC250628",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2025-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": 206,
       "source": "youtube"
     },
     {
@@ -6441,6 +6483,48 @@
         "nagyung"
       ],
       "duration": 218,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:4phYz2uCrB8",
+      "videoId": "4phYz2uCrB8",
+      "title": "[가요대제전] 프로미스나인 박지원 – Supersonic 직캠 (fromis_9 PARK JIWON Fancam) | Gayo Daejejeon 2024 | MBC250129",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2025-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": 195,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:0trUEEMnPxI",
+      "videoId": "0trUEEMnPxI",
+      "title": "[가요대제전] 프로미스나인 이새롬 – Supersonic 직캠 (fromis_9 LEE SAEROM Fancam) | Gayo Daejejeon 2024 | MBC250129",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2025-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "saerom"
+      ],
+      "duration": 188,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:nfo_jQMPJuE",
+      "videoId": "nfo_jQMPJuE",
+      "title": "[쇼! 음악중심] 프나 왔으니까 이제 진짜 여름 시작🏄 #fromis_9 #프로미스나인 #shorts",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2025-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 54,
       "source": "youtube"
     },
     {
@@ -6570,20 +6654,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:ZS-azsluh50",
-      "videoId": "ZS-azsluh50",
-      "title": "[MPD직캠] 프로미스나인 송하영 직캠 4K 'LIKE YOU BETTER' (fromis_9 SONG HA YOUNG FanCam) | @MCOUNTDOWN_2025.6.26",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 202,
-      "source": "youtube"
-    },
-    {
       "id": "yt:vDocQUUzCwU",
       "videoId": "vDocQUUzCwU",
       "title": "[입덕직캠] 프로미스나인 백지헌 직캠 4K 'LIKE YOU BETTER' (fromis_9 BAEK JI HEON FanCam) | @MCOUNTDOWN_2025.6.26",
@@ -6595,6 +6665,20 @@
         "jiheon"
       ],
       "duration": 207,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:ZS-azsluh50",
+      "videoId": "ZS-azsluh50",
+      "title": "[MPD직캠] 프로미스나인 송하영 직캠 4K 'LIKE YOU BETTER' (fromis_9 SONG HA YOUNG FanCam) | @MCOUNTDOWN_2025.6.26",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2025-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": 202,
       "source": "youtube"
     },
     {
@@ -6766,6 +6850,48 @@
       "source": "youtube"
     },
     {
+      "id": "yt:8It9hW0eS04",
+      "videoId": "8It9hW0eS04",
+      "title": "[얼빡직캠 4K] 프로미스나인 박지원 'LIKE YOU BETTER' (fromis_9 PARK JI WON Facecam) @뮤직뱅크(Music Bank) 250627",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2025-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": 218,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:G0ZA8iIb_sA",
+      "videoId": "G0ZA8iIb_sA",
+      "title": "[K-Fancam] 프로미스나인 백지헌 직캠 'LIKE YOU BETTER' (fromis_9 BAEK JI HEON Fancam) @뮤직뱅크(Music Bank) 250627",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2025-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiheon"
+      ],
+      "duration": 211,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:pAMLFya-5bY",
+      "videoId": "pAMLFya-5bY",
+      "title": "[얼빡직캠 4K] 프로미스나인 이나경 'LIKE YOU BETTER' (fromis_9 LEE NA GYUNG Facecam) @뮤직뱅크(Music Bank) 250627",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2025-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": 229,
+      "source": "youtube"
+    },
+    {
       "id": "yt:WxMGrbdzqHI",
       "videoId": "WxMGrbdzqHI",
       "title": "[얼빡직캠 4K] 프로미스나인 이채영 'LIKE YOU BETTER' (fromis_9 LEE CHAE YOUNG Facecam) @뮤직뱅크(Music Bank) 250627",
@@ -6805,48 +6931,6 @@
         "all"
       ],
       "duration": 60,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:4phYz2uCrB8",
-      "videoId": "4phYz2uCrB8",
-      "title": "[가요대제전] 프로미스나인 박지원 – Supersonic 직캠 (fromis_9 PARK JIWON Fancam) | Gayo Daejejeon 2024 | MBC250129",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2025-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiwon"
-      ],
-      "duration": 195,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:nfo_jQMPJuE",
-      "videoId": "nfo_jQMPJuE",
-      "title": "[쇼! 음악중심] 프나 왔으니까 이제 진짜 여름 시작🏄 #fromis_9 #프로미스나인 #shorts",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2025-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 54,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:0trUEEMnPxI",
-      "videoId": "0trUEEMnPxI",
-      "title": "[가요대제전] 프로미스나인 이새롬 – Supersonic 직캠 (fromis_9 LEE SAEROM Fancam) | Gayo Daejejeon 2024 | MBC250129",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2025-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "saerom"
-      ],
-      "duration": 188,
       "source": "youtube"
     },
     {
@@ -6893,31 +6977,45 @@
       "source": "youtube"
     },
     {
-      "id": "yt:nB9Ew0h95CI",
-      "videoId": "nB9Ew0h95CI",
-      "title": "[K-Fancam] 프로미스나인 이채영 직캠 'Supersonic' (fromis_9 LEE CHAE YOUNG Fancam) @MusicBank 240816",
+      "id": "yt:li1mtRzZqF8",
+      "videoId": "li1mtRzZqF8",
+      "title": "[4K] 프로미스나인 'Supersonic' 뮤직뱅크 1위 앵콜직캠(fromis_9 Encore Facecam) @뮤직뱅크(Music Bank) 240823",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2024-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "chaeyoung"
+        "all"
       ],
-      "duration": 202,
+      "duration": 355,
       "source": "youtube"
     },
     {
-      "id": "yt:8DIR4YHkssI",
-      "videoId": "8DIR4YHkssI",
-      "title": "[K-Fancam] 프로미스나인 노지선 직캠 'Supersonic' (fromis_9 ROH JI SUN Fancam) @MusicBank 240816",
+      "id": "yt:TXgTJ9WMr7g",
+      "videoId": "TXgTJ9WMr7g",
+      "title": "[K-Fancam] 프로미스나인 송하영 직캠 'Supersonic' (fromis_9 SONG HA YOUNG Fancam) @MusicBank 240816",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2024-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "jisun"
+        "hayoung"
       ],
-      "duration": 203,
+      "duration": 204,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:vJsUKGgys6A",
+      "videoId": "vJsUKGgys6A",
+      "title": "Supersonic - fromis_9 [뮤직뱅크/Music Bank] | KBS 240816 방송",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2024-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 200,
       "source": "youtube"
     },
     {
@@ -6935,17 +7033,31 @@
       "source": "youtube"
     },
     {
-      "id": "yt:vJsUKGgys6A",
-      "videoId": "vJsUKGgys6A",
-      "title": "Supersonic - fromis_9 [뮤직뱅크/Music Bank] | KBS 240816 방송",
+      "id": "yt:8DIR4YHkssI",
+      "videoId": "8DIR4YHkssI",
+      "title": "[K-Fancam] 프로미스나인 노지선 직캠 'Supersonic' (fromis_9 ROH JI SUN Fancam) @MusicBank 240816",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2024-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "all"
+        "jisun"
       ],
-      "duration": 200,
+      "duration": 203,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:nB9Ew0h95CI",
+      "videoId": "nB9Ew0h95CI",
+      "title": "[K-Fancam] 프로미스나인 이채영 직캠 'Supersonic' (fromis_9 LEE CHAE YOUNG Fancam) @MusicBank 240816",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2024-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": 202,
       "source": "youtube"
     },
     {
@@ -7089,17 +7201,87 @@
       "source": "youtube"
     },
     {
-      "id": "yt:-yuIw_VB_Mc",
-      "videoId": "-yuIw_VB_Mc",
-      "title": "[가요대제전]fromis_9 LEE NA GYUNG–#menow+Attitude(프로미스나인 이나경-미나우+애티튜드)FanCam|MBCMusicFestival|MBC231231방송",
+      "id": "yt:GuY_0X62CbM",
+      "videoId": "GuY_0X62CbM",
+      "title": "[가요대제전]fromis_9 SONG HA YOUNG–#menow+Attitude(프로미스나인 송하영-미나우+애티튜드)FanCam|MusicFestival|MBC231231방송",
       "category": "music_show",
       "channelTitle": "MBCkpop",
       "publishedAt": "2024-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "nagyung"
+        "hayoung"
       ],
-      "duration": 227,
+      "duration": 260,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:ecRr7k2L9pg",
+      "videoId": "ecRr7k2L9pg",
+      "title": "[가요대제전]fromis_9 BAEK JI HEON–#menow+Attitude(프로미스나인 백지헌-미나우+애티튜드)FanCam|MBCMusicFestival|MBC231231방송",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2024-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiheon"
+      ],
+      "duration": 218,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:c4Km-yLTvGY",
+      "videoId": "c4Km-yLTvGY",
+      "title": "[#음중직캠] fromis_9 BAEK JI HEON (프로미스나인 백지헌) – Supersonic | 쇼! 음악중심 | MBC240824방송",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2024-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiheon"
+      ],
+      "duration": 190,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Mscw6Hujr24",
+      "videoId": "Mscw6Hujr24",
+      "title": "[가요대제전]fromis_9 PARK JI WON–#menow+Attitude(프로미스나인 박지원-미나우+애티튜드)FanCam|MBCMusicFestival|MBC231231방송",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2024-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": 206,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Ih0extHHcNQ",
+      "videoId": "Ih0extHHcNQ",
+      "title": "[가요대제전]fromis_9 ROH JI SUN–#menow+Attitude(프로미스나인 노지선-미나우+애티튜드) FanCam|MBCMusicFestival|MBC231231방송",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2024-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jisun"
+      ],
+      "duration": 220,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:s9Ynu6wBbmI",
+      "videoId": "s9Ynu6wBbmI",
+      "title": "[가요대제전]fromis_9 LEE SAE ROM–#menow+Attitude(프로미스나인 이새롬-미나우+애티튜드)FanCam|MBCMusic Festival|MBC231231방송",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2024-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "saerom"
+      ],
+      "duration": 233,
       "source": "youtube"
     },
     {
@@ -7114,6 +7296,20 @@
         "chaeyoung"
       ],
       "duration": 228,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:-yuIw_VB_Mc",
+      "videoId": "-yuIw_VB_Mc",
+      "title": "[가요대제전]fromis_9 LEE NA GYUNG–#menow+Attitude(프로미스나인 이나경-미나우+애티튜드)FanCam|MBCMusicFestival|MBC231231방송",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2024-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": 227,
       "source": "youtube"
     },
     {
@@ -7299,17 +7495,17 @@
       "source": "youtube"
     },
     {
-      "id": "yt:k434vOZAcHM",
-      "videoId": "k434vOZAcHM",
-      "title": "(Full Focused) fromis_9(프로미스나인) 'Supersonic' 4K | STUDIO CHOOM ORIGINAL",
+      "id": "yt:GXL2RIHwpcw",
+      "videoId": "GXL2RIHwpcw",
+      "title": "[MPD직캠] 프로미스나인 박지원 직캠 4K 'Supersonic' (fromis_9 PARK JIWON FanCam) | @MCOUNTDOWN_2024.8.22",
       "category": "stage_fancam",
-      "channelTitle": "STUDIO CHOOM [스튜디오 춤]",
+      "channelTitle": "M2",
       "publishedAt": "2024-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "all"
+        "jiwon"
       ],
-      "duration": 178,
+      "duration": 198,
       "source": "youtube"
     },
     {
@@ -7327,6 +7523,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:k434vOZAcHM",
+      "videoId": "k434vOZAcHM",
+      "title": "(Full Focused) fromis_9(프로미스나인) 'Supersonic' 4K | STUDIO CHOOM ORIGINAL",
+      "category": "stage_fancam",
+      "channelTitle": "STUDIO CHOOM [스튜디오 춤]",
+      "publishedAt": "2024-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 178,
+      "source": "youtube"
+    },
+    {
       "id": "yt:r6kCL5-N1IA",
       "videoId": "r6kCL5-N1IA",
       "title": "[MPD직캠] 프로미스나인 이나경 직캠 4K 'Supersonic' (fromis_9 LEE NAGYUNG FanCam) | @MCOUNTDOWN_2024.8.22",
@@ -7338,48 +7548,6 @@
         "nagyung"
       ],
       "duration": 195,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:GXL2RIHwpcw",
-      "videoId": "GXL2RIHwpcw",
-      "title": "[MPD직캠] 프로미스나인 박지원 직캠 4K 'Supersonic' (fromis_9 PARK JIWON FanCam) | @MCOUNTDOWN_2024.8.22",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2024-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiwon"
-      ],
-      "duration": 198,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:li1mtRzZqF8",
-      "videoId": "li1mtRzZqF8",
-      "title": "[4K] 프로미스나인 'Supersonic' 뮤직뱅크 1위 앵콜직캠(fromis_9 Encore Facecam) @뮤직뱅크(Music Bank) 240823",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2024-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 355,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:TXgTJ9WMr7g",
-      "videoId": "TXgTJ9WMr7g",
-      "title": "[K-Fancam] 프로미스나인 송하영 직캠 'Supersonic' (fromis_9 SONG HA YOUNG Fancam) @MusicBank 240816",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2024-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 204,
       "source": "youtube"
     },
     {
@@ -7408,90 +7576,6 @@
         "jiwon"
       ],
       "duration": 203,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:c4Km-yLTvGY",
-      "videoId": "c4Km-yLTvGY",
-      "title": "[#음중직캠] fromis_9 BAEK JI HEON (프로미스나인 백지헌) – Supersonic | 쇼! 음악중심 | MBC240824방송",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2024-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": 190,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:GuY_0X62CbM",
-      "videoId": "GuY_0X62CbM",
-      "title": "[가요대제전]fromis_9 SONG HA YOUNG–#menow+Attitude(프로미스나인 송하영-미나우+애티튜드)FanCam|MusicFestival|MBC231231방송",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2024-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 260,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ecRr7k2L9pg",
-      "videoId": "ecRr7k2L9pg",
-      "title": "[가요대제전]fromis_9 BAEK JI HEON–#menow+Attitude(프로미스나인 백지헌-미나우+애티튜드)FanCam|MBCMusicFestival|MBC231231방송",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2024-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": 218,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Ih0extHHcNQ",
-      "videoId": "Ih0extHHcNQ",
-      "title": "[가요대제전]fromis_9 ROH JI SUN–#menow+Attitude(프로미스나인 노지선-미나우+애티튜드) FanCam|MBCMusicFestival|MBC231231방송",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2024-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jisun"
-      ],
-      "duration": 220,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Mscw6Hujr24",
-      "videoId": "Mscw6Hujr24",
-      "title": "[가요대제전]fromis_9 PARK JI WON–#menow+Attitude(프로미스나인 박지원-미나우+애티튜드)FanCam|MBCMusicFestival|MBC231231방송",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2024-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiwon"
-      ],
-      "duration": 206,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:s9Ynu6wBbmI",
-      "videoId": "s9Ynu6wBbmI",
-      "title": "[가요대제전]fromis_9 LEE SAE ROM–#menow+Attitude(프로미스나인 이새롬-미나우+애티튜드)FanCam|MBCMusic Festival|MBC231231방송",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2024-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "saerom"
-      ],
-      "duration": 233,
       "source": "youtube"
     },
     {
@@ -7621,6 +7705,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:Vf11ARSBYCw",
+      "videoId": "Vf11ARSBYCw",
+      "title": "[K-Choreo 8k] 프로미스나인 '#menow' (fromis_9 Choreography) l @MusicBank 230609",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2023-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 187,
+      "source": "youtube"
+    },
+    {
       "id": "yt:RUMFSIzPXRk",
       "videoId": "RUMFSIzPXRk",
       "title": "[K-Choreo 8k] 프로미스나인 'Stay This Way' (fromis_9 Choreography) l @가요대축제 221216",
@@ -7649,20 +7747,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:Vf11ARSBYCw",
-      "videoId": "Vf11ARSBYCw",
-      "title": "[K-Choreo 8k] 프로미스나인 '#menow' (fromis_9 Choreography) l @MusicBank 230609",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2023-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 187,
-      "source": "youtube"
-    },
-    {
       "id": "yt:2sx4UDWtrB8",
       "videoId": "2sx4UDWtrB8",
       "title": "[K-Choreo 8k] 프로미스나인 '#menow' (fromis_9 Choreography) l @MusicBank 230616",
@@ -7674,6 +7758,20 @@
         "all"
       ],
       "duration": 193,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:pc3J0o_L0HY",
+      "videoId": "pc3J0o_L0HY",
+      "title": "[K-Fancam] 프로미스나인 송하영 직캠 '#menow' (fromis_9 SONG HA YOUNG Fancam) @MusicBank 230609",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2023-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": 188,
       "source": "youtube"
     },
     {
@@ -7691,6 +7789,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:VRFNP3bvmBQ",
+      "videoId": "VRFNP3bvmBQ",
+      "title": "(ENG) [I Live As An Idol] A pretty girl 💐 next to pretty a girl 👸 | fromis_9 | MBC KPOP ORIGINAL",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2023-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 1106,
+      "source": "youtube"
+    },
+    {
       "id": "yt:kRVtajlqV9c",
       "videoId": "kRVtajlqV9c",
       "title": "[fromis_9] \"Didn't you just touch your feet?\"\" BAREFOOT lover JISUN #shorts",
@@ -7702,6 +7814,21 @@
         "jisun"
       ],
       "duration": 40,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:_fKWNnoutSI",
+      "videoId": "_fKWNnoutSI",
+      "title": "[fromis_9] A compliment(?) BATTLE between HAYOUNG and CHAEYOUNG #shorts",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2023-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "chaeyoung",
+        "hayoung"
+      ],
+      "duration": 41,
       "source": "youtube"
     },
     {
@@ -7831,20 +7958,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:mJ3Y2rHBd10",
-      "videoId": "mJ3Y2rHBd10",
-      "title": "[2022 가요대전 4K] 프로미스나인 'DM (Deep Ver.) + Rewind' (fromis_9 FullCam)│@SBS Gayo Daejeon 221224",
-      "category": "music_show",
-      "channelTitle": "SBSKPOP X INKIGAYO",
-      "publishedAt": "2023-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 255,
-      "source": "youtube"
-    },
-    {
       "id": "yt:rh8QX9EGjwM",
       "videoId": "rh8QX9EGjwM",
       "title": "[안방1열 풀캠4K] 프로미스나인 '#menow' (fromis_9 FullCam)│@SBS Inkigayo 230611",
@@ -7926,34 +8039,6 @@
         "jiheon"
       ],
       "duration": 261,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ItQ_cE1nZ1Y",
-      "videoId": "ItQ_cE1nZ1Y",
-      "title": "[MPD직캠] 프로미스나인 이나경 직캠 4K '#menow' (fromis_9 LEE NAGYUNG FanCam) | @MCOUNTDOWN_2023.6.8",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2023-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "nagyung"
-      ],
-      "duration": 189,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:pN4FKoKH1UY",
-      "videoId": "pN4FKoKH1UY",
-      "title": "[MPD직캠] 프로미스나인 송하영 직캠 4K '#menow' (fromis_9 SONG HAYOUNG FanCam) | @MCOUNTDOWN_2023.6.8",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2023-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 189,
       "source": "youtube"
     },
     {
@@ -8055,17 +8140,17 @@
       "source": "youtube"
     },
     {
-      "id": "yt:8AZDLOqWu3s",
-      "videoId": "8AZDLOqWu3s",
-      "title": "[MPD직캠] 프로미스나인 직캠 4K '#menow' (fromis_9 FanCam) | @MCOUNTDOWN_2023.6.22",
+      "id": "yt:hY16RSYzvrY",
+      "videoId": "hY16RSYzvrY",
+      "title": "[MPD직캠] 프로미스나인 박지원 직캠 4K 'Attitude' (fromis_9 PARK JIWON FanCam) | @MCOUNTDOWN_2023.6.8",
       "category": "stage_fancam",
       "channelTitle": "M2",
       "publishedAt": "2023-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "all"
+        "jiwon"
       ],
-      "duration": 185,
+      "duration": 208,
       "source": "youtube"
     },
     {
@@ -8083,60 +8168,88 @@
       "source": "youtube"
     },
     {
-      "id": "yt:pc3J0o_L0HY",
-      "videoId": "pc3J0o_L0HY",
-      "title": "[K-Fancam] 프로미스나인 송하영 직캠 '#menow' (fromis_9 SONG HA YOUNG Fancam) @MusicBank 230609",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2023-08-27T00:00:00Z",
+      "id": "yt:ItQ_cE1nZ1Y",
+      "videoId": "ItQ_cE1nZ1Y",
+      "title": "[MPD직캠] 프로미스나인 이나경 직캠 4K '#menow' (fromis_9 LEE NAGYUNG FanCam) | @MCOUNTDOWN_2023.6.8",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2023-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": 189,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:pN4FKoKH1UY",
+      "videoId": "pN4FKoKH1UY",
+      "title": "[MPD직캠] 프로미스나인 송하영 직캠 4K '#menow' (fromis_9 SONG HAYOUNG FanCam) | @MCOUNTDOWN_2023.6.8",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2023-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "hayoung"
       ],
-      "duration": 188,
+      "duration": 189,
       "source": "youtube"
     },
     {
-      "id": "yt:VRFNP3bvmBQ",
-      "videoId": "VRFNP3bvmBQ",
-      "title": "(ENG) [I Live As An Idol] A pretty girl 💐 next to pretty a girl 👸 | fromis_9 | MBC KPOP ORIGINAL",
+      "id": "yt:mJ3Y2rHBd10",
+      "videoId": "mJ3Y2rHBd10",
+      "title": "[2022 가요대전 4K] 프로미스나인 'DM (Deep Ver.) + Rewind' (fromis_9 FullCam)│@SBS Gayo Daejeon 221224",
       "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2023-08-27T00:00:00Z",
+      "channelTitle": "SBSKPOP X INKIGAYO",
+      "publishedAt": "2023-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "all"
       ],
-      "duration": 1106,
+      "duration": 255,
       "source": "youtube"
     },
     {
-      "id": "yt:_fKWNnoutSI",
-      "videoId": "_fKWNnoutSI",
-      "title": "[fromis_9] A compliment(?) BATTLE between HAYOUNG and CHAEYOUNG #shorts",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2023-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "chaeyoung",
-        "hayoung"
-      ],
-      "duration": 41,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:hY16RSYzvrY",
-      "videoId": "hY16RSYzvrY",
-      "title": "[MPD직캠] 프로미스나인 박지원 직캠 4K 'Attitude' (fromis_9 PARK JIWON FanCam) | @MCOUNTDOWN_2023.6.8",
+      "id": "yt:8AZDLOqWu3s",
+      "videoId": "8AZDLOqWu3s",
+      "title": "[MPD직캠] 프로미스나인 직캠 4K '#menow' (fromis_9 FanCam) | @MCOUNTDOWN_2023.6.22",
       "category": "stage_fancam",
       "channelTitle": "M2",
-      "publishedAt": "2023-08-27T00:00:00Z",
+      "publishedAt": "2023-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
+        "all"
+      ],
+      "duration": 185,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:78OyHnAU0TM",
+      "videoId": "78OyHnAU0TM",
+      "title": "[Leemujin Service] EP.19 fromis_9 HAYOUNG & JIWON | DM, You already have, Adult, Time Lapse",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung",
         "jiwon"
       ],
-      "duration": 208,
+      "duration": 1509,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:nuSkpgw9vWg",
+      "videoId": "nuSkpgw9vWg",
+      "title": "Feel My Rhythm (원곡:Red Velvet(레드벨벳) - 프로미스나인 (fromis_9) [뮤직뱅크/Music Bank] | KBS 220624 방송",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 241,
       "source": "youtube"
     },
     {
@@ -8168,63 +8281,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:nuSkpgw9vWg",
-      "videoId": "nuSkpgw9vWg",
-      "title": "Feel My Rhythm (원곡:Red Velvet(레드벨벳) - 프로미스나인 (fromis_9) [뮤직뱅크/Music Bank] | KBS 220624 방송",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 241,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:8eqfq5yfJDg",
-      "videoId": "8eqfq5yfJDg",
-      "title": "[K-Choreo 8k] 프로미스나인 'Feel My Rhythm (원곡:레드벨벳)' (fromis_9 Choreography) l @MusicBank 220624",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 236,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:eoTv2zv1PN0",
-      "videoId": "eoTv2zv1PN0",
-      "title": "[K-Choreo 8k HDR] 프로미스나인 'DM' (fromis_9 Choreography) l @MusicBank 220121",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 223,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:78OyHnAU0TM",
-      "videoId": "78OyHnAU0TM",
-      "title": "[Leemujin Service] EP.19 fromis_9 HAYOUNG & JIWON | DM, You already have, Adult, Time Lapse",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung",
-        "jiwon"
-      ],
-      "duration": 1509,
-      "source": "youtube"
-    },
-    {
       "id": "yt:qPkFSbtFv9w",
       "videoId": "qPkFSbtFv9w",
       "title": "After turning 20, the youngest decides to be independent? l Idol Human Theater - Fromis_9",
@@ -8253,6 +8309,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:-EyyDYpgAiE",
+      "videoId": "-EyyDYpgAiE",
+      "title": "Stay This Way - fromis_9 (프로미스나인) [뮤직뱅크/Music Bank] | KBS 220708 방송",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 223,
+      "source": "youtube"
+    },
+    {
       "id": "yt:YiR9-VzUn7w",
       "videoId": "YiR9-VzUn7w",
       "title": "Talk & Talk - 프로미스나인 (fromis_9) [뮤직뱅크/Music Bank] | KBS 210903 방송",
@@ -8267,9 +8337,9 @@
       "source": "youtube"
     },
     {
-      "id": "yt:-EyyDYpgAiE",
-      "videoId": "-EyyDYpgAiE",
-      "title": "Stay This Way - fromis_9 (프로미스나인) [뮤직뱅크/Music Bank] | KBS 220708 방송",
+      "id": "yt:8eqfq5yfJDg",
+      "videoId": "8eqfq5yfJDg",
+      "title": "[K-Choreo 8k] 프로미스나인 'Feel My Rhythm (원곡:레드벨벳)' (fromis_9 Choreography) l @MusicBank 220624",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2022-08-28T00:00:00Z",
@@ -8277,7 +8347,7 @@
       "members": [
         "all"
       ],
-      "duration": 223,
+      "duration": 236,
       "source": "youtube"
     },
     {
@@ -8309,6 +8379,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:GxKVJzRjlfs",
+      "videoId": "GxKVJzRjlfs",
+      "title": "[K-Choreo 8k] 프로미스나인 'Talk & Talk' (fromis_9 Choreography) l @MusicBank 210917",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 241,
+      "source": "youtube"
+    },
+    {
       "id": "yt:nI7utOYRymg",
       "videoId": "nI7utOYRymg",
       "title": "Talk & Talk - 프로미스나인 (fromis_9) [뮤직뱅크/Music Bank] | KBS 210917 방송",
@@ -8320,34 +8404,6 @@
         "all"
       ],
       "duration": 227,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:1jIz3LQXhFw",
-      "videoId": "1jIz3LQXhFw",
-      "title": "[4K] fromis_9 프로미스나인 'Stay This Way' 뮤직뱅크 1위 앵콜 직캠 (fromis_9 Encore Fancam) │ @MusicBank 220708",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 338,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ySU_ZwKu3xQ",
-      "videoId": "ySU_ZwKu3xQ",
-      "title": "(ENG SUB)[MusicBank Interview Cam] fromis_9 Interview | @MusicBank KBS 07/08/22",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 113,
       "source": "youtube"
     },
     {
@@ -8365,9 +8421,23 @@
       "source": "youtube"
     },
     {
-      "id": "yt:aw4Ll0-h0yw",
-      "videoId": "aw4Ll0-h0yw",
-      "title": "(ENG SUB)[MusicBank Interview Cam] fromis_9 Interview l @MusicBank KBS 07/01/22",
+      "id": "yt:p1WT5Gr5wf8",
+      "videoId": "p1WT5Gr5wf8",
+      "title": "[Limousine Service] A video that makes you want to make dolphin sounds (feat. fromis_9 Hayoung, J...",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": 53,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:213WWCOrX74",
+      "videoId": "213WWCOrX74",
+      "title": "Escape Room - 프로미스나인 (fromis_9) [뮤직뱅크/Music Bank] | KBS 220128 방송",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2022-08-28T00:00:00Z",
@@ -8375,7 +8445,21 @@
       "members": [
         "all"
       ],
-      "duration": 159,
+      "duration": 209,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Uc8eWJObaS8",
+      "videoId": "Uc8eWJObaS8",
+      "title": "[얼빡직캠 4K] 프로미스나인 이채영 'Feel My Rhythm(원곡: 레드벨벳)' (fromis_9 Lee Chaeyoung Facecam) @Music Bank 220624",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": 241,
       "source": "youtube"
     },
     {
@@ -8407,48 +8491,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:uCe25Wc01Uk",
-      "videoId": "uCe25Wc01Uk",
-      "title": "[얼빡직캠 4K] 프로미스나인 이채영 'Stay This Way' (fromis_9 Lee Chaeyoung Facecam) @뮤직뱅크(Music Bank) 220701",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 230,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:OyEfR6WxZ-8",
-      "videoId": "OyEfR6WxZ-8",
-      "title": "[K-Fancam] 프로미스나인 송하영 직캠 'Feel My Rhythm' (fromis_9 Song Hayoung Fancam) l @MusicBank 220624",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 236,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:OCh66pWAhcU",
-      "videoId": "OCh66pWAhcU",
-      "title": "[K-Fancam] 프로미스나인 박지원 직캠 'Feel My Rhythm' (fromis_9 Park Jiwon Fancam) l @MusicBank 220624",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiwon"
-      ],
-      "duration": 236,
-      "source": "youtube"
-    },
-    {
       "id": "yt:GlGWKtb0NJ8",
       "videoId": "GlGWKtb0NJ8",
       "title": "[K-Choreo Tower Cam 4K] 프로미스나인 직캠'Talk & Talk'(fromis_9 Choreography) l @MusicBank KBS 210910",
@@ -8460,6 +8502,20 @@
         "all"
       ],
       "duration": 236,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:uCe25Wc01Uk",
+      "videoId": "uCe25Wc01Uk",
+      "title": "[얼빡직캠 4K] 프로미스나인 이채영 'Stay This Way' (fromis_9 Lee Chaeyoung Facecam) @뮤직뱅크(Music Bank) 220701",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": 230,
       "source": "youtube"
     },
     {
@@ -8477,45 +8533,17 @@
       "source": "youtube"
     },
     {
-      "id": "yt:nTUJ73U9vM8",
-      "videoId": "nTUJ73U9vM8",
-      "title": "[K-Choreo 8k] 프로미스나인 'Stay This Way' (fromis_9 Choreography) l @MusicBank 220701",
+      "id": "yt:OCh66pWAhcU",
+      "videoId": "OCh66pWAhcU",
+      "title": "[K-Fancam] 프로미스나인 박지원 직캠 'Feel My Rhythm' (fromis_9 Park Jiwon Fancam) l @MusicBank 220624",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2022-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "all"
+        "jiwon"
       ],
-      "duration": 213,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:DGO7XvUHBJs",
-      "videoId": "DGO7XvUHBJs",
-      "title": "[얼빡직캠 4K] 프로미스나인 이나경 'Feel My Rhythm(원곡: 레드벨벳)' (fromis_9 Lee Nagyung Facecam) @Music Bank 220624",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "nagyung"
-      ],
-      "duration": 229,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:R3ul15Chr20",
-      "videoId": "R3ul15Chr20",
-      "title": "[K-Fancam] 프로미스나인 이새롬 직캠 'DM' (fromis_9 Lee Saerom Fancam) l @MusicBank 220121",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "saerom"
-      ],
-      "duration": 223,
+      "duration": 236,
       "source": "youtube"
     },
     {
@@ -8533,6 +8561,34 @@
       "source": "youtube"
     },
     {
+      "id": "yt:78XP4VZapwk",
+      "videoId": "78XP4VZapwk",
+      "title": "[K-Fancam] 프로미스나인 이나경 직캠 'TALK&TALK' (fromis_9 LeeNagyung Fancam) l @MusicBank 210917",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": 241,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:1jIz3LQXhFw",
+      "videoId": "1jIz3LQXhFw",
+      "title": "[4K] fromis_9 프로미스나인 'Stay This Way' 뮤직뱅크 1위 앵콜 직캠 (fromis_9 Encore Fancam) │ @MusicBank 220708",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 338,
+      "source": "youtube"
+    },
+    {
       "id": "yt:yr9U37WJDak",
       "videoId": "yr9U37WJDak",
       "title": "[K-Fancam] 프로미스나인 송하영 직캠 'TALK&TALK' (fromis_9 Song Hayoung Fancam) l @MusicBank 210917",
@@ -8544,6 +8600,20 @@
         "hayoung"
       ],
       "duration": 241,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:aw4Ll0-h0yw",
+      "videoId": "aw4Ll0-h0yw",
+      "title": "(ENG SUB)[MusicBank Interview Cam] fromis_9 Interview l @MusicBank KBS 07/01/22",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 159,
       "source": "youtube"
     },
     {
@@ -8572,20 +8642,6 @@
         "chaeyoung"
       ],
       "duration": 223,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:78XP4VZapwk",
-      "videoId": "78XP4VZapwk",
-      "title": "[K-Fancam] 프로미스나인 이나경 직캠 'TALK&TALK' (fromis_9 LeeNagyung Fancam) l @MusicBank 210917",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "nagyung"
-      ],
-      "duration": 241,
       "source": "youtube"
     },
     {
@@ -8841,20 +8897,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:VsXAlde6p8g",
-      "videoId": "VsXAlde6p8g",
-      "title": "[페이스캠4K] 프로미스나인 이채영 'Stay This Way' (fromis_9 LEE CHAE YOUNG FaceCam)│@SBS Inkigayo_2022.07.10.",
-      "category": "music_show",
-      "channelTitle": "SBSKPOP X INKIGAYO",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 259,
-      "source": "youtube"
-    },
-    {
       "id": "yt:P8ju9KF9KJY",
       "videoId": "P8ju9KF9KJY",
       "title": "[안방1열 직캠4K] 프로미스나인 송하영 'DM' (fromis_9 Song Ha Young FanCam)│@SBS Inkigayo_2022.01.23.",
@@ -8866,6 +8908,20 @@
         "hayoung"
       ],
       "duration": 252,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:VsXAlde6p8g",
+      "videoId": "VsXAlde6p8g",
+      "title": "[페이스캠4K] 프로미스나인 이채영 'Stay This Way' (fromis_9 LEE CHAE YOUNG FaceCam)│@SBS Inkigayo_2022.07.10.",
+      "category": "music_show",
+      "channelTitle": "SBSKPOP X INKIGAYO",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": 259,
       "source": "youtube"
     },
     {
@@ -9006,20 +9062,6 @@
         "gyuri"
       ],
       "duration": 213,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:7o6wR7pWILQ",
-      "videoId": "7o6wR7pWILQ",
-      "title": "[페이스캠4K] 프로미스나인 장규리 'Stay This Way' (fromis_9  JANG GYU RI FaceCam)│@SBS Inkigayo_2022.07.03.",
-      "category": "music_show",
-      "channelTitle": "SBSKPOP X INKIGAYO",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "gyuri"
-      ],
-      "duration": 235,
       "source": "youtube"
     },
     {
@@ -9359,6 +9401,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:FfQ0If3RtC0",
+      "videoId": "FfQ0If3RtC0",
+      "title": "[안방1열 직캠4K] 프로미스나인 이나경 'Stay This Way' (fromis_9 LEE NA GYUNG FanCam)│@SBS Inkigayo_2022.07.17.",
+      "category": "music_show",
+      "channelTitle": "SBSKPOP X INKIGAYO",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": 219,
+      "source": "youtube"
+    },
+    {
       "id": "yt:EAhgngpuweo",
       "videoId": "EAhgngpuweo",
       "title": "[안방1열 직캠4K] 프로미스나인 노지선 'Talk & Talk' (fromis_9 Roh Ji Sun FanCam)│@SBS Inkigayo_2021.09.12.",
@@ -9401,20 +9457,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:FfQ0If3RtC0",
-      "videoId": "FfQ0If3RtC0",
-      "title": "[안방1열 직캠4K] 프로미스나인 이나경 'Stay This Way' (fromis_9 LEE NA GYUNG FanCam)│@SBS Inkigayo_2022.07.17.",
-      "category": "music_show",
-      "channelTitle": "SBSKPOP X INKIGAYO",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "nagyung"
-      ],
-      "duration": 219,
-      "source": "youtube"
-    },
-    {
       "id": "yt:76HbdO3GsnQ",
       "videoId": "76HbdO3GsnQ",
       "title": "[안방1열 직캠4K] 프로미스나인 이채영 'Talk & Talk' (fromis_9 Lee Chae Young FanCam)│@SBS Inkigayo_2021.09.19.",
@@ -9426,6 +9468,20 @@
         "chaeyoung"
       ],
       "duration": 244,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:EOChHhCGmXU",
+      "videoId": "EOChHhCGmXU",
+      "title": "[안방1열 직캠4K] 프로미스나인 이나경 'Talk & Talk' (fromis_9 Lee Na Gyung FanCam)│@SBS Inkigayo_2021.09.12.",
+      "category": "music_show",
+      "channelTitle": "SBSKPOP X INKIGAYO",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": 242,
       "source": "youtube"
     },
     {
@@ -9468,20 +9524,6 @@
         "all"
       ],
       "duration": 211,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:EOChHhCGmXU",
-      "videoId": "EOChHhCGmXU",
-      "title": "[안방1열 직캠4K] 프로미스나인 이나경 'Talk & Talk' (fromis_9 Lee Na Gyung FanCam)│@SBS Inkigayo_2021.09.12.",
-      "category": "music_show",
-      "channelTitle": "SBSKPOP X INKIGAYO",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "nagyung"
-      ],
-      "duration": 242,
       "source": "youtube"
     },
     {
@@ -9695,20 +9737,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:7omJWHLhIhM",
-      "videoId": "7omJWHLhIhM",
-      "title": "[입덕직캠] 프로미스나인 송하영 직캠 4K 'Stay This Way' (fromis_9 SONG HAYOUNG FanCam) | @MCOUNTDOWN_2022.7.7",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 270,
-      "source": "youtube"
-    },
-    {
       "id": "yt:QmioRK_N9o0",
       "videoId": "QmioRK_N9o0",
       "title": "[입덕직캠] 프로미스나인 이나경 직캠 4K 'DM' (fromis_9 LEE NAGYUNG FanCam) | @MCOUNTDOWN_2022.1.20",
@@ -9720,34 +9748,6 @@
         "nagyung"
       ],
       "duration": 229,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:9fWnF66imU8",
-      "videoId": "9fWnF66imU8",
-      "title": "[MPD직캠] 프로미스나인 1위 앵콜 직캠 4K 'Stay This Way' (fromis_9 FanCam No.1 Encore) | @MCOUNTDOWN_2022.7.7",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 332,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:YHU9vVqC_Bo",
-      "videoId": "YHU9vVqC_Bo",
-      "title": "[입덕직캠] 프로미스나인 이채영 직캠 4K 'Stay This Way' (fromis_9 LEE CHAEYOUNG FanCam) | @MCOUNTDOWN_2022.7.14",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 216,
       "source": "youtube"
     },
     {
@@ -9779,6 +9779,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:7omJWHLhIhM",
+      "videoId": "7omJWHLhIhM",
+      "title": "[입덕직캠] 프로미스나인 송하영 직캠 4K 'Stay This Way' (fromis_9 SONG HAYOUNG FanCam) | @MCOUNTDOWN_2022.7.7",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": 270,
+      "source": "youtube"
+    },
+    {
       "id": "yt:2TlivtjU9o4",
       "videoId": "2TlivtjU9o4",
       "title": "[MPD직캠] 프로미스나인 백지헌 직캠 4K 'Talk & Talk' (fromis_9 BAEK JIHEON FanCam) | @MCOUNTDOWN_2021.9.2",
@@ -9804,6 +9818,20 @@
         "gyuri"
       ],
       "duration": 271,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:tXoXrXz8WgQ",
+      "videoId": "tXoXrXz8WgQ",
+      "title": "[MPD직캠] 프로미스나인 직캠 4K 'DM' (fromis_9 FanCam) | @MCOUNTDOWN_2022.1.27",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 219,
       "source": "youtube"
     },
     {
@@ -9863,6 +9891,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:9fWnF66imU8",
+      "videoId": "9fWnF66imU8",
+      "title": "[MPD직캠] 프로미스나인 1위 앵콜 직캠 4K 'Stay This Way' (fromis_9 FanCam No.1 Encore) | @MCOUNTDOWN_2022.7.7",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 332,
+      "source": "youtube"
+    },
+    {
       "id": "yt:ws7fyR12vis",
       "videoId": "ws7fyR12vis",
       "title": "[MPD직캠] 프로미스나인 장규리 직캠 4K 'DM' (fromis_9 JANG GYURI FanCam) | @MCOUNTDOWN_2022.1.20",
@@ -9874,76 +9916,6 @@
         "gyuri"
       ],
       "duration": 225,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:rH9BziAUyyU",
-      "videoId": "rH9BziAUyyU",
-      "title": "[MPD직캠] 프로미스나인 직캠 8K 'Talk & Talk' (fromis_9 FanCam) | @MCOUNTDOWN_2021.9.9",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 254,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:qA64KRoQfjE",
-      "videoId": "qA64KRoQfjE",
-      "title": "[MPD직캠] 프로미스나인 노지선 직캠 4K 'Escape Room' (fromis_9 ROH JISUN FanCam) | @MCOUNTDOWN_2022.1.20",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jisun"
-      ],
-      "duration": 105,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:u9syjmtWa5s",
-      "videoId": "u9syjmtWa5s",
-      "title": "[MPD직캠] 프로미스나인 송하영 직캠 4K 'Stay This Way' (fromis_9 SONG HAYOUNG FanCam) | @MCOUNTDOWN_2022.6.30",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 212,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:LtXZrsRf1xs",
-      "videoId": "LtXZrsRf1xs",
-      "title": "[MPD직캠] 프로미스나인 이채영 직캠 4K 'Escape Room' (fromis_9 LEE CHAEYOUNG FanCam) | @MCOUNTDOWN_2022.1.20",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 105,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Xtj0iy4As-w",
-      "videoId": "Xtj0iy4As-w",
-      "title": "[입덕직캠] 프로미스나인 노지선 직캠 4K 'Talk & Talk' (fromis_9 ROH JISUN FanCam) | @MCOUNTDOWN_2021.9.16",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jisun"
-      ],
-      "duration": 256,
       "source": "youtube"
     },
     {
@@ -9961,17 +9933,59 @@
       "source": "youtube"
     },
     {
-      "id": "yt:I5zDjWWFZWM",
-      "videoId": "I5zDjWWFZWM",
-      "title": "[MPD직캠] 프로미스나인 박지원 직캠 4K 'Stay This Way' (fromis_9 PARK JIWON FanCam) | @MCOUNTDOWN_2022.6.30",
+      "id": "yt:u9syjmtWa5s",
+      "videoId": "u9syjmtWa5s",
+      "title": "[MPD직캠] 프로미스나인 송하영 직캠 4K 'Stay This Way' (fromis_9 SONG HAYOUNG FanCam) | @MCOUNTDOWN_2022.6.30",
       "category": "stage_fancam",
       "channelTitle": "M2",
       "publishedAt": "2022-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "jiwon"
+        "hayoung"
       ],
-      "duration": 209,
+      "duration": 212,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:YHU9vVqC_Bo",
+      "videoId": "YHU9vVqC_Bo",
+      "title": "[입덕직캠] 프로미스나인 이채영 직캠 4K 'Stay This Way' (fromis_9 LEE CHAEYOUNG FanCam) | @MCOUNTDOWN_2022.7.14",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": 216,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:qA64KRoQfjE",
+      "videoId": "qA64KRoQfjE",
+      "title": "[MPD직캠] 프로미스나인 노지선 직캠 4K 'Escape Room' (fromis_9 ROH JISUN FanCam) | @MCOUNTDOWN_2022.1.20",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jisun"
+      ],
+      "duration": 105,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:LtXZrsRf1xs",
+      "videoId": "LtXZrsRf1xs",
+      "title": "[MPD직캠] 프로미스나인 이채영 직캠 4K 'Escape Room' (fromis_9 LEE CHAEYOUNG FanCam) | @MCOUNTDOWN_2022.1.20",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": 105,
       "source": "youtube"
     },
     {
@@ -9984,6 +9998,48 @@
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "seoyeon"
+      ],
+      "duration": 209,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Xtj0iy4As-w",
+      "videoId": "Xtj0iy4As-w",
+      "title": "[입덕직캠] 프로미스나인 노지선 직캠 4K 'Talk & Talk' (fromis_9 ROH JISUN FanCam) | @MCOUNTDOWN_2021.9.16",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jisun"
+      ],
+      "duration": 256,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:v6cvxXoctKk",
+      "videoId": "v6cvxXoctKk",
+      "title": "[MPD직캠] 프로미스나인 직캠 4K 'Stay This Way' (fromis_9 FanCam) | @MCOUNTDOWN_2022.7.14",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 212,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:I5zDjWWFZWM",
+      "videoId": "I5zDjWWFZWM",
+      "title": "[MPD직캠] 프로미스나인 박지원 직캠 4K 'Stay This Way' (fromis_9 PARK JIWON FanCam) | @MCOUNTDOWN_2022.6.30",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiwon"
       ],
       "duration": 209,
       "source": "youtube"
@@ -10014,20 +10070,6 @@
         "jiwon"
       ],
       "duration": 249,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:v6cvxXoctKk",
-      "videoId": "v6cvxXoctKk",
-      "title": "[MPD직캠] 프로미스나인 직캠 4K 'Stay This Way' (fromis_9 FanCam) | @MCOUNTDOWN_2022.7.14",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 212,
       "source": "youtube"
     },
     {
@@ -10143,87 +10185,87 @@
       "source": "youtube"
     },
     {
-      "id": "yt:yDZ5gaf1w7w",
-      "videoId": "yDZ5gaf1w7w",
-      "title": "[MPD직캠] 프로미스나인 이새롬 직캠 4K 'Talk & Talk' (fromis_9 LEE SAEROM FanCam) | @MCOUNTDOWN_2021.9.16",
+      "id": "yt:9HQQGHcjf5U",
+      "videoId": "9HQQGHcjf5U",
+      "title": "[입덕직캠] 프로미스나인 이채영 직캠 4K 'Talk & Talk' (fromis_9 LEE CHAEYOUNG FanCam) | @MCOUNTDOWN_2021.9.9",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": 241,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:NwA_YToAi-0",
+      "videoId": "NwA_YToAi-0",
+      "title": "[MPD직캠] 프로미스나인 이새롬 직캠 4K 'Talk & Talk' (fromis_9 LEE SAEROM FanCam) | @MCOUNTDOWN_2021.9.2",
       "category": "stage_fancam",
       "channelTitle": "M2",
       "publishedAt": "2022-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "saerom"
-      ],
-      "duration": 260,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:j5vkbA9IEZg",
-      "videoId": "j5vkbA9IEZg",
-      "title": "[MPD직캠] 프로미스나인 이새롬 직캠 4K 'Stay This Way' (fromis_9 LEE SAEROM FanCam) | @MCOUNTDOWN_2022.6.30",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "saerom"
-      ],
-      "duration": 209,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:I2BhdSrPoB8",
-      "videoId": "I2BhdSrPoB8",
-      "title": "[MPD직캠] 프로미스나인 이나경 직캠 4K 'Talk & Talk' (fromis_9 LEE NAGYUNG FanCam) | @MCOUNTDOWN_2021.9.16",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "nagyung"
       ],
       "duration": 253,
       "source": "youtube"
     },
     {
-      "id": "yt:Ms4jGYo15oE",
-      "videoId": "Ms4jGYo15oE",
-      "title": "[MPD직캠] 프로미스나인 노지선 직캠 4K 'Stay This Way' (fromis_9 ROH JISUN FanCam) | @MCOUNTDOWN_2022.6.30",
+      "id": "yt:FC103elX7Gs",
+      "videoId": "FC103elX7Gs",
+      "title": "[MPD직캠] 프로미스나인 백지헌 직캠 4K 'Talk & Talk' (fromis_9 BAEK JIHEON FanCam) | @MCOUNTDOWN_2021.9.9",
       "category": "stage_fancam",
       "channelTitle": "M2",
       "publishedAt": "2022-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "jisun"
+        "jiheon"
+      ],
+      "duration": 252,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:MVP7w2Y7BZc",
+      "videoId": "MVP7w2Y7BZc",
+      "title": "[MPD직캠] 프로미스나인 이채영 직캠 4K 'Talk & Talk' (fromis_9 LEE CHAEYOUNG FanCam) | @MCOUNTDOWN_2021.9.16",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": 244,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:2xBM6FtbnVc",
+      "videoId": "2xBM6FtbnVc",
+      "title": "[MPD직캠] 프로미스나인 백지헌 직캠 4K 'DM' (fromis_9 BAEK JIHEON FanCam) | @MCOUNTDOWN_2022.1.20",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiheon"
+      ],
+      "duration": 239,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:_2NCuVFH3Mw",
+      "videoId": "_2NCuVFH3Mw",
+      "title": "[MPD직캠] 프로미스나인 이채영 직캠 4K 'DM' (fromis_9 LEE CHAEYOUNG FanCam) | @MCOUNTDOWN_2022.1.27",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "chaeyoung"
       ],
       "duration": 223,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:UGEvXFuBAW8",
-      "videoId": "UGEvXFuBAW8",
-      "title": "(Full Focused) fromis_9 (프로미스나인)  'Stay This Way' 4K | BE ORIGINAL",
-      "category": "stage_fancam",
-      "channelTitle": "STUDIO CHOOM [스튜디오 춤]",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 197,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:4C8qxZWOdXg",
-      "videoId": "4C8qxZWOdXg",
-      "title": "(Full Focused) fromis_9 (프로미스나인) 'Talk & Talk' 4K | BE ORIGINAL",
-      "category": "stage_fancam",
-      "channelTitle": "STUDIO CHOOM [스튜디오 춤]",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 224,
       "source": "youtube"
     },
     {
@@ -10241,17 +10283,17 @@
       "source": "youtube"
     },
     {
-      "id": "yt:tXoXrXz8WgQ",
-      "videoId": "tXoXrXz8WgQ",
-      "title": "[MPD직캠] 프로미스나인 직캠 4K 'DM' (fromis_9 FanCam) | @MCOUNTDOWN_2022.1.27",
+      "id": "yt:t_skE37MD9Q",
+      "videoId": "t_skE37MD9Q",
+      "title": "[MPD직캠] 프로미스나인 백지헌 직캠 4K 'Stay This Way' (fromis_9 BAEK JIHEON FanCam) | @MCOUNTDOWN_2022.7.14",
       "category": "stage_fancam",
       "channelTitle": "M2",
       "publishedAt": "2022-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "all"
+        "jiheon"
       ],
-      "duration": 219,
+      "duration": 211,
       "source": "youtube"
     },
     {
@@ -10283,6 +10325,90 @@
       "source": "youtube"
     },
     {
+      "id": "yt:yDZ5gaf1w7w",
+      "videoId": "yDZ5gaf1w7w",
+      "title": "[MPD직캠] 프로미스나인 이새롬 직캠 4K 'Talk & Talk' (fromis_9 LEE SAEROM FanCam) | @MCOUNTDOWN_2021.9.16",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "saerom"
+      ],
+      "duration": 260,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:I2BhdSrPoB8",
+      "videoId": "I2BhdSrPoB8",
+      "title": "[MPD직캠] 프로미스나인 이나경 직캠 4K 'Talk & Talk' (fromis_9 LEE NAGYUNG FanCam) | @MCOUNTDOWN_2021.9.16",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": 253,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Ms4jGYo15oE",
+      "videoId": "Ms4jGYo15oE",
+      "title": "[MPD직캠] 프로미스나인 노지선 직캠 4K 'Stay This Way' (fromis_9 ROH JISUN FanCam) | @MCOUNTDOWN_2022.6.30",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jisun"
+      ],
+      "duration": 223,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:j5vkbA9IEZg",
+      "videoId": "j5vkbA9IEZg",
+      "title": "[MPD직캠] 프로미스나인 이새롬 직캠 4K 'Stay This Way' (fromis_9 LEE SAEROM FanCam) | @MCOUNTDOWN_2022.6.30",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "saerom"
+      ],
+      "duration": 209,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:UGEvXFuBAW8",
+      "videoId": "UGEvXFuBAW8",
+      "title": "(Full Focused) fromis_9 (프로미스나인)  'Stay This Way' 4K | BE ORIGINAL",
+      "category": "stage_fancam",
+      "channelTitle": "STUDIO CHOOM [스튜디오 춤]",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 197,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:4C8qxZWOdXg",
+      "videoId": "4C8qxZWOdXg",
+      "title": "(Full Focused) fromis_9 (프로미스나인) 'Talk & Talk' 4K | BE ORIGINAL",
+      "category": "stage_fancam",
+      "channelTitle": "STUDIO CHOOM [스튜디오 춤]",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 224,
+      "source": "youtube"
+    },
+    {
       "id": "yt:fZ0TW7jGDx0",
       "videoId": "fZ0TW7jGDx0",
       "title": "[MPD직캠] 프로미스나인 직캠 8K 'Stay This Way' (fromis_9 FanCam) | @MCOUNTDOWN_2022.6.30",
@@ -10308,6 +10434,20 @@
         "hayoung"
       ],
       "duration": 252,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:rH9BziAUyyU",
+      "videoId": "rH9BziAUyyU",
+      "title": "[MPD직캠] 프로미스나인 직캠 8K 'Talk & Talk' (fromis_9 FanCam) | @MCOUNTDOWN_2021.9.9",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 254,
       "source": "youtube"
     },
     {
@@ -10353,157 +10493,115 @@
       "source": "youtube"
     },
     {
-      "id": "yt:NwA_YToAi-0",
-      "videoId": "NwA_YToAi-0",
-      "title": "[MPD직캠] 프로미스나인 이새롬 직캠 4K 'Talk & Talk' (fromis_9 LEE SAEROM FanCam) | @MCOUNTDOWN_2021.9.2",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "saerom"
-      ],
-      "duration": 253,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:9HQQGHcjf5U",
-      "videoId": "9HQQGHcjf5U",
-      "title": "[입덕직캠] 프로미스나인 이채영 직캠 4K 'Talk & Talk' (fromis_9 LEE CHAEYOUNG FanCam) | @MCOUNTDOWN_2021.9.9",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 241,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:t_skE37MD9Q",
-      "videoId": "t_skE37MD9Q",
-      "title": "[MPD직캠] 프로미스나인 백지헌 직캠 4K 'Stay This Way' (fromis_9 BAEK JIHEON FanCam) | @MCOUNTDOWN_2022.7.14",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": 211,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:213WWCOrX74",
-      "videoId": "213WWCOrX74",
-      "title": "Escape Room - 프로미스나인 (fromis_9) [뮤직뱅크/Music Bank] | KBS 220128 방송",
+      "id": "yt:eoTv2zv1PN0",
+      "videoId": "eoTv2zv1PN0",
+      "title": "[K-Choreo 8k HDR] 프로미스나인 'DM' (fromis_9 Choreography) l @MusicBank 220121",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-27T00:00:00Z",
+      "publishedAt": "2022-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "all"
-      ],
-      "duration": 209,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:GxKVJzRjlfs",
-      "videoId": "GxKVJzRjlfs",
-      "title": "[K-Choreo 8k] 프로미스나인 'Talk & Talk' (fromis_9 Choreography) l @MusicBank 210917",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 241,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:p1WT5Gr5wf8",
-      "videoId": "p1WT5Gr5wf8",
-      "title": "[Limousine Service] A video that makes you want to make dolphin sounds (feat. fromis_9 Hayoung, J...",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 53,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Uc8eWJObaS8",
-      "videoId": "Uc8eWJObaS8",
-      "title": "[얼빡직캠 4K] 프로미스나인 이채영 'Feel My Rhythm(원곡: 레드벨벳)' (fromis_9 Lee Chaeyoung Facecam) @Music Bank 220624",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2022-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 241,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:_2NCuVFH3Mw",
-      "videoId": "_2NCuVFH3Mw",
-      "title": "[MPD직캠] 프로미스나인 이채영 직캠 4K 'DM' (fromis_9 LEE CHAEYOUNG FanCam) | @MCOUNTDOWN_2022.1.27",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "chaeyoung"
       ],
       "duration": 223,
       "source": "youtube"
     },
     {
-      "id": "yt:FC103elX7Gs",
-      "videoId": "FC103elX7Gs",
-      "title": "[MPD직캠] 프로미스나인 백지헌 직캠 4K 'Talk & Talk' (fromis_9 BAEK JIHEON FanCam) | @MCOUNTDOWN_2021.9.9",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-27T00:00:00Z",
+      "id": "yt:ySU_ZwKu3xQ",
+      "videoId": "ySU_ZwKu3xQ",
+      "title": "(ENG SUB)[MusicBank Interview Cam] fromis_9 Interview | @MusicBank KBS 07/08/22",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2022-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "jiheon"
+        "all"
       ],
-      "duration": 252,
+      "duration": 113,
       "source": "youtube"
     },
     {
-      "id": "yt:MVP7w2Y7BZc",
-      "videoId": "MVP7w2Y7BZc",
-      "title": "[MPD직캠] 프로미스나인 이채영 직캠 4K 'Talk & Talk' (fromis_9 LEE CHAEYOUNG FanCam) | @MCOUNTDOWN_2021.9.16",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-27T00:00:00Z",
+      "id": "yt:OyEfR6WxZ-8",
+      "videoId": "OyEfR6WxZ-8",
+      "title": "[K-Fancam] 프로미스나인 송하영 직캠 'Feel My Rhythm' (fromis_9 Song Hayoung Fancam) l @MusicBank 220624",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2022-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "chaeyoung"
+        "hayoung"
       ],
-      "duration": 244,
+      "duration": 236,
       "source": "youtube"
     },
     {
-      "id": "yt:2xBM6FtbnVc",
-      "videoId": "2xBM6FtbnVc",
-      "title": "[MPD직캠] 프로미스나인 백지헌 직캠 4K 'DM' (fromis_9 BAEK JIHEON FanCam) | @MCOUNTDOWN_2022.1.20",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2022-08-27T00:00:00Z",
+      "id": "yt:nTUJ73U9vM8",
+      "videoId": "nTUJ73U9vM8",
+      "title": "[K-Choreo 8k] 프로미스나인 'Stay This Way' (fromis_9 Choreography) l @MusicBank 220701",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2022-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "jiheon"
+        "all"
       ],
-      "duration": 239,
+      "duration": 213,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:DGO7XvUHBJs",
+      "videoId": "DGO7XvUHBJs",
+      "title": "[얼빡직캠 4K] 프로미스나인 이나경 'Feel My Rhythm(원곡: 레드벨벳)' (fromis_9 Lee Nagyung Facecam) @Music Bank 220624",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": 229,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:R3ul15Chr20",
+      "videoId": "R3ul15Chr20",
+      "title": "[K-Fancam] 프로미스나인 이새롬 직캠 'DM' (fromis_9 Lee Saerom Fancam) l @MusicBank 220121",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "saerom"
+      ],
+      "duration": 223,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:7o6wR7pWILQ",
+      "videoId": "7o6wR7pWILQ",
+      "title": "[페이스캠4K] 프로미스나인 장규리 'Stay This Way' (fromis_9  JANG GYU RI FaceCam)│@SBS Inkigayo_2022.07.03.",
+      "category": "music_show",
+      "channelTitle": "SBSKPOP X INKIGAYO",
+      "publishedAt": "2022-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "gyuri"
+      ],
+      "duration": 235,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Jee6Ho5X374",
+      "videoId": "Jee6Ho5X374",
+      "title": "Feel Good (SECRET CODE) - 프로미스나인(fromis_9) [뮤직뱅크/Music Bank] | KBS 201009 방송",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2021-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 230,
       "source": "youtube"
     },
     {
@@ -10521,9 +10619,9 @@
       "source": "youtube"
     },
     {
-      "id": "yt:Jee6Ho5X374",
-      "videoId": "Jee6Ho5X374",
-      "title": "Feel Good (SECRET CODE) - 프로미스나인(fromis_9) [뮤직뱅크/Music Bank] | KBS 201009 방송",
+      "id": "yt:08l1ljpKi9o",
+      "videoId": "08l1ljpKi9o",
+      "title": "WE GO - 프로미스나인(fromis_9) [뮤직뱅크/Music Bank] | KBS 210604 방송",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2021-08-28T00:00:00Z",
@@ -10531,7 +10629,21 @@
       "members": [
         "all"
       ],
-      "duration": 230,
+      "duration": 176,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:ZI50K4w2ZyE",
+      "videoId": "ZI50K4w2ZyE",
+      "title": "상큼함이 톡⭐️톡! 유리구두부터 WE GO까지 프로미스나인 뮤직뱅크 무대 몰아보기 (fromis_9 MusicBank Stage Compilation)",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2021-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 2001,
       "source": "youtube"
     },
     {
@@ -10633,20 +10745,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:pLPsJjWjFaY",
-      "videoId": "pLPsJjWjFaY",
-      "title": "[킬포장인] ★프로미스나인 이나경★ 킬링파트 모아보기 | fromis_9 LEENAGYUNG Killing Part Compilation MBC171223방송",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2021-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "nagyung"
-      ],
-      "duration": 446,
-      "source": "youtube"
-    },
-    {
       "id": "yt:FXSYiiIGA_k",
       "videoId": "FXSYiiIGA_k",
       "title": "[예능연구소] 프로미스나인 송하영 직캠 'WE GO' (fromis_9 Song Ha Young FanCam) @Show!MusicCore 210522",
@@ -10703,17 +10801,59 @@
       "source": "youtube"
     },
     {
-      "id": "yt:svPpkDQe-OY",
-      "videoId": "svPpkDQe-OY",
-      "title": "[예능연구소] 프로미스나인 이나경 직캠 'WE GO' (fromis_9 Lee Na Gyung FanCam) @Show!MusicCore 210522",
+      "id": "yt:ZsfZIYyt47g",
+      "videoId": "ZsfZIYyt47g",
+      "title": "fromis_9 Special ★Since 'Glass Shoes' to 'LOVE RUMPUMPUM'★ (22m Stage Compilation)",
       "category": "music_show",
       "channelTitle": "MBCkpop",
       "publishedAt": "2021-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "nagyung"
+        "all"
       ],
-      "duration": 181,
+      "duration": 1328,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:I2Vviciu5sk",
+      "videoId": "I2Vviciu5sk",
+      "title": "[예능연구소 4K] 프로미스나인 직캠 'WE GO' (fromis_9 FanCam) @Show!MusicCore 210605",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2021-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 182,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:nJ73qUn5RiE",
+      "videoId": "nJ73qUn5RiE",
+      "title": "[예능연구소 4K] 프로미스나인 직캠 'Feel Good(SECRET CODE)' (fromis_9 FanCam) @Show!MusicCore 200926",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2021-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 229,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:iuxfkKU1qoI",
+      "videoId": "iuxfkKU1qoI",
+      "title": "[New Song] Fromis_9 -Feel Good(SECRET CODE), 프로미스나인 -필 굿(시크릿 코드) Show Music core 20200919",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2021-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 236,
       "source": "youtube"
     },
     {
@@ -10731,17 +10871,17 @@
       "source": "youtube"
     },
     {
-      "id": "yt:nJ73qUn5RiE",
-      "videoId": "nJ73qUn5RiE",
-      "title": "[예능연구소 4K] 프로미스나인 직캠 'Feel Good(SECRET CODE)' (fromis_9 FanCam) @Show!MusicCore 200926",
+      "id": "yt:svPpkDQe-OY",
+      "videoId": "svPpkDQe-OY",
+      "title": "[예능연구소] 프로미스나인 이나경 직캠 'WE GO' (fromis_9 Lee Na Gyung FanCam) @Show!MusicCore 210522",
       "category": "music_show",
       "channelTitle": "MBCkpop",
       "publishedAt": "2021-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "all"
+        "nagyung"
       ],
-      "duration": 229,
+      "duration": 181,
       "source": "youtube"
     },
     {
@@ -10885,20 +11025,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:8PTPOAljvTE",
-      "videoId": "8PTPOAljvTE",
-      "title": "fromis_9(프로미스나인) - WE GO @인기가요 inkigayo 20210530",
-      "category": "music_show",
-      "channelTitle": "SBSKPOP X INKIGAYO",
-      "publishedAt": "2021-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 195,
-      "source": "youtube"
-    },
-    {
       "id": "yt:b8taF_iwpRM",
       "videoId": "b8taF_iwpRM",
       "title": "fromis_9(프로미스나인) - WE GO @인기가요 inkigayo 20210523",
@@ -10913,6 +11039,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:8PTPOAljvTE",
+      "videoId": "8PTPOAljvTE",
+      "title": "fromis_9(프로미스나인) - WE GO @인기가요 inkigayo 20210530",
+      "category": "music_show",
+      "channelTitle": "SBSKPOP X INKIGAYO",
+      "publishedAt": "2021-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 195,
+      "source": "youtube"
+    },
+    {
       "id": "yt:hUSBxi-wHls",
       "videoId": "hUSBxi-wHls",
       "title": "[페이스캠4K] 프로미스나인 박지원 'WE GO' (fromis_9 Park Jiwon FaceCam)│@SBS Inkigayo_2021.06.06.",
@@ -10924,6 +11064,20 @@
         "jiwon"
       ],
       "duration": 194,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:7A_fJCbtcy8",
+      "videoId": "7A_fJCbtcy8",
+      "title": "[페이스캠4K] 프로미스나인 노지선 'WE GO' (fromis_9 Roh Jisun FaceCam)│@SBS Inkigayo_2021.05.30.",
+      "category": "music_show",
+      "channelTitle": "SBSKPOP X INKIGAYO",
+      "publishedAt": "2021-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jisun"
+      ],
+      "duration": 202,
       "source": "youtube"
     },
     {
@@ -10955,6 +11109,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:3Jj12LtKOZ0",
+      "videoId": "3Jj12LtKOZ0",
+      "title": "fromis_9(프로미스나인) - WE GO @인기가요 inkigayo 20210606",
+      "category": "music_show",
+      "channelTitle": "SBSKPOP X INKIGAYO",
+      "publishedAt": "2021-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 193,
+      "source": "youtube"
+    },
+    {
       "id": "yt:7QpXszdic2A",
       "videoId": "7QpXszdic2A",
       "title": "[안방1열 직캠4K] 프로미스나인 'WE GO' 풀캠 (fromis_9 Full Cam)│@SBS Inkigayo_2021.05.23.",
@@ -10980,34 +11148,6 @@
         "jiheon"
       ],
       "duration": 223,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:7A_fJCbtcy8",
-      "videoId": "7A_fJCbtcy8",
-      "title": "[페이스캠4K] 프로미스나인 노지선 'WE GO' (fromis_9 Roh Jisun FaceCam)│@SBS Inkigayo_2021.05.30.",
-      "category": "music_show",
-      "channelTitle": "SBSKPOP X INKIGAYO",
-      "publishedAt": "2021-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jisun"
-      ],
-      "duration": 202,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:3Jj12LtKOZ0",
-      "videoId": "3Jj12LtKOZ0",
-      "title": "fromis_9(프로미스나인) - WE GO @인기가요 inkigayo 20210606",
-      "category": "music_show",
-      "channelTitle": "SBSKPOP X INKIGAYO",
-      "publishedAt": "2021-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 193,
       "source": "youtube"
     },
     {
@@ -11403,20 +11543,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:Lqoke6tZ1Mg",
-      "videoId": "Lqoke6tZ1Mg",
-      "title": "[페이스캠4K] 프로미스나인 이나경 'Feel Good(SECRET CODE)' (fromis_9 Lee Nagyung FaceCam)│@SBS Inkigayo_2020.09.27",
-      "category": "music_show",
-      "channelTitle": "SBSKPOP X INKIGAYO",
-      "publishedAt": "2021-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "nagyung"
-      ],
-      "duration": 243,
-      "source": "youtube"
-    },
-    {
       "id": "yt:IXseEgPy5XU",
       "videoId": "IXseEgPy5XU",
       "title": "[안방1열 직캠4K] 프로미스나인 이채영 'Feel Good(SECRET CODE)' (fromis_9 Lee Chaeyoung FanCam)│@SBS Inkigayo_200920",
@@ -11428,6 +11554,20 @@
         "chaeyoung"
       ],
       "duration": 247,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Lqoke6tZ1Mg",
+      "videoId": "Lqoke6tZ1Mg",
+      "title": "[페이스캠4K] 프로미스나인 이나경 'Feel Good(SECRET CODE)' (fromis_9 Lee Nagyung FaceCam)│@SBS Inkigayo_2020.09.27",
+      "category": "music_show",
+      "channelTitle": "SBSKPOP X INKIGAYO",
+      "publishedAt": "2021-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": 243,
       "source": "youtube"
     },
     {
@@ -11809,20 +11949,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:--1AfyUdRbg",
-      "videoId": "--1AfyUdRbg",
-      "title": "[입덕직캠] 프로미스나인 이채영 직캠 4K 'WE GO' (fromis_9 LEE CHAEYOUNG FanCam) | @MCOUNTDOWN_2021.5.20",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2021-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 207,
-      "source": "youtube"
-    },
-    {
       "id": "yt:M45f8XPnM-Q",
       "videoId": "M45f8XPnM-Q",
       "title": "[MPD직캠] 프로미스나인 송하영 직캠 4K 'WE GO' (fromis_9 SONG HAYOUNG FanCam) | @MCOUNTDOWN_2021.6.3",
@@ -11837,17 +11963,17 @@
       "source": "youtube"
     },
     {
-      "id": "yt:D-3EwIrpqx4",
-      "videoId": "D-3EwIrpqx4",
-      "title": "[MPD직캠] 프로미스나인 이새롬 직캠 4K 'Feel Good' (fromis_9 LEE SAE ROM FanCam) | @MCOUNTDOWN_2020.9.17",
+      "id": "yt:F_UWiRY3Zbc",
+      "videoId": "F_UWiRY3Zbc",
+      "title": "[입덕직캠] 프로미스나인 이나경 직캠 4K 'WE GO' (fromis_9 LEE NAGYUNG FanCam) | @MCOUNTDOWN_2021.5.27",
       "category": "stage_fancam",
       "channelTitle": "M2",
       "publishedAt": "2021-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "saerom"
+        "nagyung"
       ],
-      "duration": 243,
+      "duration": 216,
       "source": "youtube"
     },
     {
@@ -11862,20 +11988,6 @@
         "gyuri"
       ],
       "duration": 243,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:F_UWiRY3Zbc",
-      "videoId": "F_UWiRY3Zbc",
-      "title": "[입덕직캠] 프로미스나인 이나경 직캠 4K 'WE GO' (fromis_9 LEE NAGYUNG FanCam) | @MCOUNTDOWN_2021.5.27",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2021-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "nagyung"
-      ],
-      "duration": 216,
       "source": "youtube"
     },
     {
@@ -12005,6 +12117,48 @@
       "source": "youtube"
     },
     {
+      "id": "yt:JwyLMg9xXOY",
+      "videoId": "JwyLMg9xXOY",
+      "title": "[MPD직캠] 프로미스나인 이새롬 직캠 4K 'WE GO' (fromis_9 LEE SAEROM FanCam) | @MCOUNTDOWN_2021.5.20",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2021-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "saerom"
+      ],
+      "duration": 190,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:QiucTzeqE2M",
+      "videoId": "QiucTzeqE2M",
+      "title": "[MPD직캠] 프로미스나인 송하영 직캠 4K 'Feel Good' (fromis_9 SONG HA YOUNG FanCam) | @MCOUNTDOWN_2020.9.17",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2021-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": 243,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:TIHf0w7pz1w",
+      "videoId": "TIHf0w7pz1w",
+      "title": "[MPD직캠] 프로미스나인 이채영 직캠 4K 'WE GO' (fromis_9 LEE CHAEYOUNG FanCam) | @MCOUNTDOWN_2021.5.20",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2021-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": 194,
+      "source": "youtube"
+    },
+    {
       "id": "yt:I2YRLfgZxu0",
       "videoId": "I2YRLfgZxu0",
       "title": "[입덕직캠] 프로미스나인 장규리 직캠 4K 'Feel Good' (fromis_9 JANG GYU RI FanCam) | @MCOUNTDOWN_2020.9.17",
@@ -12016,6 +12170,20 @@
         "gyuri"
       ],
       "duration": 248,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:PvSqxb8_J-A",
+      "videoId": "PvSqxb8_J-A",
+      "title": "[MPD직캠] 프로미스나인 백지헌 직캠 4K 'Feel Good' (fromis_9 BAEK JI HEON FanCam) | @MCOUNTDOWN_2020.9.17",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2021-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiheon"
+      ],
+      "duration": 243,
       "source": "youtube"
     },
     {
@@ -12058,6 +12226,20 @@
         "jisun"
       ],
       "duration": 259,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:gkmAou9HJCk",
+      "videoId": "gkmAou9HJCk",
+      "title": "[MPD직캠] 프로미스나인 이나경 직캠 4K 'Feel Good' (fromis_9 LEE NA GYUNG FanCam) | @MCOUNTDOWN_2020.9.17",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2021-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": 243,
       "source": "youtube"
     },
     {
@@ -12117,31 +12299,17 @@
       "source": "youtube"
     },
     {
-      "id": "yt:gkmAou9HJCk",
-      "videoId": "gkmAou9HJCk",
-      "title": "[MPD직캠] 프로미스나인 이나경 직캠 4K 'Feel Good' (fromis_9 LEE NA GYUNG FanCam) | @MCOUNTDOWN_2020.9.17",
+      "id": "yt:D-3EwIrpqx4",
+      "videoId": "D-3EwIrpqx4",
+      "title": "[MPD직캠] 프로미스나인 이새롬 직캠 4K 'Feel Good' (fromis_9 LEE SAE ROM FanCam) | @MCOUNTDOWN_2020.9.17",
       "category": "stage_fancam",
       "channelTitle": "M2",
       "publishedAt": "2021-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "nagyung"
+        "saerom"
       ],
       "duration": 243,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:TIHf0w7pz1w",
-      "videoId": "TIHf0w7pz1w",
-      "title": "[MPD직캠] 프로미스나인 이채영 직캠 4K 'WE GO' (fromis_9 LEE CHAEYOUNG FanCam) | @MCOUNTDOWN_2021.5.20",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2021-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 194,
       "source": "youtube"
     },
     {
@@ -12159,73 +12327,31 @@
       "source": "youtube"
     },
     {
-      "id": "yt:QiucTzeqE2M",
-      "videoId": "QiucTzeqE2M",
-      "title": "[MPD직캠] 프로미스나인 송하영 직캠 4K 'Feel Good' (fromis_9 SONG HA YOUNG FanCam) | @MCOUNTDOWN_2020.9.17",
+      "id": "yt:--1AfyUdRbg",
+      "videoId": "--1AfyUdRbg",
+      "title": "[입덕직캠] 프로미스나인 이채영 직캠 4K 'WE GO' (fromis_9 LEE CHAEYOUNG FanCam) | @MCOUNTDOWN_2021.5.20",
       "category": "stage_fancam",
       "channelTitle": "M2",
       "publishedAt": "2021-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "hayoung"
+        "chaeyoung"
       ],
-      "duration": 243,
+      "duration": 207,
       "source": "youtube"
     },
     {
-      "id": "yt:PvSqxb8_J-A",
-      "videoId": "PvSqxb8_J-A",
-      "title": "[MPD직캠] 프로미스나인 백지헌 직캠 4K 'Feel Good' (fromis_9 BAEK JI HEON FanCam) | @MCOUNTDOWN_2020.9.17",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2021-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": 243,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:JwyLMg9xXOY",
-      "videoId": "JwyLMg9xXOY",
-      "title": "[MPD직캠] 프로미스나인 이새롬 직캠 4K 'WE GO' (fromis_9 LEE SAEROM FanCam) | @MCOUNTDOWN_2021.5.20",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2021-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "saerom"
-      ],
-      "duration": 190,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:08l1ljpKi9o",
-      "videoId": "08l1ljpKi9o",
-      "title": "WE GO - 프로미스나인(fromis_9) [뮤직뱅크/Music Bank] | KBS 210604 방송",
+      "id": "yt:pLPsJjWjFaY",
+      "videoId": "pLPsJjWjFaY",
+      "title": "[킬포장인] ★프로미스나인 이나경★ 킬링파트 모아보기 | fromis_9 LEENAGYUNG Killing Part Compilation MBC171223방송",
       "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2021-08-27T00:00:00Z",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2021-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "all"
+        "nagyung"
       ],
-      "duration": 176,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ZI50K4w2ZyE",
-      "videoId": "ZI50K4w2ZyE",
-      "title": "상큼함이 톡⭐️톡! 유리구두부터 WE GO까지 프로미스나인 뮤직뱅크 무대 몰아보기 (fromis_9 MusicBank Stage Compilation)",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2021-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 2001,
+      "duration": 446,
       "source": "youtube"
     },
     {
@@ -12240,48 +12366,6 @@
         "all"
       ],
       "duration": 225,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:iuxfkKU1qoI",
-      "videoId": "iuxfkKU1qoI",
-      "title": "[New Song] Fromis_9 -Feel Good(SECRET CODE), 프로미스나인 -필 굿(시크릿 코드) Show Music core 20200919",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2021-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 236,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ZsfZIYyt47g",
-      "videoId": "ZsfZIYyt47g",
-      "title": "fromis_9 Special ★Since 'Glass Shoes' to 'LOVE RUMPUMPUM'★ (22m Stage Compilation)",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2021-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1328,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:I2Vviciu5sk",
-      "videoId": "I2Vviciu5sk",
-      "title": "[예능연구소 4K] 프로미스나인 직캠 'WE GO' (fromis_9 FanCam) @Show!MusicCore 210605",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2021-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 182,
       "source": "youtube"
     },
     {
@@ -12341,6 +12425,34 @@
       "source": "youtube"
     },
     {
+      "id": "yt:9HHdNSPr22w",
+      "videoId": "9HHdNSPr22w",
+      "title": "FUN! - 프로미스나인(fromis_9) [뮤직뱅크 Music Bank] 20190628",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 182,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:R6MGqpfHdPQ",
+      "videoId": "R6MGqpfHdPQ",
+      "title": "LOVE RUMPUMPUM - 프로미스나인 (fromis_9) [뮤직뱅크 Music Bank] 20190712",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 180,
+      "source": "youtube"
+    },
+    {
       "id": "yt:ri2yYaZ2Jdo",
       "videoId": "ri2yYaZ2Jdo",
       "title": "뮤직뱅크 Music Bank - All I Want For Christmas Is You (원곡 Mariah Carey)-프로미스나인(fromis_9).20181221",
@@ -12397,59 +12509,31 @@
       "source": "youtube"
     },
     {
-      "id": "yt:tqixauZlo6w",
-      "videoId": "tqixauZlo6w",
-      "title": "프로미스나인 무대에 김용진 ＂CF 하나 들어오겠어요!＂[불후의명곡/Immortal Songs 2].20190323",
+      "id": "yt:TxEsnFknQRk",
+      "videoId": "TxEsnFknQRk",
+      "title": "프로미스나인(fromis_9) 노지선 - 러브 밤(LOVE BOMB) / 181012 뮤직뱅크 직캠",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2019-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "all"
+        "jisun"
       ],
-      "duration": 82,
+      "duration": 196,
       "source": "youtube"
     },
     {
-      "id": "yt:83S1Rj4J9Uo",
-      "videoId": "83S1Rj4J9Uo",
-      "title": "FUN! - 프로미스나인(fromis_9) 박지원 / 190621 뮤직뱅크 직캠",
+      "id": "yt:cc2gYqpiPiw",
+      "videoId": "cc2gYqpiPiw",
+      "title": "LOVE RUMPUMPUM- 프로미스나인(fromis_9) 장규리 / 190712 뮤직뱅크 직캠",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
       "publishedAt": "2019-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "jiwon"
+        "gyuri"
       ],
-      "duration": 184,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:yvQx8EGdqSA",
-      "videoId": "yvQx8EGdqSA",
-      "title": "프로미스나인(fromis_9) - 다 함께 차차차[불후의명곡/Immortal Songs 2].20190323",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 233,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:VOxjxlJ3nmY",
-      "videoId": "VOxjxlJ3nmY",
-      "title": "뮤직뱅크 Music Bank - LOVE BOMB  - 프로미스나인(fromis_9).20181026",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 200,
+      "duration": 183,
       "source": "youtube"
     },
     {
@@ -12481,34 +12565,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:TxEsnFknQRk",
-      "videoId": "TxEsnFknQRk",
-      "title": "프로미스나인(fromis_9) 노지선 - 러브 밤(LOVE BOMB) / 181012 뮤직뱅크 직캠",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jisun"
-      ],
-      "duration": 196,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:cc2gYqpiPiw",
-      "videoId": "cc2gYqpiPiw",
-      "title": "LOVE RUMPUMPUM- 프로미스나인(fromis_9) 장규리 / 190712 뮤직뱅크 직캠",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "gyuri"
-      ],
-      "duration": 183,
-      "source": "youtube"
-    },
-    {
       "id": "yt:uehpL7mcY_k",
       "videoId": "uehpL7mcY_k",
       "title": "[HOT]fromis_9 - LOVE RUMPUMPUM, 프로미스나인 - LOVE RUMPUMPUM Show Music core 20190720",
@@ -12520,6 +12576,35 @@
         "all"
       ],
       "duration": 181,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:F9UQiQHVD4M",
+      "videoId": "F9UQiQHVD4M",
+      "title": "[Comeback Stage] fromis_9 - FUN! , 프로미스나인 - FUN!  Show Music core 20190608",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 183,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:L1SU-kVEEPs",
+      "videoId": "L1SU-kVEEPs",
+      "title": "[훅 들어온 초대석]fromis_9 Ji-won, Seo-yeon - Despacito, 프로미스나인 지원,서연 - Despacito, 20181012",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiwon",
+        "seoyeon"
+      ],
+      "duration": 119,
       "source": "youtube"
     },
     {
@@ -12649,20 +12734,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:EKo10duHGTk",
-      "videoId": "EKo10duHGTk",
-      "title": "60FPS 1080P | fromis_9 (프로미스나인) - FUN!  Show! Music Core 20190608",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 183,
-      "source": "youtube"
-    },
-    {
       "id": "yt:DpCXFrpRAzI",
       "videoId": "DpCXFrpRAzI",
       "title": "[IDOL RADIO] 프로미스나인 나야! 나야! talk☆ fromis~!",
@@ -12677,23 +12748,9 @@
       "source": "youtube"
     },
     {
-      "id": "yt:Y7VAAdn3rJc",
-      "videoId": "Y7VAAdn3rJc",
-      "title": "[HOT] fromis_9 - LOVE RUMPUMPUM, 프로미스나인 - LOVE RUMPUMPUM Show Music core 20190727",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 178,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:tlwjXYdMj7I",
-      "videoId": "tlwjXYdMj7I",
-      "title": "[HOT] fromis_9 - FUN! , 프로미스나인 - FUN!  Show Music core 20190615",
+      "id": "yt:EKo10duHGTk",
+      "videoId": "EKo10duHGTk",
+      "title": "60FPS 1080P | fromis_9 (프로미스나인) - FUN!  Show! Music Core 20190608",
       "category": "music_show",
       "channelTitle": "MBCkpop",
       "publishedAt": "2019-08-28T00:00:00Z",
@@ -12716,6 +12773,20 @@
         "all"
       ],
       "duration": 185,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:tlwjXYdMj7I",
+      "videoId": "tlwjXYdMj7I",
+      "title": "[HOT] fromis_9 - FUN! , 프로미스나인 - FUN!  Show Music core 20190615",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 183,
       "source": "youtube"
     },
     {
@@ -12775,20 +12846,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:EzprJOAnAkk",
-      "videoId": "EzprJOAnAkk",
-      "title": "[HOT] fromis_9 - FUN! , 프로미스나인 - FUN! Show Music core 20190622",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 182,
-      "source": "youtube"
-    },
-    {
       "id": "yt:YcVrJzhXMc8",
       "videoId": "YcVrJzhXMc8",
       "title": "[예능연구소 직캠] fromis_9 - LOVE RUMPUMPUM(LEE SAEROM), 프로미스나인 - LOVE RUMPUMPUM @Show!MusicCore 20190720",
@@ -12803,15 +12860,43 @@
       "source": "youtube"
     },
     {
-      "id": "yt:psJO9dQy2-I",
-      "videoId": "psJO9dQy2-I",
-      "title": "[예능연구소 직캠] fromis_9 - LOVE RUMPUMPUM(LEECHAEYOUNG), 프로미스나인 -LOVE RUMPUMPUM@Show!MusicCore 20190720",
+      "id": "yt:3BiYxqm6Xv8",
+      "videoId": "3BiYxqm6Xv8",
+      "title": "[예능연구소 직캠] fromis_9 - LOVE RUMPUMPUM, 프로미스나인 - LOVE RUMPUMPUM @Show! Music Core 20190713",
       "category": "music_show",
       "channelTitle": "MBCkpop",
       "publishedAt": "2019-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "chaeyoung"
+        "all"
+      ],
+      "duration": 185,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:EzprJOAnAkk",
+      "videoId": "EzprJOAnAkk",
+      "title": "[HOT] fromis_9 - FUN! , 프로미스나인 - FUN! Show Music core 20190622",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 182,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:FRVFJlR_ng4",
+      "videoId": "FRVFJlR_ng4",
+      "title": "[예능연구소 직캠] fromis_9 - LOVE RUMPUMPUM(PARK JIWON), 프로미스나인 - LOVE RUMPUMPUM @Show!MusicCore 20190720",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiwon"
       ],
       "duration": 183,
       "source": "youtube"
@@ -12845,31 +12930,17 @@
       "source": "youtube"
     },
     {
-      "id": "yt:mTiJSnFq8_A",
-      "videoId": "mTiJSnFq8_A",
-      "title": "[예능연구소 직캠] fromis_9 - LOVE RUMPUMPUM(JANGGYURI), 프로미스나인 - LOVE RUMPUMPUM @Show!MusicCore 20190713",
+      "id": "yt:psJO9dQy2-I",
+      "videoId": "psJO9dQy2-I",
+      "title": "[예능연구소 직캠] fromis_9 - LOVE RUMPUMPUM(LEECHAEYOUNG), 프로미스나인 -LOVE RUMPUMPUM@Show!MusicCore 20190720",
       "category": "music_show",
       "channelTitle": "MBCkpop",
       "publishedAt": "2019-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "gyuri"
+        "chaeyoung"
       ],
-      "duration": 184,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:juMeUhbHvPY",
-      "videoId": "juMeUhbHvPY",
-      "title": "[예능연구소 직캠] fromis_9 - FUN! (SONG HA YOUNG), 프로미스나인 - FUN! (송하영) @Show! Music Core 20190615",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 187,
+      "duration": 183,
       "source": "youtube"
     },
     {
@@ -12884,6 +12955,20 @@
         "hayoung"
       ],
       "duration": 183,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:juMeUhbHvPY",
+      "videoId": "juMeUhbHvPY",
+      "title": "[예능연구소 직캠] fromis_9 - FUN! (SONG HA YOUNG), 프로미스나인 - FUN! (송하영) @Show! Music Core 20190615",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": 187,
       "source": "youtube"
     },
     {
@@ -12926,6 +13011,20 @@
         "gyuri"
       ],
       "duration": 206,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:mTiJSnFq8_A",
+      "videoId": "mTiJSnFq8_A",
+      "title": "[예능연구소 직캠] fromis_9 - LOVE RUMPUMPUM(JANGGYURI), 프로미스나인 - LOVE RUMPUMPUM @Show!MusicCore 20190713",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "gyuri"
+      ],
+      "duration": 184,
       "source": "youtube"
     },
     {
@@ -13419,6 +13518,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:rojX2ZWEVcg",
+      "videoId": "rojX2ZWEVcg",
+      "title": "[MPD직캠] 프로미스나인 직캠 4K ‘다시 만난 세계(Into The New World)’ (fromis_9 FanCam) | @MCOUNTDOWN_2019.01.03",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 265,
+      "source": "youtube"
+    },
+    {
       "id": "yt:qFpmVpsw4So",
       "videoId": "qFpmVpsw4So",
       "title": "[MPD직캠] 프로미스나인 직캠 4K 'FUN!’ (fromis_9 FanCam) | @MCOUNTDOWN_2019.6.6",
@@ -13503,20 +13616,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:UGFLtREVbMk",
-      "videoId": "UGFLtREVbMk",
-      "title": "[입덕직캠] 프로미스나인 백지헌 직캠 4K ‘LOVE BOMB’ (fromis_9 BAEK JI HEON FanCam) | @MCOUNTDOWN_2018.10.18",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": 204,
-      "source": "youtube"
-    },
-    {
       "id": "yt:WwPFq78F0Pc",
       "videoId": "WwPFq78F0Pc",
       "title": "[MPD직캠] 프로미스나인 장규리 직캠 ‘LOVE BOMB’ (fromis_9 JANG GYU RI FanCam) | @MCOUNTDOWN_2018.10.18",
@@ -13528,6 +13627,20 @@
         "gyuri"
       ],
       "duration": 206,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:UGFLtREVbMk",
+      "videoId": "UGFLtREVbMk",
+      "title": "[입덕직캠] 프로미스나인 백지헌 직캠 4K ‘LOVE BOMB’ (fromis_9 BAEK JI HEON FanCam) | @MCOUNTDOWN_2018.10.18",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiheon"
+      ],
+      "duration": 204,
       "source": "youtube"
     },
     {
@@ -13559,20 +13672,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:yR8Dz7St6Jc",
-      "videoId": "yR8Dz7St6Jc",
-      "title": "[MPD직캠] 프로미스나인 송하영 직캠 ‘LOVE BOMB’ (fromis_9 SONG HA YOUNG FanCam) | @MCOUNTDOWN_2018.10.18",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 206,
-      "source": "youtube"
-    },
-    {
       "id": "yt:PZUyfLxZB4I",
       "videoId": "PZUyfLxZB4I",
       "title": "[MPD직캠] 프로미스나인 이채영 직캠 ‘LOVE BOMB’ (fromis_9 LEE CHAE YOUNG FanCam) | @MCOUNTDOWN_2018.10.25",
@@ -13584,6 +13683,34 @@
         "chaeyoung"
       ],
       "duration": 204,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:jUkG-ImrBjg",
+      "videoId": "jUkG-ImrBjg",
+      "title": "[입덕직캠] 프로미스나인 백지헌 직캠 4K 'LOVE RUMPUMPUM’ (fromis_9 BAEK JI HEON FanCam) | @MCOUNTDOWN_2019.7.18",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiheon"
+      ],
+      "duration": 198,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:yR8Dz7St6Jc",
+      "videoId": "yR8Dz7St6Jc",
+      "title": "[MPD직캠] 프로미스나인 송하영 직캠 ‘LOVE BOMB’ (fromis_9 SONG HA YOUNG FanCam) | @MCOUNTDOWN_2018.10.18",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": 206,
       "source": "youtube"
     },
     {
@@ -13629,9 +13756,9 @@
       "source": "youtube"
     },
     {
-      "id": "yt:p--9RtnZIt4",
-      "videoId": "p--9RtnZIt4",
-      "title": "[스쿨오브락] 프로미스나인 직캠 'LOVE BOMB' (fromis_9 FanCam) | 2018.11.05",
+      "id": "yt:6kACssidV8o",
+      "videoId": "6kACssidV8o",
+      "title": "[MPD FanCam] fromis_9 FanCam 4K 'FUN!' | @MCOUNTDOWN_06.20.2019",
       "category": "stage_fancam",
       "channelTitle": "M2",
       "publishedAt": "2019-08-28T00:00:00Z",
@@ -13639,77 +13766,7 @@
       "members": [
         "all"
       ],
-      "duration": 208,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:5jmA-t_Ib70",
-      "videoId": "5jmA-t_Ib70",
-      "title": "[MPD직캠] 프로미스나인 직캠 4K ‘LOVE BOMB’ (fromis_9 FanCam) | @MCOUNTDOWN_2018.11.01",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 203,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:x3FWYSS10l4",
-      "videoId": "x3FWYSS10l4",
-      "title": "[입덕직캠] 프로미스나인 장규리 직캠 4K ‘FUN!’ (fromis_9 JANG GYU RI FanCam), MCOUNTDOWN_2019.6.6",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "gyuri"
-      ],
-      "duration": 201,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ODvYfcEQT94",
-      "videoId": "ODvYfcEQT94",
-      "title": "[MPD직캠] 프로미스나인 직캠 4K 'FUN!’ (fromis_9 FanCam) | @MCOUNTDOWN_2019.6.27",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 198,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:A0ZrcNcyfoU",
-      "videoId": "A0ZrcNcyfoU",
-      "title": "[입덕직캠] 프로미스나인 노지선 직캠 4K 'LOVE RUMPUMPUM’ (fromis_9 ROH JI SUN FanCam) | @MCOUNTDOWN_2019.7.18",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jisun"
-      ],
-      "duration": 198,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:KF5n9NYnYHI",
-      "videoId": "KF5n9NYnYHI",
-      "title": "[MPD직캠] 프로미스나인 이나경 직캠 4K 'FUN!’ (fromis_9 LEE NA GYUNG FanCam) | @MCOUNTDOWN_2019.6.6",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "nagyung"
-      ],
-      "duration": 199,
+      "duration": 197,
       "source": "youtube"
     },
     {
@@ -13727,9 +13784,23 @@
       "source": "youtube"
     },
     {
-      "id": "yt:6kACssidV8o",
-      "videoId": "6kACssidV8o",
-      "title": "[MPD FanCam] fromis_9 FanCam 4K 'FUN!' | @MCOUNTDOWN_06.20.2019",
+      "id": "yt:BbPcSo8mzv8",
+      "videoId": "BbPcSo8mzv8",
+      "title": "[입덕직캠] 프로미스나인 백지헌 직캠 ‘FUN!’ (fromis_9 BAEK JI HEON FanCam) | @MCOUNTDOWN_2019.6.13",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiheon"
+      ],
+      "duration": 197,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:ODvYfcEQT94",
+      "videoId": "ODvYfcEQT94",
+      "title": "[MPD직캠] 프로미스나인 직캠 4K 'FUN!’ (fromis_9 FanCam) | @MCOUNTDOWN_2019.6.27",
       "category": "stage_fancam",
       "channelTitle": "M2",
       "publishedAt": "2019-08-28T00:00:00Z",
@@ -13737,7 +13808,21 @@
       "members": [
         "all"
       ],
-      "duration": 197,
+      "duration": 198,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:KF5n9NYnYHI",
+      "videoId": "KF5n9NYnYHI",
+      "title": "[MPD직캠] 프로미스나인 이나경 직캠 4K 'FUN!’ (fromis_9 LEE NA GYUNG FanCam) | @MCOUNTDOWN_2019.6.6",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": 199,
       "source": "youtube"
     },
     {
@@ -13766,20 +13851,6 @@
         "all"
       ],
       "duration": 199,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:BbPcSo8mzv8",
-      "videoId": "BbPcSo8mzv8",
-      "title": "[입덕직캠] 프로미스나인 백지헌 직캠 ‘FUN!’ (fromis_9 BAEK JI HEON FanCam) | @MCOUNTDOWN_2019.6.13",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": 197,
       "source": "youtube"
     },
     {
@@ -13965,6 +14036,48 @@
       "source": "youtube"
     },
     {
+      "id": "yt:XmV0mNo5x1A",
+      "videoId": "XmV0mNo5x1A",
+      "title": "[MPD직캠] 프로미스나인 이서연 직캠 ‘LOVE BOMB’ (fromis_9 LEE SEO YEON FanCam) | @MCOUNTDOWN_2018.10.25",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "seoyeon"
+      ],
+      "duration": 204,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:-Jm1tew659E",
+      "videoId": "-Jm1tew659E",
+      "title": "[MPD직캠] 프로미스나인 백지헌 직캠 ‘Red Light’ of f(x) (fromis_9 BAEK JI HEON FanCam) | @MCOUNTDOWN_2018.10.25",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiheon"
+      ],
+      "duration": 212,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:vCUSaGh9Pwk",
+      "videoId": "vCUSaGh9Pwk",
+      "title": "[입덕직캠] 프로미스나인 이새롬 직캠 4K ‘FUN!’ (fromis_9  LEE SAE ROM  FanCam), MCOUNTDOWN_2019.6.6",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "saerom"
+      ],
+      "duration": 202,
+      "source": "youtube"
+    },
+    {
       "id": "yt:RSReNeWc_Mc",
       "videoId": "RSReNeWc_Mc",
       "title": "[MPD FanCam] fromis_9 LEE NA GYUNG 'Into The New World' (fromis_9 LEE NA GYUNG FanCam) | @MCOUNTD...",
@@ -13976,6 +14089,20 @@
         "all"
       ],
       "duration": 265,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:kVGI_QbUIzI",
+      "videoId": "kVGI_QbUIzI",
+      "title": "[MPD직캠] 프로미스나인 이서연 직캠 4K 'LOVE RUMPUMPUM’ (fromis_9 LEE SEO YEON FanCam) | @MCOUNTDOWN_2019.7.18",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "seoyeon"
+      ],
+      "duration": 199,
       "source": "youtube"
     },
     {
@@ -14007,20 +14134,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:jUsY8QEzFPQ",
-      "videoId": "jUsY8QEzFPQ",
-      "title": "[MPD직캠] 프로미스나인 박지원 직캠 4K 'FUN!’ (fromis_9 PARK JI WON FanCam) | @MCOUNTDOWN_2019.6.6",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiwon"
-      ],
-      "duration": 199,
-      "source": "youtube"
-    },
-    {
       "id": "yt:OCHmDvQ6GXY",
       "videoId": "OCHmDvQ6GXY",
       "title": "[MPD직캠] 프로미스나인 이나경 직캠 ‘Red Light’ of f(x) (fromis_9 LEE NA GYUNG FanCam) | @MCOUNTDOWN_2018.10.25",
@@ -14032,6 +14145,20 @@
         "nagyung"
       ],
       "duration": 212,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:jUsY8QEzFPQ",
+      "videoId": "jUsY8QEzFPQ",
+      "title": "[MPD직캠] 프로미스나인 박지원 직캠 4K 'FUN!’ (fromis_9 PARK JI WON FanCam) | @MCOUNTDOWN_2019.6.6",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": 199,
       "source": "youtube"
     },
     {
@@ -14049,17 +14176,31 @@
       "source": "youtube"
     },
     {
-      "id": "yt:jUkG-ImrBjg",
-      "videoId": "jUkG-ImrBjg",
-      "title": "[입덕직캠] 프로미스나인 백지헌 직캠 4K 'LOVE RUMPUMPUM’ (fromis_9 BAEK JI HEON FanCam) | @MCOUNTDOWN_2019.7.18",
+      "id": "yt:5jmA-t_Ib70",
+      "videoId": "5jmA-t_Ib70",
+      "title": "[MPD직캠] 프로미스나인 직캠 4K ‘LOVE BOMB’ (fromis_9 FanCam) | @MCOUNTDOWN_2018.11.01",
       "category": "stage_fancam",
       "channelTitle": "M2",
       "publishedAt": "2019-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "jiheon"
+        "all"
       ],
-      "duration": 198,
+      "duration": 203,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:p--9RtnZIt4",
+      "videoId": "p--9RtnZIt4",
+      "title": "[스쿨오브락] 프로미스나인 직캠 'LOVE BOMB' (fromis_9 FanCam) | 2018.11.05",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 208,
       "source": "youtube"
     },
     {
@@ -14077,48 +14218,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:XmV0mNo5x1A",
-      "videoId": "XmV0mNo5x1A",
-      "title": "[MPD직캠] 프로미스나인 이서연 직캠 ‘LOVE BOMB’ (fromis_9 LEE SEO YEON FanCam) | @MCOUNTDOWN_2018.10.25",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "seoyeon"
-      ],
-      "duration": 204,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:vCUSaGh9Pwk",
-      "videoId": "vCUSaGh9Pwk",
-      "title": "[입덕직캠] 프로미스나인 이새롬 직캠 4K ‘FUN!’ (fromis_9  LEE SAE ROM  FanCam), MCOUNTDOWN_2019.6.6",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "saerom"
-      ],
-      "duration": 202,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:-Jm1tew659E",
-      "videoId": "-Jm1tew659E",
-      "title": "[MPD직캠] 프로미스나인 백지헌 직캠 ‘Red Light’ of f(x) (fromis_9 BAEK JI HEON FanCam) | @MCOUNTDOWN_2018.10.25",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2019-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": 212,
-      "source": "youtube"
-    },
-    {
       "id": "yt:sRODrlwoW_E",
       "videoId": "sRODrlwoW_E",
       "title": "[All-In Live] fromis_9 - LOVE BOMB",
@@ -14130,6 +14229,104 @@
         "all"
       ],
       "duration": 222,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:tqixauZlo6w",
+      "videoId": "tqixauZlo6w",
+      "title": "프로미스나인 무대에 김용진 ＂CF 하나 들어오겠어요!＂[불후의명곡/Immortal Songs 2].20190323",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 82,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:83S1Rj4J9Uo",
+      "videoId": "83S1Rj4J9Uo",
+      "title": "FUN! - 프로미스나인(fromis_9) 박지원 / 190621 뮤직뱅크 직캠",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": 184,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:yvQx8EGdqSA",
+      "videoId": "yvQx8EGdqSA",
+      "title": "프로미스나인(fromis_9) - 다 함께 차차차[불후의명곡/Immortal Songs 2].20190323",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 233,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:VOxjxlJ3nmY",
+      "videoId": "VOxjxlJ3nmY",
+      "title": "뮤직뱅크 Music Bank - LOVE BOMB  - 프로미스나인(fromis_9).20181026",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 200,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Y7VAAdn3rJc",
+      "videoId": "Y7VAAdn3rJc",
+      "title": "[HOT] fromis_9 - LOVE RUMPUMPUM, 프로미스나인 - LOVE RUMPUMPUM Show Music core 20190727",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 178,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:x3FWYSS10l4",
+      "videoId": "x3FWYSS10l4",
+      "title": "[입덕직캠] 프로미스나인 장규리 직캠 4K ‘FUN!’ (fromis_9 JANG GYU RI FanCam), MCOUNTDOWN_2019.6.6",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "gyuri"
+      ],
+      "duration": 201,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:A0ZrcNcyfoU",
+      "videoId": "A0ZrcNcyfoU",
+      "title": "[입덕직캠] 프로미스나인 노지선 직캠 4K 'LOVE RUMPUMPUM’ (fromis_9 ROH JI SUN FanCam) | @MCOUNTDOWN_2019.7.18",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2019-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jisun"
+      ],
+      "duration": 198,
       "source": "youtube"
     },
     {
@@ -14147,105 +14344,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:9HHdNSPr22w",
-      "videoId": "9HHdNSPr22w",
-      "title": "FUN! - 프로미스나인(fromis_9) [뮤직뱅크 Music Bank] 20190628",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2019-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 182,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:R6MGqpfHdPQ",
-      "videoId": "R6MGqpfHdPQ",
-      "title": "LOVE RUMPUMPUM - 프로미스나인 (fromis_9) [뮤직뱅크 Music Bank] 20190712",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2019-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 180,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:L1SU-kVEEPs",
-      "videoId": "L1SU-kVEEPs",
-      "title": "[훅 들어온 초대석]fromis_9 Ji-won, Seo-yeon - Despacito, 프로미스나인 지원,서연 - Despacito, 20181012",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2019-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiwon",
-        "seoyeon"
-      ],
-      "duration": 119,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:F9UQiQHVD4M",
-      "videoId": "F9UQiQHVD4M",
-      "title": "[Comeback Stage] fromis_9 - FUN! , 프로미스나인 - FUN!  Show Music core 20190608",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2019-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 183,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:FRVFJlR_ng4",
-      "videoId": "FRVFJlR_ng4",
-      "title": "[예능연구소 직캠] fromis_9 - LOVE RUMPUMPUM(PARK JIWON), 프로미스나인 - LOVE RUMPUMPUM @Show!MusicCore 20190720",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2019-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiwon"
-      ],
-      "duration": 183,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:3BiYxqm6Xv8",
-      "videoId": "3BiYxqm6Xv8",
-      "title": "[예능연구소 직캠] fromis_9 - LOVE RUMPUMPUM, 프로미스나인 - LOVE RUMPUMPUM @Show! Music Core 20190713",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2019-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 185,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:rojX2ZWEVcg",
-      "videoId": "rojX2ZWEVcg",
-      "title": "[MPD직캠] 프로미스나인 직캠 4K ‘다시 만난 세계(Into The New World)’ (fromis_9 FanCam) | @MCOUNTDOWN_2019.01.03",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2019-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 265,
-      "source": "youtube"
-    },
-    {
       "id": "yt:ADAmjCDb9yA",
       "videoId": "ADAmjCDb9yA",
       "title": "[MPD직캠] 프로미스나인 이채영 직캠 4K 'FUN!’ (fromis_9 LEE CHAE YOUNG FanCam) | @MCOUNTDOWN_2019.6.6",
@@ -14255,20 +14353,6 @@
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "chaeyoung"
-      ],
-      "duration": 199,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:kVGI_QbUIzI",
-      "videoId": "kVGI_QbUIzI",
-      "title": "[MPD직캠] 프로미스나인 이서연 직캠 4K 'LOVE RUMPUMPUM’ (fromis_9 LEE SEO YEON FanCam) | @MCOUNTDOWN_2019.7.18",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2019-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "seoyeon"
       ],
       "duration": 199,
       "source": "youtube"
@@ -14302,20 +14386,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:MvBBcYcUPgs",
-      "videoId": "MvBBcYcUPgs",
-      "title": "뮤직뱅크 Music Bank - 두근두근(DKDK) - fromis_9.20180713",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2018-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 182,
-      "source": "youtube"
-    },
-    {
       "id": "yt:EZ4yaUjlgqg",
       "videoId": "EZ4yaUjlgqg",
       "title": "뮤직뱅크 Music Bank - 유리구두 - fromis_9 (Glass Shoes - fromis_9).20171222",
@@ -14330,6 +14400,20 @@
       "source": "youtube"
     },
     {
+      "id": "yt:Nne-lSzzZOo",
+      "videoId": "Nne-lSzzZOo",
+      "title": "뮤직뱅크 Music Bank - To Heart - fromis_9.20180223",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2018-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 191,
+      "source": "youtube"
+    },
+    {
       "id": "yt:YN-Gjxsa_DY",
       "videoId": "YN-Gjxsa_DY",
       "title": "뮤직뱅크 Music Bank - 22세기 소녀 - fromis_9 (22CENTURY GIRL - fromis_9).20180608",
@@ -14341,6 +14425,20 @@
         "all"
       ],
       "duration": 128,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:MvBBcYcUPgs",
+      "videoId": "MvBBcYcUPgs",
+      "title": "뮤직뱅크 Music Bank - 두근두근(DKDK) - fromis_9.20180713",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2018-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 182,
       "source": "youtube"
     },
     {
@@ -14411,6 +14509,34 @@
         "all"
       ],
       "duration": 182,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Joxpnj5vYyg",
+      "videoId": "Joxpnj5vYyg",
+      "title": "[60FPS] fromis_9 - To Heart 교차편집(Stage Mix)",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2018-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 192,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:M5uEy8CSUIk",
+      "videoId": "M5uEy8CSUIk",
+      "title": "[HOT]fromis_9 - 22CENTURY GIRL, 프로미스나인 - 22세기 소녀  Music core 20180721",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2018-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 175,
       "source": "youtube"
     },
     {
@@ -14568,20 +14694,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:FN25gN1kMYc",
-      "videoId": "FN25gN1kMYc",
-      "title": "[MPD직캠] 프로미스나인 이나경 직캠 '두근두근(DKDK)' (fromis_9 LEE NA GYUNG FanCam) | @MCOUNTDOWN_2018.6.7",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2018-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "nagyung"
-      ],
-      "duration": 188,
-      "source": "youtube"
-    },
-    {
       "id": "yt:N3ovuFBHPe8",
       "videoId": "N3ovuFBHPe8",
       "title": "[MPD직캠] 프로미스나인 이나경 직캠 '두근두근(DKDK)' (fromis_9 LEE NA GYUNG FanCam) | @MCOUNTDOWN_2018.6.21",
@@ -14652,20 +14764,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:lo3svgiz7pg",
-      "videoId": "lo3svgiz7pg",
-      "title": "[MPD직캠] 프로미스_9 백지헌 직캠 'To Heart' (fromis_9 BAEK JIHEON FanCam) | @MCOUNTDOWN_2018.1.25",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2018-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": 196,
-      "source": "youtube"
-    },
-    {
       "id": "yt:fU1xAX8rlvE",
       "videoId": "fU1xAX8rlvE",
       "title": "[MPD직캠] 프로미스_9 직캠 4K '환상 속의 그대(You in my fantasy)' (fromis_9 FanCam) | @MCOUNTDOWN_2018.1.25",
@@ -14677,6 +14775,20 @@
         "all"
       ],
       "duration": 149,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:FN25gN1kMYc",
+      "videoId": "FN25gN1kMYc",
+      "title": "[MPD직캠] 프로미스나인 이나경 직캠 '두근두근(DKDK)' (fromis_9 LEE NA GYUNG FanCam) | @MCOUNTDOWN_2018.6.7",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2018-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": 188,
       "source": "youtube"
     },
     {
@@ -14694,20 +14806,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:70wM3mr4q-k",
-      "videoId": "70wM3mr4q-k",
-      "title": "[MPD직캠] 프로미스나인 직캠 '두근두근(DKDK)' (fromis_9 FanCam) | @MCOUNTDOWN_2018.6.14",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2018-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 194,
-      "source": "youtube"
-    },
-    {
       "id": "yt:PcuIwenODi0",
       "videoId": "PcuIwenODi0",
       "title": "[MPD직캠] 프로미스나인 백지헌 직캠 '두근두근(DKDK)' (fromis_9 BAEK JI HEON FanCam) | @MCOUNTDOWN_2018.6.7",
@@ -14719,6 +14817,20 @@
         "jiheon"
       ],
       "duration": 188,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:70wM3mr4q-k",
+      "videoId": "70wM3mr4q-k",
+      "title": "[MPD직캠] 프로미스나인 직캠 '두근두근(DKDK)' (fromis_9 FanCam) | @MCOUNTDOWN_2018.6.14",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2018-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": 194,
       "source": "youtube"
     },
     {
@@ -14736,15 +14848,29 @@
       "source": "youtube"
     },
     {
-      "id": "yt:1Qzb5iHT8Ik",
-      "videoId": "1Qzb5iHT8Ik",
-      "title": "[MPD직캠] 프로미스_9 이새롬 직캠 'To Heart' (fromis_9 LEE SAEROM FanCam) | @MCOUNTDOWN_2018.1.25",
+      "id": "yt:lo3svgiz7pg",
+      "videoId": "lo3svgiz7pg",
+      "title": "[MPD직캠] 프로미스_9 백지헌 직캠 'To Heart' (fromis_9 BAEK JIHEON FanCam) | @MCOUNTDOWN_2018.1.25",
       "category": "stage_fancam",
       "channelTitle": "M2",
       "publishedAt": "2018-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "saerom"
+        "jiheon"
+      ],
+      "duration": 196,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:WwvNCyKz77c",
+      "videoId": "WwvNCyKz77c",
+      "title": "[MPD직캠] 프로미스_9 송하영 직캠 'To Heart' (fromis_9 SONG HAYOUNG FanCam) | @MCOUNTDOWN_2018.1.25",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2018-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
       ],
       "duration": 196,
       "source": "youtube"
@@ -14764,57 +14890,15 @@
       "source": "youtube"
     },
     {
-      "id": "yt:Nne-lSzzZOo",
-      "videoId": "Nne-lSzzZOo",
-      "title": "뮤직뱅크 Music Bank - To Heart - fromis_9.20180223",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2018-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 191,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:M5uEy8CSUIk",
-      "videoId": "M5uEy8CSUIk",
-      "title": "[HOT]fromis_9 - 22CENTURY GIRL, 프로미스나인 - 22세기 소녀  Music core 20180721",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2018-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 175,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Joxpnj5vYyg",
-      "videoId": "Joxpnj5vYyg",
-      "title": "[60FPS] fromis_9 - To Heart 교차편집(Stage Mix)",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2018-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 192,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:WwvNCyKz77c",
-      "videoId": "WwvNCyKz77c",
-      "title": "[MPD직캠] 프로미스_9 송하영 직캠 'To Heart' (fromis_9 SONG HAYOUNG FanCam) | @MCOUNTDOWN_2018.1.25",
+      "id": "yt:1Qzb5iHT8Ik",
+      "videoId": "1Qzb5iHT8Ik",
+      "title": "[MPD직캠] 프로미스_9 이새롬 직캠 'To Heart' (fromis_9 LEE SAEROM FanCam) | @MCOUNTDOWN_2018.1.25",
       "category": "stage_fancam",
       "channelTitle": "M2",
-      "publishedAt": "2018-08-27T00:00:00Z",
+      "publishedAt": "2018-08-28T00:00:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "hayoung"
+        "saerom"
       ],
       "duration": 196,
       "source": "youtube"
@@ -15975,7 +16059,7 @@
       "title": "멀티유니버스 하빵",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-08-20T00:00:00Z",
+      "publishedAt": "2026-08-19T00:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
@@ -15989,7 +16073,7 @@
       "title": "입덕은 빠를수록 이득",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-08-18T00:00:00Z",
+      "publishedAt": "2026-08-17T00:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
@@ -16003,7 +16087,7 @@
       "title": "다 먹어요, 근데 그건 못 먹어요",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-08-15T00:00:00Z",
+      "publishedAt": "2026-08-14T00:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
@@ -16045,7 +16129,7 @@
       "title": "미미미누 말고 커커커비",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-08-14T00:00:00Z",
+      "publishedAt": "2026-08-07T00:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
@@ -16059,7 +16143,7 @@
       "title": "BAD on stage, GOOD at making sundubu🔥🍲｜Mimiminu & Hayoung's \"E & I Season 2\"｜EP.4 ATEEZ WOOYOUNG",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-08-14T00:00:00Z",
+      "publishedAt": "2026-08-07T00:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
@@ -16101,7 +16185,7 @@
       "title": "갑자기 설탕 뿌리는 대휘",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-08-07T00:00:00Z",
+      "publishedAt": "2026-07-31T00:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
@@ -16425,7 +16509,7 @@
       "title": "Fromis_9 Chaeyoung's cooking skills revealed! Chaeng-Tak-Gu, the cooking queen rivaling the Black...",
       "category": "musinsa_seongsugi",
       "channelTitle": "MUSINSA TV",
-      "publishedAt": "2025-12-28T00:00:00Z",
+      "publishedAt": "2025-11-28T00:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "chaeyoung"
@@ -17547,7 +17631,7 @@
       "title": "[Ch.9 REPLAY] 여보세요? 채널나인 EfG REPLAY 나왔다는데 같이 볼래??",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2021-08-28T00:00:00Z",
+      "publishedAt": "2020-08-28T00:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
@@ -18886,7 +18970,7 @@
       "title": "멤버들과 사이 안 좋아질 뻔한 🚨위험한 초대🚨 ㅣ 벼랑 끝에 프로미스나인",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-08-21T00:00:00Z",
+      "publishedAt": "2026-08-20T00:00:00Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
@@ -18979,20 +19063,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:wE8tnxDY8Ts",
-      "videoId": "wE8tnxDY8Ts",
-      "title": "fromis_9's main vocal Song Ha-young, training her whistle even on her day off | Documentary 1 Day...",
-      "category": "sp_vlog",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-06-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1511,
-      "source": "youtube"
-    },
-    {
       "id": "yt:gyDLyMs2glk",
       "videoId": "gyDLyMs2glk",
       "title": "Before the comeback, a heartfelt conversation while feeding Nagyung🍚 | Hanyang-kase",
@@ -19048,6 +19118,20 @@
         "all"
       ],
       "duration": 978,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:wE8tnxDY8Ts",
+      "videoId": "wE8tnxDY8Ts",
+      "title": "fromis_9's main vocal Song Ha-young, training her whistle even on her day off | Documentary 1 Day...",
+      "category": "sp_vlog",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-05-28T00:00:00Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": 1511,
       "source": "youtube"
     },
     {
@@ -19503,20 +19587,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:wNg9KimrlWo",
-      "videoId": "wNg9KimrlWo",
-      "title": "How Idols Take Care of Themselves: Frozen🥶 and Steamed🥵 to Depuff!",
-      "category": "sp_survive",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-09-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1063,
-      "source": "youtube"
-    },
-    {
       "id": "yt:yp00URtVCiM",
       "videoId": "yp00URtVCiM",
       "title": "Fragrance Lovers: 19 Life-Changing Perfumes of fromis_9",
@@ -19600,6 +19670,20 @@
         "all"
       ],
       "duration": 541,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:wNg9KimrlWo",
+      "videoId": "wNg9KimrlWo",
+      "title": "How Idols Take Care of Themselves: Frozen🥶 and Steamed🥵 to Depuff!",
+      "category": "sp_survive",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-08-28T00:00:00Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": 1063,
       "source": "youtube"
     },
     {
