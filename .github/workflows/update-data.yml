@@ -1,9 +1,10 @@
 name: update-data
 
-# YouTube Data API v3 로 data/*.json 을 갱신하고 변경이 있으면 커밋합니다.
-# 커밋이 main 에 푸시되면 deploy 워크플로가 GitHub Pages 를 재배포합니다.
+# YouTube Data API v3 로 data/*.json 을 갱신·커밋하고, 이어서 GitHub Pages 를 재배포합니다.
+# (봇의 git push 는 GITHUB_TOKEN 특성상 deploy 워크플로를 트리거하지 못하므로
+#  이 워크플로 안에서 직접 배포까지 합니다.)
 #
-# yt-dlp 수집(collect_ytdlp.py)은 현재 비활성화되어 있습니다.
+# yt-dlp 수집(collect_ytdlp.py)은 로컬 백필 전용 — 여기선 안 씁니다.
 
 on:
   schedule:
@@ -17,14 +18,19 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
-  group: update-data
+  group: pages
   cancel-in-progress: false
 
 jobs:
   crawl:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -40,7 +46,7 @@ jobs:
             echo "::error::YOUTUBE_API_KEY 시크릿이 없습니다. Settings > Secrets and variables > Actions 에 추가하세요."
             exit 1
           fi
-          # 정기 실행은 최근 30일만 검색(쿼터 절약). 전체 백필은 로컬에서 --since 없이 실행.
+          # 정기 실행은 최근 30일만 검색(쿼터 절약). 전체 백필은 로컬에서 --since 없이.
           SINCE="${{ github.event.inputs.since }}"
           [ -z "$SINCE" ] && SINCE=$(date -u -d '30 days ago' +%Y-%m-%d)
           echo "증분 수집 --since $SINCE"
@@ -51,9 +57,17 @@ jobs:
           git config user.name  "flover-flix-bot"
           git config user.email "actions@users.noreply.github.com"
           if git diff --quiet -- data; then
-            echo "변경 없음"
+            echo "데이터 변경 없음"
           else
             git add data
-            git commit -m "chore(data): refresh archive [skip ci]"
+            git commit -m "chore(data): refresh archive"
             git push
           fi
+
+      # 데이터가 바뀌었든 아니든 최신 상태로 Pages 재배포
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+      - id: deployment
+        uses: actions/deploy-pages@v4
