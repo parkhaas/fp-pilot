@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-28T10:14:48Z",
-  "generator": "yt-dlp",
-  "total": 1418,
+  "updatedAt": "2026-08-28T10:54:55Z",
+  "generator": "youtube-api + yt-dlp(shorts)",
+  "total": 1419,
   "counts": {
-    "music_show": 562,
+    "music_show": 563,
     "sp_beauty": 9,
     "pulmuone_ei2": 29,
     "shorts": 279,
@@ -17,8 +17,8 @@
     "sp_corp": 3,
     "sp_vlog": 8,
     "sp_hayoung": 3,
-    "sp_jiwon": 5,
     "sp_chaeng": 4,
+    "sp_jiwon": 5,
     "sp_game": 3,
     "sp_survive": 7
   }

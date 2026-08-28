@@ -1,6 +1,20 @@
 {
   "videos": [
     {
+      "id": "yt:nai0rjVFcPA",
+      "videoId": "nai0rjVFcPA",
+      "title": "[K-Fancam] 프로미스나인 이나경 'Vitamin ME' (fromis_9 LEENAGYUNG Fancam) @뮤직뱅크(Music Bank) 260731",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-08-01T01:14:00Z",
+      "addedAt": "2026-08-28T10:54:50Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": "PT3M40S",
+      "source": "youtube"
+    },
+    {
       "id": "yt:4qqiR2ZLuBQ",
       "videoId": "4qqiR2ZLuBQ",
       "title": "INTRO + LIKE YOU BETTER - fromis_9 (프로미스나인) [2025 가요대축제 글로벌 페스티벌] | KBS 251219 방송",
@@ -87,29 +101,15 @@
     {
       "id": "yt:q_BFdFUbxjE",
       "videoId": "q_BFdFUbxjE",
-      "title": "🏝️Jiheon’s Favorite Summer Outfits! | ˗ˋˏSummer Haulˎˊ˗ It was summer…🩷",
+      "title": "🏝️올여름 지헌이가 애정했던 여름 옷 총집합! ㅣ ˗ˋˏSummer Haulˎˊ˗ 여름이었다…🩷",
       "category": "sp_beauty",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-08-27T00:00:00Z",
+      "publishedAt": "2026-08-27T09:00:02Z",
       "addedAt": "2026-08-28T07:54:51Z",
       "members": [
         "jiheon"
       ],
-      "duration": 1062,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:xeg55maOcmc",
-      "videoId": "xeg55maOcmc",
-      "title": "[Close-up Facecam 4K] fromis_9 PARKJIWON 'Vitamin ME' @Music Bank 07/31/26",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-28T07:54:51Z",
-      "members": [
-        "jiwon"
-      ],
-      "duration": 234,
+      "duration": "PT17M42S",
       "source": "youtube"
     },
     {
@@ -118,12 +118,26 @@
       "title": "[#음중직캠] fromis_9 SONG HAYOUNG (프로미스나인 송하영) – Vitamin ME FanCam | 쇼! 음악중심 | MBC260801",
       "category": "music_show",
       "channelTitle": "MBCkpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
+      "publishedAt": "2026-08-01T08:21:56Z",
       "addedAt": "2026-08-28T07:54:51Z",
       "members": [
         "hayoung"
       ],
-      "duration": 214,
+      "duration": "PT3M34S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:xeg55maOcmc",
+      "videoId": "xeg55maOcmc",
+      "title": "[얼빡직캠 4K] 프로미스나인 박지원 'Vitamin ME' (fromis_9 PARKJIWON Facecam) @뮤직뱅크(Music Bank) 260731",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-08-01T01:20:25Z",
+      "addedAt": "2026-08-28T07:54:51Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": "PT3M54S",
       "source": "youtube"
     },
     {
@@ -3814,7 +3828,7 @@
     {
       "id": "yt:s2UUUY2ZW5U",
       "videoId": "s2UUUY2ZW5U",
-      "title": "Driving Expert Jeoni #shorts",
+      "title": "운전고수져니 ( only #shorts )",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -3926,7 +3940,7 @@
     {
       "id": "yt:ssLZPs6RotU",
       "videoId": "ssLZPs6RotU",
-      "title": "Shaking Hands, Shaking Soul",
+      "title": "파르르 손떠는 하르르",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -4624,31 +4638,17 @@
       "source": "youtube"
     },
     {
-      "id": "yt:YAd9KLkfAs0",
-      "videoId": "YAd9KLkfAs0",
-      "title": "[#직캠보고서🔍] #fromis_9 #프로미스나인 왔다. 내 여름 보양식. ㄴ비타민이 어떻게 보양식?? ㄴ저는 되던데요... 음중 사전녹화 비하인드⏯️",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2026-08-14T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1514,
-      "source": "youtube"
-    },
-    {
       "id": "yt:0Dph_hABb5k",
       "videoId": "0Dph_hABb5k",
       "title": "찌는 더위☀️ 비타민 일일 권장량 달성하는 방법🍋 상큼함을 책임질 절세ME인들의 매점가요 ✨피로회복 시력개선✨ 완벽 보장! #인기가요끝나면매점가요2 EP.15 #fromis_9",
       "category": "music_show",
       "channelTitle": "SBSKPOP X INKIGAYO",
-      "publishedAt": "2026-08-14T00:00:00Z",
+      "publishedAt": "2026-08-14T09:55:07Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "all"
       ],
-      "duration": 1643,
+      "duration": "PT27M23S",
       "source": "youtube"
     },
     {
@@ -4657,250 +4657,26 @@
       "title": "[선공개 #매점1열직캠] 프로미스나인 'Vitamin ME' (fromis_9 FanCam) #인기가요끝나면매점가요2",
       "category": "music_show",
       "channelTitle": "SBSKPOP X INKIGAYO",
-      "publishedAt": "2026-08-14T00:00:00Z",
+      "publishedAt": "2026-08-14T07:00:24Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "all"
       ],
-      "duration": 37,
+      "duration": "PT37S",
       "source": "youtube"
     },
     {
-      "id": "yt:WwZnaLbph1k",
-      "videoId": "WwZnaLbph1k",
-      "title": "[4K] fromis_9 'Vitamin ME' Music Bank 1st Place Encore Facecam @Music Bank 07/31/26",
+      "id": "yt:YAd9KLkfAs0",
+      "videoId": "YAd9KLkfAs0",
+      "title": "[#직캠보고서🔍] #fromis_9 #프로미스나인 왔다. 내 여름 보양식. ㄴ비타민이 어떻게 보양식?? ㄴ저는 되던데요... 음중 사전녹화 비하인드⏯️",
       "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2026-08-07T13:12:27Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "all"
       ],
-      "duration": 451,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ZPcvAi7aDog",
-      "videoId": "ZPcvAi7aDog",
-      "title": "[Facecam 4K] fromis_9 LEE NA GYUNG 'Vitamin ME' @Music Bank 260731",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 231,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:rixqT1gaBwM",
-      "videoId": "rixqT1gaBwM",
-      "title": "[K-Fancam] fromis_9 PARKJIWON 'Vitamin ME' (fromis_9 PARKJIWON Fancam) @Music Bank 07/31/26",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiwon"
-      ],
-      "duration": 220,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:sG2uGSC8sMA",
-      "videoId": "sG2uGSC8sMA",
-      "title": "(ENG)[Music Bank Chart-Topping Interview] fromis_9 Interview l @MusicBank KBS 07/31/26",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 218,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:qt4y3ip_4oI",
-      "videoId": "qt4y3ip_4oI",
-      "title": "(ENG) [MusicBank Interview Cam] fromis_9 (fromis_9 Interview) l @MusicBank KBS 260731",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 174,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:b7s7iUmtRnc",
-      "videoId": "b7s7iUmtRnc",
-      "title": "[K-Fancam] fromis_9 BAEKJIHEON 'Vitamin ME' (fromis_9 BAEKJIHEON Fancam) @Music Bank 260731",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": 221,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:mvKEMlkZyc4",
-      "videoId": "mvKEMlkZyc4",
-      "title": "[K-Fancam] fromis_9 SONGHAYOUNG 'Vitamin ME' (fromis_9 SONGHAYOUNG Fancam) @Music Bank 07/31/26",
-      "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 221,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Mg-muNNwxaY",
-      "videoId": "Mg-muNNwxaY",
-      "title": "fromis_9 (프로미스나인) - Vitamin ME | Show! MusicCore | MBC260801방송",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 210,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:K9yrPWslIHE",
-      "videoId": "K9yrPWslIHE",
-      "title": "[#음중직캠] fromis_9 (프로미스나인) – Vitamin ME 1위 직캠 | 쇼! 음악중심 | MBC260801",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 445,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:rMuu3gpPHo4",
-      "videoId": "rMuu3gpPHo4",
-      "title": "[#최애직캠] fromis_9 SONG HAYOUNG (프로미스나인 송하영) – Vitamin ME | 쇼! 음악중심 | MBC260801",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 234,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:JojfiERUVWQ",
-      "videoId": "JojfiERUVWQ",
-      "title": "[#최애직캠] fromis_9 BAEK JIHEON (프로미스나인 백지헌) – Vitamin ME | 쇼! 음악중심 | MBC260801",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": 222,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:xYmkUiERbMI",
-      "videoId": "xYmkUiERbMI",
-      "title": "[#음중풀캠] fromis_9 (프로미스나인) – Vitamin ME FullCam | 쇼! 음악중심 | MBC260801",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 205,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:6xYencvbU6Y",
-      "videoId": "6xYencvbU6Y",
-      "title": "[#최애직캠] fromis_9 LEE NAGYUNG (프로미스나인 이나경) – Vitamin ME | 쇼! 음악중심 | MBC26080",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "nagyung"
-      ],
-      "duration": 230,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:UpdLTag9O2g",
-      "videoId": "UpdLTag9O2g",
-      "title": "[쇼! 음악중심 미방분] 8월 1주차 1위 fromis_9 (프로미스나인) - Vitamin ME | Show! MusicCore | MBC260801방송",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "all"
-      ],
-      "duration": 417,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:6VkJDdJV7SA",
-      "videoId": "6VkJDdJV7SA",
-      "title": "[#음중직캠] fromis_9 LEE NAGYUNG (프로미스나인 이나경) – Vitamin ME FanCam | 쇼! 음악중심 | MBC260801",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "nagyung"
-      ],
-      "duration": 212,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:q-Esnw0IQcY",
-      "videoId": "q-Esnw0IQcY",
-      "title": "[#음중직캠] fromis_9 BAEK JIHEON (프로미스나인 백지헌) – Vitamin ME FanCam | 쇼! 음악중심 | MBC260801",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": 228,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:n-w_8LSsTXs",
-      "videoId": "n-w_8LSsTXs",
-      "title": "[#음중직캠] fromis_9 LEE CHAEYOUNG (프로미스나인 이채영) – Vitamin ME FanCam | 쇼! 음악중심 | MBC260801",
-      "category": "music_show",
-      "channelTitle": "MBCkpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-27T08:35:04Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 212,
+      "duration": "PT25M14S",
       "source": "youtube"
     },
     {
@@ -4909,54 +4685,110 @@
       "title": "[쇼! 음악중심] 영양제 대신 프나의 비타민 미이이이이x2 🌊 #프로미스나인 #shorts",
       "category": "music_show",
       "channelTitle": "MBCkpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
+      "publishedAt": "2026-08-05T05:30:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "all"
       ],
-      "duration": 48,
+      "duration": "PT48S",
       "source": "youtube"
     },
     {
-      "id": "yt:cpi6JIBlDsA",
-      "videoId": "cpi6JIBlDsA",
-      "title": "[입덕직캠] 프로미스나인 이나경 직캠 4K 'Vitamin ME' (fromis_9 LEE NA GYUNG FanCam) | @MCOUNTDOWN_2026.7.30",
-      "category": "stage_fancam",
-      "channelTitle": "M2",
-      "publishedAt": "2026-08-07T00:00:00Z",
+      "id": "yt:JojfiERUVWQ",
+      "videoId": "JojfiERUVWQ",
+      "title": "[#최애직캠] fromis_9 BAEK JIHEON (프로미스나인 백지헌) – Vitamin ME | 쇼! 음악중심 | MBC260801",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2026-08-03T07:33:32Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiheon"
+      ],
+      "duration": "PT3M42S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:6xYencvbU6Y",
+      "videoId": "6xYencvbU6Y",
+      "title": "[#최애직캠] fromis_9 LEE NAGYUNG (프로미스나인 이나경) – Vitamin ME | 쇼! 음악중심 | MBC26080",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2026-08-03T07:33:11Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "nagyung"
       ],
-      "duration": 211,
+      "duration": "PT3M50S",
       "source": "youtube"
     },
     {
-      "id": "yt:VT9V9mAU8EA",
-      "videoId": "VT9V9mAU8EA",
-      "title": "[K-Fancam] fromis_9 LEE CHAEYOUNG 'Vitamin ME' (fromis_9 LEECHAEYOUNG Fancam) @Music Bank 07/31/26",
+      "id": "yt:rMuu3gpPHo4",
+      "videoId": "rMuu3gpPHo4",
+      "title": "[#최애직캠] fromis_9 SONG HAYOUNG (프로미스나인 송하영) – Vitamin ME | 쇼! 음악중심 | MBC260801",
       "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-08-07T00:00:00Z",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2026-08-03T07:32:59Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
-        "chaeyoung"
+        "hayoung"
       ],
-      "duration": 221,
+      "duration": "PT3M54S",
       "source": "youtube"
     },
     {
-      "id": "yt:0W9gYyH4toM",
-      "videoId": "0W9gYyH4toM",
-      "title": "[K-Choreo 8K] fromis_9 Fancam 'Vitamin ME' (fromis_9 Choreography) @MusicBank 260731",
+      "id": "yt:UpdLTag9O2g",
+      "videoId": "UpdLTag9O2g",
+      "title": "[쇼! 음악중심 미방분] 8월 1주차 1위 fromis_9 (프로미스나인) - Vitamin ME | Show! MusicCore | MBC260801방송",
       "category": "music_show",
-      "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-08-06T00:00:00Z",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2026-08-01T09:14:00Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "all"
       ],
-      "duration": 221,
+      "duration": "PT6M57S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:q-Esnw0IQcY",
+      "videoId": "q-Esnw0IQcY",
+      "title": "[#음중직캠] fromis_9 BAEK JIHEON (프로미스나인 백지헌) – Vitamin ME FanCam | 쇼! 음악중심 | MBC260801",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2026-08-01T08:24:14Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiheon"
+      ],
+      "duration": "PT3M48S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:6VkJDdJV7SA",
+      "videoId": "6VkJDdJV7SA",
+      "title": "[#음중직캠] fromis_9 LEE NAGYUNG (프로미스나인 이나경) – Vitamin ME FanCam | 쇼! 음악중심 | MBC260801",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2026-08-01T08:23:56Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": "PT3M32S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:n-w_8LSsTXs",
+      "videoId": "n-w_8LSsTXs",
+      "title": "[#음중직캠] fromis_9 LEE CHAEYOUNG (프로미스나인 이채영) – Vitamin ME FanCam | 쇼! 음악중심 | MBC260801",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2026-08-01T08:23:41Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT3M32S",
       "source": "youtube"
     },
     {
@@ -4965,12 +4797,194 @@
       "title": "[#음중직캠] fromis_9 PARK JIWON (프로미스나인 박지원) – Vitamin ME FanCam | 쇼! 음악중심 | MBC260801",
       "category": "music_show",
       "channelTitle": "MBCkpop",
-      "publishedAt": "2026-08-06T00:00:00Z",
+      "publishedAt": "2026-08-01T08:22:25Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "jiwon"
       ],
-      "duration": 208,
+      "duration": "PT3M28S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:xYmkUiERbMI",
+      "videoId": "xYmkUiERbMI",
+      "title": "[#음중풀캠] fromis_9 (프로미스나인) – Vitamin ME FullCam | 쇼! 음악중심 | MBC260801",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2026-08-01T08:21:33Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M25S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:K9yrPWslIHE",
+      "videoId": "K9yrPWslIHE",
+      "title": "[#음중직캠] fromis_9 (프로미스나인) – Vitamin ME 1위 직캠 | 쇼! 음악중심 | MBC260801",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2026-08-01T08:16:20Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT7M25S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Mg-muNNwxaY",
+      "videoId": "Mg-muNNwxaY",
+      "title": "fromis_9 (프로미스나인) - Vitamin ME | Show! MusicCore | MBC260801방송",
+      "category": "music_show",
+      "channelTitle": "MBCkpop",
+      "publishedAt": "2026-08-01T07:37:07Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M30S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:sG2uGSC8sMA",
+      "videoId": "sG2uGSC8sMA",
+      "title": "(ENG)[MusicBank chart-topping  Interview] 프로미스나인 (fromis_9 Interview) l @MusicBank KBS 260731",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-08-01T06:30:35Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M38S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:qt4y3ip_4oI",
+      "videoId": "qt4y3ip_4oI",
+      "title": "(ENG)[MusicBank Interview Cam] 프로미스나인 (fromis_9 Interview) l @MusicBank KBS 260731",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-08-01T06:30:19Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT2M54S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:cpi6JIBlDsA",
+      "videoId": "cpi6JIBlDsA",
+      "title": "[입덕직캠] 프로미스나인 이나경 직캠 4K 'Vitamin ME' (fromis_9 LEE NA GYUNG FanCam) | @MCOUNTDOWN_2026.7.30",
+      "category": "stage_fancam",
+      "channelTitle": "M2",
+      "publishedAt": "2026-08-01T04:00:35Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": "PT3M31S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:ZPcvAi7aDog",
+      "videoId": "ZPcvAi7aDog",
+      "title": "[얼빡직캠 4K] 프로미스나인 이나경 'Vitamin ME' (fromis_9 LEENAGYUNG Facecam) @뮤직뱅크(Music Bank) 260731",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-08-01T01:20:12Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": "PT3M51S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:VT9V9mAU8EA",
+      "videoId": "VT9V9mAU8EA",
+      "title": "[K-Fancam] 프로미스나인 이채영 'Vitamin ME' (fromis_9 LEECHAEYOUNG Fancam) @뮤직뱅크(Music Bank) 260731",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-08-01T01:14:27Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT3M41S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:rixqT1gaBwM",
+      "videoId": "rixqT1gaBwM",
+      "title": "[K-Fancam] 프로미스나인 박지원 'Vitamin ME' (fromis_9 PARKJIWON Fancam) @뮤직뱅크(Music Bank) 260731",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-08-01T01:14:24Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": "PT3M40S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:mvKEMlkZyc4",
+      "videoId": "mvKEMlkZyc4",
+      "title": "[K-Fancam] 프로미스나인 송하영 'Vitamin ME' (fromis_9 SONGHAYOUNG Fancam) @뮤직뱅크(Music Bank) 260731",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-08-01T01:14:22Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT3M41S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:b7s7iUmtRnc",
+      "videoId": "b7s7iUmtRnc",
+      "title": "[K-Fancam] 프로미스나인 백지헌 'Vitamin ME' (fromis_9 BAEKJIHEON Fancam) @뮤직뱅크(Music Bank) 260731",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-08-01T01:14:04Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "jiheon"
+      ],
+      "duration": "PT3M41S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:0W9gYyH4toM",
+      "videoId": "0W9gYyH4toM",
+      "title": "[K-Choreo 8K] 프로미스나인 직캠 'Vitamin ME' (fromis_9 Choreography) @MusicBank 260731",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-08-01T01:06:41Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M41S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:WwZnaLbph1k",
+      "videoId": "WwZnaLbph1k",
+      "title": "[4K] 프로미스나인 'Vitamin ME' 뮤직뱅크 1위 앵콜직캠 (fromis_9 Encore Facecam) @뮤직뱅크(Music Bank) 260731",
+      "category": "music_show",
+      "channelTitle": "KBS Kpop",
+      "publishedAt": "2026-07-31T12:00:31Z",
+      "addedAt": "2026-08-27T08:35:04Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT7M31S",
       "source": "youtube"
     },
     {
@@ -4979,12 +4993,12 @@
       "title": "Vitamin ME - fromis_9 (프로미스나인) [뮤직뱅크/Music Bank] | KBS 260731 방송",
       "category": "music_show",
       "channelTitle": "KBS Kpop",
-      "publishedAt": "2026-07-31T00:00:00Z",
+      "publishedAt": "2026-07-31T09:39:31Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "all"
       ],
-      "duration": 224,
+      "duration": "PT3M44S",
       "source": "youtube"
     },
     {
@@ -4993,12 +5007,12 @@
       "title": "fromis_9(프로미스나인).zip 📂유리구두부터 Vitamin ME까지 | Show! MusicCore",
       "category": "music_show",
       "channelTitle": "MBCkpop",
-      "publishedAt": "2026-07-31T00:00:00Z",
+      "publishedAt": "2026-07-31T08:00:23Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "all"
       ],
-      "duration": 2478,
+      "duration": "PT41M18S",
       "source": "youtube"
     },
     {
@@ -5007,12 +5021,12 @@
       "title": "[MPD직캠] 프로미스나인 직캠 4K 'Vitamin ME' (fromis_9 FanCam) | @MCOUNTDOWN_2026.7.30",
       "category": "stage_fancam",
       "channelTitle": "M2",
-      "publishedAt": "2026-07-31T00:00:00Z",
+      "publishedAt": "2026-07-30T11:03:05Z",
       "addedAt": "2026-08-27T08:35:04Z",
       "members": [
         "all"
       ],
-      "duration": 209,
+      "duration": "PT3M29S",
       "source": "youtube"
     },
     {
@@ -14904,87 +14918,74 @@
       "source": "youtube"
     },
     {
-      "id": "yt:2edUtIah2fI",
-      "videoId": "2edUtIah2fI",
-      "title": "Mission to Victory! The HLE Military Education Project with Reservist Sergeant Smeb | Director Le...",
+      "id": "yt:U5sOU0P6Jjo",
+      "videoId": "U5sOU0P6Jjo",
+      "title": "지금부터 내가 너에게 하대를 하겠습니다 | 이단장 시즌2 EP.6 미공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-08-07T00:00:00Z",
+      "publishedAt": "2026-08-03T08:00:11Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 1159,
+      "duration": "PT32S",
       "source": "youtube"
     },
     {
-      "id": "yt:U5sOU0P6Jjo",
-      "videoId": "U5sOU0P6Jjo",
-      "title": "From now on, I will speak down to you | Captain Lee Season 2 EP.6 Unreleased",
+      "id": "yt:2edUtIah2fI",
+      "videoId": "2edUtIah2fI",
+      "title": "승리를 향해 미션! 예비역 병장 스맵과 함께하는 HLE 정훈교육 프로젝트 | 이단장 시즌2 EP.6",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-08-07T00:00:00Z",
+      "publishedAt": "2026-08-03T08:00:07Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
-        "chaeyoung"
+        "chaeyoung",
+        "seoyeon"
       ],
-      "duration": 32,
+      "duration": "PT19M19S",
       "source": "youtube"
     },
     {
       "id": "yt:qJCJWk7Jggg",
       "videoId": "qJCJWk7Jggg",
-      "title": "A Company Commander is a Commander, right? | Director Lee Season 2 EP.6 Pre-release",
+      "title": "중대장도 대장 맞지요? | 이단장 시즌2 EP.6 선공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-07-31T00:00:00Z",
+      "publishedAt": "2026-07-31T06:00:26Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 25,
+      "duration": "PT25S",
       "source": "youtube"
     },
     {
-      "id": "yt:t1kVMd4P-Fo",
-      "videoId": "t1kVMd4P-Fo",
-      "title": "The Captain's Cane Season 2 | Captain Lee Season 2 EP.4 Pre-release",
+      "id": "yt:UF6nnVLA6tY",
+      "videoId": "UF6nnVLA6tY",
+      "title": "그냥 평범한 오렌지 청년 | 이단장 시즌2 EP.5 미공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-07-28T00:00:00Z",
+      "publishedAt": "2026-07-20T08:50:10Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 36,
+      "duration": "PT33S",
       "source": "youtube"
     },
     {
-      "id": "yt:CRiIGS93qAE",
-      "videoId": "CRiIGS93qAE",
-      "title": "Calling all out-of-towners~🍊 Welcome to the Orange Cafe, hosted by the General Manager | Manager ...",
+      "id": "yt:CBB7CXijczk",
+      "videoId": "CBB7CXijczk",
+      "title": "대전에 나타난 우승요정🧚, 컴백 전 이채영의 MSI 결승전 나들이  | 이단장 시즌2 EP.5",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-07-28T00:00:00Z",
+      "publishedAt": "2026-07-20T08:00:01Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 820,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:H2HBhU-E4Kw",
-      "videoId": "H2HBhU-E4Kw",
-      "title": "May the elementary schoolers’ winning streak continue | General Manager Lee Season 2 EP.4 Unreleased",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 38,
+      "duration": "PT14M22S",
       "source": "youtube"
     },
     {
@@ -14993,40 +14994,82 @@
       "title": "진심은 통한다 | 이단장 시즌2 EP.5 선공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-07-28T00:00:00Z",
+      "publishedAt": "2026-07-17T08:00:00Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 60,
+      "duration": "PT1M",
       "source": "youtube"
     },
     {
-      "id": "yt:CBB7CXijczk",
-      "videoId": "CBB7CXijczk",
-      "title": "The Victory Fairy Appears in Daejeon🧚, Lee Chae-young's MSI Finals Outing Before the Comeback | G...",
+      "id": "yt:CRiIGS93qAE",
+      "videoId": "CRiIGS93qAE",
+      "title": "지방러들 오이데~🍊 단장님이 쏘는 오렌지 카페에 어서오세요 | 이단장 시즌2 EP.4",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-07-28T00:00:00Z",
+      "publishedAt": "2026-07-06T08:14:41Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 862,
+      "duration": "PT13M40S",
       "source": "youtube"
     },
     {
-      "id": "yt:UF6nnVLA6tY",
-      "videoId": "UF6nnVLA6tY",
-      "title": "Just an Ordinary Orange Guy | Director Lee Season 2 EP.5 Unreleased",
+      "id": "yt:H2HBhU-E4Kw",
+      "videoId": "H2HBhU-E4Kw",
+      "title": "초딩생명 연승길만 걸어라 | 이단장 시즌2 EP.4 미공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-07-28T00:00:00Z",
+      "publishedAt": "2026-07-06T08:00:03Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 33,
+      "duration": "PT38S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:t1kVMd4P-Fo",
+      "videoId": "t1kVMd4P-Fo",
+      "title": "단장님의 회초리 시즌2 | 이단장 시즌2 EP.4 선공개",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2026-07-03T08:05:20Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT36S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:zxrOo2zZ-88",
+      "videoId": "zxrOo2zZ-88",
+      "title": "강조되고 반복되는 한견(犬)들은 오렌지를 행복하게 해요, 피넛&단장님의 돌봄알바 | 이단장 시즌2 EP.3",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2026-06-08T08:00:13Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT15M58S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:wAmvTnvtOCU",
+      "videoId": "wAmvTnvtOCU",
+      "title": "무해한 챱츄들의 세상  | 이단장 시즌2 EP.3 미공개",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2026-06-08T08:00:13Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT44S",
       "source": "youtube"
     },
     {
@@ -15035,110 +15078,26 @@
       "title": "견(犬)벤져스 어셈블 | 이단장 시즌2 EP.3 선공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-06-28T00:00:00Z",
+      "publishedAt": "2026-05-29T08:30:17Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 37,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:zxrOo2zZ-88",
-      "videoId": "zxrOo2zZ-88",
-      "title": "Repeated and emphasized dog barks make Orange happy, Peanut & Director's pet-sitting gig | Direct...",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-06-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 958,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:wAmvTnvtOCU",
-      "videoId": "wAmvTnvtOCU",
-      "title": "A World of Harmless Chapchus | Director Lee Season 2 EP.3 Unreleased",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-06-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 44,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:--WP3VjilfM",
-      "videoId": "--WP3VjilfM",
-      "title": "Facing My Past Self | Leader Lee Season 2 EP.1 Pre-release",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-05-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 47,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:xWtkKIHPJEs",
-      "videoId": "xWtkKIHPJEs",
-      "title": "Re:제로부터 시작하는 이덕후 생활, 단장님의 초심찾기 프로젝트 | 이단장 시즌2 EP.1",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-05-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 845,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:BiaARnwELVU",
-      "videoId": "BiaARnwELVU",
-      "title": "So you're saying I just lost both my love life and my tier? | Cadre Season 2 EP.1 Unreleased",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-05-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 36,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:RDA7Hpm1Gq8",
-      "videoId": "RDA7Hpm1Gq8",
-      "title": "So Gareway | Danjang Season 2 EP.2 Pre-release",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-05-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 16,
+      "duration": "PT37S",
       "source": "youtube"
     },
     {
       "id": "yt:LI4u8BVmifQ",
       "videoId": "LI4u8BVmifQ",
-      "title": "Director, thank you for waiting so long. We will serve you properly at Camp One. | ​​Director Lee...",
+      "title": "단장님 오래 기다리셨습니다, 캠프원에서 제대로 모시겠습니다. | 이단장 시즌2 EP.2",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-05-28T00:00:00Z",
+      "publishedAt": "2026-05-18T08:00:28Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 1326,
+      "duration": "PT22M6S",
       "source": "youtube"
     },
     {
@@ -15147,26 +15106,82 @@
       "title": "미안해 진혁아 내가 잘못 알려줬어 | 이단장 시즌2 EP.2 미공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-05-28T00:00:00Z",
+      "publishedAt": "2026-05-18T08:00:17Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 20,
+      "duration": "PT20S",
       "source": "youtube"
     },
     {
-      "id": "yt:LBSP6pb9Ijc",
-      "videoId": "LBSP6pb9Ijc",
-      "title": "HLE OFFICIAL #6",
+      "id": "yt:RDA7Hpm1Gq8",
+      "videoId": "RDA7Hpm1Gq8",
+      "title": "쏘 게러웨이 | 이단장 시즌2 EP.2 선공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-04-28T00:00:00Z",
+      "publishedAt": "2026-05-15T06:00:33Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 108,
+      "duration": "PT16S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:BiaARnwELVU",
+      "videoId": "BiaARnwELVU",
+      "title": "그럼 그냥 잃었단 말이냐, 연애와 티어 둘 다 | 이단장 시즌2 EP.1 미공개",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2026-05-05T03:00:10Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT36S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:xWtkKIHPJEs",
+      "videoId": "xWtkKIHPJEs",
+      "title": "Re:제로부터 시작하는 이덕후 생활, 단장님의 초심찾기 프로젝트 | 이단장 시즌2 EP.1",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2026-05-04T08:00:56Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT14M5S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:--WP3VjilfM",
+      "videoId": "--WP3VjilfM",
+      "title": "과거의 나와 마주하기 | 이단장 시즌2 EP.1 선공개",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2026-04-30T06:00:00Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT47S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:S6FcXCwnKsY",
+      "videoId": "S6FcXCwnKsY",
+      "title": "주목) 이단장 시즌2 5월 4일(월) 17시 첫 공개",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2026-04-28T06:00:17Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT29S",
       "source": "youtube"
     },
     {
@@ -15175,40 +15190,40 @@
       "title": "CAPTAIN IS BACK",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-04-28T00:00:00Z",
+      "publishedAt": "2026-04-06T09:04:45Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 23,
+      "duration": "PT23S",
       "source": "youtube"
     },
     {
-      "id": "yt:S6FcXCwnKsY",
-      "videoId": "S6FcXCwnKsY",
-      "title": "Note) Leader Heretic Season 2 premieres on May 4 (Mon) at 5 PM",
+      "id": "yt:LBSP6pb9Ijc",
+      "videoId": "LBSP6pb9Ijc",
+      "title": "HLE OFFICIAL #6",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2026-04-28T00:00:00Z",
+      "publishedAt": "2026-04-06T09:00:06Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 29,
+      "duration": "PT1M48S",
       "source": "youtube"
     },
     {
-      "id": "yt:aAq9iJkBckY",
-      "videoId": "aAq9iJkBckY",
-      "title": "죽는 줄 알았다 이놈들아.. | 이단장 EP.9 선공개",
+      "id": "yt:TXcQVYCwzI8",
+      "videoId": "TXcQVYCwzI8",
+      "title": "단장님 가라사대 한몸이 될지어다 | 이단장 EP.9 미공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-09-28T00:00:00Z",
+      "publishedAt": "2025-09-08T08:30:14Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 59,
+      "duration": "PT55S",
       "source": "youtube"
     },
     {
@@ -15217,378 +15232,26 @@
       "title": "겨울이 오기 전에 다시 만나🍊, 단장님과 오렌지들의 마지막 뷰잉파티 | 이단장 EP.9",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-09-28T00:00:00Z",
+      "publishedAt": "2025-09-08T08:00:01Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 912,
+      "duration": "PT15M12S",
       "source": "youtube"
     },
     {
-      "id": "yt:TXcQVYCwzI8",
-      "videoId": "TXcQVYCwzI8",
-      "title": "The Commander has Spoken: Thou Shalt Move as One | Director Lee EP.9 Unreleased",
+      "id": "yt:aAq9iJkBckY",
+      "videoId": "aAq9iJkBckY",
+      "title": "죽는 줄 알았다 이놈들아.. | 이단장 EP.9 선공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-09-28T00:00:00Z",
+      "publishedAt": "2025-09-05T06:00:01Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 55,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:0zuk3_fBcGQ",
-      "videoId": "0zuk3_fBcGQ",
-      "title": "HLE OFFICIAL #3",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 82,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:YF-yFSHrLvg",
-      "videoId": "YF-yFSHrLvg",
-      "title": "아이언4라도 단장이 하고 싶어 | 이단장 EP.1 선공개",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 42,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:_O3MUg640rg",
-      "videoId": "_O3MUg640rg",
-      "title": "세계최초! 아이언4, e스포츠팀 단장이 되다 | 이단장 EP.1",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 954,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:bmA3GUNy0dU",
-      "videoId": "bmA3GUNy0dU",
-      "title": "단장의 바람직한 권력남용 | 이단장 EP.1 미공개",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 19,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:kFuCnGseVAM",
-      "videoId": "kFuCnGseVAM",
-      "title": "다시 만난 매운맛 한모님 | 이단장 EP.2 선공개",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 38,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:A4dBbtU0I-Q",
-      "videoId": "A4dBbtU0I-Q",
-      "title": "I'm Going to Do Fan Service! What Is the Result of Commander Lee's Tailored Scolding(?)? | Comman...",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 971,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:AaWQiVuaxf4",
-      "videoId": "AaWQiVuaxf4",
-      "title": "Professor Viper’s Epic Meltdown | Lee Dan-jang EP.2 Unreleased",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 19,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:DEElA4U-dTY",
-      "videoId": "DEElA4U-dTY",
-      "title": "따봉경호야 고마워 | 이단장 EP.3 선공개",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 38,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:qjgN0uNxZm0",
-      "videoId": "qjgN0uNxZm0",
-      "title": "Are You Smeb? Team Creator Interviews with Peanut! | Director Lee EP.3",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 866,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:ZH0hdGx-N70",
-      "videoId": "ZH0hdGx-N70",
-      "title": "A Pro Gamer’s \"Normal\" Routine Back in the Day | Director Lee EP.3 Unreleased",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 37,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:9DK4Itq5PdU",
-      "videoId": "9DK4Itq5PdU",
-      "title": "Zeus Law Firm | Manager Lee EP.4 Pre-release",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 52,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:t77y8LV0KNw",
-      "videoId": "t77y8LV0KNw",
-      "title": "화내지 마요 단장님, 제 2차 MC 방어전 (with. 박메건) | 이단장 EP.4",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung",
-        "jiwon"
-      ],
-      "duration": 854,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:b0zsID8scJM",
-      "videoId": "b0zsID8scJM",
-      "title": "Something More Harmful Than League of Legends(?) | Captain Lee EP.4 Unreleased",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 31,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:4sg6S40OgAA",
-      "videoId": "4sg6S40OgAA",
-      "title": "The Captain enrolls in an all-boys high school | Lee Captain EP.5 Pre-release",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 48,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:qdm5Z6wLYBM",
-      "videoId": "qdm5Z6wLYBM",
-      "title": "끝나고 롤 할래 말래? 단장님 티어가 애매하긴 해 | 이단장 EP.5",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 896,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:B1oywedru0Y",
-      "videoId": "B1oywedru0Y",
-      "title": "한양공고 김치 3인큐 | 이단장 EP.5 미공개",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 26,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:qlF-u5_Eue4",
-      "videoId": "qlF-u5_Eue4",
-      "title": "Controversy over Second Favorite in Front of Favorite | Leader Lee EP.6 Pre-release",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 29,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:j5RFnYIUcKE",
-      "videoId": "j5RFnYIUcKE",
-      "title": "김서현x제우스 동갑내기 콜라보 희망합니다, 이단장의 한화이글스 배워보기 | 이단장 EP.6",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 940,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:J3WteViEQyQ",
-      "videoId": "J3WteViEQyQ",
-      "title": "The Owner of Mask No. 95 | Director Lee EP.6 Unreleased",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 20,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:2MpVZQ_BIx0",
-      "videoId": "2MpVZQ_BIx0",
-      "title": "The Will of G | Lee Dan-jang EP.7 Pre-release",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 36,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Us_2eDhfN84",
-      "videoId": "Us_2eDhfN84",
-      "title": "LOL 부산 풀코스는 이런 맛? 그리고 진짜 단장이 된 하루 | 이단장 EP.7",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 883,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:xJSz_LkjhNo",
-      "videoId": "xJSz_LkjhNo",
-      "title": "Time to get back in the game | General Manager Lee EP.7 Unreleased",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 30,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:eDKishB2z94",
-      "videoId": "eDKishB2z94",
-      "title": "컨디션 좋은놈이 이긴다 | 이단장 EP.8 선공개",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung",
-        "seoyeon"
-      ],
-      "duration": 24,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:uTHCHFKuOrc",
-      "videoId": "uTHCHFKuOrc",
-      "title": "The Director Takes Care of the Auntie's Welfare Too, A Day Out in Hongdae with Auntie | Director ...",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 738,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:WxBVA6nhVjQ",
-      "videoId": "WxBVA6nhVjQ",
-      "title": "The Auntie's Secret Sauce | Captain Lee EP.8 Unreleased",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 23,
+      "duration": "PT59S",
       "source": "youtube"
     },
     {
@@ -15597,446 +15260,364 @@
       "title": "단장님이 보고있다 | HLE 승리 비하인드, vs KT 레전드 그룹 [4K]",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2025-08-28T00:00:00Z",
+      "publishedAt": "2025-08-21T14:49:00Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 491,
+      "duration": "PT8M11S",
       "source": "youtube"
     },
     {
-      "id": "yt:ofxHzA7TWDE",
-      "videoId": "ofxHzA7TWDE",
-      "title": "fromis_9 Lee Chae-young at 63 Building? | LeeDeokHu",
+      "id": "yt:WxBVA6nhVjQ",
+      "videoId": "WxBVA6nhVjQ",
+      "title": "이모님의 비법소스 | 이단장 EP.8 미공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-08-04T08:30:14Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 138,
+      "duration": "PT23S",
       "source": "youtube"
     },
     {
-      "id": "yt:keGCCjzA32A",
-      "videoId": "keGCCjzA32A",
-      "title": "아이돌마저 홀리는 마성의 남자",
+      "id": "yt:uTHCHFKuOrc",
+      "videoId": "uTHCHFKuOrc",
+      "title": "한모님의 복지도 단장이 케어한다, 이모님과의 홍대 나들이 | 이단장 EP.8",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-08-04T08:01:02Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 17,
+      "duration": "PT12M18S",
       "source": "youtube"
     },
     {
-      "id": "yt:j_0Ndxpj8G8",
-      "videoId": "j_0Ndxpj8G8",
-      "title": "About the time I came to work part-time and wasn't treated like a person | Lee Deok-hoo",
+      "id": "yt:eDKishB2z94",
+      "videoId": "eDKishB2z94",
+      "title": "컨디션 좋은놈이 이긴다 | 이단장 EP.8 선공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-08-01T06:00:37Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
-        "chaeyoung"
+        "chaeyoung",
+        "seoyeon"
       ],
-      "duration": 774,
+      "duration": "PT24S",
       "source": "youtube"
     },
     {
-      "id": "yt:MXMfJ11A3fY",
-      "videoId": "MXMfJ11A3fY",
-      "title": "롤의 기본 '남 탓'",
+      "id": "yt:xJSz_LkjhNo",
+      "videoId": "xJSz_LkjhNo",
+      "title": "이제 다시 달려봅시다 | 이단장 EP.7 미공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-07-21T08:30:28Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 38,
+      "duration": "PT30S",
       "source": "youtube"
     },
     {
-      "id": "yt:9UNlObaCmZY",
-      "videoId": "9UNlObaCmZY",
-      "title": "협곡은 사랑을 '안'싣고",
+      "id": "yt:Us_2eDhfN84",
+      "videoId": "Us_2eDhfN84",
+      "title": "LOL 부산 풀코스는 이런 맛? 그리고 진짜 단장이 된 하루 | 이단장 EP.7",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-07-21T08:00:27Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 27,
+      "duration": "PT14M43S",
       "source": "youtube"
     },
     {
-      "id": "yt:3aXkrnL0T5U",
-      "videoId": "3aXkrnL0T5U",
-      "title": "This isn't Entertainment Weekly, it's esports broadcasting | Lee Deok-hoo",
+      "id": "yt:2MpVZQ_BIx0",
+      "videoId": "2MpVZQ_BIx0",
+      "title": "G의 의지 | 이단장 EP.7 선공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-07-18T06:00:03Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 1082,
+      "duration": "PT36S",
       "source": "youtube"
     },
     {
-      "id": "yt:T1jC7zyk1pA",
-      "videoId": "T1jC7zyk1pA",
-      "title": "[미방분] 원딜탓? 서폿탓? 누구탓?",
+      "id": "yt:J3WteViEQyQ",
+      "videoId": "J3WteViEQyQ",
+      "title": "95번 가면의 주인 | 이단장 EP.6 미공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-07-08T00:00:31Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 14,
+      "duration": "PT20S",
       "source": "youtube"
     },
     {
-      "id": "yt:2_AExSk55Qo",
-      "videoId": "2_AExSk55Qo",
-      "title": "Teacher Park: Viewing Forbidden",
+      "id": "yt:j5RFnYIUcKE",
+      "videoId": "j5RFnYIUcKE",
+      "title": "김서현x제우스 동갑내기 콜라보 희망합니다, 이단장의 한화이글스 배워보기 | 이단장 EP.6",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-07-07T08:00:58Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 26,
+      "duration": "PT15M40S",
       "source": "youtube"
     },
     {
-      "id": "yt:NONBGKyouaA",
-      "videoId": "NONBGKyouaA",
-      "title": "The chant for Zeka created by Lee Chae-young",
+      "id": "yt:qlF-u5_Eue4",
+      "videoId": "qlF-u5_Eue4",
+      "title": "최애 앞에서 차애 논란 | 이단장 EP.6 선공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-07-04T06:00:57Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 20,
+      "duration": "PT29S",
       "source": "youtube"
     },
     {
-      "id": "yt:btUCFZxi7Q4",
-      "videoId": "btUCFZxi7Q4",
-      "title": "[Unreleased Clip] Can you not surrender during a match?",
+      "id": "yt:B1oywedru0Y",
+      "videoId": "B1oywedru0Y",
+      "title": "한양공고 김치 3인큐 | 이단장 EP.5 미공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-06-24T08:00:11Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 27,
+      "duration": "PT26S",
       "source": "youtube"
     },
     {
-      "id": "yt:4Dox7wGwsZ0",
-      "videoId": "4Dox7wGwsZ0",
-      "title": "Is fire-breathing also part of a voice actor's job..? | Lee Deok-hoo",
+      "id": "yt:qdm5Z6wLYBM",
+      "videoId": "qdm5Z6wLYBM",
+      "title": "끝나고 롤 할래 말래? 단장님 티어가 애매하긴 해 | 이단장 EP.5",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-06-23T08:00:54Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 796,
+      "duration": "PT14M56S",
       "source": "youtube"
     },
     {
-      "id": "yt:NGitJwAkfhk",
-      "videoId": "NGitJwAkfhk",
-      "title": "프나 이채영의 스몰더",
+      "id": "yt:4sg6S40OgAA",
+      "videoId": "4sg6S40OgAA",
+      "title": "남고에 입학한 단장님 | 이단장 EP.5 선공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-06-20T06:00:09Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 60,
+      "duration": "PT48S",
       "source": "youtube"
     },
     {
-      "id": "yt:1D6kJfi3etQ",
-      "videoId": "1D6kJfi3etQ",
-      "title": "[미방분] 도란선수가 잘하고..채영님을 닮은? 챔피언이라...",
+      "id": "yt:b0zsID8scJM",
+      "videoId": "b0zsID8scJM",
+      "title": "롤보다 더 해로운 것(?) | 이단장 EP.4 미공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-05-27T08:00:42Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 17,
+      "duration": "PT31S",
       "source": "youtube"
     },
     {
-      "id": "yt:keWhRUL4DEU",
-      "videoId": "keWhRUL4DEU",
-      "title": "갑분 장기자랑 타임",
+      "id": "yt:t77y8LV0KNw",
+      "videoId": "t77y8LV0KNw",
+      "title": "화내지 마요 단장님, 제 2차 MC 방어전 (with. 박메건) | 이단장 EP.4",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-05-26T08:00:12Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
-        "chaeyoung"
+        "chaeyoung",
+        "jiwon"
       ],
-      "duration": 16,
+      "duration": "PT14M14S",
       "source": "youtube"
     },
     {
-      "id": "yt:O4ZOOPkW-JU",
-      "videoId": "O4ZOOPkW-JU",
-      "title": "I've come to take Delight's spot | Lee Deok-hoo",
+      "id": "yt:9DK4Itq5PdU",
+      "videoId": "9DK4Itq5PdU",
+      "title": "제우스 법무법인 | 이단장 EP.4 선공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-05-23T08:00:09Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 1019,
+      "duration": "PT52S",
       "source": "youtube"
     },
     {
-      "id": "yt:MF8pFI03af4",
-      "videoId": "MF8pFI03af4",
-      "title": "The Warm-Hearted Mr. Park",
+      "id": "yt:ZH0hdGx-N70",
+      "videoId": "ZH0hdGx-N70",
+      "title": "그 시절 프로게이머의 평범한(?) 루틴 | 이단장 EP.3 미공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-05-13T08:00:26Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 40,
+      "duration": "PT37S",
       "source": "youtube"
     },
     {
-      "id": "yt:SQIZUEq8Kv0",
-      "videoId": "SQIZUEq8Kv0",
-      "title": "서포터가 먹을 수 있는건...",
+      "id": "yt:qjgN0uNxZm0",
+      "videoId": "qjgN0uNxZm0",
+      "title": "자네가 스맵인가? 피넛과 함께한 팀 크리에이터 면접! | 이단장 EP.3",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-05-12T08:01:05Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 23,
+      "duration": "PT14M26S",
       "source": "youtube"
     },
     {
-      "id": "yt:vjO0Og47ohY",
-      "videoId": "vjO0Og47ohY",
-      "title": "ADC gap vs. Support gap: Settling this once and for all | Lee Duckhoo",
+      "id": "yt:DEElA4U-dTY",
+      "videoId": "DEElA4U-dTY",
+      "title": "따봉경호야 고마워 | 이단장 EP.3 선공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-05-09T06:00:11Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 700,
+      "duration": "PT38S",
       "source": "youtube"
     },
     {
-      "id": "yt:Bpchr9nD4-E",
-      "videoId": "Bpchr9nD4-E",
-      "title": "[미방분] 딸깔딸깍 칭찬이죠~ 맞죠~",
+      "id": "yt:AaWQiVuaxf4",
+      "videoId": "AaWQiVuaxf4",
+      "title": "극대노 바이퍼 교수님 | 이단장 EP.2 미공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-04-29T08:00:09Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 17,
+      "duration": "PT19S",
       "source": "youtube"
     },
     {
-      "id": "yt:nRROL4c0Aa0",
-      "videoId": "nRROL4c0Aa0",
-      "title": "저희와 맞는 분을 찾습니다.",
+      "id": "yt:A4dBbtU0I-Q",
+      "videoId": "A4dBbtU0I-Q",
+      "title": "팬서비스 해버릴 거야, 이단장의 맞춤 잡도리(?)의 결과는? | 이단장 EP.2",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-04-28T08:00:20Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 39,
+      "duration": "PT16M11S",
       "source": "youtube"
     },
     {
-      "id": "yt:uIvFqHDtr7U",
-      "videoId": "uIvFqHDtr7U",
-      "title": "The 1st MC Defense Match | Lee Deok-hoo",
+      "id": "yt:kFuCnGseVAM",
+      "videoId": "kFuCnGseVAM",
+      "title": "다시 만난 매운맛 한모님 | 이단장 EP.2 선공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-04-25T08:01:00Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 883,
+      "duration": "PT38S",
       "source": "youtube"
     },
     {
-      "id": "yt:2lETepj959o",
-      "videoId": "2lETepj959o",
-      "title": "한화생명e스포츠는 청소년의 꿈을 응원합니다",
+      "id": "yt:bmA3GUNy0dU",
+      "videoId": "bmA3GUNy0dU",
+      "title": "단장의 바람직한 권력남용 | 이단장 EP.1 미공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-04-15T08:00:39Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 18,
+      "duration": "PT19S",
       "source": "youtube"
     },
     {
-      "id": "yt:lYWRxpvX6wQ",
-      "videoId": "lYWRxpvX6wQ",
-      "title": "롤 앞엔 쩔친도 없다",
+      "id": "yt:_O3MUg640rg",
+      "videoId": "_O3MUg640rg",
+      "title": "세계최초! 아이언4, e스포츠팀 단장이 되다 | 이단장 EP.1",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-04-14T08:00:40Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 37,
+      "duration": "PT15M54S",
       "source": "youtube"
     },
     {
-      "id": "yt:3xmLCxln9is",
-      "videoId": "3xmLCxln9is",
-      "title": "의문의 1패 찍은 넛신",
+      "id": "yt:YF-yFSHrLvg",
+      "videoId": "YF-yFSHrLvg",
+      "title": "아이언4라도 단장이 하고 싶어 | 이단장 EP.1 선공개",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-04-11T06:00:34Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 39,
+      "duration": "PT42S",
       "source": "youtube"
     },
     {
-      "id": "yt:RjxlSrG20m0",
-      "videoId": "RjxlSrG20m0",
-      "title": "My brain is on \"Delight\" mode, but my fingers are Lee Chae-young | LeeDeokHu",
+      "id": "yt:0zuk3_fBcGQ",
+      "videoId": "0zuk3_fBcGQ",
+      "title": "HLE OFFICIAL #3",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2025-03-24T08:00:06Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 848,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:0UzEcqK8US0",
-      "videoId": "0UzEcqK8US0",
-      "title": "아이언의 오더 결과 : 내부분열",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 47,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:YA_4fu56UNg",
-      "videoId": "YA_4fu56UNg",
-      "title": "오더하는 친구가 말이 너무 많아요..",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 28,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:4y2fPoekTXo",
-      "videoId": "4y2fPoekTXo",
-      "title": "한화생명e스포츠를 표현 하시오.",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 20,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:egLfn0iBIDg",
-      "videoId": "egLfn0iBIDg",
-      "title": "Esports All-in-One Package | Lee Deok-hoo",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 808,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:XMv945cRWhw",
-      "videoId": "XMv945cRWhw",
-      "title": "슈퍼 슈퍼 슈퍼소닉 uh [HLE x 이채영]",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 14,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:5xk8poX21-U",
-      "videoId": "5xk8poX21-U",
-      "title": "한박자 늦는 반응",
-      "category": "plunen_idanjang",
-      "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T08:02:39Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 14,
+      "duration": "PT1M22S",
       "source": "youtube"
     },
     {
@@ -16045,12 +15626,446 @@
       "title": "네임콜의 정석",
       "category": "plunen_idanjang",
       "channelTitle": "Hanwha Life Esports",
-      "publishedAt": "2024-08-28T00:00:00Z",
+      "publishedAt": "2024-08-14T02:21:52Z",
       "addedAt": "2026-08-27T08:02:39Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 47,
+      "duration": "PT47S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:5xk8poX21-U",
+      "videoId": "5xk8poX21-U",
+      "title": "한박자 늦는 반응",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-08-14T02:21:48Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT14S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:XMv945cRWhw",
+      "videoId": "XMv945cRWhw",
+      "title": "슈퍼 슈퍼 슈퍼소닉 uh [HLE x 이채영]",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-08-13T09:30:10Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT14S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:egLfn0iBIDg",
+      "videoId": "egLfn0iBIDg",
+      "title": "e스포츠 종합 선물 세트 | 이덕후",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-08-13T09:00:36Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT13M28S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:4y2fPoekTXo",
+      "videoId": "4y2fPoekTXo",
+      "title": "한화생명e스포츠를 표현 하시오.",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-07-31T04:36:51Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT20S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:YA_4fu56UNg",
+      "videoId": "YA_4fu56UNg",
+      "title": "오더하는 친구가 말이 너무 많아요..",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-07-31T04:36:33Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT28S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:0UzEcqK8US0",
+      "videoId": "0UzEcqK8US0",
+      "title": "아이언의 오더 결과 : 내부분열",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-07-31T04:36:20Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT47S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:RjxlSrG20m0",
+      "videoId": "RjxlSrG20m0",
+      "title": "머리는 딜라이트인데 손가락은 이채영 | 이덕후",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-07-29T09:00:27Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT14M8S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:3xmLCxln9is",
+      "videoId": "3xmLCxln9is",
+      "title": "의문의 1패 찍은 넛신",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-07-18T07:04:38Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT39S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:lYWRxpvX6wQ",
+      "videoId": "lYWRxpvX6wQ",
+      "title": "롤 앞엔 쩔친도 없다",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-07-17T07:13:53Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT37S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:2lETepj959o",
+      "videoId": "2lETepj959o",
+      "title": "한화생명e스포츠는 청소년의 꿈을 응원합니다",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-07-16T00:02:52Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT18S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:uIvFqHDtr7U",
+      "videoId": "uIvFqHDtr7U",
+      "title": "제 1차 MC 방어전 | 이덕후",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-07-15T09:00:45Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT14M43S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:nRROL4c0Aa0",
+      "videoId": "nRROL4c0Aa0",
+      "title": "저희와 맞는 분을 찾습니다.",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-06-17T10:31:33Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT39S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Bpchr9nD4-E",
+      "videoId": "Bpchr9nD4-E",
+      "title": "[미방분] 딸깔딸깍 칭찬이죠~ 맞죠~",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-06-17T09:35:07Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT17S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:vjO0Og47ohY",
+      "videoId": "vjO0Og47ohY",
+      "title": "원딜차이 vs 서폿차이 오늘 종결합니다 | 이덕후",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-06-17T09:00:43Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT11M40S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:SQIZUEq8Kv0",
+      "videoId": "SQIZUEq8Kv0",
+      "title": "서포터가 먹을 수 있는건...",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-06-11T00:57:49Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT23S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:MF8pFI03af4",
+      "videoId": "MF8pFI03af4",
+      "title": "따스한 남자 바ㄱ선생님",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-06-05T05:58:36Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT40S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:O4ZOOPkW-JU",
+      "videoId": "O4ZOOPkW-JU",
+      "title": "딜라이트 자리 뺏으러 왔습니다 | 이덕후",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-06-03T09:00:24Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT16M59S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:keWhRUL4DEU",
+      "videoId": "keWhRUL4DEU",
+      "title": "갑분 장기자랑 타임",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-05-24T01:08:22Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT16S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:1D6kJfi3etQ",
+      "videoId": "1D6kJfi3etQ",
+      "title": "[미방분] 도란선수가 잘하고..채영님을 닮은? 챔피언이라...",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-05-22T05:48:56Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT17S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:NGitJwAkfhk",
+      "videoId": "NGitJwAkfhk",
+      "title": "프나 이채영의 스몰더",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-05-22T01:27:26Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT1M",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:4Dox7wGwsZ0",
+      "videoId": "4Dox7wGwsZ0",
+      "title": "불 뿜는 것도 성우의 영역인가요..? | 이덕후",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-05-20T09:00:02Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT13M16S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:btUCFZxi7Q4",
+      "videoId": "btUCFZxi7Q4",
+      "title": "[미방분] 경기 중엔 서렌 못 치나요?",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-05-13T01:58:56Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT27S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:NONBGKyouaA",
+      "videoId": "NONBGKyouaA",
+      "title": "이채영이 만든 제카선수 네임콜",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-05-13T01:58:44Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT20S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:2_AExSk55Qo",
+      "videoId": "2_AExSk55Qo",
+      "title": "바ㄱ선생님 시청 금지",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-05-09T06:18:50Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT26S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:T1jC7zyk1pA",
+      "videoId": "T1jC7zyk1pA",
+      "title": "[미방분] 원딜탓? 서폿탓? 누구탓?",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-05-09T05:27:48Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT14S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:3aXkrnL0T5U",
+      "videoId": "3aXkrnL0T5U",
+      "title": "연예가중계 아니고 e스포츠 중계 입니다 | 이덕후",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-05-06T09:00:05Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT18M2S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:9UNlObaCmZY",
+      "videoId": "9UNlObaCmZY",
+      "title": "협곡은 사랑을 '안'싣고",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-04-23T05:49:48Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT27S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:MXMfJ11A3fY",
+      "videoId": "MXMfJ11A3fY",
+      "title": "롤의 기본 '남 탓'",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-04-23T05:12:46Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT38S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:j_0Ndxpj8G8",
+      "videoId": "j_0Ndxpj8G8",
+      "title": "알바하러 왔다가 사람 취급 못 받은 건에 대하여 | 이덕후",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-04-22T09:00:35Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT12M54S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:keGCCjzA32A",
+      "videoId": "keGCCjzA32A",
+      "title": "아이돌마저 홀리는 마성의 남자",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-04-19T06:47:06Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT17S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:ofxHzA7TWDE",
+      "videoId": "ofxHzA7TWDE",
+      "title": "프나 이채영이 63빌딩에? | 이덕후",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2024-04-16T20:00:29Z",
+      "addedAt": "2026-08-27T08:02:39Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT2M18S",
       "source": "youtube"
     },
     {
@@ -16059,12 +16074,12 @@
       "title": "멀티유니버스 하빵",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-08-19T00:00:00Z",
+      "publishedAt": "2026-08-19T08:00:22Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 26,
+      "duration": "PT26S",
       "source": "youtube"
     },
     {
@@ -16073,12 +16088,12 @@
       "title": "입덕은 빠를수록 이득",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-08-17T00:00:00Z",
+      "publishedAt": "2026-08-17T08:00:26Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 11,
+      "duration": "PT11S",
       "source": "youtube"
     },
     {
@@ -16087,12 +16102,12 @@
       "title": "다 먹어요, 근데 그건 못 먹어요",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-08-14T00:00:00Z",
+      "publishedAt": "2026-08-14T08:00:39Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 15,
+      "duration": "PT15S",
       "source": "youtube"
     },
     {
@@ -16101,12 +16116,12 @@
       "title": "선배미 넘쳤던 힙합 하빵",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-08-14T00:00:00Z",
+      "publishedAt": "2026-08-12T08:00:30Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 20,
+      "duration": "PT20S",
       "source": "youtube"
     },
     {
@@ -16115,12 +16130,12 @@
       "title": "간지(?)돌 등장",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-08-14T00:00:00Z",
+      "publishedAt": "2026-08-10T08:00:09Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 22,
+      "duration": "PT22S",
       "source": "youtube"
     },
     {
@@ -16129,26 +16144,26 @@
       "title": "미미미누 말고 커커커비",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-08-07T00:00:00Z",
+      "publishedAt": "2026-08-07T08:30:35Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 14,
+      "duration": "PT14S",
       "source": "youtube"
     },
     {
       "id": "yt:Lgg-NYK5IgY",
       "videoId": "Lgg-NYK5IgY",
-      "title": "BAD on stage, GOOD at making sundubu🔥🍲｜Mimiminu & Hayoung's \"E & I Season 2\"｜EP.4 ATEEZ WOOYOUNG",
+      "title": "BAD하게 무대 찢고 GOOD하게 순두부찌개 끓이는 남자🔥🍲 I 미미미누 & 송하영의 '이아이는요2' I EP.4 에이티즈 우영 (ATEEZ WOOYOUNG)",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-08-07T00:00:00Z",
+      "publishedAt": "2026-08-07T08:00:15Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 1429,
+      "duration": "PT23M49S",
       "source": "youtube"
     },
     {
@@ -16157,12 +16172,12 @@
       "title": "팬들에게 남긴 대휘의 진심",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-08-07T00:00:00Z",
+      "publishedAt": "2026-08-05T08:00:05Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 17,
+      "duration": "PT17S",
       "source": "youtube"
     },
     {
@@ -16171,12 +16186,12 @@
       "title": "치팅데이는 이렇게",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-08-07T00:00:00Z",
+      "publishedAt": "2026-08-03T08:00:36Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 26,
+      "duration": "PT26S",
       "source": "youtube"
     },
     {
@@ -16185,12 +16200,12 @@
       "title": "갑자기 설탕 뿌리는 대휘",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-31T00:00:00Z",
+      "publishedAt": "2026-07-31T08:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 18,
+      "duration": "PT18S",
       "source": "youtube"
     },
     {
@@ -16199,12 +16214,12 @@
       "title": "감자인데 왜 이렇게 스윗해",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-31T00:00:00Z",
+      "publishedAt": "2026-07-29T08:00:22Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 12,
+      "duration": "PT12S",
       "source": "youtube"
     },
     {
@@ -16213,12 +16228,12 @@
       "title": "명언제조기 이대휘",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-28T00:00:00Z",
+      "publishedAt": "2026-07-27T08:00:08Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 24,
+      "duration": "PT24S",
       "source": "youtube"
     },
     {
@@ -16227,26 +16242,26 @@
       "title": "감자빵은 여름에 뭘 먹을까",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-28T00:00:00Z",
+      "publishedAt": "2026-07-24T08:30:18Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 35,
+      "duration": "PT35S",
       "source": "youtube"
     },
     {
       "id": "yt:t4to25ce2IM",
       "videoId": "t4to25ce2IM",
-      "title": "A Nostalgic Meal for Daehwi's New Beginning 🍚✨ | Mimiminu&Song Hayoung's E&I S2 | EP.3 Lee Daehwi",
+      "title": "대휘의 새출발을 응원하는 한 끼 🍚✨ 추억까지 담아 더욱 든든🫶  I 미미미누 & 송하영의 '이아이는요2' I EP.3 이대휘",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-28T00:00:00Z",
+      "publishedAt": "2026-07-24T08:00:03Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 1451,
+      "duration": "PT24M11S",
       "source": "youtube"
     },
     {
@@ -16255,12 +16270,12 @@
       "title": "이제는 너무 잘나가는 캐캐채",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-28T00:00:00Z",
+      "publishedAt": "2026-07-22T08:00:14Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 27,
+      "duration": "PT27S",
       "source": "youtube"
     },
     {
@@ -16269,153 +16284,12 @@
       "title": "편집자 편집하다 귀여워서 기절",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-28T00:00:00Z",
+      "publishedAt": "2026-07-20T08:00:36Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 18,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:kgb1uA6fzeE",
-      "videoId": "kgb1uA6fzeE",
-      "title": "그래도 엄마 요리 최고bb",
-      "category": "pulmuone_ei2",
-      "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T07:49:43Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 19,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:OcaXjISFW8Y",
-      "videoId": "OcaXjISFW8Y",
-      "title": "채연의 아침 식습관",
-      "category": "pulmuone_ei2",
-      "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T07:49:43Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 14,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:NunJF8FXccg",
-      "videoId": "NunJF8FXccg",
-      "title": "감자야 삐지지 마",
-      "category": "pulmuone_ei2",
-      "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T07:49:43Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 31,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:u8RHKEpmYJw",
-      "videoId": "u8RHKEpmYJw",
-      "title": "Watch out, Potato Minu—Here Comes Potato Lover Chaeyeon! 🥔💨 | Mimiminu&Song Hayoung's E&I S2 | EP.2",
-      "category": "pulmuone_ei2",
-      "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T07:49:43Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 1368,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:zzB5w2z4uIE",
-      "videoId": "zzB5w2z4uIE",
-      "title": "오늘도 깎이는 감자...",
-      "category": "pulmuone_ei2",
-      "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T07:49:43Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 24,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:3QH_-r2ZI3o",
-      "videoId": "3QH_-r2ZI3o",
-      "title": "애교로 다리까지 만든 나경",
-      "category": "pulmuone_ei2",
-      "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T07:49:43Z",
-      "members": [
-        "hayoung",
-        "nagyung"
-      ],
-      "duration": 16,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:4maO4Qj1kGE",
-      "videoId": "4maO4Qj1kGE",
-      "title": "솔티스윗한 프나 대장님",
-      "category": "pulmuone_ei2",
-      "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T07:49:43Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 19,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:hfkkpaIdCjY",
-      "videoId": "hfkkpaIdCjY",
-      "title": "요란할 뿐이야 2026 ver",
-      "category": "pulmuone_ei2",
-      "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T07:49:43Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 16,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:kyTTbT4bjCo",
-      "videoId": "kyTTbT4bjCo",
-      "title": "이 정도로 행복하길 바란 건 아니었어 감자",
-      "category": "pulmuone_ei2",
-      "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T07:49:43Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 16,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:jyEGQU9UPRY",
-      "videoId": "jyEGQU9UPRY",
-      "title": "NEW 감자칼 등장!?",
-      "category": "pulmuone_ei2",
-      "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T07:49:43Z",
-      "members": [
-        "hayoung"
-      ],
-      "duration": 23,
+      "duration": "PT18S",
       "source": "youtube"
     },
     {
@@ -16433,18 +16307,160 @@
       "source": "youtube"
     },
     {
-      "id": "yt:6ikTPG3MW-Q",
-      "videoId": "6ikTPG3MW-Q",
-      "title": "A Comfort Food Recommendation❤️Who’s the Queen? I MiMiMiNu&Song Hayoung 'E&I S2' | EP.1 Lee Nagyung",
+      "id": "yt:kgb1uA6fzeE",
+      "videoId": "kgb1uA6fzeE",
+      "title": "그래도 엄마 요리 최고bb",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-06-28T00:00:00Z",
+      "publishedAt": "2026-07-17T08:00:23Z",
+      "addedAt": "2026-08-27T07:49:43Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT19S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:OcaXjISFW8Y",
+      "videoId": "OcaXjISFW8Y",
+      "title": "채연의 아침 식습관",
+      "category": "pulmuone_ei2",
+      "channelTitle": "풀무원 Pulmuone",
+      "publishedAt": "2026-07-13T08:00:03Z",
+      "addedAt": "2026-08-27T07:49:43Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT14S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:NunJF8FXccg",
+      "videoId": "NunJF8FXccg",
+      "title": "감자야 삐지지 마",
+      "category": "pulmuone_ei2",
+      "channelTitle": "풀무원 Pulmuone",
+      "publishedAt": "2026-07-11T08:00:11Z",
+      "addedAt": "2026-08-27T07:49:43Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT31S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:u8RHKEpmYJw",
+      "videoId": "u8RHKEpmYJw",
+      "title": "감자미누 긴장해~ 구황작물 러버 이채연이 떴다💨 I 미미미누 & 송하영의 '이아이는요2' I EP.2 이채연",
+      "category": "pulmuone_ei2",
+      "channelTitle": "풀무원 Pulmuone",
+      "publishedAt": "2026-07-10T08:00:33Z",
+      "addedAt": "2026-08-27T07:49:43Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT22M48S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:zzB5w2z4uIE",
+      "videoId": "zzB5w2z4uIE",
+      "title": "오늘도 깎이는 감자...",
+      "category": "pulmuone_ei2",
+      "channelTitle": "풀무원 Pulmuone",
+      "publishedAt": "2026-07-10T08:00:19Z",
+      "addedAt": "2026-08-27T07:49:43Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT24S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:3QH_-r2ZI3o",
+      "videoId": "3QH_-r2ZI3o",
+      "title": "애교로 다리까지 만든 나경",
+      "category": "pulmuone_ei2",
+      "channelTitle": "풀무원 Pulmuone",
+      "publishedAt": "2026-07-08T08:00:27Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung",
         "nagyung"
       ],
-      "duration": 1322,
+      "duration": "PT16S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:4maO4Qj1kGE",
+      "videoId": "4maO4Qj1kGE",
+      "title": "솔티스윗한 프나 대장님",
+      "category": "pulmuone_ei2",
+      "channelTitle": "풀무원 Pulmuone",
+      "publishedAt": "2026-07-06T08:00:33Z",
+      "addedAt": "2026-08-27T07:49:43Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT19S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:hfkkpaIdCjY",
+      "videoId": "hfkkpaIdCjY",
+      "title": "요란할 뿐이야 2026 ver",
+      "category": "pulmuone_ei2",
+      "channelTitle": "풀무원 Pulmuone",
+      "publishedAt": "2026-07-03T08:00:33Z",
+      "addedAt": "2026-08-27T07:49:43Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT16S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:kyTTbT4bjCo",
+      "videoId": "kyTTbT4bjCo",
+      "title": "이 정도로 행복하길 바란 건 아니었어 감자",
+      "category": "pulmuone_ei2",
+      "channelTitle": "풀무원 Pulmuone",
+      "publishedAt": "2026-07-01T08:00:12Z",
+      "addedAt": "2026-08-27T07:49:43Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT16S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:jyEGQU9UPRY",
+      "videoId": "jyEGQU9UPRY",
+      "title": "NEW 감자칼 등장!?",
+      "category": "pulmuone_ei2",
+      "channelTitle": "풀무원 Pulmuone",
+      "publishedAt": "2026-06-29T08:00:15Z",
+      "addedAt": "2026-08-27T07:49:43Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT23S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:6ikTPG3MW-Q",
+      "videoId": "6ikTPG3MW-Q",
+      "title": "추억의 음식 추천 하꼬야❤️ 첫 화 지원사격 온 퀸의 정체는?👑 I 미미미누 & 송하영의 '이아이는요2' I EP.1 프로미스나인 이나경",
+      "category": "pulmuone_ei2",
+      "channelTitle": "풀무원 Pulmuone",
+      "publishedAt": "2026-06-26T08:00:03Z",
+      "addedAt": "2026-08-27T07:49:43Z",
+      "members": [
+        "hayoung",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": "PT22M2S",
       "source": "youtube"
     },
     {
@@ -16453,12 +16469,12 @@
       "title": "감자 잘 깎는 프로미스나인 여기도 있어요 🍟 역대급 조합 보러 올 사람🕺🏼 I 미미미누 & 송하영의 ‘이아이는요2’ | 티저",
       "category": "pulmuone_ei2",
       "channelTitle": "풀무원 Pulmuone",
-      "publishedAt": "2026-06-28T00:00:00Z",
+      "publishedAt": "2026-06-19T08:00:21Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 91,
+      "duration": "PT1M31S",
       "source": "youtube"
     },
     {
@@ -16763,12 +16779,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP50. 50회 맞이 채나 리뷰📺",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2023-08-28T00:00:00Z",
+      "publishedAt": "2022-11-24T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1581,
+      "duration": "PT26M21S",
       "source": "youtube"
     },
     {
@@ -16777,12 +16793,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP49. 두뇌게임 과짜🍬",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2023-08-28T00:00:00Z",
+      "publishedAt": "2022-11-17T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 2055,
+      "duration": "PT34M15S",
       "source": "youtube"
     },
     {
@@ -16791,12 +16807,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP48. 지선이의 헬스키친🏃‍♀️ Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2023-08-28T00:00:00Z",
+      "publishedAt": "2022-11-10T12:00:08Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "jisun"
       ],
-      "duration": 1534,
+      "duration": "PT25M34S",
       "source": "youtube"
     },
     {
@@ -16805,12 +16821,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP47. 지선이의 헬스키친🍽️ Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2023-08-28T00:00:00Z",
+      "publishedAt": "2022-10-27T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "jisun"
       ],
-      "duration": 1521,
+      "duration": "PT25M21S",
       "source": "youtube"
     },
     {
@@ -16819,12 +16835,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP46. 프롬초 가을소풍🍂",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2023-08-28T00:00:00Z",
+      "publishedAt": "2022-10-20T12:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1798,
+      "duration": "PT29M58S",
       "source": "youtube"
     },
     {
@@ -16833,12 +16849,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP45. 프롬빌리지의 비밀, 진범은 바로 너🫵 Part.3",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2023-08-28T00:00:00Z",
+      "publishedAt": "2022-10-13T12:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1655,
+      "duration": "PT27M35S",
       "source": "youtube"
     },
     {
@@ -16847,26 +16863,26 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP44. 프롬빌리지의 비밀, 진범은 바로 너🫵 Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2023-08-28T00:00:00Z",
+      "publishedAt": "2022-10-06T12:00:04Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1999,
+      "duration": "PT33M19S",
       "source": "youtube"
     },
     {
       "id": "yt:ncHUlIEIXEY",
       "videoId": "ncHUlIEIXEY",
-      "title": "[CHANNEL_9] fromis_9 'CHANNEL_9' EP.43 The Secret of From Village, The Culprit is You🫵 Part.1",
+      "title": "[CHANNEL_9] fromis_9 '채널나인' EP43. 프롬빌리지의 비밀, 진범은 바로 너🫵 Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2023-08-28T00:00:00Z",
+      "publishedAt": "2022-09-29T11:59:57Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1749,
+      "duration": "PT29M9S",
       "source": "youtube"
     },
     {
@@ -16875,26 +16891,26 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP42. 세계로 가는 프나 퀴즈🎵 Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2023-08-28T00:00:00Z",
+      "publishedAt": "2022-09-22T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1854,
+      "duration": "PT30M54S",
       "source": "youtube"
     },
     {
       "id": "yt:xeO2fRX-wiY",
       "videoId": "xeO2fRX-wiY",
-      "title": "[CHANNEL_9] fromis_9 'CHANNEL_9' EP41. (Beyond the Leave Work Mission) fromis_9 Quiz for the Worl...",
+      "title": "[CHANNEL_9] fromis_9 '채널나인' EP41. (퇴근 미션을 넘어) 세계로 가는 프나 퀴즈🎵 Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2023-08-28T00:00:00Z",
+      "publishedAt": "2022-09-15T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
-        "all"
+        "seoyeon"
       ],
-      "duration": 1418,
+      "duration": "PT23M38S",
       "source": "youtube"
     },
     {
@@ -16903,12 +16919,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP40. 손에 손 잡고🤝 두 번째 퇴근 미션! Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2023-08-28T00:00:00Z",
+      "publishedAt": "2022-09-08T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "seoyeon"
       ],
-      "duration": 1872,
+      "duration": "PT31M12S",
       "source": "youtube"
     },
     {
@@ -16917,26 +16933,26 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP39. 손에 손 잡고🤝 두 번째 퇴근 미션! Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2023-08-28T00:00:00Z",
+      "publishedAt": "2022-09-01T12:00:05Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "seoyeon"
       ],
-      "duration": 1449,
+      "duration": "PT24M9S",
       "source": "youtube"
     },
     {
       "id": "yt:PM4BqZ_-jvw",
       "videoId": "PM4BqZ_-jvw",
-      "title": "[CHANNEL_9] fromis_9 'CHANNEL_9' EP.38 The Struggle of Our Precious Zero-Win Team to Break Their ...",
+      "title": "[CHANNEL_9] fromis_9 '채널나인' EP38. 금쪽같은 빵승이들의 빵승 탈출기🔥Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-08-25T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 2047,
+      "duration": "PT34M7S",
       "source": "youtube"
     },
     {
@@ -16945,12 +16961,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP37. 금쪽같은 빵승이들의 빵승 탈출기🔥Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-08-18T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1799,
+      "duration": "PT29M59S",
       "source": "youtube"
     },
     {
@@ -16959,12 +16975,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP36. 구해줘 제발😟 공포 나인 Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-08-11T12:00:03Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 2043,
+      "duration": "PT34M3S",
       "source": "youtube"
     },
     {
@@ -16973,12 +16989,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP35. 구해줘 제발😟 공포 나인 Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-08-04T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1970,
+      "duration": "PT32M50S",
       "source": "youtube"
     },
     {
@@ -16987,12 +17003,12 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' Spin-Off #from_our_Memento_Box Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-06-29T12:00:03Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 2604,
+      "duration": "PT43M24S",
       "source": "youtube"
     },
     {
@@ -17001,12 +17017,12 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' Spin-Off #from_our_Memento_Box Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-06-19T12:00:03Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1587,
+      "duration": "PT26M27S",
       "source": "youtube"
     },
     {
@@ -17015,12 +17031,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP34. 예언의 방과 운명공동챙 프롬이🔮 Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-05-26T12:00:12Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 1446,
+      "duration": "PT24M6S",
       "source": "youtube"
     },
     {
@@ -17029,12 +17045,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP33. 예언의 방과 운명공동챙 프롬이🔮 Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-05-19T12:00:03Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 1468,
+      "duration": "PT24M28S",
       "source": "youtube"
     },
     {
@@ -17043,12 +17059,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP32. 프롬 고민 상담소 '무엇이든 물어롬이💌'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-05-12T12:00:04Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1547,
+      "duration": "PT25M47S",
       "source": "youtube"
     },
     {
@@ -17057,12 +17073,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP31. 플로버들을 위한 사생대회🖍️(feat. 과거사진)",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-05-05T12:00:11Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1608,
+      "duration": "PT26M48S",
       "source": "youtube"
     },
     {
@@ -17071,12 +17087,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP30. 2022 프롬 별주부전🐇🐢 Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-04-28T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1655,
+      "duration": "PT27M35S",
       "source": "youtube"
     },
     {
@@ -17085,12 +17101,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP29. 2022 프롬 별주부전🐇🐢 Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-04-21T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1617,
+      "duration": "PT26M57S",
       "source": "youtube"
     },
     {
@@ -17099,12 +17115,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP28. 퇴근 미션! 꼭꼭 숨겨라😎 Part.3",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-04-14T12:00:03Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "seoyeon"
       ],
-      "duration": 2033,
+      "duration": "PT33M53S",
       "source": "youtube"
     },
     {
@@ -17113,12 +17129,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP27. 퇴근 미션! 꼭꼭 숨겨라😎 Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-04-07T12:00:04Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "seoyeon"
       ],
-      "duration": 1554,
+      "duration": "PT25M54S",
       "source": "youtube"
     },
     {
@@ -17127,12 +17143,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP26. 퇴근 미션! 꼭꼭 숨겨라😎 Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-03-31T12:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "seoyeon"
       ],
-      "duration": 1577,
+      "duration": "PT26M17S",
       "source": "youtube"
     },
     {
@@ -17141,12 +17157,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP25. 송하영을 이겨라! 1 VS 8🏆",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-03-24T12:00:03Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 1620,
+      "duration": "PT27M",
       "source": "youtube"
     },
     {
@@ -17155,12 +17171,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP24. 스무살 맞이 OT👩‍🏫",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-03-17T12:00:03Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1939,
+      "duration": "PT32M19S",
       "source": "youtube"
     },
     {
@@ -17169,12 +17185,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP23. MBTI는 과학이다🧐 (feat. T와 F🔥)",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-03-10T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1611,
+      "duration": "PT26M51S",
       "source": "youtube"
     },
     {
@@ -17183,12 +17199,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP.22 아주 조금 늦은 신년회 Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-03-03T12:00:24Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1529,
+      "duration": "PT25M29S",
       "source": "youtube"
     },
     {
@@ -17197,12 +17213,12 @@
       "title": "[CHANNEL_9] fromis_9 '채널나인' EP21. 아주 조금 늦은 신년회 Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-02-24T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1630,
+      "duration": "PT27M10S",
       "source": "youtube"
     },
     {
@@ -17211,12 +17227,12 @@
       "title": "[CHANNEL_9] fromis_9 채널나인 종합 채널 가이드(2022 Ver.)",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-02-17T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 69,
+      "duration": "PT1M9S",
       "source": "youtube"
     },
     {
@@ -17225,12 +17241,12 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' Spin-Off #Midnight_Guest #새벽탈출",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2022-01-14T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 2101,
+      "duration": "PT35M1S",
       "source": "youtube"
     },
     {
@@ -17239,12 +17255,12 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.20 RUNNING_9🏃‍♀️ 상금을 찾아서 Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-12-30T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1843,
+      "duration": "PT30M43S",
       "source": "youtube"
     },
     {
@@ -17253,26 +17269,26 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.19 RUNNING_9🏃‍♀️ 상금을 찾아서 Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-12-23T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1586,
+      "duration": "PT26M26S",
       "source": "youtube"
     },
     {
       "id": "yt:O_711XARYqE",
       "videoId": "O_711XARYqE",
-      "title": "[CHANNEL_9] fromis_9 'CHANNEL_9' EP.18 fashion_9 for 2041🛍️Part.2",
+      "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.18 fashion_9 for 2041🛍️Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-12-16T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1734,
+      "duration": "PT28M54S",
       "source": "youtube"
     },
     {
@@ -17281,12 +17297,12 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.17 fashion_9 for 2041🛍️Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-12-09T12:00:03Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1697,
+      "duration": "PT28M17S",
       "source": "youtube"
     },
     {
@@ -17295,26 +17311,26 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.16 열정 넘치는 광고_9📺 Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-12-02T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1823,
+      "duration": "PT30M23S",
       "source": "youtube"
     },
     {
       "id": "yt:p0Wp07ltY9s",
       "videoId": "p0Wp07ltY9s",
-      "title": "[CHANNEL_9] fromis_9 'CHANNEL_9' EP.15 Passionate Advertisement_9📺 Part.1",
+      "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.15 열정 넘치는 광고_9📺 Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-11-25T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1524,
+      "duration": "PT25M24S",
       "source": "youtube"
     },
     {
@@ -17323,12 +17339,12 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.14 프롬 파자마 챌린지🏅",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-11-18T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 2018,
+      "duration": "PT33M38S",
       "source": "youtube"
     },
     {
@@ -17337,12 +17353,12 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.13 세계로 가는 장학퀴즈 Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-11-11T12:00:03Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1800,
+      "duration": "PT30M",
       "source": "youtube"
     },
     {
@@ -17351,12 +17367,12 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.12 세계로 가는 장학퀴즈 Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-11-04T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1879,
+      "duration": "PT31M19S",
       "source": "youtube"
     },
     {
@@ -17365,12 +17381,12 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.11 CAMPING_9 with CAMPFIRE 🏕️",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-10-28T12:00:03Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1667,
+      "duration": "PT27M47S",
       "source": "youtube"
     },
     {
@@ -17379,12 +17395,12 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.10 CAMPING_9 with GAME & MUKBANG🍽️",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-10-21T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1663,
+      "duration": "PT27M43S",
       "source": "youtube"
     },
     {
@@ -17393,12 +17409,12 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.9 오늘은 CAMPING_9!",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-10-14T12:00:05Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1866,
+      "duration": "PT31M6S",
       "source": "youtube"
     },
     {
@@ -17407,12 +17423,12 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.8 마피아리티리포트 Part.3",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-10-07T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1738,
+      "duration": "PT28M58S",
       "source": "youtube"
     },
     {
@@ -17421,12 +17437,12 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.7 마피아리티리포트 Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-09-30T12:00:04Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1956,
+      "duration": "PT32M36S",
       "source": "youtube"
     },
     {
@@ -17435,12 +17451,12 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.6 마피아리티리포트 Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-09-23T12:00:03Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1764,
+      "duration": "PT29M24S",
       "source": "youtube"
     },
     {
@@ -17449,12 +17465,12 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.5 프롬단합대회! 아홉이 하나!",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-09-16T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1634,
+      "duration": "PT27M14S",
       "source": "youtube"
     },
     {
@@ -17463,40 +17479,40 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.4 빛나는 내 짝 '단짝 사진전📸'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-09-09T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1851,
+      "duration": "PT30M51S",
       "source": "youtube"
     },
     {
       "id": "yt:-r5kuUGqVnI",
       "videoId": "-r5kuUGqVnI",
-      "title": "[CHANNEL_9] fromis_9 'CHANNEL_9' EP.3 Finding My Match...",
+      "title": "[CHANNEL_9] fromis_9 (프로미스나인)  '채널나인' EP3 나의 짝을 찾아서...",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2022-08-28T00:00:00Z",
+      "publishedAt": "2021-09-02T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1773,
+      "duration": "PT29M33S",
       "source": "youtube"
     },
     {
       "id": "yt:Pl2CGqWlwAo",
       "videoId": "Pl2CGqWlwAo",
-      "title": "[CHANNEL_9] fromis_9 'CHANNEL_NINE' EP.2 Awakening the Content Monster",
+      "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.2 깨어나다 콘텐츠 괴물",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2021-08-28T00:00:00Z",
+      "publishedAt": "2021-08-26T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1492,
+      "duration": "PT24M52S",
       "source": "youtube"
     },
     {
@@ -17505,12 +17521,12 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.1 경★개 국 식★축",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2021-08-28T00:00:00Z",
+      "publishedAt": "2021-08-19T12:00:09Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1577,
+      "duration": "PT26M17S",
       "source": "youtube"
     },
     {
@@ -17519,26 +17535,26 @@
       "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' EP.1 Preview",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2021-08-28T00:00:00Z",
+      "publishedAt": "2021-08-18T12:00:05Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 71,
+      "duration": "PT1M11S",
       "source": "youtube"
     },
     {
       "id": "yt:0WqwGwDRgAk",
       "videoId": "0WqwGwDRgAk",
-      "title": "[CHANNEL_9] fromis_9 'CHANNEL_9' Teaser",
+      "title": "[CHANNEL_9] fromis_9 (프로미스나인) '채널나인' Teaser",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2021-08-28T00:00:00Z",
+      "publishedAt": "2021-06-24T12:00:03Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 82,
+      "duration": "PT1M22S",
       "source": "youtube"
     },
     {
@@ -17547,12 +17563,12 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) - '채널나인 연말결산' 비하인드",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2021-08-28T00:00:00Z",
+      "publishedAt": "2020-12-29T12:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 531,
+      "duration": "PT8M51S",
       "source": "youtube"
     },
     {
@@ -17561,12 +17577,12 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) - '채널나인 연말결산' Part.4",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2021-08-28T00:00:00Z",
+      "publishedAt": "2020-12-22T12:00:19Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1377,
+      "duration": "PT22M57S",
       "source": "youtube"
     },
     {
@@ -17575,12 +17591,12 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) - '채널나인 연말결산' Part.3",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2021-08-28T00:00:00Z",
+      "publishedAt": "2020-12-15T12:00:14Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1048,
+      "duration": "PT17M28S",
       "source": "youtube"
     },
     {
@@ -17589,12 +17605,12 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) - '채널나인 연말결산' Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2021-08-28T00:00:00Z",
+      "publishedAt": "2020-12-08T12:00:06Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1386,
+      "duration": "PT23M6S",
       "source": "youtube"
     },
     {
@@ -17603,12 +17619,12 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) - '채널나인 연말결산' Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2021-08-28T00:00:00Z",
+      "publishedAt": "2020-12-01T12:00:30Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1156,
+      "duration": "PT19M16S",
       "source": "youtube"
     },
     {
@@ -17617,12 +17633,12 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) - '채널나인 연말결산' Teaser",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2021-08-28T00:00:00Z",
+      "publishedAt": "2020-11-30T09:00:04Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 22,
+      "duration": "PT22S",
       "source": "youtube"
     },
     {
@@ -17631,26 +17647,26 @@
       "title": "[Ch.9 REPLAY] 여보세요? 채널나인 EfG REPLAY 나왔다는데 같이 볼래??",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-08-28T09:00:17Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 393,
+      "duration": "PT6M33S",
       "source": "youtube"
     },
     {
       "id": "yt:o0tp5zOmaAo",
       "videoId": "o0tp5zOmaAo",
-      "title": "[Channel_9] fromis_9 - 'Channel_9 EfG' Part.8",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) - '채널나인 EfG' Part.8",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-08-25T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 820,
+      "duration": "PT13M40S",
       "source": "youtube"
     },
     {
@@ -17659,54 +17675,54 @@
       "title": "[Ch.9 REPLAY] 1절은 없는 프로미스나인의 학창 시절 얘기 들어 볼래?",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-08-21T09:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 439,
+      "duration": "PT7M19S",
       "source": "youtube"
     },
     {
       "id": "yt:MKaBdf5CnMs",
       "videoId": "MKaBdf5CnMs",
-      "title": "[Channel_9] fromis_9 - 'Channel_9 EfG' Part.7",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) - '채널나인 EfG' Part.7",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-08-18T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 810,
+      "duration": "PT13M30S",
       "source": "youtube"
     },
     {
       "id": "yt:R0Y7OiWW3-U",
       "videoId": "R0Y7OiWW3-U",
-      "title": "[Ch.9 REPLAY] Don’t! Don’t forget to watch Channel 9... Promise...★",
+      "title": "[Ch.9 REPLAY] 꼭! 꼭! 채널나인 보는거 잊지 말자...프로미스...★",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-08-14T08:59:57Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 353,
+      "duration": "PT5M53S",
       "source": "youtube"
     },
     {
       "id": "yt:srKlCg86dI8",
       "videoId": "srKlCg86dI8",
-      "title": "[Channel_9] fromis_9 - 'Channel_9 EfG' Part.6",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) - '채널나인 EfG' Part.6",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-08-11T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 756,
+      "duration": "PT12M36S",
       "source": "youtube"
     },
     {
@@ -17715,124 +17731,124 @@
       "title": "[Ch.9 REPLAY] 열심히 일한 프롬이들, 이번엔 먹방 콩트다!",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-08-07T09:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 370,
+      "duration": "PT6M10S",
       "source": "youtube"
     },
     {
       "id": "yt:gzqbM4AbRBk",
       "videoId": "gzqbM4AbRBk",
-      "title": "[Channel_9] fromis_9 - 'Channel_9 EfG' Part.5",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) - '채널나인 EfG' Part.5",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-08-04T11:59:57Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 920,
+      "duration": "PT15M20S",
       "source": "youtube"
     },
     {
       "id": "yt:eM6ntAYLzL4",
       "videoId": "eM6ntAYLzL4",
-      "title": "[Ch.9 REPLAY] Since Fromie is at the tomato farm, let the skits begin!",
+      "title": "[Ch.9 REPLAY] 프롬이가 토마토 농장에 왔으니 일단 콩트를 시작해보자!",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-07-31T09:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 398,
+      "duration": "PT6M38S",
       "source": "youtube"
     },
     {
       "id": "yt:SH6RoGVhCCs",
       "videoId": "SH6RoGVhCCs",
-      "title": "[Channel_9] fromis_9 - 'Channel_9 EfG' Part.4",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) - '채널나인 EfG' Part.4",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-07-28T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 976,
+      "duration": "PT16M16S",
       "source": "youtube"
     },
     {
       "id": "yt:g6lIaFeqmLc",
       "videoId": "g6lIaFeqmLc",
-      "title": "[Ch.9 REPLAY] 'Silence of Saerom' that baffled the youngest member",
+      "title": "[Ch.9 REPLAY] 막냉이를 당황하게 한 '고요 속의 새롬이'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-07-24T09:00:41Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "saerom"
       ],
-      "duration": 565,
+      "duration": "PT9M25S",
       "source": "youtube"
     },
     {
       "id": "yt:34lb3L9YyZQ",
       "videoId": "34lb3L9YyZQ",
-      "title": "[Channel_9] fromis_9 - 'Channel_9 EfG' Part.3",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) - '채널나인 EfG' Part.3",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-07-21T12:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 878,
+      "duration": "PT14M38S",
       "source": "youtube"
     },
     {
       "id": "yt:m4b7AaMPAIQ",
       "videoId": "m4b7AaMPAIQ",
-      "title": "[Channel_9] fromis_9 - 'Channel_9 EfG' Part.2",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) - '채널나인 EfG' Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-07-14T11:59:59Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 951,
+      "duration": "PT15M51S",
       "source": "youtube"
     },
     {
       "id": "yt:B77xJbEzM7g",
       "videoId": "B77xJbEzM7g",
-      "title": "[Channel_9] fromis_9 - 'Channel_9 EfG' Part.1",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) - '채널나인 EfG' Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-07-07T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1006,
+      "duration": "PT16M46S",
       "source": "youtube"
     },
     {
       "id": "yt:yylvqupVfD4",
       "videoId": "yylvqupVfD4",
-      "title": "[Channel_9] fromis_9 - 'Channel_9 EfG' Teaser",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) - '채널나인 EfG' Teaser",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-07-04T04:24:12Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 97,
+      "duration": "PT1M37S",
       "source": "youtube"
     },
     {
@@ -17841,12 +17857,12 @@
       "title": "규리 선배 좋아하지마. 그게 뭔데. 그거 어떻게 하는건데 | #1일3픎_규리편",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-06-25T11:10:15Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "gyuri"
       ],
-      "duration": 136,
+      "duration": "PT2M16S",
       "source": "youtube"
     },
     {
@@ -17855,26 +17871,26 @@
       "title": "우리 젼이는요. 침착하진 않지만 착한 친구입니다. | #1일3픎_지원편",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-06-25T11:05:24Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "jiwon"
       ],
-      "duration": 139,
+      "duration": "PT2M19S",
       "source": "youtube"
     },
     {
       "id": "yt:NaHqeETHQ-U",
       "videoId": "NaHqeETHQ-U",
-      "title": "So, is the full name of fromis_9's captain \"Lee Saerom is cute\"? | #1Day3fromis_SaeromEdition",
+      "title": "프로미스나인 캡틴 풀네임이 이새롬귀여워 라면서요? | #1일3픎_새롬편",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-06-25T11:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "saerom"
       ],
-      "duration": 137,
+      "duration": "PT2M17S",
       "source": "youtube"
     },
     {
@@ -17883,12 +17899,12 @@
       "title": "참을 인이 3번이면 우리는 또 다른 지센을 볼 수 있다. | #1일3픎_지선편",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-06-24T11:10:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "jisun"
       ],
-      "duration": 141,
+      "duration": "PT2M21S",
       "source": "youtube"
     },
     {
@@ -17897,12 +17913,12 @@
       "title": "더여니 MBTI는 LOVE래요 너무 사랑스러워서...♡ | #1일3픎_서연편",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-06-24T11:05:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "seoyeon"
       ],
-      "duration": 135,
+      "duration": "PT2M15S",
       "source": "youtube"
     },
     {
@@ -17911,27 +17927,27 @@
       "title": "신이 챙이를 만들 때 리액션 한 꼬집, 장꾸력 한 꼬집, 겁 와르르ㄹ... | #1일3픎_채영편",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-06-24T11:00:04Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "chaeyoung",
         "seoyeon"
       ],
-      "duration": 136,
+      "duration": "PT2M16S",
       "source": "youtube"
     },
     {
       "id": "yt:GhWLk5dr0EM",
       "videoId": "GhWLk5dr0EM",
-      "title": "Who is the biggest and cutest chick in the world? The answer! Inakkko!! | #1Day3Fromis_NakyoungEd...",
+      "title": "세상에서 가장 크고 귀여운 병아리는? 정답! 이나꼬!! | #1일3픎_나경편",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-06-23T11:10:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
-        "all"
+        "nagyung"
       ],
-      "duration": 130,
+      "duration": "PT2M10S",
       "source": "youtube"
     },
     {
@@ -17940,12 +17956,12 @@
       "title": "대한민국의 평범한(?) 고등학생 아이돌이 되다?! | #1일3픎_지헌편",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-06-23T11:05:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "jiheon"
       ],
-      "duration": 150,
+      "duration": "PT2M30S",
       "source": "youtube"
     },
     {
@@ -17954,68 +17970,68 @@
       "title": "놀라셨죠? 고양이 치고 꽤 사람 같은 하냥입니다 | #1일3픎_하영편",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-06-23T11:00:03Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 128,
+      "duration": "PT2M8S",
       "source": "youtube"
     },
     {
       "id": "yt:RBmVGW8n5Ek",
       "videoId": "RBmVGW8n5Ek",
-      "title": "[Ch.9 REPLAY] Every Day is Fun and Happy at fromis_🏠",
+      "title": "[Ch.9 REPLAY] 매일매일 즐겁고 행복한 프롬이네🏠",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-05-28T09:00:07Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 905,
+      "duration": "PT15M5S",
       "source": "youtube"
     },
     {
       "id": "yt:qQGDnvAyE3c",
       "videoId": "qQGDnvAyE3c",
-      "title": "[Channel_9] fromis_9 - Channel_9 In The HOUSE 'Living with a Roommate Part.5'",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) - 채널나인 In The HOUSE '룸메이트와 산다 Part.5'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-05-26T12:00:06Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1883,
+      "duration": "PT31M23S",
       "source": "youtube"
     },
     {
       "id": "yt:gthBmVi7RGA",
       "videoId": "gthBmVi7RGA",
-      "title": "[Channel_9] fromis_9 - CHANNEL_9 In The HOUSE 'Living with a Roommate Part.4'",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) - 채널나인 In The HOUSE '룸메이트와 산다 Part.4'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-05-19T12:00:07Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1748,
+      "duration": "PT29M8S",
       "source": "youtube"
     },
     {
       "id": "yt:QwzscSmPwpI",
       "videoId": "QwzscSmPwpI",
-      "title": "[Channel_9] fromis_9 - CHANNEL_9 In The HOUSE 'Living with a Roommate Part.3'",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) - 채널나인 In The HOUSE '룸메이트와 산다 Part.3'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-05-12T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1392,
+      "duration": "PT23M12S",
       "source": "youtube"
     },
     {
@@ -18024,12 +18040,12 @@
       "title": "[Ch.9 REPLAY] 프로미스나인의 찐 숙소 생활 공개!",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-05-07T09:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 602,
+      "duration": "PT10M2S",
       "source": "youtube"
     },
     {
@@ -18038,12 +18054,12 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) - 채널나인 In The HOUSE '룸메이트와 산다 Part.2'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-05-05T12:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1653,
+      "duration": "PT27M33S",
       "source": "youtube"
     },
     {
@@ -18052,26 +18068,26 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) - 채널나인 In The HOUSE '룸메이트와 산다 Part.1'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-04-28T11:59:55Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1017,
+      "duration": "PT16M57S",
       "source": "youtube"
     },
     {
       "id": "yt:_wnKNkE9A9U",
       "videoId": "_wnKNkE9A9U",
-      "title": "[Ch.9 REPLAY] The legendary chemistry experts, fromis_9⛺",
+      "title": "[Ch.9 REPLAY] 명불허전 케미 맛집 프로미스나인⛺",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-04-23T10:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 547,
+      "duration": "PT9M7S",
       "source": "youtube"
     },
     {
@@ -18080,12 +18096,12 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) - 채널나인 In The HOUSE '모여봐요, 프롬이네 베란다에'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-04-21T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1800,
+      "duration": "PT30M",
       "source": "youtube"
     },
     {
@@ -18094,12 +18110,12 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) - 채널나인 In The HOUSE '놀러오세요, 프롬이네 베란다에'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-04-14T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1549,
+      "duration": "PT25M49S",
       "source": "youtube"
     },
     {
@@ -18108,12 +18124,12 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) - 채널나인 In The HOUSE Teaser",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2020-08-28T00:00:00Z",
+      "publishedAt": "2020-04-13T12:00:03Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 56,
+      "duration": "PT56S",
       "source": "youtube"
     },
     {
@@ -18122,12 +18138,12 @@
       "title": "[Channel_9 Season 2] 프로미스나인 (fromis_9) Behind Cut",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-08-13T12:00:04Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 513,
+      "duration": "PT8M33S",
       "source": "youtube"
     },
     {
@@ -18136,12 +18152,12 @@
       "title": "[Channel_9 Season 2] 프로미스나인 (fromis_9) SPECIAL MT Part.4",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-07-30T12:00:04Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1284,
+      "duration": "PT21M24S",
       "source": "youtube"
     },
     {
@@ -18150,12 +18166,12 @@
       "title": "[Channel_9 Season 2] 프로미스나인 (fromis_9) SPECIAL MT Part.3",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-07-23T12:00:18Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1361,
+      "duration": "PT22M41S",
       "source": "youtube"
     },
     {
@@ -18164,68 +18180,68 @@
       "title": "[Channel_9 Season 2] 프로미스나인 (fromis_9) SPECIAL MT Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-07-16T12:00:17Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1047,
+      "duration": "PT17M27S",
       "source": "youtube"
     },
     {
       "id": "yt:O97O1C3L1CE",
       "videoId": "O97O1C3L1CE",
-      "title": "[Channel_9 Season 2] fromis_9 SPECIAL MT Part.1",
+      "title": "[Channel_9 Season 2] 프로미스나인 (fromis_9) SPECIAL MT Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-07-09T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 798,
+      "duration": "PT13M18S",
       "source": "youtube"
     },
     {
       "id": "yt:GMfFNHjn488",
       "videoId": "GMfFNHjn488",
-      "title": "[Channel_9 Season 2] fromis_9 Together Forever Part.2",
+      "title": "[Channel_9 Season 2] 프로미스나인 (fromis_9) 동거동락 Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-07-02T12:00:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 1041,
+      "duration": "PT17M21S",
       "source": "youtube"
     },
     {
       "id": "yt:ZX0gGTnKt94",
       "videoId": "ZX0gGTnKt94",
-      "title": "[Channel_9 Season 2] fromis_9 Live Together, Laugh Together Part.1",
+      "title": "[Channel_9 Season 2] 프로미스나인 (fromis_9) 동거동락 Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-06-25T12:00:05Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 873,
+      "duration": "PT14M33S",
       "source": "youtube"
     },
     {
       "id": "yt:e5i8yqUW43E",
       "videoId": "e5i8yqUW43E",
-      "title": "[Channel_9 Season 2] fromis_9 I'll Do the Filming, Who Wants to Do the Dubbing? Part.2",
+      "title": "[Channel_9 Season 2] 프로미스나인 (fromis_9) 촬영은 내가 할게 더빙은 누가 할래? Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-06-18T12:00:06Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 636,
+      "duration": "PT10M36S",
       "source": "youtube"
     },
     {
@@ -18234,12 +18250,12 @@
       "title": "[Channel_9 Season 2] 프로미스나인 (fromis_9) 촬영은 내가 할게 더빙은 누가 할래? Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-06-11T12:00:09Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 558,
+      "duration": "PT9M18S",
       "source": "youtube"
     },
     {
@@ -18248,12 +18264,12 @@
       "title": "[Channel_9 Season 2] 프로미스나인 (fromis_9) 소중한 당신의 밤 지선 ASMR",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-05-30T08:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "jisun"
       ],
-      "duration": 936,
+      "duration": "PT15M36S",
       "source": "youtube"
     },
     {
@@ -18262,12 +18278,12 @@
       "title": "[Channel_9 Season 2] 프로미스나인 (fromis_9) 문제있는 프롬이 Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-05-28T09:00:06Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 794,
+      "duration": "PT13M14S",
       "source": "youtube"
     },
     {
@@ -18276,26 +18292,26 @@
       "title": "[Channel_9 Season 2] 프로미스나인 (fromis_9) 문제있는 프롬이 Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-05-23T09:04:02Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 873,
+      "duration": "PT14M33S",
       "source": "youtube"
     },
     {
       "id": "yt:SJk6CFCd2NA",
       "videoId": "SJk6CFCd2NA",
-      "title": "[Channel_9 Season 2] fromis_9: Is This How You Solve Worries? Part.2",
+      "title": "[Channel_9 Season 2] 프로미스나인 (fromis_9) 고민을 이렇게 프나? Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-05-21T09:00:05Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 627,
+      "duration": "PT10M27S",
       "source": "youtube"
     },
     {
@@ -18304,40 +18320,40 @@
       "title": "[Channel_9 Season 2] 프로미스나인 (fromis_9) 고민을 이렇게 프나? Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-05-16T09:00:04Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 697,
+      "duration": "PT11M37S",
       "source": "youtube"
     },
     {
       "id": "yt:3q6AYQ450Aw",
       "videoId": "3q6AYQ450Aw",
-      "title": "[Channel_9 Season 2] fromis_9 Dorm Observation Diary Part.2",
+      "title": "[Channel_9 Season 2] 프로미스나인 (fromis_9) 숙소 관찰일기 Part.2",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-05-14T09:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 750,
+      "duration": "PT12M30S",
       "source": "youtube"
     },
     {
       "id": "yt:-wfMe8DCZGA",
       "videoId": "-wfMe8DCZGA",
-      "title": "[Channel_9 Season 2] fromis_9 Dorm Observation Diary Part.1",
+      "title": "[Channel_9 Season 2] 프로미스나인 (fromis_9) 숙소 관찰일기 Part.1",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-05-07T09:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 729,
+      "duration": "PT12M9S",
       "source": "youtube"
     },
     {
@@ -18346,54 +18362,54 @@
       "title": "프로미스나인 (fromis_9) Channel_9 Season 2 Teaser",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-05-02T09:00:04Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 31,
+      "duration": "PT31S",
       "source": "youtube"
     },
     {
       "id": "yt:mzVUKTSqpUc",
       "videoId": "mzVUKTSqpUc",
-      "title": "[Channel_9] fromis_9 Channel_9 FINAL",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) Channel_9 FINAL",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-02-01T12:00:07Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 675,
+      "duration": "PT11M15S",
       "source": "youtube"
     },
     {
       "id": "yt:Xx0fdp-2r9I",
       "videoId": "Xx0fdp-2r9I",
-      "title": "[Channel_9] fromis_9 Lucky Bomb! Amusement Park Part.2🎢",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) Lucky Bomb! 놀이동산 Part.2🎢",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-01-25T12:00:04Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 476,
+      "duration": "PT7M56S",
       "source": "youtube"
     },
     {
       "id": "yt:nfswEMTe-to",
       "videoId": "nfswEMTe-to",
-      "title": "[Channel_9] fromis_9 Lucky Bomb! Amusement Park Part.1🎢",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) Lucky Bomb! 놀이동산 Part.1🎢",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-01-18T12:00:06Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 465,
+      "duration": "PT7M45S",
       "source": "youtube"
     },
     {
@@ -18402,12 +18418,12 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) – Channel_9 채영편 '챙린지'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2019-01-04T12:00:08Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 914,
+      "duration": "PT15M14S",
       "source": "youtube"
     },
     {
@@ -18416,12 +18432,12 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) – Channel_9 지선편 '소중한 밤 지선 ASMR'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2018-12-28T12:00:04Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "jisun"
       ],
-      "duration": 910,
+      "duration": "PT15M10S",
       "source": "youtube"
     },
     {
@@ -18430,12 +18446,12 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) – Channel_9 지원편 '메리 메건 베이커리'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2018-12-21T12:00:08Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "jiwon"
       ],
-      "duration": 798,
+      "duration": "PT13M18S",
       "source": "youtube"
     },
     {
@@ -18444,26 +18460,26 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) – Channel_9 지헌편 '뒤죽박죽 꿀깅툰'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2018-12-14T12:00:14Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "jiheon"
       ],
-      "duration": 946,
+      "duration": "PT15M46S",
       "source": "youtube"
     },
     {
       "id": "yt:gTTEPEU9ujk",
       "videoId": "gTTEPEU9ujk",
-      "title": "[Channel_9] fromis_9 – Channel_9 Gyuri Edition 'Gyuri-R Survival'",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) – Channel_9 규리편 '규리R 서바이벌'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2018-12-07T12:00:06Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "gyuri"
       ],
-      "duration": 896,
+      "duration": "PT14M56S",
       "source": "youtube"
     },
     {
@@ -18472,26 +18488,26 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) – Channel_9 하영편 '게임한빵'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2018-11-30T12:00:00Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "hayoung"
       ],
-      "duration": 815,
+      "duration": "PT13M35S",
       "source": "youtube"
     },
     {
       "id": "yt:dBmXYsZf0og",
       "videoId": "dBmXYsZf0og",
-      "title": "[Channel_9] fromis_9 – Channel_9 Nagyung’s Episode 'Let’s Go!'",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) – Channel_9 나경편 'Let's 꼬!'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2018-11-23T14:00:05Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "nagyung"
       ],
-      "duration": 926,
+      "duration": "PT15M26S",
       "source": "youtube"
     },
     {
@@ -18500,12 +18516,12 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) – Channel_9 서연편 '션킷리스트 (Seoyeon’s Bucket List)'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2018-11-09T12:00:01Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "seoyeon"
       ],
-      "duration": 867,
+      "duration": "PT14M27S",
       "source": "youtube"
     },
     {
@@ -18514,40 +18530,40 @@
       "title": "[Channel_9] 프로미스나인 (fromis_9) – Channel_9 새롬편 '스타일롬(Style Room)'",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2018-11-02T12:00:13Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "saerom"
       ],
-      "duration": 894,
+      "duration": "PT14M54S",
       "source": "youtube"
     },
     {
       "id": "yt:r1j6KIJ4xmM",
       "videoId": "r1j6KIJ4xmM",
-      "title": "[Channel_9] fromis_9 – Channel_9 Opening",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) – Channel_9 Opening",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2018-10-24T12:00:05Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 199,
+      "duration": "PT3M19S",
       "source": "youtube"
     },
     {
       "id": "yt:cfEtrLorzMo",
       "videoId": "cfEtrLorzMo",
-      "title": "[Channel_9] fromis_9 – Channel_9 Trailer",
+      "title": "[Channel_9] 프로미스나인 (fromis_9) – Channel_9 Trailer",
       "category": "sp_ch9",
       "channelTitle": "Official fromis_9",
-      "publishedAt": "2019-08-28T00:00:00Z",
+      "publishedAt": "2018-10-22T13:00:05Z",
       "addedAt": "2026-08-27T07:49:43Z",
       "members": [
         "all"
       ],
-      "duration": 65,
+      "duration": "PT1M5S",
       "source": "youtube"
     },
     {
@@ -18607,20 +18623,6 @@
       "source": "youtube"
     },
     {
-      "id": "yt:aNwae53bf4M",
-      "videoId": "aNwae53bf4M",
-      "title": "[EN/JP] 쉴 새 없이 추가되는 토핑 지옥 알바 🍨 | 요아정 알바 | 워크돌ㅣ프로미스나인 지원, 투모로우바이투게더 연준",
-      "category": "workdol",
-      "channelTitle": "워크맨-Workman",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T05:01:16Z",
-      "members": [
-        "jiwon"
-      ],
-      "duration": 1435,
-      "source": "youtube"
-    },
-    {
       "id": "yt:VvJUi6uM_ck",
       "videoId": "VvJUi6uM_ck",
       "title": "[EN/JP] 사회초년생 살만한 서울 월세 현실 🏠💦  | 중개보조원 | 워크돌ㅣ프로미스나인 지원, 지헌",
@@ -18633,6 +18635,20 @@
         "jiwon"
       ],
       "duration": "PT23M50S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:aNwae53bf4M",
+      "videoId": "aNwae53bf4M",
+      "title": "[EN/JP] 쉴 새 없이 추가되는 토핑 지옥 알바 🍨 | 요아정 알바 | 워크돌ㅣ프로미스나인 지원, 투모로우바이투게더 연준",
+      "category": "workdol",
+      "channelTitle": "워크맨-Workman",
+      "publishedAt": "2026-07-15T10:00:02Z",
+      "addedAt": "2026-08-27T05:01:16Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": "PT23M55S",
       "source": "youtube"
     },
     {
@@ -18970,40 +18986,68 @@
       "title": "멤버들과 사이 안 좋아질 뻔한 🚨위험한 초대🚨 ㅣ 벼랑 끝에 프로미스나인",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-08-20T00:00:00Z",
+      "publishedAt": "2026-08-20T09:00:17Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1626,
+      "duration": "PT27M6S",
       "source": "youtube"
     },
     {
       "id": "yt:5TisoPUaViw",
       "videoId": "5TisoPUaViw",
-      "title": "How is this company even running... | Puna Trading Co. EP3",
+      "title": "회사가 도대체 어떻게 돌아가려고...  l 프나상사 EP3",
       "category": "sp_corp",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-08-14T00:00:00Z",
+      "publishedAt": "2026-08-13T09:00:04Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 848,
+      "duration": "PT14M8S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:YsJMJbDBuhU",
+      "videoId": "YsJMJbDBuhU",
+      "title": "부사장님도 놀란 프로미스나인의 발표 실력ㅣ프나상사 EP2",
+      "category": "sp_corp",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-07-23T09:00:01Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT20M34S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:vL_uxXgaUTo",
+      "videoId": "vL_uxXgaUTo",
+      "title": "프나상사에서~ 누가 돌아왔~게 나야 젠지 회사원 프로미스나인 l 프나상사 EP1",
+      "category": "sp_corp",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-07-16T09:00:24Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT25M53S",
       "source": "youtube"
     },
     {
       "id": "yt:fiVf5h_rdIs",
       "videoId": "fiVf5h_rdIs",
-      "title": "Lee Na-gyung goes to eat Sindang-dong Tteokbokki with her dad while dressed as a Gyaru",
+      "title": "갸루 분장하고 아빠랑 신당동 떡볶이 먹으러 간 이나경",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-07-28T00:00:00Z",
+      "publishedAt": "2026-07-09T09:00:03Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "all"
+        "nagyung"
       ],
-      "duration": 984,
+      "duration": "PT16M24S",
       "source": "youtube"
     },
     {
@@ -19012,69 +19056,55 @@
       "title": "한남동 아이돌 출몰지역 ㅣ 다큐1일 이채영",
       "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-07-28T00:00:00Z",
+      "publishedAt": "2026-07-02T09:00:05Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 1097,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:YsJMJbDBuhU",
-      "videoId": "YsJMJbDBuhU",
-      "title": "fromis_9's presentation skills that stunned the Vice President | PNA Company EP2",
-      "category": "sp_corp",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1234,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:vL_uxXgaUTo",
-      "videoId": "vL_uxXgaUTo",
-      "title": "Guess who’s back at Funa Trading~ It’s me, the Gen Z employee from fromis_9 | Funa Trading EP1",
-      "category": "sp_corp",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1553,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:QfvZzVj_WlY",
-      "videoId": "QfvZzVj_WlY",
-      "title": "Luxury vs. Budget Staycation: fromis_9 Filming Their Own Version of Single's Inferno and Transit ...",
-      "category": "sp_original",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-06-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1652,
+      "duration": "PT18M17S",
       "source": "youtube"
     },
     {
       "id": "yt:gyDLyMs2glk",
       "videoId": "gyDLyMs2glk",
-      "title": "Before the comeback, a heartfelt conversation while feeding Nagyung🍚 | Hanyang-kase",
+      "title": "컴백 전, 나경이 밥 먹이면서 진솔한 대화🍚 l 하냥카세",
       "category": "sp_hayoung",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-06-28T00:00:00Z",
+      "publishedAt": "2026-06-25T09:00:08Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "hayoung",
         "nagyung"
       ],
-      "duration": 1849,
+      "duration": "PT30M49S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:QfvZzVj_WlY",
+      "videoId": "QfvZzVj_WlY",
+      "title": "럭셔리vs가성비 호캉스 와서 나는솔로지옥에서환승연애시그널 찍은 프로미스나인",
+      "category": "sp_original",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-06-18T09:00:00Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT27M32S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:UmHDiXypnw0",
+      "videoId": "UmHDiXypnw0",
+      "title": "토크쇼에 초대했는데 덕질만 하고 간 강소라 ㅣ 챙그랑 EP3",
+      "category": "sp_chaeng",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-06-11T09:00:05Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT20M56S",
       "source": "youtube"
     },
     {
@@ -19083,69 +19113,55 @@
       "title": "🍗이태원 이색 맛집 먹방한 지원 나경 l #젼메추 ep4",
       "category": "sp_jiwon",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-06-28T00:00:00Z",
+      "publishedAt": "2026-06-04T09:00:12Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "jiwon",
         "nagyung"
       ],
-      "duration": 1121,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:UmHDiXypnw0",
-      "videoId": "UmHDiXypnw0",
-      "title": "Kang So-ra, who came to my talk show and spent the whole time fan-girling | Chaeng-grang EP.3",
-      "category": "sp_chaeng",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-06-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "chaeyoung"
-      ],
-      "duration": 1256,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:Hx43rVB73K8",
-      "videoId": "Hx43rVB73K8",
-      "title": "fromis_9’s Guide to the Ultimate Sauna Experience: Beating the Heat with a Feast(?!)",
-      "category": "sp_original",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-05-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 978,
+      "duration": "PT18M41S",
       "source": "youtube"
     },
     {
       "id": "yt:wE8tnxDY8Ts",
       "videoId": "wE8tnxDY8Ts",
-      "title": "fromis_9's main vocal Song Ha-young, training her whistle even on her day off | Documentary 1 Day...",
+      "title": "쉬는 날에도 휘슬 단련하는 프나메보 송하영 l 다큐 1일 송하영",
       "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-05-28T00:00:00Z",
+      "publishedAt": "2026-05-28T09:00:20Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "all"
+        "hayoung"
       ],
-      "duration": 1511,
+      "duration": "PT25M11S",
       "source": "youtube"
     },
     {
       "id": "yt:k5KfDMWsZto",
       "videoId": "k5KfDMWsZto",
-      "title": "What happens when you go to the Han River with someone you like💖",
+      "title": "좋아하는 사람이랑 한강 가면 생기는 일💖",
       "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-05-28T00:00:00Z",
+      "publishedAt": "2026-05-21T09:00:46Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 799,
+      "duration": "PT13M19S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Hx43rVB73K8",
+      "videoId": "Hx43rVB73K8",
+      "title": "이열치열로 찜질방 먹방(?!)부수고온 프로미스나인의 찜질방 국룰 이용법",
+      "category": "sp_original",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-05-14T09:00:01Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT16M18S",
       "source": "youtube"
     },
     {
@@ -19154,26 +19170,26 @@
       "title": "저희 아부지를 드디어 모셨습니다 ㅣ 하냥카세",
       "category": "sp_hayoung",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-05-28T00:00:00Z",
+      "publishedAt": "2026-05-07T09:00:36Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "hayoung"
       ],
-      "duration": 1691,
+      "duration": "PT28M11S",
       "source": "youtube"
     },
     {
       "id": "yt:ZQ2KZDxG9m8",
       "videoId": "ZQ2KZDxG9m8",
-      "title": "SUNMI Meets Her Visual Twin, the Baby Nine-Tailed Fox💜 l Chaengrang EP2",
+      "title": "매혹(E) 비법 전수하러 온 선미 선배님💜 l 챙그랑EP2",
       "category": "sp_chaeng",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-05-28T00:00:00Z",
+      "publishedAt": "2026-04-30T09:00:02Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 1607,
+      "duration": "PT26M47S",
       "source": "youtube"
     },
     {
@@ -19182,42 +19198,27 @@
       "title": "🎢놀이동산에서 먹방 찍는 걸그룹이 있다?! 알차게 즐긴 이채영, 백지헌",
       "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-04-28T00:00:00Z",
+      "publishedAt": "2026-04-23T09:00:02Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "chaeyoung",
         "jiheon"
       ],
-      "duration": 1153,
+      "duration": "PT19M13S",
       "source": "youtube"
     },
     {
       "id": "yt:5v9GxfYGHvw",
       "videoId": "5v9GxfYGHvw",
-      "title": "🏍️ Lee Na-kyung, who almost became a delivery driver while preparing for her motorcycle license |...",
+      "title": "🏍️바이크 면허 준비하다가 배달할 뻔한 이나경 l 게임할꼬 EP3",
       "category": "sp_game",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-04-28T00:00:00Z",
+      "publishedAt": "2026-04-16T09:00:02Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "all"
+        "nagyung"
       ],
-      "duration": 735,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:PybB45lBxs4",
-      "videoId": "PybB45lBxs4",
-      "title": "하냥카세 정식 오픈 ㅣ 봄동 막차 탑승합니다🥬",
-      "category": "sp_jiwon",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-04-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "hayoung",
-        "jiwon"
-      ],
-      "duration": 1381,
+      "duration": "PT12M15S",
       "source": "youtube"
     },
     {
@@ -19226,27 +19227,27 @@
       "title": "오마카세 도시락 먹으면서 역대급 고민에 지원이는 완전히 멘탈이 나가버렸습니다 l 젼메추 ep번외 고민상담젼",
       "category": "sp_jiwon",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-04-28T00:00:00Z",
+      "publishedAt": "2026-04-09T09:01:33Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "jiwon"
       ],
-      "duration": 796,
+      "duration": "PT13M16S",
       "source": "youtube"
     },
     {
-      "id": "yt:E1k0TWHiL8c",
-      "videoId": "E1k0TWHiL8c",
-      "title": "동물에게 둘러싸인 하영 나경을 봐 동물에게 둘러싸였어🐮ㅣ사육사 체험하면서 사심 다 채움",
-      "category": "sp_original",
+      "id": "yt:PybB45lBxs4",
+      "videoId": "PybB45lBxs4",
+      "title": "하냥카세 정식 오픈 ㅣ 봄동 막차 탑승합니다🥬",
+      "category": "sp_jiwon",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-03-28T00:00:00Z",
+      "publishedAt": "2026-04-02T09:00:26Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "hayoung",
-        "nagyung"
+        "jiwon"
       ],
-      "duration": 1057,
+      "duration": "PT23M1S",
       "source": "youtube"
     },
     {
@@ -19255,12 +19256,27 @@
       "title": "🔥디진다 돈까스🔥먹고 탈주한 프로미스나인 l ???:불냉면은 장난이네",
       "category": "sp_survive",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-03-28T00:00:00Z",
+      "publishedAt": "2026-03-26T09:00:02Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 725,
+      "duration": "PT12M5S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:E1k0TWHiL8c",
+      "videoId": "E1k0TWHiL8c",
+      "title": "동물에게 둘러싸인 하영 나경을 봐 동물에게 둘러싸였어🐮ㅣ사육사 체험하면서 사심 다 채움",
+      "category": "sp_original",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-03-12T09:00:29Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "hayoung",
+        "nagyung"
+      ],
+      "duration": "PT17M37S",
       "source": "youtube"
     },
     {
@@ -19269,12 +19285,12 @@
       "title": "그때 기억나...? 10년만에 만난 연습생 동생 전소미 l 챙그랑 EP1",
       "category": "sp_chaeng",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-03-28T00:00:00Z",
+      "publishedAt": "2026-03-05T09:00:06Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 1358,
+      "duration": "PT22M38S",
       "source": "youtube"
     },
     {
@@ -19283,27 +19299,12 @@
       "title": "잠 안 와? 그럼 우리한테 와🌙 | ASMR 하꼬야✎ꪑ",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-02-28T00:00:00Z",
+      "publishedAt": "2026-02-26T09:00:24Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 4119,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:-3nN1flJojY",
-      "videoId": "-3nN1flJojY",
-      "title": "핫한 성수에 하영지헌의 등장이라...💖ㅣ맏내와 막내의 첫 데이트 VLOG #슾log",
-      "category": "sp_vlog",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-02-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "hayoung",
-        "jiheon"
-      ],
-      "duration": 1037,
+      "duration": "PT1H8M39S",
       "source": "youtube"
     },
     {
@@ -19312,26 +19313,27 @@
       "title": "켠 김에 왕까지 하다가 울면서 집에 간  이나경 l 8번 출구, 디바우어, 항아리 게임",
       "category": "sp_game",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-02-28T00:00:00Z",
+      "publishedAt": "2026-02-19T09:00:02Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "nagyung"
       ],
-      "duration": 1256,
+      "duration": "PT20M56S",
       "source": "youtube"
     },
     {
-      "id": "yt:8PKjIW86f-I",
-      "videoId": "8PKjIW86f-I",
-      "title": "Cooking a home-cooked meal for the youngest 🍚 | Welcome to Hanyangkase",
-      "category": "sp_hayoung",
+      "id": "yt:-3nN1flJojY",
+      "videoId": "-3nN1flJojY",
+      "title": "핫한 성수에 하영지헌의 등장이라...💖ㅣ맏내와 막내의 첫 데이트 VLOG #슾log",
+      "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-02-28T00:00:00Z",
+      "publishedAt": "2026-02-12T09:00:11Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "hayoung"
+        "hayoung",
+        "jiheon"
       ],
-      "duration": 1252,
+      "duration": "PT17M17S",
       "source": "youtube"
     },
     {
@@ -19340,12 +19342,26 @@
       "title": "혹시 제가 왼얼사 창시자가 마즈나요?! 이채영 두쫀쿠 만들면서 의식의 흐름대로 TMI 뱉기 l 챙그랑 ep0",
       "category": "sp_chaeng",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-02-28T00:00:00Z",
+      "publishedAt": "2026-02-05T09:00:24Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 792,
+      "duration": "PT13M12S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:8PKjIW86f-I",
+      "videoId": "8PKjIW86f-I",
+      "title": "막내 집밥 해 먹이기🍚ㅣWelcome to 하냥카세",
+      "category": "sp_hayoung",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-01-29T09:00:03Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT20M52S",
       "source": "youtube"
     },
     {
@@ -19354,12 +19370,12 @@
       "title": "👑괴성이 난무하는 공주들의 비밀스러운 파티 현장👑",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-01-28T00:00:00Z",
+      "publishedAt": "2026-01-22T09:00:42Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1366,
+      "duration": "PT22M46S",
       "source": "youtube"
     },
     {
@@ -19368,12 +19384,12 @@
       "title": "두쫀쿠 재벌 된 박지원의 두쫀쿠 먹방 ㅣ 요즘 핫한 21가지 디저트 리뷰 #젼메추 ep2",
       "category": "sp_jiwon",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2026-01-28T00:00:00Z",
+      "publishedAt": "2026-01-08T09:00:14Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "jiwon"
       ],
-      "duration": 1114,
+      "duration": "PT18M34S",
       "source": "youtube"
     },
     {
@@ -19382,12 +19398,12 @@
       "title": "fromis_9(프로미스나인) '하얀 그리움'  LlVE CLIP",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-12-28T00:00:00Z",
+      "publishedAt": "2025-12-25T09:00:01Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 181,
+      "duration": "PT3M1S",
       "source": "youtube"
     },
     {
@@ -19396,26 +19412,26 @@
       "title": "fromis_9 '하얀 그리움' Live clip 이었을 뻔 하다가 마이크 잃어버림",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-12-28T00:00:00Z",
+      "publishedAt": "2025-12-24T09:00:01Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 49,
+      "duration": "PT49S",
       "source": "youtube"
     },
     {
-      "id": "yt:eThKgokW5fw",
-      "videoId": "eThKgokW5fw",
-      "title": "8 Years Since Debut, My First Solo Vlog... Chaeng Shakes Up the Sluggish Vlog Scene",
-      "category": "sp_vlog",
+      "id": "yt:FZArkSNPFeI",
+      "videoId": "FZArkSNPFeI",
+      "title": "오늘 저녁 메뉴 추천은 지원이가 책임진다 ˃ᴗ˂)⍝ #젼메추 ep1",
+      "category": "sp_jiwon",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-12-28T00:00:00Z",
+      "publishedAt": "2025-12-18T09:00:03Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "all"
+        "jiwon"
       ],
-      "duration": 1269,
+      "duration": "PT15M51S",
       "source": "youtube"
     },
     {
@@ -19424,26 +19440,68 @@
       "title": "내돈내산 지헌이의 겨울 하울*.❅·☃️l교복템부터 자취꿀템까지 코디 아이템 낋여옴(무신사, 29CM, 지그재그 탈탈)",
       "category": "sp_beauty",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-12-28T00:00:00Z",
+      "publishedAt": "2025-12-11T09:00:09Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "jiheon"
       ],
-      "duration": 1153,
+      "duration": "PT19M13S",
       "source": "youtube"
     },
     {
-      "id": "yt:FZArkSNPFeI",
-      "videoId": "FZArkSNPFeI",
-      "title": "I've Got Your Dinner Plans Covered ˃ᴗ˂)⍝ #DinnerRecs ep1",
-      "category": "sp_jiwon",
+      "id": "yt:eThKgokW5fw",
+      "videoId": "eThKgokW5fw",
+      "title": "데뷔 8년 차 혼자서 브이로그는 처음이라... 느슨해진 vlog씬에 챙이 등장",
+      "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-12-28T00:00:00Z",
+      "publishedAt": "2025-12-04T09:00:35Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "jiwon"
+        "chaeyoung"
       ],
-      "duration": 951,
+      "duration": "PT21M9S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:jqe7yVp1p_Y",
+      "videoId": "jqe7yVp1p_Y",
+      "title": "당신 붕어빵 뚱뚱해요🐟l 강남에서 붕어빵 파는 게 소원인 송하영",
+      "category": "sp_survive",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-11-27T09:00:14Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT12M59S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:VyMSKlQTNV8",
+      "videoId": "VyMSKlQTNV8",
+      "title": "걸그룹 최초 무인도에서 살아남기, 무인도 탈출하려고 전원 입수 함;;",
+      "category": "sp_survive",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-11-20T09:00:01Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT56M40S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:lXpGjgzZfvA",
+      "videoId": "lXpGjgzZfvA",
+      "title": "딸깍, 펜타킬!! 이나경 찐 롤 실력 l 리그오브레전드 생새우 먹방 #게임할꼬 ep1",
+      "category": "sp_game",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-11-13T09:00:28Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": "PT9M52S",
       "source": "youtube"
     },
     {
@@ -19452,280 +19510,166 @@
       "title": "쉬는 날 자유로운 챙&허니를 봐 자유로워l 서촌 데이트 grwm ootd 소품샵 #슾log",
       "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-11-28T00:00:00Z",
+      "publishedAt": "2025-11-06T09:00:01Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "chaeyoung"
       ],
-      "duration": 1458,
+      "duration": "PT24M18S",
       "source": "youtube"
     },
     {
       "id": "yt:KESH9frmdWY",
       "videoId": "KESH9frmdWY",
-      "title": "Okay, Who Made Us Do This? fromis_9's Deserted Island Packing Vlog | S.f. log",
+      "title": "공약 건 사람 누구야…? 무인도 짐 싸는 프로미스나인 #슾log",
       "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-11-28T00:00:00Z",
+      "publishedAt": "2025-10-30T09:01:13Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1272,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:lXpGjgzZfvA",
-      "videoId": "lXpGjgzZfvA",
-      "title": "Click, Pentakill! NAGYUNG's LoL Skills l League of Legends, Raw Shrimp Mukbang #Game On, Kko Ep1",
-      "category": "sp_game",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-11-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "nagyung"
-      ],
-      "duration": 592,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:jqe7yVp1p_Y",
-      "videoId": "jqe7yVp1p_Y",
-      "title": "Your fish-shaped bun is chubby🐟l Song Ha-young, whose dream is to sell fish-shaped buns in Gangnam",
-      "category": "sp_survive",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-11-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 779,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:VyMSKlQTNV8",
-      "videoId": "VyMSKlQTNV8",
-      "title": "First Girl-Group Survival on a Deserted Island: A Full-Team Ocean Dive Just to Escape",
-      "category": "sp_survive",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-11-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 3400,
+      "duration": "PT21M12S",
       "source": "youtube"
     },
     {
       "id": "yt:pb3IRjhuHP0",
       "videoId": "pb3IRjhuHP0",
-      "title": "🔥Time to burn the fat🔥Trying out hottest low-calorie foods (zero-calorie drinks, diet meals)",
+      "title": "🔥다이어트 시작해야지🔥요즘 핫한 저칼로리 음식 리뷰 (제로 칼로리, 다이어트 식단)",
       "category": "sp_beauty",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-10-28T00:00:00Z",
+      "publishedAt": "2025-10-09T09:00:21Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1079,
+      "duration": "PT17M59S",
       "source": "youtube"
     },
     {
       "id": "yt:P96bTFLgzjY",
       "videoId": "P96bTFLgzjY",
-      "title": "ZARA autumn new arrivals made my account empty... (Autumn knitwear, leather jackets, trench coats)",
+      "title": "ZARA 가을 신상 입고 텅장 됨… (니트, 가디건, 레더자켓, 트렌치코트)",
       "category": "sp_beauty",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-10-28T00:00:00Z",
+      "publishedAt": "2025-10-02T09:00:11Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1324,
+      "duration": "PT22M4S",
       "source": "youtube"
     },
     {
       "id": "yt:EtHW3dYxd_8",
       "videoId": "EtHW3dYxd_8",
-      "title": "Don't worry, everyone. It's really safe l ???: Oh, my head...",
+      "title": "여러분 걱정하지 마세요. 진짜 안전한 거니까 l ???:아 내 머리;;",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-09-28T00:00:00Z",
+      "publishedAt": "2025-09-25T09:00:15Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 735,
+      "duration": "PT12M15S",
       "source": "youtube"
     },
     {
       "id": "yt:dRqU3Us4SnY",
       "videoId": "dRqU3Us4SnY",
-      "title": "fromis_9 Rents a Whole Pool and Feasts a Day Before WATERBOMB",
+      "title": "워터밤 출연 전날에 폭식하는 아이돌 프로미스나인의 수영장 통째로 빌린 후기",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-09-28T00:00:00Z",
+      "publishedAt": "2025-09-18T09:00:01Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1044,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:c2bwlit0-kU",
-      "videoId": "c2bwlit0-kU",
-      "title": "An idol’s unfiltered honest review of a past life experience",
-      "category": "sp_original",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-09-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 805,
+      "duration": "PT17M24S",
       "source": "youtube"
     },
     {
       "id": "yt:yp00URtVCiM",
       "videoId": "yp00URtVCiM",
-      "title": "Fragrance Lovers: 19 Life-Changing Perfumes of fromis_9",
+      "title": "향덕후 프로미스나인 인생 향수 19가지 (플로럴, 비누향, 머스크, 우디, 시트러스 총집합)",
       "category": "sp_beauty",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-09-28T00:00:00Z",
+      "publishedAt": "2025-09-11T09:01:14Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1392,
+      "duration": "PT23M12S",
       "source": "youtube"
     },
     {
-      "id": "yt:8WAqCp-IgY0",
-      "videoId": "8WAqCp-IgY0",
-      "title": "On-site Raid🚨The Truth of fromis_9 Revealed at Rehearsal",
+      "id": "yt:c2bwlit0-kU",
+      "videoId": "c2bwlit0-kU",
+      "title": "아이돌이 말아주는 전생 체험 노필터 솔직후기",
       "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-28T00:00:00Z",
+      "publishedAt": "2025-09-04T09:01:00Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 504,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:x2YzxFKZqeU",
-      "videoId": "x2YzxFKZqeU",
-      "title": "Invading fromis_9 maknae's first solo apartment❗️Excuse me! Is this Jiheon’s place?",
-      "category": "sp_original",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "jiheon"
-      ],
-      "duration": 951,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:XJp0EsQQgWE",
-      "videoId": "XJp0EsQQgWE",
-      "title": "An actual drinking show, 8 years after debut. Is this how you play the drinking game?",
-      "category": "sp_original",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 1281,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:b4wldVyGaA0",
-      "videoId": "b4wldVyGaA0",
-      "title": "fromis_9's JIWON, Impossible to Find by Name Alone | HAYOUNG & NAGYUNG's Freakishly Accurate Saju",
-      "category": "sp_original",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "hayoung",
-        "jiwon",
-        "nagyung"
-      ],
-      "duration": 578,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:S5jTVupUSbQ",
-      "videoId": "S5jTVupUSbQ",
-      "title": "What's the story behind the Gayo Daejejeon tears? What is \"Studio fromis_9\"? When is the comeback?",
-      "category": "sp_original",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 541,
+      "duration": "PT13M25S",
       "source": "youtube"
     },
     {
       "id": "yt:wNg9KimrlWo",
       "videoId": "wNg9KimrlWo",
-      "title": "How Idols Take Care of Themselves: Frozen🥶 and Steamed🥵 to Depuff!",
+      "title": "얼리고🥶 지지는🥵 요즘 아이돌 붓기 관리법",
       "category": "sp_survive",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-28T00:00:00Z",
+      "publishedAt": "2025-08-28T09:00:51Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1063,
+      "duration": "PT17M43S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:8WAqCp-IgY0",
+      "videoId": "8WAqCp-IgY0",
+      "title": "현장 급습🚨 리허설 현장에서 드러난 프로미스나인 멤버들 실제 인성(?!)",
+      "category": "sp_original",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-08-25T09:00:25Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT8M24S",
       "source": "youtube"
     },
     {
       "id": "yt:mg7C-hUZESs",
       "videoId": "mg7C-hUZESs",
-      "title": "Seoul's top 4 spicy naengmyeon 🔥 Huff huff huff fromis_9",
+      "title": "서울 4대 불냉면🔥 먹고 습하습하습하소닉 완곡한 프로미스나인",
       "category": "sp_survive",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-28T00:00:00Z",
+      "publishedAt": "2025-07-31T09:00:41Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 655,
+      "duration": "PT10M55S",
       "source": "youtube"
     },
     {
-      "id": "yt:G3QSyNkIfGQ",
-      "videoId": "G3QSyNkIfGQ",
-      "title": "군통령이라 해서 철원 갔다가 초통령 된 썰 풉니다 l 멤버 아바타 원격조종",
-      "category": "sp_survive",
+      "id": "yt:x2YzxFKZqeU",
+      "videoId": "x2YzxFKZqeU",
+      "title": "프로미스나인 막내의 첫 자취방 습격❗️여기가 지헌 웅니네 마즈나요?",
+      "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-28T00:00:00Z",
+      "publishedAt": "2025-07-24T09:01:19Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
-        "all"
+        "jiheon"
       ],
-      "duration": 833,
-      "source": "youtube"
-    },
-    {
-      "id": "yt:MPOBoYS-Auc",
-      "videoId": "MPOBoYS-Auc",
-      "title": "Went on a little outing before the comeback l ??? : Who’s driving that car? Beep beep!! 🚘",
-      "category": "sp_survive",
-      "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-28T00:00:00Z",
-      "addedAt": "2026-08-27T04:41:41Z",
-      "members": [
-        "all"
-      ],
-      "duration": 778,
+      "duration": "PT15M51S",
       "source": "youtube"
     },
     {
@@ -19734,13 +19678,41 @@
       "title": "올리브영에서 2시간 동안 쇼핑하고 온 이채영 백지헌  아이돌 뷰티템 싹다 공개!! 쿨톤 필수 시청",
       "category": "sp_beauty",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-28T00:00:00Z",
+      "publishedAt": "2025-07-17T12:01:54Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "chaeyoung",
         "jiheon"
       ],
-      "duration": 1624,
+      "duration": "PT27M4S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:XJp0EsQQgWE",
+      "videoId": "XJp0EsQQgWE",
+      "title": "데뷔 8년 만에 본격 음주방송. 새내기 술게임 이거 맞아?",
+      "category": "sp_original",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-07-10T09:11:35Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT21M21S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:G3QSyNkIfGQ",
+      "videoId": "G3QSyNkIfGQ",
+      "title": "군통령이라 해서 철원 갔다가 초통령 된 썰 풉니다 l 멤버 아바타 원격조종",
+      "category": "sp_survive",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-07-03T09:00:02Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT13M53S",
       "source": "youtube"
     },
     {
@@ -19749,26 +19721,70 @@
       "title": "아이돌 사복 패션참견 해보았습니다. (꾸안꾸, 워터밤, 데일리룩)",
       "category": "sp_beauty",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-28T00:00:00Z",
+      "publishedAt": "2025-06-27T11:02:36Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "seoyeon"
       ],
-      "duration": 1251,
+      "duration": "PT20M51S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:MPOBoYS-Auc",
+      "videoId": "MPOBoYS-Auc",
+      "title": "컴백 전 나들이 좀 다녀왔습니다 l ??? : 자동차를 몰꼬에오 빵빵!! 🚘",
+      "category": "sp_survive",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-06-19T09:00:17Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT12M58S",
       "source": "youtube"
     },
     {
       "id": "yt:Iy6_bk1b6MA",
       "videoId": "Iy6_bk1b6MA",
-      "title": "[First Reveal] fromis_9's Ultimate Self Care Essentials | Diet, De-puffing, Skincare, Brightening",
+      "title": "(최초공개) 8년차 아이돌 프로미스나인의 관리 인생템 | 다이어트 붓기관리 스킨케어 미백",
       "category": "sp_beauty",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
-      "publishedAt": "2025-08-28T00:00:00Z",
+      "publishedAt": "2025-06-12T09:00:25Z",
       "addedAt": "2026-08-27T04:41:41Z",
       "members": [
         "all"
       ],
-      "duration": 1602,
+      "duration": "PT26M42S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:b4wldVyGaA0",
+      "videoId": "b4wldVyGaA0",
+      "title": "본인 이름 검색해도 나오지 않는 프로미스나인 박지원 l 소름 돋게 다 맞는 하영, 나경 미친 사주(positive)",
+      "category": "sp_original",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-06-05T09:00:56Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "hayoung",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": "PT9M38S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:S5jTVupUSbQ",
+      "videoId": "S5jTVupUSbQ",
+      "title": "프로미스나인 MBC 가요대제전 뿌앵 썰, 스프 이게 뭐에요?!, 컴백 언제 하나요?",
+      "category": "sp_original",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2025-05-29T09:00:30Z",
+      "addedAt": "2026-08-27T04:41:41Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT9M1S",
       "source": "youtube"
     },
     {
