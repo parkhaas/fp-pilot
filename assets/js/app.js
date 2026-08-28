@@ -14,11 +14,9 @@
     members: [],
     meta: {},
     view: "about", // "browse" | "about" (파라미터 없이 접속하면 소개가 시작 페이지)
-    sel: {}, // { cat?, cats?[], year?, song? }
+    sel: {}, // { cat?, cats?[], year?, song?, member? }
     subGroup: null, // 2단 드로어에서 열려 있는 그룹 id
     chartBy: "category", // 소개 페이지 파이차트 기준: "category" | "year"
-    membersExpanded: false, // 멤버 필터에서 이전(탈퇴) 멤버 노출 여부
-    member: "all",
     sort: "newest", // 기본 정렬: 최신 발행순
     q: "",
     limit: CFG.pageSize,
@@ -38,9 +36,6 @@
     themeToggle: document.getElementById("themeToggle"),
     topbarTitle: document.getElementById("topbarTitle"),
     topbar: document.getElementById("topbar"),
-    filterBar: document.getElementById("filterBar"),
-    memberFilter: document.getElementById("memberFilter"),
-    sortSelect: document.getElementById("sortSelect"),
     search: document.getElementById("searchInput"),
     content: document.getElementById("content"),
     loading: document.getElementById("loading"),
@@ -91,14 +86,115 @@
 
   const yearOf = (v) => (v.publishedAt || v.addedAt || "").slice(0, 4);
 
+  /* ---------- 곡명 파서 ----------
+     방송사 무대·직캠 제목은 형식이 제각각(곡-그룹 / 그룹-곡 / 따옴표 곡명 /
+     대시 없는 팬캠 등)이라, 멤버명·그룹명·촬영수식어를 걷어내고 곡만 남긴다.
+     추정 실패 시 null → 곡 서브메뉴에서 제외된다. */
+
+  const GROUP_RX = /fromis[\s_]?9|프로미스[\s_]?9|프로미스\s?나인|프미나|프나(?![가-힣])/i;
+
+  let _memberRx = null;
+  function memberRx() {
+    if (_memberRx) return _memberRx;
+    const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const frag = [];
+    for (const m of state.members) {
+      if (m.id === "all") continue;
+      for (const a of [m.name, ...(m.aliases || [])]) {
+        if (/[가-힣]/.test(a) && a.length >= 2) frag.push(esc(a));
+      }
+    }
+    frag.push(
+      "song\\s*ha\\s*young", "park\\s*ji\\s*won", "lee\\s*chae\\s*young",
+      "lee\\s*na\\s*(?:gyung|kyung|gyoung|young)", "baek\\s*ji\\s*heon",
+      "lee\\s*sae\\s*rom", "(?:roh|no)\\s*ji\\s*sun", "lee\\s*seo\\s*yeon",
+      "jang\\s*gyu\\s*ri"
+    );
+    _memberRx = new RegExp("(?:" + frag.join("|") + ")", "i");
+    return _memberRx;
+  }
+
+  const SONG_CUT_RX = /교차편집|stage\s*mix|풀캠|직캠|fullcam|fancam|facecam|얼빡|choreo(?:graphy)?|interview|bonus\s*ver|band\s*ver|one\s*take|1위|앵콜|encore|방송|with\s*flover|미방분|사전녹화|비하인드|모음|\.?zip\b|comeback\s*special|stage\s*comp\w*|playlist|compilation|making|메이킹|8k|4k|hdr|spatial\s*audio|killing\s*part|킬링파트|몰아보기|모아보기|다시보기|풀버전|full\s*ver|하이라이트|highlight/i;
+  const SONG_DELIM_RX = /[[(（【|ㅣ│｜/@]|\sl\s|\s#|♬|♪|★|☆|✨|☀|❤|💙/i;
+  const SONG_TRAIL_RX = /(?:\s+(?:fancam|fullcam|facecam|cam|mv|풀캠|직캠|ver\.?))+$/i;
+  const SONG_EDGE_L = /^[\s'"‘’“”–—―:_.,·-]+/; // 선행 # 은 곡명 일부일 수 있어 보존(#menow)
+  const SONG_EDGE_R = /[\s'"‘’“”–—―:_.,·-]+$/;
+  const SONG_STOP = new Set([
+    "interview", "behind", "zip", "comeback", "special", "compilation", "playlist",
+    "모음", "방송", "직캠", "풀캠", "fancam", "cam", "making", "메이킹", "현장",
+    "ver", "mv", "teaser", "shorts", "stage", "프로", "프나", "프미나",
+  ]);
+  const SONG_CANON = {
+    "talk&talk": "Talk & Talk", "talk & talk": "Talk & Talk",
+    "love bomb": "LOVE BOMB",
+    "dkdk": "두근두근", "두근두근": "두근두근", "dkdk 두근두근": "두근두근",
+    "menow": "#menow", "#menow": "#menow",
+    "white memories": "하얀 그리움", "하얀 그리움": "하얀 그리움",
+    "glass shoes": "유리구두", "유리구두": "유리구두",
+    "into the new world": "다시 만난 세계", "다시 만난 세계": "다시 만난 세계",
+    "22century girl": "22세기 소녀", "22세기 소녀": "22세기 소녀",
+  };
+
   function songOf(v) {
-    let t = v.title || "";
-    t = t.replace(/^\s*[[(][^\])]*[\])]\s*/, ""); // 앞쪽 [..] / (..) 하나 제거
-    const parts = t.split(/\s[-–—]\s/);
-    let s = parts.length > 1 ? parts.slice(1).join(" - ") : t;
-    s = s.split(/[[(|ㅣ]|교차편집|stage\s*mix|4k|풀캠|직캠|fancam/i)[0];
-    s = s.replace(/["'"'`]/g, "").replace(/\s+/g, " ").trim();
-    return s.length >= 1 && s.length <= 40 ? s : null;
+    let t = (v.title || "")
+      .replace(/[‘’‛]/g, "'")
+      .replace(/[“”]/g, '"')
+      .replace(/＃/g, "#");
+    t = t.replace(/^\s*(?:[[(（【][^\])）】]*[\])）】]\s*)+/, ""); // 선행 태그 대괄호 제거
+    t = t
+      .replace(/^\s*\d{6,8}\s*/, "")
+      .replace(/^\s*\d{2,4}[./]\d{1,2}[./]\d{1,2}\s*/, ""); // 날짜 접두 제거
+
+    let cand = null;
+    const mq = t.match(/'([^']{1,45})'/);
+    if (mq && !GROUP_RX.test(mq[1]) && !/fancam|facecam|choreo|직캠|interview/i.test(mq[1])) {
+      cand = mq[1]; // 따옴표 곡명 우선
+    }
+    if (cand == null) {
+      const segs = t.split(/\s[-–—―]\s/).map((s) => s.trim()).filter(Boolean);
+      if (segs.length >= 2) {
+        const fg = GROUP_RX.test(segs[0]);
+        const sg = GROUP_RX.test(segs[1]);
+        cand = fg && !sg ? segs[1] : sg && !fg ? segs[0] : segs[1];
+      } else if (segs.length) {
+        cand = segs[0];
+      }
+    }
+    if (cand == null) return null;
+
+    for (const rx of [SONG_DELIM_RX, SONG_CUT_RX]) {
+      const m = cand.match(rx);
+      if (m) cand = cand.slice(0, m.index);
+    }
+
+    const mrx = memberRx();
+    let prev = null;
+    while (prev !== cand) {
+      prev = cand;
+      cand = cand.replace(SONG_EDGE_L, "").replace(SONG_EDGE_R, "");
+      cand = cand.replace(GROUP_RX, "");
+      const c2 = cand.replace(mrx, "");
+      if (c2 !== cand) cand = c2;
+    }
+    const m2 = cand.match(SONG_CUT_RX);
+    if (m2) cand = cand.slice(0, m2.index);
+    cand = cand.replace(/\((?:원곡|band\s*ver|feat)[^)]*\)?/gi, "");
+    cand = cand.replace(SONG_TRAIL_RX, "");
+    cand = cand.replace(/\s*([&+])\s*/g, " $1 ").replace(/\s+/g, " ");
+    cand = cand.replace(SONG_EDGE_L, "").replace(SONG_EDGE_R, "");
+
+    if (!cand || cand.length < 2 || cand.length > 40) return null;
+    if (GROUP_RX.test(cand)) return null;
+    if (/^[가-힣]{1,2}$/.test(cand)) return null;
+    const mm = cand.match(mrx);
+    if (mm && mm[0].length / cand.length > 0.6) return null;
+    if (SONG_STOP.has(cand.toLowerCase().replace(/[!?.,\s]+$/, ""))) return null;
+    if (!/[\p{L}\p{N}]/u.test(cand)) return null; // 문자/숫자 하나도 없으면(기호뿐) 버림
+    if (/^ep[.\s]/i.test(cand)) return null;
+    if (cand.split(/\s+/).length >= 5 && !/[+&]/.test(cand)) return null;
+    if (/[\u{1F000}-\u{1FAFF}☀-➿]/u.test(cand)) return null;
+
+    return SONG_CANON[cand.toLowerCase()] || cand;
   }
 
   const debounce = (fn, ms) => {
@@ -122,6 +218,7 @@
       cats: sel.cats ? [...sel.cats].sort() : null,
       year: sel.year || null,
       song: sel.song || null,
+      member: sel.member || null,
     });
   }
 
@@ -130,6 +227,7 @@
     if (sel.cats) list = list.filter((v) => sel.cats.includes(v.category));
     if (sel.year) list = list.filter((v) => yearOf(v) === sel.year);
     if (sel.song) list = list.filter((v) => songOf(v) === sel.song);
+    if (sel.member) list = list.filter((v) => (v.members || []).includes(sel.member));
     return list;
   }
 
@@ -143,13 +241,14 @@
 
   function titleFor(sel) {
     if (sel.song) return sel.song;
-    const base = sel.cat
+    let t = sel.cat
       ? catLabel(sel.cat)
       : sel.cats
       ? navGroupLabel(sel.cats) || "자체컨텐츠"
       : "";
-    if (sel.year) return base ? `${base} · ${sel.year}` : `${sel.year}년`;
-    return base || "전체";
+    if (sel.year) t = t ? `${t} · ${sel.year}` : `${sel.year}년`;
+    if (sel.member) t = t ? `${t} · ${memberName(sel.member)}` : memberName(sel.member);
+    return t || "전체";
   }
 
   /* ---------- URL 상태 ---------- */
@@ -161,13 +260,12 @@
     if (p.get("cats")) sel.cats = p.get("cats").split(",").filter(Boolean);
     if (p.get("year")) sel.year = p.get("year");
     if (p.get("song")) sel.song = p.get("song");
+    if (p.get("member")) sel.member = p.get("member");
     state.sel = sel;
-    state.member = p.get("member") || "all";
     state.sort = p.get("sort") || "newest";
     state.q = p.get("q") || "";
 
-    const hasSel = sel.cat || sel.cats || sel.year || sel.song || state.q ||
-      state.member !== "all";
+    const hasSel = sel.cat || sel.cats || sel.year || sel.song || sel.member || state.q;
     if (p.get("view") === "about") state.view = "about";
     else if (p.get("view") === "browse" || hasSel) state.view = "browse";
     else state.view = "about"; // 파라미터 없음 = 시작 페이지(소개)
@@ -183,7 +281,7 @@
       if (s.cats) p.set("cats", s.cats.join(","));
       if (s.year) p.set("year", s.year);
       if (s.song) p.set("song", s.song);
-      if (state.member !== "all") p.set("member", state.member);
+      if (s.member) p.set("member", s.member);
       if (state.sort !== "newest") p.set("sort", state.sort);
       if (state.q) p.set("q", state.q);
       if (![...p].length) p.set("view", "browse"); // 필터 없는 전체보기
@@ -223,8 +321,6 @@
     // 현재 선택이 속한 그룹의 2단 패널을 열어 둠
     state.subGroup = subGroupFor(state.sel);
 
-    buildMemberFilter();
-    el.sortSelect.value = state.sort;
     el.search.value = state.q;
 
     bindEvents();
@@ -253,9 +349,6 @@
 
   function filtered() {
     let list = applySel(state.videos, state.sel);
-
-    if (state.member !== "all")
-      list = list.filter((v) => v.members.includes(state.member));
 
     if (state.q) {
       const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
@@ -299,12 +392,21 @@
         const s = songOf(v);
         if (s) m.set(s, (m.get(s) || 0) + 1);
       }
-      for (const [s] of [...m.entries()].sort((a, b) => b[1] - a[1])) {
+      for (const [s, n] of [...m.entries()].sort((a, b) => b[1] - a[1])) {
+        if (n < 2) continue; // 1회성 제목(파싱 잡음·비무대 영상)은 서브메뉴에서 숨김
         kids.push({ label: s, sel: { ...(node.sel || {}), song: s } });
       }
+    } else if (node.subBy === "member") {
+      const current = state.members.filter((m) => m.id !== "all" && m.status !== "former");
+      const former = state.members
+        .filter((m) => m.status === "former")
+        .sort((a, b) => (b.left || "").localeCompare(a.left || "")); // 탈퇴 역순
+      for (const m of current) kids.push({ label: m.name, sel: { ...(node.sel || {}), member: m.id } });
+      if (current.length && former.length) kids.push({ divider: true });
+      for (const m of former) kids.push({ label: m.name, sel: { ...(node.sel || {}), member: m.id } });
     }
 
-    for (const k of kids) k.count = applySel(state.videos, k.sel).length;
+    for (const k of kids) if (k.sel) k.count = applySel(state.videos, k.sel).length;
     return kids;
   }
 
@@ -325,7 +427,7 @@
   function nodeContainsSel(node, sel) {
     const k = selKey(sel);
     if (node.sel && selKey(node.sel) !== selKey({}) && selKey(node.sel) === k) return true;
-    return childrenOf(node).some((c) => selKey(c.sel) === k);
+    return childrenOf(node).some((c) => c.sel && selKey(c.sel) === k);
   }
 
   function subGroupFor(sel) {
@@ -334,7 +436,7 @@
     for (const node of CFG.nav || []) {
       if (!isGroup(node)) continue;
       if (node.sel && selKey(node.sel) !== selKey({}) && selKey(node.sel) === k) return node.id;
-      if (childrenOf(node).some((c) => selKey(c.sel) === k)) return node.id;
+      if (childrenOf(node).some((c) => c.sel && selKey(c.sel) === k)) return node.id;
     }
     return null;
   }
@@ -392,6 +494,16 @@
       el.pane2Title.textContent = node.label;
       el.pane2List.innerHTML = "";
       for (const k of childrenOf(node)) {
+        if (k.divider) {
+          // 앞에 항목이 있을 때만 구분선(예: 현 멤버 ↔ 탈퇴 멤버)
+          if (el.pane2List.lastElementChild &&
+              el.pane2List.lastElementChild.tagName !== "HR") {
+            const hr = document.createElement("hr");
+            hr.className = "nav-sep";
+            el.pane2List.appendChild(hr);
+          }
+          continue;
+        }
         const isAll = node.withAll && selKey(k.sel) === selKey(node.sel);
         if (k.count === 0 && !isAll) continue;
         const cb = navBtn(k.label, k.count, {
@@ -400,6 +512,10 @@
         cb.classList.add("nav-lv2");
         cb.addEventListener("click", () => select(k.sel));
         el.pane2List.appendChild(cb);
+      }
+      if (el.pane2List.lastElementChild &&
+          el.pane2List.lastElementChild.tagName === "HR") {
+        el.pane2List.lastElementChild.remove(); // 꼬리 구분선 제거
       }
       el.nav.classList.add("at-sub");
     } else {
@@ -455,7 +571,6 @@
     el.content.innerHTML = "";
 
     const about = state.view === "about";
-    el.filterBar.hidden = about;
     el.topbarTitle.textContent = about ? "소개" : titleFor(state.sel);
     document.title = about
       ? "소개 · FLOVER-FLIX"
@@ -464,7 +579,6 @@
     if (about) renderAbout();
     else renderGrid();
 
-    syncMemberUI();
     paintIcons();
     if (!(opts && opts.keepScroll)) window.scrollTo(0, 0);
   }
@@ -475,9 +589,18 @@
     const head = document.createElement("div");
     head.className = "grid-head";
     head.innerHTML =
-      `<h2>${escapeHtml(titleFor(state.sel))}${
-        state.member !== "all" ? ` · ${escapeHtml(memberName(state.member))}` : ""
-      }</h2><span class="grid-count">${list.length.toLocaleString("ko")}개</span>`;
+      `<h2>${escapeHtml(titleFor(state.sel))}</h2>` +
+      `<span class="grid-count">${list.length.toLocaleString("ko")}개</span>` +
+      `<label class="sort-control">
+        <span>정렬</span>
+        <select id="sortSelect" aria-label="정렬 방식">
+          <option value="newest">최신 발행순</option>
+          <option value="added">추가된 순</option>
+          <option value="oldest">오래된순</option>
+          <option value="title">제목순</option>
+        </select>
+      </label>`;
+    head.querySelector("#sortSelect").value = state.sort;
     el.content.appendChild(head);
 
     if (!list.length) {
@@ -752,64 +875,6 @@
     } catch (e) {}
   }
 
-  /* ---------- 멤버 필터 ---------- */
-
-  function buildMemberFilter() {
-    el.memberFilter.innerHTML = "";
-
-    const mkChip = (id, label, cls) => {
-      const b = document.createElement("button");
-      b.className = "chip" + (cls ? " " + cls : "");
-      b.textContent = label;
-      b.dataset.member = id;
-      b.addEventListener("click", () => {
-        state.member = id;
-        state.limit = CFG.pageSize;
-        writeUrl();
-        buildNav();
-        render();
-      });
-      el.memberFilter.appendChild(b);
-      return b;
-    };
-
-    mkChip("all", "전원");
-    for (const m of state.members) {
-      if (m.id === "all" || m.status === "former") continue;
-      mkChip(m.id, m.name);
-    }
-
-    const former = state.members
-      .filter((m) => m.status === "former")
-      .sort((a, b) => (b.left || "").localeCompare(a.left || "")); // 탈퇴 역순
-
-    if (former.length) {
-      const t = document.createElement("button");
-      t.className = "chip chip-toggle";
-      t.type = "button";
-      t.innerHTML = state.membersExpanded
-        ? '<i data-lucide="minus"></i> 접기'
-        : `<i data-lucide="plus"></i> 그리고 ${former.length}`;
-      t.addEventListener("click", () => {
-        state.membersExpanded = !state.membersExpanded;
-        buildMemberFilter();
-        syncMemberUI();
-      });
-      el.memberFilter.appendChild(t);
-
-      for (const m of former) mkChip(m.id, m.name, "chip-former");
-    }
-
-    el.memberFilter.classList.toggle("expanded", !!state.membersExpanded);
-    paintIcons();
-  }
-
-  function syncMemberUI() {
-    el.memberFilter.querySelectorAll(".chip[data-member]").forEach((c) => {
-      c.classList.toggle("is-active", c.dataset.member === state.member);
-    });
-  }
-
   function goAbout() {
     state.view = "about";
     writeUrl();
@@ -821,10 +886,11 @@
   /* ---------- 이벤트 ---------- */
 
   function bindEvents() {
-    el.sortSelect.addEventListener("change", () => {
-      state.sort = el.sortSelect.value;
+    el.content.addEventListener("change", (e) => {
+      if (e.target.id !== "sortSelect") return;
+      state.sort = e.target.value;
       writeUrl();
-      render();
+      render({ keepScroll: true });
     });
 
     el.search.addEventListener(
@@ -885,7 +951,6 @@
 
     window.addEventListener("popstate", () => {
       readUrl();
-      el.sortSelect.value = state.sort;
       el.search.value = state.q;
       state.limit = CFG.pageSize;
       state.subGroup = subGroupFor(state.sel);
