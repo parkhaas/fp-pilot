@@ -52,6 +52,19 @@ jobs:
           echo "증분 수집 --since $SINCE"
           python crawlers/youtube_crawler.py --config crawlers/sources.json --out data --since "$SINCE"
 
+      - name: Guard against data loss
+        run: |
+          python - <<'PY'
+          import json, subprocess, sys
+          new = json.load(open("data/videos.json", encoding="utf-8"))["videos"]
+          old = json.loads(subprocess.check_output(["git", "show", "HEAD:data/videos.json"]))["videos"]
+          o, n = len(old), len(new)
+          print(f"videos: {o} -> {n}")
+          if o >= 50 and n < o * 0.9:
+              print(f"::error::영상 수 {o} → {n} 로 급감({n/o:.0%}). 증분 수집이 기존 데이터를 삭제한 것으로 보여 커밋을 중단합니다.")
+              sys.exit(1)
+          PY
+
       - name: Commit data changes
         run: |
           git config user.name  "flover-flix-bot"

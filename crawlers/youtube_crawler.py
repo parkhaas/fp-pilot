@@ -374,14 +374,12 @@ def main() -> None:
             candidates[vid] = (cfg.get("uploadsCategory", "auto"), [], {})
 
     incremental = bool(args.since)  # --since 가 있으면 정기(증분) 실행으로 간주
-    skipped_cats: set[str] = set()  # 이번 실행에서 생략된 소스의 category (기존 데이터 보존용)
 
     for pl in cfg.get("playlists", []):
         if not pl.get("id"):
             continue
         if incremental and pl.get("skipIncremental"):
             print(f"  [증분 생략] {pl.get('label') or pl['id']}")
-            skipped_cats.add(pl.get("category"))
             continue
         fspec = pl.get("filter") or shorthand(pl.get("filterKeywords"))
         try:
@@ -395,7 +393,6 @@ def main() -> None:
             continue
         if incremental and ex.get("skipIncremental"):
             print(f"  [증분 생략] {ex.get('label') or ex['playlistId']}")
-            skipped_cats.add(ex.get("category"))
             continue
         fspec = ex.get("filter") or shorthand(ex.get("filterKeywords"))
         try:
@@ -468,14 +465,24 @@ def main() -> None:
             }
         )
 
-    # 생략된 소스(skipIncremental)의 기존 영상은 그대로 유지
-    if skipped_cats:
-        seen = {r["videoId"] for r in records}
+    # 기존 영상 보존
+    #  - 증분(--since) 실행: 이번에 재수집되지 않은 기존 영상을 "모두" 유지한다.
+    #    (검색 범위가 좁아 예전 음악방송·직캠·쇼츠가 통째로 사라지는 사고 방지.
+    #     오래된 항목까지 훑는 전체 정리는 --since 없이 돌릴 때만 일어난다.)
+    #  - 전체(--since 없음) 실행: API 크롤러가 만들 수 없는 분류(shorts 등)만 유지한다.
+    API_UNSUPPORTED_CATS = {"shorts"}  # /shorts 탭은 yt-dlp 로만 수집 가능
+    seen = {r["videoId"] for r in records}
+    if incremental:
+        kept = [v for v in existing if v.get("videoId") and v["videoId"] not in seen]
+        keep_reason = "증분 실행"
+    else:
         kept = [v for v in existing
-                if v.get("category") in skipped_cats and v.get("videoId") not in seen]
-        if kept:
-            print(f"  생략 소스 기존 데이터 유지: {len(kept)}개")
-            records.extend(kept)
+                if v.get("videoId") and v["videoId"] not in seen
+                and v.get("category") in API_UNSUPPORTED_CATS]
+        keep_reason = "API 미수집 분류"
+    if kept:
+        print(f"  [{keep_reason}] 재수집 안 된 기존 영상 {len(kept)}개 유지")
+        records.extend(kept)
 
     records.sort(key=lambda r: (r["addedAt"] or "", r["publishedAt"] or ""), reverse=True)
 
