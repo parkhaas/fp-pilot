@@ -13,10 +13,10 @@
     videos: [],
     members: [],
     meta: {},
-    view: "about", // "browse" | "about" (파라미터 없이 접속하면 소개가 시작 페이지)
+    view: "about", // "browse" | "about" (파라미터 없이 접속하면 About.가 시작 페이지)
     sel: {}, // { cat?, cats?[], year?, song?, member? }
     subGroup: null, // 2단 드로어에서 열려 있는 그룹 id
-    chartBy: "category", // 소개 페이지 파이차트 기준: "category" | "year"
+    chartBy: "category", // About. 페이지 파이차트 기준: "category" | "year"
     sort: "newest", // 기본 정렬: 최신 발행순
     q: "",
     limit: CFG.pageSize,
@@ -268,13 +268,13 @@
     const hasSel = sel.cat || sel.cats || sel.year || sel.song || sel.member || state.q;
     if (p.get("view") === "about") state.view = "about";
     else if (p.get("view") === "browse" || hasSel) state.view = "browse";
-    else state.view = "about"; // 파라미터 없음 = 시작 페이지(소개)
+    else state.view = "about"; // 파라미터 없음 = 시작 페이지(About.)
   }
 
   function writeUrl(replace) {
     const p = new URLSearchParams();
     if (state.view === "about") {
-      // 파라미터 없는 "/" 가 곧 소개 페이지
+      // 파라미터 없는 "/" 가 곧 About. 페이지
     } else {
       const s = state.sel;
       if (s.cat) p.set("cat", s.cat);
@@ -573,7 +573,7 @@
     const about = state.view === "about";
     el.topbarTitle.textContent = about ? "소개" : titleFor(state.sel);
     document.title = about
-      ? "소개 · FLOVER-FLIX"
+      ? "About. · FLOVER-FLIX"
       : `${titleFor(state.sel)} · FLOVER-FLIX`;
 
     if (about) renderAbout();
