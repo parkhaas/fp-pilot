@@ -35,6 +35,7 @@
     hamburger: document.getElementById("hamburger"),
     drawerClose: document.getElementById("drawerClose"),
     drawerBackdrop: document.getElementById("drawerBackdrop"),
+    themeToggle: document.getElementById("themeToggle"),
     topbarTitle: document.getElementById("topbarTitle"),
     topbar: document.getElementById("topbar"),
     filterBar: document.getElementById("filterBar"),
@@ -50,6 +51,10 @@
     modalSub: document.getElementById("modalSub"),
     modalBadges: document.getElementById("modalBadges"),
     modalYtLink: document.getElementById("modalYtLink"),
+  };
+
+  const paintIcons = () => {
+    try { window.lucide && window.lucide.createIcons(); } catch (e) {}
   };
 
   /* ---------- 유틸 ---------- */
@@ -77,12 +82,6 @@
   const fmtDate = (iso) => {
     const p = kstParts(iso);
     return p ? `${p.year}.${p.month}.${p.day} ${p.hour}:${p.minute}` : "";
-  };
-
-  // About "마지막 업데이트"용: "YYYY.MM.DD HH:mm:ss KST"
-  const fmtDateTimeSec = (iso) => {
-    const p = kstParts(iso);
-    return p ? `${p.year}.${p.month}.${p.day} ${p.hour}:${p.minute}:${p.second} KST` : "―";
   };
 
   const catLabel = (id) => (CFG.catLabels && CFG.catLabels[id]) || id;
@@ -281,7 +280,6 @@
 
   /* ---------- 좌측 2단 내비게이션 ---------- */
 
-  // 노드의 하위 항목 목록 [{label, sel, count}]
   function childrenOf(node) {
     const scoped = applySel(state.videos, node.sel || {});
     const kids = [];
@@ -314,8 +312,7 @@
     return !node.divider && (node.children || node.subBy);
   }
 
-  // 2단 패널을 보여줄 가치가 있는가?  "전체" 를 뺀 실질 하위 항목이 2개 이상일 때만.
-  // (예: 이아이는요2 처럼 연도가 2026 하나뿐이면 패널 없이 바로 이동)
+  // 2단 패널을 보여줄 가치가 있는가? "전체" 를 뺀 실질 하위 항목이 2개 이상일 때만.
   function hasSub(node) {
     if (!isGroup(node)) return false;
     const real = childrenOf(node).filter((k) => {
@@ -327,13 +324,10 @@
 
   function nodeContainsSel(node, sel) {
     const k = selKey(sel);
-    // 그룹의 base sel 이 비어 있으면(예: "기간별 보기") 그 자체로는 선택 대상이 아님 —
-    // 실제 하위 항목이 일치할 때만 그룹을 활성 표시
     if (node.sel && selKey(node.sel) !== selKey({}) && selKey(node.sel) === k) return true;
     return childrenOf(node).some((c) => selKey(c.sel) === k);
   }
 
-  // 현재 선택을 포함하는 그룹 id (없으면 null) — 2단 드로어에서 열어 둘 패널
   function subGroupFor(sel) {
     const k = selKey(sel);
     if (k === selKey({})) return null;
@@ -354,7 +348,7 @@
     b.innerHTML =
       `<span class="nav-label">${escapeHtml(label)}</span>` +
       (count != null ? `<span class="nav-count">${count.toLocaleString("ko")}</span>` : "") +
-      (opts.drill ? '<span class="nav-drill" aria-hidden="true">›</span>' : "");
+      (opts.drill ? '<i data-lucide="chevron-right" class="nav-drill"></i>' : "");
     if (opts.active) b.classList.add("is-active");
     return b;
   }
@@ -411,10 +405,10 @@
     } else {
       el.nav.classList.remove("at-sub");
     }
+    paintIcons();
   }
 
   function openSub(node) {
-    // 하위 항목이 2개 이상일 때만 2단 패널을 띄우고, 아니면 바로 이동
     const showPanel = hasSub(node);
     state.subGroup = showPanel ? node.id : null;
 
@@ -422,7 +416,6 @@
     if (node.withAll && node.sel && Object.keys(node.sel).length) {
       target = { ...node.sel }; // 그룹의 "전체"
     } else if (node.subBy === "year") {
-      // 연도형(withAll 없음): 패널 있으면 올해, 없으면 유일한 연도
       const years = childrenOf(node).filter((k) => k.sel.year && k.count > 0);
       if (years.length) {
         const cur = String(new Date().getFullYear());
@@ -437,7 +430,7 @@
       render();
     }
     buildNav();
-    if (!showPanel) closeDrawer(); // 2단 패널이 없으면 일반 항목처럼 드로어를 닫음
+    if (!showPanel) closeDrawer();
   }
   function closeSub() {
     state.subGroup = null;
@@ -472,6 +465,7 @@
     else renderGrid();
 
     syncMemberUI();
+    paintIcons();
     if (!(opts && opts.keepScroll)) window.scrollTo(0, 0);
   }
 
@@ -483,7 +477,7 @@
     head.innerHTML =
       `<h2>${escapeHtml(titleFor(state.sel))}${
         state.member !== "all" ? ` · ${escapeHtml(memberName(state.member))}` : ""
-      }</h2><span class="count">${list.length.toLocaleString("ko")}개</span>`;
+      }</h2><span class="grid-count">${list.length.toLocaleString("ko")}개</span>`;
     el.content.appendChild(head);
 
     if (!list.length) {
@@ -508,6 +502,9 @@
     }
   }
 
+  const PLAY_SVG =
+    '<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
+
   function card(v) {
     const a = document.createElement("article");
     a.className = "card";
@@ -524,14 +521,14 @@
     a.innerHTML = `
       <div class="thumb">
         <img loading="lazy" src="${thumbUrl(v)}" alt="" />
-        <span class="play">▶</span>
+        <span class="play">${PLAY_SVG}</span>
         ${v.category === "shorts" ? '<span class="tag-shorts">SHORTS</span>' : ""}
       </div>
       <div class="card-body">
         <h3 class="card-title">${escapeHtml(v.title)}</h3>
         <p class="card-meta">
-          <span>${escapeHtml(v.channelTitle)}</span>
-          <span>${fmtDate(v.publishedAt)}</span>
+          <span class="card-chan">${escapeHtml(v.channelTitle)}</span>
+          <span class="card-date">${fmtDate(v.publishedAt)}</span>
         </p>
         ${badges ? `<div class="card-badges">${badges}</div>` : ""}
       </div>`;
@@ -563,10 +560,9 @@
     "#fca5a5", "#a0aec0",
   ];
 
-  // entries: [{label, value, sel?}] → 도넛 SVG + 범례 HTML
   function buildChart(entries) {
     const total = entries.reduce((s, e) => s + e.value, 0) || 1;
-    const R = 15.91549431; // 둘레 ≈ 100 → dasharray 를 백분율로 사용
+    const R = 15.91549431;
     let acc = 0;
     const segs = entries
       .map((e, i) => {
@@ -583,10 +579,10 @@
 
     const svg = `
       <svg class="donut" viewBox="0 0 42 42" role="img" aria-label="영상 통계 파이 그래프">
-        <circle cx="21" cy="21" r="${R}" fill="none" stroke="var(--line)" stroke-width="5.5" />
+        <circle class="donut-track" cx="21" cy="21" r="${R}" fill="none" stroke-width="5.5" />
         <g transform="rotate(-90 21 21)">${segs}</g>
-        <text x="21" y="20.2" text-anchor="middle" class="donut-total">${total.toLocaleString("ko")}</text>
-        <text x="21" y="24.4" text-anchor="middle" class="donut-cap">영상</text>
+        <text class="donut-total" x="21" y="20.2" text-anchor="middle">${total.toLocaleString("ko")}</text>
+        <text class="donut-unit" x="21" y="24.4" text-anchor="middle">영상</text>
       </svg>`;
 
     const legend = entries
@@ -598,16 +594,20 @@
             ? ` data-sel-cat="${escapeHtml(e.sel.cat)}"`
             : ` data-sel-year="${escapeHtml(e.sel.year)}"`
           : "";
-        return `<li${data}${e.sel ? ' class="lg-link" role="button" tabindex="0"' : ""}>
-          <span class="sw" style="background:${color}"></span>
-          <span class="lg-label">${escapeHtml(e.label)}</span>
-          <b>${e.value.toLocaleString("ko")}</b>
-          <span class="lg-pct">${pct}%</span>
+        const link = e.sel ? ' role="button" tabindex="0" class="is-link"' : "";
+        return `<li${data}${link}>
+          <span class="legend-dot" style="background:${color}"></span>
+          <span class="legend-label">${escapeHtml(e.label)}</span>
+          <b class="legend-val">${e.value.toLocaleString("ko")}</b>
+          <span class="legend-pct">${pct}%</span>
         </li>`;
       })
       .join("");
 
-    return `<div class="about-chart">${svg}<ul class="chart-legend">${legend}</ul></div>`;
+    return `<div class="chart">
+      ${svg}
+      <ul class="chart-legend">${legend}</ul>
+    </div>`;
   }
 
   function chartEntries() {
@@ -635,28 +635,33 @@
     const up = kstParts(state.meta.updatedAt);
     const gen = state.meta.generator || "―";
 
-    const toggle = `
-      <div class="chart-toggle" role="group" aria-label="통계 기준">
-        <button data-chart="category" class="${state.chartBy === "category" ? "is-active" : ""}">카테고리별</button>
-        <button data-chart="year" class="${state.chartBy === "year" ? "is-active" : ""}">연도별</button>
-      </div>`;
+    const tBtn = (k, label) =>
+      `<button data-chart="${k}" class="chart-toggle-btn${state.chartBy === k ? " is-active" : ""}">${label}</button>`;
+
+    const stat = (b, s) =>
+      `<div class="stat"><b>${b}</b><span>${s}</span></div>`;
 
     el.content.innerHTML = `
       <section class="about">
-        <h1>FLOVER-FLIX 소개</h1>
+        <h1 class="about-title">FLOVER-FLIX 소개</h1>
         <p class="about-lead">
           프로미스나인(fromis_9)의 영상을 한곳에서 모아보는 <strong>비영리 팬 아카이브</strong>입니다.
         </p>
 
         <div class="about-stats">
-          <div class="stat"><b>${total.toLocaleString("ko")}</b><span>영상</span></div>
-          <div class="stat"><b>${catN}</b><span>카테고리</span></div>
-          <div class="stat"><b>${up ? `${up.year}.${up.month}.${up.day}<span class="stat-time">${up.hour}:${up.minute}:${up.second} KST</span>` : "―"}</b><span>마지막 업데이트</span></div>
-          <div class="stat"><b>${escapeHtml(gen)}</b><span>수집 방식</span></div>
+          ${stat(total.toLocaleString("ko"), "영상")}
+          ${stat(catN, "카테고리")}
+          <div class="stat stat-time">
+            <b>${up ? `${up.year}.${up.month}.${up.day}<span>${up.hour}:${up.minute}:${up.second} KST</span>` : "―"}</b>
+            <span>마지막 업데이트</span>
+          </div>
+          ${stat(escapeHtml(gen), "수집 방식")}
         </div>
 
         <h2>영상 통계</h2>
-        ${toggle}
+        <div class="chart-toggle" role="group" aria-label="통계 기준">
+          ${tBtn("category", "카테고리별")}${tBtn("year", "연도별")}
+        </div>
         ${buildChart(chartEntries())}
 
         <h2>페이지 안내</h2>
@@ -675,7 +680,7 @@
 
         <h2>문의</h2>
         <p>버그 제보·영상 추가 요청은
-        <a href="${REPO_URL}/issues" target="_blank" rel="noopener noreferrer">GitHub 저장소</a>로 부탁드립니다.</p>
+        <a href="${REPO_URL}/issues" target="_blank" rel="noopener noreferrer" class="about-link">GitHub 저장소</a>로 부탁드립니다.</p>
 
         <p class="about-made">made with love, for flover</p>
       </section>`;
@@ -712,7 +717,8 @@
 
     el.modal.hidden = false;
     document.body.style.overflow = "hidden";
-    el.modal.querySelector(".modal-close").focus();
+    paintIcons();
+    el.modal.querySelector("[data-close]").focus();
   }
 
   function closeModal() {
@@ -721,6 +727,7 @@
     document.body.style.overflow = "";
     if (lastFocus) lastFocus.focus();
   }
+  const modalOpen = () => !el.modal.hidden;
 
   /* ---------- 드로어 ---------- */
 
@@ -733,6 +740,16 @@
     el.sidebar.classList.remove("is-open");
     el.drawerBackdrop.hidden = true;
     el.hamburger.setAttribute("aria-expanded", "false");
+  }
+
+  /* ---------- 테마 ---------- */
+
+  function toggleTheme() {
+    const dark = !document.documentElement.classList.contains("dark");
+    document.documentElement.classList.toggle("dark", dark);
+    try {
+      localStorage.setItem("ff-theme", dark ? "dark" : "light");
+    } catch (e) {}
   }
 
   /* ---------- 멤버 필터 ---------- */
@@ -770,7 +787,9 @@
       const t = document.createElement("button");
       t.className = "chip chip-toggle";
       t.type = "button";
-      t.textContent = state.membersExpanded ? "− 접기" : `+ 그리고 ${former.length}`;
+      t.innerHTML = state.membersExpanded
+        ? '<i data-lucide="minus"></i> 접기'
+        : `<i data-lucide="plus"></i> 그리고 ${former.length}`;
       t.addEventListener("click", () => {
         state.membersExpanded = !state.membersExpanded;
         buildMemberFilter();
@@ -782,6 +801,7 @@
     }
 
     el.memberFilter.classList.toggle("expanded", !!state.membersExpanded);
+    paintIcons();
   }
 
   function syncMemberUI() {
@@ -818,6 +838,8 @@
       }, 200)
     );
 
+    el.themeToggle.addEventListener("click", toggleTheme);
+
     document.addEventListener("click", (e) => {
       const aboutBtn = e.target.closest('[data-view="about"]');
       if (aboutBtn) {
@@ -828,6 +850,7 @@
       if (chartBtn) {
         state.chartBy = chartBtn.dataset.chart;
         renderAbout();
+        paintIcons();
         return;
       }
       const leg = e.target.closest("[data-sel-cat],[data-sel-year]");
@@ -851,11 +874,11 @@
     el.navBack.addEventListener("click", closeSub);
 
     el.modal.addEventListener("click", (e) => {
-      if (e.target.hasAttribute("data-close")) closeModal();
+      if (e.target.closest("[data-close]")) closeModal();
     });
     document.addEventListener("keydown", (e) => {
       if (e.key !== "Escape") return;
-      if (!el.modal.hidden) closeModal();
+      if (modalOpen()) closeModal();
       else if (el.nav.classList.contains("at-sub")) closeSub();
       else if (el.sidebar.classList.contains("is-open")) closeDrawer();
     });
@@ -886,4 +909,5 @@
   }
 
   init();
+  paintIcons();
 })();

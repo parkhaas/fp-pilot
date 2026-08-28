@@ -3,13 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#0b0b0f" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0a0a0a" />
   <title>FLOVER-FLIX · 프로미스나인 팬 아카이브</title>
   <meta name="description" content="프로미스나인(fromis_9)의 음악방송 · 직캠 · 자체콘텐츠를 한 곳에서 모아보는 비영리 팬 아카이브." />
   <link rel="icon" href="image/logo.svg" type="image/svg+xml" />
   <link rel="manifest" href="manifest.json" />
+
+  <!-- 테마: 시스템 설정 또는 저장값 (FOUC 방지) -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("ff-theme");
+        var d = t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.classList.toggle("dark", d);
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
   <div class="app">
     <!-- 좌측 플로팅 드로어 (1단 + 옆에 뜨는 2단) -->
@@ -20,21 +35,23 @@
             <img src="image/logo.svg" alt="" class="brand-mark" />
             <span class="brand-text">FLOVER<span class="brand-accent">-FLIX</span></span>
           </a>
-          <button class="drawer-close" id="drawerClose" aria-label="메뉴 닫기">✕</button>
+          <button class="icon-btn" id="drawerClose" aria-label="메뉴 닫기">
+            <i data-lucide="x"></i>
+          </button>
         </div>
 
-        <nav class="nav" id="navPane1" aria-label="카테고리"></nav>
+        <nav class="nav nice-scroll" id="navPane1" aria-label="카테고리"></nav>
 
         <div class="sidebar-foot">
           <button class="nav-item nav-about" data-view="about">
-            <span class="nav-ico">ⓘ</span> About.
+            <i data-lucide="info" class="nav-ico"></i><span class="nav-label">소개</span>
           </button>
           <p class="side-note">비영리 팬 아카이브<br />영상은 YouTube 임베드로만 제공</p>
         </div>
       </div>
 
-      <div class="drawer-panel drawer-secondary" id="navPane2" aria-label="하위 분류">
-        <button class="nav-back" id="navBack"><span aria-hidden="true">‹</span> 뒤로</button>
+      <div class="drawer-panel drawer-secondary nice-scroll" id="navPane2" aria-label="하위 분류">
+        <button class="nav-back" id="navBack"><i data-lucide="chevron-left"></i> 뒤로</button>
         <p class="nav-pane2-title" id="navPane2Title"></p>
         <div class="nav-pane2-list" id="navPane2List"></div>
       </div>
@@ -44,14 +61,21 @@
     <!-- 본문 -->
     <div class="main">
       <header class="topbar" id="topbar">
-        <button class="hamburger" id="hamburger" aria-label="메뉴 열기" aria-expanded="false">☰</button>
+        <button class="icon-btn hamburger" id="hamburger" aria-label="메뉴 열기" aria-expanded="false">
+          <i data-lucide="menu"></i>
+        </button>
         <h1 class="topbar-title" id="topbarTitle">홈</h1>
         <div class="search-box">
+          <i data-lucide="search" class="search-ico"></i>
           <input type="search" id="searchInput" placeholder="영상 검색…" autocomplete="off" aria-label="영상 검색" />
         </div>
+        <button class="icon-btn" id="themeToggle" aria-label="테마 전환">
+          <i data-lucide="sun" class="ico-light"></i>
+          <i data-lucide="moon" class="ico-dark"></i>
+        </button>
       </header>
 
-      <div class="filter-bar" id="filterBar">
+      <div class="filter-bar" id="filterBar" hidden>
         <div class="member-filter" id="memberFilter" role="group" aria-label="멤버 필터"></div>
         <label class="sort-control">
           <span>정렬</span>
@@ -70,7 +94,9 @@
 
       <footer class="site-footer">
         <p class="meta-line" id="metaLine"></p>
-        <button class="link-btn" data-view="about">사이트 소개 및 저작권 안내 →</button>
+        <button class="link-btn" data-view="about">
+          사이트 소개 및 저작권 안내 <i data-lucide="arrow-right"></i>
+        </button>
       </footer>
     </div>
   </div>
@@ -79,17 +105,20 @@
   <div class="modal" id="videoModal" hidden>
     <div class="modal-backdrop" data-close></div>
     <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-      <button class="modal-close" data-close aria-label="닫기">✕</button>
+      <button class="modal-close" data-close aria-label="닫기"><i data-lucide="x"></i></button>
       <div class="modal-player" id="modalPlayer"></div>
       <div class="modal-info">
         <h2 id="modalTitle"></h2>
         <p class="modal-sub" id="modalSub"></p>
         <div class="modal-badges" id="modalBadges"></div>
-        <a class="modal-yt" id="modalYtLink" target="_blank" rel="noopener noreferrer">YouTube에서 보기 ↗</a>
+        <a class="modal-yt" id="modalYtLink" target="_blank" rel="noopener noreferrer">
+          YouTube에서 보기 <i data-lucide="external-link"></i>
+        </a>
       </div>
     </div>
   </div>
 
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
   <script src="assets/js/config.js"></script>
   <script src="assets/js/app.js"></script>
 </body>
