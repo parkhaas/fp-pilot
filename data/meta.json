@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-30T04:54:54Z",
+  "updatedAt": "2026-08-30T16:29:22Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 1420,
+  "total": 1424,
   "counts": {
-    "shorts": 280,
+    "shorts": 284,
     "music_show": 563,
     "sp_beauty": 9,
     "pulmuone_ei2": 29,
