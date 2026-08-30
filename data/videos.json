@@ -1,6 +1,20 @@
 {
   "videos": [
     {
+      "id": "yt:av7ZRv6tx0s",
+      "videoId": "av7ZRv6tx0s",
+      "title": "How I’m different from the other members",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-08-30T04:54:50Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
       "id": "yt:nai0rjVFcPA",
       "videoId": "nai0rjVFcPA",
       "title": "[K-Fancam] 프로미스나인 이나경 'Vitamin ME' (fromis_9 LEENAGYUNG Fancam) @뮤직뱅크(Music Bank) 260731",
@@ -2636,7 +2650,7 @@
     {
       "id": "yt:YZxlSXQeVcA",
       "videoId": "YZxlSXQeVcA",
-      "title": "두쫀쿠는 증거를 남긴다",
+      "title": "Dutjonku Leaves Evidence",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -3645,7 +3659,7 @@
     {
       "id": "yt:ZJMljVrPfqQ",
       "videoId": "ZJMljVrPfqQ",
-      "title": "본방 사수해야함",
+      "title": "Must watch live",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
