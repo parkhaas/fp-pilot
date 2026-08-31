@@ -649,10 +649,8 @@
       </div>
       <div class="card-body">
         <h3 class="card-title">${escapeHtml(v.title)}</h3>
-        <p class="card-meta">
-          <span class="card-chan">${escapeHtml(v.channelTitle)}</span>
-          <span class="card-date">${fmtDate(v.publishedAt)}</span>
-        </p>
+        <p class="card-meta"><span class="card-date">${fmtDate(v.publishedAt)}</span></p>
+        <p class="card-meta"><span class="card-chan">${escapeHtml(v.channelTitle)}</span></p>
         ${badges ? `<div class="card-badges">${badges}</div>` : ""}
       </div>`;
 
