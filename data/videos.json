@@ -1,6 +1,20 @@
 {
   "videos": [
     {
+      "id": "yt:_ge-aj0zaY4",
+      "videoId": "_ge-aj0zaY4",
+      "title": "불냉면 하나로 건물 올린 맛집에서 알바하기 🔥ㅣ낙산냉면 알바ㅣ워크돌ㅣ프로미스나인 지원",
+      "category": "workdol",
+      "channelTitle": "워크맨-Workman",
+      "publishedAt": "2026-09-02T10:00:18Z",
+      "addedAt": "2026-09-02T16:22:49Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": "PT23M52S",
+      "source": "youtube"
+    },
+    {
       "id": "yt:8858eJORqsc",
       "videoId": "8858eJORqsc",
       "title": "I didn't realize I bought this much",
@@ -1866,7 +1880,7 @@
     {
       "id": "yt:uqtNLsEMDCY",
       "videoId": "uqtNLsEMDCY",
-      "title": "Today's first MC walking a tightrope",
+      "title": "ㄸ줄 타는 오늘의 첫MC",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -2132,7 +2146,7 @@
     {
       "id": "yt:K6m-Cp14kcQ",
       "videoId": "K6m-Cp14kcQ",
-      "title": "At this level, it's not cooking, it's talent.",
+      "title": "이 정도면 요리가 아니라 재능임",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -2538,13 +2552,14 @@
     {
       "id": "yt:TW3qeRB_ysY",
       "videoId": "TW3qeRB_ysY",
-      "title": "The Eggplant Fries That Won Baek Ji-heon Over (Song Ha-young's Recipe)",
+      "title": "백지헌이 반한 송하영 가지 튀김",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
       "addedAt": "2026-08-27T08:54:24Z",
       "members": [
-        "all"
+        "hayoung",
+        "jiheon"
       ],
       "duration": null,
       "source": "youtube"
@@ -2580,7 +2595,7 @@
     {
       "id": "yt:-z4XlLtRWA4",
       "videoId": "-z4XlLtRWA4",
-      "title": "They are such a perfect match",
+      "title": "진짜 잘 어울림",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -3463,13 +3478,13 @@
     {
       "id": "yt:w5UlIXf7j2U",
       "videoId": "w5UlIXf7j2U",
-      "title": "Lee Chaeyoung’s Fashion Tips: Take Notes!",
+      "title": "이채영 패션 꿀팁 메모메모",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
       "addedAt": "2026-08-27T08:54:24Z",
       "members": [
-        "chaeyoung"
+        "all"
       ],
       "duration": null,
       "source": "youtube"
@@ -3575,7 +3590,7 @@
     {
       "id": "yt:YiARJLCEwyE",
       "videoId": "YiARJLCEwyE",
-      "title": "The impact is crazy (positive)",
+      "title": "타격감 미쳤음(positive)",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -4233,14 +4248,13 @@
     {
       "id": "yt:jB9XxMIHrhU",
       "videoId": "jB9XxMIHrhU",
-      "title": "하영이랑 무인도갈 나경 구함",
+      "title": "Looking for Nakyoung to go to a deserted island with Hayoung",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
       "addedAt": "2026-08-27T08:54:24Z",
       "members": [
-        "hayoung",
-        "nagyung"
+        "hayoung"
       ],
       "duration": null,
       "source": "youtube"
