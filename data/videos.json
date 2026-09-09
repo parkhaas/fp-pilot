@@ -1,6 +1,21 @@
 {
   "videos": [
     {
+      "id": "yt:85EFhByGD1w",
+      "videoId": "85EFhByGD1w",
+      "title": "타코 팔랬더니 파티를 열어버림 🌮ㅣ신용산 타코집 알바ㅣ워크돌ㅣ프로미스나인 지원, 채영",
+      "category": "workdol",
+      "channelTitle": "워크맨-Workman",
+      "publishedAt": "2026-09-09T10:00:37Z",
+      "addedAt": "2026-09-09T16:21:54Z",
+      "members": [
+        "chaeyoung",
+        "jiwon"
+      ],
+      "duration": "PT22M29S",
+      "source": "youtube"
+    },
+    {
       "id": "yt:_ge-aj0zaY4",
       "videoId": "_ge-aj0zaY4",
       "title": "불냉면 하나로 건물 올린 맛집에서 알바하기 🔥ㅣ낙산냉면 알바ㅣ워크돌ㅣ프로미스나인 지원",
@@ -1432,7 +1447,7 @@
     {
       "id": "yt:nMmQm3oGM2o",
       "videoId": "nMmQm3oGM2o",
-      "title": "The first exercise my personal trainer had me do",
+      "title": "운동 선생님이 나경이에게 제일 먼저 시킨 운동",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -4205,7 +4220,7 @@
     {
       "id": "yt:ii06kEuR2kg",
       "videoId": "ii06kEuR2kg",
-      "title": "홍삼 그거 잘할 수 있는 데에",
+      "title": "I can totally do that red ginseng thing",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
