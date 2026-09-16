@@ -1,6 +1,20 @@
 {
   "videos": [
     {
+      "id": "yt:AnWZPML6i5E",
+      "videoId": "AnWZPML6i5E",
+      "title": "아이돌 그만하고 승무원으로 이직합니다 ✈️ ㅣ공항 지상직 알바ㅣ워크돌ㅣ프로미스나인 지원",
+      "category": "workdol",
+      "channelTitle": "워크맨-Workman",
+      "publishedAt": "2026-09-16T10:00:34Z",
+      "addedAt": "2026-09-16T16:36:23Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": "PT23M5S",
+      "source": "youtube"
+    },
+    {
       "id": "yt:85EFhByGD1w",
       "videoId": "85EFhByGD1w",
       "title": "[EN/JP] 타코 팔랬더니 파티를 열어버림 🌮ㅣ신용산 타코집 알바ㅣ워크돌ㅣ프로미스나인 지원, 채영",
@@ -1517,7 +1531,7 @@
     {
       "id": "yt:IbrZjUiWQeg",
       "videoId": "IbrZjUiWQeg",
-      "title": "Seriously, book a table right now",
+      "title": "진짜 바로 예약 갈겨",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -1531,7 +1545,7 @@
     {
       "id": "yt:HHaL8nrIf8k",
       "videoId": "HHaL8nrIf8k",
-      "title": "It only takes 3 seconds for Lee Na-kyung to get hired",
+      "title": "이나경이 입사까지 걸리는 시간 단 3초",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -1615,7 +1629,7 @@
     {
       "id": "yt:bFCyqykDcRg",
       "videoId": "bFCyqykDcRg",
-      "title": "😺Nyagyeong-i 🐶Namong-i",
+      "title": "😺냐경이 🐶나멍이",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -1643,7 +1657,7 @@
     {
       "id": "yt:fwEZ5Nh2U9c",
       "videoId": "fwEZ5Nh2U9c",
-      "title": "How Song Ha-young Finds Happiness",
+      "title": "송하영의 행복을 찾는 방법",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -1657,7 +1671,7 @@
     {
       "id": "yt:Zd6hUyRfrYo",
       "videoId": "Zd6hUyRfrYo",
-      "title": "I Can't Even Imagine How Much Fun They Had",
+      "title": "얼마나 즐겼을지 감도 안 옴",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -1685,7 +1699,7 @@
     {
       "id": "yt:zqWJFyOWfFg",
       "videoId": "zqWJFyOWfFg",
-      "title": "9 Years Into Their Idol Career, There’s a Reason They’re Still Loved",
+      "title": "아이돌 9년 차, 오래 사랑받는 이유가 있다",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -4458,7 +4472,7 @@
     {
       "id": "yt:MWv68VaWY7c",
       "videoId": "MWv68VaWY7c",
-      "title": "I never want to sleep again",
+      "title": "평생 자고 싶지 않아",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
