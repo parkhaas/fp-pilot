@@ -1,9 +1,23 @@
 {
   "videos": [
     {
+      "id": "yt:eEH-OeVTLnQ",
+      "videoId": "eEH-OeVTLnQ",
+      "title": "눈앞에 코스 요리가 있는데 먹지를 못하는 프로미스나인🥹",
+      "category": "sp_original",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-09-17T09:00:01Z",
+      "addedAt": "2026-09-17T16:42:25Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT18M59S",
+      "source": "youtube"
+    },
+    {
       "id": "yt:AnWZPML6i5E",
       "videoId": "AnWZPML6i5E",
-      "title": "아이돌 그만하고 승무원으로 이직합니다 ✈️ ㅣ공항 지상직 알바ㅣ워크돌ㅣ프로미스나인 지원",
+      "title": "[EN/JP] 아이돌 그만하고 승무원으로 이직합니다 ✈️ ㅣ공항 지상직 알바ㅣ워크돌ㅣ프로미스나인 지원",
       "category": "workdol",
       "channelTitle": "워크맨-Workman",
       "publishedAt": "2026-09-16T10:00:34Z",
@@ -1419,7 +1433,7 @@
     {
       "id": "yt:0CeiWuWwhQQ",
       "videoId": "0CeiWuWwhQQ",
-      "title": "찐텐이 나와",
+      "title": "Real tension hits",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -1433,7 +1447,7 @@
     {
       "id": "yt:y3-w9gHJXkY",
       "videoId": "y3-w9gHJXkY",
-      "title": "어머니 저 애기 되게 잘 봐요",
+      "title": "Ma'am, I'm really good with kids",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -1461,7 +1475,7 @@
     {
       "id": "yt:nMmQm3oGM2o",
       "videoId": "nMmQm3oGM2o",
-      "title": "운동 선생님이 나경이에게 제일 먼저 시킨 운동",
+      "title": "The first exercise my personal trainer had me do",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -2175,7 +2189,7 @@
     {
       "id": "yt:K6m-Cp14kcQ",
       "videoId": "K6m-Cp14kcQ",
-      "title": "이 정도면 요리가 아니라 재능임",
+      "title": "At this level, it's not cooking, it's talent.",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -2273,7 +2287,7 @@
     {
       "id": "yt:xtnmdHL_-jg",
       "videoId": "xtnmdHL_-jg",
-      "title": "단발로 컴백할 뻔한 이나경",
+      "title": "Lee Na-kyung, who almost made a comeback with short hair",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -2357,13 +2371,13 @@
     {
       "id": "yt:VjG-vYsKLEM",
       "videoId": "VjG-vYsKLEM",
-      "title": "위시리스트에만 추가하는 절제력 만렙 지헌",
+      "title": "Jiheon, the ultimate self-control user who only adds items to the wishlist",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
       "addedAt": "2026-08-27T08:54:24Z",
       "members": [
-        "all"
+        "jiheon"
       ],
       "duration": null,
       "source": "youtube"
@@ -2399,7 +2413,7 @@
     {
       "id": "yt:66t7FjyxA1c",
       "videoId": "66t7FjyxA1c",
-      "title": "편집자는 아츄! 내 맘에 꽃가루가 다니나봐",
+      "title": "The editor says, \"Achu! It looks like pollen is flying around in my heart.\"",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -2455,7 +2469,7 @@
     {
       "id": "yt:jJxU-azVIF8",
       "videoId": "jJxU-azVIF8",
-      "title": "우유 1L 아님",
+      "title": "Not 1L of milk",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -2679,7 +2693,7 @@
     {
       "id": "yt:myvP6W5077g",
       "videoId": "myvP6W5077g",
-      "title": "코쉐딩의 효과는 굉장했다",
+      "title": "The effect of nose contouring was incredible",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -2721,7 +2735,7 @@
     {
       "id": "yt:XVwpYg0ipRM",
       "videoId": "XVwpYg0ipRM",
-      "title": "넘넘 진지한데 좀 웃어도 될까",
+      "title": "It's so serious, can I laugh a little?",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -2791,7 +2805,7 @@
     {
       "id": "yt:sXmEmXMugYk",
       "videoId": "sXmEmXMugYk",
-      "title": "납세미 이것 뭐예요",
+      "title": "What is this 'napsemi'?",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -2904,7 +2918,7 @@
     {
       "id": "yt:aEnG9MhN2yA",
       "videoId": "aEnG9MhN2yA",
-      "title": "겨울 감성 OFF에서 ON 되는 순간 🍢",
+      "title": "The moment my winter mood switches from OFF to ON 🍢",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -2974,13 +2988,13 @@
     {
       "id": "yt:hu53lLSALKo",
       "videoId": "hu53lLSALKo",
-      "title": "생새우 먹방하는 이나경",
+      "title": "Lee Na-gyung eating live shrimp mukbang",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
       "addedAt": "2026-08-27T08:54:24Z",
       "members": [
-        "nagyung"
+        "all"
       ],
       "duration": null,
       "source": "youtube"
@@ -3366,7 +3380,7 @@
     {
       "id": "yt:T-yqyR4tCI4",
       "videoId": "T-yqyR4tCI4",
-      "title": "악건성 아침 세안법",
+      "title": "Morning cleansing routine for extremely dry skin",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -3394,7 +3408,7 @@
     {
       "id": "yt:MqQUmrAquMI",
       "videoId": "MqQUmrAquMI",
-      "title": "피부장벽:무너질게",
+      "title": "Skin Barrier: About to Collapse",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -3506,13 +3520,13 @@
     {
       "id": "yt:w5UlIXf7j2U",
       "videoId": "w5UlIXf7j2U",
-      "title": "이채영 패션 꿀팁 메모메모",
+      "title": "Lee Chaeyoung’s Fashion Tips: Take Notes!",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
       "addedAt": "2026-08-27T08:54:24Z",
       "members": [
-        "all"
+        "chaeyoung"
       ],
       "duration": null,
       "source": "youtube"
@@ -3702,7 +3716,7 @@
     {
       "id": "yt:rJ3qWSVM4kk",
       "videoId": "rJ3qWSVM4kk",
-      "title": "분위기 있게 향수 뿌리는 방법",
+      "title": "How to wear perfume with an elegant vibe",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -3758,7 +3772,7 @@
     {
       "id": "yt:ZJMljVrPfqQ",
       "videoId": "ZJMljVrPfqQ",
-      "title": "본방 사수해야함",
+      "title": "Must watch live",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -3884,7 +3898,7 @@
     {
       "id": "yt:GGuq6POP_B4",
       "videoId": "GGuq6POP_B4",
-      "title": "동생 립 뺏는 언니",
+      "title": "Older sister stealing her younger sister's lip gloss",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -3982,13 +3996,13 @@
     {
       "id": "yt:Idv2NVPWs48",
       "videoId": "Idv2NVPWs48",
-      "title": "송하영 콘서트 첫 연기 도전  ( only #shorts )",
+      "title": "Song Hayoung’s first attempt at acting at the concert #shorts",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
       "addedAt": "2026-08-27T08:54:24Z",
       "members": [
-        "all"
+        "hayoung"
       ],
       "duration": null,
       "source": "youtube"
@@ -4150,7 +4164,7 @@
     {
       "id": "yt:VW1SMsC0-lU",
       "videoId": "VW1SMsC0-lU",
-      "title": "The youngest sibling finally moved out on her own after 8 years",
+      "title": "8년 만에 독립에 성공한 막내",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -4178,7 +4192,7 @@
     {
       "id": "yt:hlvEyo3Vtrs",
       "videoId": "hlvEyo3Vtrs",
-      "title": "The Real Boss of fromis_9",
+      "title": "프로미스나인 실세",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -4234,7 +4248,7 @@
     {
       "id": "yt:ii06kEuR2kg",
       "videoId": "ii06kEuR2kg",
-      "title": "I can totally do that red ginseng thing",
+      "title": "홍삼 그거 잘할 수 있는 데에",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -4346,7 +4360,7 @@
     {
       "id": "yt:DgwwOEQTVBo",
       "videoId": "DgwwOEQTVBo",
-      "title": "Next time, I'm really cleaning out the closet",
+      "title": "다음에 진짜 옷장 털러 갑니다",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -4458,7 +4472,7 @@
     {
       "id": "yt:LQtJlMcheY4",
       "videoId": "LQtJlMcheY4",
-      "title": "If I crash, my bank account crashes too",
+      "title": "사고나면 내 통장도 사고 나는 거임",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,
@@ -4570,7 +4584,7 @@
     {
       "id": "yt:35-xastFMo4",
       "videoId": "35-xastFMo4",
-      "title": "So where do you buy this?",
+      "title": "그래서 이거 어디서 사?",
       "category": "shorts",
       "channelTitle": "",
       "publishedAt": null,

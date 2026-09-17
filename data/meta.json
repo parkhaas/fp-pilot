@@ -1,8 +1,9 @@
 {
-  "updatedAt": "2026-09-17T04:28:13Z",
+  "updatedAt": "2026-09-17T16:42:28Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 1427,
+  "total": 1428,
   "counts": {
+    "sp_original": 18,
     "workdol": 32,
     "shorts": 284,
     "music_show": 563,
@@ -13,7 +14,6 @@
     "plunen_idanjang": 82,
     "musinsa_seongsugi": 22,
     "sp_ch9": 128,
-    "sp_original": 17,
     "sp_corp": 3,
     "sp_vlog": 8,
     "sp_hayoung": 3,
