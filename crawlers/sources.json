@@ -11,7 +11,7 @@
   "playlists": [
     { "id": "PLwUBcVcUN10lm4sCOPiD7h1AAC8yA3Wf3", "category": "sp_original", "label": "스프 : 오리지널",  "members": [] },
     { "id": "PLwUBcVcUN10nanVuI5xnYKYZMvsNe66sE", "category": "sp_vlog",     "label": "스프 : 슾log",     "members": [] },
-    { "id": "PLwUBcVcUN10khLQIKVLmqfh0vCCR3mEMf", "category": "sp_game",     "label": "스프 : 게임할꼬",  "members": [] },
+    { "id": "PLwUBcVcUN10khLQIKVLmqfh0vCCR3mEMf", "category": "sp_game",     "label": "스프 : 게임할꼬",  "members": ["nagyung"] },
     { "id": "PLwUBcVcUN10nSR6mFn56nb9BbwRx0XX-x", "category": "sp_survive",  "label": "스프 : 살아남기",  "members": [] },
     { "id": "PLwUBcVcUN10nIx3JRmd-QjSyZWXd6cVsy", "category": "sp_beauty",   "label": "스프 : 뷰티&패션", "members": [] },
     { "id": "PLA7OSXHRo5-k",                       "category": "sp_corp",     "label": "스프 : 프나상사",  "members": [] },

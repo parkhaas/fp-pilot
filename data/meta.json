@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-21T01:50:25Z",
+  "updatedAt": "2026-09-21T01:58:19Z",
   "generator": "yt-dlp",
-  "total": 1546,
+  "total": 1551,
   "counts": {
+    "music_show": 576,
+    "sp_original": 23,
     "bangpan": 92,
     "kpan_ipdeok": 9,
-    "music_show": 571,
-    "sp_original": 23,
     "shorts": 289,
     "workdol": 32,
     "sp_beauty": 9,
@@ -14,14 +14,14 @@
     "stage_fancam": 215,
     "special_stage": 12,
     "plunen_idanjang": 82,
-    "musinsa_seongsugi": 22,
     "sp_ch9": 128,
-    "sp_corp": 3,
+    "musinsa_seongsugi": 22,
     "sp_vlog": 8,
+    "sp_game": 3,
+    "sp_survive": 7,
+    "sp_corp": 3,
     "sp_hayoung": 3,
     "sp_jiwon": 5,
-    "sp_chaeng": 4,
-    "sp_game": 3,
-    "sp_survive": 7
+    "sp_chaeng": 4
   }
 }

@@ -38,6 +38,8 @@ Shorts 판정 (길이로 판정하지 않음):
     youtube_crawler.py(API) 로 하고, 이 스크립트는 shorts 만(--only shorts) 얹습니다.
     부분 실행(--only 가 all 이 아님)에서 아무것도 못 긁으면 파일을 건드리지 않고 정상 종료합니다.
   - 기존 data/videos.json 과 병합합니다(addedAt 보존). API 데이터 위에 얹혀도 됩니다.
+  - flat 목록의 title/description 은 기본값이 YouTube 자동번역(영문)이라, extractor-args
+    로 youtube:lang=ko 를 강제합니다. 원본이 정말 영문인 채널(해외 팬캠 등)은 그대로 영문.
 """
 
 from __future__ import annotations
@@ -93,6 +95,7 @@ def ytdlp_flat(url: str, cap: int, retries: int = 2) -> list[dict]:
         sys.executable, "-m", "yt_dlp",
         "--flat-playlist", "--dump-single-json",
         "--extractor-args", "youtubetab:approximate_date",
+        "--extractor-args", "youtube:lang=ko",  # flat 목록의 제목·설명을 한글(원문)로 — 기본값은 영문 자동번역이 잡힘
         "--playlist-end", str(cap),
         "--no-warnings", "--ignore-errors",
         url,
