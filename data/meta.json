@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-21T04:26:36Z",
+  "updatedAt": "2026-09-21T18:06:57Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 1550,
+  "total": 1554,
   "counts": {
+    "shorts": 372,
     "music_show": 583,
-    "shorts": 368,
     "bangpan": 12,
     "kpan_ipdeok": 9,
     "sp_original": 18,
