@@ -43,7 +43,7 @@
       "playlistId": "PLOgyJF7ku-poV48gE-uXG-8vrL7NCZ1mp",
       "category": "musinsa_seongsugi",
       "label": "무신사 TV · 성수기 (프로미스나인 회차만)",
-      "filterKeywords": ["프로미스나인", "fromis", "프롬", "아홉"],
+      "filterKeywords": ["프로미스나인", "fromis", "프롬"],
       "_note": "새 시즌은 MC 가 프로미스나인이 아님 → 정기(증분) 크롤링에서는 생략",
       "skipIncremental": true
     },
@@ -126,6 +126,7 @@
 
   "_shortsNote": "Shorts 는 길이로 판정하지 않음. (1) shortsChannels = 채널 /shorts 탭 (2) --shorts-aspect = 3분 이내 후보를 /shorts/ 리다이렉트+세로비율로 확인. 키워드 검색은 Shorts 를 안 돌려줌(테스트 확인).",
   "shortsChannels": [
-    { "handle": "@studiofromis_9", "category": "shorts" }
+    { "handle": "@studiofromis_9", "category": "shorts" },
+    { "handle": "@bangpan_sonyeodeul", "category": "shorts" }
   ]
 }
