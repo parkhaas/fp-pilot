@@ -89,17 +89,17 @@ def dur_seconds(v) -> int:
     return ((d * 24 + h) * 60 + mi) * 60 + s
 
 
-def ytdlp_flat(url: str, cap: int, retries: int = 2) -> list[dict]:
-    """재생목록 / 채널 탭 / 채널내검색 을 flat 추출."""
+def _ytdlp_flat_once(url: str, cap: int, retries: int, lang: str | None) -> list[dict]:
     cmd = [
         sys.executable, "-m", "yt_dlp",
         "--flat-playlist", "--dump-single-json",
         "--extractor-args", "youtubetab:approximate_date",
-        "--extractor-args", "youtube:lang=ko",  # flat 목록의 제목·설명을 한글(원문)로 — 기본값은 영문 자동번역이 잡힘
         "--playlist-end", str(cap),
         "--no-warnings", "--ignore-errors",
-        url,
     ]
+    if lang:
+        cmd += ["--extractor-args", f"youtube:lang={lang}"]
+    cmd.append(url)
     last = ""
     for attempt in range(retries + 1):
         try:
@@ -126,6 +126,24 @@ def ytdlp_flat(url: str, cap: int, retries: int = 2) -> list[dict]:
         time.sleep(2 * (attempt + 1))
     print(f"[경고] 추출 실패: {url}\n  {last}", file=sys.stderr)
     return []
+
+
+def ytdlp_flat(url: str, cap: int, retries: int = 2) -> list[dict]:
+    """재생목록 / 채널 탭 / 채널내검색 을 flat 추출.
+
+    title/description 은 한글(lang=ko)로 받는다 — 기본값은 YouTube 자동번역(영문).
+    다만 approximate_date(상대시간 "N주 전" 문구 → timestamp 추정)는 yt-dlp 가 영문
+    상대시간 문구만 파싱할 수 있어(자체 한계), lang=ko 와 같이 쓰면 timestamp 가
+    전부 비어버린다. 그래서 필요하면 lang 없이 한 번 더 받아 timestamp 만 보충한다.
+    """
+    entries = _ytdlp_flat_once(url, cap, retries, lang="ko")
+    if entries and any(e.get("timestamp") is None for e in entries):
+        dated = _ytdlp_flat_once(url, cap, retries, lang=None)
+        ts_by_id = {e.get("id"): e.get("timestamp") for e in dated if e.get("id")}
+        for e in entries:
+            if e.get("timestamp") is None:
+                e["timestamp"] = ts_by_id.get(e.get("id"))
+    return entries
 
 
 # --------------------------------------------------------------------------- #
@@ -177,6 +195,32 @@ def classify(title: str, rules: dict) -> str:
         if any(k in t for k in rules.get(cat, [])):
             return cat
     return "variety_external"
+
+
+def fetch_timestamps(ids: list[str]) -> dict[str, int]:
+    """flat 목록에 상대시간 문구 자체가 없는 소스(Shorts 탭 등)는 timestamp 를
+    못 만든다. 그런 영상만 골라 영상별로 실제 게시 시각을 보충 조회한다(느림 —
+    날짜 없는 것만 호출할 것)."""
+    out: dict[str, int] = {}
+    for i in range(0, len(ids), 40):
+        chunk = ids[i:i + 40]
+        cmd = [sys.executable, "-m", "yt_dlp", "--skip-download", "--no-warnings",
+               "--ignore-errors", "--print", "%(id)s\t%(timestamp)s"]
+        cmd += [f"https://www.youtube.com/watch?v={v}" for v in chunk]
+        try:
+            res = subprocess.run(cmd, capture_output=True, text=True,
+                                 encoding="utf-8", timeout=600)
+        except subprocess.TimeoutExpired:
+            continue
+        for line in (res.stdout or "").splitlines():
+            parts = line.strip().split("\t")
+            if len(parts) == 2 and parts[1] not in ("", "NA"):
+                try:
+                    out[parts[0]] = int(parts[1])
+                except ValueError:
+                    pass
+        print(f"  게시일 보충 조회: {i + len(chunk)}/{len(ids)}")
+    return out
 
 
 def fetch_portrait_ids(ids: list[str]) -> set[str]:
@@ -375,7 +419,10 @@ def main() -> None:
         if not passes(e, fspec):
             dropped += 1
             continue
-        title = e.get("title") or "(제목 없음)"
+        title = (e.get("title") or "").strip()
+        if not title:  # 비공개/삭제 등으로 제목을 못 얻은 영상 — 저장하지 않고 건너뜀
+            dropped += 1
+            continue
         dur = dur_seconds(e.get("duration"))
         if is_short_url(e):                       # 신호 #1: YouTube 분류가 Shorts
             category = "shorts"
@@ -390,12 +437,22 @@ def main() -> None:
             "title": title,
             "category": category,
             "channelTitle": e.get("channel") or e.get("uploader") or "",
-            "publishedAt": ts_to_iso(e.get("timestamp")),
+            "publishedAt": ts_to_iso(e.get("timestamp")) or (prev.get("publishedAt") if prev else None),
             "addedAt": prev["addedAt"] if prev and prev.get("addedAt") else ts,
             "members": detect_members(title, members, def_mem),
             "duration": e.get("duration"),
             "source": "youtube",
         })
+
+    # 3.4) 게시일 보충 — Shorts 탭 등 flat 목록에 상대시간 문구가 아예 없는 소스는
+    #      publishedAt 이 비게 되므로, 날짜 없는 것만 영상별로 실제 게시일 조회.
+    missing = [r["videoId"] for r in records if not r["publishedAt"]]
+    if missing:
+        print(f"게시일 보충 대상: {len(missing)}개")
+        ts_map = fetch_timestamps(missing)
+        for r in records:
+            if not r["publishedAt"] and r["videoId"] in ts_map:
+                r["publishedAt"] = ts_to_iso(ts_map[r["videoId"]])
 
     # 3.5) --shorts-aspect (opt-in): shorts 아닌 3분 이내 후보를
     #   (a) youtube.com/shorts/<id> 리다이렉트로 확인(신호 #2, 빠름) → Shorts 면 재분류
