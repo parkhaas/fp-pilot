@@ -52,6 +52,17 @@
       "category": "plunen_idanjang",
       "label": "플루넨 · 이단장 (이채영, e스포츠)",
       "members": ["chaeyoung"]
+    },
+    {
+      "playlistId": "UUEuVdpLKSyjQLFRT1kWd_4A",
+      "category": "bangpan",
+      "label": "방판소녀들 (@bangpan_sonyeodeul 채널 전체)"
+    },
+    {
+      "playlistId": "PL1w6LtN-WoruKKKUE4f4K-VOIWlRf-NuF",
+      "category": "kpan_ipdeok",
+      "label": "LG전자 · K판 입덕투어 (프로미스나인 회차만, 시즌2~)",
+      "filterKeywords": ["프로미스나인", "fromis"]
     }
   ],
 

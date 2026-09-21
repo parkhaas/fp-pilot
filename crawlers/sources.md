@@ -328,7 +328,7 @@ python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --sho
 
 - **메인 채널**: `@studiofromis_9` (`includeUploads: false`)
 - **playlists** (자체콘텐츠 9종): 스프 오리지널/슾log/게임할꼬/살아남기/뷰티&패션/프나상사/하냥카세/젼메추/챙그랑
-- **extraChannels**: 워크돌(`filterKeywords:["프로미스나인"]`) · 채널나인 · 이아이는요2 · 성수기(`skipIncremental`) · 이단장
+- **extraChannels**: 워크돌(`filterKeywords:["프로미스나인"]`) · 채널나인 · 이아이는요2 · 성수기(`skipIncremental`) · 이단장 · 방판소녀들 · K판 입덕투어(`filterKeywords`)
 - **search**: 방송무대(KBS·MBC·SBS·Mnet) · 직캠(M2·STUDIO CHOOM) · 스페셜(딩고·퍼스트테이크)
 - **shortsChannels**: `@studiofromis_9` (`@fromis_9` 은 쇼츠 탭 없어 제외)
 - `searchPublishedAfter`: `2018-01-01`
