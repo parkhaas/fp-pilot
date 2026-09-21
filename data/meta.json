@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-21T02:55:07Z",
-  "generator": "yt-dlp",
+  "updatedAt": "2026-09-21T04:26:36Z",
+  "generator": "youtube-api + yt-dlp(shorts)",
   "total": 1550,
   "counts": {
     "music_show": 583,
@@ -19,8 +19,8 @@
     "sp_corp": 3,
     "sp_vlog": 8,
     "sp_hayoung": 3,
-    "sp_jiwon": 5,
     "sp_chaeng": 4,
+    "sp_jiwon": 5,
     "sp_game": 3,
     "sp_survive": 7
   }
