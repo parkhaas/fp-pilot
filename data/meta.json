@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-23T04:19:18Z",
+  "updatedAt": "2026-09-23T16:36:53Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 1554,
+  "total": 1555,
   "counts": {
+    "workdol": 33,
     "shorts": 372,
     "music_show": 583,
     "bangpan": 12,
     "kpan_ipdeok": 9,
     "sp_original": 18,
-    "workdol": 32,
     "sp_beauty": 8,
     "stage_fancam": 216,
     "special_stage": 12,
