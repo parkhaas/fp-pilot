@@ -23,5 +23,13 @@
     "sp_jiwon": 5,
     "sp_game": 3,
     "sp_survive": 7
-  }
+  },
+  "history": [
+    {
+      "timestamp": "2026-09-27T16:46:54Z",
+      "total": 1569,
+      "added": 0,
+      "delta": {}
+    }
+  ]
 }

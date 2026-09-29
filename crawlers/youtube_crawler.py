@@ -490,15 +490,50 @@ def main() -> None:
     for r in records:
         counts[r["category"]] = counts.get(r["category"], 0) + 1
 
+    # 기존 meta.json 읽기 (history 유지용)
+    meta_path = out_dir / "meta.json"
+    existing_meta = {}
+    if meta_path.exists():
+        try:
+            existing_meta = json.loads(meta_path.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
+    # history 관리: 영상 증가분이 있을 때만 기록
+    history = existing_meta.get("history", [])
+    prev_total = existing_meta.get("total", 0)
+    new_total = len(records)
+    added_count = new_total - prev_total
+
+    if added_count > 0:
+        # 이번에 추가된 영상들의 카테고리별 통계 계산
+        added_videos = [r for r in records if r["addedAt"] == ts]
+        delta: dict[str, int] = {}
+        for v in added_videos:
+            delta[v["category"]] = delta.get(v["category"], 0) + 1
+
+        # history에 항목 추가 (최대 100개 유지)
+        history.append({
+            "timestamp": ts,
+            "total": new_total,
+            "added": added_count,
+            "delta": delta,
+        })
+        if len(history) > 100:
+            history = history[-100:]  # 최근 100개만 유지
+
     meta = {
         "updatedAt": ts,
         "generator": "youtube-api",
-        "total": len(records),
+        "total": new_total,
         "counts": counts,
+        "history": history,
     }
 
     print(f"수집 {len(records)}개 / 제외 {skipped}개 / 필터 제외 {skipped_filter}개 / 신규 "
           f"{sum(1 for r in records if r['addedAt'] == ts)}개")
+    if added_count > 0:
+        print(f"이력 기록: +{added_count}개 (누계 {new_total}개)")
     print("카테고리:", json.dumps(counts, ensure_ascii=False))
 
     if args.dry_run:

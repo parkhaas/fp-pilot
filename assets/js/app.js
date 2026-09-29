@@ -579,6 +579,7 @@
     if (about) renderAbout();
     else renderGrid();
 
+    if (about) paintHistoryChart();
     paintIcons();
     if (!(opts && opts.keepScroll)) window.scrollTo(0, 0);
   }
@@ -749,6 +750,184 @@
       .map((c) => ({ label: catLabel(c), value: counts[c], sel: { cat: c } }));
   }
 
+  function getTopCategory(delta) {
+    let maxCat = null, maxCount = 0;
+    for (const [cat, count] of Object.entries(delta || {})) {
+      if (count > maxCount) {
+        maxCount = count;
+        maxCat = cat;
+      }
+    }
+    return maxCat;
+  }
+
+  function paintHistoryChart() {
+    const svg = document.getElementById("historyChart");
+    if (!svg) return;
+
+    const history = state.meta.history || [];
+    const displayCount = Math.min(5, history.length);
+    const displayData = history.slice(-displayCount);
+
+    if (displayData.length < 2) return;
+
+    const padding = { top: 30, right: 40, bottom: 50, left: 60 };
+    const chartWidth = 600 - padding.left - padding.right;
+    const chartHeight = 280 - padding.top - padding.bottom;
+
+    const minTotal = Math.min(...displayData.map(d => d.total));
+    const maxTotal = Math.max(...displayData.map(d => d.total));
+    const range = maxTotal - minTotal || 1;
+
+    const points = displayData.map((d, i) => {
+      const x = padding.left + (chartWidth * i / (displayData.length - 1 || 1));
+      const y = padding.top + chartHeight - (chartHeight * (d.total - minTotal) / range);
+      return { x, y, ...d };
+    });
+
+    svg.innerHTML = "";
+
+    const ns = "http://www.w3.org/2000/svg";
+    const gridColor = getComputedStyle(document.documentElement).getPropertyValue("--border").trim();
+    const textColor = getComputedStyle(document.documentElement).getPropertyValue("--text-3").trim();
+    const brandColor = getComputedStyle(document.documentElement).getPropertyValue("--brand").trim();
+    const surfaceColor = getComputedStyle(document.documentElement).getPropertyValue("--surface").trim();
+
+    for (let i = 0; i <= 4; i++) {
+      const y = padding.top + (chartHeight * i / 4);
+      const val = maxTotal - (range * i / 4);
+
+      const line = document.createElementNS(ns, "line");
+      line.setAttribute("x1", padding.left);
+      line.setAttribute("y1", y);
+      line.setAttribute("x2", 600 - padding.right);
+      line.setAttribute("y2", y);
+      line.setAttribute("stroke", gridColor);
+      line.setAttribute("stroke-width", "1");
+      line.setAttribute("stroke-dasharray", "4,4");
+      svg.appendChild(line);
+
+      const label = document.createElementNS(ns, "text");
+      label.setAttribute("x", padding.left - 15);
+      label.setAttribute("y", y);
+      label.setAttribute("fill", textColor);
+      label.setAttribute("font-size", "13");
+      label.setAttribute("text-anchor", "middle");
+      label.setAttribute("dominant-baseline", "middle");
+      label.textContent = Math.round(val).toLocaleString("ko");
+      svg.appendChild(label);
+    }
+
+    const axisX = document.createElementNS(ns, "line");
+    axisX.setAttribute("x1", padding.left);
+    axisX.setAttribute("y1", padding.top + chartHeight);
+    axisX.setAttribute("x2", 600 - padding.right);
+    axisX.setAttribute("y2", padding.top + chartHeight);
+    axisX.setAttribute("stroke", textColor);
+    axisX.setAttribute("stroke-width", "1");
+    svg.appendChild(axisX);
+
+    const axisY = document.createElementNS(ns, "line");
+    axisY.setAttribute("x1", padding.left);
+    axisY.setAttribute("y1", padding.top);
+    axisY.setAttribute("x2", padding.left);
+    axisY.setAttribute("y2", padding.top + chartHeight);
+    axisY.setAttribute("stroke", textColor);
+    axisY.setAttribute("stroke-width", "1");
+    svg.appendChild(axisY);
+
+    const polyline = document.createElementNS(ns, "polyline");
+    polyline.setAttribute("points", points.map(p => `${p.x},${p.y}`).join(" "));
+    polyline.setAttribute("fill", "none");
+    polyline.setAttribute("stroke", brandColor);
+    polyline.setAttribute("stroke-width", "2");
+    polyline.setAttribute("stroke-linecap", "round");
+    polyline.setAttribute("stroke-linejoin", "round");
+    svg.appendChild(polyline);
+
+    points.forEach((p, i) => {
+      const circle = document.createElementNS(ns, "circle");
+      circle.setAttribute("cx", p.x);
+      circle.setAttribute("cy", p.y);
+      circle.setAttribute("r", "4");
+      circle.setAttribute("fill", surfaceColor);
+      circle.setAttribute("stroke", brandColor);
+      circle.setAttribute("stroke-width", "2");
+      svg.appendChild(circle);
+
+      const dateStr = p.timestamp.slice(5, 10);
+      const label = document.createElementNS(ns, "text");
+      label.setAttribute("x", p.x);
+      label.setAttribute("y", padding.top + chartHeight + 30);
+      label.setAttribute("fill", textColor);
+      label.setAttribute("font-size", "13");
+      label.setAttribute("text-anchor", "middle");
+      label.setAttribute("dominant-baseline", "middle");
+      label.textContent = dateStr;
+      svg.appendChild(label);
+    });
+  }
+
+  function buildHistoryChart() {
+    const history = state.meta.history || [];
+    if (!history.length || history.length < 2) {
+      return "";
+    }
+
+    const displayCount = Math.min(5, history.length);
+    const displayData = history.slice(-displayCount);
+    const latest = displayData[displayData.length - 1] || {};
+
+    const topCat = getTopCategory(latest.delta);
+
+    // 최근 수집 카테고리별 통계
+    const deltaHtml = Object.entries(latest.delta || {})
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 5)
+      .map(([cat, count]) => {
+        const label = catLabel(cat);
+        return `<div class="delta-card"><b>${label}</b><br />${count}</div>`;
+      }).join("");
+
+    // 이력 테이블
+    const tableHtml = displayData.slice().reverse().map(item => {
+      const topItemCat = getTopCategory(item.delta);
+      const catList = Object.entries(item.delta || {})
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 3)
+        .map(([cat, count]) => `${catLabel(cat)}(${count})`)
+        .join(", ");
+
+      const ts = item.timestamp.slice(0, 10);
+      return `
+        <tr>
+          <td>${ts}</td>
+          <td>+${item.added}</td>
+          <td>${item.total.toLocaleString("ko")}</td>
+          <td style="font-size: 0.8rem; color: var(--text-3);">${catList}</td>
+        </tr>`;
+    }).join("");
+
+    return `
+      <div class="history-chart-wrapper" id="historyChartWrapper">
+        <h2>영상 수집 추이</h2>
+        <p style="color: var(--text-3); font-size: 0.9rem;">최근 ${displayCount}회 수집 시점별 영상 개수</p>
+        <svg class="history-chart" id="historyChart" viewBox="0 0 600 280"></svg>
+        <table class="history-table">
+          <thead>
+            <tr>
+              <th>날짜</th>
+              <th>추가</th>
+              <th>합계</th>
+              <th>상위 카테고리</th>
+            </tr>
+          </thead>
+          <tbody>${tableHtml}</tbody>
+        </table>
+        ${history.length > displayCount ? `<button class="history-expand-btn" id="historyExpandBtn">더 보기 (전체 ${history.length}회)</button>` : ""}
+      </div>`;
+  }
+
   function renderAbout() {
     const counts = catCounts();
     const total = state.videos.length;
@@ -784,6 +963,8 @@
           ${tBtn("category", "카테고리별")}${tBtn("year", "연도별")}
         </div>
         ${buildChart(chartEntries())}
+
+        ${buildHistoryChart()}
 
         <h2>페이지 안내</h2>
         <p>이 페이지는 <strong>수익을 목적으로 하지 않으며</strong>, 광고를 넣을 계획이 없습니다.
