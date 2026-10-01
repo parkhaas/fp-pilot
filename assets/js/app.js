@@ -567,6 +567,7 @@
   /* ---------- 렌더 ---------- */
 
   function render(opts) {
+    stopScrollObs();
     el.loading?.remove();
     el.content.innerHTML = "";
 
@@ -576,12 +577,9 @@
       ? "About. · FLOVER-FLIX"
       : `${titleFor(state.sel)} · FLOVER-FLIX`;
 
-    if (about) {
-      renderAbout();
-      openDrawer(); // About 페이지에서 drawer 항상 표시
-    } else {
-      renderGrid();
-    }
+    document.body.classList.toggle("is-about", about); // 넓은 화면의 About 에서는 사이드바 고정(CSS)
+    if (about) renderAbout();
+    else renderGrid();
 
     if (about) paintHistoryChart();
     paintIcons();
@@ -618,16 +616,37 @@
     list.slice(0, state.limit).forEach((v) => grid.appendChild(card(v)));
     el.content.appendChild(grid);
 
+    // 무한 스크롤: 바닥 센티널이 화면 근처에 오면 다음 묶음을 이어 붙인다
     if (list.length > state.limit) {
-      const more = document.createElement("button");
-      more.className = "load-more";
-      more.textContent = `더 보기 (${(list.length - state.limit).toLocaleString("ko")}개 남음)`;
-      more.addEventListener("click", () => {
-        state.limit += CFG.pageSize;
-        render({ keepScroll: true });
-      });
-      el.content.appendChild(more);
+      const sentinel = document.createElement("div");
+      sentinel.className = "scroll-sentinel";
+      el.content.appendChild(sentinel);
+
+      scrollObs = new IntersectionObserver(
+        (entries) => {
+          if (!entries.some((e) => e.isIntersecting)) return;
+          const next = list.slice(state.limit, state.limit + CFG.pageSize);
+          next.forEach((v) => grid.appendChild(card(v)));
+          state.limit += next.length;
+          if (state.limit >= list.length) {
+            stopScrollObs();
+            sentinel.remove();
+          } else {
+            // 센티널이 아직 화면 안이면 콜백이 다시 오지 않으므로 재관찰로 다음 묶음을 이어서 채운다
+            scrollObs.unobserve(sentinel);
+            scrollObs.observe(sentinel);
+          }
+        },
+        { rootMargin: "800px 0px" }
+      );
+      scrollObs.observe(sentinel);
     }
+  }
+
+  let scrollObs = null;
+  function stopScrollObs() {
+    if (scrollObs) scrollObs.disconnect();
+    scrollObs = null;
   }
 
   const PLAY_SVG =
@@ -939,6 +958,14 @@
     const up = kstParts(state.meta.updatedAt);
     const gen = state.meta.generator || "―";
 
+    // 마지막 업데이트에서 추가된 영상 수: 마지막 history 항목이 이번 수집(2시간 이내)에 속할 때만 센다
+    const lastH = (state.meta.history || []).slice(-1)[0];
+    const addedNow =
+      lastH && state.meta.updatedAt &&
+      Date.parse(state.meta.updatedAt) - Date.parse(lastH.timestamp) <= 2 * 3600 * 1000
+        ? lastH.added || 0
+        : 0;
+
     const tBtn = (k, label) =>
       `<button data-chart="${k}" class="chart-toggle-btn${state.chartBy === k ? " is-active" : ""}">${label}</button>`;
 
@@ -957,7 +984,7 @@
           ${stat(catN, "카테고리")}
           <div class="stat stat-time">
             <b>${up ? `${up.year}.${up.month}.${up.day}<span>${up.hour}:${up.minute}:${up.second} KST</span>` : "―"}</b>
-            <span>마지막 업데이트</span>
+            <span>마지막 업데이트<em class="stat-added${addedNow ? " has-new" : ""}">+${addedNow.toLocaleString("ko")}</em></span>
           </div>
           ${stat(escapeHtml(gen), "수집 방식")}
         </div>

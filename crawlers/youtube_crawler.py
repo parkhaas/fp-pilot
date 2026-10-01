@@ -484,6 +484,19 @@ def main() -> None:
         print(f"  [{keep_reason}] 재수집 안 된 기존 영상 {len(kept)}개 유지")
         records.extend(kept)
 
+    # 날짜(publishedAt) 누락 영상은 videos.list(id 지정, 50개당 쿼터 1)로 재조회해 채운다
+    by_id = {r["videoId"]: r for r in records}
+    missing = [vid for vid, r in by_id.items() if not r.get("publishedAt")]
+    if missing:
+        got = fetch_details(missing, args.api_key)
+        fixed = 0
+        for vid in missing:
+            pub = got.get(vid, {}).get("snippet", {}).get("publishedAt")
+            if pub:
+                by_id[vid]["publishedAt"] = pub
+                fixed += 1
+        print(f"  [날짜 보정] 누락 {len(missing)}개 중 {fixed}개 채움")
+
     records.sort(key=lambda r: (r["addedAt"] or "", r["publishedAt"] or ""), reverse=True)
 
     counts: dict[str, int] = {}
@@ -501,13 +514,16 @@ def main() -> None:
 
     # history 관리: 영상 증가분이 있을 때만 기록
     history = existing_meta.get("history", [])
-    prev_total = existing_meta.get("total", 0)
+    if not history and existing_meta.get("total"):
+        # 이력이 비어 있으면 직전 상태를 기준점으로 삼아 첫 증가부터 추이가 그려지게 한다
+        history = [{"timestamp": existing_meta.get("updatedAt", ts),
+                    "total": existing_meta["total"], "added": 0, "delta": {}}]
     new_total = len(records)
-    added_count = new_total - prev_total
+    added_videos = [r for r in records if r["addedAt"] == ts]
+    added_count = len(added_videos)
 
-    if added_count > 0:
+    if added_videos:
         # 이번에 추가된 영상들의 카테고리별 통계 계산
-        added_videos = [r for r in records if r["addedAt"] == ts]
         delta: dict[str, int] = {}
         for v in added_videos:
             delta[v["category"]] = delta.get(v["category"], 0) + 1

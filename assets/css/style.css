@@ -399,6 +399,17 @@ html.dark #themeToggle .ico-dark { display: block; }
   gap: 2px;
 }
 
+body.is-about .site-footer .link-btn { display: none; }
+
+/* 넓은 화면의 About.: 사이드바를 항상 고정 노출하고 본문을 옆으로 민다 */
+@media (min-width: 960px) {
+  body.is-about .sidebar { transform: none; pointer-events: auto; }
+  body.is-about .main { margin-left: 264px; }
+  body.is-about #hamburger,
+  body.is-about #drawerClose { display: none; }
+  body.is-about .drawer-backdrop { display: none !important; }
+}
+
 .drawer-backdrop {
   position: fixed;
   inset: 0;
@@ -428,14 +439,13 @@ html.dark #themeToggle .ico-dark { display: block; }
 .grid {
   display: grid;
   gap: 20px 12px;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 }
 @media (min-width: 640px) {
-  .grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
 }
-@media (min-width: 1000px) {
-  .grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
-}
+/* 영상 목록은 화면 폭을 따라 칸 수가 늘어나도록 본문 폭 제한을 푼다(About 은 읽기 폭 유지) */
+body:not(.is-about) .content { max-width: 2400px; }
 
 .card {
   display: flex;
@@ -529,19 +539,7 @@ html.dark #themeToggle .ico-dark { display: block; }
   color: var(--text-2);
 }
 
-.load-more {
-  display: block;
-  margin: 32px auto 0;
-  padding: 10px 26px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  background: var(--surface);
-  color: var(--text);
-  font-weight: 600;
-  cursor: pointer;
-  transition: border-color 0.15s ease, background 0.15s ease;
-}
-.load-more:hover { border-color: var(--brand); background: var(--brand-weak); }
+.scroll-sentinel { height: 1px; }
 
 .empty {
   padding: 64px 20px;
@@ -706,6 +704,8 @@ html.dark #themeToggle .ico-dark { display: block; }
   color: var(--text);
 }
 .stat span { font-size: 0.7rem; color: var(--text-3); }
+.stat-added { display: block; margin-top: 2px; font-style: normal; font-weight: 700; color: var(--text-3); font-variant-numeric: tabular-nums; }
+.stat-added.has-new { color: var(--brand); }
 .stat-time b span {
   display: block;
   margin-top: 2px;

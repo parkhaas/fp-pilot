@@ -489,12 +489,37 @@ def main() -> None:
         counts[r["category"]] = counts.get(r["category"], 0) + 1
 
     # --only shorts 로 API 데이터 위에 얹는 경우 생성기 표기를 합쳐서 남긴다
+    prev_meta = load_json(out_dir / "meta.json", {})
     generator = "yt-dlp"
     if args.only == "shorts":
-        prev_gen = load_json(out_dir / "meta.json", {}).get("generator", "")
+        prev_gen = prev_meta.get("generator", "")
         if prev_gen and "yt-dlp" not in prev_gen:
             generator = f"{prev_gen} + yt-dlp(shorts)"
-    meta = {"updatedAt": ts, "generator": generator, "total": len(records), "counts": counts}
+
+    # 수집 이력(history) 유지: API 수집 직후 이어서 도는 쇼츠 신규분은 같은 시점(2시간 이내)에 합산
+    history = prev_meta.get("history", [])
+    if not history and prev_meta.get("total"):
+        history = [{"timestamp": prev_meta.get("updatedAt", ts),
+                    "total": prev_meta["total"], "added": 0, "delta": {}}]
+    added_now = [r for r in records if r["addedAt"] == ts]
+    if added_now:
+        delta: dict[str, int] = {}
+        for r in added_now:
+            delta[r["category"]] = delta.get(r["category"], 0) + 1
+        parse = lambda s: datetime.fromisoformat(s.replace("Z", "+00:00"))
+        last = history[-1] if history else None
+        if last and last.get("added") and (parse(ts) - parse(last["timestamp"])).total_seconds() <= 7200:
+            last["timestamp"] = ts
+            last["total"] = len(records)
+            last["added"] += len(added_now)
+            for c, n in delta.items():
+                last["delta"][c] = last["delta"].get(c, 0) + n
+        else:
+            history.append({"timestamp": ts, "total": len(records),
+                            "added": len(added_now), "delta": delta})
+        history = history[-100:]
+    meta = {"updatedAt": ts, "generator": generator, "total": len(records),
+            "counts": counts, "history": history}
 
     print(f"\n합계 {len(records)}개 / 필터 제외 {dropped}개 / "
           f"신규 {sum(1 for r in records if r['addedAt'] == ts)}개")
