@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-09-29T05:17:43Z",
+  "updatedAt": "2026-09-30T17:53:24Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 1569,
+  "total": 1570,
   "counts": {
+    "workdol": 34,
     "shorts": 384,
     "bangpan": 14,
-    "workdol": 33,
     "music_show": 583,
     "kpan_ipdeok": 9,
     "sp_original": 18,
@@ -23,13 +23,5 @@
     "sp_jiwon": 5,
     "sp_game": 3,
     "sp_survive": 7
-  },
-  "history": [
-    {
-      "timestamp": "2026-09-27T16:46:54Z",
-      "total": 1569,
-      "added": 0,
-      "delta": {}
-    }
-  ]
+  }
 }
