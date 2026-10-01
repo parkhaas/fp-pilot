@@ -13,8 +13,8 @@
     videos: [],
     members: [],
     meta: {},
-    view: "about", // "browse" | "about" (파라미터 없이 접속하면 About.가 시작 페이지)
-    sel: {}, // { cat?, cats?[], year?, song?, member? }
+    view: "browse", // "browse" | "about" (파라미터 없이 접속하면 전체보기가 시작 페이지)
+    sel: {}, // { cat?, cats?[], year?, song?, member? } - {} = 전체
     subGroup: null, // 2단 드로어에서 열려 있는 그룹 id
     chartBy: "category", // About. 페이지 파이차트 기준: "category" | "year"
     sort: "newest", // 기본 정렬: 최신 발행순
@@ -268,7 +268,7 @@
     const hasSel = sel.cat || sel.cats || sel.year || sel.song || sel.member || state.q;
     if (p.get("view") === "about") state.view = "about";
     else if (p.get("view") === "browse" || hasSel) state.view = "browse";
-    else state.view = "about"; // 파라미터 없음 = 시작 페이지(About.)
+    else state.view = "browse"; // 파라미터 없음 = 시작 페이지(전체보기)
   }
 
   function writeUrl(replace) {
@@ -576,8 +576,12 @@
       ? "About. · FLOVER-FLIX"
       : `${titleFor(state.sel)} · FLOVER-FLIX`;
 
-    if (about) renderAbout();
-    else renderGrid();
+    if (about) {
+      renderAbout();
+      openDrawer(); // About 페이지에서 drawer 항상 표시
+    } else {
+      renderGrid();
+    }
 
     if (about) paintHistoryChart();
     paintIcons();

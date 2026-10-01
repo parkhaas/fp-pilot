@@ -428,10 +428,13 @@ html.dark #themeToggle .ico-dark { display: block; }
 .grid {
   display: grid;
   gap: 20px 12px;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
 }
 @media (min-width: 640px) {
-  .grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+}
+@media (min-width: 1000px) {
+  .grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
 }
 
 .card {
