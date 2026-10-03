@@ -1,12 +1,40 @@
 {
   "videos": [
     {
+      "id": "yt:Us5BU4vqn_s",
+      "videoId": "Us5BU4vqn_s",
+      "title": "10년 차 장수 비결",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-10-03T04:51:00Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:SU9NMaR0EvU",
+      "videoId": "SU9NMaR0EvU",
+      "title": "우리 애들은 짐볼로 키웠어요",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-10-03T04:51:00Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
       "id": "yt:hIkeNGuUui4",
       "videoId": "hIkeNGuUui4",
       "title": "왕세자가 되고 싶은 것일지도",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-10-02T15:00:00Z",
       "addedAt": "2026-10-02T17:44:14Z",
       "members": [
         "all"
@@ -20,7 +48,7 @@
       "title": "시험 국룰ㅋㅋ",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-10-02T13:00:24Z",
       "addedAt": "2026-10-02T17:44:14Z",
       "members": [
         "all"
@@ -34,7 +62,7 @@
       "title": "요란할 뿐이야",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-10-02T10:00:21Z",
       "addedAt": "2026-10-02T17:44:14Z",
       "members": [
         "all"
@@ -48,7 +76,7 @@
       "title": "로판 서사 있다는 한복 프나",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-10-02T08:00:03Z",
       "addedAt": "2026-10-02T17:44:14Z",
       "members": [
         "all"
