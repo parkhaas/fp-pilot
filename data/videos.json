@@ -1,6 +1,34 @@
 {
   "videos": [
     {
+      "id": "yt:xAt22sMqtAU",
+      "videoId": "xAt22sMqtAU",
+      "title": "내향인 알바생들 혹독하게 알바 단련시켜줌 🔥ㅣ분식집 알바ㅣ워크돌ㅣ프로미스나인 지원, 엔시티위시 리쿠·유우시",
+      "category": "workdol",
+      "channelTitle": "워크맨-Workman",
+      "publishedAt": "2026-10-07T10:00:35Z",
+      "addedAt": "2026-10-07T18:45:06Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": "PT25M4S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:d5YNE-E5o54",
+      "videoId": "d5YNE-E5o54",
+      "title": "송하영의 생일을 축하하는 101가지 방법 🎂",
+      "category": "bangpan",
+      "channelTitle": "방판소녀들",
+      "publishedAt": "2026-10-07T08:00:33Z",
+      "addedAt": "2026-10-07T18:45:06Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT22S",
+      "source": "youtube"
+    },
+    {
       "id": "yt:REozoh5BF7g",
       "videoId": "REozoh5BF7g",
       "title": "커피가 있는데 왜 먹지를 못하니",

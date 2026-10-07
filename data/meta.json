@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-07T05:27:21Z",
+  "updatedAt": "2026-10-07T18:45:09Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 1578,
+  "total": 1580,
   "counts": {
+    "workdol": 35,
+    "bangpan": 15,
     "shorts": 392,
-    "workdol": 34,
-    "bangpan": 14,
     "music_show": 583,
     "kpan_ipdeok": 9,
     "sp_original": 18,
@@ -53,6 +53,15 @@
       "added": 2,
       "delta": {
         "shorts": 2
+      }
+    },
+    {
+      "timestamp": "2026-10-07T18:45:06Z",
+      "total": 1580,
+      "added": 2,
+      "delta": {
+        "workdol": 1,
+        "bangpan": 1
       }
     }
   ]
