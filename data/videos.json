@@ -1,6 +1,62 @@
 {
   "videos": [
     {
+      "id": "yt:4AkABEJfreQ",
+      "videoId": "4AkABEJfreQ",
+      "title": "최애한테 로또 선물 가능 vs 불가능",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-10-09T11:00:00Z",
+      "addedAt": "2026-10-09T18:14:08Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:SviYXAkyd4E",
+      "videoId": "SviYXAkyd4E",
+      "title": "고객과 함께 달리는 초호화 악단 서비스",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-10-09T09:00:26Z",
+      "addedAt": "2026-10-09T18:14:08Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:gxUlqVMY-Ps",
+      "videoId": "gxUlqVMY-Ps",
+      "title": "포보스 선정 올해의 단어 '카나비 정신' | 이단장 시즌2 EP.7 선공개",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2026-10-09T08:00:18Z",
+      "addedAt": "2026-10-09T18:14:08Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT32S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:tHYztxBO4z4",
+      "videoId": "tHYztxBO4z4",
+      "title": "꿈보다 더 꿈 같은 실제상황",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-10-09T07:00:11Z",
+      "addedAt": "2026-10-09T18:14:08Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
       "id": "yt:KKRpVI3SHQM",
       "videoId": "KKRpVI3SHQM",
       "title": "송하영의 애주가 판별법",

@@ -1,9 +1,10 @@
 {
-  "updatedAt": "2026-10-09T05:38:56Z",
+  "updatedAt": "2026-10-09T18:14:12Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 1582,
+  "total": 1586,
   "counts": {
-    "shorts": 393,
+    "shorts": 396,
+    "plunen_idanjang": 83,
     "bangpan": 16,
     "workdol": 35,
     "music_show": 583,
@@ -12,7 +13,6 @@
     "sp_beauty": 8,
     "stage_fancam": 216,
     "special_stage": 12,
-    "plunen_idanjang": 82,
     "pulmuone_ei2": 28,
     "musinsa_seongsugi": 21,
     "sp_ch9": 128,
@@ -78,6 +78,15 @@
       "added": 1,
       "delta": {
         "bangpan": 1
+      }
+    },
+    {
+      "timestamp": "2026-10-09T18:14:08Z",
+      "total": 1586,
+      "added": 4,
+      "delta": {
+        "bangpan": 3,
+        "plunen_idanjang": 1
       }
     }
   ]
