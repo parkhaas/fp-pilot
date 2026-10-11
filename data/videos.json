@@ -1,12 +1,26 @@
 {
   "videos": [
     {
+      "id": "yt:MYlcA83xOLo",
+      "videoId": "MYlcA83xOLo",
+      "title": "반복 학습이 필요한 송하영 학생",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-10-11T05:00:23Z",
+      "addedAt": "2026-10-11T05:14:57Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
       "id": "yt:wlrT7Mi_WvE",
       "videoId": "wlrT7Mi_WvE",
       "title": "이제 그만 놀고 공부해야겠다",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-10-10T07:00:26Z",
       "addedAt": "2026-10-10T17:13:14Z",
       "members": [
         "all"
