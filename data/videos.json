@@ -1,6 +1,48 @@
 {
   "videos": [
     {
+      "id": "yt:qjdcRY31uOw",
+      "videoId": "qjdcRY31uOw",
+      "title": "[선공개] 강탈",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-10-12T21:09:25Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:D7Qp_v-i8nI",
+      "videoId": "D7Qp_v-i8nI",
+      "title": "우승을 했던 다른 우주의 평행세계 | 이단장 시즌2 EP.7 미공개",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2026-10-12T08:00:32Z",
+      "addedAt": "2026-10-12T21:09:20Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT25S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:DYX81OhDKhQ",
+      "videoId": "DYX81OhDKhQ",
+      "title": "라떼는 동전 망원경이었는데🤔​, 정폿과 요즘 영크크 63빌딩 카정하기 | 이단장 시즌2 EP.7",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2026-10-12T08:00:25Z",
+      "addedAt": "2026-10-12T21:09:20Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT19M39S",
+      "source": "youtube"
+    },
+    {
       "id": "yt:XKx68vGZh2M",
       "videoId": "XKx68vGZh2M",
       "title": "악기도 볼륨 조절이.. 되네..?",
