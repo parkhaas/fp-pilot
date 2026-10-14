@@ -1,6 +1,34 @@
 {
   "videos": [
     {
+      "id": "yt:ZNENdrljSY4",
+      "videoId": "ZNENdrljSY4",
+      "title": "아이돌 메인보컬 되는 꿀팁 알려드림 👩🏻‍🏫 ㅣ공연예고 교생쌤ㅣ워크돌ㅣ프로미스나인 지원",
+      "category": "workdol",
+      "channelTitle": "워크맨-Workman",
+      "publishedAt": "2026-10-14T10:00:39Z",
+      "addedAt": "2026-10-14T16:57:00Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": "PT24M40S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:pwtPcW0oCY8",
+      "videoId": "pwtPcW0oCY8",
+      "title": "하냥 청춘 캠퍼스 🏫",
+      "category": "bangpan",
+      "channelTitle": "방판소녀들",
+      "publishedAt": "2026-10-14T08:00:32Z",
+      "addedAt": "2026-10-14T16:57:00Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT30S",
+      "source": "youtube"
+    },
+    {
       "id": "yt:qjdcRY31uOw",
       "videoId": "qjdcRY31uOw",
       "title": "[선공개] 강탈",
