@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-15T16:43:56Z",
+  "updatedAt": "2026-10-16T04:05:15Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 1599,
+  "total": 1600,
   "counts": {
+    "shorts": 405,
     "bangpan": 18,
     "workdol": 36,
-    "shorts": 404,
     "plunen_idanjang": 85,
     "music_show": 583,
     "kpan_ipdeok": 9,
@@ -143,6 +143,14 @@
     {
       "timestamp": "2026-10-15T16:43:47Z",
       "total": 1599,
+      "added": 1,
+      "delta": {
+        "bangpan": 1
+      }
+    },
+    {
+      "timestamp": "2026-10-16T04:05:11Z",
+      "total": 1600,
       "added": 1,
       "delta": {
         "bangpan": 1
