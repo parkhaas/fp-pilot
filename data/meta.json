@@ -1,9 +1,10 @@
 {
-  "updatedAt": "2026-10-16T04:05:15Z",
+  "updatedAt": "2026-10-16T06:43:48Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 1600,
+  "total": 1614,
   "counts": {
-    "shorts": 405,
+    "shorts": 406,
+    "unsorted": 13,
     "bangpan": 18,
     "workdol": 36,
     "plunen_idanjang": 85,
@@ -154,6 +155,15 @@
       "added": 1,
       "delta": {
         "bangpan": 1
+      }
+    },
+    {
+      "timestamp": "2026-10-16T06:43:44Z",
+      "total": 1614,
+      "added": 14,
+      "delta": {
+        "bangpan": 1,
+        "unsorted": 13
       }
     }
   ]
