@@ -1132,6 +1132,7 @@
 
   function goAbout() {
     state.view = "about";
+    state.subGroup = null; // 열려 있던 서브 메뉴를 닫고 이동
     writeUrl();
     buildNav();
     render();
