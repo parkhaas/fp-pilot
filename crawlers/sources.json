@@ -4,8 +4,8 @@
   "handle": "@studiofromis_9",
   "channelId": "UCeUJ8B3krxw8zuDi19AlhaA",
 
-  "includeUploads": false,
-  "uploadsCategory": "auto",
+  "includeUploads": true,
+  "uploadsCategory": "unsorted",
   "maxPerPlaylist": 800,
 
   "playlists": [

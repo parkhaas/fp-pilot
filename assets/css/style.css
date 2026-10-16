@@ -404,7 +404,7 @@ body.is-about .site-footer .link-btn { display: none; }
 /* 넓은 화면의 About.: 사이드바를 항상 고정 노출하고 본문을 옆으로 민다 */
 @media (min-width: 960px) {
   body.is-about .sidebar { transform: none; pointer-events: auto; }
-  body.is-about .main { margin-left: 264px; }
+  body.is-about .main { margin-left: 300px; }
   body.is-about #hamburger,
   body.is-about #drawerClose { display: none; }
   body.is-about .drawer-backdrop { display: none !important; }
@@ -433,6 +433,19 @@ body.is-about .site-footer .link-btn { display: none; }
   font-weight: 700;
   letter-spacing: -0.01em;
 }
+.grid-head h2.crumb { display: inline-flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.crumb-parent {
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  letter-spacing: inherit;
+  color: var(--text-3);
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+.crumb-parent:hover { color: var(--brand); text-decoration: underline; text-underline-offset: 4px; }
+.crumb-sep { color: var(--text-3); font-weight: 400; }
 .grid-count { font-size: 0.85rem; color: var(--text-3); }
 .grid-head .sort-control { flex-shrink: 0; }
 
@@ -696,6 +709,9 @@ body:not(.is-about) .content { max-width: 2400px; }
   border-radius: var(--radius);
   background: var(--surface);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .stat b {
   display: block;
@@ -704,6 +720,8 @@ body:not(.is-about) .content { max-width: 2400px; }
   color: var(--text);
 }
 .stat span { font-size: 0.7rem; color: var(--text-3); }
+.stat > span, .stat-pair > div > span { display: block; margin-bottom: 4px; }
+.stat-pair { gap: 10px; }
 .stat-added { display: block; margin-top: 2px; font-style: normal; font-weight: 700; color: var(--text-3); font-variant-numeric: tabular-nums; }
 .stat-added.has-new { color: var(--brand); }
 .stat-time b span {

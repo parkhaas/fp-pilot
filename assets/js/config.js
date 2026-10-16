@@ -25,6 +25,7 @@ window.FF_CONFIG = {
     bangpan: "방판소녀들",
     kpan_ipdeok: "K판 입덕투어",
     shorts: "Shorts",
+    unsorted: "미분류 영상",
     variety_external: "기타",
   },
 
@@ -42,8 +43,8 @@ window.FF_CONFIG = {
     {
       id: "self",
       label: "자체컨텐츠",
-      sel: { cats: ["sp_original", "sp_vlog", "sp_game", "sp_survive", "sp_beauty", "sp_corp", "sp_hayoung", "sp_jiwon", "sp_chaeng", "sp_ch9"] },
-      children: ["sp_original", "sp_vlog", "sp_game", "sp_survive", "sp_beauty", "sp_corp", "sp_hayoung", "sp_jiwon", "sp_chaeng", "sp_ch9"],
+      sel: { cats: ["sp_original", "sp_vlog", "sp_game", "sp_survive", "sp_beauty", "sp_corp", "sp_hayoung", "sp_jiwon", "sp_chaeng", "sp_ch9", "unsorted"] },
+      children: ["sp_original", "sp_vlog", "sp_game", "sp_survive", "sp_beauty", "sp_corp", "sp_hayoung", "sp_jiwon", "sp_chaeng", "sp_ch9", "unsorted"],
       withAll: true,
     },
     { id: "workdol", label: "워크돌",      sel: { cat: "workdol" }, subBy: "year", withAll: true },
@@ -55,8 +56,7 @@ window.FF_CONFIG = {
     { id: "music",   label: "음악방송",    sel: { cat: "music_show" },    subBy: "song", withAll: true },
     { id: "fancam",  label: "직캠",        sel: { cat: "stage_fancam" },  subBy: "song", withAll: true },
     { id: "special", label: "스페셜무대",  sel: { cat: "special_stage" }, subBy: "year", withAll: true },
-    { id: "shorts",  label: "Shorts",     sel: { cat: "shorts" },  subBy: "year", withAll: true },
-  ],
+    { id: "shorts",  label: "Shorts",     sel: { cat: "shorts" },  subBy: "year", withAll: true },  ],
 
   /* 하위 항목이 0개여도 상위 메뉴를 계속 노출할지 */
   showEmptyGroups: true,

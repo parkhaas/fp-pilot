@@ -369,9 +369,12 @@ def main() -> None:
     candidates: dict[str, tuple[str, list, dict]] = {}
 
     _, uploads_playlist = resolve_channel(cfg, args.api_key)
+    uploads_cat = cfg.get("uploadsCategory", "auto")
+    uploads_ids: set[str] = set()
     if cfg.get("includeUploads", True):
         for vid in collect_playlist(uploads_playlist, args.api_key, cap):
-            candidates[vid] = (cfg.get("uploadsCategory", "auto"), [], {})
+            candidates[vid] = (uploads_cat, [], {})
+            uploads_ids.add(vid)
 
     incremental = bool(args.since)  # --since 가 있으면 정기(증분) 실행으로 간주
 
@@ -442,6 +445,13 @@ def main() -> None:
         desc = sn.get("description", "")
         dur = duration_seconds(d.get("contentDetails", {}).get("duration", ""))
         category = hint if hint and hint != "auto" else classify(title, desc, rules)
+
+        # 업로드 목록으로만 잡힌 영상(재생목록·검색에 없음)이 이미 분류돼 있으면 기존 분류를 지킨다
+        # (쇼츠 등 다른 수집기가 매긴 분류가 '미분류'로 덮이는 것을 막는다)
+        prev = existing_by_id.get(vid)
+        if (uploads_cat != "auto" and vid in uploads_ids and hint == uploads_cat
+                and prev and prev.get("category")):
+            category = prev["category"]
 
         hits = detect_members(title, members)
         if def_members:

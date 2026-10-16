@@ -47,8 +47,8 @@ sources.json
 |---|---|---|---|
 | `handle` | string | — | 공식 채널 핸들 `@studiofromis_9`. `channelId` 있으면 생략 가능 |
 | `channelId` | string | — | `UC...` 24자. 채우면 매 실행 handle 조회 1회를 아낌 |
-| `includeUploads` | bool | `true` | 공식 채널 **업로드 전체**를 수집 대상에 포함. 현재는 `false` (재생목록/검색으로만 수집) |
-| `uploadsCategory` | string | `"auto"` | 업로드 전체에 적용할 카테고리 |
+| `includeUploads` | bool | `true` | 공식 채널 **업로드 전체**를 수집 대상에 포함. 현재는 `true` (재생목록에 없는 영상은 `unsorted` 로 수집) |
+| `uploadsCategory` | string | `"auto"` | 업로드 전체에 적용할 카테고리. 현재 `"unsorted"`(미분류 영상). 재생목록·검색에 잡힌 영상은 그쪽 분류가 우선하고, 이미 분류된 기존 영상은 기존 분류를 유지 |
 | `maxPerPlaylist` | number | `500` | 재생목록 하나당 최대 영상 수 |
 | `keywordRules` | object | — | `"auto"` 분류용 카테고리별 키워드 (6절) |
 | `defaultFilter` | object | — | `filter` 없는 `search[]` 항목에 적용되는 공통 규칙 (8절) |
@@ -326,7 +326,7 @@ python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --sho
 
 ## 14. 현재 `sources.json` 요약
 
-- **메인 채널**: `@studiofromis_9` (`includeUploads: false`)
+- **메인 채널**: `@studiofromis_9` (`includeUploads: true`, `uploadsCategory: "unsorted"` → 사이트 메뉴 "미분류 영상")
 - **playlists** (자체콘텐츠 9종): 스프 오리지널/슾log/게임할꼬/살아남기/뷰티&패션/프나상사/하냥카세/젼메추/챙그랑
 - **extraChannels**: 워크돌(`filterKeywords:["프로미스나인"]`) · 채널나인 · 이아이는요2 · 성수기(`skipIncremental`) · 이단장 · 방판소녀들 · K판 입덕투어(`filterKeywords`)
 - **search**: 방송무대(KBS·MBC·SBS·Mnet) · 직캠(M2·STUDIO CHOOM) · 스페셜(딩고·퍼스트테이크)

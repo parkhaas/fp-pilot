@@ -581,18 +581,39 @@
     if (about) renderAbout();
     else renderGrid();
 
-    if (about) paintHistoryChart();
+    if (about) {
+      paintHistoryChart();
+      loadVisitCount();
+    }
     paintIcons();
     if (!(opts && opts.keepScroll)) window.scrollTo(0, 0);
+  }
+
+  // 하위 분류로 들어왔을 때의 상위 그룹. 그룹 자체의 "전체"이거나 하위가 아니면 null
+  function crumbFor(sel) {
+    const node = navNode(state.subGroup);
+    if (!node || !isGroup(node)) return null;
+    const k = selKey(sel);
+    if (node.sel && selKey(node.sel) !== selKey({}) && selKey(node.sel) === k) return null;
+    const kid = childrenOf(node).find((c) => c.sel && selKey(c.sel) === k);
+    return kid ? { node, label: kid.label } : null;
   }
 
   function renderGrid() {
     const list = filtered();
 
+    const crumb = crumbFor(state.sel);
+    const heading = crumb
+      ? `<h2 class="crumb">` +
+        `<button type="button" class="crumb-parent" data-crumb="${escapeHtml(crumb.node.id)}">${escapeHtml(crumb.node.label)}</button>` +
+        `<span class="crumb-sep" aria-hidden="true">&gt;</span>` +
+        `<span class="crumb-current">${escapeHtml(crumb.label)}</span></h2>`
+      : `<h2>${escapeHtml(titleFor(state.sel))}</h2>`;
+
     const head = document.createElement("div");
     head.className = "grid-head";
     head.innerHTML =
-      `<h2>${escapeHtml(titleFor(state.sel))}</h2>` +
+      heading +
       `<span class="grid-count">${list.length.toLocaleString("ko")}개</span>` +
       `<label class="sort-control">
         <span>정렬</span>
@@ -970,7 +991,7 @@
       `<button data-chart="${k}" class="chart-toggle-btn${state.chartBy === k ? " is-active" : ""}">${label}</button>`;
 
     const stat = (b, s) =>
-      `<div class="stat"><b>${b}</b><span>${s}</span></div>`;
+      `<div class="stat"><span>${s}</span><b>${b}</b></div>`;
 
     el.content.innerHTML = `
       <section class="about">
@@ -980,13 +1001,17 @@
         </p>
 
         <div class="about-stats">
-          ${stat(total.toLocaleString("ko"), "영상")}
-          ${stat(catN, "카테고리")}
-          <div class="stat stat-time">
-            <b>${up ? `${up.year}.${up.month}.${up.day}<span>${up.hour}:${up.minute}:${up.second} KST</span>` : "―"}</b>
-            <span>마지막 업데이트<em class="stat-added${addedNow ? " has-new" : ""}">+${addedNow.toLocaleString("ko")}</em></span>
+          <div class="stat" id="visitStat" hidden><span>누적 방문</span><b>―</b></div>
+          <div class="stat stat-pair">
+            <div><span>카테고리</span><b>${catN}</b></div>
+            <div><span>영상</span><b>${total.toLocaleString("ko")}</b></div>
           </div>
-          ${stat(escapeHtml(gen), "수집 방식")}
+          <div class="stat stat-time">
+            <span>마지막 업데이트</span>
+            <b>${up ? `${up.year}.${up.month}.${up.day}<span>${up.hour}:${up.minute}:${up.second} KST</span>` : "―"}</b>
+            <em class="stat-added${addedNow ? " has-new" : ""}">+${addedNow.toLocaleString("ko")}</em>
+          </div>
+          ${stat(escapeHtml(gen).split(" + ").join("<br>"), "수집 방식")}
         </div>
 
         <h2>영상 통계</h2>
@@ -1017,6 +1042,26 @@
 
         <p class="about-made">made with love, for flover</p>
       </section>`;
+  }
+
+  // GoatCounter 누적 방문 수. 조회 실패(차단기·설정 미허용·오프라인)면 박스를 숨긴 채 둔다.
+  const VISIT_BASE = 1004; // 표시 시작값 (GoatCounter 실제 집계에 더해서 보여준다)
+  let visitCount = null;
+  async function loadVisitCount() {
+    const box = document.getElementById("visitStat");
+    if (!box) return;
+    try {
+      if (visitCount == null) {
+        const res = await fetch("https://fp-pilot.goatcounter.com/counter/TOTAL.json");
+        if (!res.ok) throw new Error(res.status);
+        const n = Number(String((await res.json()).count || "0").replace(/\D/g, ""));
+        visitCount = (VISIT_BASE + n).toLocaleString("ko");
+      }
+      const target = document.getElementById("visitStat");
+      if (!target) return; // 그 사이 다른 화면으로 이동
+      target.querySelector("b").textContent = visitCount;
+      target.hidden = false;
+    } catch (e) {}
   }
 
   function renderMeta() {
@@ -1127,6 +1172,16 @@
         state.chartBy = chartBtn.dataset.chart;
         renderAbout();
         paintIcons();
+        return;
+      }
+      const crumbBtn = e.target.closest("[data-crumb]");
+      if (crumbBtn) {
+        const node = navNode(crumbBtn.dataset.crumb);
+        if (node) {
+          openSub(node);
+          // 이동할 목록이 없는 그룹(예: 멤버별 보기)은 하위 메뉴를 보여주려고 드로어를 연다
+          if (!(node.withAll || node.subBy === "year")) openDrawer();
+        }
         return;
       }
       const leg = e.target.closest("[data-sel-cat],[data-sel-year]");
