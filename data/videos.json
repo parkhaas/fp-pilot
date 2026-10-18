@@ -1,6 +1,34 @@
 {
   "videos": [
     {
+      "id": "yt:g8snP0YTyes",
+      "videoId": "g8snP0YTyes",
+      "title": "저 못 하겠어요 선배..",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-10-18T07:00:03Z",
+      "addedAt": "2026-10-18T15:42:10Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:hO80yM4PmqI",
+      "videoId": "hO80yM4PmqI",
+      "title": "오늘도 무리하는 하냥",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-10-18T05:00:32Z",
+      "addedAt": "2026-10-18T15:42:10Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
       "id": "yt:M0EdWcsnThI",
       "videoId": "M0EdWcsnThI",
       "title": "정보 탈탈 털기",
