@@ -1,6 +1,76 @@
 {
   "videos": [
     {
+      "id": "yt:jMjJgxaML8E",
+      "videoId": "jMjJgxaML8E",
+      "title": "누가 봐도 연예인 🕶️",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-10-23T11:00:27Z",
+      "addedAt": "2026-10-23T16:51:05Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:IbjpfysXsPs",
+      "videoId": "IbjpfysXsPs",
+      "title": "꼬꼬님 많이 버시고 세금 두배로 내세요 | 이단장 시즌2 EP.8 선공개",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2026-10-23T09:00:37Z",
+      "addedAt": "2026-10-23T16:51:05Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT26S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:zXY26urp1Zg",
+      "videoId": "zXY26urp1Zg",
+      "title": "이상한 사람 아닙니다",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-10-23T09:00:04Z",
+      "addedAt": "2026-10-23T16:51:05Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:dgSc7mnM-HU",
+      "videoId": "dgSc7mnM-HU",
+      "title": "신촌 톱스타 송하영",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-10-23T06:11:14Z",
+      "addedAt": "2026-10-23T16:51:05Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:ybsOOKZfnGE",
+      "videoId": "ybsOOKZfnGE",
+      "title": "회식비 수금하는 송하영",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-10-23T05:00:32Z",
+      "addedAt": "2026-10-23T16:51:05Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
       "id": "yt:eqCbYVV-Tpo",
       "videoId": "eqCbYVV-Tpo",
       "title": "💳 PD 개인카드가 걸렸다?! 그런데 송하영 미모 사용 금지?!🙈 | 이영애의 건강미식 완판 도전 | 방판소녀들 시즌2 EP.06",
@@ -31,7 +101,7 @@
     {
       "id": "yt:8-bCKAqm5gQ",
       "videoId": "8-bCKAqm5gQ",
-      "title": "한강에서 라면 먹고 가실? 🍜ㅣ한강 야간 편의점 알바ㅣ워크돌ㅣ프로미스나인 지원, 미야오 안나",
+      "title": "[EN/JP] 한강에서 라면 먹고 가실? 🍜ㅣ한강 야간 편의점 알바ㅣ워크돌ㅣ프로미스나인 지원, 미야오 안나",
       "category": "workdol",
       "channelTitle": "워크맨-Workman",
       "publishedAt": "2026-10-21T10:00:09Z",
