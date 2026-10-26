@@ -330,6 +330,62 @@ def fetch_details(video_ids: list[str], api_key: str) -> dict[str, dict]:
     return details
 
 
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *args, **kwargs):  # noqa: D401
+        return None  # 리다이렉트를 따라가지 않고 HTTPError 로 받아 Location 을 본다
+
+
+_probe_opener = urllib.request.build_opener(_NoRedirect)
+SHORT_MAX_SEC = 180  # Shorts 는 최대 3분
+
+
+def probe_short(video_id: str) -> bool | None:
+    """youtube.com/shorts/<id> 응답으로 형식을 판정한다.
+    200 → Shorts, /watch?v=<id> 로 리다이렉트 → 일반 영상, 그 외(차단·동의창·오류)는 None(판단 불가)."""
+    req = urllib.request.Request(
+        f"https://www.youtube.com/shorts/{video_id}",
+        headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"},
+    )
+    try:
+        with _probe_opener.open(req, timeout=15) as r:
+            return True if r.status == 200 else None
+    except urllib.error.HTTPError as e:
+        loc = e.headers.get("Location", "") or ""
+        if e.code in (301, 302, 303, 307, 308) and f"/watch?v={video_id}" in loc:
+            return False
+        return None
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def tag_shorts(records: list[dict], budget: int = 200) -> None:
+    """3분 이하 영상 중 아직 판정하지 않은 것(short 키 없음)에 short: true/false 를 기록한다.
+    분류(category)와는 별개의 '형식' 표시이며, 판단 불가(None)면 키를 비워 다음 실행에서 다시 시도한다."""
+    def sec(r: dict) -> int:  # API 수집분은 ISO 8601("PT26S"), yt-dlp 수집분은 정수(초)
+        d = r.get("duration")
+        return int(d) if isinstance(d, (int, float)) else duration_seconds(d or "")
+
+    todo = [r for r in records
+            if r.get("videoId") and "short" not in r and r.get("category") != "shorts"
+            and 0 < sec(r) <= SHORT_MAX_SEC]
+    if not todo:
+        return
+    done = fails = 0
+    for r in todo[:budget]:
+        res = probe_short(r["videoId"])
+        if res is None:
+            fails += 1
+            if fails >= 5:  # 연속 5회 판단 불가 = 차단 가능성 → 중단하고 다음 실행에 맡긴다
+                print("  [경고] Shorts 판정이 연속 실패해 중단합니다(차단 가능성).", file=sys.stderr, flush=True)
+                break
+            continue
+        fails = 0
+        r["short"] = res
+        done += 1
+        time.sleep(0.25)
+    print(f"  [Shorts 판정] 대상 {len(todo)}개 중 {done}개 판정 (예산 {budget})", flush=True)
+
+
 def classify(title: str, desc: str, rules: dict) -> str:
     text = f"{title}\n{desc}".lower()
     # Shorts 는 길이만으로 판정하지 않는다(세로직캠은 3분↑ 세로영상이지 Shorts 가 아님).
@@ -383,7 +439,22 @@ def main() -> None:
     ap.add_argument("--no-search", action="store_true",
                     help="search[] 항목을 건너뜀 (재생목록만 갱신, search 쿼터 절약)")
     ap.add_argument("--dry-run", action="store_true", help="파일을 쓰지 않고 요약만 출력")
+    ap.add_argument("--probe-only", action="store_true",
+                    help="API 수집 없이 data/videos.json 의 미판정 영상(3분 이하)에만 Shorts 판정(short 표시)을 실행")
     args = ap.parse_args()
+
+    if args.probe_only:
+        vpath = Path(args.out) / "videos.json"
+        recs = load_json(vpath, {"videos": []}).get("videos", [])
+        tag_shorts(recs, budget=1000)
+        tagged = sum(1 for r in recs if r.get("short") is True)
+        print(f"short: true 표시 {tagged}개 / false {sum(1 for r in recs if r.get('short') is False)}개")
+        if args.dry_run:
+            print("[dry-run] 파일 미기록")
+        else:
+            vpath.write_text(json.dumps({"videos": recs}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            print(f"기록 완료 -> {vpath}")
+        return
 
     if not args.api_key:
         sys.exit("[중단] YOUTUBE_API_KEY 환경변수 또는 --api-key 가 필요합니다.")
@@ -513,6 +584,7 @@ def main() -> None:
                 "members": mem,
                 "duration": d.get("contentDetails", {}).get("duration", ""),
                 "source": "youtube",
+                **({"short": prev["short"]} if prev and "short" in prev else {}),
             }
         )
 
@@ -534,6 +606,9 @@ def main() -> None:
     if kept:
         print(f"  [{keep_reason}] 재수집 안 된 기존 영상 {len(kept)}개 유지")
         records.extend(kept)
+
+    # 형식(Shorts 여부) 판정: 분류와 별개로 short 표시를 붙인다 (이단장·이아이는요2 등 시리즈 안의 Shorts)
+    tag_shorts(records)
 
     # 날짜(publishedAt) 누락 영상은 videos.list(id 지정, 50개당 쿼터 1)로 재조회해 채운다
     by_id = {r["videoId"]: r for r in records}

@@ -447,6 +447,19 @@ body.is-about .site-footer .link-btn { display: none; }
 .crumb-parent:hover { color: var(--brand); text-decoration: underline; text-underline-offset: 4px; }
 .crumb-sep { color: var(--text-3); font-weight: 400; }
 .grid-count { font-size: 0.85rem; color: var(--text-3); }
+
+/* 스위치 토글 (전체보기: Shorts 포함) */
+.toggle { position: relative; display: inline-flex; align-items: center; gap: 8px; margin-left: 6px;
+  font-size: 0.82rem; font-weight: 600; color: var(--text-2); cursor: pointer; user-select: none; }
+.toggle input { position: absolute; width: 0; height: 0; opacity: 0; }
+.toggle-track { position: relative; flex-shrink: 0; width: 34px; height: 20px; border-radius: 999px;
+  background: var(--border-strong); transition: background 0.2s ease; }
+.toggle-track::after { content: ""; position: absolute; top: 2px; left: 2px; width: 16px; height: 16px; border-radius: 50%;
+  background: #fff; box-shadow: var(--shadow-sm); transition: transform 0.2s ease; }
+.toggle input:checked + .toggle-track { background: var(--brand); }
+.toggle input:checked + .toggle-track::after { transform: translateX(14px); }
+.toggle input:focus-visible + .toggle-track { outline: 2px solid var(--brand); outline-offset: 2px; }
+.toggle:hover .toggle-track { filter: brightness(0.96); }
 .grid-head .sort-control { flex-shrink: 0; }
 
 .grid {

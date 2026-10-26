@@ -20,6 +20,7 @@
     subGroup: null, // 2단 드로어에서 열려 있는 그룹 id
     chartBy: "category", // About. 페이지 파이차트 기준: "category" | "year"
     sort: "newest", // 기본 정렬: 최신 발행순
+    includeShorts: false, // 전체보기에서 Shorts 포함 여부 (기본 꺼짐, URL: shorts=1 이면 포함)
     q: "",
     limit: CFG.pageSize,
   };
@@ -95,6 +96,9 @@
     v.thumbnail || `https://i.ytimg.com/vi/${v.videoId}/hqdefault.jpg`;
 
   const yearOf = (v) => (v.publishedAt || v.addedAt || "").slice(0, 4);
+
+  // Shorts 형식인가: 분류가 shorts 이거나, 시리즈 분류 안에 있어도 형식이 Shorts(short: true)인 경우
+  const isShort = (v) => v.category === "shorts" || v.short === true;
 
   /* ---------- 곡명 파서 ----------
      방송사 무대·직캠 제목은 형식이 제각각(곡-그룹 / 그룹-곡 / 따옴표 곡명 /
@@ -233,7 +237,8 @@
   }
 
   function applySel(list, sel) {
-    if (sel.cat) list = list.filter((v) => v.category === sel.cat);
+    if (sel.cat === "shorts") list = list.filter(isShort); // Shorts 메뉴는 시리즈 안의 Shorts도 포함
+    else if (sel.cat) list = list.filter((v) => v.category === sel.cat);
     if (sel.cats) list = list.filter((v) => sel.cats.includes(v.category));
     if (sel.year) list = list.filter((v) => yearOf(v) === sel.year);
     if (sel.song) list = list.filter((v) => songOf(v) === sel.song);
@@ -273,6 +278,7 @@
     if (p.get("member")) sel.member = p.get("member");
     state.sel = sel;
     state.sort = p.get("sort") || "newest";
+    state.includeShorts = p.get("shorts") === "1";
     state.q = p.get("q") || "";
 
     const hasSel = sel.cat || sel.cats || sel.year || sel.song || sel.member || state.q;
@@ -294,6 +300,7 @@
       if (s.song) p.set("song", s.song);
       if (s.member) p.set("member", s.member);
       if (state.sort !== "newest") p.set("sort", state.sort);
+      if (state.includeShorts && isAllView()) p.set("shorts", "1");
       if (state.q) p.set("q", state.q);
       if (![...p].length) p.set("view", "browse"); // 필터 없는 전체보기
     }
@@ -355,14 +362,19 @@
       members: Array.isArray(v.members) && v.members.length ? v.members : ["all"],
       duration: v.duration || "",
       source: v.source || "youtube",
+      short: v.short === true,
       _search: `${v.title || ""} ${v.channelTitle || ""}`.toLowerCase(),
     };
   }
 
   /* ---------- 필터/정렬 ---------- */
 
+  // 아무 분류도 고르지 않은 "전체보기"인가 (Shorts 포함 토글은 이 화면에만 적용)
+  const isAllView = () => selKey(state.sel) === selKey({});
+
   function filtered() {
     let list = applySel(state.videos, state.sel);
+    if (!state.includeShorts && isAllView()) list = list.filter((v) => !isShort(v));
 
     if (state.q) {
       const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
@@ -491,7 +503,12 @@
         continue;
       }
       if (!isGroup(node)) {
-        const b = navBtn(node.label, applySel(state.videos, node.sel).length, {
+        // "전체보기" 숫자는 화면의 Shorts 포함 토글을 따른다
+        const n =
+          selKey(node.sel) === selKey({}) && !state.includeShorts
+            ? state.videos.filter((v) => !isShort(v)).length
+            : applySel(state.videos, node.sel).length;
+        const b = navBtn(node.label, n, {
           active: browsing && activeKey === selKey(node.sel),
         });
         b.classList.add("nav-lv1");
@@ -817,6 +834,10 @@
     head.innerHTML =
       heading +
       `<span class="grid-count">${list.length.toLocaleString("ko")}개</span>` +
+      (isAllView()
+        ? `<label class="toggle"><input type="checkbox" id="shortsToggle"${state.includeShorts ? " checked" : ""} />` +
+          `<span class="toggle-track" aria-hidden="true"></span><span>Shorts 포함</span></label>`
+        : "") +
       `<label class="sort-control">
         <span>정렬</span>
         <select id="sortSelect" aria-label="정렬 방식">
@@ -892,7 +913,7 @@
       <div class="thumb">
         <img loading="lazy" src="${thumbUrl(v)}" alt="" />
         <span class="play">${PLAY_SVG}</span>
-        ${v.category === "shorts" ? '<span class="tag-shorts">SHORTS</span>' : ""}
+        ${isShort(v) ? '<span class="tag-shorts">SHORTS</span>' : ""}
       </div>
       <div class="card-body">
         <h3 class="card-title">${escapeHtml(v.title)}</h3>
@@ -1348,6 +1369,14 @@
 
   function bindEvents() {
     el.content.addEventListener("change", (e) => {
+      if (e.target.id === "shortsToggle") {
+        state.includeShorts = e.target.checked;
+        state.limit = CFG.pageSize;
+        writeUrl();
+        buildNav();
+        render({ keepScroll: true });
+        return;
+      }
       if (e.target.id !== "sortSelect") return;
       state.sort = e.target.value;
       writeUrl();

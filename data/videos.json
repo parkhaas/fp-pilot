@@ -138,7 +138,8 @@
         "chaeyoung"
       ],
       "duration": "PT26S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:zXY26urp1Zg",
@@ -236,7 +237,8 @@
         "all"
       ],
       "duration": "PT45S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:8HiE-o1Krig",
@@ -744,7 +746,8 @@
         "hayoung"
       ],
       "duration": "PT30S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:qjdcRY31uOw",
@@ -772,7 +775,8 @@
         "chaeyoung"
       ],
       "duration": "PT25S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:DYX81OhDKhQ",
@@ -926,7 +930,8 @@
         "chaeyoung"
       ],
       "duration": "PT32S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:tHYztxBO4z4",
@@ -996,7 +1001,8 @@
         "hayoung"
       ],
       "duration": "PT22S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:REozoh5BF7g",
@@ -1318,7 +1324,8 @@
         "hayoung"
       ],
       "duration": "PT15S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:uJgM5YWveBU",
@@ -1738,7 +1745,8 @@
         "all"
       ],
       "duration": "PT25S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:bS2UfXfwiyE",
@@ -1922,7 +1930,8 @@
         "all"
       ],
       "duration": "PT35S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:2qf7n2_Ght8",
@@ -1936,7 +1945,8 @@
         "all"
       ],
       "duration": "PT50S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:YjWO7XnQGaM",
@@ -2880,7 +2890,8 @@
         "all"
       ],
       "duration": "PT34S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:IpeTA-xh6Mk",
@@ -3029,7 +3040,8 @@
         "jiwon"
       ],
       "duration": "PT1M37S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:cRzmij5qNCU",
@@ -3057,7 +3069,8 @@
         "all"
       ],
       "duration": 174,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:UrUuxXEhGlk",
@@ -3324,7 +3337,8 @@
         "all"
       ],
       "duration": 102,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:zcnDlCp52lw",
@@ -3577,7 +3591,8 @@
         "all"
       ],
       "duration": 56,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:R7m0g-7HnVQ",
@@ -3675,7 +3690,8 @@
         "all"
       ],
       "duration": 17,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:EmKl1kLTXwg",
@@ -3801,7 +3817,8 @@
         "all"
       ],
       "duration": 178,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:fnjyQzSja7o",
@@ -3871,7 +3888,8 @@
         "all"
       ],
       "duration": 17,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:OEniglhiAKE",
@@ -3955,7 +3973,8 @@
         "all"
       ],
       "duration": 176,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:xNtQwvTTzUo",
@@ -3969,7 +3988,8 @@
         "all"
       ],
       "duration": 124,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:wNlR8-QGuiE",
@@ -4025,7 +4045,8 @@
         "all"
       ],
       "duration": 180,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:nrdeYrwvcDw",
@@ -4040,7 +4061,8 @@
         "nagyung"
       ],
       "duration": 88,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:-Sn1Rg41irk",
@@ -7991,7 +8013,8 @@
         "all"
       ],
       "duration": 178,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:yA1CFVr6jso",
@@ -8061,7 +8084,8 @@
         "all"
       ],
       "duration": 95,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:S2YeCz9Q1vI",
@@ -8117,7 +8141,8 @@
         "all"
       ],
       "duration": 178,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:o-NkwYrdRV4",
@@ -8187,7 +8212,8 @@
         "all"
       ],
       "duration": 95,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:xO5FbrU_x1g",
@@ -8201,7 +8227,8 @@
         "all"
       ],
       "duration": 55,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:JnFSpvZHpXc",
@@ -8285,7 +8312,8 @@
         "all"
       ],
       "duration": 178,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:Mg-muNNwxaY",
@@ -8565,7 +8593,8 @@
         "all"
       ],
       "duration": 47,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:n-w_8LSsTXs",
@@ -8607,7 +8636,8 @@
         "all"
       ],
       "duration": 48,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:aIcfd67FT3A",
@@ -8663,7 +8693,8 @@
         "all"
       ],
       "duration": 37,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:ND-c3iiBABM",
@@ -8831,7 +8862,8 @@
         "all"
       ],
       "duration": 174,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:M3sDTrPRz_8",
@@ -8901,7 +8933,8 @@
         "all"
       ],
       "duration": 51,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:KrIAzHzvY4U",
@@ -8915,7 +8948,8 @@
         "all"
       ],
       "duration": 36,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:p4VISheRjcE",
@@ -8957,7 +8991,8 @@
         "all"
       ],
       "duration": 33,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:XpjznvRYemc",
@@ -8971,7 +9006,8 @@
         "all"
       ],
       "duration": 40,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:8O9QLeGlJ64",
@@ -9055,7 +9091,8 @@
         "all"
       ],
       "duration": 126,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:UtDlXHKzGf8",
@@ -9069,7 +9106,8 @@
         "all"
       ],
       "duration": 146,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:zmFQ7lF74uo",
@@ -9489,7 +9527,8 @@
         "all"
       ],
       "duration": 159,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:sNo9CHoueEI",
@@ -9811,7 +9850,8 @@
         "all"
       ],
       "duration": 54,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:ravpFqr06rs",
@@ -9937,7 +9977,8 @@
         "all"
       ],
       "duration": 45,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:fD2SrpZXAus",
@@ -10035,7 +10076,8 @@
         "all"
       ],
       "duration": 59,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:BnNWLYli2is",
@@ -10049,7 +10091,8 @@
         "all"
       ],
       "duration": 32,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:P127am8jVlQ",
@@ -10077,7 +10120,8 @@
         "seoyeon"
       ],
       "duration": 60,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:ZEpqxFl5vEo",
@@ -10119,7 +10163,8 @@
         "all"
       ],
       "duration": 45,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:f5XLKy4LZRI",
@@ -10133,7 +10178,8 @@
         "all"
       ],
       "duration": 60,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:Na3HNUCF2uw",
@@ -10147,7 +10193,8 @@
         "all"
       ],
       "duration": 56,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:4phYz2uCrB8",
@@ -10274,7 +10321,8 @@
         "all"
       ],
       "duration": 180,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:U-nUIkjP6Es",
@@ -10288,7 +10336,8 @@
         "all"
       ],
       "duration": 175,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:MuzhqEGHXfA",
@@ -10316,7 +10365,8 @@
         "all"
       ],
       "duration": 56,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:DYQUi9TR39w",
@@ -10442,7 +10492,8 @@
         "jiwon"
       ],
       "duration": 59,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:NyoLs00culs",
@@ -10666,7 +10717,8 @@
         "all"
       ],
       "duration": 178,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:pyHK3SQU6d8",
@@ -10680,7 +10732,8 @@
         "all"
       ],
       "duration": 115,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:QSYubhE6p6I",
@@ -10694,7 +10747,8 @@
         "all"
       ],
       "duration": 18,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:nB9Ew0h95CI",
@@ -10736,7 +10790,8 @@
         "all"
       ],
       "duration": 58,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:kL7OlUuEAcs",
@@ -10904,7 +10959,8 @@
         "all"
       ],
       "duration": 179,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:j9z7sgawn5w",
@@ -11087,7 +11143,8 @@
         "hayoung"
       ],
       "duration": 41,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:kRVtajlqV9c",
@@ -11101,7 +11158,8 @@
         "jisun"
       ],
       "duration": 40,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:2IZzlTOqEXo",
@@ -11115,7 +11173,8 @@
         "seoyeon"
       ],
       "duration": 49,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:1VNRWOd-OL0",
@@ -11129,7 +11188,8 @@
         "all"
       ],
       "duration": 21,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:pLPamvB2Jpg",
@@ -11143,7 +11203,8 @@
         "all"
       ],
       "duration": 19,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:DE-h3-qFWYs",
@@ -11451,7 +11512,8 @@
         "all"
       ],
       "duration": 32,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:SF9DR6Mo9DY",
@@ -11465,7 +11527,8 @@
         "jiwon"
       ],
       "duration": 37,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:KaMsJeIVjus",
@@ -11705,7 +11768,8 @@
         "jiwon"
       ],
       "duration": 53,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:uCe25Wc01Uk",
@@ -11803,7 +11867,8 @@
         "all"
       ],
       "duration": 159,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:WgRU2bG5SZE",
@@ -12447,7 +12512,8 @@
         "all"
       ],
       "duration": 109,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:YHU9vVqC_Bo",
@@ -12671,7 +12737,8 @@
         "jisun"
       ],
       "duration": 105,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:fbkS_blj8fU",
@@ -12713,7 +12780,8 @@
         "chaeyoung"
       ],
       "duration": 105,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:_2NCuVFH3Mw",
@@ -12839,7 +12907,8 @@
         "all"
       ],
       "duration": 19,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:DAA0wzv7fGw",
@@ -13007,7 +13076,8 @@
         "all"
       ],
       "duration": 113,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:HMuUp9EITME",
@@ -13147,7 +13217,8 @@
         "all"
       ],
       "duration": 43,
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:KqJs0J2tu5Y",
@@ -13245,7 +13316,8 @@
         "all"
       ],
       "duration": 176,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:GxKVJzRjlfs",
@@ -13315,7 +13387,8 @@
         "all"
       ],
       "duration": 31,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:78XP4VZapwk",
@@ -13343,7 +13416,8 @@
         "all"
       ],
       "duration": 180,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:3PsQHoh-1xA",
@@ -13357,7 +13431,8 @@
         "all"
       ],
       "duration": 177,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:XBFn9wxTeX0",
@@ -13385,7 +13460,8 @@
         "all"
       ],
       "duration": 180,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:QtSBCqj5dt8",
@@ -13413,7 +13489,8 @@
         "all"
       ],
       "duration": 179,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:FXSYiiIGA_k",
@@ -13497,7 +13574,8 @@
         "gyuri"
       ],
       "duration": 180,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:DafKVVdajCc",
@@ -13511,7 +13589,8 @@
         "saerom"
       ],
       "duration": 180,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:nY-cFPuMDR8",
@@ -15051,7 +15130,8 @@
         "jiheon"
       ],
       "duration": 163,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:gjysQ-I8GCo",
@@ -15415,7 +15495,8 @@
         "all"
       ],
       "duration": 180,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:jw8XIOJoOU0",
@@ -15723,7 +15804,8 @@
         "all"
       ],
       "duration": 180,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:9jTfUbMmkEg",
@@ -15779,7 +15861,8 @@
         "all"
       ],
       "duration": 180,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:yvQx8EGdqSA",
@@ -15835,7 +15918,8 @@
         "all"
       ],
       "duration": 82,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:SdtuPjLcMrk",
@@ -15906,7 +15990,8 @@
         "seoyeon"
       ],
       "duration": 119,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:thrE0dQruLw",
@@ -16256,7 +16341,8 @@
         "all"
       ],
       "duration": 180,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:daE9KNNSwCg",
@@ -16298,7 +16384,8 @@
         "all"
       ],
       "duration": 179,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:75vIoQI_nGs",
@@ -17306,7 +17393,8 @@
         "all"
       ],
       "duration": 180,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:jhOYoApt8Uk",
@@ -17390,7 +17478,8 @@
         "all"
       ],
       "duration": 178,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:OPywe4KZmNU",
@@ -17432,7 +17521,8 @@
         "all"
       ],
       "duration": 60,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:XqJ5_Xq5zkg",
@@ -17670,7 +17760,8 @@
         "all"
       ],
       "duration": 128,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:Nne-lSzzZOo",
@@ -17768,7 +17859,8 @@
         "all"
       ],
       "duration": 175,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:XmYO_E6AZ_0",
@@ -17908,7 +18000,8 @@
         "all"
       ],
       "duration": 149,
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:uP9NvleEasM",
@@ -18202,7 +18295,8 @@
         "chaeyoung"
       ],
       "duration": "PT32S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:2edUtIah2fI",
@@ -18231,7 +18325,8 @@
         "chaeyoung"
       ],
       "duration": "PT25S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:UF6nnVLA6tY",
@@ -18245,7 +18340,8 @@
         "chaeyoung"
       ],
       "duration": "PT33S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:CBB7CXijczk",
@@ -18273,7 +18369,8 @@
         "chaeyoung"
       ],
       "duration": "PT1M",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:CRiIGS93qAE",
@@ -18301,7 +18398,8 @@
         "chaeyoung"
       ],
       "duration": "PT38S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:t1kVMd4P-Fo",
@@ -18315,7 +18413,8 @@
         "chaeyoung"
       ],
       "duration": "PT36S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:zxrOo2zZ-88",
@@ -18343,7 +18442,8 @@
         "chaeyoung"
       ],
       "duration": "PT44S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:WTFO9U59kO4",
@@ -18357,7 +18457,8 @@
         "chaeyoung"
       ],
       "duration": "PT37S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:LI4u8BVmifQ",
@@ -18385,7 +18486,8 @@
         "chaeyoung"
       ],
       "duration": "PT20S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:RDA7Hpm1Gq8",
@@ -18399,7 +18501,8 @@
         "chaeyoung"
       ],
       "duration": "PT16S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:BiaARnwELVU",
@@ -18413,7 +18516,8 @@
         "chaeyoung"
       ],
       "duration": "PT36S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:xWtkKIHPJEs",
@@ -18441,7 +18545,8 @@
         "chaeyoung"
       ],
       "duration": "PT47S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:S6FcXCwnKsY",
@@ -18455,7 +18560,8 @@
         "chaeyoung"
       ],
       "duration": "PT29S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:Cy0wsGK6UV0",
@@ -18469,7 +18575,8 @@
         "chaeyoung"
       ],
       "duration": "PT23S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:LBSP6pb9Ijc",
@@ -18483,7 +18590,8 @@
         "chaeyoung"
       ],
       "duration": "PT1M48S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:TXcQVYCwzI8",
@@ -18497,7 +18605,8 @@
         "chaeyoung"
       ],
       "duration": "PT55S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:-jDEAVRt7Yw",
@@ -18525,7 +18634,8 @@
         "chaeyoung"
       ],
       "duration": "PT59S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:J-uTd8Y9C4Y",
@@ -18553,7 +18663,8 @@
         "chaeyoung"
       ],
       "duration": "PT23S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:uTHCHFKuOrc",
@@ -18582,7 +18693,8 @@
         "seoyeon"
       ],
       "duration": "PT24S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:xJSz_LkjhNo",
@@ -18596,7 +18708,8 @@
         "chaeyoung"
       ],
       "duration": "PT30S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:Us_2eDhfN84",
@@ -18624,7 +18737,8 @@
         "chaeyoung"
       ],
       "duration": "PT36S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:J3WteViEQyQ",
@@ -18638,7 +18752,8 @@
         "chaeyoung"
       ],
       "duration": "PT20S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:j5RFnYIUcKE",
@@ -18666,7 +18781,8 @@
         "chaeyoung"
       ],
       "duration": "PT29S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:B1oywedru0Y",
@@ -18680,7 +18796,8 @@
         "chaeyoung"
       ],
       "duration": "PT26S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:qdm5Z6wLYBM",
@@ -18708,7 +18825,8 @@
         "chaeyoung"
       ],
       "duration": "PT48S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:b0zsID8scJM",
@@ -18722,7 +18840,8 @@
         "chaeyoung"
       ],
       "duration": "PT31S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:t77y8LV0KNw",
@@ -18751,7 +18870,8 @@
         "chaeyoung"
       ],
       "duration": "PT52S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:ZH0hdGx-N70",
@@ -18765,7 +18885,8 @@
         "chaeyoung"
       ],
       "duration": "PT37S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:qjgN0uNxZm0",
@@ -18793,7 +18914,8 @@
         "chaeyoung"
       ],
       "duration": "PT38S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:AaWQiVuaxf4",
@@ -18807,7 +18929,8 @@
         "chaeyoung"
       ],
       "duration": "PT19S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:A4dBbtU0I-Q",
@@ -18835,7 +18958,8 @@
         "chaeyoung"
       ],
       "duration": "PT38S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:bmA3GUNy0dU",
@@ -18849,7 +18973,8 @@
         "chaeyoung"
       ],
       "duration": "PT19S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:_O3MUg640rg",
@@ -18877,7 +19002,8 @@
         "chaeyoung"
       ],
       "duration": "PT42S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:0zuk3_fBcGQ",
@@ -18891,7 +19017,8 @@
         "chaeyoung"
       ],
       "duration": "PT1M22S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:Oy7ccsQ_KY8",
@@ -18905,7 +19032,8 @@
         "chaeyoung"
       ],
       "duration": "PT47S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:5xk8poX21-U",
@@ -18919,7 +19047,8 @@
         "chaeyoung"
       ],
       "duration": "PT14S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:XMv945cRWhw",
@@ -18933,7 +19062,8 @@
         "chaeyoung"
       ],
       "duration": "PT14S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:egLfn0iBIDg",
@@ -18961,7 +19091,8 @@
         "chaeyoung"
       ],
       "duration": "PT20S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:YA_4fu56UNg",
@@ -18975,7 +19106,8 @@
         "chaeyoung"
       ],
       "duration": "PT28S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:0UzEcqK8US0",
@@ -18989,7 +19121,8 @@
         "chaeyoung"
       ],
       "duration": "PT47S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:RjxlSrG20m0",
@@ -19017,7 +19150,8 @@
         "chaeyoung"
       ],
       "duration": "PT39S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:lYWRxpvX6wQ",
@@ -19031,7 +19165,8 @@
         "chaeyoung"
       ],
       "duration": "PT37S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:2lETepj959o",
@@ -19045,7 +19180,8 @@
         "chaeyoung"
       ],
       "duration": "PT18S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:uIvFqHDtr7U",
@@ -19073,7 +19209,8 @@
         "chaeyoung"
       ],
       "duration": "PT39S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:Bpchr9nD4-E",
@@ -19087,7 +19224,8 @@
         "chaeyoung"
       ],
       "duration": "PT17S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:vjO0Og47ohY",
@@ -19115,7 +19253,8 @@
         "chaeyoung"
       ],
       "duration": "PT23S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:MF8pFI03af4",
@@ -19129,7 +19268,8 @@
         "chaeyoung"
       ],
       "duration": "PT40S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:O4ZOOPkW-JU",
@@ -19157,7 +19297,8 @@
         "chaeyoung"
       ],
       "duration": "PT16S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:1D6kJfi3etQ",
@@ -19171,7 +19312,8 @@
         "chaeyoung"
       ],
       "duration": "PT17S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:NGitJwAkfhk",
@@ -19185,7 +19327,8 @@
         "chaeyoung"
       ],
       "duration": "PT1M",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:4Dox7wGwsZ0",
@@ -19213,7 +19356,8 @@
         "chaeyoung"
       ],
       "duration": "PT27S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:NONBGKyouaA",
@@ -19227,7 +19371,8 @@
         "chaeyoung"
       ],
       "duration": "PT20S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:2_AExSk55Qo",
@@ -19241,7 +19386,8 @@
         "chaeyoung"
       ],
       "duration": "PT26S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:T1jC7zyk1pA",
@@ -19255,7 +19401,8 @@
         "chaeyoung"
       ],
       "duration": "PT14S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:3aXkrnL0T5U",
@@ -19283,7 +19430,8 @@
         "chaeyoung"
       ],
       "duration": "PT27S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:MXMfJ11A3fY",
@@ -19297,7 +19445,8 @@
         "chaeyoung"
       ],
       "duration": "PT38S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:j_0Ndxpj8G8",
@@ -19325,7 +19474,8 @@
         "chaeyoung"
       ],
       "duration": "PT17S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:ofxHzA7TWDE",
@@ -19339,7 +19489,8 @@
         "chaeyoung"
       ],
       "duration": "PT2M18S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:F1trXE__3Is",
@@ -19353,7 +19504,8 @@
         "hayoung"
       ],
       "duration": "PT26S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:jAFou9KcPY8",
@@ -19367,7 +19519,8 @@
         "hayoung"
       ],
       "duration": "PT11S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:LYjkvSWbE6M",
@@ -19381,7 +19534,8 @@
         "hayoung"
       ],
       "duration": "PT15S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:Rmri55bv98Q",
@@ -19395,7 +19549,8 @@
         "hayoung"
       ],
       "duration": "PT20S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:l5nb4naSN_s",
@@ -19409,7 +19564,8 @@
         "hayoung"
       ],
       "duration": "PT22S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:yfQNI9kgrs4",
@@ -19423,7 +19579,8 @@
         "hayoung"
       ],
       "duration": "PT14S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:Lgg-NYK5IgY",
@@ -19451,7 +19608,8 @@
         "hayoung"
       ],
       "duration": "PT17S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:qYabYryg8rA",
@@ -19465,7 +19623,8 @@
         "hayoung"
       ],
       "duration": "PT26S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:7JNdLrfEXMg",
@@ -19479,7 +19638,8 @@
         "hayoung"
       ],
       "duration": "PT18S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:W485j9BHMuw",
@@ -19493,7 +19653,8 @@
         "hayoung"
       ],
       "duration": "PT12S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:wmw6csDNzPw",
@@ -19507,7 +19668,8 @@
         "hayoung"
       ],
       "duration": "PT24S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:_-BGPSMuIRg",
@@ -19521,7 +19683,8 @@
         "hayoung"
       ],
       "duration": "PT35S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:t4to25ce2IM",
@@ -19549,7 +19712,8 @@
         "hayoung"
       ],
       "duration": "PT27S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:ZfIY5WPvFic",
@@ -19563,7 +19727,8 @@
         "hayoung"
       ],
       "duration": "PT18S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:kgb1uA6fzeE",
@@ -19577,7 +19742,8 @@
         "hayoung"
       ],
       "duration": "PT19S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:OcaXjISFW8Y",
@@ -19591,7 +19757,8 @@
         "hayoung"
       ],
       "duration": "PT14S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:NunJF8FXccg",
@@ -19605,7 +19772,8 @@
         "hayoung"
       ],
       "duration": "PT31S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:u8RHKEpmYJw",
@@ -19633,7 +19801,8 @@
         "hayoung"
       ],
       "duration": "PT24S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:3QH_-r2ZI3o",
@@ -19648,7 +19817,8 @@
         "nagyung"
       ],
       "duration": "PT16S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:4maO4Qj1kGE",
@@ -19662,7 +19832,8 @@
         "hayoung"
       ],
       "duration": "PT19S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:hfkkpaIdCjY",
@@ -19676,7 +19847,8 @@
         "hayoung"
       ],
       "duration": "PT16S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:kyTTbT4bjCo",
@@ -19690,7 +19862,8 @@
         "hayoung"
       ],
       "duration": "PT16S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:jyEGQU9UPRY",
@@ -19704,7 +19877,8 @@
         "hayoung"
       ],
       "duration": "PT23S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:6ikTPG3MW-Q",
@@ -19734,7 +19908,8 @@
         "hayoung"
       ],
       "duration": "PT1M31S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:u7ljSCuxttE",
@@ -20493,7 +20668,8 @@
         "all"
       ],
       "duration": "PT1M9S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:oMP7Nk4WobA",
@@ -20801,7 +20977,8 @@
         "all"
       ],
       "duration": "PT1M11S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:0WqwGwDRgAk",
@@ -20815,7 +20992,8 @@
         "all"
       ],
       "duration": "PT1M22S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:FegFIGroXVM",
@@ -20899,7 +21077,8 @@
         "all"
       ],
       "duration": "PT22S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:qxGPCbQUOwg",
@@ -21109,7 +21288,8 @@
         "all"
       ],
       "duration": "PT1M37S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:Tz2_6Gyq1Zg",
@@ -21123,7 +21303,8 @@
         "gyuri"
       ],
       "duration": "PT2M16S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:ToUYRphXOa4",
@@ -21137,7 +21318,8 @@
         "jiwon"
       ],
       "duration": "PT2M19S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:NaHqeETHQ-U",
@@ -21151,7 +21333,8 @@
         "saerom"
       ],
       "duration": "PT2M17S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:c2xGbLTfuCM",
@@ -21165,7 +21348,8 @@
         "jisun"
       ],
       "duration": "PT2M21S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:aeeqUkIXemY",
@@ -21179,7 +21363,8 @@
         "seoyeon"
       ],
       "duration": "PT2M15S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:An54wfnn3OU",
@@ -21194,7 +21379,8 @@
         "seoyeon"
       ],
       "duration": "PT2M16S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:GhWLk5dr0EM",
@@ -21208,7 +21394,8 @@
         "nagyung"
       ],
       "duration": "PT2M10S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:xfRumYyZE8E",
@@ -21222,7 +21409,8 @@
         "jiheon"
       ],
       "duration": "PT2M30S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:O1Y8fSF_5Eo",
@@ -21236,7 +21424,8 @@
         "hayoung"
       ],
       "duration": "PT2M8S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:RBmVGW8n5Ek",
@@ -21390,7 +21579,8 @@
         "all"
       ],
       "duration": "PT56S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:Lv5enkTlFrQ",
@@ -21628,7 +21818,8 @@
         "all"
       ],
       "duration": "PT31S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:mzVUKTSqpUc",
@@ -21824,7 +22015,8 @@
         "all"
       ],
       "duration": "PT1M5S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:dggDToCuDCk",
@@ -22790,7 +22982,8 @@
         "all"
       ],
       "duration": "PT49S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:FZArkSNPFeI",
