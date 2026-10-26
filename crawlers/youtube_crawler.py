@@ -50,7 +50,17 @@ API_ROOT = "https://www.googleapis.com/youtube/v3"
 # HTTP
 # --------------------------------------------------------------------------- #
 
+UNIT_COST = {"search": 100}  # 그 외 엔드포인트는 1유닛
+MAX_UNITS = int(os.environ.get("YT_MAX_UNITS", "3000"))  # 1회 실행 쿼터 예산(반복 호출 폭주 방지)
+_units_used = 0
+
+
 def api_get(path: str, params: dict, api_key: str, retries: int = 3) -> dict:
+    global _units_used
+    _units_used += UNIT_COST.get(path, 1)
+    if _units_used > MAX_UNITS:
+        sys.exit(f"[중단] 이번 실행의 쿼터 예산 {MAX_UNITS} 초과 — 반복 호출 루프 의심 "
+                 f"(마지막 endpoint={path}, params={ {k: v for k, v in params.items() if k != 'key'} })")
     params = {**params, "key": api_key}
     url = f"{API_ROOT}/{path}?" + urllib.parse.urlencode(params)
     last_err = None
@@ -61,11 +71,18 @@ def api_get(path: str, params: dict, api_key: str, retries: int = 3) -> dict:
                 return json.loads(resp.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8", "replace")
+            reason = ""
+            try:
+                reason = (json.loads(body).get("error", {}).get("errors") or [{}])[0].get("reason", "")
+            except Exception:  # noqa: BLE001
+                pass
             if e.code in (403, 429) and "quota" in body.lower():
-                sys.exit(f"[중단] YouTube API 쿼터 초과: {body[:300]}")
-            last_err = f"HTTP {e.code}: {body[:300]}"
+                sys.exit(f"[중단] YouTube API 쿼터 초과 (endpoint={path}, HTTP {e.code}, "
+                         f"reason={reason or '?'})\n{body}")
+            last_err = f"HTTP {e.code} {reason}: {body}"
         except Exception as e:  # noqa: BLE001
             last_err = str(e)
+        print(f"  [재시도 {attempt + 1}/{retries}] {path}: {last_err}", file=sys.stderr, flush=True)
         time.sleep(1.5 * (attempt + 1))
     raise RuntimeError(f"API 요청 실패 ({path}): {last_err}")
 
@@ -73,15 +90,27 @@ def api_get(path: str, params: dict, api_key: str, retries: int = 3) -> dict:
 def paginate(path: str, params: dict, api_key: str, cap: int) -> list[dict]:
     items: list[dict] = []
     page_token = None
+    seen_tokens: set[str] = set()
+    empty_pages = pages = 0
+    max_pages = cap // 50 + 10
     while len(items) < cap:
         p = {**params, "maxResults": 50}
         if page_token:
             p["pageToken"] = page_token
         data = api_get(path, p, api_key)
-        items.extend(data.get("items", []))
+        pages += 1
+        got = data.get("items", [])
+        empty_pages = 0 if got else empty_pages + 1
+        items.extend(got)
         page_token = data.get("nextPageToken")
         if not page_token:
             break
+        # 토큰이 반복되거나 빈 페이지만 이어지거나 페이지가 비정상적으로 많으면 중단(무한 루프 방지)
+        if page_token in seen_tokens or empty_pages >= 3 or pages >= max_pages:
+            print(f"  [경고] 페이지네이션 중단({path}, {pages}쪽, 항목 {len(items)}개, "
+                  f"params={ {k: v for k, v in params.items() if k != 'key'} })", file=sys.stderr, flush=True)
+            break
+        seen_tokens.add(page_token)
     return items[:cap]
 
 
@@ -119,8 +148,10 @@ def collect_playlist(playlist_id: str, api_key: str, cap: int) -> list[str]:
         api_key,
         cap,
     )
-    return [it["contentDetails"]["videoId"]
-            for it in raw if it.get("contentDetails", {}).get("videoId")]
+    ids = [it["contentDetails"]["videoId"]
+           for it in raw if it.get("contentDetails", {}).get("videoId")]
+    print(f"  재생목록 {playlist_id}: {len(ids)}개 (누적 쿼터 {_units_used})", flush=True)
+    return ids
 
 
 def resolve_channel_id(ref: str, api_key: str) -> str | None:
@@ -182,20 +213,29 @@ def run_search(entry: dict, api_key: str, default_after: str) -> list[str]:
             if before:
                 base["publishedBefore"] = before
             token, got = None, 0
+            seen_tokens: set[str] = set()
+            empty_pages = pages = 0
             while got < per:
                 p = dict(base, maxResults=min(50, per - got))
                 if token:
                     p["pageToken"] = token
                 data = api_get("search", p, api_key)
                 calls += 1
+                pages += 1
+                before_got = got
                 for it in data.get("items", []):
                     vid = it.get("id", {}).get("videoId")
                     if vid:
                         found.append(vid)
                         got += 1
+                empty_pages = 0 if got > before_got else empty_pages + 1
                 token = data.get("nextPageToken")
                 if not token:
                     break
+                if token in seen_tokens or empty_pages >= 3 or pages >= per // 50 + 5:
+                    print(f"  [경고] 검색 페이지네이션 중단 (q={q!r}, {pages}쪽)", file=sys.stderr, flush=True)
+                    break
+                seen_tokens.add(token)
     uniq = list(dict.fromkeys(found))
     print(f"  검색 [{entry.get('label') or queries[0]}]: "
           f"{calls}회 호출(~{calls * 100} 쿼터) → 후보 {len(uniq)}개")
@@ -331,6 +371,7 @@ def load_json(path: Path, default):
 
 
 def main() -> None:
+    sys.stdout.reconfigure(line_buffering=True)  # CI 로그에 진행 상황이 즉시 보이게
     ap = argparse.ArgumentParser(description="FLOVER-FLIX YouTube 수집기")
     ap.add_argument("--config", default="crawlers/sources.json")
     ap.add_argument("--out", default="data", help="데이터 디렉터리")
@@ -561,6 +602,7 @@ def main() -> None:
     if added_count > 0:
         print(f"이력 기록: +{added_count}개 (누계 {new_total}개)")
     print("카테고리:", json.dumps(counts, ensure_ascii=False))
+    print(f"이번 실행 쿼터 사용(추정): {_units_used} / 예산 {MAX_UNITS}")
 
     if args.dry_run:
         print("[dry-run] 파일 미기록")
