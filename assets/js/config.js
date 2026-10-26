@@ -59,6 +59,7 @@ window.FF_CONFIG = {
     { id: "special", label: "스페셜무대",  icon: "sparkles",     sel: { cat: "special_stage" }, subBy: "year", withAll: true },
     { id: "shorts",  label: "Shorts",     icon: "smartphone",   sel: { cat: "shorts" },  subBy: "year", withAll: true },
     { divider: true },
+    { id: "discography", label: "Discography", icon: "disc-3", view: "discography" },
     { id: "sbs_photos", label: "SBS 인기가요 : 현장포토", icon: "image", view: "photos" },
   ],
 

@@ -1,0 +1,15 @@
+{
+  "name": "fp-discography-tools",
+  "private": true,
+  "description": "프로미스나인 디스코그래피 데이터 수집·빌드 도구 (로컬 전용, 배포 제외)",
+  "scripts": {
+    "fetch": "node fetch.js",
+    "build": "node build.js",
+    "check": "node check.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "marked": "^12.0.0",
+    "sharp": "^0.33.0"
+  }
+}

@@ -12,7 +12,9 @@
     videos: [],
     members: [],
     meta: {},
-    view: "browse", // "browse" | "about" | "photos" (파라미터 없이 접속하면 전체보기가 시작 페이지)
+    album: null, // 디스코그래피 상세로 열린 앨범 id
+    discoCount: null,
+    view: "browse", // "browse" | "about" | "photos" | "discography" (파라미터 없이 접속하면 전체보기가 시작 페이지)
     photos: { posts: [] }, // data/photos.json (SBS 인기가요 현장포토)
     photoGroups: 12, // 현장포토 화면에서 지금까지 그린 게시물(그룹) 수
     sel: {}, // { cat?, cats?[], year?, song?, member? } - {} = 전체
@@ -293,6 +295,10 @@
     const hasSel = sel.cat || sel.cats || sel.year || sel.song || sel.member || state.q;
     if (p.get("view") === "about") state.view = "about";
     else if (p.get("view") === "photos") state.view = "photos";
+    else if (p.get("view") === "discography") {
+      state.view = "discography";
+      state.album = p.get("album") || null;
+    }
     else if (p.get("view") === "browse" || hasSel) state.view = "browse";
     else state.view = "browse"; // 파라미터 없음 = 시작 페이지(전체보기)
   }
@@ -301,6 +307,9 @@
     const p = new URLSearchParams();
     if (state.view === "about" || state.view === "photos") {
       p.set("view", state.view); // 파라미터 없는 "/" 는 전체보기
+    } else if (state.view === "discography") {
+      p.set("view", "discography");
+      if (state.album) p.set("album", state.album);
     } else {
       const s = state.sel;
       if (s.cat) p.set("cat", s.cat);
@@ -345,6 +354,7 @@
 
     state.members = members.members || [];
     state.meta = meta || {};
+    if (window.FFDiscography) window.FFDiscography.preload().then(() => { state.discoCount = window.FFDiscography.count(); buildNav(); paintIcons(); });
     state.photos = applyPhotoOverrides(photos || { posts: [] }, (overrides || {}).photos);
     state.videos = (videosRaw.videos || []).map(normalizeVideo);
 
@@ -503,6 +513,13 @@
         el.pane1.appendChild(hr);
         continue;
       }
+      if (node.view === "discography") {
+        const b = navBtn(node.label, state.discoCount, { active: state.view === "discography", icon: node.icon });
+        b.classList.add("nav-lv1");
+        b.addEventListener("click", () => goDisco(null));
+        el.pane1.appendChild(b);
+        continue;
+      }
       if (node.view === "photos") {
         const n = (state.photos.posts || []).reduce((s, p) => s + p.images.length, 0);
         const b = navBtn(node.label, n, { active: state.view === "photos", icon: node.icon });
@@ -576,13 +593,15 @@
 
     const about = state.view === "about";
     const photos = state.view === "photos";
-    const pageTitle = about ? "소개" : photos ? PHOTO_TITLE : titleFor(state.sel);
+    const disco = state.view === "discography";
+    const pageTitle = about ? "소개" : photos ? PHOTO_TITLE : disco ? "Discography" : titleFor(state.sel);
     el.topbarTitle.textContent = pageTitle;
     document.title = about ? "About. · FLOVER-FLIX" : `${pageTitle} · FLOVER-FLIX`;
 
     document.body.classList.toggle("is-about", about); // 넓은 화면의 About 에서는 사이드바 고정(CSS)
     if (about) renderAbout();
     else if (photos) renderPhotos();
+    else if (disco) renderDisco();
     else renderGrid();
 
     if (about) {
@@ -705,6 +724,32 @@
       );
       scrollObs.observe(sentinel);
     }
+  }
+
+  /* ---------- 디스코그래피 ---------- */
+
+  function renderDisco() {
+    const wrap = document.createElement("div");
+    wrap.className = "disco-root";
+    el.content.appendChild(wrap);
+    const album = state.album;
+    window.FFDiscography.render(wrap, { album, onNav: goDisco }).then((title) => {
+      if (state.view !== "discography" || state.album !== album) return;
+      state.discoCount = window.FFDiscography.count();
+      if (title) document.title = `${title} · Discography · FLOVER-FLIX`;
+      el.topbarTitle.textContent = title ? "Discography" : "Discography";
+      paintIcons();
+    });
+  }
+
+  function goDisco(id) {
+    state.view = "discography";
+    state.album = id || null;
+    state.subGroup = null;
+    writeUrl();
+    buildNav();
+    render();
+    closeDrawer();
   }
 
   function goPhotos() {

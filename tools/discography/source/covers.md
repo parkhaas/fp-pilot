@@ -1,0 +1,24 @@
+# 앨범 커버 원본 URL
+
+> 나무위키 문서에서 수집한 앨범 커버 이미지 주소입니다. 저작권은 각 음반사에 있으며, 사이트에는 640px 썸네일만 저장합니다 (`data/discography/covers/`).
+
+| 발매일 | 구분 | 앨범 | 커버 원본 URL | 저장 파일 |
+| --- | --- | --- | --- | --- |
+| 2026-07-21 | 정규 2집 | Glow ME | https://i.namu.wiki/i/uwMFGPF4E6r0vSfSjORZqeYZrac8xGfgZpwxJxfgm9Q-GnNbdyVJVwTv9FU1ZPHPrCd11LVuSGE5K1xhYZ3vgUWJUMH1xx5_3L8uC4eCe5Z0sOPCki-qLfgVjm7GLFwSyB64_F128YCENRt5ONgRZw.webp | data/discography/covers/2026-07-21-glow-me.webp |
+| 2026-04-01 | 미니 1집 | LIKE YOU BETTER (Japanese ver.) | https://i.namu.wiki/i/oOg-Qy05FTm-9OWJh5z9VW5WJQmFvkmfo2jWrEWh_g_Rc7q1sbeyWmi24xWCGWQGMRREyOFzMtm5H4MPIGoFbyK1uQN7dIaFrKKmI5vBJULc8X_ZLpy8368ArtOG6jtHS6iVgwUlPaqvzLJ8OIYmUw.webp | data/discography/covers/2026-04-01-like-you-better-japanese-ver.webp |
+| 2025-12-02 | 스페셜 디지털 싱글 | 하얀 그리움 | https://i.namu.wiki/i/O2yqGmDpg08wkNs-ADT5L0-1tH526E39q_o8pX71mPfpoT8RSUm5Z89JLeU8JM7scyls2VT_8kisASadz63lus3kwQBF-NgSZQKvEY1t16nbDva1ff0EYoj7cbIZN0wQgBE6mSR2XSf7UqywyXIMsQ.webp | data/discography/covers/2025-12-02-하얀-그리움.webp |
+| 2025-06-25 | 미니 6집 | From Our 20’s | https://i.namu.wiki/i/Q8nzjNRv27sVEH-fsat_ZXQ1uLwm6XM6xs31LXh4z20TYy4A9CA-EoTM9c-_WOFaBV110nYP02bI0JBSb882yQ5Cc7q2GNqU5J_I111G7yNNy0NZX-wOv3KG4lmf0MiaoUUvIUw4OLERHCzyFpOIOw.webp | data/discography/covers/2025-06-25-from-our-20-s.webp |
+| 2024-12-23 | 스페셜 싱글 | from | https://i.namu.wiki/i/IzbwN3iJQC_ZOdbivc2zDxJj2-B-KouIy4u7pe3TWimYrPv3LYs7VTwzRFZVGjiTyywKlUFpcZMABt2yxgTpyhzoHKnx5ZMQo0T0F1VPeleXsJE1C9EpkiZighxYUCi8iBqWH_k2p4q4ilci2UtL_w.webp | data/discography/covers/2024-12-23-from.webp |
+| 2024-08-12 | 싱글 3집 | Supersonic | https://i.namu.wiki/i/vBJARlDvFMm3ee4gJ04_Ku3gUuCmEV8mgNNwJBubqpb07pt4idVbWCJl9A6QWZOzKxsux4t0fdkqX8pZv-hx6MUGvX_fY5CGxcfq9DZwF7T1ec5Z9SPL5tW671AZbhlUKD6cXysd7cpWcj479pzvSw.webp | data/discography/covers/2024-08-12-supersonic.webp |
+| 2023-06-05 | 정규 1집 | Unlock My World | https://i.namu.wiki/i/2MxYIV_ZLptHf9mI8WEHkutwj7PB3henecyZX8vb20P6yCUsCb6GM0gdTdhpnzHcuk_L4nyDjPjTAynwXg5KelHuPbEJnS4yDzLtoov9GTfjRpZJHtg9g6FWnZ5UfXccGdPbp8URBLU6LaunZEQtWA.webp | data/discography/covers/2023-06-05-unlock-my-world.webp |
+| 2022-06-27 | 미니 5집 | from our Memento Box | https://i.namu.wiki/i/D6lgQFlwWYysrSPNkqO_7nch1cjD8u19gIEXxnjbSCivC0WeadCkvuhRZ_CzSHl0vU66lkkztqYOAdcCdhsl3szIYHqFppNP9GTufJVyNudyh3yf10-8D_jCCCCSYDUvhrJwmtcN9Uej7XYZPMXdww.webp | data/discography/covers/2022-06-27-from-our-memento-box.webp |
+| 2022-01-17 | 미니 4집 | Midnight Guest | https://i.namu.wiki/i/YIy6FZaaGQyjhFtgNXGf3avdoYcDWUWRoM_yPQ4rE-3z4OmPOKMmtZvl4kHQTiKRbydrGVhUNDxKOsgHf5dZZ-3GMfEf7dAciJGsxrAiyp8D3TfcKkdaCgRoatpJM4wPF4K9ANjBrYR1ElvRw-JeIg.webp | data/discography/covers/2022-01-17-midnight-guest.webp |
+| 2021-09-01 | 스페셜 싱글 | Talk & Talk | https://i.namu.wiki/i/-RCYb__vHm87sEr_Rlr1lTx3WTJ-bv2-0JOnOuX6SdyaYerNu3rHcwf6xxv74loOC7o2EfSiqvd1Q7kT78NBrjnR1qSwr9lscMNgL_uxLjS56_cLkSKwRh5CamnCG82YpVWO4N0nAyGEfVRYfH_WIQ.webp | data/discography/covers/2021-09-01-talk-talk.webp |
+| 2021-05-17 | 싱글 2집 | 9 WAY TICKET | https://i.namu.wiki/i/kgvJnORFPzqkboj_HjSDXsShb5qTugAlo4mr4qq8Kda1XY2EaBNy9PcF5qPxZfMBPsc_9z5yLFaJTxDfhnU70vSCHg2_050HvbIKeosiErpfrTg4TwNxy9UwrTG1ZitIbPXwtE0p2Dqjt08_avFWOw.webp | data/discography/covers/2021-05-17-9-way-ticket.webp |
+| 2020-09-16 | 미니 3집 | My Little Society | https://i.namu.wiki/i/LcxMEWJveJSJGI27UliXwD--XLZa73TqSPfT3hP0iw88J_-X9eWqaLbJhI0oMFYIFJkjvnjIrH-XA2mZoOM2kglurWHPgZybrNCjCDgSeOAMQI0o-aC5lKCkrT1qqdRMgsDmlJhJDxpgpw1wqZl5Og.webp | data/discography/covers/2020-09-16-my-little-society.webp |
+| 2020-03-13 | 선공개 싱글 | LOVE BOMB (Japanese ver.) | (없음) | - |
+| 2019-06-04 | 싱글 1집 | FUN FACTORY | https://i.namu.wiki/i/HcodiY1qWsfoai2vFQ9QpI_ckfy0imjz8q4Fk3ZtuXQipp6LVizgqA8ZbQpMcVgzgqO1NIsU2Ot20jsKTlQEjZgYyTg5Rd7ENv94YuepzmxEKGrr20y3Bsy296B_OL-LFBP4zTv7zK7GFwkVkqMFGg.webp | data/discography/covers/2019-06-04-fun-factory.webp |
+| 2018-10-10 | 스페셜 싱글 | From.9 | https://i.namu.wiki/i/ehYxJSamS3lAcTSqTs-nCVv5CFzEzpXeilQjprL5nVrBDx8-nrDc_pgcxMhAneG9yAV0Ih0zKxhPUctGyVw3o2MclQnu6_bAlhXKTdgSxBcanlEREhFqAalaIa9OV0Glf-VFEx7KJ0JbIPiP7iejQg.webp | data/discography/covers/2018-10-10-from-9.webp |
+| 2018-06-05 | 미니 2집 | To. Day | https://i.namu.wiki/i/AStB4JsYi725UgYIjd19xsqtd7pgeUA-kYCfeat5sLwam60jMRXZ-wSegOx9D_VB-__NCyIH-UicPelyuWRep9FTa4_vhTg1zCN97gb8xAILfq_dhqi2HkDHk-nOoQfc2GhLaY2Fg9vJ0cnPs-i58Q.webp | data/discography/covers/2018-06-05-to-day.webp |
+| 2018-01-24 | 미니 1집 | To. Heart | https://i.namu.wiki/i/IFUq7T-jYRIRNpGgQKMa9UHNc9AAQk0AWuTax-iAAj08lFs49NsPiTPe2vUuYMIlE8eFqPQAb1xmYzuH-8AED_09l2MHxCNQFkrzMl0grXQ-uliF3nQN_N8mELFIe8nz-QI2scwc6PZN5-Mz9O4jAA.webp | data/discography/covers/2018-01-24-to-heart.webp |
+| 2017-11-30 | 선공개 싱글 | 유리구두 | https://i.namu.wiki/i/hqdJBBl8POIp0WotX1MBRiOrVg4DHlPipuv8RzVo5BJ2ghzCeqH1K4C_7UEXGr_U30qmYCcia_uVVeRMTlU3PddTDuL-YiClpDzsH62Wya6Z7gMs8yjvrj1UEvWzCjygq8aIw0LoDtE-9JYx7FxVlQ.webp | data/discography/covers/2017-11-30-유리구두.webp |
