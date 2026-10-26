@@ -1,6 +1,63 @@
 {
   "videos": [
     {
+      "id": "yt:q7k5ryyrId8",
+      "videoId": "q7k5ryyrId8",
+      "title": "후회없이 싸우고 와라 | 이단장 시즌2 EP.8 미공개",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2026-10-26T08:00:39Z",
+      "addedAt": "2026-10-26T18:33:58Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT21S",
+      "source": "youtube",
+      "short": true
+    },
+    {
+      "id": "yt:AWlroWk6Rfc",
+      "videoId": "AWlroWk6Rfc",
+      "title": "협곡은 끝날 때까지 끝난 게 아니다, 단장님과 함께하는 월즈 대책회의 | 이단장 시즌2 EP.8",
+      "category": "plunen_idanjang",
+      "channelTitle": "Hanwha Life Esports",
+      "publishedAt": "2026-10-26T08:00:05Z",
+      "addedAt": "2026-10-26T18:33:58Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT18M29S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:AeSSwOGzLfw",
+      "videoId": "AeSSwOGzLfw",
+      "title": "하나 둘 셋 얍!",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-10-25T07:00:02Z",
+      "addedAt": "2026-10-26T18:33:58Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:feIdpMugdXs",
+      "videoId": "feIdpMugdXs",
+      "title": "러닝 크루 결성",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-10-25T05:00:30Z",
+      "addedAt": "2026-10-26T18:33:58Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
       "id": "yt:FQ5NL3I9BTY",
       "videoId": "FQ5NL3I9BTY",
       "title": "근데 왜 이러고 계세요?",
