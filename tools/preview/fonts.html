@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>폰트 미리보기 · FLOVER-FLIX</title>
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("ff-theme");
+        var d = t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.classList.toggle("dark", d);
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <link rel="stylesheet" href="naver-fonts.css" />
+  <style>
+    /* 눈누(noonnu) 미러 폰트 — 실제로 쓸 때만 내려받는다 */
+    @font-face { font-family: "Gmarket Sans"; font-weight: 500; font-display: swap;
+      src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff"); }
+    @font-face { font-family: "Gmarket Sans"; font-weight: 700 900; font-display: swap;
+      src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff") format("woff"); }
+    @font-face { font-family: "Cafe24 Ssurround"; font-weight: 100 900; font-display: swap;
+      src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff") format("woff"); }
+    @font-face { font-family: "Yeogi Jalnan"; font-weight: 100 900; font-display: swap;
+      src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff") format("woff"); }
+    @font-face { font-family: "BM Hanna Air"; font-weight: 100 900; font-display: swap;
+      src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff") format("woff"); }
+    @font-face { font-family: "BM Hanna Pro"; font-weight: 100 900; font-display: swap;
+      src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff") format("woff"); }
+    @font-face { font-family: "S-Core Dream"; font-weight: 100; font-display: swap; src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff") format("woff"); }
+    @font-face { font-family: "S-Core Dream"; font-weight: 200; font-display: swap; src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff") format("woff"); }
+    @font-face { font-family: "S-Core Dream"; font-weight: 300; font-display: swap; src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff") format("woff"); }
+    @font-face { font-family: "S-Core Dream"; font-weight: 400; font-display: swap; src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff") format("woff"); }
+    @font-face { font-family: "S-Core Dream"; font-weight: 500; font-display: swap; src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff") format("woff"); }
+    @font-face { font-family: "S-Core Dream"; font-weight: 600 700; font-display: swap; src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff") format("woff"); }
+    @font-face { font-family: "S-Core Dream"; font-weight: 800; font-display: swap; src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff") format("woff"); }
+    @font-face { font-family: "S-Core Dream"; font-weight: 900; font-display: swap; src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff") format("woff"); }
+
+    :root { --fb: "Pretendard"; --fd: "Pretendard"; }
+    /* 폰트에 없는 글자는 Pretendard 로 채운다 */
+    body, button, input, select { font-family: var(--fb), "Pretendard", -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+    .brand-text, .grid-head h2, .nav-label, .stat > span, .stat-pair > div > span, .pv-sample-title {
+      font-family: var(--fd), var(--fb), "Pretendard", -apple-system, "Apple SD Gothic Neo", sans-serif;
+    }
+
+    .fp-top { position: sticky; top: 0; z-index: 30; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding: 10px 20px;
+      background: var(--topbar-glass); backdrop-filter: saturate(180%) blur(14px); -webkit-backdrop-filter: saturate(180%) blur(14px);
+      border-bottom: 1px solid var(--border); }
+    .fp-top h1 { margin: 0; font-size: 0.98rem; font-weight: 800; }
+    .fp-now { flex: 1 1 320px; min-width: 0; font-size: 0.78rem; color: var(--text-2); line-height: 1.5; }
+    .fp-now b { color: var(--brand-strong); }
+    .fp-chip { padding: 6px 13px; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); color: var(--text-2);
+      font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: all .15s ease; }
+    .fp-chip:hover:not(:disabled) { border-color: var(--brand); }
+    .fp-chip.on { background: var(--brand); border-color: var(--brand); color: #fff; }
+    .fp-chip:disabled { opacity: .4; cursor: default; }
+
+    .fp-layout { display: grid; grid-template-columns: 270px 1fr; gap: 24px; max-width: 1400px; margin: 0 auto; padding: 20px; align-items: start; }
+    .fp-list { position: sticky; top: 64px; display: flex; flex-direction: column; max-height: calc(100vh - 84px);
+      border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--surface); overflow: hidden;
+      font-family: "Pretendard", sans-serif; }
+    .fp-list input { margin: 10px; padding: 8px 12px; border: 1px solid var(--border); border-radius: 999px; background: var(--bg);
+      color: var(--text); font: inherit; font-size: 0.82rem; }
+    .fp-list input:focus { outline: none; border-color: var(--brand); box-shadow: 0 0 0 3px var(--brand-weak); }
+    .fp-scroll { overflow: auto; padding: 0 6px 10px; border-top: 1px solid var(--border); }
+    .fp-gh { margin: 12px 8px 4px; font-size: 0.68rem; font-weight: 700; color: var(--text-3); }
+    .fp-item { display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%; padding: 8px 10px; border: none;
+      border-radius: 9px; background: transparent; color: var(--text-2); font: inherit; font-size: 0.84rem; text-align: left; cursor: pointer;
+      transition: background .12s ease, color .12s ease; }
+    .fp-item:hover { background: var(--surface-2); color: var(--text); }
+    .fp-item.on { background: var(--brand-weak); color: var(--brand-strong); font-weight: 700; }
+    .fp-item small { flex-shrink: 0; font-size: 0.66rem; color: var(--text-3); }
+
+    .fp-roles { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin: 10px 10px 0; padding: 4px; border: 1px solid var(--border);
+      border-radius: 999px; background: var(--bg); }
+    .fp-role { padding: 7px 4px; border: none; border-radius: 999px; background: transparent; color: var(--text-3); font: inherit;
+      font-size: 0.8rem; font-weight: 700; cursor: pointer; transition: all .15s ease; }
+    .fp-role.on { background: var(--brand); color: #fff; }
+    .fp-pairs { display: flex; flex-direction: column; gap: 4px; margin: 10px 10px 0; }
+    .fp-pair { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 7px 11px; border: 1px solid var(--border);
+      border-radius: 10px; background: var(--bg); color: var(--text-2); font: inherit; font-size: 0.78rem; font-weight: 600; text-align: left;
+      cursor: pointer; transition: border-color .15s ease, background .15s ease; }
+    .fp-pair:hover { border-color: var(--brand); }
+    .fp-pair.on { border-color: var(--brand); background: var(--brand-weak); color: var(--brand-strong); }
+    .fp-pair small { flex-shrink: 0; font-size: 0.66rem; font-weight: 500; color: var(--text-3); }
+    .fp-r { margin-left: 6px; padding: 1px 6px; border-radius: 999px; background: var(--brand); color: #fff; font-size: 0.6rem; font-style: normal; font-weight: 700; }
+    .fp-r.b { background: var(--text-2); }
+    .fp-main { min-width: 0; }
+    .fp-block { margin-bottom: 34px; }
+    .fp-label { margin: 0 0 12px; font-size: 0.72rem; font-weight: 700; color: var(--text-3); }
+    .fp-row { display: grid; grid-template-columns: 250px 1fr; gap: 20px; align-items: start; }
+    .fp-side { padding: 10px; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--surface); }
+    .fp-side .nav-item { pointer-events: none; }
+    .fp-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
+    .fp-text { max-width: 680px; padding: 22px 24px; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--surface); }
+    .fp-text .pv-sample-title { margin: 0 0 10px; font-size: 1.6rem; font-weight: 800; letter-spacing: -0.03em; line-height: 1.25; }
+    .fp-text p { margin: 0 0 10px; line-height: 1.7; color: var(--text-2); }
+    .fp-weights { display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 12px 0 0; font-size: 1.05rem; }
+    .fp-nums { margin-top: 12px; font-size: 0.95rem; color: var(--text-2); font-variant-numeric: tabular-nums; }
+    @media (max-width: 900px) { .fp-layout { grid-template-columns: 1fr; } .fp-list { position: static; max-height: 300px; } .fp-row { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header class="fp-top">
+    <h1>폰트 미리보기</h1>
+    <div class="fp-now" id="now"></div>
+    <button class="fp-chip" id="same" title="본문 폰트를 지금 제목 폰트와 같게 맞춥니다">본문도 제목과 같은 폰트로</button>
+    <button class="fp-chip" id="dark">다크/라이트</button>
+  </header>
+
+  <div class="fp-layout">
+    <aside class="fp-list">
+      <div class="fp-roles" role="group" aria-label="고를 대상">
+        <button class="fp-role on" id="roleH" data-role="h">제목용 고르기</button>
+        <button class="fp-role" id="roleB" data-role="b">본문용 고르기</button>
+      </div>
+      <div class="fp-pairs" id="pairs"></div>
+      <input type="search" id="q" placeholder="폰트 검색 (예: 나눔, 주아, noto)  ·  ↑ ↓ 로 넘겨 보기" autocomplete="off" />
+      <div class="fp-scroll" id="list"></div>
+    </aside>
+
+    <main class="fp-main">
+      <section class="fp-block">
+        <p class="fp-label">사이드바 · 상단바 · 화면 제목</p>
+        <div class="fp-row">
+          <div class="fp-side" aria-hidden="true">
+            <button class="nav-item is-active"><i data-lucide="layout-grid" class="nav-ico"></i><span class="nav-label">전체보기</span><span class="nav-count">1,101</span></button>
+            <button class="nav-item"><i data-lucide="calendar" class="nav-ico"></i><span class="nav-label">기간별 보기</span><span class="nav-count">1,649</span></button>
+            <button class="nav-item"><i data-lucide="clapperboard" class="nav-ico"></i><span class="nav-label">자체컨텐츠</span><span class="nav-count">201</span></button>
+            <button class="nav-item"><i data-lucide="music" class="nav-ico"></i><span class="nav-label">음악방송</span><span class="nav-count">583</span></button>
+            <button class="nav-item"><i data-lucide="gamepad-2" class="nav-ico"></i><span class="nav-label">이단장</span><span class="nav-count">86</span></button>
+            <button class="nav-item"><i data-lucide="image" class="nav-ico"></i><span class="nav-label">SBS 인기가요 : 현장포토</span><span class="nav-count">1,359</span></button>
+          </div>
+          <div>
+            <a class="brand" href="#" style="margin-bottom:16px"><span class="brand-mark" aria-hidden="true"></span><span class="brand-text" style="font-size:1.05rem">FLOVER<span class="brand-accent">-FLIX</span></span></a>
+            <div class="grid-head">
+              <h2>전체</h2><span class="grid-count">1,101개</span>
+              <label class="toggle"><input type="checkbox" /><span class="toggle-track" aria-hidden="true"></span><span>Shorts 포함</span></label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="fp-block">
+        <p class="fp-label">카드</p>
+        <div class="fp-grid" id="cards"></div>
+      </section>
+
+      <section class="fp-block">
+        <p class="fp-label">소개 페이지 · 숫자</p>
+        <div class="about-stats" style="max-width:640px">
+          <div class="stat"><span>누적 방문</span><b>1,013</b></div>
+          <div class="stat stat-pair"><div><span>카테고리</span><b>21</b></div><div><span>영상</span><b>1,649</b></div></div>
+          <div class="stat stat-time"><span>마지막 업데이트</span><b>2026.10.25<span>00:43:21 KST</span></b><em class="stat-added has-new">+7</em></div>
+        </div>
+      </section>
+
+      <section class="fp-block">
+        <p class="fp-label">본문 · 굵기 · 숫자</p>
+        <div class="fp-text">
+          <h3 class="pv-sample-title">프로미스나인의 영상을 한곳에서</h3>
+          <p>음악방송 무대, 직캠, 자체 콘텐츠를 모아보는 비영리 팬 아카이브입니다. 영상은 YouTube 임베드로만 제공하며, 사진은 작은 썸네일만 저장하고 원본은 SBS 서버에서 불러옵니다.</p>
+          <div class="fp-weights"><span style="font-weight:400">가나다 400</span><span style="font-weight:500">가나다 500</span><span style="font-weight:600">가나다 600</span><span style="font-weight:700">가나다 700</span><span style="font-weight:800">가나다 800</span></div>
+          <div class="fp-nums">1,101개 · 20:44 · 2026.10.22 19:00 · 0123456789 · FLOVER-FLIX fromis_9</div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <script>
+  (() => {
+    "use strict";
+    const G = (name, spec) => "https://fonts.googleapis.com/css2?family=" + name + (spec ? ":wght@" + spec : "") + "&display=swap";
+    // g=묶음, fam=CSS font-family, css=스타일시트(없으면 위에 선언), w=지원 굵기, tag=분위기
+    const P = [
+      { g: "기본", id: "pretendard", name: "Pretendard (현재)", fam: "Pretendard", w: "100~900", tag: "중립 고딕 · 지금 사이트" },
+
+      { g: "인기 웹폰트", id: "suit", name: "SUIT", fam: "SUIT Variable", w: "100~900", tag: "깔끔한 고딕",
+        css: "https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css" },
+      { g: "인기 웹폰트", id: "wanted", name: "Wanted Sans", fam: "Wanted Sans Variable", w: "가변", tag: "Pretendard보다 개성",
+        css: "https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css" },
+      { g: "인기 웹폰트", id: "score", name: "에스코어 드림", fam: "S-Core Dream", w: "100~900 (9단계)", tag: "또렷한 기하학적 고딕" },
+      { g: "인기 웹폰트", id: "gmarket", name: "Gmarket Sans", fam: "Gmarket Sans", w: "500 · 700", tag: "굵고 친근한 고딕" },
+      { g: "인기 웹폰트", id: "cafe24", name: "Cafe24 쏘서라운드", fam: "Cafe24 Ssurround", w: "한 가지", tag: "둥글고 귀여움" },
+      { g: "인기 웹폰트", id: "jalnan", name: "여기어때 잘난체", fam: "Yeogi Jalnan", w: "한 가지", tag: "굵은 개성 디스플레이" },
+
+      { g: "배달의민족", id: "bmjua", name: "BM 주아", fam: "Jua", w: "한 가지", tag: "둥글고 귀여움", css: G("Jua") },
+      { g: "배달의민족", id: "bmdohyeon", name: "BM 도현", fam: "Do Hyeon", w: "한 가지", tag: "굵은 헤드라인", css: G("Do+Hyeon") },
+      { g: "배달의민족", id: "bmyeonsung", name: "BM 연성", fam: "Yeon Sung", w: "한 가지", tag: "손글씨 느낌", css: G("Yeon+Sung") },
+      { g: "배달의민족", id: "bmkirang", name: "BM 기랑해랑", fam: "Kirang Haerang", w: "한 가지", tag: "붓글씨 느낌", css: G("Kirang+Haerang") },
+      { g: "배달의민족", id: "bmhannaair", name: "BM 한나 Air", fam: "BM Hanna Air", w: "한 가지", tag: "가벼운 디스플레이" },
+      { g: "배달의민족", id: "bmhannapro", name: "BM 한나 Pro", fam: "BM Hanna Pro", w: "한 가지", tag: "굵은 디스플레이" },
+
+      { g: "네이버 글꼴모음", id: "nsneo", name: "나눔스퀘어 네오", fam: "NV NanumSquareNeo", w: "300~900", tag: "정돈된 고딕" },
+      { g: "네이버 글꼴모음", id: "ns", name: "나눔스퀘어", fam: "NV NanumSquare", w: "300~800", tag: "각진 고딕" },
+      { g: "네이버 글꼴모음", id: "nsr", name: "나눔스퀘어라운드", fam: "NV NanumSquareRound", w: "300~800", tag: "둥근 고딕" },
+      { g: "네이버 글꼴모음", id: "ng", name: "나눔고딕", fam: "NV NanumGothic", w: "300~800", tag: "표준 고딕" },
+      { g: "네이버 글꼴모음", id: "nbg", name: "나눔바른고딕", fam: "NV NanumBarunGothic", w: "100~700", tag: "단정한 고딕" },
+      { g: "네이버 글꼴모음", id: "nm", name: "나눔명조", fam: "NV NanumMyeongjo", w: "400~800", tag: "명조(세리프)" },
+      { g: "네이버 글꼴모음", id: "maru", name: "마루 부리", fam: "NV MaruBuri", w: "200~700", tag: "부드러운 명조" },
+      { g: "네이버 글꼴모음", id: "npen", name: "나눔손글씨 펜", fam: "NV NanumPen", w: "한 가지", tag: "손글씨" },
+      { g: "네이버 글꼴모음", id: "nbrush", name: "나눔손글씨 붓", fam: "NV NanumBrush", w: "한 가지", tag: "붓글씨" },
+
+      { g: "구글 폰트", id: "gnoto", name: "Noto Sans KR", fam: "Noto Sans KR", w: "400~800", tag: "표준 고딕", css: G("Noto+Sans+KR", "400;500;700;800") },
+      { g: "구글 폰트", id: "gplex", name: "IBM Plex Sans KR", fam: "IBM Plex Sans KR", w: "400~700", tag: "단정·기술적", css: G("IBM+Plex+Sans+KR", "400;500;600;700") },
+      { g: "구글 폰트", id: "ga1", name: "Gothic A1", fam: "Gothic A1", w: "400~800", tag: "중립 고딕", css: G("Gothic+A1", "400;500;700;800") },
+      { g: "구글 폰트", id: "gdodum", name: "고운 돋움", fam: "Gowun Dodum", w: "한 가지", tag: "부드러운 돋움", css: G("Gowun+Dodum") },
+      { g: "구글 폰트", id: "gng", name: "나눔고딕 (구글)", fam: "Nanum Gothic", w: "400~800", tag: "표준 고딕", css: G("Nanum+Gothic", "400;700;800") },
+      { g: "구글 폰트", id: "gsun", name: "해바라기", fam: "Sunflower", w: "300~700", tag: "둥근 고딕", css: G("Sunflower", "300;500;700") },
+      { g: "구글 폰트", id: "gblack", name: "Black Han Sans", fam: "Black Han Sans", w: "한 가지", tag: "아주 굵은 헤드라인", css: G("Black+Han+Sans") },
+      { g: "구글 폰트", id: "ggugi", name: "구기", fam: "Gugi", w: "한 가지", tag: "독특한 디스플레이", css: G("Gugi") },
+      { g: "구글 폰트", id: "gorbit", name: "Orbit", fam: "Orbit", w: "한 가지", tag: "둥근 기하학", css: G("Orbit") },
+      { g: "구글 폰트", id: "gbagel", name: "Bagel Fat One", fam: "Bagel Fat One", w: "한 가지", tag: "통통한 디스플레이", css: G("Bagel+Fat+One") },
+      { g: "구글 폰트", id: "ggasoek", name: "가석 원", fam: "Gasoek One", w: "한 가지", tag: "굵은 디스플레이", css: G("Gasoek+One") },
+      { g: "구글 폰트", id: "gdongle", name: "동글", fam: "Dongle", w: "300~700", tag: "작고 둥근 글씨", css: G("Dongle", "300;400;700") },
+      { g: "구글 폰트", id: "gcute", name: "귀여운 글씨", fam: "Cute Font", w: "한 가지", tag: "귀여움", css: G("Cute+Font") },
+      { g: "구글 폰트", id: "gstylish", name: "스타일리시", fam: "Stylish", w: "한 가지", tag: "가는 세리프풍", css: G("Stylish") },
+      { g: "구글 폰트", id: "gmelody", name: "하이멜로디", fam: "Hi Melody", w: "한 가지", tag: "손글씨", css: G("Hi+Melody") },
+      { g: "구글 폰트", id: "gpoor", name: "푸어 스토리", fam: "Poor Story", w: "한 가지", tag: "손글씨", css: G("Poor+Story") },
+      { g: "구글 폰트", id: "gsingle", name: "싱글 데이", fam: "Single Day", w: "한 가지", tag: "손글씨", css: G("Single+Day") },
+      { g: "구글 폰트", id: "ggaegu", name: "개구", fam: "Gaegu", w: "300~700", tag: "손글씨", css: G("Gaegu", "300;400;700") },
+      { g: "구글 폰트", id: "ggamja", name: "감자꽃", fam: "Gamja Flower", w: "한 가지", tag: "손글씨", css: G("Gamja+Flower") },
+      { g: "구글 폰트", id: "gpen", name: "나눔손글씨 펜 (구글)", fam: "Nanum Pen Script", w: "한 가지", tag: "손글씨", css: G("Nanum+Pen+Script") },
+      { g: "구글 폰트", id: "gdokdo", name: "동해 독도", fam: "East Sea Dokdo", w: "한 가지", tag: "붓글씨", css: G("East+Sea+Dokdo") },
+      { g: "구글 폰트", id: "gserif", name: "Noto Serif KR", fam: "Noto Serif KR", w: "400~700", tag: "명조(세리프)", css: G("Noto+Serif+KR", "400;600;700") },
+      { g: "구글 폰트", id: "gbatang", name: "고운 바탕", fam: "Gowun Batang", w: "400 · 700", tag: "부드러운 바탕", css: G("Gowun+Batang", "400;700") },
+      { g: "구글 폰트", id: "gmyeong", name: "나눔명조 (구글)", fam: "Nanum Myeongjo", w: "400~800", tag: "명조(세리프)", css: G("Nanum+Myeongjo", "400;700;800") },
+      { g: "구글 폰트", id: "ghahm", name: "함렛", fam: "Hahmlet", w: "400~700", tag: "세리프 · 현대적", css: G("Hahmlet", "400;600;700") },
+      { g: "구글 폰트", id: "gsong", name: "송명", fam: "Song Myung", w: "한 가지", tag: "가는 명조", css: G("Song+Myung") },
+    ];
+
+    const $ = (s) => document.querySelector(s);
+    const loaded = new Set();
+    const byId = (id) => P.find((x) => x.id === id);
+    let hFont = byId("gmarket");     // 제목용: 로고·화면 제목·개수·숫자
+    let bFont = byId("pretendard");  // 본문용: 사이드바·카드·배지·문장
+    let role = "h";                  // 지금 목록에서 고르는 대상
+
+    const PAIRS = [
+      { name: "Pretendard + Gmarket Sans", h: "gmarket", b: "pretendard", note: "안정적·현대적" },
+      { name: "SUIT + 여기어때 잘난체", h: "jalnan", b: "suit", note: "발랄·개성" },
+      { name: "나눔스퀘어 네오 + Cafe24 쏘서라운드", h: "cafe24", b: "nsneo", note: "둥글고 친근" },
+      { name: "에스코어 드림 한 벌", h: "score", b: "score", note: "굵기 위계만" },
+    ];
+
+    function load(p) {
+      if (p.css && !loaded.has(p.css)) {
+        const l = document.createElement("link");
+        l.rel = "stylesheet";
+        l.href = p.css;
+        document.head.appendChild(l);
+        loaded.add(p.css);
+      }
+    }
+
+    function update() {
+      load(hFont);
+      load(bFont);
+      document.documentElement.style.setProperty("--fd", '"' + hFont.fam + '"');
+      document.documentElement.style.setProperty("--fb", '"' + bFont.fam + '"');
+      markList();
+      document.querySelectorAll(".fp-pair").forEach((b) => b.classList.toggle("on", b.dataset.h === hFont.id && b.dataset.b === bFont.id));
+      document.querySelectorAll(".fp-role").forEach((b) => b.classList.toggle("on", b.dataset.role === role));
+      const warn = [];
+      if (hFont.w === "한 가지") warn.push("제목 폰트는 굵기가 한 가지입니다");
+      if (bFont.w === "한 가지") warn.push("본문 폰트가 굵기 한 가지라 글자 위계(굵게/보통)가 약해집니다");
+      $("#now").innerHTML =
+        "제목 <b>" + hFont.name + "</b> <small>(" + hFont.tag + " · 굵기 " + hFont.w + ")</small> &nbsp;/&nbsp; " +
+        "본문 <b>" + bFont.name + "</b> <small>(" + bFont.tag + " · 굵기 " + bFont.w + ")</small>" +
+        (warn.length ? "<br />주의: " + warn.join(" · ") : "");
+      $("#same").disabled = hFont.id === bFont.id;
+      history.replaceState(null, "", "#h=" + hFont.id + "&b=" + bFont.id);
+    }
+
+    // 목록의 선택 표시만 갱신한다(스크롤 위치 유지)
+    function markList() {
+      const curId = (role === "h" ? hFont : bFont).id;
+      document.querySelectorAll(".fp-item").forEach((b) => {
+        b.classList.toggle("on", b.dataset.id === curId);
+        const tags = b.querySelector(".fp-tags");
+        tags.innerHTML = (b.dataset.id === hFont.id ? '<i class="fp-r">제목</i>' : "") + (b.dataset.id === bFont.id ? '<i class="fp-r b">본문</i>' : "");
+      });
+    }
+
+    function renderList(filter) {
+      const q = (filter || "").trim().toLowerCase();
+      let html = "", lastG = "";
+      for (const p of P) {
+        if (q && !(p.name + " " + p.fam + " " + p.g + " " + p.tag).toLowerCase().includes(q)) continue;
+        if (p.g !== lastG) { html += '<p class="fp-gh">' + p.g + "</p>"; lastG = p.g; }
+        html += '<button class="fp-item" data-id="' + p.id + '"><span>' + p.name + '<span class="fp-tags"></span></span><small>' + p.tag + "</small></button>";
+      }
+      $("#list").innerHTML = html || '<p class="fp-gh">검색 결과가 없습니다.</p>';
+      markList();
+    }
+
+    function pick(p) {
+      if (role === "h") hFont = p; else bFont = p;
+      update();
+      document.querySelector(".fp-item.on")?.scrollIntoView({ block: "nearest" });
+    }
+
+    $("#pairs").innerHTML = PAIRS.map((x, i) =>
+      '<button class="fp-pair" data-i="' + i + '" data-h="' + x.h + '" data-b="' + x.b + '"><span>' + x.name + "</span><small>" + x.note + "</small></button>").join("");
+    $("#pairs").addEventListener("click", (e) => {
+      const b = e.target.closest(".fp-pair");
+      if (!b) return;
+      hFont = byId(b.dataset.h);
+      bFont = byId(b.dataset.b);
+      update();
+    });
+    document.querySelector(".fp-roles").addEventListener("click", (e) => {
+      const b = e.target.closest(".fp-role");
+      if (!b) return;
+      role = b.dataset.role;
+      update();
+      document.querySelector(".fp-item.on")?.scrollIntoView({ block: "nearest" });
+    });
+    $("#list").addEventListener("click", (e) => {
+      const b = e.target.closest(".fp-item");
+      if (b) pick(byId(b.dataset.id));
+    });
+    $("#q").addEventListener("input", (e) => renderList(e.target.value));
+    $("#same").addEventListener("click", () => { bFont = hFont; update(); });
+    $("#dark").addEventListener("click", () => {
+      const d = !document.documentElement.classList.contains("dark");
+      document.documentElement.classList.toggle("dark", d);
+      try { localStorage.setItem("ff-theme", d ? "dark" : "light"); } catch (err) {}
+    });
+    document.addEventListener("keydown", (e) => {
+      if ((e.key !== "ArrowDown" && e.key !== "ArrowUp") || e.target.tagName === "SELECT") return;
+      e.preventDefault();
+      const items = [...document.querySelectorAll(".fp-item")];
+      const curId = (role === "h" ? hFont : bFont).id;
+      const i = items.findIndex((b) => b.dataset.id === curId);
+      const n = items[Math.max(0, Math.min(items.length - 1, (i < 0 ? 0 : i) + (e.key === "ArrowDown" ? 1 : -1)))];
+      if (n) pick(byId(n.dataset.id));
+    });
+
+    const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    const dur = (d) => {
+      let s = 0;
+      if (typeof d === "number") s = d;
+      else if (typeof d === "string") { const m = /^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/.exec(d); if (m) s = (+m[1] || 0) * 3600 + (+m[2] || 0) * 60 + (+m[3] || 0); }
+      if (!(s > 0)) return "";
+      const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), x = s % 60, p = (n) => String(n).padStart(2, "0");
+      return h ? `${h}:${p(m)}:${p(x)}` : `${m}:${p(x)}`;
+    };
+    Promise.all([
+      fetch("../../data/videos.json").then((r) => r.json()),
+      fetch("../../data/members.json").then((r) => r.json()),
+    ]).then(([{ videos }, { members }]) => {
+      const nameOf = (id) => (members.find((m) => m.id === id) || { name: id }).name;
+      const pick = videos.filter((v) => v.category !== "shorts" && !v.short && v.title && v.channelTitle)
+        .sort((a, b) => (b.publishedAt || "").localeCompare(a.publishedAt || "")).slice(0, 6);
+      $("#cards").innerHTML = pick.map((v) => {
+        const d = dur(v.duration);
+        const mem = (v.members || []).filter((m) => m !== "all").slice(0, 2);
+        return `<article class="card"><div class="thumb"><img src="https://i.ytimg.com/vi/${v.videoId}/hqdefault.jpg" alt="" loading="lazy" />
+          ${d ? `<span class="dur">${d}</span>` : ""}</div>
+          <div class="card-body"><h3 class="card-title">${esc(v.title)}</h3>
+          <p class="card-meta card-chan">${esc(v.channelTitle)}</p>
+          <p class="card-meta card-date">${esc((v.publishedAt || "").slice(0, 10).replace(/-/g, "."))}</p>
+          ${mem.length ? `<div class="card-badges">${mem.map((m) => `<span class="badge">${esc(nameOf(m))}</span>`).join("")}</div>` : ""}</div></article>`;
+      }).join("");
+    }).catch(() => { $("#cards").textContent = "영상 데이터를 불러오지 못했습니다."; });
+
+    const hp = new URLSearchParams((location.hash || "").slice(1));
+    hFont = byId(hp.get("h")) || hFont;
+    bFont = byId(hp.get("b")) || bFont;
+    renderList();
+    update();
+    window.lucide && window.lucide.createIcons();
+  })();
+  </script>
+</body>
+</html>
