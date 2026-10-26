@@ -7,7 +7,6 @@
 
   const CFG = window.FF_CONFIG;
   const DATA_BASE = "data/";
-  const REPO_URL = "https://github.com/parkhaas/fp-pilot";
 
   const state = {
     videos: [],
@@ -17,7 +16,7 @@
     photos: { posts: [] }, // data/photos.json (SBS 인기가요 현장포토)
     photoGroups: 12, // 현장포토 화면에서 지금까지 그린 게시물(그룹) 수
     sel: {}, // { cat?, cats?[], year?, song?, member? } - {} = 전체
-    subGroup: null, // 2단 드로어에서 열려 있는 그룹 id
+    subGroup: null, // 현재 화면이 속한 1단 그룹 id (제목의 "상위 > 하위 ▾" 표기용)
     chartBy: "category", // About. 페이지 파이차트 기준: "category" | "year"
     sort: "newest", // 기본 정렬: 최신 발행순
     includeShorts: false, // 전체보기에서 Shorts 포함 여부 (기본 꺼짐, URL: shorts=1 이면 포함)
@@ -28,10 +27,6 @@
   const el = {
     nav: document.getElementById("sidebar"),
     pane1: document.getElementById("navPane1"),
-    pane2: document.getElementById("navPane2"),
-    pane2Title: document.getElementById("navPane2Title"),
-    pane2List: document.getElementById("navPane2List"),
-    navBack: document.getElementById("navBack"),
     sidebar: document.getElementById("sidebar"),
     hamburger: document.getElementById("hamburger"),
     drawerClose: document.getElementById("drawerClose"),
@@ -88,6 +83,20 @@
   const fmtDate = (iso) => {
     const p = kstParts(iso);
     return p ? `${p.year}.${p.month}.${p.day} ${p.hour}:${p.minute}` : "";
+  };
+
+  // 영상 길이 표기: API 수집분은 ISO 8601("PT1H2M3S"), yt-dlp 수집분은 정수(초)
+  const fmtDur = (d) => {
+    let s = 0;
+    if (typeof d === "number") s = Math.round(d);
+    else if (typeof d === "string") {
+      const m = /^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/.exec(d);
+      if (m) s = (+m[1] || 0) * 3600 + (+m[2] || 0) * 60 + (+m[3] || 0);
+    }
+    if (!(s > 0)) return "";
+    const h = Math.floor(s / 3600), mm = Math.floor((s % 3600) / 60), ss = s % 60;
+    const p = (n) => String(n).padStart(2, "0");
+    return h ? `${h}:${p(mm)}:${p(ss)}` : `${mm}:${p(ss)}`;
   };
 
   const catLabel = (id) => (CFG.catLabels && CFG.catLabels[id]) || id;
@@ -440,7 +449,7 @@
     return !node.divider && (node.children || node.subBy);
   }
 
-  // 2단 패널을 보여줄 가치가 있는가? "전체" 를 뺀 실질 하위 항목이 2개 이상일 때만.
+  // 제목에 하위 풀다운을 둘 가치가 있는가? "전체" 를 뺀 실질 하위 항목이 2개 이상일 때만.
   function hasSub(node) {
     if (!isGroup(node)) return false;
     const real = childrenOf(node).filter((k) => {
@@ -474,9 +483,9 @@
     const b = document.createElement("button");
     b.className = "nav-item";
     b.innerHTML =
+      (opts.icon ? `<i data-lucide="${escapeHtml(opts.icon)}" class="nav-ico"></i>` : "") +
       `<span class="nav-label">${escapeHtml(label)}</span>` +
-      (count != null ? `<span class="nav-count">${count.toLocaleString("ko")}</span>` : "") +
-      (opts.drill ? '<i data-lucide="chevron-right" class="nav-drill"></i>' : "");
+      (count != null ? `<span class="nav-count">${count.toLocaleString("ko")}</span>` : "");
     if (opts.active) b.classList.add("is-active");
     return b;
   }
@@ -496,7 +505,7 @@
       }
       if (node.view === "photos") {
         const n = (state.photos.posts || []).reduce((s, p) => s + p.images.length, 0);
-        const b = navBtn(node.label, n, { active: state.view === "photos" });
+        const b = navBtn(node.label, n, { active: state.view === "photos", icon: node.icon });
         b.classList.add("nav-lv1");
         b.addEventListener("click", goPhotos);
         el.pane1.appendChild(b);
@@ -510,6 +519,7 @@
             : applySel(state.videos, node.sel).length;
         const b = navBtn(node.label, n, {
           active: browsing && activeKey === selKey(node.sel),
+          icon: node.icon,
         });
         b.classList.add("nav-lv1");
         b.addEventListener("click", () => select(node.sel));
@@ -519,77 +529,31 @@
       const total = applySel(state.videos, node.sel || {}).length;
       if (!total && !CFG.showEmptyGroups) continue;
       const b = navBtn(node.label, total, {
-        drill: hasSub(node),
         active: browsing && (state.subGroup === node.id || nodeContainsSel(node, state.sel)),
+        icon: node.icon,
       });
       b.classList.add("nav-lv1", "nav-grouphead");
-      b.addEventListener("click", () => openSub(node));
+      b.addEventListener("click", () => goGroup(node));
       el.pane1.appendChild(b);
-    }
-
-    // --- 2단: 하위 ---
-    const node = navNode(state.subGroup);
-    if (node && hasSub(node)) {
-      el.pane2Title.textContent = node.label;
-      el.pane2List.innerHTML = "";
-      for (const k of childrenOf(node)) {
-        if (k.divider) {
-          // 앞에 항목이 있을 때만 구분선(예: 현 멤버 ↔ 탈퇴 멤버)
-          if (el.pane2List.lastElementChild &&
-              el.pane2List.lastElementChild.tagName !== "HR") {
-            const hr = document.createElement("hr");
-            hr.className = "nav-sep";
-            el.pane2List.appendChild(hr);
-          }
-          continue;
-        }
-        const isAll = node.withAll && selKey(k.sel) === selKey(node.sel);
-        if (k.count === 0 && !isAll) continue;
-        const cb = navBtn(k.label, k.count, {
-          active: browsing && activeKey === selKey(k.sel),
-        });
-        cb.classList.add("nav-lv2");
-        cb.addEventListener("click", () => select(k.sel));
-        el.pane2List.appendChild(cb);
-      }
-      if (el.pane2List.lastElementChild &&
-          el.pane2List.lastElementChild.tagName === "HR") {
-        el.pane2List.lastElementChild.remove(); // 꼬리 구분선 제거
-      }
-      el.nav.classList.add("at-sub");
-    } else {
-      el.nav.classList.remove("at-sub");
     }
     paintIcons();
   }
 
-  function openSub(node) {
-    const showPanel = hasSub(node);
-    state.subGroup = showPanel ? node.id : null;
-
+  // 1단 그룹을 누르면 그 그룹의 대표 화면으로 이동한다. 하위 항목은 화면 제목의 풀다운에서 고른다.
+  function goGroup(node) {
     let target = null;
     if (node.withAll && node.sel && Object.keys(node.sel).length) {
       target = { ...node.sel }; // 그룹의 "전체"
-    } else if (node.subBy === "year") {
-      const years = childrenOf(node).filter((k) => k.sel.year && k.count > 0);
-      if (years.length) {
+    } else {
+      const kids = childrenOf(node).filter((k) => k.sel && k.count > 0);
+      if (node.subBy === "year") {
         const cur = String(new Date().getFullYear());
-        target = { ...((years.find((k) => k.sel.year === cur)) || years[0]).sel };
+        target = ((kids.find((k) => k.sel.year === cur)) || kids[0] || {}).sel; // 올해, 없으면 최신 연도
+      } else if (kids.length) {
+        target = kids[0].sel; // 멤버별 보기 등: 첫 항목
       }
     }
-    if (target) {
-      state.view = "browse";
-      state.sel = target;
-      state.limit = CFG.pageSize;
-      writeUrl();
-      render();
-    }
-    buildNav();
-    if (!showPanel) closeDrawer();
-  }
-  function closeSub() {
-    state.subGroup = null;
-    buildNav();
+    if (target) select(target);
   }
 
   function select(sel) {
@@ -808,25 +772,71 @@
     if (lastFocus) lastFocus.focus();
   }
 
-  // 하위 분류로 들어왔을 때의 상위 그룹. 그룹 자체의 "전체"이거나 하위가 아니면 null
+  // 현재 화면이 하위 풀다운을 가진 1단 그룹에 속하면 { node, kids, label }, 아니면 null.
+  // 그룹의 "전체"(withAll) 화면도 포함한다 — 하위 항목으로 가는 유일한 길이 이 풀다운이기 때문.
   function crumbFor(sel) {
     const node = navNode(state.subGroup);
-    if (!node || !isGroup(node)) return null;
+    if (!node || !isGroup(node) || !hasSub(node)) return null;
     const k = selKey(sel);
-    if (node.sel && selKey(node.sel) !== selKey({}) && selKey(node.sel) === k) return null;
-    const kid = childrenOf(node).find((c) => c.sel && selKey(c.sel) === k);
-    return kid ? { node, label: kid.label } : null;
+    const kids = childrenOf(node);
+    const cur = kids.find((c) => c.sel && selKey(c.sel) === k);
+    return cur ? { node, kids, label: cur.label } : null;
+  }
+
+  // 풀다운 항목: 개수 0인 항목은 숨기고("전체" 제외), 맨앞·맨뒤·연속 구분선은 정리한다
+  function crumbOptionsHtml(crumb) {
+    const k = selKey(state.sel);
+    const parts = [];
+    crumb.kids.forEach((c, i) => {
+      if (c.divider) return parts.push({ hr: true });
+      const isAll = crumb.node.withAll && selKey(c.sel) === selKey(crumb.node.sel);
+      if (c.count === 0 && !isAll) return;
+      const on = selKey(c.sel) === k;
+      parts.push({
+        html:
+          `<button type="button" role="option" class="crumb-opt${on ? " is-active" : ""}" data-ki="${i}" aria-selected="${on}">` +
+          `<span>${escapeHtml(c.label)}</span><b>${c.count.toLocaleString("ko")}</b></button>`,
+      });
+    });
+    return parts
+      .filter((p, i) => !p.hr || (i > 0 && i < parts.length - 1 && !parts[i - 1].hr))
+      .map((p) => (p.hr ? '<hr class="crumb-hr" />' : p.html))
+      .join("");
+  }
+
+  function closeCrumbMenu() {
+    const pop = document.getElementById("crumbPop");
+    const trig = document.getElementById("crumbTrigger");
+    if (pop) pop.hidden = true;
+    if (trig) trig.setAttribute("aria-expanded", "false");
+    document.querySelector(".crumb-parent")?.setAttribute("aria-expanded", "false");
+  }
+
+  function toggleCrumbMenu() {
+    const pop = document.getElementById("crumbPop");
+    const trig = document.getElementById("crumbTrigger");
+    if (!pop || !trig) return;
+    const open = pop.hidden;
+    pop.hidden = !open;
+    trig.setAttribute("aria-expanded", String(open));
+    document.querySelector(".crumb-parent")?.setAttribute("aria-expanded", String(open));
+    if (open) pop.querySelector(".is-active")?.scrollIntoView({ block: "nearest" });
   }
 
   function renderGrid() {
     const list = filtered();
 
     const crumb = crumbFor(state.sel);
+    state.crumbKids = crumb ? crumb.kids : [];
     const heading = crumb
       ? `<h2 class="crumb">` +
-        `<button type="button" class="crumb-parent" data-crumb="${escapeHtml(crumb.node.id)}">${escapeHtml(crumb.node.label)}</button>` +
+        `<button type="button" class="crumb-parent" aria-haspopup="listbox" aria-controls="crumbPop">${escapeHtml(crumb.node.label)}</button>` +
         `<span class="crumb-sep" aria-hidden="true">&gt;</span>` +
-        `<span class="crumb-current">${escapeHtml(crumb.label)}</span></h2>`
+        `<span class="crumb-menu">` +
+        `<button type="button" class="crumb-trigger" id="crumbTrigger" aria-haspopup="listbox" aria-expanded="false">` +
+        `<span>${escapeHtml(crumb.label)}</span><i data-lucide="chevron-down"></i></button>` +
+        `<div class="crumb-pop nice-scroll" id="crumbPop" role="listbox" aria-label="하위 분류" hidden>${crumbOptionsHtml(crumb)}</div>` +
+        `</span></h2>`
       : `<h2>${escapeHtml(titleFor(state.sel))}</h2>`;
 
     const head = document.createElement("div");
@@ -909,16 +919,18 @@
       .map((m) => `<span class="badge">${escapeHtml(memberName(m))}</span>`)
       .join("");
 
+    const dur = fmtDur(v.duration);
     a.innerHTML = `
       <div class="thumb">
         <img loading="lazy" src="${thumbUrl(v)}" alt="" />
         <span class="play">${PLAY_SVG}</span>
         ${isShort(v) ? '<span class="tag-shorts">SHORTS</span>' : ""}
+        ${dur ? `<span class="dur">${dur}</span>` : ""}
       </div>
       <div class="card-body">
         <h3 class="card-title">${escapeHtml(v.title)}</h3>
-        <p class="card-meta"><span class="card-date">${fmtDate(v.publishedAt)}</span></p>
-        <p class="card-meta"><span class="card-chan">${escapeHtml(v.channelTitle)}</span></p>
+        ${v.channelTitle ? `<p class="card-meta card-chan">${escapeHtml(v.channelTitle)}</p>` : ""}
+        <p class="card-meta card-date">${fmtDate(v.publishedAt)}</p>
         ${badges ? `<div class="card-badges">${badges}</div>` : ""}
       </div>`;
 
@@ -1262,9 +1274,33 @@
         수집합니다. 방송국 무대·직캠·스페셜 무대는 KBS·MBC·SBS·Mnet·M2·1theK·딩고뮤직 등의 공개 영상을
         검색해 선별합니다. GitHub Actions로 주기적으로 갱신됩니다.</p>
 
+        <h2>사용한 폰트</h2>
+        <ul class="about-fonts">
+          <li>
+            <span class="af-role">제목</span>
+            <span class="af-name af-head">함렛 (Hahmlet)</span>
+            <span class="af-meta">로고, 화면 제목, 메뉴명 · <a href="https://fonts.google.com/specimen/Hahmlet" target="_blank" rel="noopener noreferrer" class="about-link">Google Fonts</a> · SIL OFL 1.1</span>
+          </li>
+          <li>
+            <span class="af-role">본문</span>
+            <span class="af-name">나눔스퀘어라운드</span>
+            <span class="af-meta">카드, 개수, 안내 글 · <a href="https://hangeul.naver.com/font/nanum" target="_blank" rel="noopener noreferrer" class="about-link">네이버 나눔글꼴</a> · SIL OFL 1.1</span>
+          </li>
+          <li>
+            <span class="af-role">보조</span>
+            <span class="af-name">Pretendard</span>
+            <span class="af-meta">나눔스퀘어라운드에 없는 글자를 대신 표시 · <a href="https://github.com/orioncactus/pretendard" target="_blank" rel="noopener noreferrer" class="about-link">GitHub</a> · SIL OFL 1.1</span>
+          </li>
+          <li>
+            <span class="af-role">아이콘</span>
+            <span class="af-name">Lucide</span>
+            <span class="af-meta"><a href="https://lucide.dev" target="_blank" rel="noopener noreferrer" class="about-link">lucide.dev</a> · ISC</span>
+          </li>
+        </ul>
+
         <h2>문의</h2>
         <p>버그 제보·영상 추가 요청은
-        <a href="${REPO_URL}/issues" target="_blank" rel="noopener noreferrer" class="about-link">GitHub 저장소</a>로 부탁드립니다.</p>
+        <a href="mailto:parkhaas@gmail.com" class="about-link"><i data-lucide="mail" class="about-ico"></i>E-Mail</a>로 부탁드립니다.</p>
 
         <p class="about-made">made with love, for flover</p>
       </section>`;
@@ -1427,16 +1463,23 @@
         stepPhoto(1);
         return;
       }
-      const crumbBtn = e.target.closest("[data-crumb]");
-      if (crumbBtn) {
-        const node = navNode(crumbBtn.dataset.crumb);
-        if (node) {
-          openSub(node);
-          // 이동할 목록이 없는 그룹(예: 멤버별 보기)은 하위 메뉴를 보여주려고 드로어를 연다
-          if (!(node.withAll || node.subBy === "year")) openDrawer();
-        }
+      if (e.target.closest("#crumbTrigger")) {
+        toggleCrumbMenu();
         return;
       }
+      const opt = e.target.closest("[data-ki]");
+      if (opt) {
+        const k = (state.crumbKids || [])[Number(opt.dataset.ki)];
+        closeCrumbMenu();
+        if (k && k.sel) select(k.sel);
+        return;
+      }
+      // 제목의 1단 이름도 하위 풀다운을 여닫는 버튼이다(이동하지 않음)
+      if (e.target.closest(".crumb-parent")) {
+        toggleCrumbMenu();
+        return;
+      }
+      if (!e.target.closest(".crumb-menu")) closeCrumbMenu(); // 바깥을 누르면 풀다운 닫기
       const leg = e.target.closest("[data-sel-cat],[data-sel-year]");
       if (leg) {
         select(leg.dataset.selCat ? { cat: leg.dataset.selCat } : { year: leg.dataset.selYear });
@@ -1455,12 +1498,21 @@
     el.hamburger.addEventListener("click", openDrawer);
     el.drawerClose.addEventListener("click", closeDrawer);
     el.drawerBackdrop.addEventListener("click", closeDrawer);
-    el.navBack.addEventListener("click", closeSub);
 
     el.modal.addEventListener("click", (e) => {
       if (e.target.closest("[data-close]")) closeModal();
     });
     document.addEventListener("keydown", (e) => {
+      // 풀다운이 열려 있으면 ↑/↓ 로 항목 이동
+      const pop = document.getElementById("crumbPop");
+      if (pop && !pop.hidden && (e.key === "ArrowDown" || e.key === "ArrowUp")) {
+        e.preventDefault();
+        const opts = [...pop.querySelectorAll(".crumb-opt")];
+        const i = opts.indexOf(document.activeElement);
+        const next = e.key === "ArrowDown" ? Math.min(opts.length - 1, i + 1) : Math.max(0, i < 0 ? 0 : i - 1);
+        opts[next]?.focus();
+        return;
+      }
       if (pvState && (e.key === "ArrowLeft" || e.key === "ArrowRight")) {
         e.preventDefault();
         stepPhoto(e.key === "ArrowLeft" ? -1 : 1);
@@ -1469,8 +1521,10 @@
       if (e.key !== "Escape") return;
       if (pvState) closePhoto();
       else if (modalOpen()) closeModal();
-      else if (el.nav.classList.contains("at-sub")) closeSub();
-      else if (el.sidebar.classList.contains("is-open")) closeDrawer();
+      else if (document.getElementById("crumbPop") && !document.getElementById("crumbPop").hidden) {
+        closeCrumbMenu();
+        document.getElementById("crumbTrigger").focus();
+      } else if (el.sidebar.classList.contains("is-open")) closeDrawer();
     });
 
     window.addEventListener("popstate", () => {

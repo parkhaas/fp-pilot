@@ -21,18 +21,24 @@
     })();
   </script>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <!-- 제목: 함렛(Google Fonts) · 본문: 나눔스퀘어라운드(style.css 의 @font-face) · Pretendard 는 빠진 글자용 보조 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://hangeul.pstatic.net" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@600;700;800&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
+  <link rel="stylesheet" href="assets/css/nanum-round.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
   <div class="app">
-    <!-- 좌측 플로팅 드로어 (1단 + 옆에 뜨는 2단) -->
+    <!-- 좌측 플로팅 드로어 (1단 메뉴만. 하위 분류는 각 화면 제목의 풀다운) -->
     <aside class="sidebar" id="sidebar" aria-label="사이트 메뉴">
       <div class="drawer-panel drawer-primary">
         <div class="sidebar-head">
           <a class="brand" href="./" aria-label="FLOVER-FLIX 홈">
-            <img src="image/logo.svg" alt="" class="brand-mark" />
+            <span class="brand-mark" aria-hidden="true"></span>
             <span class="brand-text">FLOVER<span class="brand-accent">-FLIX</span></span>
           </a>
           <button class="icon-btn" id="drawerClose" aria-label="메뉴 닫기">
@@ -49,12 +55,6 @@
           <p class="side-note">비영리 팬 아카이브<br />영상은 YouTube 임베드로만 제공<br />사진은 썸네일만 저장, 원본은 SBS 링크</p>
         </div>
       </div>
-
-      <div class="drawer-panel drawer-secondary nice-scroll" id="navPane2" aria-label="하위 분류">
-        <button class="nav-back" id="navBack"><i data-lucide="chevron-left"></i> 뒤로</button>
-        <p class="nav-pane2-title" id="navPane2Title"></p>
-        <div class="nav-pane2-list" id="navPane2List"></div>
-      </div>
     </aside>
     <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
 
@@ -64,6 +64,10 @@
         <button class="icon-btn hamburger" id="hamburger" aria-label="메뉴 열기" aria-expanded="false">
           <i data-lucide="menu"></i>
         </button>
+        <a class="brand topbar-brand" href="./" aria-label="FLOVER-FLIX 홈">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">FLOVER<span class="brand-accent">-FLIX</span></span>
+        </a>
         <h1 class="topbar-title" id="topbarTitle">홈</h1>
         <div class="search-box">
           <i data-lucide="search" class="search-ico"></i>
