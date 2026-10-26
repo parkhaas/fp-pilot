@@ -24,6 +24,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+      # tools/ 는 로컬 전용(편집 서버·화면). 배포 아티팩트에서만 제외한다(저장소 파일은 그대로).
+      - name: Exclude local-only tools/ from the Pages artifact
+        run: rm -rf tools
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:

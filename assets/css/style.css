@@ -663,6 +663,122 @@ body:not(.is-about) .content { max-width: 2400px; }
 .modal-yt:hover { text-decoration: underline; }
 .modal-yt svg { width: 15px; height: 15px; }
 
+/* ---------- SBS 인기가요 현장포토 ---------- */
+.photo-note { margin: -4px 0 22px; font-size: 0.78rem; line-height: 1.6; color: var(--text-3); }
+.photo-groups { display: flex; flex-direction: column; gap: 36px; }
+.photo-group-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 12px; margin-bottom: 12px; }
+.photo-group-head h3 { margin: 0; font-size: 1rem; font-weight: 700; letter-spacing: -0.01em; }
+.photo-meta { font-size: 0.8rem; color: var(--text-3); }
+.photo-post-link { margin-left: auto; font-size: 0.78rem; font-weight: 600; color: var(--brand-strong); }
+.photo-post-link:hover { text-decoration: underline; }
+.photo-grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+@media (min-width: 640px) {
+  .photo-grid { grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); }
+}
+.photo-thumb {
+  position: relative;
+  padding: 0;
+  aspect-ratio: 3 / 4;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface-2);
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.photo-thumb:hover { transform: translateY(-2px); border-color: var(--brand); box-shadow: var(--shadow-md); }
+.photo-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.photo-num {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: grid;
+  place-items: center;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 7px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* 사진 뷰어 */
+.pv-panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: min(1100px, 100%);
+  max-height: calc(100vh - 40px);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow-lg);
+}
+.pv-stage { position: relative; flex: 1; min-height: 0; display: grid; place-items: center; background: #0b0b0c; }
+.pv-stage img {
+  display: block;
+  max-width: 100%;
+  max-height: calc(100vh - 170px);
+  object-fit: contain;
+  transition: filter 0.25s ease;
+}
+.pv-stage img.is-loading { filter: blur(6px) brightness(0.85); }
+.pv-nav {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: pointer;
+  transform: translateY(-50%);
+  transition: background 0.15s ease, opacity 0.15s ease;
+}
+.pv-nav:hover:not(:disabled) { background: rgba(0, 0, 0, 0.75); }
+.pv-nav:disabled { opacity: 0.25; cursor: default; }
+.pv-prev { left: 12px; }
+.pv-next { right: 12px; }
+.pv-nav svg { width: 20px; height: 20px; }
+.pv-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  padding: 14px 20px 16px;
+}
+.pv-text h2 { margin: 0; font-size: 0.95rem; font-weight: 700; line-height: 1.4; }
+.pv-text p { margin: 4px 0 0; font-size: 0.78rem; color: var(--text-3); }
+.pv-actions { display: flex; flex-shrink: 0; gap: 8px; }
+.pv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 600;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+.pv-btn:hover { border-color: var(--brand); background: var(--brand-weak); }
+.pv-btn-primary { border-color: var(--brand); background: var(--brand); color: #fff; }
+.pv-btn-primary:hover { border-color: var(--brand-strong); background: var(--brand-strong); }
+.pv-btn svg { width: 15px; height: 15px; }
+
 /* ---------- 소개 페이지 ---------- */
 .about { max-width: 720px; }
 .about-title {

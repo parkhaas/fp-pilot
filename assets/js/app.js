@@ -13,7 +13,9 @@
     videos: [],
     members: [],
     meta: {},
-    view: "browse", // "browse" | "about" (파라미터 없이 접속하면 전체보기가 시작 페이지)
+    view: "browse", // "browse" | "about" | "photos" (파라미터 없이 접속하면 전체보기가 시작 페이지)
+    photos: { posts: [] }, // data/photos.json (SBS 인기가요 현장포토)
+    photoGroups: 12, // 현장포토 화면에서 지금까지 그린 게시물(그룹) 수
     sel: {}, // { cat?, cats?[], year?, song?, member? } - {} = 전체
     subGroup: null, // 2단 드로어에서 열려 있는 그룹 id
     chartBy: "category", // About. 페이지 파이차트 기준: "category" | "year"
@@ -46,6 +48,14 @@
     modalSub: document.getElementById("modalSub"),
     modalBadges: document.getElementById("modalBadges"),
     modalYtLink: document.getElementById("modalYtLink"),
+    pv: document.getElementById("photoViewer"),
+    pvImg: document.getElementById("pvImg"),
+    pvTitle: document.getElementById("pvTitle"),
+    pvSub: document.getElementById("pvSub"),
+    pvPrev: document.getElementById("pvPrev"),
+    pvNext: document.getElementById("pvNext"),
+    pvOpen: document.getElementById("pvOpen"),
+    pvDown: document.getElementById("pvDown"),
   };
 
   const paintIcons = () => {
@@ -267,14 +277,15 @@
 
     const hasSel = sel.cat || sel.cats || sel.year || sel.song || sel.member || state.q;
     if (p.get("view") === "about") state.view = "about";
+    else if (p.get("view") === "photos") state.view = "photos";
     else if (p.get("view") === "browse" || hasSel) state.view = "browse";
     else state.view = "browse"; // 파라미터 없음 = 시작 페이지(전체보기)
   }
 
   function writeUrl(replace) {
     const p = new URLSearchParams();
-    if (state.view === "about") {
-      // 파라미터 없는 "/" 가 곧 About. 페이지
+    if (state.view === "about" || state.view === "photos") {
+      p.set("view", state.view); // 파라미터 없는 "/" 는 전체보기
     } else {
       const s = state.sel;
       if (s.cat) p.set("cat", s.cat);
@@ -308,14 +319,17 @@
   async function init() {
     readUrl();
 
-    const [members, videosRaw, meta] = await Promise.all([
+    const [members, videosRaw, meta, photos, overrides] = await Promise.all([
       loadJson("members.json", { members: [] }),
       loadJson("videos.json", { videos: [] }),
       loadJson("meta.json", {}),
+      loadJson("photos.json", { posts: [] }),
+      loadJson("overrides.json", {}),
     ]);
 
     state.members = members.members || [];
     state.meta = meta || {};
+    state.photos = applyPhotoOverrides(photos || { posts: [] }, (overrides || {}).photos);
     state.videos = (videosRaw.videos || []).map(normalizeVideo);
 
     // 현재 선택이 속한 그룹의 2단 패널을 열어 둠
@@ -468,6 +482,14 @@
         el.pane1.appendChild(hr);
         continue;
       }
+      if (node.view === "photos") {
+        const n = (state.photos.posts || []).reduce((s, p) => s + p.images.length, 0);
+        const b = navBtn(node.label, n, { active: state.view === "photos" });
+        b.classList.add("nav-lv1");
+        b.addEventListener("click", goPhotos);
+        el.pane1.appendChild(b);
+        continue;
+      }
       if (!isGroup(node)) {
         const b = navBtn(node.label, applySel(state.videos, node.sel).length, {
           active: browsing && activeKey === selKey(node.sel),
@@ -572,13 +594,14 @@
     el.content.innerHTML = "";
 
     const about = state.view === "about";
-    el.topbarTitle.textContent = about ? "소개" : titleFor(state.sel);
-    document.title = about
-      ? "About. · FLOVER-FLIX"
-      : `${titleFor(state.sel)} · FLOVER-FLIX`;
+    const photos = state.view === "photos";
+    const pageTitle = about ? "소개" : photos ? PHOTO_TITLE : titleFor(state.sel);
+    el.topbarTitle.textContent = pageTitle;
+    document.title = about ? "About. · FLOVER-FLIX" : `${pageTitle} · FLOVER-FLIX`;
 
     document.body.classList.toggle("is-about", about); // 넓은 화면의 About 에서는 사이드바 고정(CSS)
     if (about) renderAbout();
+    else if (photos) renderPhotos();
     else renderGrid();
 
     if (about) {
@@ -587,6 +610,185 @@
     }
     paintIcons();
     if (!(opts && opts.keepScroll)) window.scrollTo(0, 0);
+  }
+
+  /* ---------- SBS 인기가요 현장포토 ---------- */
+
+  const PHOTO_TITLE = "SBS 인기가요 : 현장포토";
+  const photoPost = (no) => (state.photos.posts || []).find((p) => p.no === Number(no));
+  const thumbSrc = (im) => DATA_BASE + im.t;
+  const postUrl = (p) => `${state.photos.board}?cmd=view&page=1&board_no=${p.no}`;
+
+  const photoKey = (im) => im.t.replace(/^photos\//, "").replace(/\.webp$/, "");
+
+  // 제목에서 멤버 자동 감지 (이름·별칭 2자 이상)
+  function detectPhotoMembers(title) {
+    const t = (title || "").toLowerCase();
+    return state.members
+      .filter((m) => m.id !== "all" && [m.name, ...(m.aliases || [])].some((a) => a.length >= 2 && t.includes(a.toLowerCase())))
+      .map((m) => m.id);
+  }
+
+  // data/overrides.json(수동 편집)을 수집 데이터 위에 입힌다: 제목 변경, 게시물/사진 숨김, 멤버 태그
+  function applyPhotoOverrides(photos, ov) {
+    const o = ov || {};
+    const posts = [];
+    for (const p of photos.posts || []) {
+      const c = o[String(p.no)] || {};
+      if (c.hidden) continue;
+      const hide = new Set(c.hideImages || []);
+      const images = p.images.filter((im) => !hide.has(photoKey(im)));
+      if (!images.length) continue;
+      posts.push({
+        ...p,
+        images,
+        title: (c.title || "").trim() || p.title,
+        members: Array.isArray(c.members) ? c.members : detectPhotoMembers(p.title),
+      });
+    }
+    return { ...photos, posts };
+  }
+
+  function photoGroupHtml(p) {
+    const thumbs = p.images
+      .map(
+        (im, i) =>
+          `<button type="button" class="photo-thumb" data-photo="${p.no}:${i}" ` +
+          `aria-label="${escapeHtml(p.title)} ${i + 1}번 사진 보기">` +
+          `<img src="${escapeHtml(thumbSrc(im))}" alt="" loading="lazy" decoding="async" />` +
+          `<span class="photo-num">${i + 1}</span></button>`
+      )
+      .join("");
+    return (
+      `<section class="photo-group">` +
+      `<header class="photo-group-head"><h3>${escapeHtml(p.title)}</h3>` +
+      (p.members || []).map((id) => `<span class="badge">${escapeHtml(memberName(id))}</span>`).join("") +
+      `<span class="photo-meta">${escapeHtml(p.date)} · ${p.images.length}장</span>` +
+      `<a class="photo-post-link" href="${escapeHtml(postUrl(p))}" target="_blank" rel="noopener noreferrer">SBS에서 보기</a>` +
+      `</header><div class="photo-grid">${thumbs}</div></section>`
+    );
+  }
+
+  function renderPhotos() {
+    const posts = (state.photos.posts || []).filter((p) => p.images.length);
+    const total = posts.reduce((s, p) => s + p.images.length, 0);
+
+    const head = document.createElement("div");
+    head.className = "grid-head";
+    head.innerHTML =
+      `<h2>${escapeHtml(PHOTO_TITLE)}</h2>` +
+      `<span class="grid-count">게시물 ${posts.length.toLocaleString("ko")}개 · 사진 ${total.toLocaleString("ko")}장</span>`;
+    el.content.appendChild(head);
+
+    if (!posts.length) {
+      emptyState();
+      return;
+    }
+
+    const note = document.createElement("p");
+    note.className = "photo-note";
+    note.textContent =
+      "썸네일만 이 사이트에 저장되어 있고, 크게 보기·다운로드는 SBS 서버의 원본을 직접 불러옵니다. 사진의 저작권은 SBS와 촬영자에게 있습니다.";
+    el.content.appendChild(note);
+
+    const wrap = document.createElement("div");
+    wrap.className = "photo-groups";
+    el.content.appendChild(wrap);
+
+    // 게시물(그룹) 단위 무한 스크롤
+    const draw = (from, to) => {
+      wrap.insertAdjacentHTML("beforeend", posts.slice(from, to).map(photoGroupHtml).join(""));
+    };
+    state.photoGroups = Math.min(Math.max(state.photoGroups, 12), posts.length);
+    draw(0, state.photoGroups);
+
+    if (state.photoGroups < posts.length) {
+      const sentinel = document.createElement("div");
+      sentinel.className = "scroll-sentinel";
+      el.content.appendChild(sentinel);
+      scrollObs = new IntersectionObserver(
+        (entries) => {
+          if (!entries.some((e) => e.isIntersecting)) return;
+          const to = Math.min(posts.length, state.photoGroups + 6);
+          draw(state.photoGroups, to);
+          state.photoGroups = to;
+          if (to >= posts.length) {
+            stopScrollObs();
+            sentinel.remove();
+          } else {
+            scrollObs.unobserve(sentinel);
+            scrollObs.observe(sentinel);
+          }
+        },
+        { rootMargin: "800px 0px" }
+      );
+      scrollObs.observe(sentinel);
+    }
+  }
+
+  function goPhotos() {
+    state.view = "photos";
+    state.subGroup = null;
+    state.photoGroups = 12;
+    writeUrl();
+    buildNav();
+    render();
+    closeDrawer();
+  }
+
+  /* 사진 뷰어: 썸네일을 먼저 보여 주고 SBS 원본이 로드되면 교체한다 */
+  let pvState = null; // { post, idx, token }
+
+  function openPhoto(no, idx) {
+    const post = photoPost(no);
+    if (!post || !post.images[idx]) return;
+    if (!pvState) lastFocus = document.activeElement;
+    pvState = { post, idx, token: (pvState ? pvState.token : 0) + 1 };
+    const im = post.images[idx];
+    const token = pvState.token;
+
+    el.pvTitle.textContent = `${post.title} · ${idx + 1}`;
+    el.pvSub.textContent = `${idx + 1} / ${post.images.length}  ·  ${post.date}`;
+    el.pvPrev.disabled = idx === 0;
+    el.pvNext.disabled = idx === post.images.length - 1;
+    el.pvOpen.href = im.u;
+    el.pvDown.href = im.u;
+    el.pvDown.setAttribute("download", im.u.split("/").pop());
+
+    el.pvImg.classList.add("is-loading");
+    el.pvImg.removeAttribute("data-fail");
+    el.pvImg.src = thumbSrc(im); // 즉시 보이는 저해상도(썸네일)
+    const full = new Image();
+    full.referrerPolicy = "no-referrer";
+    full.onload = () => {
+      if (!pvState || pvState.token !== token) return;
+      el.pvImg.src = im.u;
+      el.pvImg.classList.remove("is-loading");
+    };
+    full.onerror = () => {
+      if (!pvState || pvState.token !== token) return;
+      el.pvImg.classList.remove("is-loading");
+      el.pvImg.setAttribute("data-fail", "1"); // 원본 로드 실패: 썸네일을 그대로 보여 준다
+    };
+    full.src = im.u;
+
+    el.pv.hidden = false;
+    document.body.style.overflow = "hidden";
+    paintIcons();
+    if (token === 1) el.pv.querySelector("[data-pclose]").focus();
+  }
+
+  function stepPhoto(d) {
+    if (!pvState) return;
+    openPhoto(pvState.post.no, pvState.idx + d);
+  }
+
+  function closePhoto() {
+    el.pv.hidden = true;
+    el.pvImg.removeAttribute("src");
+    pvState = null;
+    document.body.style.overflow = "";
+    if (lastFocus) lastFocus.focus();
   }
 
   // 하위 분류로 들어왔을 때의 상위 그룹. 그룹 자체의 "전체"이거나 하위가 아니면 null
@@ -1030,6 +1232,9 @@
         <p>이 페이지에 표시된 각 영상의 저작권은 해당 <strong>방송국, 소속사, 그리고 각 채널·업로더</strong>에게
         있습니다. 이 사이트는 영상을 재호스팅하지 않고 YouTube 임베드로만 제공하며, 권리자의 요청이 있을 경우
         해당 항목을 즉시 삭제합니다.</p>
+        <p>SBS 인기가요 현장포토는 SBS 게시판에 공개된 사진으로, 이 사이트는 <strong>작은 썸네일만 저장</strong>하고
+        원본은 SBS 서버에서 직접 불러옵니다. 사진의 저작권은 <strong>SBS와 각 촬영자</strong>에게 있으며,
+        권리자의 요청이 있을 경우 즉시 삭제합니다.</p>
 
         <h2>데이터 출처</h2>
         <p>YouTube Data API v3를 통해 <code>@studiofromis_9</code>를 비롯한 공개 채널·재생목록의 메타데이터를
@@ -1154,7 +1359,7 @@
       debounce(() => {
         state.q = el.search.value.trim();
         state.limit = CFG.pageSize;
-        if (state.view === "about") state.view = "browse";
+        if (state.view !== "browse") state.view = "browse";
         writeUrl(true);
         render();
       }, 200)
@@ -1173,6 +1378,24 @@
         state.chartBy = chartBtn.dataset.chart;
         renderAbout();
         paintIcons();
+        return;
+      }
+      const thumb = e.target.closest("[data-photo]");
+      if (thumb) {
+        const [no, idx] = thumb.dataset.photo.split(":");
+        openPhoto(no, Number(idx));
+        return;
+      }
+      if (e.target.closest("[data-pclose]")) {
+        closePhoto();
+        return;
+      }
+      if (e.target.closest("#pvPrev")) {
+        stepPhoto(-1);
+        return;
+      }
+      if (e.target.closest("#pvNext")) {
+        stepPhoto(1);
         return;
       }
       const crumbBtn = e.target.closest("[data-crumb]");
@@ -1209,8 +1432,14 @@
       if (e.target.closest("[data-close]")) closeModal();
     });
     document.addEventListener("keydown", (e) => {
+      if (pvState && (e.key === "ArrowLeft" || e.key === "ArrowRight")) {
+        e.preventDefault();
+        stepPhoto(e.key === "ArrowLeft" ? -1 : 1);
+        return;
+      }
       if (e.key !== "Escape") return;
-      if (modalOpen()) closeModal();
+      if (pvState) closePhoto();
+      else if (modalOpen()) closeModal();
       else if (el.nav.classList.contains("at-sub")) closeSub();
       else if (el.sidebar.classList.contains("is-open")) closeDrawer();
     });

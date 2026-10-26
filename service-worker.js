@@ -3,7 +3,7 @@
    - data/*.json 은 network-first (최신 데이터 우선, 오프라인 시 캐시)
    - YouTube 등 외부 요청은 건드리지 않음 */
 
-const VERSION = "ff-v28";
+const VERSION = "ff-v29";
 const SHELL = [
   "./",
   "./index.html",
@@ -32,6 +32,8 @@ self.addEventListener("fetch", (e) => {
 
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return; // 외부(YouTube 등)는 통과
+
+  if (url.pathname.includes("/data/photos/")) return; // 썸네일 수천 장은 SW 캐시에 쌓지 않고 브라우저 HTTP 캐시에 맡긴다
 
   if (url.pathname.includes("/data/")) {
     e.respondWith(

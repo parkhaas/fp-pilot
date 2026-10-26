@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>포토갤러리 편집 · FLOVER-FLIX</title>
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("ff-theme");
+        var d = t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.classList.toggle("dark", d);
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <style>
+    .adm-bar { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; gap: 12px; padding: 12px 20px;
+      background: var(--topbar-glass); backdrop-filter: saturate(180%) blur(14px); border-bottom: 1px solid var(--border); }
+    .adm-bar h1 { margin: 0; font-size: 1.05rem; font-weight: 800; letter-spacing: -0.01em; }
+    .adm-bar .sp { flex: 1; }
+    .adm-status { font-size: 0.8rem; color: var(--text-3); }
+    .adm-status.dirty { color: var(--brand-strong); font-weight: 700; }
+    .adm-btn { padding: 8px 16px; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); color: var(--text);
+      font-size: 0.85rem; font-weight: 600; cursor: pointer; transition: background .15s ease, border-color .15s ease; }
+    .adm-btn:hover:not(:disabled) { border-color: var(--brand); background: var(--brand-weak); }
+    .adm-btn:disabled { opacity: .4; cursor: default; }
+    .adm-btn.primary { background: var(--brand); border-color: var(--brand); color: #fff; }
+    .adm-btn.primary:hover:not(:disabled) { background: var(--brand-strong); border-color: var(--brand-strong); }
+    .adm-btn.small { padding: 4px 10px; font-size: 0.75rem; }
+
+    .adm-layout { display: grid; grid-template-columns: 360px 1fr; gap: 20px; padding: 20px; align-items: start; }
+    .adm-list { position: sticky; top: 68px; max-height: calc(100vh - 88px); display: flex; flex-direction: column;
+      border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--surface); overflow: hidden; }
+    .adm-list input { margin: 12px; padding: 9px 12px; border: 1px solid var(--border); border-radius: 999px; background: var(--bg);
+      color: var(--text); font: inherit; font-size: 0.85rem; }
+    .adm-list input:focus { outline: none; border-color: var(--brand); box-shadow: 0 0 0 3px var(--brand-weak); }
+    .adm-rows { overflow: auto; border-top: 1px solid var(--border); }
+    .adm-row-item { display: block; width: 100%; padding: 10px 14px; border: none; border-bottom: 1px solid var(--border);
+      background: transparent; color: var(--text); text-align: left; cursor: pointer; font: inherit; }
+    .adm-row-item:hover { background: var(--surface-2); }
+    .adm-row-item.active { background: var(--brand-weak); box-shadow: inset 3px 0 0 var(--brand); }
+    .adm-row-item .t { font-size: 0.85rem; font-weight: 600; line-height: 1.35; }
+    .adm-row-item.hidden .t { text-decoration: line-through; color: var(--text-3); }
+    .adm-row-item .m { margin-top: 3px; font-size: 0.72rem; color: var(--text-3); }
+    .tag { display: inline-block; margin-left: 4px; padding: 1px 7px; border-radius: 999px; background: var(--brand-weak);
+      color: var(--brand-strong); font-size: 0.68rem; font-weight: 700; }
+
+    .adm-edit { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+    .adm-card { padding: 18px 20px; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--surface); }
+    .adm-field { display: grid; grid-template-columns: 100px 1fr; gap: 6px 14px; align-items: start; padding: 8px 0; }
+    .adm-field > label, .adm-field > .lbl { padding-top: 8px; font-size: 0.8rem; font-weight: 700; color: var(--text-2); }
+    .adm-orig { padding-top: 8px; font-size: 0.85rem; color: var(--text-3); word-break: break-all; }
+    .adm-input { display: flex; gap: 8px; }
+    .adm-input input[type=text] { flex: 1; min-width: 0; padding: 9px 12px; border: 1px solid var(--border); border-radius: var(--radius);
+      background: var(--bg); color: var(--text); font: inherit; font-size: 0.9rem; }
+    .adm-input input[type=text]:focus { outline: none; border-color: var(--brand); box-shadow: 0 0 0 3px var(--brand-weak); }
+    .adm-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .chip { padding: 6px 12px; border: 1px solid var(--border); border-radius: 999px; background: var(--bg); color: var(--text-2);
+      font-size: 0.82rem; font-weight: 600; cursor: pointer; transition: all .15s ease; }
+    .chip:hover { border-color: var(--brand); }
+    .chip.on { background: var(--brand); border-color: var(--brand); color: #fff; }
+    .hint { margin-top: 6px; font-size: 0.75rem; color: var(--text-3); }
+    .adm-check { display: flex; align-items: center; gap: 8px; padding-top: 8px; font-size: 0.88rem; font-weight: 600; cursor: pointer; }
+
+    .adm-photos-head { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; font-size: 0.9rem; font-weight: 700; }
+    .adm-photos-head .sp { flex: 1; }
+    .adm-photos { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
+    .adm-ph { position: relative; padding: 0; aspect-ratio: 3 / 4; border: 2px solid transparent; border-radius: var(--radius);
+      overflow: hidden; background: var(--surface-2); cursor: pointer; }
+    .adm-ph img { width: 100%; height: 100%; object-fit: cover; display: block; transition: opacity .15s ease, filter .15s ease; }
+    .adm-ph .n { position: absolute; top: 6px; left: 6px; min-width: 22px; height: 22px; padding: 0 6px; display: grid; place-items: center;
+      border-radius: 999px; background: rgba(0,0,0,.55); color: #fff; font-size: .7rem; font-weight: 700; }
+    .adm-ph .act { position: absolute; left: 6px; right: 6px; bottom: 6px; padding: 5px 0; border-radius: 999px; background: rgba(0,0,0,.6);
+      color: #fff; font-size: .72rem; font-weight: 700; opacity: 0; transition: opacity .15s ease; }
+    .adm-ph:hover .act { opacity: 1; }
+    .adm-ph.off { border-color: #e5484d; }
+    .adm-ph.off img { opacity: .25; filter: grayscale(1); }
+    .adm-ph.off .act { opacity: 1; background: #e5484d; }
+
+    .adm-empty { padding: 60px 20px; text-align: center; color: var(--text-3); }
+    .adm-error { margin: 40px auto; max-width: 560px; padding: 24px; border: 1px solid #e5484d; border-radius: var(--radius-lg);
+      background: var(--surface); line-height: 1.7; }
+    .adm-error code { white-space: nowrap; }
+    #toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%) translateY(20px); padding: 10px 18px; border-radius: 999px;
+      background: var(--text); color: var(--bg); font-size: .85rem; font-weight: 600; opacity: 0; pointer-events: none; transition: all .25s ease; z-index: 50; }
+    #toast.show { opacity: 1; transform: translateX(-50%); }
+    @media (max-width: 900px) {
+      .adm-layout { grid-template-columns: 1fr; }
+      .adm-list { position: static; max-height: 320px; }
+      .adm-field { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="adm-bar">
+    <h1>포토갤러리 편집 <span style="font-weight:500;color:var(--text-3);font-size:.8rem">로컬 전용</span></h1>
+    <span class="sp"></span>
+    <span class="adm-status" id="status">불러오는 중…</span>
+    <button class="adm-btn" id="revert" disabled>변경 취소</button>
+    <button class="adm-btn primary" id="save" disabled>저장 (Ctrl+S)</button>
+  </header>
+
+  <div id="app">
+    <div class="adm-layout">
+      <aside class="adm-list">
+        <input type="search" id="q" placeholder="제목 · 멤버 · 날짜 · 번호 검색" autocomplete="off" />
+        <div class="adm-rows" id="rows"></div>
+      </aside>
+      <main class="adm-edit" id="edit"><div class="adm-empty">왼쪽에서 게시물을 선택하세요.</div></main>
+    </div>
+  </div>
+  <div id="toast" role="status"></div>
+
+  <script>
+  (() => {
+    "use strict";
+    const $ = (s) => document.querySelector(s);
+    const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    const keyOf = (im) => im.t.replace(/^photos\//, "").replace(/\.webp$/, "");
+    const DATA = "../../data/";
+
+    let photos, members = [], ov = { photos: {} }, savedSnap = "", cur = null, query = "";
+
+    /* ---------- 데이터 ---------- */
+    const person = () => members.filter((m) => m.id !== "all");
+    const nameOf = (id) => (members.find((m) => m.id === id) || { name: id }).name;
+    function detect(title) {
+      const t = (title || "").toLowerCase();
+      return person().filter((m) => [m.name, ...(m.aliases || [])].some((a) => a.length >= 2 && t.includes(a.toLowerCase()))).map((m) => m.id);
+    }
+    const post = (no) => photos.posts.find((p) => p.no === Number(no));
+    const ent = (no) => (ov.photos[no] ??= {});
+    const effTitle = (p) => ((ov.photos[p.no] || {}).title || "").trim() || p.title;
+    const effMembers = (p) => ((ov.photos[p.no] || {}).members) ?? detect(p.title);
+
+    /* 저장 전 정리: 기본값과 같은 항목은 지워 overrides.json 을 최소로 유지한다 */
+    function pruned() {
+      const out = { photos: {} };
+      for (const [no, c] of Object.entries(ov.photos)) {
+        const p = post(no);
+        if (!p) continue;
+        const e = {};
+        if (c.title && c.title.trim() && c.title.trim() !== p.title) e.title = c.title.trim();
+        if (c.hidden) e.hidden = true;
+        if (Array.isArray(c.members) && [...c.members].sort().join() !== [...detect(p.title)].sort().join()) e.members = c.members;
+        const valid = new Set(p.images.map(keyOf));
+        const hide = (c.hideImages || []).filter((k) => valid.has(k));
+        if (hide.length) e.hideImages = hide;
+        if (Object.keys(e).length) out.photos[no] = e;
+      }
+      return out;
+    }
+    const snap = () => JSON.stringify(pruned());
+    const isDirty = () => snap() !== savedSnap;
+
+    /* ---------- 렌더 ---------- */
+    function rowHtml(p) {
+      const c = ov.photos[p.no] || {};
+      const cut = (c.hideImages || []).length;
+      const mem = effMembers(p).map(nameOf).join(" · ");
+      const flags =
+        (c.hidden ? '<span class="tag">숨김</span>' : "") +
+        (c.title && c.title.trim() && c.title.trim() !== p.title ? '<span class="tag">제목</span>' : "") +
+        (cut ? `<span class="tag">${cut}장 제외</span>` : "") +
+        (c.members ? '<span class="tag">태그</span>' : "");
+      return `<button class="adm-row-item${cur === p.no ? " active" : ""}${c.hidden ? " hidden" : ""}" data-no="${p.no}">
+        <div class="t">${esc(effTitle(p))}</div>
+        <div class="m">${esc(p.date)} · ${p.images.length}장${mem ? " · " + esc(mem) : ""}${flags}</div></button>`;
+    }
+    function renderList() {
+      const q = query.trim().toLowerCase();
+      const items = photos.posts.filter((p) => {
+        if (!q) return true;
+        const hay = [effTitle(p), p.title, p.date, String(p.no), effMembers(p).map(nameOf).join(" ")].join(" ").toLowerCase();
+        return q.split(/\s+/).every((t) => hay.includes(t));
+      });
+      $("#rows").innerHTML = items.map(rowHtml).join("") || '<div class="adm-empty">검색 결과가 없습니다.</div>';
+    }
+    function refreshRow(no) {
+      const el = document.querySelector(`.adm-row-item[data-no="${no}"]`);
+      if (el) el.outerHTML = rowHtml(post(no));
+    }
+    function renderEdit() {
+      const p = post(cur);
+      if (!p) return;
+      const c = ov.photos[p.no] || {};
+      const hide = new Set(c.hideImages || []);
+      const mem = new Set(effMembers(p));
+      const auto = detect(p.title);
+      const photosHtml = p.images
+        .map((im, i) => {
+          const off = hide.has(keyOf(im));
+          return `<button class="adm-ph${off ? " off" : ""}" data-k="${keyOf(im)}" title="${off ? "클릭하면 복원" : "클릭하면 제외"}">
+            <img src="../../data/${esc(im.t)}" loading="lazy" alt="" /><span class="n">${i + 1}</span><span class="act">${off ? "복원" : "제외"}</span></button>`;
+        })
+        .join("");
+      $("#edit").innerHTML = `
+        <section class="adm-card">
+          <div class="adm-field"><span class="lbl">게시물</span>
+            <div class="adm-orig">#${p.no} · ${esc(p.date)} · <a href="${esc(photos.board)}?cmd=view&page=1&board_no=${p.no}" target="_blank" rel="noopener noreferrer" style="color:var(--brand-strong)">SBS에서 보기</a></div></div>
+          <div class="adm-field"><span class="lbl">원본 제목</span><div class="adm-orig">${esc(p.title)}</div></div>
+          <div class="adm-field"><label for="f-title">표시 제목</label>
+            <div class="adm-input"><input type="text" id="f-title" value="${esc(c.title || "")}" placeholder="${esc(p.title)}" />
+            <button class="adm-btn small" id="f-title-reset">원래대로</button></div></div>
+          <div class="adm-field"><span class="lbl">멤버 태그</span>
+            <div><div class="adm-chips">${person().map((m) => `<button type="button" class="chip${mem.has(m.id) ? " on" : ""}" data-m="${m.id}">${esc(m.name)}</button>`).join("")}</div>
+            <div class="hint">제목에서 자동 감지: ${auto.length ? esc(auto.map(nameOf).join(", ")) : "없음"}
+              ${c.members ? ' · <button class="adm-btn small" id="f-members-reset">자동으로 되돌리기</button>' : " (직접 고르면 그 값이 우선합니다)"}</div></div></div>
+          <div class="adm-field"><span class="lbl">노출</span>
+            <label class="adm-check"><input type="checkbox" id="f-hidden" ${c.hidden ? "checked" : ""} /> 이 게시물 전체를 사이트에서 숨기기</label></div>
+        </section>
+        <section class="adm-card">
+          <div class="adm-photos-head"><span>사진 ${p.images.length}장 · 제외 ${hide.size}장 → 표시 ${p.images.length - hide.size}장</span><span class="sp"></span>
+            <button class="adm-btn small" id="f-restore" ${hide.size ? "" : "disabled"}>모두 복원</button></div>
+          <div class="adm-photos">${photosHtml}</div>
+        </section>`;
+    }
+
+    /* ---------- 상태 표시 ---------- */
+    function sync() {
+      const d = isDirty();
+      const el = $("#status");
+      el.textContent = d ? "저장되지 않은 변경 있음" : "변경 없음";
+      el.classList.toggle("dirty", d);
+      $("#save").disabled = !d;
+      $("#revert").disabled = !d;
+    }
+    function toast(msg) {
+      const t = $("#toast");
+      t.textContent = msg;
+      t.classList.add("show");
+      clearTimeout(toast.t);
+      toast.t = setTimeout(() => t.classList.remove("show"), 2200);
+    }
+
+    /* ---------- 이벤트 ---------- */
+    function select(no) {
+      cur = Number(no);
+      renderList();
+      renderEdit();
+    }
+    $("#rows").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-no]");
+      if (b) select(b.dataset.no);
+    });
+    $("#q").addEventListener("input", (e) => {
+      query = e.target.value;
+      renderList();
+    });
+    $("#edit").addEventListener("input", (e) => {
+      if (e.target.id !== "f-title") return;
+      ent(cur).title = e.target.value;
+      refreshRow(cur);
+      sync();
+    });
+    $("#edit").addEventListener("change", (e) => {
+      if (e.target.id !== "f-hidden") return;
+      ent(cur).hidden = e.target.checked;
+      refreshRow(cur);
+      sync();
+    });
+    $("#edit").addEventListener("click", (e) => {
+      const p = post(cur);
+      if (!p) return;
+      if (e.target.closest("#f-title-reset")) {
+        delete ent(cur).title;
+        renderEdit();
+      } else if (e.target.closest("#f-members-reset")) {
+        delete ent(cur).members;
+        renderEdit();
+      } else if (e.target.closest("#f-restore")) {
+        delete ent(cur).hideImages;
+        renderEdit();
+      } else if (e.target.closest("[data-m]")) {
+        const id = e.target.closest("[data-m]").dataset.m;
+        const set = new Set(effMembers(p));
+        set.has(id) ? set.delete(id) : set.add(id);
+        ent(cur).members = person().map((m) => m.id).filter((x) => set.has(x));
+        renderEdit();
+      } else if (e.target.closest("[data-k]")) {
+        const k = e.target.closest("[data-k]").dataset.k;
+        const set = new Set(ent(cur).hideImages || []);
+        set.has(k) ? set.delete(k) : set.add(k);
+        ent(cur).hideImages = [...set];
+        renderEdit();
+      } else return;
+      refreshRow(cur);
+      sync();
+    });
+
+    async function save() {
+      if (!isDirty()) return;
+      try {
+        const res = await fetch("/api/overrides", { method: "PUT", headers: { "Content-Type": "application/json" }, body: snap() });
+        if (!res.ok) throw new Error(res.status);
+        savedSnap = snap();
+        sync();
+        toast("저장했습니다 · data/overrides.json (커밋은 따로)");
+      } catch (err) {
+        toast("저장 실패: " + err.message);
+      }
+    }
+    $("#save").addEventListener("click", save);
+    $("#revert").addEventListener("click", () => {
+      if (!confirm("저장하지 않은 변경을 모두 취소할까요?")) return;
+      ov = JSON.parse(savedSnap);
+      renderList();
+      if (cur) renderEdit();
+      sync();
+    });
+    document.addEventListener("keydown", (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "s") {
+        e.preventDefault();
+        save();
+      }
+    });
+    window.addEventListener("beforeunload", (e) => {
+      if (photos && isDirty()) e.preventDefault();
+    });
+
+    /* ---------- 시작 ---------- */
+    (async () => {
+      try {
+        const [p, m, o] = await Promise.all([
+          fetch(DATA + "photos.json", { cache: "no-store" }).then((r) => r.json()),
+          fetch(DATA + "members.json", { cache: "no-store" }).then((r) => r.json()),
+          fetch("/api/overrides", { cache: "no-store" }).then((r) => {
+            if (!r.ok) throw new Error("api");
+            return r.json();
+          }),
+        ]);
+        photos = p;
+        members = m.members || [];
+        ov = { photos: (o && o.photos) || {} };
+        savedSnap = snap();
+        renderList();
+        sync();
+      } catch (err) {
+        $("#app").innerHTML = `<div class="adm-error"><b>편집 서버에 연결하지 못했습니다.</b><br />
+          이 화면은 로컬에서만 동작합니다. 저장소 루트에서 아래 명령을 실행한 뒤 <code>http://127.0.0.1:8899/tools/admin/photogallery.html</code> 로 접속하세요.<br />
+          <code>node tools/admin-server.js</code></div>`;
+        $("#status").textContent = "서버 없음";
+      }
+    })();
+  })();
+  </script>
+</body>
+</html>

@@ -46,7 +46,7 @@
           <button class="nav-item nav-about" data-view="about">
             <i data-lucide="info" class="nav-ico"></i><span class="nav-label">About.</span>
           </button>
-          <p class="side-note">비영리 팬 아카이브<br />영상은 YouTube 임베드로만 제공</p>
+          <p class="side-note">비영리 팬 아카이브<br />영상은 YouTube 임베드로만 제공<br />사진은 썸네일만 저장, 원본은 SBS 링크</p>
         </div>
       </div>
 
@@ -101,6 +101,33 @@
         <a class="modal-yt" id="modalYtLink" target="_blank" rel="noopener noreferrer">
           YouTube에서 보기 <i data-lucide="external-link"></i>
         </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 현장포토 뷰어: 썸네일 → SBS 원본 -->
+  <div class="modal photo-viewer" id="photoViewer" hidden>
+    <div class="modal-backdrop" data-pclose></div>
+    <div class="pv-panel" role="dialog" aria-modal="true" aria-labelledby="pvTitle">
+      <button class="modal-close" data-pclose aria-label="닫기"><i data-lucide="x"></i></button>
+      <div class="pv-stage">
+        <button class="pv-nav pv-prev" id="pvPrev" aria-label="이전 사진"><i data-lucide="chevron-left"></i></button>
+        <img id="pvImg" alt="" referrerpolicy="no-referrer" />
+        <button class="pv-nav pv-next" id="pvNext" aria-label="다음 사진"><i data-lucide="chevron-right"></i></button>
+      </div>
+      <div class="pv-info">
+        <div class="pv-text">
+          <h2 id="pvTitle"></h2>
+          <p id="pvSub"></p>
+        </div>
+        <div class="pv-actions">
+          <a class="pv-btn" id="pvOpen" target="_blank" rel="noopener noreferrer">
+            원본 열기 <i data-lucide="external-link"></i>
+          </a>
+          <a class="pv-btn pv-btn-primary" id="pvDown" download target="_blank" rel="noopener noreferrer">
+            다운로드 <i data-lucide="download"></i>
+          </a>
+        </div>
       </div>
     </div>
   </div>

@@ -56,7 +56,9 @@ window.FF_CONFIG = {
     { id: "music",   label: "음악방송",    sel: { cat: "music_show" },    subBy: "song", withAll: true },
     { id: "fancam",  label: "직캠",        sel: { cat: "stage_fancam" },  subBy: "song", withAll: true },
     { id: "special", label: "스페셜무대",  sel: { cat: "special_stage" }, subBy: "year", withAll: true },
-    { id: "shorts",  label: "Shorts",     sel: { cat: "shorts" },  subBy: "year", withAll: true },  ],
+    { id: "shorts",  label: "Shorts",     sel: { cat: "shorts" },  subBy: "year", withAll: true },
+    { divider: true },
+    { id: "sbs_photos", label: "SBS 인기가요 : 현장포토", view: "photos" },  ],
 
   /* 하위 항목이 0개여도 상위 메뉴를 계속 노출할지 */
   showEmptyGroups: true,
