@@ -2,7 +2,7 @@
 title: "Midnight Guest"
 source: https://namu.wiki/w/Midnight%20Guest
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-26
+fetched: 2026-10-28
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/Midnight%20Guest)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -81,62 +81,62 @@ fetched: 2026-10-26
 | **날짜** | **시간** | **내용** | **링크** |
 | --- | --- | --- | --- |
 | **2021년** |  |  |  |
-| **12. 30.** | 00:00 | [Midnight Guest] Concept Trailer |  |
-|  | 11:00 | 4th Mini Album [Midnight Guest] 예약 판매 안내 공지 |  |
-| **12. 31.** | 12:00 | [Midnight Guest] Promotion Scheduler |  |
+| **12. 30.** | 00:00 | [Midnight Guest] Concept Trailer | [X Corp](https://x.com/realfromis_9/status/1476207094114439171) |
+|  | 11:00 | 4th Mini Album [Midnight Guest] 예약 판매 안내 공지 | [Weverse](https://m.weverse.io/lesserafim/notice/1999) |
+| **12. 31.** | 12:00 | [Midnight Guest] Promotion Scheduler | [X Corp](https://x.com/realfromis_9/status/1476568763243941895) |
 | **2022년** |  |  |  |
-| **01. 03.** | 12:00 | [Midnight Guest] 🔒 'Before Midnight' Official Photo #이새롬 |  |
-|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo #이나경 |  |
-|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo #송하영 |  |
-|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo #이서연 |  |
-|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo #박지원 |  |
-|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo #노지선 |  |
-|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo #장규리 |  |
-|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo #백지헌 |  |
-|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo #이채영 |  |
-|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Unit Photo #이새롬 #송하영 #이나경 |  |
-|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Unit Photo #박지원 #노지선 #이서연 |  |
-|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Unit Photo #장규리 #이채영 #백지헌 |  |
-|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo |  |
-|  | 13:24 | fromis_9 (프로미스나인) [Midnight Guest] 'Before Midnight' Jacket Film |  |
-| **01. 04.** | 12:00 | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #노지선 |  |
-|  |  | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #이채영 |  |
-|  |  | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #백지헌 |  |
-|  |  | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #송하영 |  |
-|  |  | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #박지원 |  |
-|  |  | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #이나경 |  |
-|  |  | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #장규리 |  |
-|  |  | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #이새롬 |  |
-|  |  | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #이서연 |  |
-| **01. 05.** | 12:00 | [Midnight Guest] 🔓 'After Midnight' Concept Film #노지선 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #노지선 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Concept Film #송하영 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #송하영 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Concept Film #백지헌 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #백지헌 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Concept Film #이서연 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #이서연 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Concept Film #이나경 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #이나경 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Concept Film #장규리 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #장규리 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Concept Film #이채영 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #이채영 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Concept Film #박지원 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #박지원 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Concept Film #이새롬 |  |
-|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #이새롬 |  |
-| **01. 06.** | 12:00 | [Midnight Guest] 💘 'After Midnight' Official Photo |  |
-| **01. 09.** | 21:00 | 'Midnight Guest' Talk Show |  |
-| **01. 10.** | 12:00 | [Midnight Guest] TrackList |  |
-|  | 11:00 | 4th Mini Album 'Midnight Guest' (Jewel Case Ver.) 발매 및 예약 판매 안내 공지 |  |
-|  | 10:30 | [Midnight Guest] Album Art Moving Poster |  |
-| **01. 11.** | 12:00 | [Midnight Guest] Highlight Medley |  |
-| **01. 13.** | 19:00 | [Midnight Guest] 'DM' 음원 선공개 |  |
-| **01. 15.** | 12:00 | [Midnight Guest] 'DM' Official Teaser 1 |  |
-| **01. 16.** | 12:00 | [Midnight Guest] 'DM' Official Teaser 2 |  |
-|  | 21:00 | fromis_9 (프로미스나인) [Midnight Guest] 앨범 언박싱 Welcome to f9홈쇼핑 ver. |  |
-| **01. 17.** | 21:00 | fromis_9 4th Mini Album [Midnight Guest] SHOWCASE |  |
+| **01. 03.** | 12:00 | [Midnight Guest] 🔒 'Before Midnight' Official Photo #이새롬 | [X Corp](https://x.com/realfromis_9/status/1477655926853173249) |
+|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo #이나경 | [X Corp](https://x.com/realfromis_9/status/1477655929764122630) |
+|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo #송하영 | [X Corp](https://x.com/realfromis_9/status/1477655932368822272) |
+|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo #이서연 | [X Corp](https://x.com/realfromis_9/status/1477656426717884422) |
+|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo #박지원 | [X Corp](https://x.com/realfromis_9/status/1477656426768125952) |
+|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo #노지선 | [X Corp](https://x.com/realfromis_9/status/1477656426935894018) |
+|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo #장규리 | [X Corp](https://x.com/realfromis_9/status/1477656929904197633) |
+|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo #백지헌 | [X Corp](https://x.com/realfromis_9/status/1477656930017554432) |
+|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo #이채영 | [X Corp](https://x.com/realfromis_9/status/1477656930243993603) |
+|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Unit Photo #이새롬 #송하영 #이나경 | [X Corp](https://x.com/realfromis_9/status/1477657432998383616) |
+|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Unit Photo #박지원 #노지선 #이서연 | [X Corp](https://x.com/realfromis_9/status/1477657433136766981) |
+|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Unit Photo #장규리 #이채영 #백지헌 | [X Corp](https://x.com/realfromis_9/status/1477657433271148554) |
+|  |  | [Midnight Guest] 🔒 'Before Midnight' Official Photo | [X Corp](https://x.com/realfromis_9/status/1477657936356945921) |
+|  | 13:24 | fromis_9 (프로미스나인) [Midnight Guest] 'Before Midnight' Jacket Film | [X Corp](https://x.com/realfromis_9/status/1477858306652000261) |
+| **01. 04.** | 12:00 | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #노지선 | [X Corp](https://x.com/realfromis_9/status/1478018319999733762) |
+|  |  | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #이채영 | [X Corp](https://x.com/realfromis_9/status/1478018348755873797) |
+|  |  | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #백지헌 | [X Corp](https://x.com/realfromis_9/status/1478018385732829188) |
+|  |  | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #송하영 | [X Corp](https://x.com/realfromis_9/status/1478018825014870017) |
+|  |  | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #박지원 | [X Corp](https://x.com/realfromis_9/status/1478018844677787649) |
+|  |  | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #이나경 | [X Corp](https://x.com/realfromis_9/status/1478018883382804482) |
+|  |  | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #장규리 | [X Corp](https://x.com/realfromis_9/status/1478019327421218818) |
+|  |  | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #이새롬 | [X Corp](https://x.com/realfromis_9/status/1478019352100483072) |
+|  |  | [Midnight Guest] 🗝 'After Midnight' Official Photo Part.1 #이서연 | [X Corp](https://x.com/realfromis_9/status/1478019386929991683) |
+| **01. 05.** | 12:00 | [Midnight Guest] 🔓 'After Midnight' Concept Film #노지선 | [X Corp](https://x.com/realfromis_9/status/1478380705394540544) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #노지선 | [X Corp](https://x.com/realfromis_9/status/1478380723937906693) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Concept Film #송하영 | [X Corp](https://x.com/realfromis_9/status/1478380950761271296) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #송하영 | [X Corp](https://x.com/realfromis_9/status/1478380978767036417) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Concept Film #백지헌 | [X Corp](https://x.com/realfromis_9/status/1478381202499424266) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #백지헌 | [X Corp](https://x.com/realfromis_9/status/1478381230030991364) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Concept Film #이서연 | [X Corp](https://x.com/realfromis_9/status/1478381454342111236) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #이서연 | [X Corp](https://x.com/realfromis_9/status/1478381485308915718) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Concept Film #이나경 | [X Corp](https://x.com/realfromis_9/status/1478381705945829377) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #이나경 | [X Corp](https://x.com/realfromis_9/status/1478381736086376455) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Concept Film #장규리 | [X Corp](https://x.com/realfromis_9/status/1478381957813653504) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #장규리 | [X Corp](https://x.com/realfromis_9/status/1478381983441252357) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Concept Film #이채영 | [X Corp](https://x.com/realfromis_9/status/1478382208821837824) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #이채영 | [X Corp](https://x.com/realfromis_9/status/1478382236928212993) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Concept Film #박지원 | [X Corp](https://x.com/realfromis_9/status/1478382460643729412) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #박지원 | [X Corp](https://x.com/realfromis_9/status/1478382484681543682) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Concept Film #이새롬 | [X Corp](https://x.com/realfromis_9/status/1478382711995654144) |
+|  |  | [Midnight Guest] 🔓 'After Midnight' Official Photo Part.2 #이새롬 | [X Corp](https://x.com/realfromis_9/status/1478382740982870019) |
+| **01. 06.** | 12:00 | [Midnight Guest] 💘 'After Midnight' Official Photo | [X Corp](https://x.com/realfromis_9/status/1478743140378943491) |
+| **01. 09.** | 21:00 | 'Midnight Guest' Talk Show | [X Corp](https://x.com/realfromis_9/status/1480147383933874180) |
+| **01. 10.** | 12:00 | [Midnight Guest] TrackList | [X Corp](https://x.com/realfromis_9/status/1480192649370173443) |
+|  | 11:00 | 4th Mini Album 'Midnight Guest' (Jewel Case Ver.) 발매 및 예약 판매 안내 공지 | [Weverse](https://m.weverse.io/lesserafim/notice/2045) |
+|  | 10:30 | [Midnight Guest] Album Art Moving Poster | [X Corp](https://x.com/realfromis_9/status/1480351195734876160) |
+| **01. 11.** | 12:00 | [Midnight Guest] Highlight Medley | [X Corp](https://x.com/realfromis_9/status/1480555056600870912) |
+| **01. 13.** | 19:00 | [Midnight Guest] 'DM' 음원 선공개 | [X Corp](https://x.com/realfromis_9/status/1481566862924460035) [틱톡](https://www.tiktok.com/@official_fromis9/video/7052634329599446274) |
+| **01. 15.** | 12:00 | [Midnight Guest] 'DM' Official Teaser 1 | [X Corp](https://x.com/realfromis_9/status/1482004589859672064) |
+| **01. 16.** | 12:00 | [Midnight Guest] 'DM' Official Teaser 2 | [X Corp](https://x.com/realfromis_9/status/1482366967231176708) |
+|  | 21:00 | fromis_9 (프로미스나인) [Midnight Guest] 앨범 언박싱 Welcome to f9홈쇼핑 ver. | [X Corp](https://x.com/realfromis_9/status/1482684108564168707) |
+| **01. 17.** | 21:00 | fromis_9 4th Mini Album [Midnight Guest] SHOWCASE | [X Corp](https://x.com/realfromis_9/status/1483016252851372037) |
 
 ## 콘셉트 티저
 
@@ -412,7 +412,9 @@ Performance Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=QT60l6MSoz8)
 
-**02 3:24
+**DM
+
+02 3:24
 
 TITLE
 
@@ -975,7 +977,7 @@ Plastic heart 같은 텅 빈 그 맘은
 | **Before Midnight / After Midnight Ver.** |  |
 | --- | --- |
 | ![Midnight Guest A...](https://i.namu.wiki/i/aPoOU5OeHt5CT7ou52Ndm8UTE1w9nLLJMX998YjnlnELR3WGg68aJzBP-GyHXahrndcmXEQ-CYN7rRR1pgNWTTMUIwbiC1CxYfuLTUT_37xF8SlGBD7LjoKW9umto_WyB0ECwCO7C9ic8gIZh869Fw.webp) |  |
-| **가격** | ~~20,000~~ ￦16,300 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~20,000~~ ￦16,300 19% |
 | **음반 코드** | PLD0114 |
 | **구성** | **앨범 구성품 (Before Midnight ver. / After Midnight ver.)**<br>- OUT BOX : W200×H150×D10 (mm) / 1종 (버전별 이미지 상이)<br>- PHOTO BOOK : W150×H200 (mm) / 72P / 1종 (버전별 이미지 상이)<br>- POST CARD : W150×H200 (mm) / 9종 중 랜덤 1종 삽입 (버전별 이미지 상이)<br>- MINI CARD : W55×H85 (mm) / 9종 중 랜덤 1종 삽입 (버전별 이미지 상이)<br>- FILM PHOTO : W60×H160 (mm) / 12종 중 랜덤 1종 삽입 (버전별 이미지 상이)<br>- PHOTO CARD : W55×H85 (mm) / 18종 중 랜덤 2종 삽입 (버전별 이미지 상이)<br>- LYRIC PAPER : W297×H420 (mm) / 1종 (버전별 이미지 상이)<br>- POSTER : W420×H594 (mm) / 1종<br>- CD-R : 1종 |
 | [ 펼치기 · 접기 ]<br>![Midnight Guest A...](https://i.namu.wiki/i/M6EsGJSNCMc-2KovH77Ut3B5zVs4rXIVWZK3o2c02KGs9XyBxM_QkoAo6CjnJscgWeQkhmIMqt6lXui_NB_98tYNt2R4iFkpG2fCwrUfchzYaPyh_JzqdLTIF5fnJuz5CrytIIwZZ0B1o-AA6RhXqw.webp) |  |
@@ -983,7 +985,7 @@ Plastic heart 같은 텅 빈 그 맘은
 | **Jewel Case Ver.** |  |
 | --- | --- |
 | ![Midnight Guest A...](https://i.namu.wiki/i/rvLnsPUHVwDCzjA4plpGexojz4YrTs0rVNzgt7vuEWOU-CCdelBAJeUCpZcPGsk68gFvz0mk7ITU-ROa_PfYHH2gY7QmnjH3F76Mvf-mel3oIc9JhpVAgZAABULcQ1FjTSmS4HVz8XWmrU5BhAjMoA.webp) |  |
-| **가격** | ~~10,000~~ ￦8,200 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~10,000~~ ￦8,200 19% |
 | **음반 코드** | PLD0115 |
 | **구성** | **앨범 구성품 (MEMBER ver.)**<br>- COVER : W144×H125 (mm) / 1종<br>- BOOKLET : W120×H120 (mm) / 12P / 1종 (버전별 이미지 상이)<br>- PHOTO CARD : W55×H85 (mm) / 9종 중 랜덤 2종 삽입<br>- CD-R : 1종 |
 | [ 펼치기 · 접기 ]<br>![Midnight Guest A...](https://i.namu.wiki/i/WhCorqrqqYHNoVvPr3AiNXqLNT_xw5pcLf1IlTX-UOyTZUsUlXhaWOmYccjDWZbj66By5YkxmKeiXO35ptbdjY9XRzuYnwG9NgmIR5BEY4-rOtpoEYTNnN_i0Qqx4hEksY0eHGxftDrmVrmxQKIi4A.webp) |  |
@@ -991,7 +993,7 @@ Plastic heart 같은 텅 빈 그 맘은
 | **KIT Ver.** |  |
 | --- | --- |
 | ![Midnight Guest A...](https://i.namu.wiki/i/RSudYuFE4BIwUdbwjv4vbqTQhIOWZ3fv3ei1_57l3k8hP4ZKh7t5QzN_r-wrOj_KP8-G_qgi359xiIGeUruLpV-iwPjoa1sQ2WUJtFI3wJLaq5mEpK-xrzJ8cZ07NIA7q6LTUN_BGWcIMLz97IvHeA.webp) |  |
-| **가격** | ~~23,800~~ ￦19,300 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~23,800~~ ￦19,300 19% |
 | **음반 코드** | PLD0122 |
 | **구성** | **앨범 구성품 (Before Midnight ver. / After Midnight ver.)**<br>- PACKAGE OUT BOX : W100×H100×D30 (mm) / 1종 (버전별 이미지 상이)<br>- TITLE & CREDIT CARD : W90×H90 (mm) / 1종 (버전별 이미지 상이)<br>- AIR KIT : W60×H60×D13 (mm) / 1종 (버전별 이미지 상이)<br>- PHOTO CARD : W85×H85 (mm) / 9종 (버전별 이미지 상이)<br>- RANDOM PHOTO CARD : W54×H86 (mm) / 9종 중 랜덤 1종 삽입 (버전별 이미지 상이) |
 | [ 펼치기 · 접기 ]<br>![Midnight Guest A...](https://i.namu.wiki/i/pfxuyDHPtNjKKS0sGGTyvy2qrMtoPJkjsNHt9GYbIqT2yfIjT-DlMP1tQyVLJI9zmQu6abgybZBle2UqhAM1Njvf2gqcuTX214a77FJ-mEGa1ZAXKyLtrZbDwUTu_yMfmmmuRWfTeruOMF_bFxMSCg.webp) |  |
@@ -1000,7 +1002,7 @@ Plastic heart 같은 텅 빈 그 맘은
 
 ### 음원
 
-**[선정 2022년 최고의 K-POP](https://namu.wiki/w/%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP)**
+**[빌보드빌보드](https://namu.wiki/w/%EB%B9%8C%EB%B3%B4%EB%93%9C) [선정 2022년 최고의 K-POP](https://namu.wiki/w/%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP)**
 
 [ 노래 부문 25선 ]
 
@@ -1040,27 +1042,27 @@ Plastic heart 같은 텅 빈 그 맘은
 
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | --- | --- | --- | --- |
-|  | TOP 100 |  | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | - |
 |  | 실시간 차트 |  | - |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
 |  | 최신 차트 | 4주 | 54위 |
 |  |  | 1주 | 24위 |
-|  | 주간 인기곡 차트 |  | - |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | - |
 |  | 주간 뮤직비디오 차트 |  | - |
-|  | 실시간 차트 |  | 235위 |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 235위 |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
-|  | FLO 차트 |  | - |
-|  | 실시간 차트 |  | **2위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **2위** |
 |  | 일간 차트 |  | **3위** |
 |  | 주간 차트 |  | 11위 |
-|  | 일간 차트 |  | 475위 |
-|  | 일간 차트 |  | 151위 |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 475위 |
+| [Spotify](https://namu.wiki/w/Spotify) | 일간 차트 |  | 151위 |
 |  | 주간 차트 |  | - |
-|  | 가온 지수(주간) |  | - |
+| [가온차트](https://namu.wiki/w/%EA%B0%80%EC%98%A8%EC%B0%A8%ED%8A%B8) | 가온 지수(주간) |  | - |
 |  | 가온 지수(월간) |  | - |
 | [주요 음원 서비스의 〈Escape Room〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/34539149)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |  |
 
@@ -1068,31 +1070,31 @@ Plastic heart 같은 텅 빈 그 맘은
 
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | --- | --- | --- | --- |
-|  | TOP 100 |  | 52위 |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | 52위 |
 |  | 실시간 차트 |  | 44위 |
 |  | 일간 차트 |  | 66위 |
 |  | 주간 차트 |  | 74위 |
 |  | 월간 차트 |  | 84위 |
 |  | 최신 차트 | 4주 | **7위** |
 |  |  | 1주 | **6위** |
-|  | 주간 인기곡 차트 |  | 11위 |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | 11위 |
 |  | 주간 뮤직비디오 차트 |  | **5위** |
-|  | 실시간 차트 |  | 45위 |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 45위 |
 |  | 일간 차트 |  | 137위 |
 |  | 주간 차트 |  | 145위 |
 |  | 월간 차트 |  | 149위 |
-|  | FLO 차트 |  | 66위 |
-|  | 실시간 차트 |  | **1위**[1] |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | 66위 |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **1위**[1] |
 |  | 일간 차트 |  | **1위**[2] |
 |  | 주간 차트 |  | **2위** |
-|  | 일간 차트 |  | 49위 |
-|  | Korea Top Song | Daily | **7위** |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 49위 |
+| [Spotify](https://namu.wiki/w/Spotify) | Korea Top Song | Daily | **7위** |
 |  |  | Weekly | **8위** |
 |  | Thailand Top Song | Daily | 93위 |
 |  |  | Weekly | 116위 |
 |  | Singapore Top Song | Daily | 145위 |
 |  |  | Weekly | 176위 |
-|  | 가온 지수(주간) |  | 57위 |
+| [가온차트](https://namu.wiki/w/%EA%B0%80%EC%98%A8%EC%B0%A8%ED%8A%B8) | 가온 지수(주간) |  | 57위 |
 |  | 가온 지수(월간) |  | 69위 |
 | [주요 음원 서비스의 〈DM〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/34539150)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |  |
 
@@ -1100,27 +1102,27 @@ Plastic heart 같은 텅 빈 그 맘은
 
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | --- | --- | --- | --- |
-|  | TOP 100 |  | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | - |
 |  | 실시간 차트 |  | - |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
 |  | 최신 차트 | 4주 | 59위 |
 |  |  | 1주 | 26위 |
-|  | 주간 인기곡 차트 |  | - |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | - |
 |  | 주간 뮤직비디오 차트 |  | - |
-|  | 실시간 차트 |  | 249위 |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 249위 |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
-|  | FLO 차트 |  | - |
-|  | 실시간 차트 |  | **2위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **2위** |
 |  | 일간 차트 |  | **6위** |
 |  | 주간 차트 |  | 15위 |
-|  | 일간 차트 |  | 183위 |
-|  | 일간 차트 |  | 148위 |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 183위 |
+| [Spotify](https://namu.wiki/w/Spotify) | 일간 차트 |  | 148위 |
 |  | 주간 차트 |  | - |
-|  | 가온 지수(주간) |  | - |
+| [가온차트](https://namu.wiki/w/%EA%B0%80%EC%98%A8%EC%B0%A8%ED%8A%B8) | 가온 지수(주간) |  | - |
 |  | 가온 지수(월간) |  | - |
 | [주요 음원 서비스의 〈Love is Around〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/34539151)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |  |
 
@@ -1128,27 +1130,27 @@ Plastic heart 같은 텅 빈 그 맘은
 
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | --- | --- | --- | --- |
-|  | TOP 100 |  | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | - |
 |  | 실시간 차트 |  | - |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
 |  | 최신 차트 | 4주 | 58위 |
 |  |  | 1주 | 25위 |
-|  | 주간 인기곡 차트 |  | - |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | - |
 |  | 주간 뮤직비디오 차트 |  | - |
-|  | 실시간 차트 |  | - |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | - |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
-|  | FLO 차트 |  | - |
-|  | 실시간 차트 |  | **2위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **2위** |
 |  | 일간 차트 |  | **4위** |
 |  | 주간 차트 |  | 12위 |
-|  | 일간 차트 |  | 230위 |
-|  | 일간 차트 |  | 155위 |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 230위 |
+| [Spotify](https://namu.wiki/w/Spotify) | 일간 차트 |  | 155위 |
 |  | 주간 차트 |  | - |
-|  | 가온 지수(주간) |  | - |
+| [가온차트](https://namu.wiki/w/%EA%B0%80%EC%98%A8%EC%B0%A8%ED%8A%B8) | 가온 지수(주간) |  | - |
 |  | 가온 지수(월간) |  | - |
 | [주요 음원 서비스의 〈Hush Hush〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/34539152)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |  |
 
@@ -1156,27 +1158,27 @@ Plastic heart 같은 텅 빈 그 맘은
 
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | --- | --- | --- | --- |
-|  | TOP 100 |  | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | - |
 |  | 실시간 차트 |  | - |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
 |  | 최신 차트 | 4주 | 67위 |
 |  |  | 1주 | 28위 |
-|  | 주간 인기곡 차트 |  | - |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | - |
 |  | 주간 뮤직비디오 차트 |  | - |
-|  | 실시간 차트 |  | - |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | - |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
-|  | FLO 차트 |  | - |
-|  | 실시간 차트 |  | **2위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **2위** |
 |  | 일간 차트 |  | **7위** |
 |  | 주간 차트 |  | 16위 |
-|  | 일간 차트 |  | 145위 |
-|  | 일간 차트 |  | 195위 |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 145위 |
+| [Spotify](https://namu.wiki/w/Spotify) | 일간 차트 |  | 195위 |
 |  | 주간 차트 |  | - |
-|  | 가온 지수(주간) |  | - |
+| [가온차트](https://namu.wiki/w/%EA%B0%80%EC%98%A8%EC%B0%A8%ED%8A%B8) | 가온 지수(주간) |  | - |
 |  | 가온 지수(월간) |  | - |
 | [주요 음원 서비스의 〈0g〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/34539153)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |  |
 
@@ -1272,12 +1274,12 @@ Plastic heart 같은 텅 빈 그 맘은
 | **〈DM〉 음악 방송 순위**[활동][1위] |  |  |  |
 | --- | --- | --- | --- |
 | **방송명** | **1주차** | **2주차** | **3주차** |
-| [더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | 컴백, **1위** | 결방[38] |
-| [![쇼챔피언 로고(2019-202...](https://i.namu.wiki/i/B_pQh-OPPyVbTNpssMYKxoYfvGJKCqkHiYemO6Ff2AmeND-dHdCndwI2px5VDHJXSTlyUNMzqd6fmEZNjX9aFuzww-Lth1PJv1UT84SmO-9p7r0wqQc6xSVQhvn3J__Q-MrZPSGLgzU6SfJYDdwr9g.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8) | 컴백 | **1위**[39] |  |
-| [엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) |  | 3위 | 6위(특방)[40] |
-| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) |  | 3위 | 미출연[41], 19위 |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC)[42] | 미출연 | 결방[43] |  |
-| [![SBS 인기가요 로고(2018...](https://i.namu.wiki/i/8cUuWnT_GvbgoI5NCk7dvaBdQpr_FwWGbNB7Su4QKyJnXfW3MOs2gLYBQ4hH0wjG2FNSjvCpc8SKgIvIRdJp3AlCHt1ow8ItijmKUgk3xzMgfyzmUmUk57NQkv_AcCOLugz2GtgILla004cB4QSxEg.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) | 컴백 | 5위 | 결방[44] |
+| [더 쇼<br>더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | 컴백, **1위** | 결방[38] |
+| [![쇼챔피언 로고(2019-202...](https://i.namu.wiki/i/B_pQh-OPPyVbTNpssMYKxoYfvGJKCqkHiYemO6Ff2AmeND-dHdCndwI2px5VDHJXSTlyUNMzqd6fmEZNjX9aFuzww-Lth1PJv1UT84SmO-9p7r0wqQc6xSVQhvn3J__Q-MrZPSGLgzU6SfJYDdwr9g.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8 "쇼챔피언") | 컴백 | **1위**[39] |  |
+| [엠 카운트다운<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) |  | 3위 | 6위(특방)[40] |
+| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") |  | 3위 | 미출연[41], 19위 |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC)[42] | 미출연 | 결방[43] |  |
+| [![SBS 인기가요 로고(2018...](https://i.namu.wiki/i/8cUuWnT_GvbgoI5NCk7dvaBdQpr_FwWGbNB7Su4QKyJnXfW3MOs2gLYBQ4hH0wjG2FNSjvCpc8SKgIvIRdJp3AlCHt1ow8ItijmKUgk3xzMgfyzmUmUk57NQkv_AcCOLugz2GtgILla004cB4QSxEg.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") | 컴백 | 5위 | 결방[44] |
 | **총 2관왕** |  |  |  |
 
 ## 활동
@@ -1356,4 +1358,4 @@ Talk Show**
 | --- | --- | --- | --- | --- |
 | **뮤지션** | [K팝 매니아](https://namu.wiki/w/%EB%8D%94%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4%20:%20%EC%97%B0%EC%A3%BC%EB%A1%9C%20%EC%A6%90%EA%B8%B0%EB%8A%94%20%EC%9D%8C%EC%95%85/%EB%AE%A4%EC%A7%80%EC%85%98%EC%A6%88%20%EC%88%98%EB%A1%9D%EA%B3%A1/K%ED%8C%9D%20%EB%A7%A4%EB%8B%88%EC%95%84) |  |  |  |
 | **BPM** | 110 |  |  |  |
-| **악기** | 피아노 |  |  |  |
+| **악기** | 피아노 <br>[더플레이어 MR+](https://namu.wiki/w/%EB%8D%94%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4%20:%20%EC%97%B0%EC%A3%BC%EB%A1%9C%20%EC%A6%90%EA%B8%B0%EB%8A%94%20%EC%9D%8C%EC%95%85#MR%2B) |  |  |  |

@@ -2,7 +2,7 @@
 title: "Unlock My World"
 source: https://namu.wiki/w/Unlock%20My%20World
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-26
+fetched: 2026-10-28
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/Unlock%20My%20World)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -75,69 +75,69 @@ fetched: 2026-10-26
 | **날짜** | **시간** | **내용** | **링크** |
 | --- | --- | --- | --- |
 | **2023년** |  |  |  |
-| **05. 15.** | 21:00 | 1st Album [Unlock My World] Release on |  |
-| **05. 16.** | 12:00 | 1st Album [Unlock My World] Promotion Scheduler |  |
-|  | 21:00 | 1st Album [Unlock My World] Track List |  |
-| **05. 18.** | 20:55 | 1st Album [Unlock My World] 🫠 |  |
-|  | 21:00 | 1st Album [Unlock My World] ❓ #reality Official Photo 이나경 |  |
-|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 이나경 |  |
-|  |  | 1st Album [Unlock My World] ❓ #reality Official Photo 노지선 |  |
-|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 노지선 |  |
-|  |  | 1st Album [Unlock My World] ❓ #reality Official Photo 이새롬 |  |
-|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 이새롬 |  |
-|  |  | 1st Album [Unlock My World] ❓ #reality Official Photo 이채영 |  |
-|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 이채영 |  |
-| **05. 19.** | 21:00 | 1st Album [Unlock My World] ❓ #reality Official Photo 송하영 |  |
-|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 송하영 |  |
-|  |  | 1st Album [Unlock My World] ❓ #reality Official Photo 박지원 |  |
-|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 박지원 |  |
-|  |  | 1st Album [Unlock My World] ❓ #reality Official Photo 이서연 |  |
-|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 이서연 |  |
-|  |  | 1st Album [Unlock My World] ❓ #reality Official Photo 백지헌 |  |
-|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 백지헌 |  |
-|  |  | 1st Album [Unlock My World] ❓ #reality Official Photo 프로미스나인 |  |
-|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 프로미스나인 |  |
-| **05. 21.** | 20:55 | 1st Album [Unlock My World] 🔒 |  |
-|  | 21:00 | 1st Album [Unlock My World] 🖤 #imagine Official Photo 이채영 |  |
-|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 이채영 |  |
-|  |  | 1st Album [Unlock My World] 🖤 #imagine Official Photo 박지원 |  |
-|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 박지원 |  |
-|  |  | 1st Album [Unlock My World] 🖤 #imagine Official Photo 노지선 |  |
-|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 노지선 |  |
-|  |  | 1st Album [Unlock My World] 🖤 #imagine Official Photo 이서연 |  |
-|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 이서연 |  |
-| **05. 22.** | 21:00 | 1st Album [Unlock My World] 🖤 #imagine Official Photo 백지헌 |  |
-|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 백지헌 |  |
-|  |  | 1st Album [Unlock My World] 🖤 #imagine Official Photo 이나경 |  |
-|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 이나경 |  |
-|  |  | 1st Album [Unlock My World] 🖤 #imagine Official Photo 송하영 |  |
-|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 송하영 |  |
-|  |  | 1st Album [Unlock My World] 🖤 #imagine Official Photo 이새롬 |  |
-|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 이새롬 |  |
-|  |  | 1st Album [Unlock My World] 🖤 #imagine Official Photo 프로미스나인 |  |
-|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 프로미스나인 |  |
-| **05. 24.** | 20:55 | 1st Album [Unlock My World] 🔓 |  |
-|  | 21:00 | 1st Album [Unlock My World] 💗 #notyet Official Photo 박지원 |  |
-|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 박지원 |  |
-|  |  | 1st Album [Unlock My World] 💗 #notyet Official Photo 이서연 |  |
-|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 이서연 |  |
-|  |  | 1st Album [Unlock My World] 💗 #notyet Official Photo 백지헌 |  |
-|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 백지헌 |  |
-|  |  | 1st Album [Unlock My World] 💗 #notyet Official Photo 이나경 |  |
-|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 이나경 |  |
-| **05. 25.** | 21:00 | 1st Album [Unlock My World] 💗 #notyet Official Photo 노지선 |  |
-|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 노지선 |  |
-|  |  | 1st Album [Unlock My World] 💗 #notyet Official Photo 이채영 |  |
-|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 이채영 |  |
-|  |  | 1st Album [Unlock My World] 💗 #notyet Official Photo 이새롬 |  |
-|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 이새롬 |  |
-|  |  | 1st Album [Unlock My World] 💗 #notyet Official Photo 송하영 |  |
-|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 송하영 |  |
-|  |  | 1st Album [Unlock My World] 💗 #notyet Official Photo 프로미스나인 |  |
-|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 프로미스나인 |  |
-| **05. 29.** | 21:00 | 1st Album [Unlock My World] Concept Trailer |  |
-| **05. 31.** | 21:00 | 1st Album [Unlock My World] Highlight Medley |  |
-| **06. 03.** | 21:00 | 1st Album [Unlock My World] '#menow' Official Teaser |  |
+| **05. 15.** | 21:00 | 1st Album [Unlock My World] Release on | [X Corp](https://x.com/realfromis_9/status/1658079782679068673) |
+| **05. 16.** | 12:00 | 1st Album [Unlock My World] Promotion Scheduler | [X Corp](https://x.com/realfromis_9/status/1658125101504643073) |
+|  | 21:00 | 1st Album [Unlock My World] Track List | [X Corp](https://x.com/realfromis_9/status/1658442173199822848) |
+| **05. 18.** | 20:55 | 1st Album [Unlock My World] 🫠 | [X Corp](https://x.com/realfromis_9/status/1659165687166672896) |
+|  | 21:00 | 1st Album [Unlock My World] ❓ #reality Official Photo 이나경 | [X Corp](https://x.com/realfromis_9/status/1659167449215021061) [X Corp](https://x.com/realfromis_9/status/1659167488037507073) |
+|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 이나경 | [X Corp](https://x.com/realfromis_9/status/1659167507532636160) |
+|  |  | 1st Album [Unlock My World] ❓ #reality Official Photo 노지선 | [X Corp](https://x.com/realfromis_9/status/1659168726611288064) [X Corp](https://x.com/realfromis_9/status/1659168741916295176) |
+|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 노지선 | [X Corp](https://x.com/realfromis_9/status/1659168706839314432) |
+|  |  | 1st Album [Unlock My World] ❓ #reality Official Photo 이새롬 | [X Corp](https://x.com/realfromis_9/status/1659169994431946752) [X Corp](https://x.com/realfromis_9/status/1659170007493021696) |
+|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 이새롬 | [X Corp](https://x.com/realfromis_9/status/1659169965214429192) |
+|  |  | 1st Album [Unlock My World] ❓ #reality Official Photo 이채영 | [X Corp](https://x.com/realfromis_9/status/1659171252198842375) [X Corp](https://x.com/realfromis_9/status/1659171268044931075) |
+|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 이채영 | [X Corp](https://x.com/realfromis_9/status/1659171223295893504) |
+| **05. 19.** | 21:00 | 1st Album [Unlock My World] ❓ #reality Official Photo 송하영 | [X Corp](https://x.com/realfromis_9/status/1659529880219045888) [X Corp](https://x.com/realfromis_9/status/1659529864217788416) |
+|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 송하영 | [X Corp](https://x.com/realfromis_9/status/1659529836753473536) |
+|  |  | 1st Album [Unlock My World] ❓ #reality Official Photo 박지원 | [X Corp](https://x.com/realfromis_9/status/1659531138124386304) [X Corp](https://x.com/realfromis_9/status/1659531121804316672) |
+|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 박지원 | [X Corp](https://x.com/realfromis_9/status/1659531094935609351) |
+|  |  | 1st Album [Unlock My World] ❓ #reality Official Photo 이서연 | [X Corp](https://x.com/realfromis_9/status/1659532395346038785) [X Corp](https://x.com/realfromis_9/status/1659532378266820609) |
+|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 이서연 | [X Corp](https://x.com/realfromis_9/status/1659532353146875904) |
+|  |  | 1st Album [Unlock My World] ❓ #reality Official Photo 백지헌 | [X Corp](https://x.com/realfromis_9/status/1659533647425437696) [X Corp](https://x.com/realfromis_9/status/1659533634779623425) |
+|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 백지헌 | [X Corp](https://x.com/realfromis_9/status/1659533611333287936) |
+|  |  | 1st Album [Unlock My World] ❓ #reality Official Photo 프로미스나인 | [X Corp](https://x.com/realfromis_9/status/1659536943124992004) [X Corp](https://x.com/realfromis_9/status/1659536955452039168) |
+|  |  | 1st Album [Unlock My World] ❓ #reality Mood Film 프로미스나인 | [X Corp](https://x.com/realfromis_9/status/1659536882869608448) [X Corp](https://x.com/realfromis_9/status/1659536906751713285) [X Corp](https://x.com/realfromis_9/status/1659538183154200578) |
+| **05. 21.** | 20:55 | 1st Album [Unlock My World] 🔒 | [X Corp](https://x.com/realfromis_9/status/1660252850507661313) |
+|  | 21:00 | 1st Album [Unlock My World] 🖤 #imagine Official Photo 이채영 | [X Corp](https://x.com/realfromis_9/status/1660254137869811714) [X Corp](https://x.com/realfromis_9/status/1660254157356535815) |
+|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 이채영 | [X Corp](https://x.com/realfromis_9/status/1660254114775719937) |
+|  |  | 1st Album [Unlock My World] 🖤 #imagine Official Photo 박지원 | [X Corp](https://x.com/realfromis_9/status/1660255389856980993) [X Corp](https://x.com/realfromis_9/status/1660255403782082560) |
+|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 박지원 | [X Corp](https://x.com/realfromis_9/status/1660255367434059777) |
+|  |  | 1st Album [Unlock My World] 🖤 #imagine Official Photo 노지선 | [X Corp](https://x.com/realfromis_9/status/1660256652527017986) [X Corp](https://x.com/realfromis_9/status/1660256669602041857) |
+|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 노지선 | [X Corp](https://x.com/realfromis_9/status/1660256625398018049) |
+|  |  | 1st Album [Unlock My World] 🖤 #imagine Official Photo 이서연 | [X Corp](https://x.com/realfromis_9/status/1660257899564908546) [X Corp](https://x.com/realfromis_9/status/1660257911929712640) |
+|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 이서연 | [X Corp](https://x.com/realfromis_9/status/1660257883760771072) |
+| **05. 22.** | 21:00 | 1st Album [Unlock My World] 🖤 #imagine Official Photo 백지헌 | [X Corp](https://x.com/realfromis_9/status/1660616524976250885) [X Corp](https://x.com/realfromis_9/status/1660616540318998529) |
+|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 백지헌 | [X Corp](https://x.com/realfromis_9/status/1660616499990593536) |
+|  |  | 1st Album [Unlock My World] 🖤 #imagine Official Photo 이나경 | [X Corp](https://x.com/realfromis_9/status/1660617773842571267) [X Corp](https://x.com/realfromis_9/status/1660617787696631809) |
+|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 이나경 | [X Corp](https://x.com/realfromis_9/status/1660617755777720320) |
+|  |  | 1st Album [Unlock My World] 🖤 #imagine Official Photo 송하영 | [X Corp](https://x.com/realfromis_9/status/1660619028845711360) [X Corp](https://x.com/realfromis_9/status/1660619040451330049) |
+|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 송하영 | [X Corp](https://x.com/realfromis_9/status/1660619013414584322) |
+|  |  | 1st Album [Unlock My World] 🖤 #imagine Official Photo 이새롬 | [X Corp](https://x.com/realfromis_9/status/1660620287778643971) [X Corp](https://x.com/realfromis_9/status/1660620299916955648) |
+|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 이새롬 | [X Corp](https://x.com/realfromis_9/status/1660620272180006912) |
+|  |  | 1st Album [Unlock My World] 🖤 #imagine Official Photo 프로미스나인 | [X Corp](https://x.com/realfromis_9/status/1660622806223290368) |
+|  |  | 1st Album [Unlock My World] 🖤 #imagine Mood Film 프로미스나인 | [X Corp](https://x.com/realfromis_9/status/1660622788225376259) [X Corp](https://x.com/realfromis_9/status/1660624098941349890) |
+| **05. 24.** | 20:55 | 1st Album [Unlock My World] 🔓 | [X Corp](https://x.com/realfromis_9/status/1661340014091853824) |
+|  | 21:00 | 1st Album [Unlock My World] 💗 #notyet Official Photo 박지원 | [X Corp](https://x.com/realfromis_9/status/1661341316834537472) [X Corp](https://x.com/realfromis_9/status/1661341329866235905) [X Corp](https://x.com/realfromis_9/status/1661341344558911488) |
+|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 박지원 | [X Corp](https://x.com/realfromis_9/status/1661341288111935491) |
+|  |  | 1st Album [Unlock My World] 💗 #notyet Official Photo 이서연 | [X Corp](https://x.com/realfromis_9/status/1661342577222909953) [X Corp](https://x.com/realfromis_9/status/1661342588044214273) [X Corp](https://x.com/realfromis_9/status/1661342600413204486) |
+|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 이서연 | [X Corp](https://x.com/realfromis_9/status/1661342556712734720) |
+|  |  | 1st Album [Unlock My World] 💗 #notyet Official Photo 백지헌 | [X Corp](https://x.com/realfromis_9/status/1661343834360664064) [X Corp](https://x.com/realfromis_9/status/1661343846503186435) [X Corp](https://x.com/realfromis_9/status/1661343857802608642) |
+|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 백지헌 | [X Corp](https://x.com/realfromis_9/status/1661343812214730752) |
+|  |  | 1st Album [Unlock My World] 💗 #notyet Official Photo 이나경 | [X Corp](https://x.com/realfromis_9/status/1661345087262183432) [X Corp](https://x.com/realfromis_9/status/1661345099266285568) [X Corp](https://x.com/realfromis_9/status/1661345115473072128) |
+|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 이나경 | [X Corp](https://x.com/realfromis_9/status/1661345066269675520) |
+| **05. 25.** | 21:00 | 1st Album [Unlock My World] 💗 #notyet Official Photo 노지선 | [X Corp](https://x.com/realfromis_9/status/1661703717551493122) [X Corp](https://x.com/realfromis_9/status/1661703729907924992) [X Corp](https://x.com/realfromis_9/status/1661703742293692417) |
+|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 노지선 | [X Corp](https://x.com/realfromis_9/status/1661703690271719427) |
+|  |  | 1st Album [Unlock My World] 💗 #notyet Official Photo 이채영 | [X Corp](https://x.com/realfromis_9/status/1661704977210015745) [X Corp](https://x.com/realfromis_9/status/1661704987846774784) [X Corp](https://x.com/realfromis_9/status/1661705001763491841) |
+|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 이채영 | [X Corp](https://x.com/realfromis_9/status/1661704951826108416) |
+|  |  | 1st Album [Unlock My World] 💗 #notyet Official Photo 이새롬 | [X Corp](https://x.com/realfromis_9/status/1661706240337252353) [X Corp](https://x.com/realfromis_9/status/1661706250781077506) [X Corp](https://x.com/realfromis_9/status/1661706261438812162) |
+|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 이새롬 | [X Corp](https://x.com/realfromis_9/status/1661706212625518592) |
+|  |  | 1st Album [Unlock My World] 💗 #notyet Official Photo 송하영 | [X Corp](https://x.com/realfromis_9/status/1661707492668354561) [X Corp](https://x.com/realfromis_9/status/1661707504907350016) [X Corp](https://x.com/realfromis_9/status/1661707517951635462) |
+|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 송하영 | [X Corp](https://x.com/realfromis_9/status/1661707463320797186) |
+|  |  | 1st Album [Unlock My World] 💗 #notyet Official Photo 프로미스나인 | [X Corp](https://x.com/realfromis_9/status/1661709987796623363) |
+|  |  | 1st Album [Unlock My World] 💗 #notyet Mood Film 프로미스나인 | [X Corp](https://x.com/realfromis_9/status/1661709951746863104) [X Corp](https://x.com/realfromis_9/status/1661711242451648512) |
+| **05. 29.** | 21:00 | 1st Album [Unlock My World] Concept Trailer | [X Corp](https://x.com/realfromis_9/status/1663153258486169600) |
+| **05. 31.** | 21:00 | 1st Album [Unlock My World] Highlight Medley | [X Corp](https://x.com/realfromis_9/status/1663878024482410496) |
+| **06. 03.** | 21:00 | 1st Album [Unlock My World] '#menow' Official Teaser | [X Corp](https://x.com/realfromis_9/status/1664965176209346561) |
 
 ## 콘셉트 티저
 
@@ -1394,7 +1394,7 @@ My eyes 바라보는 너의 눈 또 보고 싶어 다시
 | **#reality / #imagine / #notyet Ver.** |  |
 | --- | --- |
 | ![Unlock My World ...](https://i.namu.wiki/i/F4DKkjWiKYz-llLNJSNwcArHqtCQK2zQSZ4JdfZX3shtEMjCWZ9Z-TFtG8514JuT1b2vnWVw3erAcdyK4fWLTuBu8WsQOSykwpnCEOlBfHrngszhMyAc7tT1ih0grNtJumTJ4ae-1B9KY0l9SG7B8Q.webp) |  |
-| **가격** | ~~23,800~~ ￦19,300 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~23,800~~ ￦19,300 19% |
 | **음반 코드** | PLD0241 |
 | **구성** | **앨범 구성품 (#reality ver. / #imagine ver. / #notyet ver.)**<br>- PHOTO BOOK : W180×H252 (mm) / 1종 (버전별 이미지 상이)<br>- TRACKLST BOOK : W76×H128 (mm) / 1종 (버전별 이미지 상이)<br>- MIN POSTER : W177×H246 (mm) / 1종 (버전별 이미지 상이)<br>- PHOTO CARD : W55×H85 (mm) / 24종 중 랜덤 2종 삽입 (버전별 이미지 상이)<br>- MINI CARD : W55×H85 (mm) / 8종 중 랜덤 1종 삽입 (버전별 이미지 상이)<br>- COVER DECO STICKER : W100×H150 (mm) / 1종 (버전별 이미지 상이)<br>- FOLDED LYRICS POSTER : W297×H420 (mm) / 1종 (버전별 이미지 상이)<br>- CD-R : 1종 (버전별 이미지 상이) |
 | [ 펼치기 · 접기 ]<br>![Unlock My World ...](https://i.namu.wiki/i/21N5SCpkjN3rgvZzybLVUcRPONF6WeKWzp5uHpGtScFOGErfsd2Hn6aD7xlXx6LmClcjyvKesXMvM7elNyfTeYh5ntw8juQWTRq_K08xMqxRzhyw4oiaPWFGL-OdXNThBCdZAHfKI_72ecnUy26cpQ.webp) |  |
@@ -1402,7 +1402,7 @@ My eyes 바라보는 너의 눈 또 보고 싶어 다시
 | **Compact Ver.** |  |
 | --- | --- |
 | ![Unlock My World ...](https://i.namu.wiki/i/NnkZ5lhH6xLrju4FFkmnse91nTFMEV7ICNIVSN75vciNbmdgO48WKUypzjDWAk6WSpaHveYoQPvwnGZVSy7cDCbp4pXi8xdLCjJiWAJbw6iPCvguWhbEDKFcoy0gOID_efgW1sdWIB0bEqSkZ7o5Kg.webp) |  |
-| **가격** | ~~14,700~~ ￦11,800 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~14,700~~ ￦11,800 19% |
 | **음반 코드** | PLD0242 |
 | **구성** | **앨범 구성품 (MEMBER ver. / fromis_9 ver.)**<br>- OUT BOX : W144×H125 (mm) / 1종 (버전별 이미지 상이)<br>- BOOKLET : W140×H120 (mm) / 1종 (버전별 이미지 상이)<br>- PHOTO CARD : W85×H85 (mm) / 8종 중 랜덤 2종 삽입<br>- BOOK MARK : W40×H140 (mm) / 1종<br>- CD-R : 1종 |
 | [ 펼치기 · 접기 ]<br>![Unlock My World ...](https://i.namu.wiki/i/XlJpeEZRSinFrz84b4R0lVmoaBetJFtEtMpMVukv1M0QER_TY7Og51gfmGYihpvYbjyWemKQJUe63mEoZa3796S88VlRzoX3gNmnaoz1TaL7i3MZ86syvNH-fAaUY2QgTyiAtPRaxYFbI0UoHSk3LQ.webp) |  |
@@ -1410,7 +1410,7 @@ My eyes 바라보는 너의 눈 또 보고 싶어 다시
 | **Weverse Ver.** |  |
 | --- | --- |
 | ![Unlock My World ...](https://i.namu.wiki/i/jlS3ySpXCfKsdqYJjcExcZ9lW2g43wRCm3jsHJju2Yc6CA_1Of220GasA00Ll6hMnm_FCwuWvoF0EbYYayvBoC8kOBmZFqvx9dVfvjOhsitE8t1tf0AwIUiW6tZJYCOgKQDYy6hHudzD4MFWyxxcxg.webp) |  |
-| **가격** | ~~13,700~~ ￦11,100 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~13,700~~ ￦11,100 19% |
 | **음반 코드** | PLD0243 |
 | **구성** | **앨범 구성품**<br>- CARD HOLDER : W80×H120 (mm) / 1종<br>- PHOTO CARD : W54×H86 (mm) / 16종 중 랜덤 2종 삽입<br>- QR CARD : W54×H86 (mm) / 8종 중 랜덤 1종 삽입<br>- USER GUIDE : W84×H114 (mm) / 1종 |
 | [ 펼치기 · 접기 ]<br>![Unlock My World ...](https://i.namu.wiki/i/nNwQlwhm5dH6_oFKJSd3I6GQJ02juawFm5BOwsZhnCEXMKIgSs36252618Q3LmQ1Ov5iPaLO5ff924eHvalBd9CCZJmcwWGLFxyHRAwGtneZBIFqArUU9wFwaFdZs5OWuw2Wvzb-c4xbsgf-BeoXUA.webp) |  |
@@ -1418,7 +1418,7 @@ My eyes 바라보는 너의 눈 또 보고 싶어 다시
 | **KIT Ver.** |  |
 | --- | --- |
 | ![Unlock My World ...](https://i.namu.wiki/i/Fde9VNIrUHbfbXBFW3pm09imnVS-fFza45tb5PNZ5rCJhFX0iWYOUwfoWm_3ypqET9U16vJSr-SxDwSY5dG6icgKABeXfhnNHPTxYixImVBD90YD4GjpCi8yMhHJ0HKqfQStjyPMiPnwIirP_YR9Cw.webp) / ![Unlock My World ...](https://i.namu.wiki/i/BUn_EYjWro7z9hilfu6wHSdd1LGRTwtGiXQzNA06PmCuAJ-tHP1iioN4GQ0p6M8oMjFteAUC4OGVBknE6Ni6K2cC1qc9mA3PULuBh49o3K7dwwoPuFMBCBR8qsHUGnLcRmyE5OcVONuQjvweKgJLEg.webp) |  |
-| **가격** | ~~23,800~~ ￦19,300 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~23,800~~ ￦19,300 19% |
 | **음반 코드** | PLD0244 |
 | **구성** | **앨범 구성품 (#imagine ver. / #notyet ver.)**<br>- PACKAGE OUT BOX : W100×H100×D34 (mm) / 1종 (버전별 이미지 상이)<br>- TITLE & CREDIT CARD : W90×H90 (mm) / 1종 (버전별 이미지 상이)<br>- AIR KIT : W60×H60×D13 (mm) / 1종 (버전별 이미지 상이)<br>- PHOTO CARD : W85×H85 (mm) / 8종 (버전별 이미지 상이)<br>- RANDOM PHOTO CARD : W55×H85 (mm) / 8종 중 랜덤 1종 삽입 (버전별 이미지 상이) |
 | [ 펼치기 · 접기 ]<br>![Unlock My World ...](https://i.namu.wiki/i/Pk9vh4xSbpwyWF_wKC5dK2tZVMEhR1tOww1QA8Gi9rlK-DA8TxW_jANtJL7JU_NmjZWmri8pVu0orrGrCQsWUb92KFwa1_xCjqEVzYWwtQRXQZODgJwKHvTG6uAH2ab9PeEK7YNABORfjY3Ixd0Unw.webp) |  |
@@ -1430,7 +1430,7 @@ My eyes 바라보는 너의 눈 또 보고 싶어 다시
 | **〈#menow〉 주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-|  | TOP 100 |  | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | - |
 |  | 실시간 차트 |  | 74위 |
 |  | 일간 차트 |  | 204위 |
 |  | 주간 차트 |  | - |
@@ -1439,27 +1439,27 @@ My eyes 바라보는 너의 눈 또 보고 싶어 다시
 |  |  | 30일 | 13위 |
 |  | 최신 차트 | 4주 | 21위 |
 |  |  | 1주 | **4위** |
-|  | 주간 인기곡 차트 |  | 53위 |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | 53위 |
 |  | 주간 뮤직비디오 차트 |  | 14위 |
-|  | 실시간 차트 |  | 79위 |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 79위 |
 |  | 일간 차트 |  | 249위 |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
-|  | FLO 차트 |  | - |
-|  | 실시간 차트 |  | 13위 |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | 13위 |
 |  | 일간 차트 |  | 96위 |
 |  | 주간 차트 |  | - |
-|  | 일간 차트 |  | 164위 |
-|  | 일간 차트 |  | 82위 |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 164위 |
+| [Spotify](https://namu.wiki/w/Spotify) | 일간 차트 |  | 82위 |
 |  | 주간 차트 |  | 139위 |
-|  | 디지털 주간 차트 |  | 13위 |
+| [써클차트써클차트](https://namu.wiki/w/%EC%8D%A8%ED%81%B4%EC%B0%A8%ED%8A%B8) | 디지털 주간 차트 |  | 13위 |
 |  | 디지털 월간 차트 |  | 62위 |
 | [주요 음원 서비스의 〈#menow〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/36502896)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |  |
 
 | **〈Attitude〉 주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-|  | HOT 100 | 30일 | 24위 |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | 24위 |
 |  |  | 100일 | 60위 |
 |  | 최신 발매 | 1주 | 15위 |
 |  |  | 4주 | 48위 |
@@ -1498,19 +1498,19 @@ My eyes 바라보는 너의 눈 또 보고 싶어 다시
 | **〈#menow〉 음악 방송 순위**[활동][1위] |  |  |  |
 | --- | --- | --- | --- |
 | **방송명** | **1주차** | **2주차** | **3주차** |
-| [더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | **1위** | **2위** |
-| [![쇼챔피언 로고(2019-202...](https://i.namu.wiki/i/B_pQh-OPPyVbTNpssMYKxoYfvGJKCqkHiYemO6Ff2AmeND-dHdCndwI2px5VDHJXSTlyUNMzqd6fmEZNjX9aFuzww-Lth1PJv1UT84SmO-9p7r0wqQc6xSVQhvn3J__Q-MrZPSGLgzU6SfJYDdwr9g.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8) | - | **5위** | 미진입 |
-| [엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 컴백 | 6위(특방)[11] | 5위 |
-| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) |  | 3위 | 5위 |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC)[12] | 미출연 | 미출연, 4위 | 미출연, 21위 |
-| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) | 컴백 | 12위 | 미진입 |
+| [더 쇼<br>더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | **1위** | **2위** |
+| [![쇼챔피언 로고(2019-202...](https://i.namu.wiki/i/B_pQh-OPPyVbTNpssMYKxoYfvGJKCqkHiYemO6Ff2AmeND-dHdCndwI2px5VDHJXSTlyUNMzqd6fmEZNjX9aFuzww-Lth1PJv1UT84SmO-9p7r0wqQc6xSVQhvn3J__Q-MrZPSGLgzU6SfJYDdwr9g.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8 "쇼챔피언") | - | **5위** | 미진입 |
+| [엠 카운트다운<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 컴백 | 6위(특방)[11] | 5위 |
+| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") |  | 3위 | 5위 |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC)[12] | 미출연 | 미출연, 4위 | 미출연, 21위 |
+| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") | 컴백 | 12위 | 미진입 |
 
 | **〈#menow〉 음악 방송 순위**[활동종료] |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
 | **방송명** | **4주차** | **5주차** | **6주차** | **7주차** | **8주차** | **9주차** |
-| [엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 8위 | 13위 | -[14] |  |  |  |
-| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) | 30위 | 미진입 |  |  |  |  |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | 30위 | 37위 | 31위 | 31위 | 30위 | 38위 |
+| [엠 카운트다운<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 8위 | 13위 | -[14] |  |  |  |
+| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") | 30위 | 미진입 |  |  |  |  |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | 30위 | 37위 | 31위 | 31위 | 30위 | 38위 |
 | **총 1관왕** |  |  |  |  |  |  |
 
 ### 총평

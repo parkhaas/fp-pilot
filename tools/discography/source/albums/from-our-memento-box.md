@@ -2,7 +2,7 @@
 title: "from our Memento Box"
 source: https://namu.wiki/w/from%20our%20Memento%20Box
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-26
+fetched: 2026-10-28
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/from%20our%20Memento%20Box)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -82,60 +82,60 @@ fetched: 2026-10-26
 | **날짜** | **시간** | **내용** | **링크** |
 | --- | --- | --- | --- |
 | **2022년** |  |  |  |
-| **06. 06.** | 21:00 | [from our Memento Box] Release on 2022.06.27 6PM(KST) |  |
-| **06. 07.** | 12:00 | [from our Memento Box] 예약 판매 안내 공지 |  |
-|  | 21:00 | [from our Memento Box] Promotion Scheduler |  |
-| **06. 08.** | 21:00 | [from our Memento Box] Concept Trailer |  |
-| **06. 09.** | 21:00 | [from our Memento Box] Track List |  |
-|  | 11:00 | [from our Memento Box] Come and click to PRE SAVE/PRE ADD here! |  |
-| **06. 10.** | 21:00 | [from our Memento Box] 💭 'Wish Ver.' Official Photo #이서연 |  |
-|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo #노지선 |  |
-|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo #백지헌 |  |
-|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo #장규리 |  |
-|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo #송하영 |  |
-|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo #이새롬 |  |
-|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo #박지원 |  |
-|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo #이채영 |  |
-|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo #이나경 |  |
-| **06. 11.** | 21:00 | [from our Memento Box] 💭 'Wish Ver.' Official Unit Photo #이새롬 #장규리 #노지선 #이서연 #백지헌 |  |
-|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Unit Photo #송하영 #박지원 #이채영 #이나경 |  |
-|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo |  |
-| **06. 12.** | 14:00 | [from our Memento Box] 🎧+🎁 |  |
-| **06. 13.** | 21:00 | [from our Memento Box] 💫 'Dream Ver.' Concept Film #장규리 |  |
-|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #장규리 |  |
-|  |  | [from our Memento Box] 💫 'Dream Ver.' Concept Film #박지원 |  |
-|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #박지원 |  |
-|  |  | [from our Memento Box] 💫 'Dream Ver.' Concept Film #노지선 |  |
-|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #노지선 |  |
-| **06. 14.** | 21:00 | [from our Memento Box] 💫 'Dream Ver.' Concept Film #이채영 |  |
-|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #이채영 |  |
-|  |  | [from our Memento Box] 💫 'Dream Ver.' Concept Film #이나경 |  |
-|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #이나경 |  |
-|  |  | [from our Memento Box] 💫 'Dream Ver.' Concept Film #백지헌 |  |
-|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #백지헌 |  |
-| **06. 15.** | 21:00 | [from our Memento Box] 💫 'Dream Ver.' Concept Film #이서연 |  |
-|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #이서연 |  |
-|  |  | [from our Memento Box] 💫 'Dream Ver.' Concept Film #이새롬 |  |
-|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #이새롬 |  |
-|  |  | [from our Memento Box] 💫 'Dream Ver.' Concept Film #송하영 |  |
-|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #송하영 |  |
-| **06. 16.** | 12:30 | [from our Memento Box] 📝+🎁 |  |
-|  | 21:00 | [from our Memento Box] 💫 'Dream Ver.' Concept Film |  |
-|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo |  |
-| **06. 17.** | 21:00 | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #노지선 |  |
-|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #송하영 |  |
-|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #박지원 |  |
-|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #장규리 |  |
-|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #이서연 |  |
-|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #이나경 |  |
-|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #이새롬 |  |
-|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #백지헌 |  |
-|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #이채영 |  |
-|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo |  |
-| **06. 18.** | 17:56 | [from our Memento Box] 💌+🎁 |  |
-| **06. 19.** | 12:00 | [from our Memento Box] 🔁 |  |
-| **06. 21.** | 21:00 | [from our Memento Box] Highlight Medley |  |
-| **06. 25.** | 21:00 | [from our Memento Box] 'Stay This Way' Official Teaser |  |
+| **06. 06.** | 21:00 | [from our Memento Box] Release on 2022.06.27 6PM(KST) | [X Corp](https://x.com/realfromis_9/status/1533780756610199552) |
+| **06. 07.** | 12:00 | [from our Memento Box] 예약 판매 안내 공지 | [Weverse](https://m.weverse.io/lesserafim/notice/2776) |
+|  | 21:00 | [from our Memento Box] Promotion Scheduler | [X Corp](https://x.com/realfromis_9/status/1534143135474909185) |
+| **06. 08.** | 21:00 | [from our Memento Box] Concept Trailer | [X Corp](https://x.com/realfromis_9/status/1534505526742028288) |
+| **06. 09.** | 21:00 | [from our Memento Box] Track List | [X Corp](https://x.com/realfromis_9/status/1534867907393486849) |
+|  | 11:00 | [from our Memento Box] Come and click to PRE SAVE/PRE ADD here! | [X Corp](https://x.com/realfromis_9/status/1534898117220483075) |
+| **06. 10.** | 21:00 | [from our Memento Box] 💭 'Wish Ver.' Official Photo #이서연 | [X Corp](https://x.com/realfromis_9/status/1535230334765514752) |
+|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo #노지선 | [X Corp](https://x.com/realfromis_9/status/1535230385638223874) |
+|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo #백지헌 | [X Corp](https://x.com/realfromis_9/status/1535230425286983681) |
+|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo #장규리 | [X Corp](https://x.com/realfromis_9/status/1535230810726727683) |
+|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo #송하영 | [X Corp](https://x.com/realfromis_9/status/1535230848735539200) |
+|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo #이새롬 | [X Corp](https://x.com/realfromis_9/status/1535230881061044224) |
+|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo #박지원 | [X Corp](https://x.com/realfromis_9/status/1535231318132686848) |
+|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo #이채영 | [X Corp](https://x.com/realfromis_9/status/1535231357965991936) |
+|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo #이나경 | [X Corp](https://x.com/realfromis_9/status/1535231385367375872) |
+| **06. 11.** | 21:00 | [from our Memento Box] 💭 'Wish Ver.' Official Unit Photo #이새롬 #장규리 #노지선 #이서연 #백지헌 | [X Corp](https://x.com/realfromis_9/status/1535592686022823936) |
+|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Unit Photo #송하영 #박지원 #이채영 #이나경 | [X Corp](https://x.com/realfromis_9/status/1535592694289862656) |
+|  |  | [from our Memento Box] 💭 'Wish Ver.' Official Photo | [X Corp](https://x.com/realfromis_9/status/1535592700514140160) |
+| **06. 12.** | 14:00 | [from our Memento Box] 🎧+🎁 | [X Corp](https://x.com/realfromis_9/status/1535849377079603203) |
+| **06. 13.** | 21:00 | [from our Memento Box] 💫 'Dream Ver.' Concept Film #장규리 | [X Corp](https://x.com/realfromis_9/status/1536317470864199680) |
+|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #장규리 | [X Corp](https://x.com/realfromis_9/status/1536317490183057413) |
+|  |  | [from our Memento Box] 💫 'Dream Ver.' Concept Film #박지원 | [X Corp](https://x.com/realfromis_9/status/1536317962541584384) |
+|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #박지원 | [X Corp](https://x.com/realfromis_9/status/1536317980543361024) |
+|  |  | [from our Memento Box] 💫 'Dream Ver.' Concept Film #노지선 | [X Corp](https://x.com/realfromis_9/status/1536318465866227715) |
+|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #노지선 | [X Corp](https://x.com/realfromis_9/status/1536318482068799488) |
+| **06. 14.** | 21:00 | [from our Memento Box] 💫 'Dream Ver.' Concept Film #이채영 | [X Corp](https://x.com/realfromis_9/status/1536679858146779137) |
+|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #이채영 | [X Corp](https://x.com/realfromis_9/status/1536679876576817154) |
+|  |  | [from our Memento Box] 💫 'Dream Ver.' Concept Film #이나경 | [X Corp](https://x.com/realfromis_9/status/1536680350528589825) |
+|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #이나경 | [X Corp](https://x.com/realfromis_9/status/1536680376575627264) |
+|  |  | [from our Memento Box] 💫 'Dream Ver.' Concept Film #백지헌 | [X Corp](https://x.com/realfromis_9/status/1536680854138724352) |
+|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #백지헌 | [X Corp](https://x.com/realfromis_9/status/1536680873579679745) |
+| **06. 15.** | 21:00 | [from our Memento Box] 💫 'Dream Ver.' Concept Film #이서연 | [X Corp](https://x.com/realfromis_9/status/1537042239179874305) |
+|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #이서연 | [X Corp](https://x.com/realfromis_9/status/1537042264416915456) |
+|  |  | [from our Memento Box] 💫 'Dream Ver.' Concept Film #이새롬 | [X Corp](https://x.com/realfromis_9/status/1537042738205564928) |
+|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #이새롬 | [X Corp](https://x.com/realfromis_9/status/1537042761517436929) |
+|  |  | [from our Memento Box] 💫 'Dream Ver.' Concept Film #송하영 | [X Corp](https://x.com/realfromis_9/status/1537043241593446402) |
+|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo #송하영 | [X Corp](https://x.com/realfromis_9/status/1537043259251232769) |
+| **06. 16.** | 12:30 | [from our Memento Box] 📝+🎁 | [X Corp](https://x.com/realfromis_9/status/1537276277673103360) |
+|  | 21:00 | [from our Memento Box] 💫 'Dream Ver.' Concept Film | [X Corp](https://x.com/realfromis_9/status/1537404634007908352) |
+|  |  | [from our Memento Box] 💫 'Dream Ver.' Official Photo | [X Corp](https://x.com/realfromis_9/status/1537404654010544128) |
+| **06. 17.** | 21:00 | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #노지선 | [X Corp](https://x.com/realfromis_9/status/1537767014009163778) |
+|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #송하영 | [X Corp](https://x.com/realfromis_9/status/1537767022779506689) |
+|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #박지원 | [X Corp](https://x.com/realfromis_9/status/1537767037421821952) |
+|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #장규리 | [X Corp](https://x.com/realfromis_9/status/1537767517275316225) |
+|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #이서연 | [X Corp](https://x.com/realfromis_9/status/1537767524669878273) |
+|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #이나경 | [X Corp](https://x.com/realfromis_9/status/1537767533452750849) |
+|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #이새롬 | [X Corp](https://x.com/realfromis_9/status/1537768020113694720) |
+|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #백지헌 | [X Corp](https://x.com/realfromis_9/status/1537768029441822720) |
+|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo #이채영 | [X Corp](https://x.com/realfromis_9/status/1537768039340355584) |
+|  |  | [from our Memento Box] 🎞️ 'Memory Ver.' Official Photo | [X Corp](https://x.com/realfromis_9/status/1537768520414547971) |
+| **06. 18.** | 17:56 | [from our Memento Box] 💌+🎁 | [X Corp](https://x.com/realfromis_9/status/1538113291893059585) |
+| **06. 19.** | 12:00 | [from our Memento Box] 🔁 | [X Corp](https://x.com/realfromis_9/status/1538174699292663808) |
+| **06. 21.** | 21:00 | [from our Memento Box] Highlight Medley | [X Corp](https://x.com/realfromis_9/status/1539216570810912768) |
+| **06. 25.** | 21:00 | [from our Memento Box] 'Stay This Way' Official Teaser | [X Corp](https://x.com/realfromis_9/status/1540666120084103169) |
 
 ## 콘셉트 티저
 
@@ -476,7 +476,9 @@ Stage Cam @ 2023 Weverse Con Festival**
 
 [▶ YouTube](https://www.youtube.com/watch?v=1UJCm2ZzrnE)
 
-**02 3:15
+**Stay This Way
+
+02 3:15
 
 TITLE
 
@@ -1483,7 +1485,7 @@ Choreography Video**
 | **Wish / Dream / Memory Ver.** |  |
 | --- | --- |
 | ![from our Memento...](https://i.namu.wiki/i/OXqCjvZD3qmbGjjjsTSAvxkPM2kT0727ioGLgP6siXKn-sqQAkpBCXDLaTSmoStuEK2Q_DK5tezm7zHo2__SKwiF5Dp3ap6jbuMcKTFhLfwCqI568_szcWWI9IHet7i3GCQ9aw5R12xoBLIHs5oSgg.webp) |  |
-| **가격** | ~~22,000~~ ￦17,800 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~22,000~~ ￦17,800 19% |
 | **음반 코드** | PLD0162 |
 | **구성** | **앨범 구성품 (Wish ver. / Dream ver. / Memory ver.)**<br>- PHOTO BOOK : W250×H188 (mm) / 80P / 1종 (버전별 이미지 상이)<br>- CLEAR DECO STICKER : W70×H70 (mm) / 1종 (버전별 이미지 상이)<br>- PHOTO TICKET : W50×H160 (mm) / 9종 중 랜덤 1종 삽입 (버전별 이미지 상이) ※ 초회 한정 증정<br>- PHOTO CARD : W55×H85 (mm) / 18종 중 랜덤 2종 삽입 (버전별 이미지 상이)<br>- BOOK MARK (PAPER KEYRING) : W50×H150 (mm) / 1종 (버전별 이미지 상이)<br>- LYRICS CARD : W130×H130 (mm) / 5P / 1종<br>- CD-R : 1종 (버전별 이미지 상이) |
 | [ 펼치기 · 접기 ]<br>![from our Memento...](https://i.namu.wiki/i/6DOBrVfaiZFOO0p-lXD0j1N_935-rgBwIpyc7bqvUJnZmnP0fkC-PY8E_ekIOO9ppiolZ_pI3StBiTW9PnHWC3MDA76NoMnWqQ63b4YLhwEFYG3nIG2pjYkHQcEBPA_kWyGvPhqDXUbyVQXdeoE5ag.webp) |  |
@@ -1491,7 +1493,7 @@ Choreography Video**
 | **Jewel Case Ver.** |  |
 | --- | --- |
 | ![from our Memento...](https://i.namu.wiki/i/NshuLg2R-aFspyu_ZRkNcx0giYl5jYwk3o7Jzf-xC16tWGHv7s-0S3IIX_jZTunqsp5X_NZYwIxfDykka5byq2sjraiKdaw-YK4TVRcuhHNZjwGInv0_g5rBAKrGQ15uPxGUHNH4IFVrxS55ZG26Ng.webp) |  |
-| **가격** | ~~11,000~~ ￦8,900 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~11,000~~ ￦8,900 19% |
 | **음반 코드** | PLD0163 |
 | **구성** | **앨범 구성품 (MEMBER ver.)**<br>- COVER : W144×H125 (mm) / 1종<br>- BOOKLET : W120×H120 (mm) / 12P / 1종 (버전별 이미지 상이)<br>- PHOTO CARD : W55×H85 (mm) / 9종 중 랜덤 2종 삽입<br>- CD-R : 1종 |
 | [ 펼치기 · 접기 ]<br>![from our Memento...](https://i.namu.wiki/i/i20jWJg4XwwxQsD9OcgZMee_RvLk3yAm_w11JfJ82aolrgOy-BQA0wibEUOYxSyFmmaflixpn8bVYTabLfrKF3TH67HWpkudgbHJHL3VhNYWzAcwW8m3en9njvBE_ignPY4AqbGKmpUdxRSkIw-F4Q.webp) |  |
@@ -1499,7 +1501,7 @@ Choreography Video**
 | **KIT Ver.** |  |
 | --- | --- |
 | ![from our Memento...](https://i.namu.wiki/i/fSje86z9MzdXVODZ9kGFKpg0QgU7cOLW5SDu6lbBmGe4PdAxDMBBhfDVwHA18e2KRedXkKX638wPTloYFY4yVc_k2QuOwusv7aD2Pe9IPqrwuksBjsHx3L_2w4ck7-mC2T1jbtBXoPW5YJJVOU3xKg.webp) / ![from our Memento...](https://i.namu.wiki/i/uulyRBc7QrSmIcX8AzPoT3p1flo-_x6XctreT9_4qlqCxM2EYm7lqVZliBUYW7t4kFoAsgA_JfplQXE-FXyKLmUgPzN9zBh6BMFXRymS9MiAsC0WjTgOS7nFg51YUA7JHFcNg_eamAbFQPmq6rFfcg.webp) |  |
-| **가격** | ~~23,800~~ ￦19,300 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~23,800~~ ￦19,300 19% |
 | **음반 코드** | PLD0168 |
 | **구성** | **앨범 구성품 (Wish ver. / Dream ver.)**<br>- PACKAGE OUT BOX : W100×H100×D30 (mm) / 1종 (버전별 이미지 상이)<br>- TITLE & CREDIT CARD : W90×H90 (mm) / 1종 (버전별 이미지 상이)<br>- AIR KIT : W60×H60×D13 (mm) / 1종 (버전별 이미지 상이)<br>- PHOTO CARD : W85×H85 (mm) / 9종 (버전별 이미지 상이)<br>- RANDOM PHOTO CARD : W54×H86 (mm) / 9종 중 랜덤 1종 삽입 (버전별 이미지 상이) |
 | [ 펼치기 · 접기 ]<br>![from our Memento...](https://i.namu.wiki/i/DaLZ6DFeTuQBIG0wdBZEmoI7Vn7qtoutO48BFApJJe0Scu1XqCQaXw-L5fDA_UDzK5GFykSORAGsczBZX_EtbNvQ9OrtgYSYMS3xTit368wqytZ7aAiCj8-m2lT5y2lNL4kb3YYC-yuqtvx_SeBdtA.webp) |  |
@@ -1507,7 +1509,7 @@ Choreography Video**
 | **Weverse Ver.** |  |
 | --- | --- |
 | ![from our Memento...](https://i.namu.wiki/i/quNlngqt4Q-4qQjIxxz1UK6m61mlABn36rZyPGA-tyUkXYuD8aEAbAleVhZFHHnHapFB82Fa8RTOEnpNG9mbh7J_EeiS0mgiWt7Ix_uLj_fq34OH9oHPpjLDWTNAUydk-ywAf7CSiqNjMMt_A2YF-Q.webp) |  |
-| **가격** | ~~11,000~~ ￦8,900 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~11,000~~ ￦8,900 19% |
 | **음반 코드** | PLD0169 |
 | **구성** | **앨범 구성품**<br>- CARD HOLDER : W120×H90 (mm) / 1종<br>- QR CARD : W54×H86 (mm) / 9종 중 랜덤 1종 삽입<br>- PHOTO CARD : W54×H86 (mm) / 18종 중 랜덤 2종 삽입<br>- USER GUIDE : W84×H114 (mm) / 1종 |
 | [ 펼치기 · 접기 ]<br>![from our Memento...](https://i.namu.wiki/i/GlbJB1QPxlX5fH_Ie2OLHzfGxgr9-dQ5OLPP7DSfZ0PWAfvC2ANG4DTEcAeckYr-Bac1rhPQOcgAmfi6a_ybOxWVRCmzDLxNyMAJApYb76U2sVH5JJUkSrmbP_28LaecjLjBblVZHH4gebfqy0zH4w.webp) |  |
@@ -1522,140 +1524,140 @@ Choreography Video**
 
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | --- | --- | --- | --- |
-|  | TOP 100 |  | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | - |
 |  | 실시간 차트 |  | - |
 |  | 일간 차트 |  | 916위 |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
 |  | 최신 차트 | 4주 | 32위 |
 |  |  | 1주 | 14위 |
-|  | 주간 인기곡 차트 |  | - |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | - |
 |  | 주간 뮤직비디오 차트 |  | - |
-|  | 실시간 차트 |  | 218위 |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 218위 |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
-|  | FLO 차트 |  | - |
-|  | 실시간 차트 |  | **2위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **2위** |
 |  | 일간 차트 |  | **3위** |
 |  | 주간 차트 |  | **7위** |
-|  | 일간 차트 |  | 111위 |
-|  | 일간 차트 |  | 192위 |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 111위 |
+| [Spotify](https://namu.wiki/w/Spotify) | 일간 차트 |  | 192위 |
 |  | 주간 차트 |  | - |
-|  | 가온 지수(주간) |  | - |
-| [개편] | 디지털 월간 차트 |  | - |
+| [가온차트](https://namu.wiki/w/%EA%B0%80%EC%98%A8%EC%B0%A8%ED%8A%B8) | 가온 지수(주간) |  | - |
+| [써클차트써클차트](https://namu.wiki/w/%EC%8D%A8%ED%81%B4%EC%B0%A8%ED%8A%B8)[개편] | 디지털 월간 차트 |  | - |
 | [주요 음원 서비스의 〈Up And〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/35337880)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |  |
 
 [ Stay This Way ]
 
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | --- | --- | --- | --- |
-|  | TOP 100 |  | 86위 |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | 86위 |
 |  | 실시간 차트 |  | 57위 |
 |  | 일간 차트 |  | 100위 |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
 |  | 최신 차트 | 4주 | 10위 |
 |  |  | 1주 | **4위** |
-|  | 주간 인기곡 차트 |  | 17위 |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | 17위 |
 |  | 주간 뮤직비디오 차트 |  | 10위 |
-|  | 실시간 차트 |  | 33위 |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 33위 |
 |  | 일간 차트 |  | 142위 |
 |  | 주간 차트 |  | 150위 |
 |  | 월간 차트 |  | 159위 |
-|  | FLO 차트 |  | 91위 |
-|  | 실시간 차트 |  | **1위**[4] |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | 91위 |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **1위**[4] |
 |  | 일간 차트 |  | **1위**[5] |
 |  | 주간 차트 |  | **2위**[6] |
-|  | 일간 차트 |  | 47위 |
-|  | 일간 차트 |  | 30위 |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 47위 |
+| [Spotify](https://namu.wiki/w/Spotify) | 일간 차트 |  | 30위 |
 |  | 주간 차트 |  | 38위 |
-|  | 가온 지수(주간) |  | 14위 |
-| [개편] | 디지털 월간 차트 |  | 85위 |
+| [가온차트](https://namu.wiki/w/%EA%B0%80%EC%98%A8%EC%B0%A8%ED%8A%B8) | 가온 지수(주간) |  | 14위 |
+| [써클차트써클차트](https://namu.wiki/w/%EC%8D%A8%ED%81%B4%EC%B0%A8%ED%8A%B8)[개편] | 디지털 월간 차트 |  | 85위 |
 | [주요 음원 서비스의 〈Stay This Way〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/35337881)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |  |
 
 [ Blind Letter ]
 
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | --- | --- | --- | --- |
-|  | TOP 100 |  | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | - |
 |  | 실시간 차트 |  | - |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
 |  | 최신 차트 | 4주 | 33위 |
 |  |  | 1주 | 15위 |
-|  | 주간 인기곡 차트 |  | - |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | - |
 |  | 주간 뮤직비디오 차트 |  | - |
-|  | 실시간 차트 |  | 239위 |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 239위 |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
-|  | FLO 차트 |  | - |
-|  | 실시간 차트 |  | **2위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **2위** |
 |  | 일간 차트 |  | **5위** |
 |  | 주간 차트 |  | **8위** |
-|  | 일간 차트 |  | - |
-|  | 일간 차트 |  | 184위 |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | - |
+| [Spotify](https://namu.wiki/w/Spotify) | 일간 차트 |  | 184위 |
 |  | 주간 차트 |  | - |
-|  | 가온 지수(주간) |  | - |
-| [개편] | 디지털 월간 차트 |  | - |
+| [가온차트](https://namu.wiki/w/%EA%B0%80%EC%98%A8%EC%B0%A8%ED%8A%B8) | 가온 지수(주간) |  | - |
+| [써클차트써클차트](https://namu.wiki/w/%EC%8D%A8%ED%81%B4%EC%B0%A8%ED%8A%B8)[개편] | 디지털 월간 차트 |  | - |
 | [주요 음원 서비스의 〈Blind Letter〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/35337882)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |  |
 
 [ Cheese ]
 
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | --- | --- | --- | --- |
-|  | TOP 100 |  | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | - |
 |  | 실시간 차트 |  | - |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
 |  | 최신 차트 | 4주 | 34위 |
 |  |  | 1주 | 16위 |
-|  | 주간 인기곡 차트 |  | - |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | - |
 |  | 주간 뮤직비디오 차트 |  | - |
-|  | 실시간 차트 |  | 249위 |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 249위 |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
-|  | FLO 차트 |  | - |
-|  | 실시간 차트 |  | **2위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **2위** |
 |  | 일간 차트 |  | **3위** |
 |  | 주간 차트 |  | **4위** |
-|  | 일간 차트 |  | - |
-|  | 일간 차트 |  | 194위 |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | - |
+| [Spotify](https://namu.wiki/w/Spotify) | 일간 차트 |  | 194위 |
 |  | 주간 차트 |  | - |
-|  | 가온 지수(주간) |  | - |
-| [개편] | 디지털 월간 차트 |  | - |
+| [가온차트](https://namu.wiki/w/%EA%B0%80%EC%98%A8%EC%B0%A8%ED%8A%B8) | 가온 지수(주간) |  | - |
+| [써클차트써클차트](https://namu.wiki/w/%EC%8D%A8%ED%81%B4%EC%B0%A8%ED%8A%B8)[개편] | 디지털 월간 차트 |  | - |
 | [주요 음원 서비스의 〈Cheese〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/35337883)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |  |
 
 [ Rewind ]
 
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | --- | --- | --- | --- |
-|  | TOP 100 |  | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | - |
 |  | 실시간 차트 |  | - |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
 |  | 최신 차트 | 4주 | 36위 |
 |  |  | 1주 | 18위 |
-|  | 주간 인기곡 차트 |  | - |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | - |
 |  | 주간 뮤직비디오 차트 |  | - |
-|  | 실시간 차트 |  | 216위 |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 216위 |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
-|  | FLO 차트 |  | - |
-|  | 실시간 차트 |  | **2위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **2위** |
 |  | 일간 차트 |  | **2위** |
 |  | 주간 차트 |  | **5위** |
-|  | 일간 차트 |  | 158위 |
-|  | 일간 차트 |  | - |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 158위 |
+| [Spotify](https://namu.wiki/w/Spotify) | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
-|  | 가온 지수(주간) |  | - |
-| [개편] | 디지털 월간 차트 |  | - |
+| [가온차트](https://namu.wiki/w/%EA%B0%80%EC%98%A8%EC%B0%A8%ED%8A%B8) | 가온 지수(주간) |  | - |
+| [써클차트써클차트](https://namu.wiki/w/%EC%8D%A8%ED%81%B4%EC%B0%A8%ED%8A%B8)[개편] | 디지털 월간 차트 |  | - |
 | [주요 음원 서비스의 〈Rewind〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/35337884)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |  |
 
 **〈Stay This Way〉 주요 음원 성적표**
@@ -1754,19 +1756,19 @@ Choreography Video**
 | **〈Stay This Way〉 음악 방송 순위**[활동][1위] |  |  |  |
 | --- | --- | --- | --- |
 | **방송명** | **1주차** | **2주차** | **3주차** |
-| [더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | **1위** | **2위** |
-| [![쇼챔피언 로고(2019-202...](https://i.namu.wiki/i/B_pQh-OPPyVbTNpssMYKxoYfvGJKCqkHiYemO6Ff2AmeND-dHdCndwI2px5VDHJXSTlyUNMzqd6fmEZNjX9aFuzww-Lth1PJv1UT84SmO-9p7r0wqQc6xSVQhvn3J__Q-MrZPSGLgzU6SfJYDdwr9g.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8) |  | **1위** | 미진입 |
-| [엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 컴백 | **1위**[43] | 10위 |
-| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) |  | **1위**[44] | 18위 |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC)[45] | 미출연 | 미출연, **1위**[46] | 미출연, 22위 |
-| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) | 컴백 | 5위 | 미진입 |
+| [더 쇼<br>더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | **1위** | **2위** |
+| [![쇼챔피언 로고(2019-202...](https://i.namu.wiki/i/B_pQh-OPPyVbTNpssMYKxoYfvGJKCqkHiYemO6Ff2AmeND-dHdCndwI2px5VDHJXSTlyUNMzqd6fmEZNjX9aFuzww-Lth1PJv1UT84SmO-9p7r0wqQc6xSVQhvn3J__Q-MrZPSGLgzU6SfJYDdwr9g.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8 "쇼챔피언") |  | **1위** | 미진입 |
+| [엠 카운트다운<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 컴백 | **1위**[43] | 10위 |
+| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") |  | **1위**[44] | 18위 |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC)[45] | 미출연 | 미출연, **1위**[46] | 미출연, 22위 |
+| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") | 컴백 | 5위 | 미진입 |
 
 | **〈Stay This Way〉 음악 방송 순위**[활동종료] |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
 | **방송명** | **4주차** | **5주차** | **6주차** | **7주차** | **8주차** | **9주차** |
-| [엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 11위 | 11위 | -[48] |  |  |  |
-| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) | 18위 | 44위 | 21위 | 미진입 |  |  |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | 23위 | 결방[49] | 28위 | 특방[50] | 27위 | 27위 |
+| [엠 카운트다운<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 11위 | 11위 | -[48] |  |  |  |
+| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") | 18위 | 44위 | 21위 | 미진입 |  |  |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | 23위 | 결방[49] | 28위 | 특방[50] | 27위 | 27위 |
 | **총 5관왕** |  |  |  |  |  |  |
 
 ## 활동

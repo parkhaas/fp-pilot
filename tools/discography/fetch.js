@@ -99,4 +99,25 @@ function extractDetails(html) {
     }
   }
   console.log(fetched ? `완료: ${fetched}개 문서 갱신` : "새로 받을 문서 없음");
+
+  // docs.json 에 적은 주요 문서(그룹·멤버·응원법 등): 본문의 나무위키 링크를 사이트 안 페이지로 바꾸기 위해 함께 받는다
+  const DOCS = path.join(SRC, "docs");
+  fs.mkdirSync(DOCS, { recursive: true });
+  const docs = JSON.parse(fs.readFileSync(path.join(ROOT, "docs.json"), "utf8"));
+  let docN = 0;
+  for (const d of docs) {
+    const href = "/w/" + encodeURIComponent(d.title).replace(/%2F/g, "/");
+    const slug = slugify(d.title);
+    const out = path.join(DOCS, slug + ".md");
+    if (!refresh && !mdOnly && fs.existsSync(out)) continue;
+    try {
+      const r = await getHtml("doc-" + slug, href);
+      fs.writeFileSync(out, convert(r.html, new URL(href, ORIGIN).href, { repeatRowspan: true }), "utf8");
+      docN++;
+      console.log(`  문서 ${d.title} ${r.cached ? "(캐시)" : ""} → source/docs/${slug}.md`);
+    } catch (e) {
+      console.error(`  문서 ${d.title} 실패: ${e.message}`);
+    }
+  }
+  console.log(docN ? `주요 문서 ${docN}개 갱신` : "새로 받을 주요 문서 없음");
 })();

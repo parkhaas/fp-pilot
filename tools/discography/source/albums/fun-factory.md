@@ -2,7 +2,7 @@
 title: "FUN FACTORY"
 source: https://namu.wiki/w/FUN%20FACTORY
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-26
+fetched: 2026-10-28
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/FUN%20FACTORY)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -19,6 +19,7 @@ fetched: 2026-10-26
 
 ## 앨범 소개
 
+FUN FACTORY
 **The 1st Single Album**
 
 [ 음반 소개 ]
@@ -52,30 +53,30 @@ fetched: 2026-10-26
 | **날짜** | **시간** | **내용** | **링크** |
 | --- | --- | --- | --- |
 | **2019년** |  |  |  |
-| **05. 22.** | 21:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' Prologue |  |
-| **05. 23.** | 13:00 | 프로미스나인 (fromis_9) 1st single album [FUN FACTORY] 예약 판매 안내 공지 |  |
-|  | 21:00 | [FUN FACTORY] Official Photo FUN ver. #이나경 #노지선 #이새롬 |  |
-|  |  | [FUN FACTORY] Official Photo FUN ver. #이서연 #이채영 #박지원 |  |
-|  |  | [FUN FACTORY] Official Photo FUN ver. #백지헌 #송하영 #장규리 |  |
-| **05. 24.** | 21:00 | [FUN FACTORY] Official Photo FUN ver. |  |
-| **05. 25.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 박지원 - wanna have some fun |  |
-| **05. 26.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 장규리 - wanna have some fun |  |
-| **05. 27.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 백지헌 - wanna have some fun |  |
-|  | 21:00 | [FUN FACTORY] Official Photo FACTORY ver. #이나경 #박지원 #장규리 |  |
-|  |  | [FUN FACTORY] Official Photo FACTORY ver. #이새롬 #이서연 #노지선 |  |
-|  |  | [FUN FACTORY] Official Photo FACTORY ver. #백지헌 #송하영 #이채영 |  |
-| **05. 28.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 노지선 - wanna have some fun |  |
-|  | 21:00 | [FUN FACTORY] Official Photo FACTORY ver. |  |
-| **05. 29.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 이서연 - wanna have some fun |  |
-|  | 21:00 | 'FUN FACTORY' TRACK LIST |  |
-| **05. 30.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 이나경 - wanna have some fun |  |
-|  | 21:00 | 'FUN FACTORY' HIGHLIGHT MEDLEY |  |
-| **05. 31.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 이새롬 - wanna have some fun |  |
-|  | 21:00 | 프로미스나인 (fromis_9) 'FUN!' MV TEASER 1 |  |
-| **06. 01.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 이채영 - wanna have some fun |  |
-|  | 21:00 | 'FUN FACTORY' COVER IMAGE |  |
-| **06. 02.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 송하영 - wanna have some fun |  |
-| **06. 03.** | 21:00 | 프로미스나인 (fromis_9) 'FUN!' MV TEASER 2 |  |
+| **05. 22.** | 21:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' Prologue | [X Corp](https://x.com/realfromis_9/status/1131167895130501124) |
+| **05. 23.** | 13:00 | 프로미스나인 (fromis_9) 1st single album [FUN FACTORY] 예약 판매 안내 공지 | [X Corp](https://x.com/realfromis_9/status/1131409603013500929) |
+|  | 21:00 | [FUN FACTORY] Official Photo FUN ver. #이나경 #노지선 #이새롬 | [X Corp](https://x.com/realfromis_9/status/1131530259315154944) |
+|  |  | [FUN FACTORY] Official Photo FUN ver. #이서연 #이채영 #박지원 | [X Corp](https://x.com/realfromis_9/status/1131530503696265217) |
+|  |  | [FUN FACTORY] Official Photo FUN ver. #백지헌 #송하영 #장규리 | [X Corp](https://x.com/realfromis_9/status/1131530752011563008) |
+| **05. 24.** | 21:00 | [FUN FACTORY] Official Photo FUN ver. | [X Corp](https://x.com/realfromis_9/status/1131892650800365569) |
+| **05. 25.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 박지원 - wanna have some fun | [X Corp](https://x.com/realfromis_9/status/1132134240517103616) |
+| **05. 26.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 장규리 - wanna have some fun | [X Corp](https://x.com/realfromis_9/status/1132496651736629248) |
+| **05. 27.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 백지헌 - wanna have some fun | [X Corp](https://x.com/realfromis_9/status/1132859049412681728) |
+|  | 21:00 | [FUN FACTORY] Official Photo FACTORY ver. #이나경 #박지원 #장규리 | [X Corp](https://x.com/realfromis_9/status/1132979828741660673) |
+|  |  | [FUN FACTORY] Official Photo FACTORY ver. #이새롬 #이서연 #노지선 | [X Corp](https://x.com/realfromis_9/status/1132979876443566080) |
+|  |  | [FUN FACTORY] Official Photo FACTORY ver. #백지헌 #송하영 #이채영 | [X Corp](https://x.com/realfromis_9/status/1132979905405173760) |
+| **05. 28.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 노지선 - wanna have some fun | [X Corp](https://x.com/realfromis_9/status/1133221441392930817) |
+|  | 21:00 | [FUN FACTORY] Official Photo FACTORY ver. | [X Corp](https://x.com/realfromis_9/status/1133342215672016897) |
+| **05. 29.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 이서연 - wanna have some fun | [X Corp](https://x.com/realfromis_9/status/1133583802821832704) |
+|  | 21:00 | 'FUN FACTORY' TRACK LIST | [X Corp](https://x.com/realfromis_9/status/1133704626019061760) |
+| **05. 30.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 이나경 - wanna have some fun | [X Corp](https://x.com/realfromis_9/status/1133946237097353216) |
+|  | 21:00 | 'FUN FACTORY' HIGHLIGHT MEDLEY | [X Corp](https://x.com/realfromis_9/status/1134067051549548545) |
+| **05. 31.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 이새롬 - wanna have some fun | [X Corp](https://x.com/realfromis_9/status/1134308628003901440) |
+|  | 21:00 | 프로미스나인 (fromis_9) 'FUN!' MV TEASER 1 | [X Corp](https://x.com/realfromis_9/status/1134429425544548355) |
+| **06. 01.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 이채영 - wanna have some fun | [X Corp](https://x.com/realfromis_9/status/1134671009808650241) |
+|  | 21:00 | 'FUN FACTORY' COVER IMAGE | [X Corp](https://x.com/realfromis_9/status/1134791833471479809) |
+| **06. 02.** | 13:00 | 프로미스나인 (fromis_9) 'FUN FACTORY' 송하영 - wanna have some fun | [X Corp](https://x.com/realfromis_9/status/1135033412241174528) |
+| **06. 03.** | 21:00 | 프로미스나인 (fromis_9) 'FUN!' MV TEASER 2 | [X Corp](https://x.com/realfromis_9/status/1135516636599865346) |
 
 ## 콘셉트 티저
 
@@ -151,7 +152,9 @@ HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=MnNBj8vyZjo)
 
-**01 3:03
+**FUN!
+
+01 3:03
 
 TITLE
 
@@ -627,7 +630,7 @@ As time goes by
 | **FUN / FACTORY Ver.** |  |
 | --- | --- |
 | ![FUN FACTORY ALBU...](https://i.namu.wiki/i/PjDjO4MD8lax73eHCJbewNkTHxzNl3QPjS-4gPrc7_OVx5CboKQ7cI-1F6SoL92_WnKUpbMkAc4WZwPK7cpQTflBBXBeQczOBLGfgfQM8rpboq0EwJ5OpHN0m9Jzrc-NwNlBmF04GJ3oc-YwZE7xew.webp) |  |
-| **가격** | ~~16,500~~ ￦13,400 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~16,500~~ ￦13,400 19% |
 | **음반 코드** | CMAC11424 |
 | **구성** | **앨범 구성품 (FUN ver. / FACTORY ver.)**<br>- PHOTO BOOK : W220×H260 (mm) / 84P / 1종 (버전별 이미지 상이)<br>- PHOTO CARD : W55×H85 (mm) / 18종 중 랜덤 2종 삽입 (버전별 이미지 상이)<br>- DRAWING CLEAR STICKER : W70×H140 (mm) / 1종 (버전별 이미지 상이) ※초회 한정 증정<br>- POSTER : FUN ver. W594×H420 (mm), FACTORY ver. W420×H594 (mm) / 1종 (버전별 이미지 상이) ※초회 한정 증정<br>- CD-R : 1종 (버전별 이미지 상이) |
 | [ 펼치기 · 접기 ]<br>![FUN FACTORY ALBU...](https://i.namu.wiki/i/xsRdeAT0FMiLy_je23sGxtUfWqB96G9FIHSVeQwZhJqwxoGp2j3YShqoXh_vR1i76_4ma9QzDWwftvjdwTjBdJtl0936aCz_CacqVKQj2isVAh_w7LROTykpjQKeWEQFzpuqglohYvWSd2cRPffjtQ.webp) |  |
@@ -635,7 +638,7 @@ As time goes by
 | **KIT Ver.** |  |
 | --- | --- |
 | ![FUN FACTORY ALBU...](https://i.namu.wiki/i/DStBiRiwjPWRNXuXdIrWyQrhX_c-Tsp3bCLluSDPMtMc4WZoJg3W5AqqKqb0R6mJn4Zj_0_PqqzedK8T8OzZa0SIiDeJYtwreBQpqP08I7mcY0du70zOAOLbev0nm8CQz6r3Nn3AFk44ACsxe898lA.webp) |  |
-| **가격** | ~~23,400~~ ￦18,900 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~23,400~~ ￦18,900 19% |
 | **음반 코드** | CMDE11425 |
 | **구성** | **앨범 구성품**<br>- COMPACT PACKAGE : W60×H90 (mm) / 1종 (버전별 이미지 상이)<br>- POST CARD SET : W54×H80 (mm) / 10P / 1종 (버전별 이미지 상이)<br>- AIR KIT : W60×H60 (mm) / 1종 (버전별 이미지 상이) |
 | [ 펼치기 · 접기 ]<br>![FUN FACTORY ALBU...](https://i.namu.wiki/i/Y7L-xmBmnlW7Hwefwt6nnZo2813C_PWgtmtjQUBxk8N-yrfn9Gr0XUMnu8YJn_dDwQZA0EXG-C6JCzXgexdw4P_cFcXR9MKnCXmbqL4Pce6mjWu6-gSQV4Opu8oOocdC5VdvZeNn-wJQ4Mqb2r3fGg.webp) |  |
@@ -652,63 +655,63 @@ As time goes by
 
 | **음원 서비스** | **차트 종류** | **순위** |
 | --- | --- | --- |
-|  | 실시간 차트 | 89위 |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | 89위 |
 |  | 일간 차트 | 167위 |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | 주간 인기곡 차트 | 19위 |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 | 19위 |
 |  | 주간 뮤직비디오 차트 | 8위 |
-|  | 실시간 차트 | 30위 |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 | 30위 |
 |  | 일간 차트 | 109위 |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | FLO 차트 | - |
-|  | 실시간 차트 | **3위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | **3위** |
 |  | 일간 차트 | 25위 |
 |  | 주간 차트 | - |
-|  | 일간 차트 | - |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 | - |
 | [주요 음원 서비스의 〈FUN!〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/31848844)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |
 
 [ LOVE RUMPUMPUM ]
 
 | **음원 서비스** | **차트 종류** | **순위** |
 | --- | --- | --- |
-|  | 실시간 차트 | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | 주간 인기곡 차트 | 69위 |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 | 69위 |
 |  | 주간 뮤직비디오 차트 | - |
-|  | 실시간 차트 | - |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | FLO 차트 | - |
-|  | 실시간 차트 | 21위 |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | 21위 |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
-|  | 일간 차트 | - |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 | - |
 | [주요 음원 서비스의 〈LOVE RUMPUMPUM〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/31848845)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |
 
 [ FLY HIGH ]
 
 | **음원 서비스** | **차트 종류** | **순위** |
 | --- | --- | --- |
-|  | 실시간 차트 | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | 주간 인기곡 차트 | - |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 | - |
 |  | 주간 뮤직비디오 차트 | - |
-|  | 실시간 차트 | - |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | FLO 차트 | - |
-|  | 실시간 차트 | **7위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | **7위** |
 |  | 일간 차트 | 56위 |
 |  | 주간 차트 | - |
-|  | 일간 차트 | - |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 | - |
 | [주요 음원 서비스의 〈FLY HIGH〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/31848846)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |
 
 - 6월 4일 19시, 실시간 차트 기준, 타이틀곡 FUN!이 멜론에서 89위로 차트인함으로써 이전 [From.9](https://namu.wiki/w/From.9) 앨범의 LOVE BOMB이 98위로 진입했는데 이에 비하면 상승세가 다소 보인다. 지니에서는 FUN!이 30위에 올랐다. 벅스에서는 FUN!이 3위, LOVE RUMPUMPUM가 21위, FLY HIGH이 26위로 **전곡이 차트인 했다**. 소리바다에서는 FUN!이 82위로 차트인 했다. 네이버뮤직에서는 FUN!이 25위로 차트인 했다. 엠넷닷컴에서는 FUN!이 97위로 차트인 했다.
@@ -749,24 +752,24 @@ As time goes by
 | **〈FUN!〉 음악 방송 순위**[활동] |  |  |  |  |
 | --- | --- | --- | --- | --- |
 | **방송명** | **1주차** | **2주차** | **3주차** | **4주차** |
-| [더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | - | NEW<br> 3위(Choice! 후보) | - |
-| [![쇼챔피언 로고(2019-202...](https://i.namu.wiki/i/B_pQh-OPPyVbTNpssMYKxoYfvGJKCqkHiYemO6Ff2AmeND-dHdCndwI2px5VDHJXSTlyUNMzqd6fmEZNjX9aFuzww-Lth1PJv1UT84SmO-9p7r0wqQc6xSVQhvn3J__Q-MrZPSGLgzU6SfJYDdwr9g.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8) |  | NEW<br> 9위(TOP 20) | - | ▼<br> 10위(TOP 20) |
-| [엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 컴백 | NEW<br> 3위(엠카 차트) | ▼<br> 5위(엠카 차트) | ▼<br> 7위(엠카 차트) |
-| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) |  | - | NEW<br> 13위(K-차트) | ▼<br> 49위(K-차트) |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) |  | NEW<br> 20위(M-차트) | ▼<br> 43위(M-차트) | - |
-| [![SBS 인기가요 로고(2018...](https://i.namu.wiki/i/8cUuWnT_GvbgoI5NCk7dvaBdQpr_FwWGbNB7Su4QKyJnXfW3MOs2gLYBQ4hH0wjG2FNSjvCpc8SKgIvIRdJp3AlCHt1ow8ItijmKUgk3xzMgfyzmUmUk57NQkv_AcCOLugz2GtgILla004cB4QSxEg.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) |  | NEW<br> 19위(인가 차트) | - | - |
+| [더 쇼<br>더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | - | NEW<br> 3위(Choice! 후보) | - |
+| [![쇼챔피언 로고(2019-202...](https://i.namu.wiki/i/B_pQh-OPPyVbTNpssMYKxoYfvGJKCqkHiYemO6Ff2AmeND-dHdCndwI2px5VDHJXSTlyUNMzqd6fmEZNjX9aFuzww-Lth1PJv1UT84SmO-9p7r0wqQc6xSVQhvn3J__Q-MrZPSGLgzU6SfJYDdwr9g.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8 "쇼챔피언") |  | NEW<br> 9위(TOP 20) | - | ▼<br> 10위(TOP 20) |
+| [엠 카운트다운<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 컴백 | NEW<br> 3위(엠카 차트) | ▼<br> 5위(엠카 차트) | ▼<br> 7위(엠카 차트) |
+| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") |  | - | NEW<br> 13위(K-차트) | ▼<br> 49위(K-차트) |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) |  | NEW<br> 20위(M-차트) | ▼<br> 43위(M-차트) | - |
+| [![SBS 인기가요 로고(2018...](https://i.namu.wiki/i/8cUuWnT_GvbgoI5NCk7dvaBdQpr_FwWGbNB7Su4QKyJnXfW3MOs2gLYBQ4hH0wjG2FNSjvCpc8SKgIvIRdJp3AlCHt1ow8ItijmKUgk3xzMgfyzmUmUk57NQkv_AcCOLugz2GtgILla004cB4QSxEg.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") |  | NEW<br> 19위(인가 차트) | - | - |
 
 #### LOVE RUMPUMPUM
 
 | **〈LOVE RUMPUMPUM〉 음악 방송 순위**[활동] |  |  |  |
 | --- | --- | --- | --- |
 | **방송명** | **1주차** | **2주차** | **3주차** |
-| [더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | - | - |
-| [![쇼챔피언 로고(2019-202...](https://i.namu.wiki/i/B_pQh-OPPyVbTNpssMYKxoYfvGJKCqkHiYemO6Ff2AmeND-dHdCndwI2px5VDHJXSTlyUNMzqd6fmEZNjX9aFuzww-Lth1PJv1UT84SmO-9p7r0wqQc6xSVQhvn3J__Q-MrZPSGLgzU6SfJYDdwr9g.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8) | - | - | - |
-| [엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | - | NEW<br> 10위(엠카 차트) | ▲<br> 6위(엠카 차트) |
-| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) | - | - | - |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | - | - | - |
-| [![SBS 인기가요 로고(2018...](https://i.namu.wiki/i/8cUuWnT_GvbgoI5NCk7dvaBdQpr_FwWGbNB7Su4QKyJnXfW3MOs2gLYBQ4hH0wjG2FNSjvCpc8SKgIvIRdJp3AlCHt1ow8ItijmKUgk3xzMgfyzmUmUk57NQkv_AcCOLugz2GtgILla004cB4QSxEg.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) | - | - | - |
+| [더 쇼<br>더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | - | - |
+| [![쇼챔피언 로고(2019-202...](https://i.namu.wiki/i/B_pQh-OPPyVbTNpssMYKxoYfvGJKCqkHiYemO6Ff2AmeND-dHdCndwI2px5VDHJXSTlyUNMzqd6fmEZNjX9aFuzww-Lth1PJv1UT84SmO-9p7r0wqQc6xSVQhvn3J__Q-MrZPSGLgzU6SfJYDdwr9g.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8 "쇼챔피언") | - | - | - |
+| [엠 카운트다운<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | - | NEW<br> 10위(엠카 차트) | ▲<br> 6위(엠카 차트) |
+| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") | - | - | - |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | - | - | - |
+| [![SBS 인기가요 로고(2018...](https://i.namu.wiki/i/8cUuWnT_GvbgoI5NCk7dvaBdQpr_FwWGbNB7Su4QKyJnXfW3MOs2gLYBQ4hH0wjG2FNSjvCpc8SKgIvIRdJp3AlCHt1ow8ItijmKUgk3xzMgfyzmUmUk57NQkv_AcCOLugz2GtgILla004cB4QSxEg.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") | - | - | - |
 
 ## 활동
 

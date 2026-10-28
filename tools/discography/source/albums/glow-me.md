@@ -2,7 +2,7 @@
 title: "Glow ME"
 source: https://namu.wiki/w/Glow%20ME
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-26
+fetched: 2026-10-28
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/Glow%20ME)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -16,6 +16,7 @@ fetched: 2026-10-26
 
 ## 앨범 소개
 
+Glow ME
 **THE 2nd ALBUM**
 
 [ 음반 소개 ]
@@ -52,49 +53,49 @@ fromis_9 THE 2ND ALBUM Glow ME
 
 | **날짜** | **시간** | **내용** |  | **링크** |
 | --- | --- | --- | --- | --- |
-| **07. 06.** | 00:00 | Bright Flavor, Instant Vibe. Take It Daily! |  |  |
-|  | 21:00 | The 2nd Album [Glow ME] Release on |  |  |
-| **07. 07.** | 15:00 | The 2nd Album [Glow ME] Album Details | Glow ver. |  |
-|  |  |  | Photobook ver. |  |
-|  |  |  | Fruit ver. |  |
-|  |  |  | Vitamin ver. |  |
-|  |  |  | Pre-Order |  |
-|  | 21:00 | The 2nd Album [Glow ME] ☀️💊Track List |  |  |
-| **07. 08.** | 21:00 | The 2nd Album [Glow ME] Teasing Clip | 🍋 #Fruit |  |
-|  | 21:01 |  | 🍒 #Fruit |  |
-|  | 21:02 |  | 🍑 #Fruit |  |
-|  | 21:03 |  | 🫐 #Fruit |  |
-|  | 21:04 |  | 🍊 #Fruit |  |
-| **07. 09.** | 21:00 | The 2nd Album [Glow ME] Concept Photo #Fruit 🍊🫐🍒🍋🍑 | 🍋 이나경 |  |
-|  | 21:01 |  | 🫐 박지원 |  |
-|  | 21:02 |  | 🍑 백지헌 |  |
-|  | 21:03 |  | 🍒 이채영 |  |
-|  | 21:04 |  | 🍊 송하영 |  |
-|  | 21:05 |  | 🍊🫐🍒🍋🍑 프로미스나인 |  |
-| **07. 10.** | 21:00 | The 2nd Album [Glow ME] Advertisement Trailer | 박지원 |  |
-|  | 21:01 |  | 백지헌 |  |
-|  | 21:02 |  | 송하영 |  |
-|  | 21:03 |  | 이나경 |  |
-|  | 21:04 |  | 이채영 |  |
-| **07. 13.** | 21:00 | The 2nd Album [Glow ME] Teasing Image | 송하영 |  |
-|  | 21:01 |  | 박지원 |  |
-|  | 21:02 |  | 이채영 |  |
-|  | 21:03 |  | 이나경 |  |
-|  | 21:04 |  | 백지헌 |  |
-| **07. 14.** | 21:00 | The 2nd Album [Glow ME] Concept Photo #Vitamin 💙🩷🧡💛❤️ | 💙 박지원 |  |
-|  | 21:01 |  | 🩷 백지헌 |  |
-|  | 21:02 |  | 🧡 송하영 |  |
-|  | 21:03 |  | 💛 이나경 |  |
-|  | 21:04 |  | ❤️ 이채영 |  |
-|  | 21:05 |  | 💙🩷🧡💛❤️ 프로미스나인 |  |
-| **07. 15.** | 21:00 | The 2nd Album [Glow ME] Concept Photo #Vacance ⛱️ | 백지헌 |  |
-|  | 21:01 |  | 박지원 |  |
-|  | 21:02 |  | 이나경 |  |
-|  | 21:03 |  | 송하영 |  |
-|  | 21:04 |  | 이채영 |  |
-| **07. 16.** | 21:00 |  | 프로미스나인 |  |
-| **07. 17.** | 18:00 | The 2nd Album [Glow ME] ☀️💊 Highlight Medley |  |  |
-| **07. 20.** | 18:00 | The 2nd Album [Glow ME] 'Vitamin ME' MV TEASER |  |  |
+| **07. 06.** | 00:00 | Bright Flavor, Instant Vibe. Take It Daily! |  | [X Corp](https://x.com/realfromis_9/status/2073783972744532361) |
+|  | 21:00 | The 2nd Album [Glow ME] Release on |  | [X Corp](https://x.com/realfromis_9/status/2074101063226151197) |
+| **07. 07.** | 15:00 | The 2nd Album [Glow ME] Album Details | Glow ver. | [X Corp](https://x.com/realfromis_9/status/2074372843887034485) |
+|  |  |  | Photobook ver. | [X Corp](https://x.com/realfromis_9/status/2074372895867060318) |
+|  |  |  | Fruit ver. | [X Corp](https://x.com/realfromis_9/status/2074372927865458808) |
+|  |  |  | Vitamin ver. | [X Corp](https://x.com/realfromis_9/status/2074372949931700366) |
+|  |  |  | Pre-Order | [X Corp](https://x.com/realfromis_9/status/2074372979824484408) |
+|  | 21:00 | The 2nd Album [Glow ME] ☀️💊Track List |  | [X Corp](https://x.com/realfromis_9/status/2074463452899225930) |
+| **07. 08.** | 21:00 | The 2nd Album [Glow ME] Teasing Clip | 🍋 #Fruit | [X Corp](https://x.com/realfromis_9/status/2074825828266061872) [▶ YouTube](https://youtube.com/shorts/mIly4fTy7Xk) |
+|  | 21:01 |  | 🍒 #Fruit | [X Corp](https://x.com/realfromis_9/status/2074826079584370834) [▶ YouTube](https://youtube.com/shorts/qB5MeKUa82Y) |
+|  | 21:02 |  | 🍑 #Fruit | [X Corp](https://x.com/realfromis_9/status/2074826330655617236) [▶ YouTube](https://youtube.com/shorts/hSKU9x1z4Og) |
+|  | 21:03 |  | 🫐 #Fruit | [X Corp](https://x.com/realfromis_9/status/2074826582447858089) [▶ YouTube](https://youtube.com/shorts/LLkZMWX8XGY) |
+|  | 21:04 |  | 🍊 #Fruit | [X Corp](https://x.com/realfromis_9/status/2074826834202468585) [▶ YouTube](https://youtube.com/shorts/Smg8zry7YlY) |
+| **07. 09.** | 21:00 | The 2nd Album [Glow ME] Concept Photo #Fruit 🍊🫐🍒🍋🍑 | 🍋 이나경 | [X Corp](https://x.com/realfromis_9/status/2075188225555960158) |
+|  | 21:01 |  | 🫐 박지원 | [X Corp](https://x.com/realfromis_9/status/2075188467173363717) |
+|  | 21:02 |  | 🍑 백지헌 | [X Corp](https://x.com/realfromis_9/status/2075188718466449497) |
+|  | 21:03 |  | 🍒 이채영 | [X Corp](https://x.com/realfromis_9/status/2075188970267595259) |
+|  | 21:04 |  | 🍊 송하영 | [X Corp](https://x.com/realfromis_9/status/2075189221883613388) |
+|  | 21:05 |  | 🍊🫐🍒🍋🍑 프로미스나인 | [X Corp](https://x.com/realfromis_9/status/2075189473785041026) |
+| **07. 10.** | 21:00 | The 2nd Album [Glow ME] Advertisement Trailer | 박지원 | [▶ YouTube](https://www.youtube.com/watch?v=gsUfJyAjcNM) [▶ YouTube](https://youtube.com/shorts/2ws9llZvfNo) |
+|  | 21:01 |  | 백지헌 | [▶ YouTube](https://www.youtube.com/watch?v=6GGHFBXIhFY) [▶ YouTube](https://youtube.com/shorts/bk44soGcBFQ) |
+|  | 21:02 |  | 송하영 | [▶ YouTube](https://www.youtube.com/watch?v=xxeqhQBUHGU) [▶ YouTube](https://youtube.com/shorts/GnHpxJ2LNEw) |
+|  | 21:03 |  | 이나경 | [▶ YouTube](https://www.youtube.com/watch?v=yAos3uQj1Ms) [▶ YouTube](https://youtube.com/shorts/65_FNQ6GGAk) |
+|  | 21:04 |  | 이채영 | [▶ YouTube](https://www.youtube.com/watch?v=IoaLmRfEWb8) [▶ YouTube](https://youtube.com/shorts/ntxR8q9O6pI) |
+| **07. 13.** | 21:00 | The 2nd Album [Glow ME] Teasing Image | 송하영 | [X Corp](https://x.com/realfromis_9/status/2076637773470019856) |
+|  | 21:01 |  | 박지원 | [X Corp](https://x.com/realfromis_9/status/2076638018329588151) |
+|  | 21:02 |  | 이채영 | [X Corp](https://x.com/realfromis_9/status/2076638269979480491) |
+|  | 21:03 |  | 이나경 | [X Corp](https://x.com/realfromis_9/status/2076638522119717192) |
+|  | 21:04 |  | 백지헌 | [X Corp](https://x.com/realfromis_9/status/2076643177294078040) |
+| **07. 14.** | 21:00 | The 2nd Album [Glow ME] Concept Photo #Vitamin 💙🩷🧡💛❤️ | 💙 박지원 | [X Corp](https://x.com/realfromis_9/status/2077000163046928755) |
+|  | 21:01 |  | 🩷 백지헌 | [X Corp](https://x.com/realfromis_9/status/2077000406480109641) |
+|  | 21:02 |  | 🧡 송하영 | [X Corp](https://x.com/realfromis_9/status/2077000658004447509) |
+|  | 21:03 |  | 💛 이나경 | [X Corp](https://x.com/realfromis_9/status/2077000909658485217) |
+|  | 21:04 |  | ❤️ 이채영 | [X Corp](https://x.com/realfromis_9/status/2077001161509310561) |
+|  | 21:05 |  | 💙🩷🧡💛❤️ 프로미스나인 | [X Corp](https://x.com/realfromis_9/status/2077001413050474944) |
+| **07. 15.** | 21:00 | The 2nd Album [Glow ME] Concept Photo #Vacance ⛱️ | 백지헌 | [X Corp](https://x.com/realfromis_9/status/2077362541970243688) |
+|  | 21:01 |  | 박지원 | [X Corp](https://x.com/realfromis_9/status/2077362794253394289) |
+|  | 21:02 |  | 이나경 | [X Corp](https://x.com/realfromis_9/status/2077363045815185839) |
+|  | 21:03 |  | 송하영 | [X Corp](https://x.com/realfromis_9/status/2077363297578336332) |
+|  | 21:04 |  | 이채영 | [X Corp](https://x.com/realfromis_9/status/2077363549081665752) |
+| **07. 16.** | 21:00 |  | 프로미스나인 | [X Corp](https://x.com/realfromis_9/status/2077724942401970537) |
+| **07. 17.** | 18:00 | The 2nd Album [Glow ME] ☀️💊 Highlight Medley |  | [▶ YouTube](https://www.youtube.com/watch?v=D7kzSaRnnD4) |
+| **07. 20.** | 18:00 | The 2nd Album [Glow ME] 'Vitamin ME' MV TEASER |  | [▶ YouTube](https://www.youtube.com/watch?v=J1uP0xa2AFA) |
 
 ## 콘셉트 티저
 
@@ -1359,7 +1360,7 @@ When we do it, easy do it oh
 | **Photobook Ver.** |  |
 | --- | --- |
 | ![Glow ME ALBUM PR...](https://i.namu.wiki/i/b8SO34NS78GyuHotYSFPp0HQwbQ5H-khf9pUSdnsetnl4qZ9vnPqk2hCZvGTDR7YdhworHg1cQ58y5L7lYYcZdiMArC4O28ZRxvObmJ3E0YIfXf8uTdbZ6IDqfvSEGYvx1I93DbGXTpAw1zmAQ9ezA.webp) |  |
-| **가격** | ￦20,800 |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ￦20,800 |
 | **음반 코드** | DUK2317 |
 | **구성** | **앨범 구성품 (Sparkling Green ver. / Sparkling Pink ver. / Sparkling Blue ver.)**<br>- PHOTO BOOK : 210×297 (mm) / 80p / 3종 중 랜덤 1종 삽입 (버전별 이미지 상이)<br>- CD-R : 120×120 (mm) / 3종 중 랜덤 1종 삽입 (타입별 이미지 상이)<br>- CD ENVELOPE : 155×210 (mm) / 3종 중 랜덤 1종 삽입 (버전별 이미지 상이)<br>- STICKER : 60×100 (mm) / 3종 중 랜덤 1종 삽입 (버전별 이미지 상이)<br>- FRUIT POST CARD : 120×120 (mm) / 5ea / 1종<br>- FRUIT NET CARD : 120×120 (mm) / 3종 중 랜덤 1종 삽입 (버전별 이미지 상이)<br>- PHOTO CARD : 55×85 (mm) / 5종 중 랜덤 2종 삽입 (버전별 이미지 상이)<br>- POSTER : 380×280 (mm) / 3종 중 랜덤 1종 삽입 (버전별 이미지 상이) |
 | [ 펼치기 · 접기 ]<br>![Glow ME ALBUM PR...](https://i.namu.wiki/i/XZMsO3pD_T_WZZTwARRsEosBYBg-enp2gmg0it80fzVCIUbLkhbNw-u2TIRpAj7QgotBnGBF88NTxYq2hOC7bTYfC0WuWJ8JcbefC5LrXr5_Hem_jg0l7oKcES3BI_maP-awiVnOiALGNc3RJhPs6Q.webp) |  |
@@ -1367,7 +1368,7 @@ When we do it, easy do it oh
 | **Glow Ver.** |  |
 | --- | --- |
 | ![Glow ME ALBUM PR...](https://i.namu.wiki/i/DArMkrfhymokZyTaQS1iPNXLVcAXQkheR5kVzGFnTkrhWSYC5L7UKxW-RJE9YxKFq9LbQkZetfInfaR2CfxoYLjkvzhjN1x1UFUUYlhV3c8JHMWKjmciC1LSNoT0iLEZOFD8OfAHtAPtsnhlC47bRg.webp) |  |
-| **가격** | ~~66,000~~ ￦56,500 15% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~66,000~~ ￦56,500 15% |
 | **음반 코드** | DUK2318 |
 | **구성** | **앨범 구성품 (Glow ver.)**<br>- CLEAR PACK : 320×510 (mm) / 1종<br>- PHOTO BOOK : 297×420 (mm) / 64p / 1종<br>- LYRIC BOOKLET : 100×200 (mm) / 16p / 1종<br>- CD-R : 120×120 (mm) / 1종<br>- CD ENVELOPE : 125×125 (mm) / 1종<br>- STICKER SET : 60×100 (mm) / 8ea / 1종<br>- STICKER ENVELOPE : 80×140 (mm) / 1종<br>- PHOTO CARD : 55×85 (mm) / 10종 중 랜덤 2종 삽입 (타입별 이미지 상이)<br>- POSTER : 360×500 (mm) / 1종 |
 | [ 펼치기 · 접기 ]<br>![Glow ME ALBUM PR...](https://i.namu.wiki/i/efWJCkmeelA8I65kTRtOdMLINyOwnLnIvvP8kckQ6pk4Xj2EIcz1dzSNTADgfHKAjpGu2ZUo5Gyjq7OjPPpYo7IHxWp-7F_Y5sBLIXgnavWQ1usVT3YHrVPrOhYYl0zSPv3AA3sE7X-gCeurW33J0Q.webp) |  |
@@ -1375,7 +1376,7 @@ When we do it, easy do it oh
 | **Fruit Ver.** |  |
 | --- | --- |
 | ![Glow ME ALBUM PR...](https://i.namu.wiki/i/Duvtd--xtUKPdj93oIoIGb7NpM4MCmTRVlNcxAHzDsY6bzpITtg9OW4_vPmlBIDLGxfoSiMd4XxW7O7V8BhK60JlyIli5fAhkgao6hx3UsNDC5gO6LGihJVkw_gAZb9y92oiktC5JyPmFhPMXtICCA.webp) |  |
-| **가격** | ~~17,500~~ ￦14,900 15% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~17,500~~ ￦14,900 15% |
 | **음반 코드** | DUK2319 |
 | **구성** | **앨범 구성품 (Hayoung Orange ver. / Jiwon Blueberry ver. / Chaeyoung Cherry ver. / Nagyung Lemon ver. / Jiheon Peach ver.)**<br>- JEWEL CASE : 142×125 (mm) / 5종 중 랜덤 1종 삽입 (버전별 이미지 상이)<br>- CD-R : 120×120 (mm) / 5종 중 랜덤 1종 삽입 (버전별 이미지 상이)<br>- LYRIC PAPER : 240×480 (mm) / 5종 중 랜덤 1종 삽입 (버전별 이미지 상이)<br>- PHOTO BOOK : 120×120 (mm) / 16p / 5종 중 랜덤 1종 삽입 (버전별 이미지 상이)<br>- PHOTO CARD : 55×85 (mm) / 5종 중 랜덤 1종 삽입 (버전별 이미지 상이)) |
 | [ 펼치기 · 접기 ]<br>![Glow ME ALBUM PR...](https://i.namu.wiki/i/u-T4iZVUQkjWyQE8tEd83J-p1ue1dNiLh0GA4MZ5dBBYy25Exb-4gvOHql7D-561bDA_W4_ndRjUiOJrUc5Uj88GnHEFfPwfK_koeR5biFHBiq4BTcf4Il-YBzRY0GTyldGyO4xsF_JOn0GHthJawg.webp) |  |
@@ -1383,7 +1384,7 @@ When we do it, easy do it oh
 | **Vitamin Ver.** |  |
 | --- | --- |
 | ![Glow ME ALBUM PR...](https://i.namu.wiki/i/JaG8QdtDuSKI1r4dWWDachyB2XQtMImzhQVb3FtGl4XtrPT7odrJ0cw81AboVjAiOK95BmKFNBhmWwt5ncpK9ne5wA5WVOq_L_mYRiW04AOBgOwQlru1sJi4dRFzlsXKDeEbSu_kfCbDjdQOBeldig.webp) |  |
-| **가격** | ~~14,000~~ ￦11,900 15% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~14,000~~ ￦11,900 15% |
 | **음반 코드** | DUK2320 |
 | **구성** | **앨범 구성품 (Vitamin ver.)**<br>- OUT BOX : 62×90×15 (mm) / 1종<br>- LYRIC PAPER : 240×130 (mm) / 1종<br>- QR CARD : 55×85 (mm) / 1종<br>- PHOTO CARD : 55×85 (mm) / 20종 중 랜덤 10종 삽입 (타입별 이미지 상이) |
 | [ 펼치기 · 접기 ]<br>![Glow ME ALBUM PR...](https://i.namu.wiki/i/EQ4PvMk7LNHKwdCXZEiUslMYGcTTUrQWwmQ8JkiSNEiDmFTK7b_DdF_GCvSdoCQNkx20crY1XYTRZbYeQbTkjN5xkmyy1YWsnamMpO8_WsFbiUI11UfNHU4UQiIrUWDzQrKvaL7aflq79k4C-qZ2oQ.webp) |  |
@@ -1391,7 +1392,7 @@ When we do it, easy do it oh
 | **LP Ver.** |  |
 | --- | --- |
 | ![Glow ME ALBUM PR...](https://i.namu.wiki/i/MkA70VjL943DXKIsjD6LwZyX7wgWdRHiUiBMoQDnvz2kMSdGkYkAy8TjDgnu86HDT1PMJLskjdEd_hkn48T5ETSu0x-BMhUx9wFmQjGi1K19ZFt9Z52iLjfM4db9MRBOP2j4zKveyqtxOeXz9dy5Gw.webp) |  |
-| **가격** | ~~71,500~~ ￦57,900 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~71,500~~ ￦57,900 19% |
 | **음반 코드** | DUK2364 |
 | **구성** | **앨범 구성품 (LP Ver.)**<br>- OUTER SLEEVE : 312×312 (mm) / 1종<br>- VINYL : 12inch / 1종<br>- FOLDED POSTER : 280×380 (mm) / 1종<br>- INNER SLEEVE : 308×308 (mm) / 1종<br>- PHOTO CARD : 55×85 (mm) / 5종 중 랜덤 2종 삽입 |
 | [ 펼치기 · 접기 ]<br>![Glow ME ALBUM PR...](https://i.namu.wiki/i/MyDJgkZ4s91sbUv22Nns2TZz_tFC2ZvLQZkj9hTvwG6TrCLU4ncpdBaL3__G9JfXEw-gcCT65o_SZ6yEw5aR9i-Q-e95LGi8dFADIJQ6M2m-J9dpbaip7k57-SpmwaNYBVoOuFBkQVwDxZXqChcO-A.webp) |  |
@@ -1408,7 +1409,7 @@ When we do it, easy do it oh
 | **Vitamin ME<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | 38위 |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | 38위 |
 |  | HOT 100 | 30일 | **2위** |
 |  |  | 100일 | **6위** |
 |  | 실시간 차트 |  | **10위** |
@@ -1417,27 +1418,27 @@ When we do it, easy do it oh
 |  | 월간 차트 |  | 64위 |
 |  | 최신 차트 | 1주 | **1위** |
 |  |  | 4주 | **4위** |
-| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 76위 |
+| [지니뮤직<br>지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 76위 |
 |  | 일간 차트 |  | 115위 |
 |  | 주간 차트 |  |  |
 |  | 월간 차트 |  |  |
-| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | 33위 |
-| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **1위** |
+| [FLO<br>FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | 33위 |
+| [벅스<br>벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **1위** |
 |  | 일간 차트 |  |  |
 |  | 주간 차트 |  |  |
-| [네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 33위 |
-| [YouTube Music](https://namu.wiki/w/YouTube%20Music) | Korea Top 100 Weekly |  | 12위 |
+| [네이버 VIBE네이버 VIBE<br>네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 33위 |
+| [유튜브 뮤직유튜브 뮤직<br>YouTube Music](https://namu.wiki/w/YouTube%20Music) | Korea Top 100 Weekly |  | 12위 |
 |  | Korea Top Music Video | Daily | **1위** |
 |  |  | Weekly | **2위** |
 |  | Hong Kong Top Music Video Daily |  | 43위 |
 |  | Singapore Top Music Video Daily |  | 25위 |
 |  | Taiwan Top Music Video Daily |  | 43위 |
-| [Spotify](https://namu.wiki/w/Spotify) | Korea Top Song | Daily | 15위 |
+| [Spotify<br>Spotify](https://namu.wiki/w/Spotify) | Korea Top Song | Daily | 15위 |
 |  |  | Weekly | 16위 |
-| [Apple Music](https://namu.wiki/w/Apple%20Music) | Top 100: 대한민국 |  | 41위 |
+| [애플 뮤직애플 뮤직<br>Apple Music](https://namu.wiki/w/Apple%20Music) | Top 100: 대한민국 |  | 41위 |
 |  | Top 25: 서울 |  | 24위 |
 |  | Top 25: 부산 |  |  |
-| [써클차트](https://namu.wiki/w/%EC%8D%A8%ED%81%B4%EC%B0%A8%ED%8A%B8) | 디지털 주간 차트 |  | **7위** |
+| [써클차트써클차트<br>써클차트](https://namu.wiki/w/%EC%8D%A8%ED%81%B4%EC%B0%A8%ED%8A%B8) | 디지털 주간 차트 |  | **7위** |
 |  | 디지털 월간 차트 |  | 36위 |
 |  | 다운로드 주간 차트 |  | **1위** |
 |  | 다운로드 월간 차트 |  | **2위** |
@@ -1448,20 +1449,20 @@ When we do it, easy do it oh
 | **ETERNAL<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **6위** |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **6위** |
 |  |  | 100일 | 16위 |
 |  | 실시간 차트 |  | 71위 |
 |  | 일간 차트 |  | 345위 |
 |  | 최신 차트 | 1주 | **2위** |
 |  |  | 4주 | **5위** |
-| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | 100위 |
+| [벅스<br>벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | 100위 |
 
 [ Pocket Treat 음원 순위 ]
 
 | **Pocket Treat<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **7위** |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **7위** |
 |  |  | 100일 | 17위 |
 |  | 실시간 차트 |  | 79위 |
 |  | 일간 차트 |  | 484위 |
@@ -1473,7 +1474,7 @@ When we do it, easy do it oh
 | **Blue Heart<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **8위** |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **8위** |
 |  |  | 100일 | 19위 |
 |  | 실시간 차트 |  | 89위 |
 |  | 일간 차트 |  | 552위 |
@@ -1485,7 +1486,7 @@ When we do it, easy do it oh
 | **Screen Time<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **8위** |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **8위** |
 |  |  | 100일 | 20위 |
 |  | 실시간 차트 |  | 92위 |
 |  | 일간 차트 |  | 613위 |
@@ -1497,7 +1498,7 @@ When we do it, easy do it oh
 | **Teacher<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **10위** |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **10위** |
 |  |  | 100일 | 22위 |
 |  | 실시간 차트 |  | 97위 |
 |  | 일간 차트 |  | 681위 |
@@ -1509,7 +1510,7 @@ When we do it, easy do it oh
 | **Cold Blood<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **10위** |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **10위** |
 |  |  | 100일 | 25위 |
 |  | 실시간 차트 |  | 99위 |
 |  | 일간 차트 |  | 775위 |
@@ -1521,7 +1522,7 @@ When we do it, easy do it oh
 | **Why do I cry?<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **10위** |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **10위** |
 |  |  | 100일 | 21위 |
 |  | 실시간 차트 |  | 96위 |
 |  | 일간 차트 |  | 766위 |
@@ -1533,7 +1534,7 @@ When we do it, easy do it oh
 | **Day 1<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **10위** |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **10위** |
 |  |  | 100일 | 22위 |
 |  | 실시간 차트 |  | 93위 |
 |  | 일간 차트 |  | 778위 |
@@ -1545,7 +1546,7 @@ When we do it, easy do it oh
 | **Wonderland<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | 12위 |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | 12위 |
 |  |  | 100일 | 25위 |
 |  | 일간 차트 |  | 846위 |
 |  | 최신 차트 | 1주 | **7위** |
@@ -1577,27 +1578,27 @@ When we do it, easy do it oh
 | **Vitamin ME<br>음악 방송 순위**[활동][1위] |  |  |
 | --- | --- | --- |
 | **방송명** | **1주차** | **2주차** |
-| [![쇼챔피언 로고](https://i.namu.wiki/i/_PvdKaikS9AkK8Pd-2RZG5di0tZEgapHlOZ-Yf22GOqWn0ANvpN0rU8b7nZsa2rsCRgKaPoveT4RXw-LnCiLvKtXwFSZ3XB5ghSc_cbv3R2NpcGc4-UcCa4IWp4HQ13JID79U5DtewkL7_B0Q9LIlA.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8) | - | **1위**(특방)[4] |
-| [![엠 카운트다운 로고](https://i.namu.wiki/i/nU6_KVQvn2nmDvuadzKtnOVCgInzTSmxvEGSNZEiri_ksysDHoAg1EL5mn9B66Xz92-O_Na-7IDwd6RkgwMhyWFvJwCEcycf_Z6Zsg6IqVHT1lrCvkPkIkQ23OuCqPQNq98WmN6RBJWvVy5k_HZ0kg.webp)<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 컴백 | **2위** |
-| [![뮤직뱅크 로고](https://i.namu.wiki/i/8_EwI6rSnNMWgsPL2VYXjyZxwMzvdC-VICu76Q4X8QPTOtaYzX_xhGVOulNF_rqFe5aY_St8qTX0o7GMdJuR3azfwfKxMblMm_vcFjb0yen-hF25E0Mn3L6mzI9nJARYv50SDeBMHRqaksv-n5_cWA.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) |  | **1위** |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) |  | **1위** |
-| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) |  | 결방[a] |
+| [![쇼챔피언 로고](https://i.namu.wiki/i/_PvdKaikS9AkK8Pd-2RZG5di0tZEgapHlOZ-Yf22GOqWn0ANvpN0rU8b7nZsa2rsCRgKaPoveT4RXw-LnCiLvKtXwFSZ3XB5ghSc_cbv3R2NpcGc4-UcCa4IWp4HQ13JID79U5DtewkL7_B0Q9LIlA.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8 "쇼챔피언") | - | **1위**(특방)[4] |
+| [![엠 카운트다운 로고](https://i.namu.wiki/i/nU6_KVQvn2nmDvuadzKtnOVCgInzTSmxvEGSNZEiri_ksysDHoAg1EL5mn9B66Xz92-O_Na-7IDwd6RkgwMhyWFvJwCEcycf_Z6Zsg6IqVHT1lrCvkPkIkQ23OuCqPQNq98WmN6RBJWvVy5k_HZ0kg.webp)<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4 "엠 카운트다운") | 컴백 | **2위** |
+| [![뮤직뱅크 로고](https://i.namu.wiki/i/8_EwI6rSnNMWgsPL2VYXjyZxwMzvdC-VICu76Q4X8QPTOtaYzX_xhGVOulNF_rqFe5aY_St8qTX0o7GMdJuR3azfwfKxMblMm_vcFjb0yen-hF25E0Mn3L6mzI9nJARYv50SDeBMHRqaksv-n5_cWA.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") |  | **1위** |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) |  | **1위** |
+| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") |  | 결방[a] |
 
 | **Vitamin ME<br>음악 방송 순위**[활동종료][1위] |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **방송명** | **3주차** | **4주차** | **5주차** | **6주차** | **7주차** | **8주차** | **9주차** |
-| [![쇼챔피언 로고](https://i.namu.wiki/i/_PvdKaikS9AkK8Pd-2RZG5di0tZEgapHlOZ-Yf22GOqWn0ANvpN0rU8b7nZsa2rsCRgKaPoveT4RXw-LnCiLvKtXwFSZ3XB5ghSc_cbv3R2NpcGc4-UcCa4IWp4HQ13JID79U5DtewkL7_B0Q9LIlA.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8) | 미진입 | **5위** | -[8] |  |  |  |  |
-| [![엠 카운트다운 로고](https://i.namu.wiki/i/nU6_KVQvn2nmDvuadzKtnOVCgInzTSmxvEGSNZEiri_ksysDHoAg1EL5mn9B66Xz92-O_Na-7IDwd6RkgwMhyWFvJwCEcycf_Z6Zsg6IqVHT1lrCvkPkIkQ23OuCqPQNq98WmN6RBJWvVy5k_HZ0kg.webp)<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 6위 | 8위(특방)[9] | 7위 | -[10] |  |  |  |
-| [![뮤직뱅크 로고](https://i.namu.wiki/i/8_EwI6rSnNMWgsPL2VYXjyZxwMzvdC-VICu76Q4X8QPTOtaYzX_xhGVOulNF_rqFe5aY_St8qTX0o7GMdJuR3azfwfKxMblMm_vcFjb0yen-hF25E0Mn3L6mzI9nJARYv50SDeBMHRqaksv-n5_cWA.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) | 4위 | 48위 | 43위 | 50위 | 미진입 |  |  |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | 7위 | 9위 | 9위 | 8위 | 10위 | 15위 | 18위 |
-| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) | 결방[a] | 16위 | 미진입 |  |  |  | 미진입(특방)[12] |
+| [![쇼챔피언 로고](https://i.namu.wiki/i/_PvdKaikS9AkK8Pd-2RZG5di0tZEgapHlOZ-Yf22GOqWn0ANvpN0rU8b7nZsa2rsCRgKaPoveT4RXw-LnCiLvKtXwFSZ3XB5ghSc_cbv3R2NpcGc4-UcCa4IWp4HQ13JID79U5DtewkL7_B0Q9LIlA.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8 "쇼챔피언") | 미진입 | **5위** | -[8] |  |  |  |  |
+| [![엠 카운트다운 로고](https://i.namu.wiki/i/nU6_KVQvn2nmDvuadzKtnOVCgInzTSmxvEGSNZEiri_ksysDHoAg1EL5mn9B66Xz92-O_Na-7IDwd6RkgwMhyWFvJwCEcycf_Z6Zsg6IqVHT1lrCvkPkIkQ23OuCqPQNq98WmN6RBJWvVy5k_HZ0kg.webp)<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4 "엠 카운트다운") | 6위 | 8위(특방)[9] | 7위 | -[10] |  |  |  |
+| [![뮤직뱅크 로고](https://i.namu.wiki/i/8_EwI6rSnNMWgsPL2VYXjyZxwMzvdC-VICu76Q4X8QPTOtaYzX_xhGVOulNF_rqFe5aY_St8qTX0o7GMdJuR3azfwfKxMblMm_vcFjb0yen-hF25E0Mn3L6mzI9nJARYv50SDeBMHRqaksv-n5_cWA.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") | 4위 | 48위 | 43위 | 50위 | 미진입 |  |  |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | 7위 | 9위 | 9위 | 8위 | 10위 | 15위 | 18위 |
+| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") | 결방[a] | 16위 | 미진입 |  |  |  | 미진입(특방)[12] |
 | **총 3관왕** |  |  |  |  |  |  |  |
 
 - [2026년](https://namu.wiki/w/2026%EB%85%84) [7월 29일](https://namu.wiki/w/7%EC%9B%94%2029%EC%9D%BC), 2주차 [쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8)에서 컴백 첫 **1위**를 수상했다.
 
-- [7월 31일](https://namu.wiki/w/7%EC%9B%94%2031%EC%9D%BC), 2주차 [뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC)에서 **1위**를 수상했다.
+- [7월 31일](https://namu.wiki/w/7%EC%9B%94%2031%EC%9D%BC), 2주차 [뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC)에서 **1위**를 수상했다. [▶ YouTube](https://www.youtube.com/watch?v=WwZnaLbph1k)  [▶ YouTube](https://www.youtube.com/watch?v=sG2uGSC8sMA)
 
-- [8월 1일](https://namu.wiki/w/8%EC%9B%94%201%EC%9D%BC), 2주차 [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC)에서 **1위**를 수상했다.
+- [8월 1일](https://namu.wiki/w/8%EC%9B%94%201%EC%9D%BC), 2주차 [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC)에서 **1위**를 수상했다. [▶ YouTube](https://www.youtube.com/watch?v=K9yrPWslIHE)  [▶ YouTube](https://www.youtube.com/watch?v=UpdLTag9O2g)
 
 ## 평가
 
@@ -1608,6 +1609,8 @@ When we do it, easy do it oh
 [**Album of the Year**](https://namu.wiki/w/Album%20of%20the%20Year)
 
 **[유저 평점 67 / 100](https://www.albumoftheyear.org/album/1904219fromis-9-glow-me/)**
+
+[이즘](https://namu.wiki/w/%EC%9D%B4%EC%A6%98)
 
 **[★★★★★](https://izm.co.kr/posts?id=34170)**
 
@@ -1699,19 +1702,19 @@ PERFORMANCE VIDEO 촬영 비하인드**
 
 | **날짜** | **방송사** | **프로그램** | **출연** | **링크** |
 | --- | --- | --- | --- | --- |
-| 07.21 | [KBS 2TV](https://namu.wiki/w/KBS%202TV) | [리무진서비스](https://namu.wiki/w/%EB%A6%AC%EB%AC%B4%EC%A7%84%EC%84%9C%EB%B9%84%EC%8A%A4) | [이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81) |  |
-| 07.24 |  | [성시경의 고막남친](https://namu.wiki/w/%EC%84%B1%EC%8B%9C%EA%B2%BD%EC%9D%98%20%EA%B3%A0%EB%A7%89%EB%82%A8%EC%B9%9C) | 전원 |  |
-| 07.25 |  | [살림하는 남자들](https://namu.wiki/w/%EC%82%B4%EB%A6%BC%ED%95%98%EB%8A%94%20%EB%82%A8%EC%9E%90%EB%93%A4) | [이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81) |  |
-| 07.26 |  | [사장님 귀는 당나귀 귀](https://namu.wiki/w/%EC%82%AC%EC%9E%A5%EB%8B%98%20%EA%B7%80%EB%8A%94%20%EB%8B%B9%EB%82%98%EA%B7%80%20%EA%B7%80) | [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81) |  |
-|  |  | [개그콘서트 - 공개재판](https://namu.wiki/w/%EA%B3%B5%EA%B0%9C%EC%9E%AC%ED%8C%90) | [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81)<br>[백지헌](https://namu.wiki/w/%EB%B0%B1%EC%A7%80%ED%97%8C) |  |
-| 07.28 | [JTBC](https://namu.wiki/w/JTBC) | [아침& - 날씨](https://namu.wiki/w/%EC%95%84%EC%B9%A8%26) | [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81) |  |
-| 07.30 | [엠넷](https://namu.wiki/w/%EC%97%A0%EB%84%B7) | [Check-in! 아이돌 빙고](https://namu.wiki/w/Check-in!%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%B9%99%EA%B3%A0%20(%EC%B2%B4%ED%81%AC%EC%9D%B8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%B9%99%EA%B3%A0)) | 전원 |  |
+| 07.21 | [KBS 2TV<br>KBS 2TV](https://namu.wiki/w/KBS%202TV) | [리무진서비스](https://namu.wiki/w/%EB%A6%AC%EB%AC%B4%EC%A7%84%EC%84%9C%EB%B9%84%EC%8A%A4) | [이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81) | [▶ YouTube](https://youtu.be/y9RM35sWkK8) |
+| 07.24 |  | [성시경의 고막남친](https://namu.wiki/w/%EC%84%B1%EC%8B%9C%EA%B2%BD%EC%9D%98%20%EA%B3%A0%EB%A7%89%EB%82%A8%EC%B9%9C) | 전원 | [▶ YouTube](https://youtu.be/ikBzbgyg6Bw) |
+| 07.25 |  | [살림하는 남자들](https://namu.wiki/w/%EC%82%B4%EB%A6%BC%ED%95%98%EB%8A%94%20%EB%82%A8%EC%9E%90%EB%93%A4) | [이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81) | [▶ YouTube](https://youtu.be/XHhc_37Ke3I?t=38) |
+| 07.26 |  | [사장님 귀는 당나귀 귀](https://namu.wiki/w/%EC%82%AC%EC%9E%A5%EB%8B%98%20%EA%B7%80%EB%8A%94%20%EB%8B%B9%EB%82%98%EA%B7%80%20%EA%B7%80) | [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81) | [▶ YouTube](https://youtu.be/_eE48HwN_zo) |
+|  |  | [개그콘서트 - 공개재판](https://namu.wiki/w/%EA%B3%B5%EA%B0%9C%EC%9E%AC%ED%8C%90) | [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81)<br>[백지헌](https://namu.wiki/w/%EB%B0%B1%EC%A7%80%ED%97%8C) | [▶ YouTube](https://youtu.be/oXmLnHD_tfM) |
+| 07.28 | [JTBC<br>JTBC](https://namu.wiki/w/JTBC) | [아침& - 날씨](https://namu.wiki/w/%EC%95%84%EC%B9%A8%26) | [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81) | [▶ YouTube](https://youtu.be/L6c9bVhOtIk) |
+| 07.30 | [엠넷<br>엠넷](https://namu.wiki/w/%EC%97%A0%EB%84%B7) | [Check-in! 아이돌 빙고](https://namu.wiki/w/Check-in!%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%B9%99%EA%B3%A0%20(%EC%B2%B4%ED%81%AC%EC%9D%B8%20%EC%95%84%EC%9D%B4%EB%8F%8C%20%EB%B9%99%EA%B3%A0)) | 전원 | [엠넷플러스 심볼](https://www.mnetplus.world/media/ko/videos/6a680746dd0d71512205879c)<br>[엠넷플러스 심볼](https://www.mnetplus.world/media/ko/videos/6a680905dd0d71512205879d) |
 
 ### 라디오
 
 | **날짜** | **방송사** | **프로그램** | **출연** | **링크** |
 | --- | --- | --- | --- | --- |
-| 07.27 | [KBS CoolFM](https://namu.wiki/w/KBS%202FM) | [폴킴의 가요광장](https://namu.wiki/w/%ED%8F%B4%ED%82%B4%EC%9D%98%20%EA%B0%80%EC%9A%94%EA%B4%91%EC%9E%A5) | 전원 |  |
+| 07.27 | [KBS CoolFMKBS CoolFM<br>KBS CoolFM](https://namu.wiki/w/KBS%202FM) | [폴킴의 가요광장](https://namu.wiki/w/%ED%8F%B4%ED%82%B4%EC%9D%98%20%EA%B0%80%EC%9A%94%EA%B4%91%EC%9E%A5) | 전원 | [▶ YouTube](https://youtu.be/4ppwOZukk0I) |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
@@ -1721,19 +1724,19 @@ PERFORMANCE VIDEO 촬영 비하인드**
 
 | **날짜** | **채널** | **제목** | **출연** | **링크** |
 | --- | --- | --- | --- | --- |
-| 07.14 | [![딩고 뮤직](https://i.namu.wiki/i/eGCV-fgHVdhnP90oOCjM93PMSm6SEuuR9R9So3ZXr4qiY_sBX0Qwq_6yeSDFmlzF68BxdIJpEmBRrq77nS-Q7GtQRxL_dW_8twYl3XPIz1fiMCw3Kgm-5_KMZfSwfR9mrHiLve06GgZtogiuP3jh2A.webp)](https://namu.wiki/w/%EB%94%A9%EA%B3%A0%20%EB%AE%A4%EC%A7%81) | 프로미스나인 (fromis_9)의 킬링보이스를 라이브로! - Vitamin ME, Supersonic, Stay This Way, Love=DisasterㅣDingo Music | 전원 |  |
-| 07.20 |  | 🔥 달바 프로페셔널 완판 도전! 프로미스나인 하영·나경의 컴백 특집💥 \| 방판소녀들 EP.05 ⭐ | [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81)<br>[이나경](https://namu.wiki/w/%EC%9D%B4%EB%82%98%EA%B2%BD) |  |
-| 07.21 | [![KBS Kpop 로고](https://i.namu.wiki/i/cEYwRNT4HVheOjS1dAr_TbXcLrL40CVlyRLgIjcGlBRcpG6d9qowm8dRx7oGL6Ao1t_Xox-oQxM3rnc34hduldqEfSFnjhyFkGbQcBIZJMqhXZZFvGthZm4RcmDa-pDHeFNodEbv570EL96mklD1jg.webp)](https://namu.wiki/w/KBS%20Kpop) | [리무진서비스] EP.225 프로미스나인 이채영 \| fromis_9 LEE CHAEYOUNG \| Vitamin ME, Bye bye my blue, U R, 제주도의 푸른 밤 | [이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81) |  |
-|  |  | 프로미스나인의 포춘 베이커리 OPEN! 고민 해결해 드립니다🥠 | [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81)<br>[박지원](https://namu.wiki/w/%EB%B0%95%EC%A7%80%EC%9B%90(%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8))<br>[이나경](https://namu.wiki/w/%EC%9D%B4%EB%82%98%EA%B2%BD)<br>[백지헌](https://namu.wiki/w/%EB%B0%B1%EC%A7%80%ED%97%8C) |  |
-| 07.23 | ![입만열면 프로필](https://i.namu.wiki/i/Eb29AI_KYgIlB7FYLRmXPeVtxZkVkWl50ftn93p8W-rE3D6qzRJJYEz6P5-nbFJ7ehq72dcnXnuXThEc7UGECu5Hfc61l_7OYm1tEDvl2TZhMzTrVU39twvZpXZ-6pkaspXKigJgRRfnxYl4qoelPg.webp) | 당신의 며느리에게 투표하세요 \| EP.24 프로미스나인 이나경 이채영 \| 트루만쇼 | [이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81)<br>[이나경](https://namu.wiki/w/%EC%9D%B4%EB%82%98%EA%B2%BD) |  |
-| 07.25 | [![미미미누 유튜브 채널 프로필](https://i.namu.wiki/i/9uRXHi6IB108yXXzjg1b3P-kkh2srviKGT2esMoYGOPGnDuq4O8MkAaGMTNeNnQiOVCMr1yVmVHpMn-2R_z8LPdynSgsYW6nSl1VuJEDp1mT9zAfznGtLLeRvzXtoX5Cdl-ufV33NG2thACKqiU3QA.webp)](https://namu.wiki/w/%EB%AF%B8%EB%AF%B8%EB%AF%B8%EB%88%84) | "이게 아이돌이야?" 프(로미스)나(인) 여고에 가서 교생실습하고 왔습니다 | 전원 |  |
-|  |  | [SUB] 서머퀸 5명이 모이면 얼마나 🔥HOT🔥해지는지 감도 안 옴 \| 아이돌 인간극장 |  |  |
-| 07.27 |  | 🔥 알디콤 완판 도전! 제작진 vs 프로미스나인 하영·나경 소원 내기💥 | [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81)<br>[이나경](https://namu.wiki/w/%EC%9D%B4%EB%82%98%EA%B2%BD) |  |
-| 07.28 | [![유병재 유튜브 채널](https://i.namu.wiki/i/VjYRIPpC_uo0suv2NxcZEJZLzCnaUUGCB9AWuoHX0bOx2a38iG2p5okt4oHvxRHhRjPim-IYBgLqi7LSq8zjFQ.webp)](https://namu.wiki/w/%EC%9C%A0%EB%B3%91%EC%9E%AC/%EC%9C%A0%ED%8A%9C%EB%B8%8C%20%EC%B1%84%EB%84%90) | [ENG SUB] 웃으면 안되는 프로미스나인 팬미팅 | [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81)<br>[이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81) |  |
-| 07.29 | [![유인라디오 로고](https://i.namu.wiki/i/euHuiWKwXWFe_0Ryzkikmf7Qne8zdpbcbb0ypS2UuoOGh3nTNKpIHIiTrNgxhf-aaMlx83rsbsza1qa3n5fxOIuxZB6Mz_zwwKC5SIjc51aClI9fh0N0umhhHRm5Udu56d-D3XO7fAtN8-Hptts6lQ.webp)](https://namu.wiki/w/%EC%9C%A0%EC%9D%B8%EB%9D%BC%EB%94%94%EC%98%A4) | [ENG] 올여름 비타민 처방전 = 프로미스나인 \| 유인라디오 S3 EP.15 | [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81)<br>[이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81)<br>[이나경](https://namu.wiki/w/%EC%9D%B4%EB%82%98%EA%B2%BD) |  |
-| 07.30 | [![옹스타일 프로필](https://i.namu.wiki/i/ZwCk788xKTm7Npn9ELNmQOJa5WFWTVQhCijR6IgfesCxUwFRkcdOQP8mbABwBbecb9Fynd1SifsnQoQntR9z7w.webp)](https://namu.wiki/w/%EC%9E%84%EC%8A%AC%EC%98%B9) | 프로미스나인 이채영 임슬옹 공포체험 촬영 중단!? | [이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81) |  |
-| 08.01 | [M2](https://namu.wiki/w/M2(%EC%97%A0%EB%84%B7)) | [릴레이댄스] 프로미스나인(fromis_9) - Vitamin ME | 전원 |  |
-| 08.07 |  | 야망모지리들에게 하루종일놀아났슴돠.. ｜ 모먹티비 EP.26 | [이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81)<br>[백지헌](https://namu.wiki/w/%EB%B0%B1%EC%A7%80%ED%97%8C) |  |
+| 07.14 | [![딩고 뮤직](https://i.namu.wiki/i/eGCV-fgHVdhnP90oOCjM93PMSm6SEuuR9R9So3ZXr4qiY_sBX0Qwq_6yeSDFmlzF68BxdIJpEmBRrq77nS-Q7GtQRxL_dW_8twYl3XPIz1fiMCw3Kgm-5_KMZfSwfR9mrHiLve06GgZtogiuP3jh2A.webp)](https://namu.wiki/w/%EB%94%A9%EA%B3%A0%20%EB%AE%A4%EC%A7%81 "딩고 뮤직") | 프로미스나인 (fromis_9)의 킬링보이스를 라이브로! - Vitamin ME, Supersonic, Stay This Way, Love=DisasterㅣDingo Music | 전원 | [▶ YouTube](https://youtu.be/ovIkD1XfXCE) |
+| 07.20 | 방판소녀들 | 🔥 달바 프로페셔널 완판 도전! 프로미스나인 하영·나경의 컴백 특집💥 \| 방판소녀들 EP.05 ⭐ | [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81)<br>[이나경](https://namu.wiki/w/%EC%9D%B4%EB%82%98%EA%B2%BD) | [▶ YouTube](https://youtu.be/5Gv9FID2138) |
+| 07.21 | [![KBS Kpop 로고](https://i.namu.wiki/i/cEYwRNT4HVheOjS1dAr_TbXcLrL40CVlyRLgIjcGlBRcpG6d9qowm8dRx7oGL6Ao1t_Xox-oQxM3rnc34hduldqEfSFnjhyFkGbQcBIZJMqhXZZFvGthZm4RcmDa-pDHeFNodEbv570EL96mklD1jg.webp)](https://namu.wiki/w/KBS%20Kpop "KBS Kpop") | [리무진서비스] EP.225 프로미스나인 이채영 \| fromis_9 LEE CHAEYOUNG \| Vitamin ME, Bye bye my blue, U R, 제주도의 푸른 밤 | [이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81) | [▶ YouTube](https://youtu.be/y9RM35sWkK8) |
+|  | [Spotify](https://namu.wiki/w/Spotify) | 프로미스나인의 포춘 베이커리 OPEN! 고민 해결해 드립니다🥠 | [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81)<br>[박지원](https://namu.wiki/w/%EB%B0%95%EC%A7%80%EC%9B%90(%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8))<br>[이나경](https://namu.wiki/w/%EC%9D%B4%EB%82%98%EA%B2%BD)<br>[백지헌](https://namu.wiki/w/%EB%B0%B1%EC%A7%80%ED%97%8C) | [▶ YouTube](https://youtu.be/VeiBrQ1vjjE) |
+| 07.23 | ![입만열면 프로필](https://i.namu.wiki/i/Eb29AI_KYgIlB7FYLRmXPeVtxZkVkWl50ftn93p8W-rE3D6qzRJJYEz6P5-nbFJ7ehq72dcnXnuXThEc7UGECu5Hfc61l_7OYm1tEDvl2TZhMzTrVU39twvZpXZ-6pkaspXKigJgRRfnxYl4qoelPg.webp) | 당신의 며느리에게 투표하세요 \| EP.24 프로미스나인 이나경 이채영 \| 트루만쇼 | [이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81)<br>[이나경](https://namu.wiki/w/%EC%9D%B4%EB%82%98%EA%B2%BD) | [▶ YouTube](https://youtu.be/xTs3yw47WP4) |
+| 07.25 | [![미미미누 유튜브 채널 프로필](https://i.namu.wiki/i/9uRXHi6IB108yXXzjg1b3P-kkh2srviKGT2esMoYGOPGnDuq4O8MkAaGMTNeNnQiOVCMr1yVmVHpMn-2R_z8LPdynSgsYW6nSl1VuJEDp1mT9zAfznGtLLeRvzXtoX5Cdl-ufV33NG2thACKqiU3QA.webp)](https://namu.wiki/w/%EB%AF%B8%EB%AF%B8%EB%AF%B8%EB%88%84 "미미미누") | "이게 아이돌이야?" 프(로미스)나(인) 여고에 가서 교생실습하고 왔습니다 | 전원 | [▶ YouTube](https://youtu.be/3DtuV7sO_d0) |
+|  | [아이돌 인간극장아이돌 인간극장](https://namu.wiki/w/%EC%95%84%EC%9D%B4%EB%8F%8C%20%EC%9D%B8%EA%B0%84%EA%B7%B9%EC%9E%A5) | [SUB] 서머퀸 5명이 모이면 얼마나 🔥HOT🔥해지는지 감도 안 옴 \| 아이돌 인간극장 |  | [▶ YouTube](https://youtu.be/eFAOkV-KB68) |
+| 07.27 | 방판소녀들 | 🔥 알디콤 완판 도전! 제작진 vs 프로미스나인 하영·나경 소원 내기💥 | [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81)<br>[이나경](https://namu.wiki/w/%EC%9D%B4%EB%82%98%EA%B2%BD) | [▶ YouTube](https://youtu.be/2F4xmrLSSSk) |
+| 07.28 | [![유병재 유튜브 채널](https://i.namu.wiki/i/VjYRIPpC_uo0suv2NxcZEJZLzCnaUUGCB9AWuoHX0bOx2a38iG2p5okt4oHvxRHhRjPim-IYBgLqi7LSq8zjFQ.webp)](https://namu.wiki/w/%EC%9C%A0%EB%B3%91%EC%9E%AC/%EC%9C%A0%ED%8A%9C%EB%B8%8C%20%EC%B1%84%EB%84%90 "유병재/유튜브 채널") | [ENG SUB] 웃으면 안되는 프로미스나인 팬미팅 | [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81)<br>[이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81) | [▶ YouTube](https://youtu.be/ec22cTfrIvw) |
+| 07.29 | [![유인라디오 로고](https://i.namu.wiki/i/euHuiWKwXWFe_0Ryzkikmf7Qne8zdpbcbb0ypS2UuoOGh3nTNKpIHIiTrNgxhf-aaMlx83rsbsza1qa3n5fxOIuxZB6Mz_zwwKC5SIjc51aClI9fh0N0umhhHRm5Udu56d-D3XO7fAtN8-Hptts6lQ.webp)](https://namu.wiki/w/%EC%9C%A0%EC%9D%B8%EB%9D%BC%EB%94%94%EC%98%A4 "유인라디오") | [ENG] 올여름 비타민 처방전 = 프로미스나인 \| 유인라디오 S3 EP.15 | [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81)<br>[이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81)<br>[이나경](https://namu.wiki/w/%EC%9D%B4%EB%82%98%EA%B2%BD) | [▶ YouTube](https://youtu.be/JW5mwZ8RsG8) |
+| 07.30 | [![옹스타일 프로필](https://i.namu.wiki/i/ZwCk788xKTm7Npn9ELNmQOJa5WFWTVQhCijR6IgfesCxUwFRkcdOQP8mbABwBbecb9Fynd1SifsnQoQntR9z7w.webp)](https://namu.wiki/w/%EC%9E%84%EC%8A%AC%EC%98%B9 "임슬옹") | 프로미스나인 이채영 임슬옹 공포체험 촬영 중단!? | [이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81) | [▶ YouTube](https://youtu.be/XMpMp7DSyBA) |
+| 08.01 | [M2<br>M2](https://namu.wiki/w/M2(%EC%97%A0%EB%84%B7)) | [릴레이댄스] 프로미스나인(fromis_9) - Vitamin ME | 전원 | [▶ YouTube](https://youtu.be/aLyP66IQmRQ) |
+| 08.07 | [쑥쑥](https://namu.wiki/w/%EC%91%A5%EC%91%A5) | 야망모지리들에게 하루종일놀아났슴돠.. ｜ 모먹티비 EP.26 | [이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81)<br>[백지헌](https://namu.wiki/w/%EB%B0%B1%EC%A7%80%ED%97%8C) | [▶ YouTube](https://youtu.be/1-KOM-DR72s) |
 
 ## 여담
 

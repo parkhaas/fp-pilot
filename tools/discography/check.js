@@ -27,6 +27,14 @@ for (const a of idx.albums) {
   for (const t of a.tracks) if (!Object.keys(t.credits).length && a.status !== "cancelled") warn(`${a.id} ${t.no}. ${t.title}: 크레딧 없음`);
 }
 
+// 본문에 나무위키 링크가 남지 않아야 한다 (출처 표기는 JSON 이 아니라 페이지 코드에서 붙인다)
+const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? walk(path.join(d, e.name)) : e.name.endsWith(".json") ? [path.join(d, e.name)] : []));
+for (const f of walk(OUT)) {
+  const n = (fs.readFileSync(f, "utf8").match(/href=\\?"https:\/\/namu\.wiki\//g) || []).length;
+  if (n) warn(`${path.relative(OUT, f)}: 나무위키 링크 ${n}개 남음`);
+}
+for (const d of idx.docs || []) if (!fs.existsSync(path.join(OUT, "docs", d.slug + ".json"))) warn(`문서 JSON 없음: ${d.slug}`);
+
 console.log(`앨범 ${idx.albums.length}개 점검, 최신 ${idx.albums[0] && idx.albums[0].releaseDate}`);
 if (problems.length) {
   console.log(`\n확인할 것 ${problems.length}건`);

@@ -1270,3 +1270,74 @@ details[open] > summary > .dg-chev { transform: rotate(180deg); }
 .dg-prose a.dg-vid svg, .dg-prose a.dg-vid i { width: 14px; height: 14px; padding: 3px; box-sizing: content-box; border-radius: 50%; background: var(--brand); color: #fff; fill: #fff; }
 .dg-prose a.dg-vid:hover { background: var(--brand-weak); border-color: var(--brand); color: var(--brand-strong); }
 .dg-prose p > strong:only-child { display: block; margin-top: 1.2em; }
+
+/* 주요 문서 (그룹·멤버·응원법) */
+.dg-docs { margin: 12px 0 28px; }
+.dg-doc-row { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 8px 14px; align-items: baseline; padding: 10px 0; border-top: 1px solid var(--border); }
+.dg-doc-row h4 { margin: 0; font-size: 0.8rem; font-weight: 650; color: var(--text-3); }
+.dg-doc-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.dg-doc {
+  padding: 6px 14px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface);
+  font-size: 0.86rem; font-weight: 650; color: var(--text); text-decoration: none;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+.dg-doc:hover { border-color: var(--brand); color: var(--brand-strong); background: var(--brand-weak); }
+.dg-doc-head { margin-bottom: 14px; }
+.dg-doc-head .dg-hero-title { margin: 2px 0 6px; }
+.dg-doc-summary { max-width: 760px; margin-bottom: 14px; }
+.dg-doc-count { margin: 0 0 10px; font-size: 0.78rem; color: var(--text-3); }
+.dg-prose a[data-doc], .dg-prose a[data-album] { text-decoration: underline; text-decoration-color: var(--brand-weak); text-underline-offset: 3px; }
+@media (max-width: 720px) { .dg-doc-row { grid-template-columns: minmax(0, 1fr); } }
+
+/* 멤버 소개: 나이순 세로 카드 (표 대신) */
+.dg-prose ul.dg-members { list-style: none; margin: 0 0 1.4em; padding: 0; display: grid; gap: 10px; }
+.dg-member { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 16px; align-items: center; padding: 10px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg); }
+.dg-member-photo { display: block; width: 84px; aspect-ratio: 3 / 4; border-radius: 10px; overflow: hidden; background: var(--surface-2); }
+.dg-member-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
+.dg-member-info { min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.dg-member-info h4, .dg-prose .dg-member-info h4 { margin: 0; font-family: var(--font-display); font-size: 1.08rem; letter-spacing: -0.02em; }
+.dg-prose .dg-member-info h4 a { color: var(--text); text-decoration: none; }
+.dg-prose .dg-member-info h4 a:hover { color: var(--brand-strong); }
+.dg-member-info p { margin: 0; font-size: 0.84rem; line-height: 1.5; }
+.dg-member-pos { display: flex; flex-wrap: wrap; gap: 4px 6px; }
+.dg-member-pos span { padding: 1px 9px; border-radius: 999px; background: var(--brand-weak); color: var(--brand-strong); font-size: 0.74rem; font-weight: 650; }
+.dg-member-left { color: var(--text-3); }
+.dg-note { margin: 0 0 1.2em; padding: 10px 14px; border: 1px solid var(--border); border-radius: var(--radius); }
+.dg-note > summary { cursor: pointer; font-size: 0.86rem; font-weight: 650; color: var(--text-2); }
+.dg-note[open] > summary { margin-bottom: 8px; }
+/* 멤버 문서 머리: 프로필 사진 */
+.dg-doc-head.has-photo { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 20px; align-items: end; }
+.dg-doc-photo { width: 120px; aspect-ratio: 3 / 4; object-fit: cover; object-position: center top; border-radius: var(--radius); box-shadow: var(--shadow-md); background: var(--surface-2); }
+@media (max-width: 720px) { .dg-doc-head.has-photo { grid-template-columns: 96px minmax(0, 1fr); gap: 14px; } .dg-doc-photo { width: 96px; } }
+
+/* 문서 표: 연도·구분 행은 한 줄로, 영상 링크는 알약 버튼으로 */
+.dg-prose tr.dg-yearrow td, .dg-prose tr.dg-titlerow td { padding: 8px 12px; background: var(--surface-2); text-align: left; color: var(--text); }
+.dg-prose tr.dg-yearrow td { font-family: var(--font-display); font-size: 0.95rem; letter-spacing: -0.02em; }
+.dg-prose td a[href*="youtu"], .dg-prose p a[href*="youtu.be"], .dg-prose p a[href*="youtube.com/shorts"] {
+  display: inline-block; padding: 1px 9px; border-radius: 999px; background: var(--brand-weak); color: var(--brand-strong);
+  font-size: 0.76rem; font-weight: 650; text-decoration: none; white-space: nowrap;
+}
+.dg-prose td a[href*="youtu"]:hover { background: var(--brand); color: #fff; }
+.dg-prose table { width: max-content; min-width: 100%; }
+
+/* 국기 아이콘 (가격표·멤버 국적) */
+img.dg-nation { display: inline-block; height: 0.95em; width: auto; margin-right: 0.4em; vertical-align: -0.14em; border: 1px solid var(--border); border-radius: 2px; }
+
+/* 멤버 인물 정보 카드 */
+.dg-names { margin: 0 0 4px; font-size: 0.9rem; color: var(--text-2); letter-spacing: 0.02em; }
+.dg-names span { color: var(--text-3); margin: 0 4px; }
+.dg-profile { margin: 0 0 20px; padding: 6px 18px; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--surface); box-shadow: var(--shadow-sm); }
+.dg-profile dl { margin: 0; display: grid; grid-template-columns: minmax(0, 1fr); }
+.dg-profile dl > div { display: grid; grid-template-columns: 88px minmax(0, 1fr); gap: 14px; padding: 10px 0; border-bottom: 1px solid var(--border); font-size: 0.88rem; line-height: 1.6; }
+.dg-profile dl > div:last-child { border-bottom: 0; }
+.dg-profile dt { color: var(--text-3); font-weight: 650; }
+.dg-profile dd { margin: 0; min-width: 0; overflow-wrap: anywhere; color: var(--text); }
+.dg-profile a { color: var(--brand-strong); }
+.dg-profile .dg-ext { padding: 1px 9px; margin-right: 4px; border-radius: 999px; background: var(--brand-weak); font-size: 0.8rem; font-weight: 650; text-decoration: none; }
+.dg-sign { height: 44px; width: auto; max-width: 100%; display: inline-block; margin-right: 10px; }
+.dg-sign-dark { display: none; }
+html.dark .dg-sign:not(.dg-sign-dark) { display: none; }
+html.dark .dg-sign-dark { display: inline-block; }
+.dg-swatch { display: inline-block; width: 12px; height: 12px; margin-right: 6px; border-radius: 50%; vertical-align: -1px; border: 1px solid var(--border-strong); }
+@media (min-width: 900px) { .dg-profile dl { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 28px; } .dg-profile dl > div:nth-last-child(2):nth-child(odd) { border-bottom: 0; } }
+@media (max-width: 720px) { .dg-profile dl > div { grid-template-columns: 72px minmax(0, 1fr); gap: 10px; } }

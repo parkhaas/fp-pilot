@@ -1,0 +1,15 @@
+[
+  {"title":"프로미스나인","kind":"group","label":"그룹 소개"},
+  {"title":"이서연","kind":"member","label":"멤버","status":"former"},
+  {"title":"이새롬","kind":"member","label":"멤버","status":"former"},
+  {"title":"송하영","kind":"member","label":"멤버","status":"current"},
+  {"title":"장규리","kind":"member","label":"멤버","status":"former"},
+  {"title":"박지원(프로미스나인)","kind":"member","label":"멤버","status":"current"},
+  {"title":"노지선","kind":"member","label":"멤버","status":"former"},
+  {"title":"이채영","kind":"member","label":"멤버","status":"current"},
+  {"title":"이나경","kind":"member","label":"멤버","status":"current"},
+  {"title":"백지헌","kind":"member","label":"멤버","status":"current"},
+  {"title":"프로미스나인/응원법","kind":"guide","label":"응원법"},
+  {"title":"프로미스나인/음악 방송","kind":"guide","label":"음악 방송"},
+  {"title":"프로미스나인/음악 방송 직캠","kind":"guide","label":"음악 방송 직캠"}
+]

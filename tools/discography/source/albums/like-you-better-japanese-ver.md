@@ -2,7 +2,7 @@
 title: "LIKE YOU BETTER (Japanese ver.)"
 source: https://namu.wiki/w/LIKE%20YOU%20BETTER%20(Japanese%20ver.)
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-26
+fetched: 2026-10-28
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/LIKE%20YOU%20BETTER%20(Japanese%20ver.))의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -51,20 +51,20 @@ CD에는 한국에서 대히트를 기록하며 fromis_9의 대명사인 밝고 
 
 | **날짜** | **시간** | **내용** |  | **링크** |
 | --- | --- | --- | --- | --- |
-| **03. 02.** | 00:00 | - | 프로미스나인 |  |
-| **03. 18.** | 21:00 | - |  |  |
-| **03. 20.** |  | 🤍 #LIKE | 송하영 |  |
+| **03. 02.** | 00:00 | - | 프로미스나인 | [X Corp](https://x.com/fromis9_japan/status/2028123103537020956) |
+| **03. 18.** | 21:00 | - |  | [X Corp](https://x.com/fromis9_japan/status/2034238394717606286) |
+| **03. 20.** |  | 🤍 #LIKE | 송하영 | [X Corp](https://x.com/realfromis_9/status/2034963171115745453) |
 |  |  |  | 박지원 |  |
-|  |  |  | 이채영 |  |
+|  |  |  | 이채영 | [X Corp](https://x.com/realfromis_9/status/2034963193119088651) |
 |  |  |  | 이나경 |  |
 |  |  |  | 백지헌 |  |
-| **03. 23.** |  | 💕 #BETTER | 송하영 |  |
-| **03. 24.** |  |  | 박지원 |  |
-| **03. 25.** |  |  | 이채영 |  |
-| **03. 26.** |  |  | 이나경 |  |
-| **03. 27.** |  |  | 백지헌 |  |
-| **03. 30.** |  | 🤍 #LIKE | 프로미스나인 |  |
-| **03. 31.** | 18:00 | HIGHLIGHT MEDLEY |  |  |
+| **03. 23.** |  | 💕 #BETTER | 송하영 | [X Corp](https://x.com/realfromis_9/status/2036050338084471168) |
+| **03. 24.** |  |  | 박지원 | [X Corp](https://x.com/realfromis_9/status/2036412717561684211) |
+| **03. 25.** |  |  | 이채영 | [X Corp](https://x.com/realfromis_9/status/2036775101987709024) |
+| **03. 26.** |  |  | 이나경 | [X Corp](https://x.com/realfromis_9/status/2037137498246139948) |
+| **03. 27.** |  |  | 백지헌 | [X Corp](https://x.com/realfromis_9/status/2037499878100680755) |
+| **03. 30.** |  | 🤍 #LIKE | 프로미스나인 | [X Corp](https://x.com/realfromis_9/status/2038587047657484672) |
+| **03. 31.** | 18:00 | HIGHLIGHT MEDLEY |  | [▶ YouTube](https://www.youtube.com/watch?v=TX4vs6eVzWc) |
 
 ## 콘셉트 티저
 
@@ -527,14 +527,14 @@ SPECIAL VIDEO**
 | **통상반 Ver.** |  |
 | --- | --- |
 | ![LIKE YOU BETTER ...](https://i.namu.wiki/i/oOg-Qy05FTm-9OWJh5z9VW5WJQmFvkmfo2jWrEWh_g_Rc7q1sbeyWmi24xWCGWQGMRREyOFzMtm5H4MPIGoFbyK1uQN7dIaFrKKmI5vBJULc8X_ZLpy8368ArtOG6jtHS6iVgwUlPaqvzLJ8OIYmUw.webp) |  |
-| **가격** | ￥1,650 |
+| **가격** | [![일본 국기](https://i.namu.wiki/i/9Bbewmi27KS6boRwFgEr6bhsmNIfh6eEjcYabkLgnXV7hdkUXtEFvJlMNEwuf1LrmRp1_ZBQGHj3udyNme8zbrMz5YHoXZMU_SCE1h-1OGFz8cT555IkdFeBNtC9BVUcj-Kfodw7U27_pcWK7_5DWQ.svg)](https://namu.wiki/w/%EC%9D%BC%EB%B3%B8 "일본") ￥1,650 |
 | **음반 코드** | UMCK-1823 |
 | **구성** | **앨범 구성품**<br>- TRADING CARD : 5종 중 랜덤 1종 삽입<br>- CD-R : 120×120 (mm) / 1종 |
 
 | **초회한정반 Ver.** |  |
 | --- | --- |
 | ![LIKE YOU BETTER ...](https://i.namu.wiki/i/6jJ0IcDaEy1wtteaorSmoSVxj1ETgHtfgWHJ48BkQQcCtpqEIFHGw6RrTOgjoRprljXRwFIgwYZZ3y9y_1vd0rMKFwJ8CWqjQlplV11cF8XcewUK7O_taSwUgy4p9GYEAK7t7Zc1U-aqVJquxCJAHA.webp) |  |
-| **가격** | ￥2,530 |
+| **가격** | [![일본 국기](https://i.namu.wiki/i/9Bbewmi27KS6boRwFgEr6bhsmNIfh6eEjcYabkLgnXV7hdkUXtEFvJlMNEwuf1LrmRp1_ZBQGHj3udyNme8zbrMz5YHoXZMU_SCE1h-1OGFz8cT555IkdFeBNtC9BVUcj-Kfodw7U27_pcWK7_5DWQ.svg)](https://namu.wiki/w/%EC%9D%BC%EB%B3%B8 "일본") ￥2,530 |
 | **음반 코드** | UMCK-7310 |
 | **구성** | **앨범 구성품**<br>- PHOTO BOOK : 36P / 1종<br>- TRADING CARD : 9종 중 랜덤 1종 삽입 (개인 5종·유닛 2종·단체 2종) ※초회한정반 도안 <br>- POSTER : W515×H728 (mm) / 1종 ※선착 증정<br>- CD-R : 120×120 (mm) / 1종 |
 

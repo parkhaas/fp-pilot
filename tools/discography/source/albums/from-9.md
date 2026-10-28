@@ -2,7 +2,7 @@
 title: "From.9"
 source: https://namu.wiki/w/From.9
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-26
+fetched: 2026-10-28
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/From.9)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -16,6 +16,7 @@ fetched: 2026-10-26
 
 ## 앨범 소개
 
+From.9
 **Special Single Album**
 
 [ 음반 소개 ]
@@ -48,25 +49,25 @@ Mnet ‘아이돌학교’에서 선발된 아홉 명의 멤버로 구성된 프
 | **날짜** | **시간** | **내용** | **링크** |
 | --- | --- | --- | --- |
 | **2019년** |  |  |  |
-| **09. 29.** | 21:00 | From. fromis_9 |  |
-| **09. 30.** | 09:00 | From. fromis_9 |  |
-|  | 00:00 | From.9 Prologue |  |
-| **10. 01.** | 21:00 | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo |  |
-| **10. 02.** | 13:00 | fromis_9 - Special Single Album [From.9] 예약 판매 관련 안내 공지 |  |
-|  | 21:00 | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #이새롬 |  |
-|  |  | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #송하영 |  |
-|  |  | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #장규리 |  |
-|  |  | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #박지원 |  |
-|  |  | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #노지선 |  |
-|  |  | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #이서연 |  |
-|  |  | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #이채영 |  |
-|  |  | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #이나경 |  |
-|  |  | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #백지헌 |  |
-| **10. 04.** | 21:00 | 프로미스나인 (fromis_9) - Special Single Album [From.9] Track List |  |
-| **10. 06.** | 21:00 | 프로미스나인 (fromis_9) - Special Single Album [From.9] Highlight Medley |  |
-| **10. 07.** | 21:00 | 프로미스나인 (fromis_9) - Special Single Album [From.9] Cover Image |  |
-| **10. 08.** | 21:00 | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo 2 |  |
-| **10. 09.** | 21:00 | 프로미스나인 (fromis_9) - 'LOVE BOMB' M/V Teaser |  |
+| **09. 29.** | 21:00 | From. fromis_9 | [X Corp](https://x.com/realfromis_9/status/1046006703072829440) |
+| **09. 30.** | 09:00 | From. fromis_9 | [X Corp](https://x.com/realfromis_9/status/1046189743510188032) |
+|  | 00:00 | From.9 Prologue | [X Corp](https://x.com/realfromis_9/status/1046414151843639296) |
+| **10. 01.** | 21:00 | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo | [X Corp](https://x.com/realfromis_9/status/1046731497246416896) |
+| **10. 02.** | 13:00 | fromis_9 - Special Single Album [From.9] 예약 판매 관련 안내 공지 | [X Corp](https://x.com/realfromis_9/status/1046973948494323712) |
+|  | 21:00 | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #이새롬 | [X Corp](https://x.com/realfromis_9/status/1047093881156718592) |
+|  |  | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #송하영 | [X Corp](https://x.com/realfromis_9/status/1047094065282473985) |
+|  |  | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #장규리 | [X Corp](https://x.com/realfromis_9/status/1047094444208484353) |
+|  |  | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #박지원 | [X Corp](https://x.com/realfromis_9/status/1047094594985283585) |
+|  |  | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #노지선 | [X Corp](https://x.com/realfromis_9/status/1047094757057429504) |
+|  |  | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #이서연 | [X Corp](https://x.com/realfromis_9/status/1047094909499392001) |
+|  |  | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #이채영 | [X Corp](https://x.com/realfromis_9/status/1047095084515123200) |
+|  |  | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #이나경 | [X Corp](https://x.com/realfromis_9/status/1047095228052566016) |
+|  |  | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo #백지헌 | [X Corp](https://x.com/realfromis_9/status/1047095373452328961) |
+| **10. 04.** | 21:00 | 프로미스나인 (fromis_9) - Special Single Album [From.9] Track List | [X Corp](https://x.com/realfromis_9/status/1047818663959482368) |
+| **10. 06.** | 21:00 | 프로미스나인 (fromis_9) - Special Single Album [From.9] Highlight Medley | [X Corp](https://x.com/realfromis_9/status/1048543409080688640) |
+| **10. 07.** | 21:00 | 프로미스나인 (fromis_9) - Special Single Album [From.9] Cover Image | [X Corp](https://x.com/realfromis_9/status/1048905883864854528) |
+| **10. 08.** | 21:00 | 프로미스나인 (fromis_9) - Special Single Album [From.9] Official Photo 2 | [X Corp](https://x.com/realfromis_9/status/1049268211206606848) |
+| **10. 09.** | 21:00 | 프로미스나인 (fromis_9) - 'LOVE BOMB' M/V Teaser | [X Corp](https://x.com/realfromis_9/status/1049630618974216192) |
 
 ## 콘셉트 티저
 
@@ -741,7 +742,7 @@ Choreography Video (9 Ver.)**
 | **CD Ver.** |  |
 | --- | --- |
 | ![From.9 ALBUM PRE...](https://i.namu.wiki/i/zo713Z0nhgtHwz6PVmE5wo56vipsPpf5UAzyNst42k7kIXxaylmC5X9C-AWaUCR5Rr9x7CZZn-B_nrbCpRKQUMhB-xECRM1wmz18GSLBOGMziLbw9S-_V66VI1pgSsdOMMttZ_I72c93KcEm05Ad6w.webp) |  |
-| **가격** | ~~16,500~~ ￦13,400 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~16,500~~ ￦13,400 19% |
 | **음반 코드** | CMAC11311 |
 | **구성** | **앨범 구성품**<br>- PACKAGE OUT BOX : W150×H150 (mm) / 1종<br>- PHOTO BOOK : W146×H146 (mm) / 88P / 1종<br>- PHOTO CARD : W55×H85 (mm) / 18종 중 랜덤 2종 삽입<br>- INVITATION : W130×H70 (mm) / 9종 중 랜덤 1종 삽입<br>- MINI FOLDING POSTER : W120×H100 (mm) / 1종<br>- CD-R : 1종 |
 | [ 펼치기 · 접기 ]<br>![From.9 ALBUM PRE...](https://i.namu.wiki/i/txMbMOKOIWzHQLAbeZoMyP__RSu5mEheva70OETcN7yKmjdHqI4G8bSz8UsYZm64mvTLICa4PDRc3X9qLXg0qO7IXdlY4ag__xt5fhvTy9vygd90AUF5HyOFzNUxP_RvbfDjT8QOCmJzDtTztF5jyQ.webp) |  |
@@ -749,7 +750,7 @@ Choreography Video (9 Ver.)**
 | **KIT Ver.** |  |
 | --- | --- |
 | ![From.9 ALBUM PRE...](https://i.namu.wiki/i/1TmFbVVpVF1QU9ikiOADG2SrHf3rbMqBbwcN2445qcUZZmY3X-Piwg_gbxjqJWZwhXtjy7w9pjBGZ-Tya8sTRhh1BQ_J4wwYZ7NCM6JTgvVGEb5s3aS_kHWa0BKIzTXYhTlsM_Wm_R7NIH_jEfYbtg.webp) |  |
-| **가격** | ~~22,000~~ ￦17,800 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~22,000~~ ￦17,800 19% |
 | **음반 코드** | CMDE11313 |
 | **구성** | **앨범 구성품**<br>- COMPACT PACKAGE : W60×H90 (mm) / 1종<br>- KIHNO KIT : W60×H60 (mm) / 1종<br>- PHOTO CARD : W54×H86 (mm) / 10P / 1종 |
 | [ 펼치기 · 접기 ]<br>![From.9 ALBUM PRE...](https://i.namu.wiki/i/fHlHCa43OGyS_NRixijkqFBVnknWh39cLzireLWK50mB0T4EYLQKqH15rUlfwEIZ0yVOGCY1iXP-gqeRbaSJt_oIJ2INjLsqf4mfAXmFDeH0_gq4JjuXb-UoN8X5n6aRj5kuFYCamykNj3mHg2yyvA.webp) |  |
@@ -758,7 +759,7 @@ Choreography Video (9 Ver.)**
 
 - 프로미스나인이 대중에게 본격적으로 알려지기 시작한 앨범이다. 워낙 데뷔 초이기도 했고, 겨우 무명을 벗어나기 시작한 시점이라 당장 활동기에 이렇다 할 성과를 낸 것은 아니지만 타이틀곡이 워낙 잘 나온 덕에 오랜 시간에 걸쳐 대중에게 알려질 수 있었다. 그 덕에 행사는커녕 콘서트에서도 사장되다시피 한 [Feel Good](https://namu.wiki/w/My%20Little%20Society) 이전 곡들과 달리, 발매된 지 6년이 흐른 현재까지도 행사 세트리스트에 꾸준히 들어간다.
 
-**[선정 2018년 최고의 K-POP](https://namu.wiki/w/%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP)**
+**[빌보드빌보드](https://namu.wiki/w/%EB%B9%8C%EB%B3%B4%EB%93%9C) [선정 2018년 최고의 K-POP](https://namu.wiki/w/%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP)**
 
 [ 노래 부문 20선 ]
 
@@ -798,22 +799,22 @@ Choreography Video (9 Ver.)**
 
 | **음원 서비스** | **차트 종류** | **순위** |
 | --- | --- | --- |
-|  | 실시간 차트 | 98위 |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | 98위 |
 |  | 일간 차트 | 164위 |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | 주간 인기곡 차트 | 12위 |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 | 12위 |
 |  | 주간 뮤직비디오 차트 | 64위 |
-|  | 실시간 차트 | 83위 |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 | 83위 |
 |  | 일간 차트 | 174위 |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | FLO 차트 | - |
-|  | 실시간 차트 | **5위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | **5위** |
 |  | 일간 차트 | 26위 |
 |  | 주간 차트 | - |
-|  | 일간 차트 | 600위 |
-|  | Thailand Top Song Daily | 95위 |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 | 600위 |
+| [Spotify](https://namu.wiki/w/Spotify) | Thailand Top Song Daily | 95위 |
 |  | Thailand Top Song Weekly | 135위 |
 | [주요 음원 서비스의 〈LOVE BOMB〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/31345333)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |
 
@@ -821,42 +822,42 @@ Choreography Video (9 Ver.)**
 
 | **음원 서비스** | **차트 종류** | **순위** |
 | --- | --- | --- |
-|  | 실시간 차트 | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | 주간 인기곡 차트 | - |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 | - |
 |  | 주간 뮤직비디오 차트 | - |
-|  | 실시간 차트 | - |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | FLO 차트 | - |
-|  | 실시간 차트 | **5위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | **5위** |
 |  | 일간 차트 | 90위 |
 |  | 주간 차트 | - |
-|  | 일간 차트 | - |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 | - |
 | [주요 음원 서비스의 〈DANCING QUEEN〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/31345334)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |
 
 [ 물들어 ]
 
 | **음원 서비스** | **차트 종류** | **순위** |
 | --- | --- | --- |
-|  | 실시간 차트 | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | 주간 인기곡 차트 | - |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 | - |
 |  | 주간 뮤직비디오 차트 | - |
-|  | 실시간 차트 | - |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | FLO 차트 | - |
-|  | 실시간 차트 | **4위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | **4위** |
 |  | 일간 차트 | 87위 |
 |  | 주간 차트 | - |
-|  | 일간 차트 | - |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 | - |
 | [주요 음원 서비스의 〈물들어〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/31345335)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |
 
 - 10월 10일 19시 실시간 차트 기준, 타이틀곡 LOVE BOMB이 멜론에서 98위로 차트인함으로써, [프로미스나인](https://namu.wiki/w/%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8)은 2018년 데뷔한 여자 아이돌 중 2번째 이자 멜론 첫 차트인 했다. 지니에서는 LOVE BOMB이 83위에 올랐다. 100위권 안으로 들어온 것은 처음이다. 벅스에서는 LOVE BOMB이 20위, DANCING QUEEN이 84위, 물들어가 79위로 **전곡이 차트인 했다.** 소리바다에서는 LOVE BOMB이 99위에 올랐다. 네이버뮤직에서는 LOVE BOMB이 97위로 차트인 했다.
@@ -906,12 +907,12 @@ Choreography Video (9 Ver.)**
 | **〈LOVE BOMB〉 음악 방송 순위**[활동] |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
 | **방송명** | **1주차** | **2주차** | **3주차** | **4주차** | **5주차** | **6주차** |
-| [더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | 컴백<br>NEW<br> 2위(Choice! 후보) | - | ▼<br> 3위(Choice! 후보) | - | - |
-| [![쇼챔피언 로고(2015-201...](https://i.namu.wiki/i/43GfQlSyXP3RPefBoTOFQRMEmEvNRsJ0_vIjN4EV8S2p_1id-aVDfaKJZh7m9wzXBF8C5PDKtmlObDo3f-Xj2mVV8x_OkhN_hJm9DZb6zwbyk6nOQloCNcjGG5CTTFHo-zcwxjb2Dw1rLA4SX7rq9w.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8) | 컴백 | NEW<br> 13위(TOP 20) | - | - | - | - |
-| [엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) |  | NEW<br> 2위(엠카 차트) | 2위(엠카 차트) | ▼<br> 4위(엠카 차트) | 4위(엠카 차트) | ▼<br> 7위(엠카 차트) |
-| [![뮤직뱅크 로고(2015-201...](https://i.namu.wiki/i/RBpBtuhk60oreSoWrk6mfvUM7kCKKSwXxDaf_Lfcps5jvzYHz-6WErR4VzWa7VOwt0FRfV8WNbVj9I-X15k6ooadRyJGRWHx6us62EnFKeaQ4vIfhUsML2JNHmaLpRyi9g0HNpO4H4YcFW4NBhlOMw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) |  | - | NEW<br> 34위(K-차트) | - | - | - |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) |  | NEW<br> 20위(M-차트) | ▼<br> 34위(M-차트) | - | - | - |
-| [![SBS 인기가요 로고(2018...](https://i.namu.wiki/i/8cUuWnT_GvbgoI5NCk7dvaBdQpr_FwWGbNB7Su4QKyJnXfW3MOs2gLYBQ4hH0wjG2FNSjvCpc8SKgIvIRdJp3AlCHt1ow8ItijmKUgk3xzMgfyzmUmUk57NQkv_AcCOLugz2GtgILla004cB4QSxEg.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) | - | - | - | - | - | - |
+| [더 쇼<br>더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | 컴백<br>NEW<br> 2위(Choice! 후보) | - | ▼<br> 3위(Choice! 후보) | - | - |
+| [![쇼챔피언 로고(2015-201...](https://i.namu.wiki/i/43GfQlSyXP3RPefBoTOFQRMEmEvNRsJ0_vIjN4EV8S2p_1id-aVDfaKJZh7m9wzXBF8C5PDKtmlObDo3f-Xj2mVV8x_OkhN_hJm9DZb6zwbyk6nOQloCNcjGG5CTTFHo-zcwxjb2Dw1rLA4SX7rq9w.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8 "쇼챔피언") | 컴백 | NEW<br> 13위(TOP 20) | - | - | - | - |
+| [엠 카운트다운<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) |  | NEW<br> 2위(엠카 차트) | 2위(엠카 차트) | ▼<br> 4위(엠카 차트) | 4위(엠카 차트) | ▼<br> 7위(엠카 차트) |
+| [![뮤직뱅크 로고(2015-201...](https://i.namu.wiki/i/RBpBtuhk60oreSoWrk6mfvUM7kCKKSwXxDaf_Lfcps5jvzYHz-6WErR4VzWa7VOwt0FRfV8WNbVj9I-X15k6ooadRyJGRWHx6us62EnFKeaQ4vIfhUsML2JNHmaLpRyi9g0HNpO4H4YcFW4NBhlOMw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") |  | - | NEW<br> 34위(K-차트) | - | - | - |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) |  | NEW<br> 20위(M-차트) | ▼<br> 34위(M-차트) | - | - | - |
+| [![SBS 인기가요 로고(2018...](https://i.namu.wiki/i/8cUuWnT_GvbgoI5NCk7dvaBdQpr_FwWGbNB7Su4QKyJnXfW3MOs2gLYBQ4hH0wjG2FNSjvCpc8SKgIvIRdJp3AlCHt1ow8ItijmKUgk3xzMgfyzmUmUk57NQkv_AcCOLugz2GtgILla004cB4QSxEg.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") | - | - | - | - | - | - |
 
 - [2018년](https://namu.wiki/w/2018%EB%85%84) [10월 16일](https://namu.wiki/w/10%EC%9B%94%2016%EC%9D%BC), [더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC)에서 데뷔 이래 첫 [음악 방송](https://namu.wiki/w/%EC%9D%8C%EC%95%85%20%EB%B0%A9%EC%86%A1) 1위 후보에 올랐으며 2위를 기록했다.[7]
 
@@ -959,4 +960,4 @@ Choreography Video (9 Ver.)**
 | --- | --- | --- | --- | --- |
 | **뮤지션** | [K팝 매니아](https://namu.wiki/w/%EB%8D%94%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4%20:%20%EC%97%B0%EC%A3%BC%EB%A1%9C%20%EC%A6%90%EA%B8%B0%EB%8A%94%20%EC%9D%8C%EC%95%85/%EB%AE%A4%EC%A7%80%EC%85%98%EC%A6%88%20%EC%88%98%EB%A1%9D%EA%B3%A1/K%ED%8C%9D%20%EB%A7%A4%EB%8B%88%EC%95%84) |  |  |  |
 | **BPM** | 140 |  |  |  |
-| **악기** | 피아노 |  |  |  |
+| **악기** | 피아노 <br>[더플레이어 MR+](https://namu.wiki/w/%EB%8D%94%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4%20:%20%EC%97%B0%EC%A3%BC%EB%A1%9C%20%EC%A6%90%EA%B8%B0%EB%8A%94%20%EC%9D%8C%EC%95%85#MR%2B) |  |  |  |

@@ -2,7 +2,7 @@
 title: "LOVE BOMB (Japanese ver.)"
 source: https://namu.wiki/w/LOVE%20BOMB%20(Japanese%20ver.)
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-26
+fetched: 2026-10-28
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/LOVE%20BOMB%20(Japanese%20ver.))의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 

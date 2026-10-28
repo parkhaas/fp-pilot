@@ -2,7 +2,7 @@
 title: "9 WAY TICKET"
 source: https://namu.wiki/w/9%20WAY%20TICKET
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-26
+fetched: 2026-10-28
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/9%20WAY%20TICKET)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -19,6 +19,7 @@ fetched: 2026-10-26
 
 ## 앨범 소개
 
+9 WAY TICKET
 **The 2nd Single Album**
 
 [ 음반 소개 ]
@@ -60,51 +61,51 @@ fetched: 2026-10-26
 | **날짜** | **시간** | **내용** | **링크** |
 | --- | --- | --- | --- |
 | **2021년** |  |  |  |
-| **05. 03.** | 21:00 | 프로미스나인(fromis_9) The 2nd Single Album '9 WAY TICKET' Release on 2021.05.17 6PM |  |
-| **05. 04.** | 13:00 | The 2nd Single Album '9 WAY TICKET' 예약 판매 안내 공지 |  |
-|  | 21:00 | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #이새롬 |  |
-|  |  | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #장규리 |  |
-|  |  | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #이서연 |  |
-| **05. 05.** | 21:00 | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #박지원 |  |
-|  |  | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #이채영 |  |
-|  |  | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #백지헌 |  |
-| **05. 06.** | 21:00 | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #노지선 |  |
-|  |  | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #송하영 |  |
-|  |  | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #이나경 |  |
-| **05. 07.** | 21:00 | '9 WAY TICKET' 🚗 Concept Film 'TICKET TO SEOUL' Ver. |  |
-| **05. 08.** | 13:24 | D-9 fromis_9 ✈️ flover (Voice Message) |  |
-|  | 21:00 | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #노지선 |  |
-|  |  | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #백지헌 |  |
-|  |  | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #송하영 |  |
-| **05. 09.** | 13:24 | D-8 fromis_9 ✈️ flover (Voice Message) |  |
-|  | 21:00 | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #장규리 |  |
-|  |  | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #이채영 |  |
-|  |  | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #박지원 |  |
-| **05. 10.** | 13:24 | D-7 fromis_9 ✈️ flover (Voice Message) |  |
-|  | 21:00 | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #이새롬 |  |
-|  |  | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #이서연 |  |
-|  |  | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #이나경 |  |
-| **05. 11.** | 13:24 | D-6 fromis_9 ✈️ flover (Voice Message) |  |
-|  | 15:00 | The 2nd Single Album '9 WAY TICKET' 앨범 상세 이미지 안내 공지 |  |
-|  | 21:00 | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #노지선 |  |
-|  |  | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #백지헌 |  |
-|  |  | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #송하영 |  |
-|  |  | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #장규리 |  |
-|  |  | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #이채영 |  |
-|  |  | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #박지원 |  |
-|  |  | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #이새롬 |  |
-|  |  | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #이서연 |  |
-|  |  | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #이나경 |  |
-| **05. 12.** | 13:24 | D-5 fromis_9 ✈️ flover (Voice Message) |  |
-|  | 21:00 | '9 WAY TICKET'📍 TRACK LIST |  |
-| **05. 13.** | 13:24 | D-4 fromis_9 ✈️ flover (Voice Message) |  |
-|  | 21:00 | '9 WAY TICKET'📍 HIGHLIGHT MEDLEY |  |
-| **05. 14.** | 13:24 | D-3 fromis_9 ✈️ flover (Voice Message) |  |
-|  | 21:00 | '9 WAY TICKET'📍 'WE GO' M/V Teaser 1 |  |
-| **05. 15.** | 13:24 | D-2 fromis_9 ✈️ flover (Voice Message) |  |
-|  | 21:00 | '9 WAY TICKET'📍 'WE GO' M/V Teaser 2 |  |
-| **05. 16.** | 13:24 | D-1 fromis_9 ✈️ flover (Voice Message) |  |
-|  | 21:00 | '9 WAY TICKET'📍 Cover Image |  |
+| **05. 03.** | 21:00 | 프로미스나인(fromis_9) The 2nd Single Album '9 WAY TICKET' Release on 2021.05.17 6PM | [X Corp](https://x.com/realfromis_9/status/1389187986311421952) |
+| **05. 04.** | 13:00 | The 2nd Single Album '9 WAY TICKET' 예약 판매 안내 공지 | [X Corp](https://x.com/realfromis_9/status/1389429986868690944) |
+|  | 21:00 | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #이새롬 | [X Corp](https://x.com/realfromis_9/status/1389550381122801665) |
+|  |  | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #장규리 | [X Corp](https://x.com/realfromis_9/status/1389550422256455689) |
+|  |  | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #이서연 | [X Corp](https://x.com/realfromis_9/status/1389550472227348488) |
+| **05. 05.** | 21:00 | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #박지원 | [X Corp](https://x.com/realfromis_9/status/1389912771412774914) |
+|  |  | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #이채영 | [X Corp](https://x.com/realfromis_9/status/1389912796658290688) |
+|  |  | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #백지헌 | [X Corp](https://x.com/realfromis_9/status/1389912828862074882) |
+| **05. 06.** | 21:00 | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #노지선 | [X Corp](https://x.com/realfromis_9/status/1390275149790842881) |
+|  |  | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #송하영 | [X Corp](https://x.com/realfromis_9/status/1390275186079911936) |
+|  |  | '9 WAY TICKET' 🚗 Official Photo 'TICKET TO SEOUL' Ver. #이나경 | [X Corp](https://x.com/realfromis_9/status/1390275219688886274) |
+| **05. 07.** | 21:00 | '9 WAY TICKET' 🚗 Concept Film 'TICKET TO SEOUL' Ver. | [X Corp](https://x.com/realfromis_9/status/1390637552206450688) |
+| **05. 08.** | 13:24 | D-9 fromis_9 ✈️ flover (Voice Message) | [X Corp](https://x.com/realfromis_9/status/1390885168555118592) |
+|  | 21:00 | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #노지선 | [X Corp](https://x.com/realfromis_9/status/1390999931545022465) |
+|  |  | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #백지헌 | [X Corp](https://x.com/realfromis_9/status/1390999977296465920) |
+|  |  | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #송하영 | [X Corp](https://x.com/realfromis_9/status/1391000009915592710) |
+| **05. 09.** | 13:24 | D-8 fromis_9 ✈️ flover (Voice Message) | [X Corp](https://x.com/realfromis_9/status/1391247556257230848) |
+|  | 21:00 | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #장규리 | [X Corp](https://x.com/realfromis_9/status/1391362316952752131) |
+|  |  | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #이채영 | [X Corp](https://x.com/realfromis_9/status/1391362347722108930) |
+|  |  | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #박지원 | [X Corp](https://x.com/realfromis_9/status/1391362378705424384) |
+| **05. 10.** | 13:24 | D-7 fromis_9 ✈️ flover (Voice Message) | [X Corp](https://x.com/realfromis_9/status/1391609944131047425) |
+|  | 21:00 | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #이새롬 | [X Corp](https://x.com/realfromis_9/status/1391724702444392460) |
+|  |  | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #이서연 | [X Corp](https://x.com/realfromis_9/status/1391724747784744963) |
+|  |  | '9 WAY TICKET' ✈️ Official Photo '9 TRAVELERS' Ver. #이나경 | [X Corp](https://x.com/realfromis_9/status/1391724780387061769) |
+| **05. 11.** | 13:24 | D-6 fromis_9 ✈️ flover (Voice Message) | [X Corp](https://x.com/realfromis_9/status/1391972332009312259) |
+|  | 15:00 | The 2nd Single Album '9 WAY TICKET' 앨범 상세 이미지 안내 공지 | [X Corp](https://x.com/realfromis_9/status/1391996492009795587) |
+|  | 21:00 | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #노지선 | [X Corp](https://x.com/realfromis_9/status/1392087107292721153) |
+|  |  | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #백지헌 | [X Corp](https://x.com/realfromis_9/status/1392087356581158917) |
+|  |  | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #송하영 | [X Corp](https://x.com/realfromis_9/status/1392087604724572160) |
+|  |  | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #장규리 | [X Corp](https://x.com/realfromis_9/status/1392087860824535043) |
+|  |  | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #이채영 | [X Corp](https://x.com/realfromis_9/status/1392088113141354496) |
+|  |  | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #박지원 | [X Corp](https://x.com/realfromis_9/status/1392088360462675971) |
+|  |  | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #이새롬 | [X Corp](https://x.com/realfromis_9/status/1392088616361357316) |
+|  |  | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #이서연 | [X Corp](https://x.com/realfromis_9/status/1392088867033862145) |
+|  |  | '9 WAY TICKET' ✈️ Concept Film '9 TRAVELERS' Ver. #이나경 | [X Corp](https://x.com/realfromis_9/status/1392089123054256128) |
+| **05. 12.** | 13:24 | D-5 fromis_9 ✈️ flover (Voice Message) | [X Corp](https://x.com/realfromis_9/status/1392334719962935297) |
+|  | 21:00 | '9 WAY TICKET'📍 TRACK LIST | [X Corp](https://x.com/realfromis_9/status/1392449486228660228) |
+| **05. 13.** | 13:24 | D-4 fromis_9 ✈️ flover (Voice Message) | [X Corp](https://x.com/realfromis_9/status/1392697107799183365) |
+|  | 21:00 | '9 WAY TICKET'📍 HIGHLIGHT MEDLEY | [X Corp](https://x.com/realfromis_9/status/1392811881379688455) |
+| **05. 14.** | 13:24 | D-3 fromis_9 ✈️ flover (Voice Message) | [X Corp](https://x.com/realfromis_9/status/1393059495627079680) |
+|  | 21:00 | '9 WAY TICKET'📍 'WE GO' M/V Teaser 1 | [X Corp](https://x.com/realfromis_9/status/1393174261259513856) |
+| **05. 15.** | 13:24 | D-2 fromis_9 ✈️ flover (Voice Message) | [X Corp](https://x.com/realfromis_9/status/1393421884448935941) |
+|  | 21:00 | '9 WAY TICKET'📍 'WE GO' M/V Teaser 2 | [X Corp](https://x.com/realfromis_9/status/1393536643093516295) |
+| **05. 16.** | 13:24 | D-1 fromis_9 ✈️ flover (Voice Message) | [X Corp](https://x.com/realfromis_9/status/1393784271375003651) |
+|  | 21:00 | '9 WAY TICKET'📍 Cover Image | [X Corp](https://x.com/realfromis_9/status/1393899031466680323) |
 
 ## 콘셉트 티저
 
@@ -462,7 +463,9 @@ Special Video (Hand Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=qQ3fFC6bw2I)
 
-**02 2:56
+**WE GO
+
+02 2:56
 
 TITLE
 
@@ -902,7 +905,7 @@ Forever forever 간직할 얘기
 | **TICKET TO SEOUL / 9 TRAVELERS Ver.** |  |
 | --- | --- |
 | ![9 WAY TICKET ALB...](https://i.namu.wiki/i/qy4C2s_9xwO1rTWe924d61Pe208qmzn4g977OtVnXaDK3EsTsOzFP3A_9FwxEJZ3Vreft3Nj6c4ZRhEf9BuYhDwCcHwjjKMJO4pt_dGZL_Duhub5V-zoOsMyyBqFP6V2mCGIEKlIXpEBYHQoTuNH8A.webp) |  |
-| **가격** | ~~18,500~~ ￦14,900 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~18,500~~ ￦14,900 19% |
 | **음반 코드** | CMDC11638 |
 | **구성** | **앨범 구성품 (TICKET TO SEOUL ver. / 9 TRAVELERS ver.)**<br>- PHOTO BOOK : W150×H200 (mm) / 80P / 1종 (버전별 이미지 상이)<br>- PHOTO CARD : W55×H85 (mm) / 18종 중 랜덤 2종 삽입 (버전별 이미지 상이)<br>- ID CARD : W100×H70 (mm) / 9종 중 랜덤 1종 삽입<br>- POST CARD : W100×H150 (mm) / 9종 중 랜덤 1종 삽입<br>- POSTER : W594×H420 (mm) / 1종 ※초회 한정 증정<br>- CD-R : 1종 |
 | [ 펼치기 · 접기 ]<br>![9 WAY TICKET ALB...](https://i.namu.wiki/i/TI_TV1klI03j_kQIvwJT3wYnaG-CeKqq7nmoSR_Sjgb3uOc2M97Z4EOmOOfAa_WQcY-A5XpXqrJSSdSXcL827Cim48lqCbkwTw5AtLubEOtgvGYshlGs4Xpx9wLPDh4YcTTKjLhlm2mlL5uJOzp36Q.webp) |  |
@@ -910,7 +913,7 @@ Forever forever 간직할 얘기
 | **KIT Ver.** |  |
 | --- | --- |
 | ![9 WAY TICKET ALB...](https://i.namu.wiki/i/SWBd0Uqw5e6oDRf3Ny9QYB4se12zt_ULpyUHUcnC72uEE7z10pRDmzyXAHtRdCcAUkVY1IvEK5rGoDn8IT9GhpfRnKLZI7W-6jQ_iLn1c-vAGZH7HQ2ublaRH3Jgpj7AKWQjzmRpLIXsE6i1N_gZFA.webp) |  |
-| **가격** | ~~26,900~~ ￦21,800 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~26,900~~ ￦21,800 19% |
 | **음반 코드** | CMDE11641 |
 | **구성** | **앨범 구성품**<br>- PACKAGE OUT BOX : W100×H134×D36 (mm) / 1종<br>- TITLE & CREDIT CARD : W90×H123 (mm) / 1종<br>- AIR KIT : W60×H60×D13 (mm) / 1종<br>- POST CARD : W90×H123 (mm) / 1종<br>- PHOTO CARD : W54×H86 (mm) / 18종 ※키트 독점 |
 | [ 펼치기 · 접기 ]<br>![9 WAY TICKET ALB...](https://i.namu.wiki/i/13B-Y_bzrRkpz--fUxpcrLoYYDTaEby-mJKJOhhssD7Ze6rhjG-zm853vIwWIYBXWMzD0r8jrRewCtxHPwOODe7Z97vN6UnDAN1i5rVzCdFSnSjyeKz2zbSA_IMKfKPQL6cNpq2e7cewWYnT6WwU9Q.webp) |  |
@@ -919,7 +922,7 @@ Forever forever 간직할 얘기
 
 - 전작 [My Little Society](https://namu.wiki/w/My%20Little%20Society)에서 이어진 SNS 시리즈의 속편이지만 둘의 느낌이 상당히 다르다. [Feel Good (SECRET CODE)](https://namu.wiki/w/Feel%20Good%20(SECRET%20CODE))가 비밀 계정으로 누군가를 초대하는 컨셉이라면 이번 WE GO는 내가 SNS을 통해 [지금은 갈 수 없는](https://namu.wiki/w/%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4%EA%B0%90%EC%97%BC%EC%A6%9D-19) 여러 나라를 돌아다니며 화자와 함께한다는 컨셉이다.
 
-**[선정 2021년 최고의 K-POP](https://namu.wiki/w/%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP)**
+**[빌보드빌보드](https://namu.wiki/w/%EB%B9%8C%EB%B3%B4%EB%93%9C) [선정 2021년 최고의 K-POP](https://namu.wiki/w/%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP)**
 
 [ 노래 부문 25선 ]
 
@@ -950,25 +953,25 @@ Forever forever 간직할 얘기
 
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | --- | --- | --- | --- |
-|  | TOP 100 |  | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | - |
 |  | 실시간 차트 |  | - |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
-|  | 주간 인기곡 차트 |  | - |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | - |
 |  | 주간 뮤직비디오 차트 |  | - |
-|  | 실시간 차트 |  | 93위 |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 93위 |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
-|  | FLO 차트 |  | - |
-|  | 실시간 차트 |  | **4위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **4위** |
 |  | 일간 차트 |  | 21위 |
 |  | 주간 차트 |  | - |
-|  | 일간 차트 |  | 395위 |
-|  | 일간 차트 |  | - |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 395위 |
+| [Spotify](https://namu.wiki/w/Spotify) | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
-|  | 가온 지수(주간) |  | - |
+| [가온차트](https://namu.wiki/w/%EA%B0%80%EC%98%A8%EC%B0%A8%ED%8A%B8) | 가온 지수(주간) |  | - |
 |  | 가온 지수(월간) |  | - |
 | [주요 음원 서비스의 〈Airplane Mode〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/33487707)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |  |
 
@@ -976,25 +979,25 @@ Forever forever 간직할 얘기
 
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | --- | --- | --- | --- |
-|  | TOP 100 |  | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | - |
 |  | 실시간 차트 |  | 92위 |
 |  | 일간 차트 |  | 108위 |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
-|  | 주간 인기곡 차트 |  | 15위 |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | 15위 |
 |  | 주간 뮤직비디오 차트 |  | 26위 |
-|  | 실시간 차트 |  | **4위** |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | **4위** |
 |  | 일간 차트 |  | 14위 |
 |  | 주간 차트 |  | 108위 |
 |  | 월간 차트 |  | 120위 |
-|  | FLO 차트 |  | 50위 |
-|  | 실시간 차트 |  | **1위**[2] |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | 50위 |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **1위**[2] |
 |  | 일간 차트 |  | **3위** |
 |  | 주간 차트 |  | 24위 |
-|  | 일간 차트 |  | 38위 |
-|  | 일간 차트 |  | 29위 |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 38위 |
+| [Spotify](https://namu.wiki/w/Spotify) | 일간 차트 |  | 29위 |
 |  | 주간 차트 |  | 35위 |
-|  | 가온 지수(주간) |  | 106위 |
+| [가온차트](https://namu.wiki/w/%EA%B0%80%EC%98%A8%EC%B0%A8%ED%8A%B8) | 가온 지수(주간) |  | 106위 |
 |  | 가온 지수(월간) |  | - |
 | [주요 음원 서비스의 〈WE GO〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/33487708)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |  |
 
@@ -1002,25 +1005,25 @@ Forever forever 간직할 얘기
 
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | --- | --- | --- | --- |
-|  | TOP 100 |  | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | - |
 |  | 실시간 차트 |  | - |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
-|  | 주간 인기곡 차트 |  | - |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | - |
 |  | 주간 뮤직비디오 차트 |  | - |
-|  | 실시간 차트 |  | 126위 |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 126위 |
 |  | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
-|  | FLO 차트 |  | - |
-|  | 실시간 차트 |  | **5위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **5위** |
 |  | 일간 차트 |  | 37위 |
 |  | 주간 차트 |  | - |
-|  | 일간 차트 |  | - |
-|  | 일간 차트 |  | - |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | - |
+| [Spotify](https://namu.wiki/w/Spotify) | 일간 차트 |  | - |
 |  | 주간 차트 |  | - |
-|  | 가온 지수(주간) |  | - |
+| [가온차트](https://namu.wiki/w/%EA%B0%80%EC%98%A8%EC%B0%A8%ED%8A%B8) | 가온 지수(주간) |  | - |
 |  | 가온 지수(월간) |  | - |
 | [주요 음원 서비스의 〈Promise〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/33487709)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |  |
 

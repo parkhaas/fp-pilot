@@ -18,6 +18,7 @@ const crypto = require("crypto");
 const cheerio = require("cheerio");
 const { marked } = require("marked");
 const sharp = require("sharp");
+const { hidePointers, isPointerOnly } = require("./lib/pointers");
 
 const ROOT = __dirname;
 const SRC = path.join(ROOT, "source");
@@ -41,6 +42,18 @@ const norm = (t) => t.toLowerCase().replace(/[^0-9a-z가-힣]+/g, "");
 /* ---------- 마크다운 → 안전한 HTML ---------- */
 const ALLOWED = new Set(["p", "br", "ul", "ol", "li", "table", "thead", "tbody", "tr", "th", "td", "a", "strong", "em", "del", "h3", "h4", "h5", "blockquote", "code", "hr"]);
 
+// 나무위키 링크를 사이트 안 주소로 바꾸기 위한 표 (실행할 때 채운다): 정규화한 문서명 → 슬러그 / 앨범 id
+const LINKS = { docs: {}, albums: {} };
+
+// 나무위키 주소가 사이트 안 문서·앨범으로 이어지는지
+const resolvable = (url) => {
+  const m = url.match(/^https?:\/\/namu\.wiki\/w\/([^#?]+)/);
+  if (!m) return false;
+  const t = decodeURIComponent(m[1]);
+  const k = norm(t.replace(/\(프로미스나인\)$/, ""));
+  return !!(LINKS.docs[k] || LINKS.docs[norm(t)] || LINKS.albums[k]);
+};
+
 function sanitize(html) {
   const $ = cheerio.load(`<div id="r">${html}</div>`, null, false);
   $("#r *").each((i, e) => {
@@ -52,7 +65,18 @@ function sanitize(html) {
     for (const a of Object.keys(e.attribs)) if (!(tag === "a" && a === "href")) delete e.attribs[a];
     if (tag === "a") {
       const h = e.attribs.href || "";
-      if (!/^https?:\/\//.test(h)) $(e).replaceWith($(e).contents());
+      const wiki = h.match(/^https?:\/\/namu\.wiki\/w\/([^#?]+)/);
+      if (wiki) {
+        // 나무위키 링크: 사이트 안에 같은 문서가 있으면 그쪽으로, 없으면 링크를 풀어 글자만 남긴다
+        const t = decodeURIComponent(wiki[1]).replace(/\(프로미스나인\)$/, "");
+        const doc = LINKS.docs[norm(t)] || LINKS.docs[norm(decodeURIComponent(wiki[1]))];
+        const album = LINKS.albums[norm(t)];
+        if (doc) {
+          e.attribs = { href: `?view=discography&doc=${encodeURIComponent(doc)}`, "data-doc": doc };
+        } else if (album) {
+          e.attribs = { href: `?view=discography&album=${encodeURIComponent(album)}`, "data-album": album };
+        } else $(e).replaceWith($(e).contents());
+      } else if (!/^https?:\/\//.test(h) || /^https?:\/\/namu\.wiki\//.test(h)) $(e).replaceWith($(e).contents()); // 상대 주소, /w/ 가 아닌 나무위키 주소(이력 등)
       else {
         e.attribs.target = "_blank";
         e.attribs.rel = "noopener noreferrer";
@@ -68,12 +92,31 @@ function sanitize(html) {
   $("p,li").each((i, t) => {
     if (!$(t).text().trim() && !$(t).find("a").length) $(t).remove();
   });
+  // 연도 구분 행("2019년" 뒤로 빈 칸이 이어지는 행)과 표 맨 위의 제목 행은 한 칸으로 합친다. 마크다운 표에는 colspan 이 없어 칸이 쪼개져 있다.
+  $("table").each((i, t) => {
+    $(t).find("tr").each((ri, tr) => {
+      const cells = $(tr).children("th,td").toArray();
+      if (cells.length < 2) return;
+      const first = $(cells[0]).text().trim();
+      const restEmpty = cells.slice(1).every((c) => !$(c).text().trim());
+      const firstRow = $(tr).prevAll("tr").length === 0;
+      if (!restEmpty || !first) return;
+      // 연도 행, 표 맨 위 제목 행, 그리고 날짜가 아닌 글자만 있는 구분 행(앨범명 등)
+      const subRow = cells.length > 2 && !/^[\d.~\s월일:()-]*$/.test(first);
+      if (/^\d{4}\s*년?$/.test(first) || (firstRow && cells.length > 2) || subRow) {
+        $(cells[0]).attr("colspan", String(cells.length));
+        $(tr).addClass(/^\d{4}/.test(first) ? "dg-yearrow" : "dg-titlerow");
+        cells.slice(1).forEach((c) => $(c).remove());
+      }
+    });
+  });
   // 유튜브 링크가 든 표(멤버별 영상 등)는 "이름 + 재생 버튼" 목록으로 바꾼다.
   // 표는 [링크 행, 이름 행]이 번갈아 나오므로 같은 칸 위치의 아래 행을 이름으로 쓴다.
   $("table").each((i, t) => {
     const rows = $(t).find("tr").toArray().map((tr) => $(tr).children("th,td").toArray());
     const isYt = (c) => $(c).find('a[href*="youtube.com/watch"]').length > 0;
-    if (!rows.some((r) => r.some(isYt))) return;
+    // 첫 행이 영상 링크(또는 빈 칸)뿐인 표만 목록으로 바꾼다. 날짜·제목이 있는 일반 표(방송·웹 콘텐츠 등)는 그대로 둔다.
+    if (!rows.length || !rows[0].some(isYt) || !rows[0].every((c) => isYt(c) || !$(c).text().trim())) return;
     const items = [];
     rows.forEach((r, ri) => {
       r.forEach((c, ci) => {
@@ -102,11 +145,29 @@ function sanitize(html) {
   return $("#r").html().trim();
 }
 
+// 국기 이미지: 사이트에는 작은 svg 만 data/discography/flags/ 로 내려받아 쓴다 (이름 → 원본 주소)
+const FLAGS = new Map();
+const flagName = (alt) => slugify(alt.replace(/\s*국기.*$/, "")) || "flag";
+const flagImg = (name, label) => `<img class="dg-nation" src="data/discography/flags/${name}.svg" alt="${label}" title="${label}" height="14">`;
+
 function mdToHtml(md) {
   const noImg = md
-    .replace(/!\[[^\]]*\]\([^)]*\)/g, "") // 이미지는 싣지 않는다(커버만 따로 저장)
-    .replace(/^\[ (?:펼치기 · 접기|펼치기|접기) \]\s*$/gm, "");
-  return sanitize(marked.parse(noImg, { gfm: true, breaks: false }));
+    // 국기 이미지(링크로 감싼 것 포함)는 자리표시로 바꿔 두었다가 sanitize 뒤에 <img> 로 넣는다
+    .replace(/\[?!\[([^\]]*국기)\]\(([^)\s]+)\)(?:\]\((?:[^()\s]|\([^()]*\))+(?: "[^"]*")?\))?/g, (m, alt, src) => {
+      const n = flagName(alt);
+      FLAGS.set(n, src);
+      return `@@FLAG:${n}:${alt.replace(/[@:]/g, "")}@@`;
+    })
+    // 이미지로만 된 문서 링크 [![alt](이미지)](주소 "문서 이름"): 이미지는 빼고 문서 이름을 글자로 남긴다 (표의 방송·채널·앨범 칸)
+    .replace(/\[!\[([^\]]*)\]\([^)]*\)\]\(((?:[^()\s]|\([^()]*\))+)(?: "([^"]*)")?\)/g, (m, alt, url, title) => {
+      const label = (title || alt || "").replace(/^\[+|\]+$/g, "").replace(/\([^)]*\)\s*$/, "").replace(/\s*(로고|아이콘).*$/, "").trim();
+      return label ? `[${label}](${url})` : "";
+    })
+    // 이미지는 싣지 않는다(커버·프로필만 따로 저장). 다만 방송·채널 "로고" 이미지는 이름표 역할이라 alt 글자로 대신한다.
+    .replace(/!\[([^\]]*)\]\([^)]*\)/g, (m, alt) => (/로고\s*$|로고[ (]/.test(alt) ? alt.replace(/\([^)]*\)/g, "").replace(/\s*로고.*$/, "").trim() : ""))
+    .replace(/^\[ (?:펼치기 · 접기|펼치기|접기) \]\s*$/gm, "")
+    .replace(/(\S)\[\d{1,3}\](?!\()/g, "$1"); // 각주 번호([13] 등)는 각주 본문을 싣지 않으므로 뺀다
+  return sanitize(marked.parse(noImg, { gfm: true, breaks: false })).replace(/@@FLAG:([^:@]+):([^@]*)@@/g, (m, n, label) => flagImg(n, label));
 }
 
 const plain = (s) =>
@@ -229,6 +290,156 @@ function parseMain(md) {
   return { albums, extras };
 }
 
+/* ---------- 그룹 문서의 멤버 소개: 5열 표 대신 나이순 세로 카드 ---------- */
+function memberSection(md, profilePath) {
+  const dotted = (s) => {
+    const m = (s || "").match(/(\d{4})\.\s*(\d{2})\.\s*(\d{2})/);
+    return m ? `${m[1]}-${m[2]}-${m[3]}` : "";
+  };
+  const ageOf = (iso) => {
+    const b = new Date(iso);
+    const n = new Date();
+    let a = n.getFullYear() - b.getFullYear();
+    if (n.getMonth() < b.getMonth() || (n.getMonth() === b.getMonth() && n.getDate() < b.getDate())) a--;
+    return a;
+  };
+  const rows = (t) => t.split("\n").filter((l) => l.startsWith("|"));
+  const [curPart, formerPart = ""] = md.split(/\n### 전 멤버\n/);
+
+  const members = [];
+  const ct = rows(curPart); // 사진 / 구분선 / 이름 / 생년월일·포지션 / 참고 사항
+  if (ct.length >= 4) {
+    const names = splitRow(ct[2]);
+    const info = splitRow(ct[3]);
+    names.forEach((n, i) => {
+      const parts = (info[i] || "").split(/<br>/).map((x) => x.trim()).filter(Boolean);
+      members.push({
+        name: plain(n),
+        birth: dotted(parts[0]),
+        pos: parts.slice(1).filter((p) => !/국기/.test(p)).map((p) => p.replace(/\*\*/g, "").trim()).filter(Boolean),
+        flag: (() => {
+          const fm = (parts.find((p) => /국기/.test(p)) || "").match(/!\[([^\]]*국기)\]\(([^)\s]+)\)/);
+          if (!fm) return null;
+          FLAGS.set(flagName(fm[1]), fm[2]);
+          return { name: flagName(fm[1]), label: fm[1] };
+        })(),
+        status: "current",
+      });
+    });
+  }
+  for (const l of rows(formerPart).slice(2)) {
+    const [n, b, p, out] = splitRow(l);
+    members.push({
+      name: plain(n),
+      birth: dotted(b),
+      pos: plain(p).split(/[,/]/).map((x) => x.trim()).filter(Boolean),
+      left: dotted(out),
+      status: "former",
+    });
+  }
+
+  const noteCell = ct[4] ? splitRow(ct[4])[0] : "";
+  const noteMd = noteCell.replace(/<br>\s*(?=- )/g, "\n\n").replace(/<br>/g, "\n\n");
+  const noteHtml = noteMd ? mdToHtml(noteMd) : "";
+
+  const card = (m) => {
+    const slug = LINKS.docs[norm(m.name)];
+    const img = slug && profilePath[slug];
+    const link = (inner, cls) => (slug ? `<a class="${cls}" href="?view=discography&doc=${encodeURIComponent(slug)}" data-doc="${slug}">${inner}</a>` : inner);
+    return (
+      `<li class="dg-member">` +
+      link(img ? `<img src="data/discography/${img}" alt="${m.name} 프로필 사진" loading="lazy" decoding="async">` : `<span class="dg-member-noimg"></span>`, "dg-member-photo") +
+      `<div class="dg-member-info"><h4>${link(m.name, "dg-member-name")}</h4>` +
+      (m.birth ? `<p class="dg-member-birth">${m.flag ? flagImg(m.flag.name, m.flag.label) : ""}${m.birth.replace(/-/g, ".")} (${ageOf(m.birth)}세)</p>` : "") +
+      (m.pos.length ? `<p class="dg-member-pos">${m.pos.map((p) => `<span>${p}</span>`).join("")}</p>` : "") +
+      (m.left ? `<p class="dg-member-left">탈퇴 ${m.left.replace(/-/g, ".")}</p>` : "") +
+      `</div></li>`
+    );
+  };
+  const list = (st) =>
+    `<ul class="dg-members">${members
+      .filter((m) => m.status === st)
+      .sort((a, b) => a.birth.localeCompare(b.birth)) // 나이순(생년월일이 빠른 순)
+      .map(card)
+      .join("")}</ul>`;
+
+  return (
+    `<h3>현재 멤버</h3>${list("current")}` +
+    (noteHtml ? `<details class="dg-note"><summary>포지션 관련 참고 사항</summary><div class="dg-prose">${noteHtml}</div></details>` : "") +
+    `<h3>전 멤버</h3>${list("former")}`
+  );
+}
+
+/* ---------- 멤버 인물 정보 표 (extract-profile-info.js 가 만든 source/profile-info.json) ---------- */
+const escHtml = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+function zodiac(month, day) {
+  const edges = [[1, 20, "염소자리"], [2, 19, "물병자리"], [3, 21, "물고기자리"], [4, 20, "양자리"], [5, 21, "황소자리"], [6, 22, "쌍둥이자리"], [7, 23, "게자리"], [8, 23, "사자자리"], [9, 24, "처녀자리"], [10, 24, "천칭자리"], [11, 23, "전갈자리"], [12, 22, "사수자리"]];
+  let name = "염소자리";
+  for (const [m, d, n] of edges) if (month > m || (month === m && day >= d)) name = n;
+  return name;
+}
+
+// 조각 목록 → 안전한 HTML. signFiles: 서명 이미지 { light, dark } (저장된 상대 경로)
+function renderInfoParts(parts, ctx) {
+  return parts
+    .map((p) => {
+      if (p.t === "text") return escHtml(p.v);
+      if (p.t === "br") return "<br>";
+      if (p.t === "img") {
+        if (/국기/.test(p.alt)) {
+          FLAGS.set(flagName(p.alt), p.src);
+          return flagImg(flagName(p.alt), p.alt);
+        }
+        return ""; // 서명 등 그 밖의 이미지는 따로 처리
+      }
+      if (p.t === "a") {
+        const inner = renderInfoParts(p.parts, ctx);
+        const wiki = p.href.match(/^https?:\/\/namu\.wiki\/w\/([^#?]+)/);
+        if (wiki) {
+          const t = decodeURIComponent(wiki[1]).replace(/\(프로미스나인\)$/, "");
+          const doc = LINKS.docs[norm(t)];
+          return doc ? `<a href="?view=discography&doc=${encodeURIComponent(doc)}" data-doc="${doc}">${inner}</a>` : inner;
+        }
+        if (!/^https?:\/\//.test(p.href)) return inner;
+        // 아이콘뿐인 외부 링크(인스타그램 등): 이름표 글자를 붙인다
+        const icon = p.parts.find((x) => x.t === "img");
+        const label = inner.replace(/<[^>]*>/g, "").trim() || (icon ? icon.alt.replace(/\s*(아이콘|로고).*$/, "").trim() : "") || new URL(p.href).hostname.replace(/^www\./, "");
+        return `<a class="dg-ext" href="${escHtml(p.href)}" target="_blank" rel="noopener noreferrer">${inner.replace(/<[^>]*>/g, "").trim() ? inner : escHtml(label)}</a>`;
+      }
+      return "";
+    })
+    .join("");
+}
+
+function buildInfo(slug, info, signFiles) {
+  if (!info) return undefined;
+  const rows = [];
+  for (const r of info.rows) {
+    let html;
+    if (r.k === "서명") {
+      const s = signFiles[slug];
+      if (!s) continue;
+      html = `<img class="dg-sign" src="data/discography/${s.light}" alt="${escHtml(info.name.ko)} 서명">` + (s.dark ? `<img class="dg-sign dg-sign-dark" src="data/discography/${s.dark}" alt="">` : "");
+    } else {
+      html = renderInfoParts(r.parts, {});
+    }
+    html = html.replace(/\[\s*이전 소속사[^\]]*\]/g, "").replace(/(<br>)+$/, "").replace(/^(<br>)+/, "").trim();
+    html = html.replace(/\(데뷔일로부터[^)]*\)/g, "").replace(/(<br>\s*){2,}/g, "<br>").replace(/(<br>\s*)+$/, "");
+    if (r.k === "링크") html = html.replace(/<\/a><a /g, "</a> <a ");
+    // 상징 색: 색 견본을 붙인다
+    if (/상징\s*색/.test(r.k)) html = html.replace(/(#[0-9A-Fa-f]{6})/, '<i class="dg-swatch" style="background:$1"></i>$1');
+    if (!html.replace(/<[^>]*>/g, "").trim() && !/<img/.test(html)) continue;
+    rows.push({ k: r.k, html });
+    // 출생 아래에는 계산한 별자리를 덧붙인다 (원문 표에는 따로 없다)
+    if (r.k === "출생") {
+      const m = html.match(/(\d{4})년\s*(\d{1,2})월\s*(\d{1,2})일/);
+      if (m) rows.push({ k: "별자리", html: zodiac(Number(m[2]), Number(m[3])) });
+    }
+  }
+  return { name: info.name, rows };
+}
+
 /* ---------- 상세 문서 파싱 ---------- */
 function parseDetail(md) {
   const body = md.replace(/^---[\s\S]*?---\n/, "").replace(/^> 이 문서는[^\n]*\n/m, "");
@@ -237,7 +448,12 @@ function parseDetail(md) {
   const sections = [];
   for (const p of parts) {
     const m = p.match(/^## (.+)\n?([\s\S]*)$/);
-    if (m) sections.push({ title: m[1].trim(), md: m[2].trim() });
+    if (!m) continue;
+    const title = m[1].trim();
+    const text = m[2].trim();
+    // "자세한 내용은 [문서] 문서를 참고하십시오" 뿐인 소절은 숨긴다 (hidden). 내용은 JSON 의 hidden 목록과 HTML 주석에 남겨 나중에 되살릴 수 있다.
+    if (isPointerOnly(text, resolvable)) sections.push({ title, md: text, hidden: true });
+    else sections.push({ title, md: hidePointers(text, resolvable) });
   }
   return { updated: upd ? upd[1].trim() : "", sections };
 }
@@ -284,8 +500,19 @@ async function getCover(album) {
   fs.mkdirSync(path.join(OUT, "albums"), { recursive: true });
   const index = [];
 
+  // 링크 표: 주요 문서(docs.json)와 앨범은 사이트 안 주소로 연결한다
+  const docList = JSON.parse(fs.readFileSync(path.join(ROOT, "docs.json"), "utf8"));
+  for (const d of docList) {
+    d.slug = slugify(d.title);
+    LINKS.docs[norm(d.title.replace(/\(프로미스나인\)$/, ""))] = d.slug;
+    LINKS.docs[norm(d.title)] = d.slug;
+  }
   for (const a of albums) {
     a.id = `${a.releaseDate || "undated"}-${slugify(a.title)}`;
+    LINKS.albums[norm(a.title)] = a.id;
+  }
+
+  for (const a of albums) {
     const slug = slugify(a.title);
     const d = detailBySlug[slug];
     const detailFile = d ? path.join(SRC, "albums", d.slug + ".md") : "";
@@ -301,8 +528,13 @@ async function getCover(album) {
     if (detailFile && fs.existsSync(detailFile)) {
       const dd = parseDetail(fs.readFileSync(detailFile, "utf8"));
       const sections = [];
+      const hidden = [];
       let summary = "";
       for (const s of dd.sections) {
+        if (s.hidden) {
+          hidden.push({ title: s.title, md: s.md });
+          continue;
+        }
         if (s.title === "개요") {
           summary = mdToHtml(s.md);
           continue;
@@ -324,7 +556,7 @@ async function getCover(album) {
         const html = mdToHtml(src);
         if (html) sections.push({ id: slugify(s.title) || "sec", title: s.title, html });
       }
-      detail = { id: a.id, updated: dd.updated, summary, sections };
+      detail = { id: a.id, updated: dd.updated, summary, sections, hidden: hidden.length ? hidden : undefined };
     }
 
     const afterHtml = a.after ? mdToHtml(a.after) : "";
@@ -358,7 +590,100 @@ async function getCover(album) {
       fs.writeFileSync(path.join(OUT, "albums", it.meta.id + ".json"), JSON.stringify(out) + "\n", "utf8");
     }
   }
+  // 주요 문서(그룹·멤버·응원법 등): 섹션별 HTML 로 저장
+  fs.mkdirSync(path.join(OUT, "docs"), { recursive: true });
+  const SKIP = new Set(["둘러보기", "역대 프로필 사진", "각주"]);
+  const docsMeta = [];
+
+  // 멤버 프로필 사진: 480px WebP 로 저장 (source/profiles.json 은 node fetch-profiles.js 가 만든다)
+  const profilesFile = path.join(SRC, "profiles.json");
+  const profiles = fs.existsSync(profilesFile) ? JSON.parse(fs.readFileSync(profilesFile, "utf8")) : {};
+  const profilePath = {};
+  for (const [slug, p] of Object.entries(profiles)) {
+    try {
+      const out = path.join(OUT, "profiles", slug + ".webp");
+      if (redoCovers || !fs.existsSync(out)) {
+        const key = crypto.createHash("sha1").update(p.url).digest("hex");
+        const cacheFile = path.join(IMG_CACHE, key);
+        let buf;
+        if (fs.existsSync(cacheFile)) buf = fs.readFileSync(cacheFile);
+        else {
+          const res = await fetch(p.url, { headers: { "User-Agent": UA } });
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          buf = Buffer.from(await res.arrayBuffer());
+          fs.mkdirSync(IMG_CACHE, { recursive: true });
+          fs.writeFileSync(cacheFile, buf);
+          await sleep(800);
+        }
+        fs.mkdirSync(path.dirname(out), { recursive: true });
+        await sharp(buf).resize({ width: 480, withoutEnlargement: true }).webp({ quality: 80 }).toFile(out);
+      }
+      profilePath[slug] = `profiles/${slug}.webp`;
+    } catch (e) {
+      console.warn(`  [경고] 프로필 사진 실패 ${slug}: ${e.message}`);
+    }
+  }
+  // 인물 정보 표의 서명 이미지(작은 svg)를 내려받는다. 밝은 배경용과 어두운 배경용(화이트) 두 장이 있다.
+  const infoFile = path.join(SRC, "profile-info.json");
+  const infoAll = fs.existsSync(infoFile) ? JSON.parse(fs.readFileSync(infoFile, "utf8")) : {};
+  const signFiles = {};
+  for (const [slug, info] of Object.entries(infoAll)) {
+    const row = info.rows.find((r) => r.k === "서명");
+    const imgs = row ? row.parts.filter((x) => x.t === "img") : [];
+    if (!imgs.length) continue;
+    const light = imgs.find((x) => !/화이트|white/i.test(x.alt)) || imgs[0];
+    const dark = imgs.find((x) => /화이트|white/i.test(x.alt));
+    signFiles[slug] = {};
+    for (const [key, im, suffix] of [["light", light, ""], ["dark", dark, "-w"]]) {
+      if (!im) continue;
+      const rel = `profiles/sign-${slug}${suffix}${/\.svg(\?|$)/.test(im.src) ? ".svg" : ".webp"}`;
+      const out = path.join(OUT, rel);
+      try {
+        if (!fs.existsSync(out)) {
+          const res = await fetch(im.src, { headers: { "User-Agent": UA } });
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const buf = Buffer.from(await res.arrayBuffer());
+          fs.mkdirSync(path.dirname(out), { recursive: true });
+          if (rel.endsWith(".svg")) fs.writeFileSync(out, buf);
+          else await sharp(buf).resize({ width: 480, withoutEnlargement: true }).webp({ quality: 85 }).toFile(out);
+          await sleep(500);
+        }
+        signFiles[slug][key] = rel;
+      } catch (e) {
+        console.warn(`  [경고] 서명 이미지 실패 ${slug}: ${e.message}`);
+      }
+    }
+  }
+
+  for (const d of docList) {
+    const file = path.join(SRC, "docs", d.slug + ".md");
+    if (!fs.existsSync(file)) {
+      console.warn(`  [경고] 문서 없음: ${d.title} (node fetch.js 로 받으세요)`);
+      continue;
+    }
+    const dd = parseDetail(fs.readFileSync(file, "utf8"));
+    const url = "https://namu.wiki/w/" + encodeURIComponent(d.title).replace(/%2F/g, "/");
+    let summary = "";
+    const sections = [];
+    const hidden = [];
+    for (const s of dd.sections) {
+      if (SKIP.has(s.title)) continue;
+      if (s.hidden) {
+        hidden.push({ title: s.title, md: s.md });
+        continue;
+      }
+      const html = d.kind === "group" && s.title === "멤버" ? memberSection(s.md, profilePath) : mdToHtml(s.md);
+      if (!html) continue;
+      if (s.title === "개요") summary = html;
+      else sections.push({ id: slugify(s.title) || "sec", title: s.title, html });
+    }
+    const shown = d.title.replace(/\(프로미스나인\)$/, "").replace(/^프로미스나인\//, "프로미스나인 ");
+    fs.writeFileSync(path.join(OUT, "docs", d.slug + ".json"), JSON.stringify({ slug: d.slug, title: shown, kind: d.kind, label: d.label, updated: dd.updated, profile: profilePath[d.slug] || undefined, info: buildInfo(d.slug, infoAll[d.slug], signFiles), source: { title: d.title, url }, summary, sections, hidden: hidden.length ? hidden : undefined }) + "\n", "utf8");
+    docsMeta.push({ slug: d.slug, title: shown, kind: d.kind, label: d.label });
+  }
+
   const idx = {
+    docs: docsMeta,
     updatedAt: new Date().toISOString().slice(0, 10),
     source: { name: "나무위키", title: "프로미스나인/음반", url: MAIN_URL, license: "CC BY-NC-SA 2.0 KR", licenseUrl: "https://creativecommons.org/licenses/by-nc-sa/2.0/kr/" },
     albums: index.map((it) => it.meta),
@@ -373,6 +698,21 @@ async function getCover(album) {
     if (md) ex[k] = mdToHtml(md);
   }
   fs.writeFileSync(path.join(OUT, "extras.json"), JSON.stringify(ex) + "\n", "utf8");
+
+  // 국기 svg 내려받기 (이미 있으면 건너뜀)
+  fs.mkdirSync(path.join(OUT, "flags"), { recursive: true });
+  for (const [name, src] of FLAGS) {
+    const out = path.join(OUT, "flags", name + ".svg");
+    if (fs.existsSync(out)) continue;
+    try {
+      const res = await fetch(src.replace(/^\/\//, "https://"), { headers: { "User-Agent": UA } });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      fs.writeFileSync(out, Buffer.from(await res.arrayBuffer()));
+      await sleep(500);
+    } catch (e) {
+      console.warn(`  [경고] 국기 ${name} 실패: ${e.message}`);
+    }
+  }
 
   // 커버 URL 목록(HTML 작성용 참고)
   let cov = "# 앨범 커버 원본 URL\n\n> 나무위키 문서에서 수집한 앨범 커버 이미지 주소입니다. 저작권은 각 음반사에 있으며, 사이트에는 640px 썸네일만 저장합니다 (`data/discography/covers/`).\n\n| 발매일 | 구분 | 앨범 | 커버 원본 URL | 저장 파일 |\n| --- | --- | --- | --- | --- |\n";

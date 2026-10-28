@@ -2,7 +2,7 @@
 title: "My Little Society"
 source: https://namu.wiki/w/My%20Little%20Society
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-26
+fetched: 2026-10-28
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/My%20Little%20Society)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -53,36 +53,36 @@ fetched: 2026-10-26
 | **날짜** | **시간** | **내용** | **링크** |
 | --- | --- | --- | --- |
 | **2020년** |  |  |  |
-| **09. 02.** | 12:00 | The 3rd Mini Album 'My Little Society' ✔️Concept image |  |
-|  | 21:00 | 'My Little Society' ✔Official Photo My account ver. #장규리 |  |
-|  |  | 'My Little Society' ✔Official Photo My account ver. #노지선 |  |
-|  |  | 'My Little Society' ✔Official Photo My account ver. #이채영 |  |
-| **09. 03.** | 13:00 | The 3rd Mini Album 'My Little Society' 예약 판매 안내 공지 |  |
-|  | 21:00 | 'My Little Society' ✔Official Photo My account ver. #이새롬 |  |
-|  |  | 'My Little Society' ✔Official Photo My account ver. #송하영 |  |
-|  |  | 'My Little Society' ✔Official Photo My account ver. #박지원 |  |
-| **09. 04.** | 21:00 | 'My Little Society' ✔Official Photo My account ver. #이서연 |  |
-|  |  | 'My Little Society' ✔Official Photo My account ver. #이나경 |  |
-|  |  | 'My Little Society' ✔Official Photo My account ver. #백지헌 |  |
-| **09. 05.** | 21:00 | 'My Little Society' ✔Official Photo My society ver. #이새롬 |  |
-|  |  | 'My Little Society' ✔Official Photo My society ver. #이채영 |  |
-|  |  | 'My Little Society' ✔Official Photo My society ver. #이서연 |  |
-| **09. 06.** | 21:00 | 'My Little Society' ✔Official Photo My society ver. #장규리 |  |
-|  |  | 'My Little Society' ✔Official Photo My society ver. #이나경 |  |
-|  |  | 'My Little Society' ✔Official Photo My society ver. #송하영 |  |
-| **09. 07.** | 21:00 | 'My Little Society' ✔Official Photo My society ver. #노지선 |  |
-|  |  | 'My Little Society' ✔Official Photo My society ver. #백지헌 |  |
-|  |  | 'My Little Society' ✔Official Photo My society ver. #박지원 |  |
-| **09. 08.** | 21:00 | 'My Little Society' ✔Official Photo My society ver. |  |
-| **09. 09.** | 21:00 | 'My Little Society' ✔Hello, come into my place |  |
-| **09. 10.** | 21:00 | 'My Little Society' ✔TRACK LIST |  |
-| **09. 12.** | 12:00 | 'My Little Society' ✔HIGHLIGHT MEDLEY |  |
-|  | 21:00 | 'My Little Society' ✔️Official Unit Photo My account ver. #이새롬 #이채영 |  |
-|  |  | 'My Little Society' ✔️Official Unit Photo My account ver. #송하영 #노지선 #이서연 |  |
-|  |  | 'My Little Society' ✔️Official Unit Photo My account ver. #장규리 #박지원 |  |
-|  |  | 'My Little Society' ✔️Official Unit Photo My account ver. #이나경 #백지헌 |  |
-| **09. 14.** | 21:00 | 'My Little Society' ✔ 'Feel Good (SECRET CODE)' M/V Teaser 1 |  |
-| **09. 15.** | 21:00 | 'My Little Society' ✔ 'Feel Good (SECRET CODE)' M/V Teaser 2 |  |
+| **09. 02.** | 12:00 | The 3rd Mini Album 'My Little Society' ✔️Concept image | [X Corp](https://x.com/realfromis_9/status/1300811117879459840) |
+|  | 21:00 | 'My Little Society' ✔Official Photo My account ver. #장규리 | [X Corp](https://x.com/realfromis_9/status/1301127739450077184) |
+|  |  | 'My Little Society' ✔Official Photo My account ver. #노지선 | [X Corp](https://x.com/realfromis_9/status/1301127748367261696) |
+|  |  | 'My Little Society' ✔Official Photo My account ver. #이채영 | [X Corp](https://x.com/realfromis_9/status/1301127756248305664) |
+| **09. 03.** | 13:00 | The 3rd Mini Album 'My Little Society' 예약 판매 안내 공지 | [X Corp](https://x.com/realfromis_9/status/1301369486189031424) |
+|  | 21:00 | 'My Little Society' ✔Official Photo My account ver. #이새롬 | [X Corp](https://x.com/realfromis_9/status/1301490138795528192) |
+|  |  | 'My Little Society' ✔Official Photo My account ver. #송하영 | [X Corp](https://x.com/realfromis_9/status/1301490149935652864) |
+|  |  | 'My Little Society' ✔Official Photo My account ver. #박지원 | [X Corp](https://x.com/realfromis_9/status/1301490162795331585) |
+| **09. 04.** | 21:00 | 'My Little Society' ✔Official Photo My account ver. #이서연 | [X Corp](https://x.com/realfromis_9/status/1301852529806815232) |
+|  |  | 'My Little Society' ✔Official Photo My account ver. #이나경 | [X Corp](https://x.com/realfromis_9/status/1301852537910247425) |
+|  |  | 'My Little Society' ✔Official Photo My account ver. #백지헌 | [X Corp](https://x.com/realfromis_9/status/1301852546286252032) |
+| **09. 05.** | 21:00 | 'My Little Society' ✔Official Photo My society ver. #이새롬 | [X Corp](https://x.com/realfromis_9/status/1302214914824568833) |
+|  |  | 'My Little Society' ✔Official Photo My society ver. #이채영 | [X Corp](https://x.com/realfromis_9/status/1302214929122959361) |
+|  |  | 'My Little Society' ✔Official Photo My society ver. #이서연 | [X Corp](https://x.com/realfromis_9/status/1302214942532104198) |
+| **09. 06.** | 21:00 | 'My Little Society' ✔Official Photo My society ver. #장규리 | [X Corp](https://x.com/realfromis_9/status/1302577300441985026) |
+|  |  | 'My Little Society' ✔Official Photo My society ver. #이나경 | [X Corp](https://x.com/realfromis_9/status/1302577309463969794) |
+|  |  | 'My Little Society' ✔Official Photo My society ver. #송하영 | [X Corp](https://x.com/realfromis_9/status/1302577327864389633) |
+| **09. 07.** | 21:00 | 'My Little Society' ✔Official Photo My society ver. #노지선 | [X Corp](https://x.com/realfromis_9/status/1302939687204519936) |
+|  |  | 'My Little Society' ✔Official Photo My society ver. #백지헌 | [X Corp](https://x.com/realfromis_9/status/1302939697363038208) |
+|  |  | 'My Little Society' ✔Official Photo My society ver. #박지원 | [X Corp](https://x.com/realfromis_9/status/1302939710591909890) |
+| **09. 08.** | 21:00 | 'My Little Society' ✔Official Photo My society ver. | [X Corp](https://x.com/realfromis_9/status/1303302076227698690) |
+| **09. 09.** | 21:00 | 'My Little Society' ✔Hello, come into my place | [X Corp](https://x.com/realfromis_9/status/1303665351545163776) |
+| **09. 10.** | 21:00 | 'My Little Society' ✔TRACK LIST | [X Corp](https://x.com/realfromis_9/status/1304026865066106880) |
+| **09. 12.** | 12:00 | 'My Little Society' ✔HIGHLIGHT MEDLEY | [X Corp](https://x.com/realfromis_9/status/1304434543093403649) |
+|  | 21:00 | 'My Little Society' ✔️Official Unit Photo My account ver. #이새롬 #이채영 | [X Corp](https://x.com/realfromis_9/status/1304751629669863425) |
+|  |  | 'My Little Society' ✔️Official Unit Photo My account ver. #송하영 #노지선 #이서연 | [X Corp](https://x.com/realfromis_9/status/1304751644421234689) |
+|  |  | 'My Little Society' ✔️Official Unit Photo My account ver. #장규리 #박지원 | [X Corp](https://x.com/realfromis_9/status/1304751654835687424) |
+|  |  | 'My Little Society' ✔️Official Unit Photo My account ver. #이나경 #백지헌 | [X Corp](https://x.com/realfromis_9/status/1304751666529333248) |
+| **09. 14.** | 21:00 | 'My Little Society' ✔ 'Feel Good (SECRET CODE)' M/V Teaser 1 | [X Corp](https://x.com/realfromis_9/status/1305476412493553666) |
+| **09. 15.** | 21:00 | 'My Little Society' ✔ 'Feel Good (SECRET CODE)' M/V Teaser 2 | [X Corp](https://x.com/realfromis_9/status/1305838778691416064) |
 
 ## 콘셉트 티저
 
@@ -905,7 +905,7 @@ Special Video**
 | **My Account / My Society Ver.** |  |
 | --- | --- |
 | ![My Little Societ...](https://i.namu.wiki/i/a0dGOcEQrQXjNAdm2MBK54s_uyWdZPdr8lxyLopgaeJisJpdC9o_zIoCxCM1LBL-aLTka1FOB-Z11rB7nK_JAEgP3EO1uU-ud7gTfgV8xIxHaGU2ghyw5hruKQjH_fug2THITIGFQ3XfD_qSoa3R-Q.webp) |  |
-| **가격** | ~~20,100~~ ￦16,300 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~20,100~~ ￦16,300 19% |
 | **음반 코드** | CMCC11584 |
 | **구성** | **앨범 구성품 (My Account ver. / My Society ver.)**<br>- PHOTO BOOK : W170×H230 (mm) / 72P / 1종 (버전별 이미지 상이)<br>- MINI CARD : W60×H90 (mm) / 9종 중 랜덤 1종 삽입 (버전별 이미지 상이)<br>- PHOTO CARD : W55×H85 (mm) / 26종 중 랜덤 2종 삽입 (버전별 이미지 상이)<br>- DECO STICKER : W150×H200 (mm) / 1종 (버전별 이미지 상이) ※초회 한정 증정<br>- POSTER : W430×H594 (mm) / 1종 ※초회 한정 증정<br>- CD-R : 1종 |
 | [ 펼치기 · 접기 ]<br>![My Little Societ...](https://i.namu.wiki/i/ZDHvjWismscVFyprgGD342MOl8V9cn0jzuo_knrL7J9d1d7RRYYK_SGXCmyBng1SwG2CWhAm_T81x8h_qY2CV8OgABJ4fFsPK2W-onZGieS3XUJS3LoI8HX9uorZcMTs1nS7cgzd7eeoJyUtWkMmxg.webp) |  |
@@ -913,7 +913,7 @@ Special Video**
 | **KIT Ver.** |  |
 | --- | --- |
 | ![My Little Societ...](https://i.namu.wiki/i/9ObBuh2Oa_cEA87E9RdZZvgUfjSj-0Xb4wlNoIwQjntFFQ4_Qhpaeafhlku91EcRLvc91mZaQyh1Dyp11iOOg9HNosGSWLPKtBG9CJIUemqp0K-aDtNAuGGzdsnFcZhBWE2ZZ1G3O8p0tms26UVejQ.webp) |  |
-| **가격** | ~~27,000~~ ￦21,800 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~27,000~~ ￦21,800 19% |
 | **음반 코드** | CMDE11589 |
 | **구성** | **앨범 구성품**<br>- PACKAGE OUT BOX : W100×H134×D36 (mm) / 1종<br>- TITLE CARD : W90×H123 (mm) / 1종<br>- AIR KIT : W60×H60×D13 (mm) / 1종<br>- POST CARD : W90×H123 (mm) / 1종<br>- PHOTO CARD : W85×H119 (mm) / 18종 ※키트 독점 |
 | [ 펼치기 · 접기 ]<br>![My Little Societ...](https://i.namu.wiki/i/lMEXl_EwLTP3Fq-MguW6hPaYuVa2Q7bRtnNKL6XFwMoZGQrmwjwBTKzwz6lg-yNQxcDXIKwXrHkj-bXfGlh68tb9nD6zSY8a7KqYr0lPq-Nr4ijl0tCNaJ4tIHGavJfdY52FOYdvvDcl9ndJrcDQ-Q.webp) |  |
@@ -936,106 +936,106 @@ Special Video**
 
 | **음원 서비스** | **차트 종류** | **순위** |
 | --- | --- | --- |
-|  | TOP 100 | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 | - |
 |  | 실시간 차트 | 91위 |
 |  | 일간 차트 | 210위 |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | 주간 인기곡 차트 | 14위 |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 | 14위 |
 |  | 주간 뮤직비디오 차트 | 8위 |
-|  | 실시간 차트 | 9위 |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 | 9위 |
 |  | 일간 차트 | 58위 |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | FLO 차트 | - |
-|  | 실시간 차트 | **3위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | **3위** |
 |  | 일간 차트 | 15위 |
 |  | 주간 차트 | 90위 |
-|  | 일간 차트 | 399위 |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 | 399위 |
 | [주요 음원 서비스의 〈Feel Good (SECRET CODE)〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/32931708)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |
 
 [ Weather ]
 
 | **음원 서비스** | **차트 종류** | **순위** |
 | --- | --- | --- |
-|  | TOP 100 | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 | - |
 |  | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | 주간 인기곡 차트 | - |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 | - |
 |  | 주간 뮤직비디오 차트 | - |
-|  | 실시간 차트 | - |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | FLO 차트 | - |
-|  | 실시간 차트 | **6위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | **6위** |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
-|  | 일간 차트 | - |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 | - |
 | [주요 음원 서비스의 〈Weather〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/32931709)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |
 
 [ 별의 밤 ]
 
 | **음원 서비스** | **차트 종류** | **순위** |
 | --- | --- | --- |
-|  | TOP 100 | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 | - |
 |  | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | 주간 인기곡 차트 | - |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 | - |
 |  | 주간 뮤직비디오 차트 | - |
-|  | 실시간 차트 | - |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | FLO 차트 | - |
-|  | 실시간 차트 | **5위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | **5위** |
 |  | 일간 차트 | 58위 |
 |  | 주간 차트 | - |
-|  | 일간 차트 | - |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 | - |
 | [주요 음원 서비스의 〈별의 밤〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/32931710)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |
 
 [ Somebody to love ]
 
 | **음원 서비스** | **차트 종류** | **순위** |
 | --- | --- | --- |
-|  | TOP 100 | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 | - |
 |  | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | 실시간 차트 | - |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | FLO 차트 | - |
-|  | 실시간 차트 | **7위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | **7위** |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
-|  | 일간 차트 | - |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 | - |
 | [주요 음원 서비스의 〈Somebody to love〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/32931711)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |
 
 [ 물고기 ]
 
 | **음원 서비스** | **차트 종류** | **순위** |
 | --- | --- | --- |
-|  | TOP 100 | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 | - |
 |  | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | 실시간 차트 | - |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | FLO 차트 | - |
-|  | 실시간 차트 | **4위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | **4위** |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
-|  | 일간 차트 | - |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 | - |
 | [주요 음원 서비스의 〈물고기〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/32931712)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |
 
 ### 음반
@@ -1070,12 +1070,12 @@ Special Video**
 | **〈My Little Society〉 음악 방송 순위**[활동] |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
 | **방송명** | **1주차** | **2주차** | **3주차** | **4주차** | **5주차** |
-| [더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | NEW<br> 3위(Choice! 후보) | - | 3위(Choice! 후보) | - |
-| [![쇼챔피언 로고(2019-202...](https://i.namu.wiki/i/B_pQh-OPPyVbTNpssMYKxoYfvGJKCqkHiYemO6Ff2AmeND-dHdCndwI2px5VDHJXSTlyUNMzqd6fmEZNjX9aFuzww-Lth1PJv1UT84SmO-9p7r0wqQc6xSVQhvn3J__Q-MrZPSGLgzU6SfJYDdwr9g.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8) |  | NEW<br> 8위(TOP 20) | ▼<br> 11위(TOP 20) | - | ▲<br> 9위(TOP 20) |
-| [엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 컴백 | NEW<br> 6위(엠카 차트) | - | 6위(엠카 차트) | ▼<br> 7위(엠카 차트) |
-| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) | - | NEW<br> 45위(K-차트) | - | - | - |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | 컴백 | NEW<br> 28위(M-차트) | - | ▼<br> 39위(M-차트) | ▼<br> 41위(M-차트) |
-| [![SBS 인기가요 로고(2018...](https://i.namu.wiki/i/8cUuWnT_GvbgoI5NCk7dvaBdQpr_FwWGbNB7Su4QKyJnXfW3MOs2gLYBQ4hH0wjG2FNSjvCpc8SKgIvIRdJp3AlCHt1ow8ItijmKUgk3xzMgfyzmUmUk57NQkv_AcCOLugz2GtgILla004cB4QSxEg.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) |  | - | - | - | - |
+| [더 쇼<br>더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | NEW<br> 3위(Choice! 후보) | - | 3위(Choice! 후보) | - |
+| [![쇼챔피언 로고(2019-202...](https://i.namu.wiki/i/B_pQh-OPPyVbTNpssMYKxoYfvGJKCqkHiYemO6Ff2AmeND-dHdCndwI2px5VDHJXSTlyUNMzqd6fmEZNjX9aFuzww-Lth1PJv1UT84SmO-9p7r0wqQc6xSVQhvn3J__Q-MrZPSGLgzU6SfJYDdwr9g.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8 "쇼챔피언") |  | NEW<br> 8위(TOP 20) | ▼<br> 11위(TOP 20) | - | ▲<br> 9위(TOP 20) |
+| [엠 카운트다운<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 컴백 | NEW<br> 6위(엠카 차트) | - | 6위(엠카 차트) | ▼<br> 7위(엠카 차트) |
+| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") | - | NEW<br> 45위(K-차트) | - | - | - |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | 컴백 | NEW<br> 28위(M-차트) | - | ▼<br> 39위(M-차트) | ▼<br> 41위(M-차트) |
+| [![SBS 인기가요 로고(2018...](https://i.namu.wiki/i/8cUuWnT_GvbgoI5NCk7dvaBdQpr_FwWGbNB7Su4QKyJnXfW3MOs2gLYBQ4hH0wjG2FNSjvCpc8SKgIvIRdJp3AlCHt1ow8ItijmKUgk3xzMgfyzmUmUk57NQkv_AcCOLugz2GtgILla004cB4QSxEg.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") |  | - | - | - | - |
 
 ## 활동
 

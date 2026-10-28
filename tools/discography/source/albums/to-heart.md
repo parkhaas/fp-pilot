@@ -2,7 +2,7 @@
 title: "To. Heart"
 source: https://namu.wiki/w/To.%20Heart
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-26
+fetched: 2026-10-28
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/To.%20Heart)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -16,6 +16,7 @@ fetched: 2026-10-26
 
 ## 앨범 소개
 
+To. Heart
 **The 1st Mini Album**
 
 [ 음반 소개 ]
@@ -50,44 +51,44 @@ fromis_9 데뷔 앨범 ‘To. Heart’! 설레는 마음 담아 풋풋하고 사
 | **날짜** | **시간** | **내용** | **링크** |
 | --- | --- | --- | --- |
 | **2018년** |  |  |  |
-| **01. 10.** | 21:00 | fromis_9 1st Mini Album [To. Heart] TRACK LIST |  |
-| **01. 12.** | 21:00 | [DEBUT TEASER] fromis_9 (프로미스나인) - 10m away from me |  |
-| **01. 15.** | 17:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #백지헌 |  |
-|  | 21:00 | fromis_9 (프로미스나인) - To. Heart Prologue |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #1 - #노지선 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #1 - #이새롬 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #1 - #이채영 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #1 - #백지헌 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #1 - #이서연 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #1 - #이나경 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #1 - #송하영 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #1 - #박지원 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #1 - #장규리 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #1 |  |
-| **01. 16.** | 17:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #이서연 |  |
-|  | 18:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #이나경 |  |
-|  | 21:00 | fromis_9 (프로미스나인) Official Photo #2 - #백지헌 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #2 - #송하영 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #2 - #이새롬 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #2 - #이서연 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #2 - #장규리 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #2 - #이나경 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #2 - #이채영 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #2 - #박지원 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #2 - #노지선 |  |
-|  |  | fromis_9 (프로미스나인) Official Photo #2 |  |
-| **01. 17.** | 13:00 | [fromis_9 NOTICE] fromis_9 1st mini album＜To.Heart＞ 예약 판매 관련 공지 |  |
-|  | 17:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #노지선 |  |
-|  | 18:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #이새롬 |  |
-| **01. 18.** | 17:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #이채영 |  |
-|  | 18:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #박지원 |  |
-| **01. 19.** | 17:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #장규리 |  |
-|  | 18:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #송하영 |  |
-|  | 21:00 | fromis_9 (프로미스나인) To. Heart Highlight Medley |  |
-| **01. 22.** | 21:00 | fromis_9 (프로미스나인) - To Heart MV Teaser |  |
-| **01. 23.** | 21:00 | fromis_9 (프로미스나인) Official Unit Photo #1 - #노지선 #이새롬 #이채영 |  |
-|  |  | fromis_9 (프로미스나인) Official Unit Photo #2 - #송하영 #박지원 #장규리 |  |
-|  |  | fromis_9 (프로미스나인) Official Unit Photo #3 - #이나경 #이서연 #백지헌 |  |
+| **01. 10.** | 21:00 | fromis_9 1st Mini Album [To. Heart] TRACK LIST | [X Corp](https://x.com/realfromis_9/status/951061079458631680) |
+| **01. 12.** | 21:00 | [DEBUT TEASER] fromis_9 (프로미스나인) - 10m away from me | [X Corp](https://x.com/realfromis_9/status/951785839536742400) |
+| **01. 15.** | 17:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #백지헌 | [X Corp](https://x.com/realfromis_9/status/952812615150940160) |
+|  | 21:00 | fromis_9 (프로미스나인) - To. Heart Prologue | [X Corp](https://x.com/realfromis_9/status/952872999174074368) |
+|  |  | fromis_9 (프로미스나인) Official Photo #1 - #노지선 | [X Corp](https://x.com/realfromis_9/status/952874267623931904) |
+|  |  | fromis_9 (프로미스나인) Official Photo #1 - #이새롬 | [X Corp](https://x.com/realfromis_9/status/952875542344228864) |
+|  |  | fromis_9 (프로미스나인) Official Photo #1 - #이채영 | [X Corp](https://x.com/realfromis_9/status/952876781823918080) |
+|  |  | fromis_9 (프로미스나인) Official Photo #1 - #백지헌 | [X Corp](https://x.com/realfromis_9/status/952878037636272128) |
+|  |  | fromis_9 (프로미스나인) Official Photo #1 - #이서연 | [X Corp](https://x.com/realfromis_9/status/952879295436746754) |
+|  |  | fromis_9 (프로미스나인) Official Photo #1 - #이나경 | [X Corp](https://x.com/realfromis_9/status/952880552784248832) |
+|  |  | fromis_9 (프로미스나인) Official Photo #1 - #송하영 | [X Corp](https://x.com/realfromis_9/status/952881826737020928) |
+|  |  | fromis_9 (프로미스나인) Official Photo #1 - #박지원 | [X Corp](https://x.com/realfromis_9/status/952883083295932416) |
+|  |  | fromis_9 (프로미스나인) Official Photo #1 - #장규리 | [X Corp](https://x.com/realfromis_9/status/952884327901220864) |
+|  |  | fromis_9 (프로미스나인) Official Photo #1 | [X Corp](https://x.com/realfromis_9/status/952885594597797890) |
+| **01. 16.** | 17:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #이서연 | [X Corp](https://x.com/realfromis_9/status/953175027888762880) |
+|  | 18:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #이나경 | [X Corp](https://x.com/realfromis_9/status/953190585610874880) |
+|  | 21:00 | fromis_9 (프로미스나인) Official Photo #2 - #백지헌 | [X Corp](https://x.com/realfromis_9/status/953235409714098176) |
+|  |  | fromis_9 (프로미스나인) Official Photo #2 - #송하영 | [X Corp](https://x.com/realfromis_9/status/953236664809267200) |
+|  |  | fromis_9 (프로미스나인) Official Photo #2 - #이새롬 | [X Corp](https://x.com/realfromis_9/status/953237925201723392) |
+|  |  | fromis_9 (프로미스나인) Official Photo #2 - #이서연 | [X Corp](https://x.com/realfromis_9/status/953239169790222336) |
+|  |  | fromis_9 (프로미스나인) Official Photo #2 - #장규리 | [X Corp](https://x.com/realfromis_9/status/953240431994667009) |
+|  |  | fromis_9 (프로미스나인) Official Photo #2 - #이나경 | [X Corp](https://x.com/realfromis_9/status/953241690055131138) |
+|  |  | fromis_9 (프로미스나인) Official Photo #2 - #이채영 | [X Corp](https://x.com/realfromis_9/status/953242994542395392) |
+|  |  | fromis_9 (프로미스나인) Official Photo #2 - #박지원 | [X Corp](https://x.com/realfromis_9/status/953244204418834432) |
+|  |  | fromis_9 (프로미스나인) Official Photo #2 - #노지선 | [X Corp](https://x.com/realfromis_9/status/953245464815575042) |
+|  |  | fromis_9 (프로미스나인) Official Photo #2 | [X Corp](https://x.com/realfromis_9/status/953246725476462592) |
+| **01. 17.** | 13:00 | [fromis_9 NOTICE] fromis_9 1st mini album＜To.Heart＞ 예약 판매 관련 공지 | [X Corp](https://x.com/realfromis_9/status/953477023619366913) |
+|  | 17:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #노지선 | [X Corp](https://x.com/realfromis_9/status/953537394036301824) |
+|  | 18:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #이새롬 | [X Corp](https://x.com/realfromis_9/status/953552488732377088) |
+| **01. 18.** | 17:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #이채영 | [X Corp](https://x.com/realfromis_9/status/953899772909305856) |
+|  | 18:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #박지원 | [X Corp](https://x.com/realfromis_9/status/953914882423889920) |
+| **01. 19.** | 17:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #장규리 | [X Corp](https://x.com/realfromis_9/status/954262161852841986) |
+|  | 18:00 | fromis_9 (프로미스나인) - 나에게로 오는 길 #송하영 | [X Corp](https://x.com/realfromis_9/status/954277264723607552) |
+|  | 21:00 | fromis_9 (프로미스나인) To. Heart Highlight Medley | [X Corp](https://x.com/realfromis_9/status/954322569817018368) |
+| **01. 22.** | 21:00 | fromis_9 (프로미스나인) - To Heart MV Teaser | [X Corp](https://x.com/realfromis_9/status/955409717597126656) |
+| **01. 23.** | 21:00 | fromis_9 (프로미스나인) Official Unit Photo #1 - #노지선 #이새롬 #이채영 | [X Corp](https://x.com/realfromis_9/status/955772123414372353) |
+|  |  | fromis_9 (프로미스나인) Official Unit Photo #2 - #송하영 #박지원 #장규리 | [X Corp](https://x.com/realfromis_9/status/955772174832300033) |
+|  |  | fromis_9 (프로미스나인) Official Unit Photo #3 - #이나경 #이서연 #백지헌 | [X Corp](https://x.com/realfromis_9/status/955772213671555072?s=20&t=1vfNy_0pEWFILeVfOHKl6Q) |
 
 ## 콘셉트 티저
 
@@ -860,7 +861,7 @@ Always wanna be with you
 | **Green / Blue Ver.** |  |
 | --- | --- |
 | ![To. Heart ALBUM ...](https://i.namu.wiki/i/6cg-gqoODbLeoFrZIjWFItnLCFFb8jzoDlhZCaRatimMdxKFSEF-EDxV4wGL_xOcAPDHPuXmOJo7sVCTqFlCNv4kkZlZSBbOhl15LoSudQTLpDXAfFSu6bhs1_TujXxEK8-NbbYK4druRWm1pfIvRg.webp) |  |
-| **가격** | ~~18,500~~ ￦14,900 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~18,500~~ ￦14,900 19% |
 | **음반 코드** | CMAC11199 (Green Ver.)<br>CMAC11200 (Blue Ver.) |
 | **구성** | **앨범 구성품 (Green ver.)**<br>- ALBUM BOX : W153×H250 (mm) / 1종<br>- PHOTO BOOK : W140×H190 (mm) / 52P / 1종<br>- PHOTO CARD : W140×H190 (mm) / 지선 8P + 멤버별 1P / 1종<br>- LETTER : W130×H110 (mm) / 1종<br>- NAME PATCH : W70×H75 (mm) / 9종 중 랜덤 1종 삽입 ※초회 한정 증정<br>- ID CARD : W140×H190 (mm) / 9종 중 랜덤 1종 삽입<br>- 약속회 응모권 : W100×H70 (mm) / 1종 ※초회 한정 증정<br>- CD-R : W120×H120 1종 |
 |  | **앨범 구성품 (Blue ver.)**<br>- ALBUM BOX : W153×H250 (mm) / 1종<br>- PHOTO BOOK : W140×H190 (mm) / 56P / 1종<br>- PHOTO CARD : W140×H190 (mm) / 단체&유닛 9P / 1종<br>- LETTER : W130×H110 (mm) / 1종<br>- NAME PATCH : W70×H75 (mm) / 9종 중 랜덤 1종 삽입 ※초회 한정 증정<br>- POLAROID CARD : W140×H190 (mm) / 9종 중 랜덤 1종 삽입<br>- 약속회 응모권 : W100×H70 (mm) / 1종 ※초회 한정 증정<br>- CD-R : W120×H120 1종 |
@@ -873,19 +874,19 @@ Always wanna be with you
 | **〈To Heart〉 주요 음원 차트 최고 순위** |  |  |
 | --- | --- | --- |
 | **음원 서비스** | **차트 종류** | **순위** |
-|  | 실시간 차트 | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | - |
 |  | 일간 차트 | 237위 |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | 실시간 차트 | - |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | FLO 차트 | - |
-|  | 실시간 차트 | **6위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | **6위** |
 |  | 일간 차트 | 99위 |
 |  | 주간 차트 | - |
-|  | 일간 차트 | - |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 | - |
 | [주요 음원 서비스의 〈To Heart〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/30857318)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |
 
 ### 음반
@@ -923,12 +924,12 @@ Always wanna be with you
 | **〈To Heart〉 음악 방송 순위**[활동] |  |  |  |  |
 | --- | --- | --- | --- | --- |
 | **방송명** | **1주차** | **2주차** | **3주차** | **4주차** |
-| [더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | - | 데뷔 | - |
-| [![쇼챔피언 로고(2015-201...](https://i.namu.wiki/i/43GfQlSyXP3RPefBoTOFQRMEmEvNRsJ0_vIjN4EV8S2p_1id-aVDfaKJZh7m9wzXBF8C5PDKtmlObDo3f-Xj2mVV8x_OkhN_hJm9DZb6zwbyk6nOQloCNcjGG5CTTFHo-zcwxjb2Dw1rLA4SX7rq9w.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8) | - | 데뷔 | - | - |
-| [엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 데뷔 | NEW<br> 8위(엠카 차트) | **▼**<br> 10위(엠카 차트) | **▲**<br> 9위(엠카 차트) |
-| [![뮤직뱅크 로고(2015-201...](https://i.namu.wiki/i/RBpBtuhk60oreSoWrk6mfvUM7kCKKSwXxDaf_Lfcps5jvzYHz-6WErR4VzWa7VOwt0FRfV8WNbVj9I-X15k6ooadRyJGRWHx6us62EnFKeaQ4vIfhUsML2JNHmaLpRyi9g0HNpO4H4YcFW4NBhlOMw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) | 데뷔 | - | - | - |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | 데뷔 | - | - | - |
-| [![SBS 인기가요 로고(2016...](https://i.namu.wiki/i/hUZwZHSr45epL_D5V6G0bV3Xrs_xvLIGV7EYHG78K1iS3QbQJabxIOVcEOrblmbjxnGRr6NKEy07f0P3VYuZInFqDqH67w2Cy1UP-6b7RWpAIghl9sMZ1sUb-UjQ_y6a4pGak6BjmnvmogGfIZcSEQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) | 데뷔 | - | - | - |
+| [더 쇼<br>더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | - | 데뷔 | - |
+| [![쇼챔피언 로고(2015-201...](https://i.namu.wiki/i/43GfQlSyXP3RPefBoTOFQRMEmEvNRsJ0_vIjN4EV8S2p_1id-aVDfaKJZh7m9wzXBF8C5PDKtmlObDo3f-Xj2mVV8x_OkhN_hJm9DZb6zwbyk6nOQloCNcjGG5CTTFHo-zcwxjb2Dw1rLA4SX7rq9w.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8 "쇼챔피언") | - | 데뷔 | - | - |
+| [엠 카운트다운<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 데뷔 | NEW<br> 8위(엠카 차트) | **▼**<br> 10위(엠카 차트) | **▲**<br> 9위(엠카 차트) |
+| [![뮤직뱅크 로고(2015-201...](https://i.namu.wiki/i/RBpBtuhk60oreSoWrk6mfvUM7kCKKSwXxDaf_Lfcps5jvzYHz-6WErR4VzWa7VOwt0FRfV8WNbVj9I-X15k6ooadRyJGRWHx6us62EnFKeaQ4vIfhUsML2JNHmaLpRyi9g0HNpO4H4YcFW4NBhlOMw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") | 데뷔 | - | - | - |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | 데뷔 | - | - | - |
+| [![SBS 인기가요 로고(2016...](https://i.namu.wiki/i/hUZwZHSr45epL_D5V6G0bV3Xrs_xvLIGV7EYHG78K1iS3QbQJabxIOVcEOrblmbjxnGRr6NKEy07f0P3VYuZInFqDqH67w2Cy1UP-6b7RWpAIghl9sMZ1sUb-UjQ_y6a4pGak6BjmnvmogGfIZcSEQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") | 데뷔 | - | - | - |
 
 ## 활동
 

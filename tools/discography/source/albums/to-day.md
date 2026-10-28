@@ -2,7 +2,7 @@
 title: "To. Day"
 source: https://namu.wiki/w/To.%20Day
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-26
+fetched: 2026-10-28
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/To.%20Day)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -16,6 +16,7 @@ fetched: 2026-10-26
 
 ## 앨범 소개
 
+To. Day
 **The 2nd Mini Album**
 
 [ 음반 소개 ]
@@ -53,28 +54,28 @@ YOUNG한 비트와 매력 넘치는 코러스 사운드가 돋보인다. 송하�
 | **날짜** | **시간** | **내용** | **링크** |
 | --- | --- | --- | --- |
 | **2018년** |  |  |  |
-| **05. 21.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Album Teaser |  |
-| **05. 22.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] SCHEDULER |  |
-| **05. 23.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Teaser |  |
-| **05. 24.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo I #백지헌 |  |
-|  |  | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo I #이서연 |  |
-|  |  | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo I #박지원 |  |
-|  |  | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo I #노지선 |  |
-| **05. 25.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo II #이새롬 |  |
-|  |  | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo II #송하영 |  |
-|  |  | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo II #이채영 |  |
-|  |  | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo II #이나경 |  |
-|  |  | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo II |  |
-| **05. 26.** | 14:00 | 프로미스나인 (fromis_9) The 2nd Mini Album [To. Day] 3행시 EVENT |  |
-|  | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Track List |  |
-| **05. 27.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] ♥♡♡♡ |  |
-| **05. 28.** | 13:00 | [fromis_9 NOTICE] fromis_9 THE 2nd Mini Album＜To. Day＞ 예약 판매 관련 공지 |  |
-|  | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] ♥♥♡♡ |  |
-| **05. 29.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] ♥♥♥♡ |  |
-| **05. 30.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] ♥♥♥♥ |  |
-| **05. 31.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Highlight Medley |  |
-| **06. 01.** | 21:00 | 프로미스나인 (fromis_9) - 두근두근(DKDK) M/V Teaser (Long Ver.) |  |
-| **06. 04.** | 21:00 | 프로미스나인 (fromis_9) - 두근두근(DKDK) M/V Teaser (Short Ver.) |  |
+| **05. 21.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Album Teaser | [X Corp](https://x.com/realfromis_9/status/998533885238509568) |
+| **05. 22.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] SCHEDULER | [X Corp](https://x.com/realfromis_9/status/998896266640637952) |
+| **05. 23.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Teaser | [X Corp](https://x.com/realfromis_9/status/999258651574464512) |
+| **05. 24.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo I #백지헌 | [X Corp](https://x.com/realfromis_9/status/999621044972339200) |
+|  |  | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo I #이서연 | [X Corp](https://x.com/realfromis_9/status/999621145480462338) |
+|  |  | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo I #박지원 | [X Corp](https://x.com/realfromis_9/status/999621342587600896) |
+|  |  | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo I #노지선 | [X Corp](https://x.com/realfromis_9/status/999621559819030528) |
+| **05. 25.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo II #이새롬 | [X Corp](https://x.com/realfromis_9/status/999983427486081024) |
+|  |  | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo II #송하영 | [X Corp](https://x.com/realfromis_9/status/999983553101287429) |
+|  |  | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo II #이채영 | [X Corp](https://x.com/realfromis_9/status/999983685532246016) |
+|  |  | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo II #이나경 | [X Corp](https://x.com/realfromis_9/status/999983727605202944) |
+|  |  | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Concept Photo II | [X Corp](https://x.com/realfromis_9/status/999983856680820736) |
+| **05. 26.** | 14:00 | 프로미스나인 (fromis_9) The 2nd Mini Album [To. Day] 3행시 EVENT | [X Corp](https://x.com/realfromis_9/status/1000240130899165184) |
+|  | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Track List | [X Corp](https://x.com/realfromis_9/status/1000345819202011137) |
+| **05. 27.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] ♥♡♡♡ | [X Corp](https://x.com/realfromis_9/status/1000708199236845569) |
+| **05. 28.** | 13:00 | [fromis_9 NOTICE] fromis_9 THE 2nd Mini Album＜To. Day＞ 예약 판매 관련 공지 | [X Corp](https://x.com/realfromis_9/status/1000949827989995521) |
+|  | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] ♥♥♡♡ | [X Corp](https://x.com/realfromis_9/status/1001070792078123008) |
+| **05. 29.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] ♥♥♥♡ | [X Corp](https://x.com/realfromis_9/status/1001432968584298496) |
+| **05. 30.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] ♥♥♥♥ | [X Corp](https://x.com/realfromis_9/status/1001795354327633920) |
+| **05. 31.** | 21:00 | 프로미스나인 (fromis_9) - The 2nd Mini Album [To. Day] Highlight Medley | [X Corp](https://x.com/realfromis_9/status/1002157744953044992) |
+| **06. 01.** | 21:00 | 프로미스나인 (fromis_9) - 두근두근(DKDK) M/V Teaser (Long Ver.) | [X Corp](https://x.com/realfromis_9/status/1002520131069546496) |
+| **06. 04.** | 21:00 | 프로미스나인 (fromis_9) - 두근두근(DKDK) M/V Teaser (Short Ver.) | [X Corp](https://x.com/realfromis_9/status/1003607304598507521) |
 
 ## 콘셉트 티저
 
@@ -689,7 +690,7 @@ Boo boo my my boo boo boo
 | **D-1 / D-DAY Ver.** |  |
 | --- | --- |
 | ![To. Day ALBUM PR...](https://i.namu.wiki/i/bYyuHTUwKsR1dcqs71PjACkI2YGZLK_y7RCTvurzEv8biaSohzArx_FoElZYcmbjJoUjLEdz-iSONKtdiP4nB751hyc5ABS4eIen0JGr7r19IHZmwxP02wRH3D6ov6WxJoOlGL9X7Ipnp9M44oMVlw.webp) / ![To. Day ALBUM PR...](https://i.namu.wiki/i/iwt67ncRU5-Lb1l6lKw-H2Cw29TNS_Zpr676KJi6_OpiEgolsL0vguDm0H4LNTyEhUksr9hoU75WsI4-ZIqj61yNixLF_2FF3-24sFfKNwgN0qLgVOrk5t5np_psKbQiynd-CqCqlZ7jAtSOlvVAeg.webp) |  |
-| **가격** | ~~18,500~~ ￦14,900 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~18,500~~ ￦14,900 19% |
 | **음반 코드** | CMAC11255 (D-1 Ver.) <br> CMAC11256 (D-Day Ver.) |
 | **구성** | **앨범 구성품 (D-1 ver. / D-DAY ver.)**<br>- ALBUM BOX : W153×H250 (mm) / 1종 (버전별 이미지 상이)<br>- PHOTO BOOK : W140×H195 (mm) / 1종 (버전별 이미지 상이)<br>- PHOTO CARD : W55×H85 (mm) / 8종 중 랜덤 1종 삽입 (버전별 이미지 상이)<br>- DESKTOP STAND : W103×H108 (mm) / 8종 중 랜덤 1종 삽입 <br>- BOOK MARK : W30×H80 (mm) / 8종 중 랜덤 1종 삽입 <br>- 약속회 응모권 : W55×H90 (mm) / 1종<br>- CD-R : W120×H120 (mm) / 1종 (버전별 이미지 상이) |
 | [ 펼치기 · 접기 ]<br>![To. Day ALBUM PR...](https://i.namu.wiki/i/LD_0Zy5Qn_HmNUGMAJTLVj3vI7ewCzO2I2xhKzLuKfIiyLzoKtuPREkZP18Mo-9qbDgqTR16avFTjQ6TDKJXybE6zGXgSTbTx8Y917zN8AI8QTRjAr_8O-CbJ-wP_THvmKU38yjTyTOQ0SQVm9EDtw.webp) |  |
@@ -701,21 +702,21 @@ Boo boo my my boo boo boo
 | **〈두근두근〉 주요 음원 차트 최고 순위** |  |  |
 | --- | --- | --- |
 | **음원 서비스** | **차트 종류** | **순위** |
-|  | 실시간 차트 | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | 주간 인기곡 차트 | 57위 |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 | 57위 |
 |  | 주간 뮤직비디오 차트 | 41위 |
-|  | 실시간 차트 | - |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 | - |
 |  | 일간 차트 | - |
 |  | 주간 차트 | - |
 |  | 월간 차트 | - |
-|  | FLO 차트 | - |
-|  | 실시간 차트 | **9위** |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 | **9위** |
 |  | 일간 차트 | 47위 |
 |  | 주간 차트 | - |
-|  | 일간 차트 | - |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 | - |
 | [주요 음원 서비스의 〈두근두근〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/31115658)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |
 
 ### 음반
@@ -752,12 +753,12 @@ Boo boo my my boo boo boo
 | **〈두근두근(DKDK)〉 음악 방송 순위**[활동] |  |  |  |  |
 | --- | --- | --- | --- | --- |
 | **방송명** | **1주차** | **2주차** | **3주차** | **4주차** |
-| [더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | 컴백 | - | - |
-| [![쇼챔피언 로고(2015-201...](https://i.namu.wiki/i/43GfQlSyXP3RPefBoTOFQRMEmEvNRsJ0_vIjN4EV8S2p_1id-aVDfaKJZh7m9wzXBF8C5PDKtmlObDo3f-Xj2mVV8x_OkhN_hJm9DZb6zwbyk6nOQloCNcjGG5CTTFHo-zcwxjb2Dw1rLA4SX7rq9w.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8) | - | 컴백 | - | - |
-| [엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 컴백 | NEW<br> 5위(엠카 차트) | **▲**<br> 4위(엠카 차트) | **▲**<br> 3위(엠카 차트) |
-| [![뮤직뱅크 로고(2015-201...](https://i.namu.wiki/i/RBpBtuhk60oreSoWrk6mfvUM7kCKKSwXxDaf_Lfcps5jvzYHz-6WErR4VzWa7VOwt0FRfV8WNbVj9I-X15k6ooadRyJGRWHx6us62EnFKeaQ4vIfhUsML2JNHmaLpRyi9g0HNpO4H4YcFW4NBhlOMw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) | 컴백 | - | - | - |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | 컴백 | - | - | - |
-| [![SBS 인기가요 로고(2018...](https://i.namu.wiki/i/8cUuWnT_GvbgoI5NCk7dvaBdQpr_FwWGbNB7Su4QKyJnXfW3MOs2gLYBQ4hH0wjG2FNSjvCpc8SKgIvIRdJp3AlCHt1ow8ItijmKUgk3xzMgfyzmUmUk57NQkv_AcCOLugz2GtgILla004cB4QSxEg.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) | - | - | - | - |
+| [더 쇼<br>더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | 컴백 | - | - |
+| [![쇼챔피언 로고(2015-201...](https://i.namu.wiki/i/43GfQlSyXP3RPefBoTOFQRMEmEvNRsJ0_vIjN4EV8S2p_1id-aVDfaKJZh7m9wzXBF8C5PDKtmlObDo3f-Xj2mVV8x_OkhN_hJm9DZb6zwbyk6nOQloCNcjGG5CTTFHo-zcwxjb2Dw1rLA4SX7rq9w.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8 "쇼챔피언") | - | 컴백 | - | - |
+| [엠 카운트다운<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 컴백 | NEW<br> 5위(엠카 차트) | **▲**<br> 4위(엠카 차트) | **▲**<br> 3위(엠카 차트) |
+| [![뮤직뱅크 로고(2015-201...](https://i.namu.wiki/i/RBpBtuhk60oreSoWrk6mfvUM7kCKKSwXxDaf_Lfcps5jvzYHz-6WErR4VzWa7VOwt0FRfV8WNbVj9I-X15k6ooadRyJGRWHx6us62EnFKeaQ4vIfhUsML2JNHmaLpRyi9g0HNpO4H4YcFW4NBhlOMw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") | 컴백 | - | - | - |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | 컴백 | - | - | - |
+| [![SBS 인기가요 로고(2018...](https://i.namu.wiki/i/8cUuWnT_GvbgoI5NCk7dvaBdQpr_FwWGbNB7Su4QKyJnXfW3MOs2gLYBQ4hH0wjG2FNSjvCpc8SKgIvIRdJp3AlCHt1ow8ItijmKUgk3xzMgfyzmUmUk57NQkv_AcCOLugz2GtgILla004cB4QSxEg.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") | - | - | - | - |
 
 ## 활동
 

@@ -2,7 +2,7 @@
 title: "Talk & Talk"
 source: https://namu.wiki/w/Talk%20%26%20Talk
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-26
+fetched: 2026-10-28
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/Talk%20%26%20Talk)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -19,6 +19,7 @@ fetched: 2026-10-26
 
 ## 앨범 소개
 
+Talk & Talk
 **Special Single Album**
 
 [ 음반 소개 ]
@@ -52,23 +53,23 @@ fetched: 2026-10-26
 | **날짜** | **시간** | **내용** | **링크** |
 | --- | --- | --- | --- |
 | **2021년** |  |  |  |
-| **08. 25.** | 00:00 | fromis_9(프로미스나인) Special Single Album [Talk & Talk] 2021.09.01 6PM(KST) |  |
-|  | 13:00 | Special Single Album 'Talk & Talk' 예약 판매 안내 공지 |  |
-|  | 21:00 | [Talk & Talk] ☎️ Official Photo #장규리 #JangGyuRi |  |
-|  |  | [Talk & Talk] ☎️ Official Photo #송하영 #SongHaYoung |  |
-|  |  | [Talk & Talk] ☎️ Official Photo #이채영 #LeeChaeYoung |  |
-|  |  | [Talk & Talk] ☎️ Official Photo #이나경 #LeeNaGyung |  |
-|  |  | [Talk & Talk] ☎️ Official Photo #이새롬 #LeeSaeRom |  |
-|  |  | [Talk & Talk] ☎️ Official Photo #백지헌 #BaekJiHeon |  |
-|  |  | [Talk & Talk] ☎️ Official Photo #박지원 #ParkJiWon |  |
-|  |  | [Talk & Talk] ☎️ Official Photo #이서연 #LeeSeoYeon |  |
-|  |  | [Talk & Talk] ☎️ Official Photo #노지선 #RohJiSun |  |
-| **08. 27.** | 21:00 | [Talk & Talk] ☎️ Official Photo #fromis_9 #프로미스나인 |  |
-| **08. 28.** | 21:00 | fromis_9(프로미스나인) Special Single Album [Talk & Talk]📱 Reminder |  |
-| **08. 29.** | 21:00 | [Talk & Talk] 📞 'Talk & Talk' Official Teaser #1 |  |
-| **08. 30.** | 21:00 | [Talk & Talk] 📞 'Talk & Talk' Official Teaser #2 |  |
-| **08. 31.** | 18:28 | [Talk & Talk] 'Talk & Talk' 음원 선공개 |  |
-| **09. 01.** | 18:00 | [Talk & Talk] Official MV |  |
+| **08. 25.** | 00:00 | fromis_9(프로미스나인) Special Single Album [Talk & Talk] 2021.09.01 6PM(KST) | [X Corp](https://x.com/realfromis_9/status/1430183125628370947) |
+|  | 13:00 | Special Single Album 'Talk & Talk' 예약 판매 안내 공지 | [X Corp](https://x.com/realfromis_9/status/1430379627965337606) |
+|  | 21:00 | [Talk & Talk] ☎️ Official Photo #장규리 #JangGyuRi | [X Corp](https://x.com/realfromis_9/status/1430500213312024584) |
+|  |  | [Talk & Talk] ☎️ Official Photo #송하영 #SongHaYoung | [X Corp](https://x.com/realfromis_9/status/1430500454027304968) |
+|  |  | [Talk & Talk] ☎️ Official Photo #이채영 #LeeChaeYoung | [X Corp](https://x.com/realfromis_9/status/1430500705735827466) |
+|  |  | [Talk & Talk] ☎️ Official Photo #이나경 #LeeNaGyung | [X Corp](https://x.com/realfromis_9/status/1430500957532479493) |
+|  |  | [Talk & Talk] ☎️ Official Photo #이새롬 #LeeSaeRom | [X Corp](https://x.com/realfromis_9/status/1430501209081716736) |
+|  |  | [Talk & Talk] ☎️ Official Photo #백지헌 #BaekJiHeon | [X Corp](https://x.com/realfromis_9/status/1430501460744286215) |
+|  |  | [Talk & Talk] ☎️ Official Photo #박지원 #ParkJiWon | [X Corp](https://x.com/realfromis_9/status/1430501712201089024) |
+|  |  | [Talk & Talk] ☎️ Official Photo #이서연 #LeeSeoYeon | [X Corp](https://x.com/realfromis_9/status/1430501963603398660) |
+|  |  | [Talk & Talk] ☎️ Official Photo #노지선 #RohJiSun | [X Corp](https://x.com/realfromis_9/status/1430502215463047170) |
+| **08. 27.** | 21:00 | [Talk & Talk] ☎️ Official Photo #fromis_9 #프로미스나인 | [X Corp](https://x.com/realfromis_9/status/1431224991584899083) |
+| **08. 28.** | 21:00 | fromis_9(프로미스나인) Special Single Album [Talk & Talk]📱 Reminder | [X Corp](https://x.com/realfromis_9/status/1431587367312183304) |
+| **08. 29.** | 21:00 | [Talk & Talk] 📞 'Talk & Talk' Official Teaser #1 | [X Corp](https://x.com/realfromis_9/status/1431949759456104448) |
+| **08. 30.** | 21:00 | [Talk & Talk] 📞 'Talk & Talk' Official Teaser #2 | [X Corp](https://x.com/realfromis_9/status/1432312150677082121) |
+| **08. 31.** | 18:28 | [Talk & Talk] 'Talk & Talk' 음원 선공개 | [X Corp](https://x.com/realfromis_9/status/1432636421651644416) [틱톡](https://www.tiktok.com/@official_fromis9/video/7002523536745139457) |
+| **09. 01.** | 18:00 | [Talk & Talk] Official MV | [X Corp](https://x.com/realfromis_9/status/1432991727787200517) |
 
 ## 콘셉트 티저
 
@@ -138,7 +139,9 @@ Reminder**
 
 [▶ YouTube](https://www.youtube.com/watch?v=pgXcMZ0MxUc)
 
-**01 3:40
+**Talk & Talk
+
+01 3:40
 
 TITLE
 
@@ -340,7 +343,7 @@ Stage Mix (M COUNTDOWN Ver.)**
 | **CD Ver.** |  |
 | --- | --- |
 | ![Talk & Talk ALBU...](https://i.namu.wiki/i/Yy69Bw8uUDyM23pvvDT_xyYEgwvSpcxSWI8ndDTLODxJNHAWonYLrpVY6f7azvsDCE9jVzhUGJJlQXJCl0Q4rlqiXaWavRPWey1Hm5CZN_cQRPTvkUPwbCJXiNu-mF4ou_74DfmlwZP_q6P4TXP7iw.webp) |  |
-| **가격** | ~~16,500~~ ￦13,400 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~16,500~~ ￦13,400 19% |
 | **음반 코드** | PLD0099 |
 | **구성** | **앨범 구성품**<br>- PHOTO BOOK : W150×H180 (mm) / 80P / 1종<br>- POST CARD : W100×H150 (mm) / 9종 중 랜덤 1종 삽입<br>- PHOTO CARD : W55×H85 (mm) / 27종 중 랜덤 3종 삽입<br>- STICKER : W60×H60 (mm) / 1종<br>- CD-R : 1종 |
 | [ 펼치기 · 접기 ]<br>![Talk & Talk ALBU...](https://i.namu.wiki/i/VBpx2YOm2ocIRMHoTRQiuzE0ImhdwuorPvgu8eTcyLI_Mf5DcqdGY3YqEHTG_IK8Qr8pR9-aBkM1FAFgOZcz6G-LopiaNeBnusqIA-OKIxZzNcpEDR4GCWSOpKnZyp6DoD0NnqL69xf_jd2thFHthA.webp) |  |
@@ -352,27 +355,27 @@ Stage Mix (M COUNTDOWN Ver.)**
 | **〈Talk & Talk〉 주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-|  | TOP 100 |  | - |
+| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | - |
 |  | 실시간 차트 |  | - |
 |  | 일간 차트 |  | 204위 |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
 |  | 최신 차트 | 4주 | 29위 |
 |  |  | 1주 | 11위 |
-|  | 주간 인기곡 차트 |  | 32위 |
+| [유튜브 뮤직유튜브 뮤직](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | 32위 |
 |  | 주간 뮤직비디오 차트 |  | **6위** |
-|  | 실시간 차트 |  | 80위 |
+| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 80위 |
 |  | 일간 차트 |  | 212위 |
 |  | 주간 차트 |  | - |
 |  | 월간 차트 |  | - |
-|  | FLO 차트 |  | - |
-|  | 실시간 차트 |  | **1위**[1] |
+| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | - |
+| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **1위**[1] |
 |  | 일간 차트 |  | **5위** |
 |  | 주간 차트 |  | 27위 |
-|  | 일간 차트 |  | 120위 |
-|  | 일간 차트 |  | 154위 |
+| [네이버 VIBE네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 120위 |
+| [Spotify](https://namu.wiki/w/Spotify) | 일간 차트 |  | 154위 |
 |  | 주간 차트 |  | 193위 |
-|  | 가온 지수(주간) |  | 97위 |
+| [가온차트](https://namu.wiki/w/%EA%B0%80%EC%98%A8%EC%B0%A8%ED%8A%B8) | 가온 지수(주간) |  | 97위 |
 |  | 가온 지수(월간) |  | - |
 | [주요 음원 서비스의 〈Talk & Talk〉 차트 순위 추이](https://xn--o39an51b2re.com/melon/song/33884383)<br>모든 음원 성적은 **가이섬.com**을 바탕으로 제작되었습니다. |  |  |  |
 
@@ -449,12 +452,12 @@ Stage Mix (M COUNTDOWN Ver.)**
 | **〈Talk & Talk〉 음악 방송 순위**[활동] |  |  |  |
 | --- | --- | --- | --- |
 | **방송명** | **1주차** | **2주차** | **3주차** |
-| [더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | NEW<br> 1위(Choice! 후보) | ▼<br> 2위(Choice! 후보) |
-| [![쇼챔피언 로고(2019-202...](https://i.namu.wiki/i/B_pQh-OPPyVbTNpssMYKxoYfvGJKCqkHiYemO6Ff2AmeND-dHdCndwI2px5VDHJXSTlyUNMzqd6fmEZNjX9aFuzww-Lth1PJv1UT84SmO-9p7r0wqQc6xSVQhvn3J__Q-MrZPSGLgzU6SfJYDdwr9g.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8) |  | NEW<br> 5위(TOP 5) | - |
-| [엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 컴백 | NEW<br> 3위(엠카 차트) | ▼<br> 11위(엠카 차트) |
-| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) |  | - | - |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC)[31] | 미출연 | NEW<br> 20위(M-차트) | - |
-| [![SBS 인기가요 로고(2018...](https://i.namu.wiki/i/8cUuWnT_GvbgoI5NCk7dvaBdQpr_FwWGbNB7Su4QKyJnXfW3MOs2gLYBQ4hH0wjG2FNSjvCpc8SKgIvIRdJp3AlCHt1ow8ItijmKUgk3xzMgfyzmUmUk57NQkv_AcCOLugz2GtgILla004cB4QSxEg.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) | 컴백 | NEW<br> 11위(인가 차트) | - |
+| [더 쇼<br>더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | NEW<br> 1위(Choice! 후보) | ▼<br> 2위(Choice! 후보) |
+| [![쇼챔피언 로고(2019-202...](https://i.namu.wiki/i/B_pQh-OPPyVbTNpssMYKxoYfvGJKCqkHiYemO6Ff2AmeND-dHdCndwI2px5VDHJXSTlyUNMzqd6fmEZNjX9aFuzww-Lth1PJv1UT84SmO-9p7r0wqQc6xSVQhvn3J__Q-MrZPSGLgzU6SfJYDdwr9g.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8 "쇼챔피언") |  | NEW<br> 5위(TOP 5) | - |
+| [엠 카운트다운<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 컴백 | NEW<br> 3위(엠카 차트) | ▼<br> 11위(엠카 차트) |
+| [![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/7M6AohGkCLuAzxMG7RnTXvz0gPBCU5rwwTSqNjEh-ELr78po8tmn1t77PLem4wYfIWsTMtPEa7XCgCq_iTkit7NyhkFToo5BjMZaTl12kXnzuSZZjFexJoTxpiRJFq8GzA6m-1AMCxieUC0So73LDQ.webp)![뮤직뱅크 로고(2019-202...](https://i.namu.wiki/i/8Ms4za6vVESa9xUfhHvCYnMEgOzUs056T2yH8n0QoLa6mftpZunZZ1et44lqx8IgAZueaDI_0cBFYCys0-GV9nGJUlTVkOMpup5xZ1mOjIw6xzh0IqVtWwDjT3qPWJCq_3ZrFpdDajhxdSFVrgGnSQ.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") |  | - | - |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC)[31] | 미출연 | NEW<br> 20위(M-차트) | - |
+| [![SBS 인기가요 로고(2018...](https://i.namu.wiki/i/8cUuWnT_GvbgoI5NCk7dvaBdQpr_FwWGbNB7Su4QKyJnXfW3MOs2gLYBQ4hH0wjG2FNSjvCpc8SKgIvIRdJp3AlCHt1ow8ItijmKUgk3xzMgfyzmUmUk57NQkv_AcCOLugz2GtgILla004cB4QSxEg.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") | 컴백 | NEW<br> 11위(인가 차트) | - |
 | **총 1관왕** |  |  |  |
 
 ## 활동
@@ -519,7 +522,7 @@ Recording Behind**
 
 - 백지헌의 랩 파트 가사 중 '핑퐁 무한 repeat'이 '핑퐁 [무한 리필](https://namu.wiki/w/%EB%AC%B4%ED%95%9C%20%EB%A6%AC%ED%95%84)'로 [들린다는 말](https://namu.wiki/w/%EB%AA%AC%EB%8D%94%EA%B7%B8%EB%A6%B0)이 많은 편.[34] 이 파트가 상당히 중독성 있는 파트이기도 한지라 이 파트만 무한 반복한 영상들도 많은 편. 이외에도 '빼곡히 채워 Talk & Talk'을 '물고기 채워 Talk & Talk'으로 들은 사람들도 많다고 한다.
 
-- 2021년 10월 1일, 'Talk & Talk' Ringtone Ver.mp3 파일을 구글 드라이브를 통해 공개하였다. [35][https://youtu.be/mc08d495PC8](https://youtu.be/mc08d495PC8)[36]
+- 2021년 10월 1일, 'Talk & Talk' Ringtone Ver.mp3 파일을 구글 드라이브를 통해 공개하였다. [구글 드라이브](https://drive.google.com/file/d/1gLmXKOfvUBaQYKuOeRtlr3GH7140srir/view)[35][https://youtu.be/mc08d495PC8](https://youtu.be/mc08d495PC8)[36]
 
 - 첫 1위와 함께 팀의 인지도 역시 상승하면서 여러모로 좋은 결과를 가져다준 싱글 활동으로 마무리됐다.
 

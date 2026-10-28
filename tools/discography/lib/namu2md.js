@@ -13,7 +13,8 @@ const abs = (u) => {
 };
 const clean = (s) => s.replace(/ /g, " ");
 
-function convert(html, sourceUrl) {
+function convert(html, sourceUrl, opts) {
+  const repeatRowspan = !!(opts && opts.repeatRowspan); // 멤버·그룹 문서용. 앨범 곡 정보 표는 rowspan 칸이 비어 있어야 파싱된다.
   const $ = cheerio.load(html);
   // 유튜브 임베드는 링크로 바꿔 남긴다 (나머지 iframe 은 제거)
   $("iframe").each((i, f) => {
@@ -113,7 +114,8 @@ function convert(html, sourceUrl) {
         for (let dr = 0; dr < cell.rs; dr++) {
           grid[r + dr] = grid[r + dr] || [];
           for (let dc = 0; dc < cell.cs; dc++) {
-            grid[r + dr][c + dc] = dr === 0 && dc === 0 ? cell.text : "";
+            // rowspan 으로 아래 행까지 이어진 칸은 값을 되풀이한다(짧으면 그대로, 길면 〃). 마크다운 표에는 rowspan 이 없어 비워 두면 칸이 빈 것처럼 보인다.
+            grid[r + dr][c + dc] = dr === 0 && dc === 0 ? cell.text : repeatRowspan && dc === 0 && dr > 0 && cell.text ? (cell.text.length <= 40 ? cell.text : "〃") : "";
           }
         }
         c += cell.cs;
@@ -154,6 +156,12 @@ function convert(html, sourceUrl) {
     if (tag === "img") {
       const src = abs(n.attr("data-src") || n.attr("src"));
       const alt = (n.attr("alt") || "").trim();
+      // 국기 이미지는 그대로 남긴다 (사이트에서 작은 아이콘으로 보여 줌)
+      if (/국기s*$/.test(alt) && src && !src.startsWith("data:")) return `![${alt}](${src})`;
+      // 방송·채널 로고는 svg 인 경우가 많다. 이미지는 싣지 않으므로 alt("뷰블 로고")에서 이름만 글자로 남긴다.
+      if (/로고/.test(alt) && (!src || src.startsWith("data:") || /\.svg(\?|$)/.test(src))) {
+        return alt.replace(/\([^)]*\)/g, "").replace(/\s*로고.*$/, "").trim();
+      }
       if (!src || src.startsWith("data:") || /\.svg(\?|$)/.test(src) || /아이콘/.test(alt)) return "";
       return `![${alt}](${src})`;
     }
@@ -161,10 +169,24 @@ function convert(html, sourceUrl) {
       const href = n.attr("href") || "";
       const text = inline(n).trim();
       if (!text) {
-        // 이미지만 있는 링크
-        return inline(n);
+        // 이미지만 있는 링크: 이미지가 사라져도 뜻이 남도록 alt 를 이름표로 쓴다.
+        // (유튜브 아이콘 → "▶ YouTube", "OO 로고"·"OO 아이콘" → "OO")
+        const imgMd = inline(n);
+        if (imgMd.trim()) return imgMd;
+        if (!href || href.startsWith("#")) return "";
+        if (/youtu(\.be|be\.com)/.test(href)) return `[▶ YouTube](${abs(href)})`;
+        const alt = n
+          .find("img")
+          .toArray()
+          .map((i) => ($(i).attr("alt") || "").trim())
+          .find(Boolean);
+        const label = (alt || "").replace(/\([^)]*\)/g, "").replace(/\s*(아이콘|로고).*$/, "").trim();
+        return label ? `[${label}](${abs(href)})` : "";
       }
       if (href.startsWith("#") || !href) return text;
+      // 이미지로만 된 링크(방송·채널 로고 등): 문서 이름이 title 에 있으므로 마크다운 링크 제목으로 남긴다
+      const ttl = (n.attr("title") || "").trim();
+      if (/^!\[/.test(text) && ttl && !/^https?:/.test(ttl)) return `[${text}](${abs(href)} "${ttl.replace(/"/g, "'")}")`;
       return `[${text}](${abs(href)})`;
     }
     if (tag === "sup" || (tag === "a" && /^fn-/.test(n.attr("id") || ""))) return "";

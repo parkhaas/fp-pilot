@@ -131,9 +131,61 @@
       `<div class="grid-head"><h2>Discography</h2><span class="grid-count">앨범 ${albums.length}개 · 최신순</span></div>` +
       `<div class="dg-filters" role="group" aria-label="앨범 종류">${chips}</div>` +
       `<div class="dg-years">${body}</div>` +
+      docsHtml() +
       `<section class="dg-extras" id="dgExtras"></section>` +
       sourceNote
     );
+  }
+
+  /* ---------- 주요 문서 (그룹·멤버·응원법 …) ---------- */
+
+  const docHref = (slug) => `?view=discography&doc=${encodeURIComponent(slug)}`;
+
+  function docsHtml() {
+    const docs = indexData.docs || [];
+    if (!docs.length) return "";
+    const group = (kind, title) => {
+      const items = docs.filter((d) => d.kind === kind);
+      if (!items.length) return "";
+      return `<div class="dg-doc-row"><h4>${title}</h4><div class="dg-doc-links">${items
+        .map((d) => `<a class="dg-doc" href="${docHref(d.slug)}" data-doc="${esc(d.slug)}">${esc(kind === "guide" ? d.label : d.title)}</a>`)
+        .join("")}</div></div>`;
+    };
+    return `<section class="dg-docs"><h3 class="dg-extras-h">프로미스나인 문서</h3>${group("group", "그룹")}${group("member", "멤버")}${group("guide", "모아보기")}</section>`;
+  }
+
+  // 멤버 인물 정보(이름·출생·국적·본관·신체·가족·학력·상징 색·MBTI·좌우명·서명·링크 …) 카드
+  function profileCard(info) {
+    return `<section class="dg-profile" aria-label="인물 정보"><dl>${info.rows.map((r) => `<div><dt>${esc(r.k)}</dt><dd>${r.html}</dd></div>`).join("")}</dl></section>`;
+  }
+
+  async function docPageHtml(slug) {
+    let d;
+    try {
+      d = detailCache["doc:" + slug] = detailCache["doc:" + slug] || (await getJson(`docs/${slug}.json`));
+    } catch (e) {
+      return null;
+    }
+    const sec = (s, open) =>
+      `<details class="dg-sec"${open ? " open" : ""}><summary><span>${esc(s.title)}</span><i data-lucide="chevron-down" class="dg-chev"></i></summary><div class="dg-prose">${s.html}</div></details>`;
+    const toc = d.sections.length > 1 ? `<p class="dg-doc-count">${d.sections.length}개 항목 · 눌러서 펼치기</p>` : "";
+    return {
+      title: d.title,
+      html:
+        `<a class="dg-back" href="${href()}" data-album=""><i data-lucide="arrow-left"></i>Discography</a>` +
+        `<header class="dg-doc-head${d.profile ? " has-photo" : ""}">` +
+        (d.profile ? `<img class="dg-doc-photo" src="${BASE + d.profile}" alt="${esc(d.title)} 프로필 사진">` : "") +
+        `<div><p class="dg-kind">${esc(d.label)}</p><h2 class="dg-hero-title">${esc(d.title)}</h2>` +
+        (d.info && (d.info.name.hanja || d.info.name.en) ? `<p class="dg-names">${[d.info.name.hanja, d.info.name.en].filter(Boolean).map(esc).join(" <span>｜</span> ")}</p>` : "") +
+        (d.updated ? `<p class="dg-meta"><span>원문 최근 수정 ${esc(d.updated)}</span></p>` : "") +
+        `</div></header>` +
+        (d.info ? profileCard(d.info) : "") +
+        (d.summary ? `<div class="dg-prose dg-summary dg-doc-summary">${d.summary}</div>` : "") +
+        toc +
+        d.sections.map((s, i) => sec(s, i === 0)).join("") +
+        `<p class="dg-source">이 문서는 <a href="${esc(d.source.url)}" target="_blank" rel="noopener noreferrer">나무위키 ‘${esc(d.source.title)}’</a>의 내용을 ` +
+        `<a href="https://creativecommons.org/licenses/by-nc-sa/2.0/kr/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 2.0 KR</a> 조건에 따라 정리한 것입니다(원 저작자: 나무위키 기여자, 비영리, 동일 조건 공유).</p>`,
+    };
   }
 
   async function loadExtras(root) {
@@ -203,6 +255,12 @@
     if (boundRoot === root) return;
     boundRoot = root;
     root.addEventListener("click", async (e) => {
+      const dl = e.target.closest("[data-doc]");
+      if (dl && !(e.metaKey || e.ctrlKey || e.shiftKey || e.button)) {
+        e.preventDefault();
+        opts.onNav && opts.onNav(null, dl.dataset.doc);
+        return;
+      }
       const nav = e.target.closest("[data-album]");
       if (nav && !(e.metaKey || e.ctrlKey || e.shiftKey || e.button)) {
         e.preventDefault();
@@ -258,6 +316,15 @@
     } catch (e) {
       root.innerHTML = `<div class="empty"><p>디스코그래피 데이터를 불러오지 못했습니다.</p></div>`;
       return null;
+    }
+    if (opts.doc) {
+      const r = await docPageHtml(opts.doc);
+      if (boundRoot !== root) return null;
+      if (r) {
+        root.innerHTML = `<div class="dg dg-detail">${r.html}</div>`;
+        window.lucide && window.lucide.createIcons();
+        return r.title;
+      }
     }
     const a = opts.album && indexData.albums.find((x) => x.id === opts.album);
     if (a) {

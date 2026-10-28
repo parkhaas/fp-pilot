@@ -2,7 +2,7 @@
 title: "Supersonic(프로미스나인)"
 source: https://namu.wiki/w/Supersonic(%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8)
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-26
+fetched: 2026-10-28
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/Supersonic(%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8))의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -66,38 +66,38 @@ fetched: 2026-10-26
 | **날짜** | **시간** | **내용** | **링크** |
 | --- | --- | --- | --- |
 | **2024년** |  |  |  |
-| **07. 18.** | 21:00 | 3rd Single Album [Supersonic] Release on |  |
-| **07. 22.** | 12:00 | 3rd Single Album [Supersonic] 예약 판매 안내 공지 |  |
-| **07. 23.** | 21:00 | 3rd Single Album [Supersonic] Promotion Scheduler |  |
-| **07. 24.** | 21:00 | 3rd Single Album [Supersonic] Track List |  |
-| **07. 26.** | 21:00 | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 이새롬 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 이서연 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 송하영 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 이채영 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 노지선 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 백지헌 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 박지원 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 이나경 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 프로미스나인 |  |
-| **07. 30.** | 21:00 | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 이새롬 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 이채영 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 노지선 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 백지헌 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 송하영 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 이서연 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 이나경 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 박지원 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 프로미스나인 |  |
-| **08. 01.** | 21:00 | 3rd Single Album [Supersonic] Official Photo 🧊 #COOL ver. 백지헌 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo 🧊 #COOL ver. 이채영 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo 🧊 #COOL ver. 이나경 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo 🧊 #COOL ver. 이새롬 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo 🧊 #COOL ver. 이서연 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo 🧊 #COOL ver. 박지원 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo 🧊 #COOL ver. 노지선 |  |
-|  |  | 3rd Single Album [Supersonic] Official Photo 🧊 #COOL ver. 송하영 |  |
-| **08. 06.** | 21:00 | 3rd Single Album [Supersonic] Highlight Medley |  |
-| **08. 10.** | 21:00 | 3rd Single Album [Supersonic] 'Supersonic' Official Teaser |  |
+| **07. 18.** | 21:00 | 3rd Single Album [Supersonic] Release on | [X Corp](https://x.com/realfromis_9/status/1813906569144500507) |
+| **07. 22.** | 12:00 | 3rd Single Album [Supersonic] 예약 판매 안내 공지 | [Weverse](https://m.weverse.io/lesserafim/notice/21137) |
+| **07. 23.** | 21:00 | 3rd Single Album [Supersonic] Promotion Scheduler | [X Corp](https://x.com/realfromis_9/status/1815718533478977761) |
+| **07. 24.** | 21:00 | 3rd Single Album [Supersonic] Track List | [X Corp](https://x.com/realfromis_9/status/1816080891984191729) |
+| **07. 26.** | 21:00 | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 이새롬 | [X Corp](https://x.com/realfromis_9/status/1816805675131117716) [X Corp](https://x.com/realfromis_9/status/1816805681397395513) |
+|  |  | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 이서연 | [X Corp](https://x.com/realfromis_9/status/1816806927923613826) [X Corp](https://x.com/realfromis_9/status/1816806932633780280) |
+|  |  | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 송하영 | [X Corp](https://x.com/realfromis_9/status/1816806964225290268) [X Corp](https://x.com/realfromis_9/status/1816806968578969727) |
+|  |  | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 이채영 | [X Corp](https://x.com/realfromis_9/status/1816808187913470453) [X Corp](https://x.com/realfromis_9/status/1816808192191660039) |
+|  |  | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 노지선 | [X Corp](https://x.com/realfromis_9/status/1816809454274511016) [X Corp](https://x.com/realfromis_9/status/1816809459093737662) |
+|  |  | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 백지헌 | [X Corp](https://x.com/realfromis_9/status/1816810703812219180) [X Corp](https://x.com/realfromis_9/status/1816810708467953786) |
+|  |  | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 박지원 | [X Corp](https://x.com/realfromis_9/status/1816810735416271253) [X Corp](https://x.com/realfromis_9/status/1816810742521512142) |
+|  |  | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 이나경 | [X Corp](https://x.com/realfromis_9/status/1816811963005153550) [X Corp](https://x.com/realfromis_9/status/1816811969971618113) |
+|  |  | 3rd Single Album [Supersonic] Official Photo ❤️‍🔥 #HEAT ver. 프로미스나인 | [X Corp](https://x.com/realfromis_9/status/1816813225314517340) |
+| **07. 30.** | 21:00 | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 이새롬 | [X Corp](https://x.com/realfromis_9/status/1818255244956258523) |
+|  |  | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 이채영 | [X Corp](https://x.com/realfromis_9/status/1818256482628255959) |
+|  |  | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 노지선 | [X Corp](https://x.com/realfromis_9/status/1818256496104558889) |
+|  |  | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 백지헌 | [X Corp](https://x.com/realfromis_9/status/1818257738172137772) |
+|  |  | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 송하영 | [X Corp](https://x.com/realfromis_9/status/1818258996836581385) |
+|  |  | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 이서연 | [X Corp](https://x.com/realfromis_9/status/1818259014402379927) |
+|  |  | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 이나경 | [X Corp](https://x.com/realfromis_9/status/1818260254800617577) |
+|  |  | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 박지원 | [X Corp](https://x.com/realfromis_9/status/1818261515167994239) |
+|  |  | 3rd Single Album [Supersonic] Official Photo 🍋 #JUICY ver. 프로미스나인 | [X Corp](https://x.com/realfromis_9/status/1818262770628125006) |
+| **08. 01.** | 21:00 | 3rd Single Album [Supersonic] Official Photo 🧊 #COOL ver. 백지헌 | [X Corp](https://x.com/realfromis_9/status/1818980006116397290) [X Corp](https://x.com/realfromis_9/status/1818980000005325106) |
+|  |  | 3rd Single Album [Supersonic] Official Photo 🧊 #COOL ver. 이채영 | [X Corp](https://x.com/realfromis_9/status/1818980028702740578) [X Corp](https://x.com/realfromis_9/status/1818980033882628388) |
+|  |  | 3rd Single Album [Supersonic] Official Photo 🧊 #COOL ver. 이나경 | [X Corp](https://x.com/realfromis_9/status/1818980054753542538) [X Corp](https://x.com/realfromis_9/status/1818980059048182044) |
+|  |  | 3rd Single Album [Supersonic] Official Photo 🧊 #COOL ver. 이새롬 | [X Corp](https://x.com/realfromis_9/status/1818981256799154584) [X Corp](https://x.com/realfromis_9/status/1818981261118980112) |
+|  |  | 3rd Single Album [Supersonic] Official Photo 🧊 #COOL ver. 이서연 | [X Corp](https://x.com/realfromis_9/status/1818981289476993186) [X Corp](https://x.com/realfromis_9/status/1818981294250037345) |
+|  |  | 3rd Single Album [Supersonic] Official Photo 🧊 #COOL ver. 박지원 | [X Corp](https://x.com/realfromis_9/status/1818982515455250699) [X Corp](https://x.com/realfromis_9/status/1818982522363183515) |
+|  |  | 3rd Single Album [Supersonic] Official Photo 🧊 #COOL ver. 노지선 | [X Corp](https://x.com/realfromis_9/status/1818982550477656230) [X Corp](https://x.com/realfromis_9/status/1818982556492255513) |
+|  |  | 3rd Single Album [Supersonic] Official Photo 🧊 #COOL ver. 송하영 | [X Corp](https://x.com/realfromis_9/status/1818982579883942352) [X Corp](https://x.com/realfromis_9/status/1818982586582184026) |
+| **08. 06.** | 21:00 | 3rd Single Album [Supersonic] Highlight Medley | [X Corp](https://x.com/realfromis_9/status/1820791989371347009) |
+| **08. 10.** | 21:00 | 3rd Single Album [Supersonic] 'Supersonic' Official Teaser | [X Corp](https://x.com/realfromis_9/status/1822241529148358735) |
 
 ## 콘셉트 티저
 
@@ -641,7 +641,7 @@ Take a chance on me tonight
 | **HEAT / JUICY Ver.** |  |
 | --- | --- |
 | ![Supersonic(프로미스나...](https://i.namu.wiki/i/ZlFt2GrRyiWch9zFoSMwBQPA-S3Yt7SymfbQQDpjdTi8oEqxnI7n9SQdLK3ZI2AKC1mT7xwssqy4_s3TLPhvA7TqooxndU3jaj46Wh3_m1bp0jAjv7CjB9q_gRDSNTk44vO0KT336vX1GuFlz6-caQ.webp) |  |
-| **가격** | ~~23,000~~ ￦18,500 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~23,000~~ ￦18,500 19% |
 | **음반 코드** | PLD0436 |
 | **구성** | **앨범 구성품 (HEAT ver. / JUICY ver.)**<br>- PHOTO BOOK : W185×H255×T7 (mm) / 80P / 1종 (버전별 이미지 상이)<br>- STICKER : W110×H40 (mm) / 1종<br>- LYRIC CARD : W90×H140 (mm) / 2종 중 랜덤 1종 삽입 (버전별 이미지 상이)<br>- PHOTO CARD : W55×H85 (mm) / 16종 중 랜덤 2종 삽입 (버전별 이미지 상이)<br>- FOLDED POSTER : W400×H280 (mm) / 1종 (버전별 이미지 상이)<br>- CD-R : 1종 (버전별 이미지 상이) |
 | [ 펼치기 · 접기 ]<br>![Supersonic(프로미스나...](https://i.namu.wiki/i/rQsqfO4ORP3ufo2gyGTP2nuR6f6UTrizhc0djamixBb_MtPYn5vx2bPAtTC05uLbzBx8ofkDEE_cjWaRRyFkRSBnFpHJayVsSZ6BPweIIsqWX9VM3bPIJb7N9wnDCgK5tIcc2TcnqRIhrq2AA-S6bA.webp) |  |
@@ -649,7 +649,7 @@ Take a chance on me tonight
 | **Compact Ver.** |  |
 | --- | --- |
 | ![Supersonic(프로미스나...](https://i.namu.wiki/i/HOlUyh9JWWRJccX-_u1CUXAmg-sYherwb4GuJScN976SVUEziHEgUtfymFqzD2ijaZiwEu1yBVIMO-DCVcvxmm3bUdx-aUmIjWBe0fymBf0vZF33I7Jqe_HJqCox0M04gH_9-NRJ2zT3gAn5sfPPBQ.webp) |  |
-| **가격** | ~~15,600~~ ￦12,600 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~15,600~~ ￦12,600 19% |
 | **음반 코드** | PLD0437 |
 | **구성** | **앨범 구성품**<br>- OUT BOX : W144×H125 (mm) / 1종<br>- BOOKLET : W140×H120 (mm) / 12P / 1종<br>- PHOTO CARD : W55×H85 (mm) / 8종 중 랜덤 2종 삽입<br>- BOOK MARK : W100×H50 (mm) / 1종<br>- CD-R : 1종 |
 | [ 펼치기 · 접기 ]<br>![Supersonic(프로미스나...](https://i.namu.wiki/i/ONGZ3ocvW8_KvX8suuQpbm9YWOaavunNkNqq_pnZ-SVufqiygt4vZdCQg0QjA1XhbUPSKqvYCevc0uxQQYpi1j6paFli51BvoUC2HuJWBsC3J4WKpxBELSxg_0F0GBVCildjLAsO93MttHsAzLJU6Q.webp) |  |
@@ -657,7 +657,7 @@ Take a chance on me tonight
 | **Weverse Ver.** |  |
 | --- | --- |
 | ![Supersonic(프로미스나...](https://i.namu.wiki/i/EGfDPWQZ1LIg6csgBh_Uwht2w1rtPKYg7B0aDdNNmerh2sqqSa812WP6EtWGLnI1HBNTzvgJ7ky-4xeGC7XbOZIDgjnRGxC3TCXlqSUwbD45nknsh4418YUoYpfATevLr1Uw091wZcrOe-h67UPfyw.webp) |  |
-| **가격** | ~~14,300~~ ￦11,500 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~14,300~~ ￦11,500 19% |
 | **음반 코드** | PLD0438 |
 | **구성** | **앨범 구성품**<br>- CARD HOLDER : W90×H120 (mm) / 1종<br>- PHOTO CARD : W55×H86 (mm) / 16종 중 랜덤 2종 삽입<br>- QR CARD : W55×H86 (mm) / 8종 중 랜덤 1종 삽입 |
 | [ 펼치기 · 접기 ]<br>![Supersonic(프로미스나...](https://i.namu.wiki/i/JA-8liwoIYr8QhhR-eSKkzl4gd1sJusmtS-KWcGNdY2Fly9IV3K91wFWzRlbOe8XjOGOX1l-Qcw3bfmIhmhO3tZXTJdQf05CisYiyPDUnjRLyj7EeonGHrXe2OO9FyatIUNUHo_U7zQ2YwDplKKACA.webp) |  |
@@ -665,7 +665,7 @@ Take a chance on me tonight
 | **KIT Ver.** |  |
 | --- | --- |
 | ![Supersonic(프로미스나...](https://i.namu.wiki/i/VPOFAcBY_uzv0di9g5dXKJsgYjd-z36Y_b9DPdbL6I74PlUJ4R8pYaZGInSdClWl4iOBe03mR_PEoy6_YNuNGVOKLRzFXNLX7UxM0qufwzBB_AjoMgRpSGXtN2NVhQib1Vic0aavMwXqXtb5w-Hu7g.webp) |  |
-| **가격** | ~~26,900~~ ￦21,800 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~26,900~~ ￦21,800 19% |
 | **음반 코드** | PLD0475 |
 | **구성** | **앨범 구성품**<br>- PACKAGE OUT BOX : W100×H100×T37 (mm) / 1종<br>- AIR KIT : W60×H60×T13 (mm) / 1종<br>- TITLE & CREDIT CARD : W90×H123 (mm) / 1종<br>- SELFIE PHOTO CARD : W55×H85 (mm) / 8종 중 랜덤 1종 삽입<br>- PHOTO CARD : W85×H119 (mm) / 16종 |
 | [ 펼치기 · 접기 ]<br>![Supersonic(프로미스나...](https://i.namu.wiki/i/e_wokY7XGPu1OPkHnz_Q7jm20D5C5GM18Zr27S-aPBg_D2p4ZvYa-maD_Nvk0UyuRpOssnESTF6mV6F73UkdAF33o2Qn0guXdOrVIao-i07skTQbnhWIpAs4Tmq7lQg7QMUE38TIrG6UpuYN6bFW7w.webp) |  |
@@ -674,7 +674,7 @@ Take a chance on me tonight
 
 ### 음원
 
-**[선정 2024년 최고의 K-POP](https://namu.wiki/w/%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP)**
+**[빌보드빌보드](https://namu.wiki/w/%EB%B9%8C%EB%B3%B4%EB%93%9C) [선정 2024년 최고의 K-POP](https://namu.wiki/w/%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP)**
 
 [ 노래 부문 25선 ]
 
@@ -711,7 +711,7 @@ Take a chance on me tonight
 | **Supersonic<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | **5위** |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | **5위** |
 |  | HOT 100 | 30일 | **1위** |
 |  |  | 100일 | **3위** |
 |  | 실시간 차트 |  | **6위** |
@@ -721,55 +721,55 @@ Take a chance on me tonight
 |  | 최신 차트 | 1주 | **1위** |
 |  |  | 4주 |  |
 |  | **연간 차트** |  | 99위 |
-| [YouTube Music](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | **5위** |
+| [유튜브 뮤직유튜브 뮤직<br>YouTube Music](https://namu.wiki/w/YouTube%20Music) | 주간 인기곡 차트 |  | **5위** |
 |  | 주간 뮤직비디오 차트 |  | **1위** |
-| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 20위 |
+| [지니뮤직<br>지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 20위 |
 |  | 일간 차트 |  | 28위 |
 |  | 주간 차트 |  | 29위 |
 |  | 월간 차트 |  | 31위 |
 |  | 연간 차트 |  | 95위 |
-| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | **7위** |
-| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **1위** |
+| [FLO<br>FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | **7위** |
+| [벅스<br>벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **1위** |
 |  | 일간 차트 |  |  |
 |  | 주간 차트 |  |  |
-| [네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 25위 |
-| [Spotify](https://namu.wiki/w/Spotify) | Korea Top Song | Daily | **10위** |
+| [네이버 VIBE네이버 VIBE<br>네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 25위 |
+| [Spotify<br>Spotify](https://namu.wiki/w/Spotify) | Korea Top Song | Daily | **10위** |
 |  |  | Weekly | 12위 |
 |  | Taiwan Top Song | Daily | 180위 |
 |  |  | Weekly | - |
-| [Apple Music](https://namu.wiki/w/Apple%20Music) | TOP 100: 대한민국 |  | **1위** |
+| [애플 뮤직애플 뮤직<br>Apple Music](https://namu.wiki/w/Apple%20Music) | TOP 100: 대한민국 |  | **1위** |
 |  | TOP 25: 서울 |  | **2위** |
 |  | TOP 25: 부산 |  | **1위** |
-| [써클차트](https://namu.wiki/w/%EC%8D%A8%ED%81%B4%EC%B0%A8%ED%8A%B8) | 디지털 주간 차트 |  | **2위** |
+| [써클차트써클차트<br>써클차트](https://namu.wiki/w/%EC%8D%A8%ED%81%B4%EC%B0%A8%ED%8A%B8) | 디지털 주간 차트 |  | **2위** |
 |  | 디지털 월간 차트 |  | **8위** |
 | [주요 음원 서비스의 〈Supersonic〉 차트 순위 추이](https://xn--o39an51b2re.com/song/melon/37884934)<br>모든 음원 성적은 **가이섬.com**, [kworb](https://kworb.net/charts/)을 바탕으로 제작되었습니다. |  |  |  |
 
 | **Beat The Heat<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **6위** |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **6위** |
 |  |  | 100일 | 27위 |
 |  | 일간 차트 |  | 627위 |
 |  | 최신 차트 | 1주 | **6위** |
 |  |  | 4주 | 27위 |
-| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 219위 |
-| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **4위** |
+| [지니뮤직<br>지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 219위 |
+| [벅스<br>벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **4위** |
 |  | 일간 차트 |  | 93위 |
-| [네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 124위 |
-| [Spotify](https://namu.wiki/w/Spotify) | Korea Top Song | Daily | 157위 |
+| [네이버 VIBE네이버 VIBE<br>네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 124위 |
+| [Spotify<br>Spotify](https://namu.wiki/w/Spotify) | Korea Top Song | Daily | 157위 |
 
 | **Take A Chance<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **7위** |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **7위** |
 |  |  | 100일 | 32위 |
 |  | 일간 차트 |  | 795위 |
 |  | 최신 차트 | 1주 | **6위** |
 |  |  | 4주 | 12위 |
-| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 245위 |
-| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **6위** |
+| [지니뮤직<br>지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 245위 |
+| [벅스<br>벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **6위** |
 |  | 일간 차트 |  | 99위 |
-| [네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 254위 |
+| [네이버 VIBE네이버 VIBE<br>네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 254위 |
 
 - [2022년](https://namu.wiki/w/2022%EB%85%84) [DM](https://namu.wiki/w/Midnight%20Guest#s-5.2), [Stay This Way](https://namu.wiki/w/from%20our%20Memento%20Box#s-5.2) 이후 [멜론 TOP 100](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0%EC%B0%A8%ED%8A%B8#s-2.1)에 진입한 세 번째 노래가 되었다. 심지어 **발매 당일 진입**한 것은 데뷔 이래 **최초**이다.
 
@@ -829,27 +829,27 @@ Take a chance on me tonight
 | **〈Supersonic〉 음악 방송 순위**[활동][1위] |  |  |
 | --- | --- | --- |
 | **방송명** | **1주차** | **2주차** |
-| [더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | **1위**[컴백] |
-| [![쇼챔피언 로고(2024-202...](https://i.namu.wiki/i/uJ0XMcDPdeBwKbnNZqcLVHrewm_p-CFhv0hpeqpwDWL-hMX2HK9h6kL5s-Hi8Fvz8zH_PhK9RXiZjZg1b5ATwVle1MKidXy34tUmfOlbR2VXZZDPcktp_qTiyxYROZSuRNjAaawxoCHEKgJeMVdOBg.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8) |  | 결방 |
-| [![엠 카운트다운 로고](https://i.namu.wiki/i/nU6_KVQvn2nmDvuadzKtnOVCgInzTSmxvEGSNZEiri_ksysDHoAg1EL5mn9B66Xz92-O_Na-7IDwd6RkgwMhyWFvJwCEcycf_Z6Zsg6IqVHT1lrCvkPkIkQ23OuCqPQNq98WmN6RBJWvVy5k_HZ0kg.webp)<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) |  | **1위**[컴백] |
-| [![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/dLo--aLisyQPcNn1-bfynzq0Z-25tIgJmvW56yPD98Jd0d0FsAZC23SD9ecCVD27liNOOsFy0C9XM5ISA3uOva9nHWJVBP8cBfZhcD-Ot_xR7jcBWSTI-0xOSdJk_ergC7ZLJROFo5LchCdBYr9RBA.webp)![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/nJ4gLIHT8jsso0xQf2YJOPwH3w15HiP4UfqsQ7f243qfDgBXo4zHKEeRZTcKTw8gxnLStZ_lIWmodr_lS4zASblJer2Zk2GjhYyVyVJ2YOdwBADRkkR-zsgKqB82LzPCDkbFMgl6ELRsgkAHNS1hDw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) | [컴백] | **1위** |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | 특방[컴백][27] | **1위** |
-| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) | [컴백] | 5위 |
+| [더 쇼<br>더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC) | - | **1위**[컴백] |
+| [![쇼챔피언 로고(2024-202...](https://i.namu.wiki/i/uJ0XMcDPdeBwKbnNZqcLVHrewm_p-CFhv0hpeqpwDWL-hMX2HK9h6kL5s-Hi8Fvz8zH_PhK9RXiZjZg1b5ATwVle1MKidXy34tUmfOlbR2VXZZDPcktp_qTiyxYROZSuRNjAaawxoCHEKgJeMVdOBg.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8 "쇼챔피언") |  | 결방 |
+| [![엠 카운트다운 로고](https://i.namu.wiki/i/nU6_KVQvn2nmDvuadzKtnOVCgInzTSmxvEGSNZEiri_ksysDHoAg1EL5mn9B66Xz92-O_Na-7IDwd6RkgwMhyWFvJwCEcycf_Z6Zsg6IqVHT1lrCvkPkIkQ23OuCqPQNq98WmN6RBJWvVy5k_HZ0kg.webp)<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4 "엠 카운트다운") |  | **1위**[컴백] |
+| [![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/dLo--aLisyQPcNn1-bfynzq0Z-25tIgJmvW56yPD98Jd0d0FsAZC23SD9ecCVD27liNOOsFy0C9XM5ISA3uOva9nHWJVBP8cBfZhcD-Ot_xR7jcBWSTI-0xOSdJk_ergC7ZLJROFo5LchCdBYr9RBA.webp)![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/nJ4gLIHT8jsso0xQf2YJOPwH3w15HiP4UfqsQ7f243qfDgBXo4zHKEeRZTcKTw8gxnLStZ_lIWmodr_lS4zASblJer2Zk2GjhYyVyVJ2YOdwBADRkkR-zsgKqB82LzPCDkbFMgl6ELRsgkAHNS1hDw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") | [컴백] | **1위** |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | 특방[컴백][27] | **1위** |
+| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") | [컴백] | 5위 |
 
 | **〈Supersonic〉 음악 방송 순위**[활동종료][1위] |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **방송명** | **3주차** | **4주차** | **5주차** | **6주차** | **7주차** | **8주차** | **9주차** |
-| [![쇼챔피언 로고(2024-202...](https://i.namu.wiki/i/uJ0XMcDPdeBwKbnNZqcLVHrewm_p-CFhv0hpeqpwDWL-hMX2HK9h6kL5s-Hi8Fvz8zH_PhK9RXiZjZg1b5ATwVle1MKidXy34tUmfOlbR2VXZZDPcktp_qTiyxYROZSuRNjAaawxoCHEKgJeMVdOBg.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8) | 특방[31] | **3위** | -[32] |  |  |  |  |
-| [![엠 카운트다운 로고](https://i.namu.wiki/i/nU6_KVQvn2nmDvuadzKtnOVCgInzTSmxvEGSNZEiri_ksysDHoAg1EL5mn9B66Xz92-O_Na-7IDwd6RkgwMhyWFvJwCEcycf_Z6Zsg6IqVHT1lrCvkPkIkQ23OuCqPQNq98WmN6RBJWvVy5k_HZ0kg.webp)<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 3위 | 3위 | 7위 | -[33] |  |  |  |
-| [![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/dLo--aLisyQPcNn1-bfynzq0Z-25tIgJmvW56yPD98Jd0d0FsAZC23SD9ecCVD27liNOOsFy0C9XM5ISA3uOva9nHWJVBP8cBfZhcD-Ot_xR7jcBWSTI-0xOSdJk_ergC7ZLJROFo5LchCdBYr9RBA.webp)![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/nJ4gLIHT8jsso0xQf2YJOPwH3w15HiP4UfqsQ7f243qfDgBXo4zHKEeRZTcKTw8gxnLStZ_lIWmodr_lS4zASblJer2Zk2GjhYyVyVJ2YOdwBADRkkR-zsgKqB82LzPCDkbFMgl6ELRsgkAHNS1hDw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) | 7위 | 29위 | 24위 | 20위 | 21위 | 18위 | 17위(특방)[34] |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | 6위 | 7위 | 6위 | 4위 | **2위** | 5위 | **2위** |
-| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) | 미진입 | 18위 | 결방[35] | 13위 | 9위 | 13위 | 결방[36] |
+| [![쇼챔피언 로고(2024-202...](https://i.namu.wiki/i/uJ0XMcDPdeBwKbnNZqcLVHrewm_p-CFhv0hpeqpwDWL-hMX2HK9h6kL5s-Hi8Fvz8zH_PhK9RXiZjZg1b5ATwVle1MKidXy34tUmfOlbR2VXZZDPcktp_qTiyxYROZSuRNjAaawxoCHEKgJeMVdOBg.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8 "쇼챔피언") | 특방[31] | **3위** | -[32] |  |  |  |  |
+| [![엠 카운트다운 로고](https://i.namu.wiki/i/nU6_KVQvn2nmDvuadzKtnOVCgInzTSmxvEGSNZEiri_ksysDHoAg1EL5mn9B66Xz92-O_Na-7IDwd6RkgwMhyWFvJwCEcycf_Z6Zsg6IqVHT1lrCvkPkIkQ23OuCqPQNq98WmN6RBJWvVy5k_HZ0kg.webp)<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4 "엠 카운트다운") | 3위 | 3위 | 7위 | -[33] |  |  |  |
+| [![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/dLo--aLisyQPcNn1-bfynzq0Z-25tIgJmvW56yPD98Jd0d0FsAZC23SD9ecCVD27liNOOsFy0C9XM5ISA3uOva9nHWJVBP8cBfZhcD-Ot_xR7jcBWSTI-0xOSdJk_ergC7ZLJROFo5LchCdBYr9RBA.webp)![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/nJ4gLIHT8jsso0xQf2YJOPwH3w15HiP4UfqsQ7f243qfDgBXo4zHKEeRZTcKTw8gxnLStZ_lIWmodr_lS4zASblJer2Zk2GjhYyVyVJ2YOdwBADRkkR-zsgKqB82LzPCDkbFMgl6ELRsgkAHNS1hDw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") | 7위 | 29위 | 24위 | 20위 | 21위 | 18위 | 17위(특방)[34] |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | 6위 | 7위 | 6위 | 4위 | **2위** | 5위 | **2위** |
+| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") | 미진입 | 18위 | 결방[35] | 13위 | 9위 | 13위 | 결방[36] |
 
 | **〈Supersonic〉 음악 방송 순위**[활동종료] |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **방송명** | **10주차** | **11주차** | **12주차** | **13주차** | **14주차** | **15주차** | **16주차** |
-| [![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/dLo--aLisyQPcNn1-bfynzq0Z-25tIgJmvW56yPD98Jd0d0FsAZC23SD9ecCVD27liNOOsFy0C9XM5ISA3uOva9nHWJVBP8cBfZhcD-Ot_xR7jcBWSTI-0xOSdJk_ergC7ZLJROFo5LchCdBYr9RBA.webp)![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/nJ4gLIHT8jsso0xQf2YJOPwH3w15HiP4UfqsQ7f243qfDgBXo4zHKEeRZTcKTw8gxnLStZ_lIWmodr_lS4zASblJer2Zk2GjhYyVyVJ2YOdwBADRkkR-zsgKqB82LzPCDkbFMgl6ELRsgkAHNS1hDw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) | 14위 | 13위 | 15위 | 19위 | 21위 | 21위 | 21위 |
-| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) | 특방[38] | 9위 | 12위 | 14위 | 15위 | 20위 | 23위 |
+| [![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/dLo--aLisyQPcNn1-bfynzq0Z-25tIgJmvW56yPD98Jd0d0FsAZC23SD9ecCVD27liNOOsFy0C9XM5ISA3uOva9nHWJVBP8cBfZhcD-Ot_xR7jcBWSTI-0xOSdJk_ergC7ZLJROFo5LchCdBYr9RBA.webp)![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/nJ4gLIHT8jsso0xQf2YJOPwH3w15HiP4UfqsQ7f243qfDgBXo4zHKEeRZTcKTw8gxnLStZ_lIWmodr_lS4zASblJer2Zk2GjhYyVyVJ2YOdwBADRkkR-zsgKqB82LzPCDkbFMgl6ELRsgkAHNS1hDw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") | 14위 | 13위 | 15위 | 19위 | 21위 | 21위 | 21위 |
+| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") | 특방[38] | 9위 | 12위 | 14위 | 15위 | 20위 | 23위 |
 | **총 4관왕** |  |  |  |  |  |  |  |
 
 - 2주차 [더 쇼](https://namu.wiki/w/%EB%8D%94%20%EC%87%BC)에서 컴백 첫 **1위**를 수상했다.
@@ -860,7 +860,7 @@ Take a chance on me tonight
 
 ### 평가
 
-**[선정 2024년 최고의 K-POP](https://namu.wiki/w/%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP)**
+**[빌보드빌보드](https://namu.wiki/w/%EB%B9%8C%EB%B3%B4%EB%93%9C) [선정 2024년 최고의 K-POP](https://namu.wiki/w/%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP)**
 
 [ 노래 부문 25선 ]
 

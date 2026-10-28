@@ -12,6 +12,7 @@
     videos: [],
     members: [],
     meta: {},
+    doc: null, // 디스코그래피에서 열린 주요 문서 슬러그
     album: null, // 디스코그래피 상세로 열린 앨범 id
     discoCount: null,
     view: "browse", // "browse" | "about" | "photos" | "discography" (파라미터 없이 접속하면 전체보기가 시작 페이지)
@@ -298,6 +299,7 @@
     else if (p.get("view") === "discography") {
       state.view = "discography";
       state.album = p.get("album") || null;
+      state.doc = p.get("doc") || null;
     }
     else if (p.get("view") === "browse" || hasSel) state.view = "browse";
     else state.view = "browse"; // 파라미터 없음 = 시작 페이지(전체보기)
@@ -310,6 +312,7 @@
     } else if (state.view === "discography") {
       p.set("view", "discography");
       if (state.album) p.set("album", state.album);
+      if (state.doc) p.set("doc", state.doc);
     } else {
       const s = state.sel;
       if (s.cat) p.set("cat", s.cat);
@@ -733,8 +736,9 @@
     wrap.className = "disco-root";
     el.content.appendChild(wrap);
     const album = state.album;
-    window.FFDiscography.render(wrap, { album, onNav: goDisco }).then((title) => {
-      if (state.view !== "discography" || state.album !== album) return;
+    const doc = state.doc;
+    window.FFDiscography.render(wrap, { album, doc, onNav: goDisco }).then((title) => {
+      if (state.view !== "discography" || state.album !== album || state.doc !== doc) return;
       state.discoCount = window.FFDiscography.count();
       if (title) document.title = `${title} · Discography · FLOVER-FLIX`;
       el.topbarTitle.textContent = title ? "Discography" : "Discography";
@@ -742,9 +746,10 @@
     });
   }
 
-  function goDisco(id) {
+  function goDisco(id, doc) {
     state.view = "discography";
     state.album = id || null;
+    state.doc = doc || null;
     state.subGroup = null;
     writeUrl();
     buildNav();

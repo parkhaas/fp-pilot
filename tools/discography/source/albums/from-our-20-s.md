@@ -2,7 +2,7 @@
 title: "From Our 20’s"
 source: https://namu.wiki/w/From%20Our%2020%E2%80%99s
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-26
+fetched: 2026-10-28
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/From%20Our%2020%E2%80%99s)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -19,6 +19,7 @@ fetched: 2026-10-26
 
 ## 앨범 소개
 
+From Our 20’s
 **The 6th Mini Album**
 
 [ 음반 소개 ]
@@ -56,31 +57,31 @@ fetched: 2026-10-26
 
 | **날짜** | **시간** | **내용** |  | **링크** |
 | --- | --- | --- | --- | --- |
-| **06. 09.** | 21:00 | Life in your 20's From Our 20’s |  |  |
-| **06. 10.** | 00:00 | The 6th Mini Album [From Our 20’s] ✈️ Release on |  |  |
-|  | 13:00 | The 6th Mini Album [From Our 20’s] 💿 Pre-Order |  |  |
-|  | 21:00 | The 6th Mini Album [From Our 20’s] ✈️ Track List |  |  |
-| **06. 12.** | 21:00 | The 6th Mini Album [From Our 20’s] ⏳ #Ready | 백지헌 |  |
-|  |  |  | 송하영 |  |
-|  |  |  | 박지원 |  |
-|  |  |  | 이나경 |  |
-|  |  |  | 이채영 |  |
-| **06. 13.** |  |  | 프로미스나인 |  |
-| **06. 16.** |  | The 6th Mini Album [From Our 20’s] 🎒 #Departure | 이채영 |  |
-|  |  |  | 이나경 |  |
-|  |  |  | 박지원 |  |
-|  |  |  | 송하영 |  |
-|  |  |  | 백지헌 |  |
-| **06. 17.** |  |  | 프로미스나인 |  |
-| **06. 18.** |  | The 6th Mini Album [From Our 20’s] 🛻 #Journey | 박지원 |  |
-|  |  |  | 백지헌 |  |
-|  |  |  | 이채영 |  |
-|  |  |  | 송하영 |  |
-|  |  |  | 이나경 |  |
-| **06. 19.** |  |  | 프로미스나인 |  |
-| **06. 20.** | 18:00 | The 6th Mini Album [From Our 20’s] ✈️ HIGHLIGHT MEDLEY |  |  |
-| **06. 22.** | 18:00 | The 6th Mini Album [From Our 20’s] 'LIKE YOU BETTER' ✈️ MV IMAGE TEASER |  |  |
-| **06. 24.** | 18:00 | fromis_9 (프로미스나인)<br>The 6th Mini Album [From Our 20’s] 'LIKE YOU BETTER' MV TEASER |  |  |
+| **06. 09.** | 21:00 | Life in your 20's From Our 20’s |  | [X Corp](https://x.com/realfromis_9/status/1932045012650349029) |
+| **06. 10.** | 00:00 | The 6th Mini Album [From Our 20’s] ✈️ Release on |  | [X Corp](https://x.com/realfromis_9/status/1932090318742290766) |
+|  | 13:00 | The 6th Mini Album [From Our 20’s] 💿 Pre-Order |  | [X Corp](https://x.com/realfromis_9/status/1932317202944000371) |
+|  | 21:00 | The 6th Mini Album [From Our 20’s] ✈️ Track List |  | [X Corp](https://x.com/realfromis_9/status/1932407402114040204) |
+| **06. 12.** | 21:00 | The 6th Mini Album [From Our 20’s] ⏳ #Ready | 백지헌 | [X Corp](https://x.com/realfromis_9/status/1933132179246338160) |
+|  |  |  | 송하영 | [X Corp](https://x.com/realfromis_9/status/1933132424512201054) |
+|  |  |  | 박지원 | [X Corp](https://x.com/realfromis_9/status/1933132676342403130) |
+|  |  |  | 이나경 | [X Corp](https://x.com/realfromis_9/status/1933132927820538234) |
+|  |  |  | 이채영 | [X Corp](https://x.com/realfromis_9/status/1933133179625590831) |
+| **06. 13.** |  |  | 프로미스나인 | [X Corp](https://x.com/realfromis_9/status/1933494570106650785) [X Corp](https://x.com/realfromis_9/status/1933494633230909562) |
+| **06. 16.** |  | The 6th Mini Album [From Our 20’s] 🎒 #Departure | 이채영 | [X Corp](https://x.com/realfromis_9/status/1934581735314145465) |
+|  |  |  | 이나경 | [X Corp](https://x.com/realfromis_9/status/1934581976381501470) |
+|  |  |  | 박지원 | [X Corp](https://x.com/realfromis_9/status/1934582228333297859) |
+|  |  |  | 송하영 | [X Corp](https://x.com/realfromis_9/status/1934582479731466716) |
+|  |  |  | 백지헌 | [X Corp](https://x.com/realfromis_9/status/1934582731943317525) |
+| **06. 17.** |  |  | 프로미스나인 | [X Corp](https://x.com/realfromis_9/status/1934944122164351182) |
+| **06. 18.** |  | The 6th Mini Album [From Our 20’s] 🛻 #Journey | 박지원 | [X Corp](https://x.com/realfromis_9/status/1935306512693637533) |
+|  |  |  | 백지헌 | [X Corp](https://x.com/realfromis_9/status/1935306751949025287) |
+|  |  |  | 이채영 | [X Corp](https://x.com/realfromis_9/status/1935307003200684512) |
+|  |  |  | 송하영 | [X Corp](https://x.com/realfromis_9/status/1935307254938615912) |
+|  |  |  | 이나경 | [X Corp](https://x.com/realfromis_9/status/1935307506710102423) |
+| **06. 19.** |  |  | 프로미스나인 | [X Corp](https://x.com/realfromis_9/status/1935668887204565247) [X Corp](https://x.com/realfromis_9/status/1935669139693343132) |
+| **06. 20.** | 18:00 | The 6th Mini Album [From Our 20’s] ✈️ HIGHLIGHT MEDLEY |  | [X Corp](https://x.com/realfromis_9/status/1935985983591256383) |
+| **06. 22.** | 18:00 | The 6th Mini Album [From Our 20’s] 'LIKE YOU BETTER' ✈️ MV IMAGE TEASER |  | [X Corp](https://x.com/realfromis_9/status/1936710766327222280) |
+| **06. 24.** | 18:00 | fromis_9 (프로미스나인)<br>The 6th Mini Album [From Our 20’s] 'LIKE YOU BETTER' MV TEASER |  | [X Corp](https://x.com/realfromis_9/status/1937435706881900859) |
 
 ## 콘셉트 티저
 
@@ -872,7 +873,7 @@ Dadada-dada-dadada
 | **PHOTOBOOK Ver.** |  |
 | --- | --- |
 | ![From Our 20’s AL...](https://i.namu.wiki/i/nO80DmpLd7cmz99herxBX8W6pCod_D_nUWqHqLKWuQykOcxet7q5Oy6dsSqefkxTt23KH2rPysGvutSjVRh658PzLbM8i55jNwLxtzr_Sc-zAgjD-mOgnntlgmRzBOMQxIMsTgWtQzaHUieho8x-bg.webp) |  |
-| **가격** | ~~23,000~~ ￦19,300 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~23,000~~ ￦19,300 19% |
 | **음반 코드** | DUK2045 |
 | **구성** | **앨범 구성품 (READY ver. / DEPARTURE ver. / JOURNEY ver.)**<br>- COVER : 250×340×40 (mm) / 1종 (버전별 이미지 상이)<br>- PHOTO BOOK : 210×297 (mm) / 80p / 1종 (버전별 이미지 상이)<br>- POST CARD : 120×170 (mm) / 1종 (버전별 이미지 상이)<br>- STICKER : 100×100 (mm) / 1종 (버전별 이미지 상이)<br>- PHOTO CARD : 55×85 (mm) / 10종 중 랜덤 2종 삽입 (버전별 이미지 상이)<br>- POSTER : 420×297 (mm) / 1종 (버전별 이미지 상이)<br>- CD-R : 120×120 (mm) / 1종 (버전별 이미지 상이) |
 | [ 펼치기 · 접기 ]<br>![From Our 20’s AL...](https://i.namu.wiki/i/1DXAGxrcwQQevB1NyZ2l9Q_hMp543wUADyTMI6iF6Kh_C1OB91RcgSvK9HG-EB9QQ7UvOS1a4LzmR973tykS6lMZlU9zt0E6xLK15VswaCZs9dL18-6sC6GQGFRA52XBmBLKQ6BzgYNY_U3Ai0kd7w.webp) |  |
@@ -880,7 +881,7 @@ Dadada-dada-dadada
 | **DIGIPACK Ver.** |  |
 | --- | --- |
 | ![From Our 20’s AL...](https://i.namu.wiki/i/j41-G-s3ti1CWtnLjddl3CRyOX7BcgmMtR5v6HXMIaAOWzEzqlMPlTulLxug8Uu-kddZ8liHc7gCzRGI9efr7-6XMPLLkvYASXxKQSjdonvq5KJ7jhig1020LSP04i7jQgulIyhKZsaALschAHHUZA.webp) |  |
-| **가격** | ~~18,400~~ ￦14,900 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~18,400~~ ￦14,900 19% |
 | **음반 코드** | DUK2046 |
 | **구성** | **앨범 구성품 (MEMBER ver.)**<br>- OUT BOX : 135×135×10 (mm) / 1종 (버전별 이미지 상이)<br>- PHOTO BOOK : 125×125 (mm) / 16P / 1종 (버전별 이미지 상이)<br>- PHOTO CARD : 55×85 (mm) / 5종 중 랜덤 1종 삽입 (버전별 이미지 상이)<br>- CD-R : 120×120 (mm) / 1종 |
 | [ 펼치기 · 접기 ]<br>![From Our 20’s AL...](https://i.namu.wiki/i/f6rtYDZfn6otdGGXfE3z8kAdmtB38EjzuSE-f5saBXlACySCXG1W3z1G-cjgL9x2RVTWvCoDZJ8cSNaielKuKvPR9-7ipNGsO8Us195MQr3-CfcHyvO3O1fUo4t2DTJOuY47eb15B6d2-06Ygw5bpg.webp) |  |
@@ -888,7 +889,7 @@ Dadada-dada-dadada
 | **FROM ZINE Ver.** |  |
 | --- | --- |
 | ![From Our 20’s AL...](https://i.namu.wiki/i/DENIafqWHwYlq_b50GwZiy57JD5F0skQVmN0FSEOrKHqr9kzv3cx3SuI61rE443VF7jTRUJ5wKGIXD8c9Vy5CX2wvmThwlysvoZjcuWXf42LYA5Y5y3cO-TdV-kXsGOza4tWBSJpnZz3WTfICUKk_w.webp) |  |
-| **가격** | ~~41,900~~ ￦33,900 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~41,900~~ ￦33,900 19% |
 | **음반 코드** | DUK2047 |
 | **구성** | **앨범 구성품**<br>- OUT BOX : 440×305×38 (mm) / 1종<br>- SILVER BAG : 400×285×100 (mm) / 1종<br>- FROM ZINE : 297×420 (mm) / 60P<br>- POSTER : 420×594 (mm) / 1종<br>- STICKER : 100×100 (mm) / 5종<br>- PHOTO CARD : 55×85 (mm) / 10종 중 랜덤 2종 삽입<br>- CD-R : 120×120 (mm) / 1종 |
 | [ 펼치기 · 접기 ]<br>![From Our 20’s AL...](https://i.namu.wiki/i/rmJ1qOs00sKgLVddsZ4bbo2tDGHDKSgd-I8g_WGcCeAwzhsHg7d-cP789ahjCDu9qu6gwW_jrgSgQcngfMo9mE2bGRWQlcfIDwiTL4RQ3vYvP9ov-rzCx15DD3qrtk8t9H21nIheAKJjIERImLOBYQ.webp) |  |
@@ -896,7 +897,7 @@ Dadada-dada-dadada
 | **POSTCARD Ver.** |  |
 | --- | --- |
 | ![From Our 20’s AL...](https://i.namu.wiki/i/bPwjKSiFP0_P0wD9owRwiUH0gQNE8qdExXzpqFT6T9KuJv-mKQD6lCr3P99mk0mlnZg7SOmjuFezBsxBmBVu0Z0nAOcjqOIbuoL5NxngaZeIR6XsBvKvDiOna1vkK9pzZaLd8UVP1QlUlE7H9v1zFQ.webp) |  |
-| **가격** | ~~14,700~~ ￦11,900 19% |
+| **가격** | [![대한민국 국기](https://i.namu.wiki/i/bW0DJdtC5Cs_U7oIhV75X1YeSuhc2WrB_-Ycb3qo9M4ASCziCU0xCjT01K3d-pEteF7FZQmDtrKMuLIx5SWkaXCqHkTfOikemhmNZBGIT6LWp4PJ328Kq6-9INDAZiaXnP5vu0Qr0CTC2FyQPYLEBA.svg)](https://namu.wiki/w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD "대한민국") ~~14,700~~ ￦11,900 19% |
 | **음반 코드** | DUK2048 |
 | **구성** | **앨범 구성품 (TO ver. / FROM ver.)**<br>- ENVELOPE : 175×125 (mm) / 1종 (버전별 이미지 상이)<br>- POST CARD : 150×100 (mm) / 2종 (버전별 이미지 상이)<br>- PHOTO CARD : 55×85 (mm) / 10종 중 랜덤 2종 삽입 (버전별 이미지 상이)<br>- QR CARD : 55×85 (mm) / 1종 (버전별 이미지 상이) |
 | [ 펼치기 · 접기 ]<br>![From Our 20’s AL...](https://i.namu.wiki/i/ar0ha9vwminheD7xe3mggmT76AcrUPXb3pUX6dqj9iHdgszYHmFg5o3-6G4yauV0PltHk87yAk0PFxHPsHFTsYvOCzciDN2CHDB_XR1Mr2XitFDwkzYy520tasTLZsG1m_G8Z11dv6BPxlFqqg1GRg.webp) |  |
@@ -913,7 +914,7 @@ Dadada-dada-dadada
 | **LIKE YOU BETTER<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | 18위 |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | 18위 |
 |  | HOT 100 | 30일 | **3위** |
 |  |  | 100일 | **5위** |
 |  | 실시간 차트 |  | **8위** |
@@ -922,27 +923,27 @@ Dadada-dada-dadada
 |  | 월간 차트 |  | 33위 |
 |  | 최신 차트 | 1주 | **2위** |
 |  |  | 4주 | **3위** |
-| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 30위 |
+| [지니뮤직<br>지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 30위 |
 |  | 일간 차트 |  | 64위 |
 |  | 주간 차트 |  | 66위 |
 |  | 월간 차트 |  | 76위 |
-| [FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | **9위** |
-| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **1위** |
+| [FLO<br>FLO](https://namu.wiki/w/FLO) | FLO 차트 |  | **9위** |
+| [벅스<br>벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | **1위** |
 |  | 일간 차트 |  |  |
 |  | 주간 차트 |  | **2위** |
-| [네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 38위 |
-| [YouTube Music](https://namu.wiki/w/YouTube%20Music) | Korea Top 100 Weekly |  | 13위 |
+| [네이버 VIBE네이버 VIBE<br>네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 38위 |
+| [유튜브 뮤직유튜브 뮤직<br>YouTube Music](https://namu.wiki/w/YouTube%20Music) | Korea Top 100 Weekly |  | 13위 |
 |  | Korea Top Music Video Daily |  | **3위** |
 |  | Korea Top Music Video Weekly |  |  |
-| [Spotify](https://namu.wiki/w/Spotify) | Korea Top Song | Daily | 16위 |
+| [Spotify<br>Spotify](https://namu.wiki/w/Spotify) | Korea Top Song | Daily | 16위 |
 |  |  | Weekly | 18위 |
 |  | Taiwan Top Song | Daily | 97위 |
 |  |  | Weekly | 138위 |
-| [Apple Music](https://namu.wiki/w/Apple%20Music) | Top 100: 글로벌 |  |  |
+| [애플 뮤직애플 뮤직<br>Apple Music](https://namu.wiki/w/Apple%20Music) | Top 100: 글로벌 |  |  |
 |  | Top 100: 대한민국 |  | 14위 |
 |  | Top 25: 서울 |  | 11위 |
 |  | Top 25: 부산 |  | **10위** |
-| [써클차트](https://namu.wiki/w/%EC%8D%A8%ED%81%B4%EC%B0%A8%ED%8A%B8) | 디지털 주간 차트 |  | **3위** |
+| [써클차트써클차트<br>써클차트](https://namu.wiki/w/%EC%8D%A8%ED%81%B4%EC%B0%A8%ED%8A%B8) | 디지털 주간 차트 |  | **3위** |
 |  | 디지털 월간 차트 |  | 22위 |
 | [주요 음원 서비스의 〈LIKE YOU BETTER〉 차트 순위 추이](https://xn--o39an51b2re.com/song/melon/39187517) |  |  |  |
 | [YouTube의 〈LIKE YOU BETTER〉 차트 순위 추이](https://charts.youtube.com) |  |  |  |
@@ -952,16 +953,16 @@ Dadada-dada-dadada
 | **REBELUTIONAL<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **9위** |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **9위** |
 |  |  | 100일 | 16위 |
 |  | 실시간 차트 |  | 91위 |
 |  | 일간 차트 |  | 382위 |
 |  | 최신 차트 | 1주 | **4위** |
 |  |  | 4주 | **8위** |
-| [지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 250위 |
-| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | 45위 |
-| [YouTube Music](https://namu.wiki/w/YouTube%20Music) | Korea Top Music Video Daily |  | 73위 |
-| [Spotify](https://namu.wiki/w/Spotify) | Korea Top Song Daily |  | 199위 |
+| [지니뮤직<br>지니뮤직](https://namu.wiki/w/%EC%A7%80%EB%8B%88%EB%AE%A4%EC%A7%81) | 실시간 차트 |  | 250위 |
+| [벅스<br>벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | 45위 |
+| [유튜브 뮤직유튜브 뮤직<br>YouTube Music](https://namu.wiki/w/YouTube%20Music) | Korea Top Music Video Daily |  | 73위 |
+| [Spotify<br>Spotify](https://namu.wiki/w/Spotify) | Korea Top Song Daily |  | 199위 |
 | [주요 음원 서비스의 〈REBELUTIONAL〉 차트 순위 추이](https://xn--o39an51b2re.com/song/melon/39187518) |  |  |  |
 
 [ Love=Disaster 음원 순위 ]
@@ -969,13 +970,13 @@ Dadada-dada-dadada
 | **Love=Disaster<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | 13위 |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | 13위 |
 |  |  | 100일 | 23위 |
 |  | 실시간 차트 |  | 98위 |
 |  | 일간 차트 |  | 424위 |
 |  | 최신 차트 | 1주 | **5위** |
 |  |  | 4주 | **10위** |
-| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | 52위 |
+| [벅스<br>벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | 52위 |
 | [주요 음원 서비스의 〈Love=Disaster〉 차트 순위 추이](https://xn--o39an51b2re.com/song/melon/39187519) |  |  |  |
 
 [ Strawberry Mimosa 음원 순위 ]
@@ -983,13 +984,13 @@ Dadada-dada-dadada
 | **Strawberry Mimosa<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | 14위 |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | 14위 |
 |  |  | 100일 | 25위 |
 |  | 실시간 차트 |  | 99위 |
 |  | 일간 차트 |  | 463위 |
 |  | 최신 차트 | 1주 | **6위** |
 |  |  | 4주 | 12위 |
-| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | 69위 |
+| [벅스<br>벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | 69위 |
 | [주요 음원 서비스의 〈Strawberry Mimosa〉 차트 순위 추이](https://xn--o39an51b2re.com/song/melon/39187520) |  |  |  |
 
 [ Twisted Love 음원 순위 ]
@@ -997,12 +998,12 @@ Dadada-dada-dadada
 | **Twisted Love<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | 16위 |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | 16위 |
 |  |  | 100일 | 28위 |
 |  | 일간 차트 |  | 504위 |
 |  | 최신 차트 | 1주 | **7위** |
 |  |  | 4주 | 15위 |
-| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | 74위 |
+| [벅스<br>벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | 74위 |
 | [주요 음원 서비스의 〈Twisted Love〉 차트 순위 추이](https://xn--o39an51b2re.com/song/melon/39187521) |  |  |  |
 
 [ Merry Go Round 음원 순위 ]
@@ -1010,12 +1011,12 @@ Dadada-dada-dadada
 | **Merry Go Round<br>주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
-| [멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | 17위 |
+| [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | 17위 |
 |  |  | 100일 | 29위 |
 |  | 일간 차트 |  | 519위 |
 |  | 최신 차트 | 1주 | **8위** |
 |  |  | 4주 | 16위 |
-| [벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | 80위 |
+| [벅스<br>벅스](https://namu.wiki/w/%EB%B2%85%EC%8A%A4(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | 실시간 차트 |  | 80위 |
 | [주요 음원 서비스의 〈Merry Go Round〉 차트 순위 추이](https://xn--o39an51b2re.com/song/melon/39187522) |  |  |  |
 
 - LIKE YOU BETTER가 [프로미스나인](https://namu.wiki/w/%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8) 데뷔 이래 최초로 발매 당일 [멜론 일간차트](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0%EC%B0%A8%ED%8A%B8#s-2.3) 두 자릿수 순위[2]에 진입했다.
@@ -1043,28 +1044,28 @@ Dadada-dada-dadada
 | **〈LIKE YOU BETTER〉 음악 방송 순위**[활동][1위] |  |  |
 | --- | --- | --- |
 | **방송명** | **1주차** | **2주차** |
-| [![쇼챔피언 로고(2024-202...](https://i.namu.wiki/i/uJ0XMcDPdeBwKbnNZqcLVHrewm_p-CFhv0hpeqpwDWL-hMX2HK9h6kL5s-Hi8Fvz8zH_PhK9RXiZjZg1b5ATwVle1MKidXy34tUmfOlbR2VXZZDPcktp_qTiyxYROZSuRNjAaawxoCHEKgJeMVdOBg.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8) | - | 미출연, **3위** |
-| [![엠 카운트다운 로고](https://i.namu.wiki/i/nU6_KVQvn2nmDvuadzKtnOVCgInzTSmxvEGSNZEiri_ksysDHoAg1EL5mn9B66Xz92-O_Na-7IDwd6RkgwMhyWFvJwCEcycf_Z6Zsg6IqVHT1lrCvkPkIkQ23OuCqPQNq98WmN6RBJWvVy5k_HZ0kg.webp)<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 컴백 | 6위 |
-| [![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/dLo--aLisyQPcNn1-bfynzq0Z-25tIgJmvW56yPD98Jd0d0FsAZC23SD9ecCVD27liNOOsFy0C9XM5ISA3uOva9nHWJVBP8cBfZhcD-Ot_xR7jcBWSTI-0xOSdJk_ergC7ZLJROFo5LchCdBYr9RBA.webp)![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/nJ4gLIHT8jsso0xQf2YJOPwH3w15HiP4UfqsQ7f243qfDgBXo4zHKEeRZTcKTw8gxnLStZ_lIWmodr_lS4zASblJer2Zk2GjhYyVyVJ2YOdwBADRkkR-zsgKqB82LzPCDkbFMgl6ELRsgkAHNS1hDw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) |  | **1위** |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) |  | 결방[6] |
-| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) |  | 11위 |
+| [![쇼챔피언 로고(2024-202...](https://i.namu.wiki/i/uJ0XMcDPdeBwKbnNZqcLVHrewm_p-CFhv0hpeqpwDWL-hMX2HK9h6kL5s-Hi8Fvz8zH_PhK9RXiZjZg1b5ATwVle1MKidXy34tUmfOlbR2VXZZDPcktp_qTiyxYROZSuRNjAaawxoCHEKgJeMVdOBg.webp)<br>쇼챔피언](https://namu.wiki/w/%EC%87%BC%EC%B1%94%ED%94%BC%EC%96%B8 "쇼챔피언") | - | 미출연, **3위** |
+| [![엠 카운트다운 로고](https://i.namu.wiki/i/nU6_KVQvn2nmDvuadzKtnOVCgInzTSmxvEGSNZEiri_ksysDHoAg1EL5mn9B66Xz92-O_Na-7IDwd6RkgwMhyWFvJwCEcycf_Z6Zsg6IqVHT1lrCvkPkIkQ23OuCqPQNq98WmN6RBJWvVy5k_HZ0kg.webp)<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4 "엠 카운트다운") | 컴백 | 6위 |
+| [![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/dLo--aLisyQPcNn1-bfynzq0Z-25tIgJmvW56yPD98Jd0d0FsAZC23SD9ecCVD27liNOOsFy0C9XM5ISA3uOva9nHWJVBP8cBfZhcD-Ot_xR7jcBWSTI-0xOSdJk_ergC7ZLJROFo5LchCdBYr9RBA.webp)![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/nJ4gLIHT8jsso0xQf2YJOPwH3w15HiP4UfqsQ7f243qfDgBXo4zHKEeRZTcKTw8gxnLStZ_lIWmodr_lS4zASblJer2Zk2GjhYyVyVJ2YOdwBADRkkR-zsgKqB82LzPCDkbFMgl6ELRsgkAHNS1hDw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") |  | **1위** |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) |  | 결방[6] |
+| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") |  | 11위 |
 
 | **〈LIKE YOU BETTER〉 음악 방송 순위**[활동종료][1위] |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **방송명** | **3주차** | **4주차** | **5주차** | **6주차** | **7주차** | **8주차** | **9주차** |
-| [![엠 카운트다운 로고](https://i.namu.wiki/i/nU6_KVQvn2nmDvuadzKtnOVCgInzTSmxvEGSNZEiri_ksysDHoAg1EL5mn9B66Xz92-O_Na-7IDwd6RkgwMhyWFvJwCEcycf_Z6Zsg6IqVHT1lrCvkPkIkQ23OuCqPQNq98WmN6RBJWvVy5k_HZ0kg.webp)<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | 9위 | 14위 | 15위 | -[9] |  |  |  |
-| [![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/dLo--aLisyQPcNn1-bfynzq0Z-25tIgJmvW56yPD98Jd0d0FsAZC23SD9ecCVD27liNOOsFy0C9XM5ISA3uOva9nHWJVBP8cBfZhcD-Ot_xR7jcBWSTI-0xOSdJk_ergC7ZLJROFo5LchCdBYr9RBA.webp)![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/nJ4gLIHT8jsso0xQf2YJOPwH3w15HiP4UfqsQ7f243qfDgBXo4zHKEeRZTcKTw8gxnLStZ_lIWmodr_lS4zASblJer2Zk2GjhYyVyVJ2YOdwBADRkkR-zsgKqB82LzPCDkbFMgl6ELRsgkAHNS1hDw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) | 4위 | 26위 | 27위 | 27위 | 25위 | 27위(결방)[10] | 27위 |
-| [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | **3위** | 6위 | 7위 | 8위 | 특방[11] | 7위 | 8위 |
-| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) | 14위 | 결방[12] |  | 20위 | 18위 | 22위 | 22위 |
+| [![엠 카운트다운 로고](https://i.namu.wiki/i/nU6_KVQvn2nmDvuadzKtnOVCgInzTSmxvEGSNZEiri_ksysDHoAg1EL5mn9B66Xz92-O_Na-7IDwd6RkgwMhyWFvJwCEcycf_Z6Zsg6IqVHT1lrCvkPkIkQ23OuCqPQNq98WmN6RBJWvVy5k_HZ0kg.webp)<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4 "엠 카운트다운") | 9위 | 14위 | 15위 | -[9] |  |  |  |
+| [![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/dLo--aLisyQPcNn1-bfynzq0Z-25tIgJmvW56yPD98Jd0d0FsAZC23SD9ecCVD27liNOOsFy0C9XM5ISA3uOva9nHWJVBP8cBfZhcD-Ot_xR7jcBWSTI-0xOSdJk_ergC7ZLJROFo5LchCdBYr9RBA.webp)![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/nJ4gLIHT8jsso0xQf2YJOPwH3w15HiP4UfqsQ7f243qfDgBXo4zHKEeRZTcKTw8gxnLStZ_lIWmodr_lS4zASblJer2Zk2GjhYyVyVJ2YOdwBADRkkR-zsgKqB82LzPCDkbFMgl6ELRsgkAHNS1hDw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") | 4위 | 26위 | 27위 | 27위 | 25위 | 27위(결방)[10] | 27위 |
+| [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) | **3위** | 6위 | 7위 | 8위 | 특방[11] | 7위 | 8위 |
+| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") | 14위 | 결방[12] |  | 20위 | 18위 | 22위 | 22위 |
 
 | **〈LIKE YOU BETTER〉 음악 방송 순위**[활동종료] |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **방송명** | **10주차** | **11주차** | **12주차** | **13주차** | **14주차** | **15주차** | **16주차** |
-| [![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/dLo--aLisyQPcNn1-bfynzq0Z-25tIgJmvW56yPD98Jd0d0FsAZC23SD9ecCVD27liNOOsFy0C9XM5ISA3uOva9nHWJVBP8cBfZhcD-Ot_xR7jcBWSTI-0xOSdJk_ergC7ZLJROFo5LchCdBYr9RBA.webp)![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/nJ4gLIHT8jsso0xQf2YJOPwH3w15HiP4UfqsQ7f243qfDgBXo4zHKEeRZTcKTw8gxnLStZ_lIWmodr_lS4zASblJer2Zk2GjhYyVyVJ2YOdwBADRkkR-zsgKqB82LzPCDkbFMgl6ELRsgkAHNS1hDw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) | 27위 | 35위 | 41위 | 48위 | 미진입 | 미진입(결방)[14] | 50위(특방)[15] |
-| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) | 25위 | 미진입 |  |  |  | 결방[16] | 미진입 |
+| [![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/dLo--aLisyQPcNn1-bfynzq0Z-25tIgJmvW56yPD98Jd0d0FsAZC23SD9ecCVD27liNOOsFy0C9XM5ISA3uOva9nHWJVBP8cBfZhcD-Ot_xR7jcBWSTI-0xOSdJk_ergC7ZLJROFo5LchCdBYr9RBA.webp)![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/nJ4gLIHT8jsso0xQf2YJOPwH3w15HiP4UfqsQ7f243qfDgBXo4zHKEeRZTcKTw8gxnLStZ_lIWmodr_lS4zASblJer2Zk2GjhYyVyVJ2YOdwBADRkkR-zsgKqB82LzPCDkbFMgl6ELRsgkAHNS1hDw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") | 27위 | 35위 | 41위 | 48위 | 미진입 | 미진입(결방)[14] | 50위(특방)[15] |
+| [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") | 25위 | 미진입 |  |  |  | 결방[16] | 미진입 |
 | **총 1관왕** |  |  |  |  |  |  |  |
 
-- [2025년](https://namu.wiki/w/2025%EB%85%84) [7월 4일](https://namu.wiki/w/7%EC%9B%94%204%EC%9D%BC), 2주차 [뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC)에서 컴백 첫 **1위**를 수상했다. 상대 1위 후보는 [aespa](https://namu.wiki/w/aespa)였다.[17]
+- [2025년](https://namu.wiki/w/2025%EB%85%84) [7월 4일](https://namu.wiki/w/7%EC%9B%94%204%EC%9D%BC), 2주차 [뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC)에서 컴백 첫 **1위**를 수상했다. 상대 1위 후보는 [aespa](https://namu.wiki/w/aespa)였다.[17] [▶ YouTube](https://www.youtube.com/watch?v=s2JVml7e2Tk)  [▶ YouTube](https://www.youtube.com/watch?v=fXXfm3oAutk)
 
 ## 평가
 
@@ -1076,7 +1077,7 @@ Dadada-dada-dadada
 
 **[유저 평점 63 / 100](https://www.albumoftheyear.org/album/1347590-fromis-9-from-our-20s/)**
 
-[![mb logo1](https://i.namu.wiki/i/u-pt2VHyS6MNoYnM3U31pGgC6UaZPje1c1U-4TRuEbT6dwojsDBmw7I5ElHokM2WcKC0fmT19ehgsVgE1BBJWoJUmYkFU8UlPhM9tz2aanbPxL8ii0yJhHBPzHN4kCfeb1u6jhdd5CpyaGkyRu22RQ.webp) **Musicboard**](https://namu.wiki/w/Musicboard)
+[![mb logo1](https://i.namu.wiki/i/u-pt2VHyS6MNoYnM3U31pGgC6UaZPje1c1U-4TRuEbT6dwojsDBmw7I5ElHokM2WcKC0fmT19ehgsVgE1BBJWoJUmYkFU8UlPhM9tz2aanbPxL8ii0yJhHBPzHN4kCfeb1u6jhdd5CpyaGkyRu22RQ.webp) **Musicboard**](https://namu.wiki/w/Musicboard "Musicboard")
 
 **[별점 3.2 / 5](https://musicboard.app/album/from-our-20-s/fromis-9)**
 
@@ -1121,16 +1122,16 @@ MV Behind the Scene**
 | **날짜** | **방송사** | **프로그램** | **곡** | **링크** |
 | --- | --- | --- | --- | --- |
 | **2025년** |  |  |  |  |
-| 06.26 | [엠넷](https://namu.wiki/w/%EC%97%A0%EB%84%B7) | [![엠 카운트다운 로고](https://i.namu.wiki/i/nU6_KVQvn2nmDvuadzKtnOVCgInzTSmxvEGSNZEiri_ksysDHoAg1EL5mn9B66Xz92-O_Na-7IDwd6RkgwMhyWFvJwCEcycf_Z6Zsg6IqVHT1lrCvkPkIkQ23OuCqPQNq98WmN6RBJWvVy5k_HZ0kg.webp)<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) | **LIKE YOU BETTER** |  |
-| 06.27 | [KBS 2TV](https://namu.wiki/w/KBS%202TV) | [![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/dLo--aLisyQPcNn1-bfynzq0Z-25tIgJmvW56yPD98Jd0d0FsAZC23SD9ecCVD27liNOOsFy0C9XM5ISA3uOva9nHWJVBP8cBfZhcD-Ot_xR7jcBWSTI-0xOSdJk_ergC7ZLJROFo5LchCdBYr9RBA.webp)![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/nJ4gLIHT8jsso0xQf2YJOPwH3w15HiP4UfqsQ7f243qfDgBXo4zHKEeRZTcKTw8gxnLStZ_lIWmodr_lS4zASblJer2Zk2GjhYyVyVJ2YOdwBADRkkR-zsgKqB82LzPCDkbFMgl6ELRsgkAHNS1hDw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) |  |  |
-| 06.28 | [MBC](https://namu.wiki/w/MBC%20TV) | [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) |  |  |
-| 06.29 | [SBS](https://namu.wiki/w/SBS%20TV) | [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) |  |  |
-| 07.03 | [엠넷](https://namu.wiki/w/%EC%97%A0%EB%84%B7) | [![엠 카운트다운 로고](https://i.namu.wiki/i/nU6_KVQvn2nmDvuadzKtnOVCgInzTSmxvEGSNZEiri_ksysDHoAg1EL5mn9B66Xz92-O_Na-7IDwd6RkgwMhyWFvJwCEcycf_Z6Zsg6IqVHT1lrCvkPkIkQ23OuCqPQNq98WmN6RBJWvVy5k_HZ0kg.webp)<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4) |  |  |
-| 07.04 | [KBS 2TV](https://namu.wiki/w/KBS%202TV) | [![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/dLo--aLisyQPcNn1-bfynzq0Z-25tIgJmvW56yPD98Jd0d0FsAZC23SD9ecCVD27liNOOsFy0C9XM5ISA3uOva9nHWJVBP8cBfZhcD-Ot_xR7jcBWSTI-0xOSdJk_ergC7ZLJROFo5LchCdBYr9RBA.webp)![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/nJ4gLIHT8jsso0xQf2YJOPwH3w15HiP4UfqsQ7f243qfDgBXo4zHKEeRZTcKTw8gxnLStZ_lIWmodr_lS4zASblJer2Zk2GjhYyVyVJ2YOdwBADRkkR-zsgKqB82LzPCDkbFMgl6ELRsgkAHNS1hDw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC) |  |  |
-| 07.06 | [SBS](https://namu.wiki/w/SBS%20TV) | [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94) |  |  |
-| 12.19 | [KBS 2TV](https://namu.wiki/w/KBS%202TV) | [![2025 KBS 가요대축제 글...](https://i.namu.wiki/i/u_sBau22ky-oNhImz68Z6YS2tBY6FVMS2L4lZ4N04OmTHe4VDoSt-BnBFoYwvU3-lsz6ivAGchk8pomEeEUfIlBnLcnCHyG7LTS20uL6pfeLDqRmNV1M3oFmSgESImc8ZnfQ8ZFw6YqPSLiKzM__mA.webp)<br>2025 KBS 가요대축제 글로벌 페스티벌](https://namu.wiki/w/2025%20KBS%20%EA%B0%80%EC%9A%94%EB%8C%80%EC%B6%95%EC%A0%9C%20%EA%B8%80%EB%A1%9C%EB%B2%8C%20%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C) |  |  |
+| 06.26 | [엠넷<br>엠넷](https://namu.wiki/w/%EC%97%A0%EB%84%B7) | [![엠 카운트다운 로고](https://i.namu.wiki/i/nU6_KVQvn2nmDvuadzKtnOVCgInzTSmxvEGSNZEiri_ksysDHoAg1EL5mn9B66Xz92-O_Na-7IDwd6RkgwMhyWFvJwCEcycf_Z6Zsg6IqVHT1lrCvkPkIkQ23OuCqPQNq98WmN6RBJWvVy5k_HZ0kg.webp)<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4 "엠 카운트다운") | **LIKE YOU BETTER** | [네이버TV](https://tv.naver.com/v/79164378) [▶ YouTube](https://youtu.be/obWbTDuhaVA) |
+| 06.27 | [KBS 2TV<br>KBS 2TV](https://namu.wiki/w/KBS%202TV) | [![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/dLo--aLisyQPcNn1-bfynzq0Z-25tIgJmvW56yPD98Jd0d0FsAZC23SD9ecCVD27liNOOsFy0C9XM5ISA3uOva9nHWJVBP8cBfZhcD-Ot_xR7jcBWSTI-0xOSdJk_ergC7ZLJROFo5LchCdBYr9RBA.webp)![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/nJ4gLIHT8jsso0xQf2YJOPwH3w15HiP4UfqsQ7f243qfDgBXo4zHKEeRZTcKTw8gxnLStZ_lIWmodr_lS4zASblJer2Zk2GjhYyVyVJ2YOdwBADRkkR-zsgKqB82LzPCDkbFMgl6ELRsgkAHNS1hDw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") |  | [네이버TV](https://tv.naver.com/v/79226650) [▶ YouTube](https://youtu.be/R7m0g-7HnVQ) |
+| 06.28 | [MBCMBC<br>MBC](https://namu.wiki/w/MBC%20TV) | [쇼! 음악중심<br>쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC) |  | [네이버TV](https://tv.naver.com/v/79274218) [▶ YouTube](https://youtu.be/FxrvkgWptsg) |
+| 06.29 | [SBS 텍스트SBS 텍스트<br>SBS](https://namu.wiki/w/SBS%20TV) | [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") |  | [네이버TV](https://tv.naver.com/v/79318914) [▶ YouTube](https://youtu.be/bJBPLkSNMNM) |
+| 07.03 | [엠넷<br>엠넷](https://namu.wiki/w/%EC%97%A0%EB%84%B7) | [![엠 카운트다운 로고](https://i.namu.wiki/i/nU6_KVQvn2nmDvuadzKtnOVCgInzTSmxvEGSNZEiri_ksysDHoAg1EL5mn9B66Xz92-O_Na-7IDwd6RkgwMhyWFvJwCEcycf_Z6Zsg6IqVHT1lrCvkPkIkQ23OuCqPQNq98WmN6RBJWvVy5k_HZ0kg.webp)<br>엠 카운트다운](https://namu.wiki/w/%EC%97%A0%20%EC%B9%B4%EC%9A%B4%ED%8A%B8%EB%8B%A4%EC%9A%B4 "엠 카운트다운") |  | [네이버TV](https://tv.naver.com/v/79601621) [▶ YouTube](https://youtu.be/_K-7frkYUr0) |
+| 07.04 | [KBS 2TV<br>KBS 2TV](https://namu.wiki/w/KBS%202TV) | [![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/dLo--aLisyQPcNn1-bfynzq0Z-25tIgJmvW56yPD98Jd0d0FsAZC23SD9ecCVD27liNOOsFy0C9XM5ISA3uOva9nHWJVBP8cBfZhcD-Ot_xR7jcBWSTI-0xOSdJk_ergC7ZLJROFo5LchCdBYr9RBA.webp)![뮤직뱅크 로고(2023-202...](https://i.namu.wiki/i/nJ4gLIHT8jsso0xQf2YJOPwH3w15HiP4UfqsQ7f243qfDgBXo4zHKEeRZTcKTw8gxnLStZ_lIWmodr_lS4zASblJer2Zk2GjhYyVyVJ2YOdwBADRkkR-zsgKqB82LzPCDkbFMgl6ELRsgkAHNS1hDw.webp)<br>뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC "뮤직뱅크") |  | [네이버TV](https://tv.naver.com/v/79657555) [▶ YouTube](https://youtu.be/iRCr6gXnzF8) |
+| 07.06 | [SBS 텍스트SBS 텍스트<br>SBS](https://namu.wiki/w/SBS%20TV) | [![SBS 인기가요 로고](https://i.namu.wiki/i/1eFyCKUQViOfroBTUQz4eKbC1-HS5HTOhj5GH24o0nAM_V7LRFN73WD6wA0lebyl7bi0u7Krg9Mn2Mr7TzyI_yaQoBI9ECiDZrCdYWlgR9niEF2DXxg9L-yuUeJv-5IfYfKz351-nDYZKOajLgecWQ.webp)<br>SBS 인기가요](https://namu.wiki/w/SBS%20%EC%9D%B8%EA%B8%B0%EA%B0%80%EC%9A%94 "SBS 인기가요") |  | [네이버TV](https://tv.naver.com/v/79759059) [▶ YouTube](https://youtu.be/HzQCS4fTazQ) |
+| 12.19 | [KBS 2TV<br>KBS 2TV](https://namu.wiki/w/KBS%202TV) | [![2025 KBS 가요대축제 글...](https://i.namu.wiki/i/u_sBau22ky-oNhImz68Z6YS2tBY6FVMS2L4lZ4N04OmTHe4VDoSt-BnBFoYwvU3-lsz6ivAGchk8pomEeEUfIlBnLcnCHyG7LTS20uL6pfeLDqRmNV1M3oFmSgESImc8ZnfQ8ZFw6YqPSLiKzM__mA.webp)<br>2025 KBS 가요대축제 글로벌 페스티벌](https://namu.wiki/w/2025%20KBS%20%EA%B0%80%EC%9A%94%EB%8C%80%EC%B6%95%EC%A0%9C%20%EA%B8%80%EB%A1%9C%EB%B2%8C%20%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C "2025 KBS 가요대축제 글로벌 페스티벌") |  | [▶ YouTube](https://youtu.be/4qqiR2ZLuBQ) |
 | **2026년** |  |  |  |  |
-| 06.20 | [MBC](https://namu.wiki/w/MBC%20TV) | [울산 뮤직 페스티벌 X<br>쇼! 음악중심](https://namu.wiki/w/%EC%9A%B8%EC%82%B0%20%EB%AE%A4%EC%A7%81%20%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C#s-2.14) | **LIKE YOU BETTER** |  |
+| 06.20 | [MBCMBC<br>MBC](https://namu.wiki/w/MBC%20TV) | [쇼! 음악중심<br>울산 뮤직 페스티벌 X<br>쇼! 음악중심](https://namu.wiki/w/%EC%9A%B8%EC%82%B0%20%EB%AE%A4%EC%A7%81%20%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C#s-2.14) | **LIKE YOU BETTER** | [네이버TV](https://tv.naver.com/v/101559035) [▶ YouTube](https://www.youtube.com/watch?v=8O9QLeGlJ64) |
 
 ### 음악 방송 직캠
 
@@ -1144,9 +1145,9 @@ MV Behind the Scene**
 - 트랙 리스트 이미지 속 인물은 [백지헌](https://namu.wiki/w/%EB%B0%B1%EC%A7%80%ED%97%8C)이다.
 - 앨범 제목과 'FROM ZINE' 속 [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81)의 인터뷰로 미루어보아, 이번 앨범의 콘셉트는 [프로미스나인](https://namu.wiki/w/%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8) 멤버로서 살아온 멤버들의 지난 20대를 추억하는 여행 정도로 추정된다. 블러 처리된 채 공개된 콘셉트 포토에서 [9 WAY TICKET](https://namu.wiki/w/9%20WAY%20TICKET)이나 [Supersonic](https://namu.wiki/w/Supersonic(%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8))이 연상된다는 반응도 있는 만큼, [오마주](https://namu.wiki/w/%EC%98%A4%EB%A7%88%EC%A3%BC) 요소가 있을지도 기대되는 부분이다.
 - 촬영지는 [태국](https://namu.wiki/w/%ED%83%9C%EA%B5%AD)의 유명 세트장인 Movio Town이다. [#](https://www.instagram.com/p/DLWWAFOPk_R/?img_index=6)
-- 발매일에 '카운트다운 라이브'를 진행했다.
+- 발매일에 '카운트다운 라이브'를 진행했다. [▶ YouTube](https://youtube.com/live/OHsO5n6_Z_I)
 - [2025년](https://namu.wiki/w/2025%EB%85%84) 하반기 월드 투어 이후 연말 컴백이 예상된다고 멤버들이 언급한 바 있다.[20] 이러한 예상에 맞게, [12월 2일](https://namu.wiki/w/12%EC%9B%94%202%EC%9D%BC)에 [리메이크](https://namu.wiki/w/%EB%A6%AC%EB%A9%94%EC%9D%B4%ED%81%AC) [디지털 싱글](https://namu.wiki/w/%EB%94%94%EC%A7%80%ED%84%B8%20%EC%8B%B1%EA%B8%80) [하얀 그리움](https://namu.wiki/w/%ED%95%98%EC%96%80%20%EA%B7%B8%EB%A6%AC%EC%9B%80(%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8))으로 컴백하게 됐다.
-- [12월 19일](https://namu.wiki/w/12%EC%9B%94%2019%EC%9D%BC)에 열린 [2025 KBS 가요대축제 글로벌 페스티벌](https://namu.wiki/w/2025%20KBS%20%EA%B0%80%EC%9A%94%EB%8C%80%EC%B6%95%EC%A0%9C%20%EA%B8%80%EB%A1%9C%EB%B2%8C%20%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C)에서 [LIKE YOU BETTER](https://namu.wiki/w/LIKE%20YOU%20BETTER), 하얀 그리움, [AOA](https://namu.wiki/w/AOA(%EC%95%84%EC%9D%B4%EB%8F%8C))의 [짧은 치마](https://namu.wiki/w/%EC%A7%A7%EC%9D%80%20%EC%B9%98%EB%A7%88(AOA)) 커버까지 총 세 곡의 무대를 선보였다.  ｜ ｜
+- [12월 19일](https://namu.wiki/w/12%EC%9B%94%2019%EC%9D%BC)에 열린 [2025 KBS 가요대축제 글로벌 페스티벌](https://namu.wiki/w/2025%20KBS%20%EA%B0%80%EC%9A%94%EB%8C%80%EC%B6%95%EC%A0%9C%20%EA%B8%80%EB%A1%9C%EB%B2%8C%20%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C)에서 [LIKE YOU BETTER](https://namu.wiki/w/LIKE%20YOU%20BETTER), 하얀 그리움, [AOA](https://namu.wiki/w/AOA(%EC%95%84%EC%9D%B4%EB%8F%8C))의 [짧은 치마](https://namu.wiki/w/%EC%A7%A7%EC%9D%80%20%EC%B9%98%EB%A7%88(AOA)) 커버까지 총 세 곡의 무대를 선보였다. [▶ YouTube](https://youtu.be/4qqiR2ZLuBQ) ｜[▶ YouTube](https://youtu.be/QzjVyhFbGew) ｜[▶ YouTube](https://youtu.be/C32XiyRpUtI)
 - [12월 19일](https://namu.wiki/w/12%EC%9B%94%2019%EC%9D%BC)에 방영된 [SBS](https://namu.wiki/w/SBS) [금토 드라마](https://namu.wiki/w/%EC%A3%BC%EB%A7%90%20%EB%93%9C%EB%9D%BC%EB%A7%88) [모범택시 3](https://namu.wiki/w/%EB%AA%A8%EB%B2%94%ED%83%9D%EC%8B%9C%203) 9화에서 연습생들이 연습하는 곡으로 타이틀곡 [LIKE YOU BETTER](https://namu.wiki/w/LIKE%20YOU%20BETTER)가 나온다.
 - 처음으로 앨범 커버에 앨범명이 적혀져 있지 않다. 그리고 그 뒤에 나온 [하얀 그리움](https://namu.wiki/w/%ED%95%98%EC%96%80%20%EA%B7%B8%EB%A6%AC%EC%9B%80(%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8))도 마찬가지.
 - 1월 25일, Twisted Love가 [TJ노래방](https://namu.wiki/w/TJ%EB%AF%B8%EB%94%94%EC%96%B4)에 추가되면서 데뷔 이래 최초로 한 앨범의 모든 곡이 노래방에 수록되었다.
