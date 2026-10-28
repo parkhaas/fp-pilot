@@ -1,6 +1,62 @@
 {
   "videos": [
     {
+      "id": "yt:O1cp_YbxYHI",
+      "videoId": "O1cp_YbxYHI",
+      "title": "존재 자체가 무기인 송하영",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-10-28T11:00:03Z",
+      "addedAt": "2026-10-28T18:13:55Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:2hUYnjGNbiA",
+      "videoId": "2hUYnjGNbiA",
+      "title": "아이돌 손맛 좀 보실래요? ✂️ㅣ미용실 헤어 디자이너ㅣ워크돌ㅣ프로미스나인 지원, 아일릿 민주",
+      "category": "workdol",
+      "channelTitle": "워크맨-Workman",
+      "publishedAt": "2026-10-28T10:00:03Z",
+      "addedAt": "2026-10-28T18:13:55Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": "PT24M45S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:0BqjIxIS1dA",
+      "videoId": "0BqjIxIS1dA",
+      "title": "밥 좋아하는 현대인들의 고충",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-10-28T09:00:13Z",
+      "addedAt": "2026-10-28T18:13:55Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:dac6wcc2USQ",
+      "videoId": "dac6wcc2USQ",
+      "title": "플로버는 하영이가 행복했으면 좋겠어 🍀",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-10-28T07:00:35Z",
+      "addedAt": "2026-10-28T18:13:55Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
       "id": "yt:tTc9HkhoqgM",
       "videoId": "tTc9HkhoqgM",
       "title": "내가 뭘 하면 웃어줄까?",
