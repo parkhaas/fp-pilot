@@ -800,7 +800,7 @@ function pruneImageLeftovers(html) {
   let prev;
   do {
     prev = h;
-    h = h.replace(/(?:<p class="dg-(?:fold-label|boldhead)">[\s\S]*?<\/p>\s*)(?=$|<p class="dg-(?:fold-label|boldhead)">)/g, "");
+    h = h.replace(/(?:<p class="dg-(?:fold-label|boldhead)">(?:(?!<\/p>)[\s\S])*<\/p>\s*)(?=$|<p class="dg-(?:fold-label|boldhead)">)/g, "");
   } while (h !== prev);
   void lab;
   return h.replace(/<[^>]*>/g, "").trim() ? h : "";
@@ -809,6 +809,7 @@ function pruneImageLeftovers(html) {
 (async () => {
   const mainMd = fs.readFileSync(path.join(SRC, "00-음반-목록.md"), "utf8").replace(/\r\n/g, "\n");
   const details = JSON.parse(fs.readFileSync(path.join(SRC, "details.json"), "utf8"));
+  const albumImages = fs.existsSync(path.join(SRC, "doc-images.json")) ? JSON.parse(fs.readFileSync(path.join(SRC, "doc-images.json"), "utf8")) : {};
   const detailBySlug = Object.fromEntries(details.map((d) => [d.slug, d]));
   const { albums, extras } = parseMain(mainMd);
 
@@ -873,9 +874,12 @@ function pruneImageLeftovers(html) {
           if (html) sections.push({ id: "tracks", title: "수록곡 정보", html });
           continue;
         }
-        // 콘셉트 티저의 "이미지" 소절은 사진뿐이라(저장하지 않음) 뺀다. 영상 소절은 유튜브 링크로 남는다.
-        const src = s.title === "콘셉트 티저" ? s.md.replace(/(^|\n)### 이미지\n[\s\S]*?(?=\n### |$)/, "$1") : s.md;
-        const html = pruneImageLeftovers(mdToHtml(src));
+        // 콘셉트 사진(단체·개인·유닛 티저)은 fetch-album-images.js 가 받아 둔 것(source/doc-images.json)만 싣고, 사진 표는 갤러리 카드로 바꾼다
+        const concept = s.title === "콘셉트 티저" || s.title === "콘셉트 이미지";
+        DOC_IMAGES = concept ? albumImages : null;
+        let html = pruneImageLeftovers(mdToHtml(s.md));
+        DOC_IMAGES = null;
+        if (concept && html) html = galleryTables(html);
         if (html) sections.push({ id: slugify(s.title) || "sec", title: s.title, html });
       }
       detail = { id: a.id, updated: dd.updated, summary, sections, hidden: hidden.length ? hidden : undefined };
