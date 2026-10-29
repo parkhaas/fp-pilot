@@ -2201,3 +2201,7 @@ a.dg-yt:not(.dg-brand-only)::before, a.dg-x:not(.dg-brand-only)::before { margin
 #dgExtras .dg-extras-h { display: flex; align-items: center; gap: 14px; margin: 0 0 clamp(20px, 3vw, 32px); font-family: var(--font-display); font-size: clamp(1.9rem, 1.1rem + 2.4vw, 3rem); font-weight: 800; letter-spacing: -0.045em; line-height: 1.1; }
 #dgExtras .dg-extras-h::before { content: ""; flex: none; width: 6px; height: 1.05em; border-radius: 3px; background: var(--brand); }
 #dgExtras .dg-extra-album { background: var(--surface); }
+
+/* 방송·OST·참여 음반 카드: 임베드돼 있던 영상 링크 */
+.dg-extra-vids { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 0; }
+.dg-extra-vids a.dg-yt { font-size: 0.76rem; }

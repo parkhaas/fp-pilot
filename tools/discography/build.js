@@ -406,6 +406,25 @@ async function partAlbums(lines) {
       })
       .join("");
     const runtime = /^\d+['’:]/.test(info[2].trim()) ? info[2].trim() : "";
+    // 이 음반의 나무위키 상세 문서가 받아져 있으면 거기 임베드된 유튜브 영상을 링크로 붙인다 (소절/곡 제목이 이름표)
+    const vids = [];
+    const detailMd = path.join(SRC, "albums", slugify(bold[0]) + ".md");
+    if (fs.existsSync(detailMd)) {
+      let label = "";
+      const seen = new Set();
+      for (const ln of fs.readFileSync(detailMd, "utf8").replace(/\r\n/g, "\n").split("\n")) {
+        const h = ln.match(/^#{2,4} (.+)/);
+        if (h) label = h[1].trim();
+        for (const m of ln.matchAll(/youtube\.com\/watch\?v=([\w-]{11})/g)) {
+          if (seen.has(m[1])) continue;
+          seen.add(m[1]);
+          vids.push({ id: m[1], label });
+        }
+      }
+    }
+    const vidHtml = vids.length
+      ? `<p class="dg-extra-vids">${vids.map((v) => `<a class="dg-yt" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener noreferrer">${escHtml(v.label || "영상")}</a>`).join("")}</p>`
+      : "";
     cards.push(
       `<article class="dg-extra-album">` +
         `<span class="dg-album-cover">${cover ? `<img src="data/discography/${cover.file}" alt="${escHtml(bold[0])} 커버" loading="lazy" decoding="async">` : ""}</span>` +
@@ -414,6 +433,7 @@ async function partAlbums(lines) {
         `<p class="dg-extra-meta">${escHtml([info[1].replace(/\.$/, "").replace(/\. /g, "."), runtime, info[3] + "곡"].filter(Boolean).join(" · "))}</p>` +
         (src ? `<p class="dg-extra-src">출처 · ${escHtml(src)}</p>` : "") +
         (trackHtml ? `<ol class="dg-extra-tracks">${trackHtml}</ol>` : "") +
+        vidHtml +
         `</div></article>`
     );
   }
@@ -600,7 +620,7 @@ const docHrefFor = (slug) => `?view=discography&doc=${encodeURIComponent(slug)}`
 function fandomSection(docHref) {
   const file = path.join(SRC, "docs", "flover.md");
   if (!fs.existsSync(file)) return "";
-  const lines = fs.readFileSync(file, "utf8").split("\n");
+  const lines = fs.readFileSync(file, "utf8").replace(/\r\n/g, "\n").split("\n");
   // "### 제목" 아래 ~ 다음 제목 전까지의 글을 빈 줄 기준 덩어리로 나눠 앞에서 max 개만
   const excerpt = (title, max) => {
     const i = lines.findIndex((l) => l.trim() === "### " + title);
@@ -765,8 +785,29 @@ async function getCover(album) {
 }
 
 /* ---------- 실행 ---------- */
+// 사진을 저장하지 않아 껍데기만 남은 부분(멤버 이름만 든 표, 뒤에 아무것도 없는 "[ 단체 티저 ]" 같은 이름표·굵은 제목)을 걷어 낸다.
+// 걷고 나서 보일 글이 없으면 빈 문자열을 돌려줘 소절째 빠진다.
+function pruneImageLeftovers(html) {
+  if (!html) return html;
+  // 1) 이미지 없이 멤버 이름(링크 포함)만 남은 표
+  let h = html.replace(/<table>[\s\S]*?<\/table>/g, (t) => {
+    if (/<img/.test(t)) return t;
+    const cells = (t.match(/<td[^>]*>[\s\S]*?<\/td>/g) || []).map((c) => c.replace(/<[^>]*>/g, "").trim()).filter(Boolean);
+    return cells.length && cells.every((c) => /^[가-힣A-Za-z0-9 ·,&]{1,30}$/.test(c)) ? "" : t;
+  });
+  // 2) 뒤에 내용이 이어지지 않는 이름표·굵은 제목("[ 단체 티저 ]", "〈Forest Ver.〉") — 다음이 또 이름표이거나 끝이면 뺀다
+  const lab = /<p class="dg-(?:fold-label|boldhead)">[\s\S]*?<\/p>\s*/y;
+  let prev;
+  do {
+    prev = h;
+    h = h.replace(/(?:<p class="dg-(?:fold-label|boldhead)">[\s\S]*?<\/p>\s*)(?=$|<p class="dg-(?:fold-label|boldhead)">)/g, "");
+  } while (h !== prev);
+  void lab;
+  return h.replace(/<[^>]*>/g, "").trim() ? h : "";
+}
+
 (async () => {
-  const mainMd = fs.readFileSync(path.join(SRC, "00-음반-목록.md"), "utf8");
+  const mainMd = fs.readFileSync(path.join(SRC, "00-음반-목록.md"), "utf8").replace(/\r\n/g, "\n");
   const details = JSON.parse(fs.readFileSync(path.join(SRC, "details.json"), "utf8"));
   const detailBySlug = Object.fromEntries(details.map((d) => [d.slug, d]));
   const { albums, extras } = parseMain(mainMd);
@@ -807,7 +848,7 @@ async function getCover(album) {
     // 트랙 해설·섹션
     let detail = null;
     if (detailFile && fs.existsSync(detailFile)) {
-      const dd = parseDetail(fs.readFileSync(detailFile, "utf8"));
+      const dd = parseDetail(fs.readFileSync(detailFile, "utf8").replace(/\r\n/g, "\n"));
       const sections = [];
       const hidden = [];
       let summary = "";
@@ -834,7 +875,7 @@ async function getCover(album) {
         }
         // 콘셉트 티저의 "이미지" 소절은 사진뿐이라(저장하지 않음) 뺀다. 영상 소절은 유튜브 링크로 남는다.
         const src = s.title === "콘셉트 티저" ? s.md.replace(/(^|\n)### 이미지\n[\s\S]*?(?=\n### |$)/, "$1") : s.md;
-        const html = mdToHtml(src);
+        const html = pruneImageLeftovers(mdToHtml(src));
         if (html) sections.push({ id: slugify(s.title) || "sec", title: s.title, html });
       }
       detail = { id: a.id, updated: dd.updated, summary, sections, hidden: hidden.length ? hidden : undefined };
@@ -947,7 +988,7 @@ async function getCover(album) {
       continue;
     }
     if (d.mergeInto) continue; // 다른 문서에 합쳐진 문서는 따로 페이지를 만들지 않는다
-    const dd = parseDetail(fs.readFileSync(file, "utf8"));
+    const dd = parseDetail(fs.readFileSync(file, "utf8").replace(/\r\n/g, "\n"));
     // 이미지가 본문인 문서는 받아 둔 이미지(source/doc-images.json)를 문서에 싣는다
     DOC_IMAGES = d.layout === "cards" && !d.noImages ? docImages : null;
     const url = "https://namu.wiki/w/" + encodeURIComponent(d.title).replace(/%2F/g, "/");
@@ -1004,7 +1045,7 @@ async function getCover(album) {
       const camDoc = docList.find((x) => x.mergeInto === d.title);
       const camFile = path.join(SRC, "docs", camDoc.slug + ".md");
       if (fs.existsSync(camFile)) {
-        const camSections = parseDetail(fs.readFileSync(camFile, "utf8")).sections.filter((x) => !x.hidden).map((x) => ({ title: x.title, html: mdToHtml(x.md) }));
+        const camSections = parseDetail(fs.readFileSync(camFile, "utf8").replace(/\r\n/g, "\n")).sections.filter((x) => !x.hidden).map((x) => ({ title: x.title, html: mdToHtml(x.md) }));
         const merged = mergeMusicShows(sections.map((x) => ({ title: x.title, html: x.html })), camSections);
         sections.length = 0;
         merged.forEach((m) => sections.push(m));
