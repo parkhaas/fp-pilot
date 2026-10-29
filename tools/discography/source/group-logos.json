@@ -1,0 +1,225 @@
+{
+ "main": {
+  "light": "group/logo.svg",
+  "dark": "group/logo-white.svg"
+ },
+ "items": [
+  {
+   "label": "유리구두",
+   "files": [
+    {
+     "alt": "프로미스나인 로고(유리구두)",
+     "file": "group/logo-1-1.svg"
+    },
+    {
+     "alt": "프로미스나인 워드마크(유리구두...",
+     "file": "group/logo-1-2.svg"
+    }
+   ]
+  },
+  {
+   "label": "To. Heart",
+   "files": [
+    {
+     "alt": "프로미스나인 로고(To. He...",
+     "file": "group/logo-2-1.svg"
+    },
+    {
+     "alt": "프로미스나인 로고(To. He...",
+     "file": "group/logo-2-2.svg"
+    },
+    {
+     "alt": "프로미스나인 워드마크(To. ...",
+     "file": "group/logo-2-3.svg"
+    }
+   ]
+  },
+  {
+   "label": "To. Day",
+   "files": [
+    {
+     "alt": "프로미스나인 로고(To. Da...",
+     "file": "group/logo-3-1.svg"
+    },
+    {
+     "alt": "프로미스나인 로고(To. Da...",
+     "file": "group/logo-3-2.svg"
+    },
+    {
+     "alt": "프로미스나인 워드마크(To. ...",
+     "file": "group/logo-3-3.svg"
+    }
+   ]
+  },
+  {
+   "label": "From.9",
+   "files": [
+    {
+     "alt": "프로미스나인 로고(From.9...",
+     "file": "group/logo-4-1.svg"
+    },
+    {
+     "alt": "프로미스나인 로고(From.9...",
+     "file": "group/logo-4-2.svg"
+    }
+   ]
+  },
+  {
+   "label": "FUN FACTORY",
+   "files": [
+    {
+     "alt": "프로미스나인 로고(FUN FA...",
+     "file": "group/logo-5-1.svg"
+    }
+   ]
+  },
+  {
+   "label": "My Little Society",
+   "files": [
+    {
+     "alt": "프로미스나인 로고(My Lit...",
+     "file": "group/logo-6-1.svg"
+    }
+   ]
+  },
+  {
+   "label": "9 WAY TICKET",
+   "files": [
+    {
+     "alt": "프로미스나인 로고(9 WAY ...",
+     "file": "group/logo-7-1.svg"
+    },
+    {
+     "alt": "프로미스나인 워드마크(9 WA...",
+     "file": "group/logo-7-2.svg"
+    }
+   ]
+  },
+  {
+   "label": "Talk & Talk",
+   "files": [
+    {
+     "alt": "프로미스나인 로고(Talk &...",
+     "file": "group/logo-8-1.svg"
+    },
+    {
+     "alt": "프로미스나인 워드마크(Talk...",
+     "file": "group/logo-8-2.svg"
+    }
+   ]
+  },
+  {
+   "label": "Midnight Guest",
+   "files": [
+    {
+     "alt": "프로미스나인 로고(Midnig...",
+     "file": "group/logo-9-1.svg"
+    }
+   ]
+  },
+  {
+   "label": "from our Memento Box",
+   "files": [
+    {
+     "alt": "프로미스나인 로고(from o...",
+     "file": "group/logo-10-1.svg"
+    }
+   ]
+  },
+  {
+   "label": "Unlock My World",
+   "files": [
+    {
+     "alt": "프로미스나인 로고",
+     "file": "group/logo.svg"
+    },
+    {
+     "alt": "프로미스나인 로고 화이트",
+     "file": "group/logo-white.svg"
+    }
+   ]
+  },
+  {
+   "label": "Supersonic",
+   "files": [
+    {
+     "alt": "프로미스나인 로고(Supers...",
+     "file": "group/logo-12-1.svg"
+    },
+    {
+     "alt": "프로미스나인 워드마크(Supe...",
+     "file": "group/logo-12-2.svg"
+    }
+   ]
+  },
+  {
+   "label": "from",
+   "files": [
+    {
+     "alt": "프로미스나인 로고(from)",
+     "file": "group/logo-13-1.svg"
+    }
+   ]
+  },
+  {
+   "label": "From Our 20’s",
+   "files": [
+    {
+     "alt": "프로미스나인 로고(From O...",
+     "file": "group/logo-14-1.svg"
+    },
+    {
+     "alt": "프로미스나인 로고 화이트(Fr...",
+     "file": "group/logo-14-2.svg"
+    },
+    {
+     "alt": "프로미스나인 로고(From O...",
+     "file": "group/logo-14-3.svg"
+    },
+    {
+     "alt": "프로미스나인 로고 화이트(Fr...",
+     "file": "group/logo-14-4.svg"
+    }
+   ]
+  },
+  {
+   "label": "하얀 그리움",
+   "files": [
+    {
+     "alt": "프로미스나인 로고(하얀 그리움...",
+     "file": "group/logo-15-1.svg"
+    },
+    {
+     "alt": "프로미스나인 워드마크(하얀 그...",
+     "file": "group/logo-15-2.svg"
+    }
+   ]
+  },
+  {
+   "label": "LIKE YOU BETTER((Japanese ver.))",
+   "files": [
+    {
+     "alt": "프로미스나인 로고(LIKE Y...",
+     "file": "group/logo-16-1.svg"
+    }
+   ]
+  },
+  {
+   "label": "Glow ME",
+   "files": [
+    {
+     "alt": "프로미스나인 로고(Glow M...",
+     "file": "group/logo-17-1.svg"
+    },
+    {
+     "alt": "프로미스나인 워드마크(Glow...",
+     "file": "group/logo-17-2.webp"
+    },
+    {
+     "alt": "프로미스나인 워드마크 화이트(...",
+     "file": "group/logo-17-3.svg"
+    }
+   ]
+  }
+ ]
+}

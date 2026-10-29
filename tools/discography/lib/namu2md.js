@@ -14,6 +14,8 @@ const abs = (u) => {
 const clean = (s) => s.replace(/ /g, " ");
 
 function convert(html, sourceUrl, opts) {
+  const keepImages = !!(opts && opts.keepImages); // flover·굿즈·응원법처럼 이미지가 본문인 문서: 로고(svg)·사진을 지우지 않고 남긴다
+  const dropImages = !!(opts && opts.dropImages); // 이미지를 마크다운에도 남기지 않는다(굿즈 문서: docs.json 의 noImages)
   const repeatRowspan = !!(opts && opts.repeatRowspan); // 멤버·그룹 문서용. 앨범 곡 정보 표는 rowspan 칸이 비어 있어야 파싱된다.
   const $ = cheerio.load(html);
   // 유튜브 임베드는 링크로 바꿔 남긴다 (나머지 iframe 은 제거)
@@ -158,6 +160,8 @@ function convert(html, sourceUrl, opts) {
       const alt = (n.attr("alt") || "").trim();
       // 국기 이미지는 그대로 남긴다 (사이트에서 작은 아이콘으로 보여 줌)
       if (/국기s*$/.test(alt) && src && !src.startsWith("data:")) return `![${alt}](${src})`;
+      if (dropImages) return "";
+      if (keepImages && src && !src.startsWith("data:") && !/아이콘/.test(alt)) return `![${alt.replace(/[\[\]]/g, "")}](${src})`;
       // 방송·채널 로고는 svg 인 경우가 많다. 이미지는 싣지 않으므로 alt("뷰블 로고")에서 이름만 글자로 남긴다.
       if (/로고/.test(alt) && (!src || src.startsWith("data:") || /\.svg(\?|$)/.test(src))) {
         return alt.replace(/\([^)]*\)/g, "").replace(/\s*로고.*$/, "").trim();
@@ -191,8 +195,14 @@ function convert(html, sourceUrl, opts) {
     }
     if (tag === "sup" || (tag === "a" && /^fn-/.test(n.attr("id") || ""))) return "";
     if (tag === "b" || tag === "strong") {
-      const t = inline(n).trim();
-      return t ? `**${t}**` : "";
+      // 안쪽에 이미 굵게가 있으면 겹치지 않게 벗기고, 줄바꿈을 가로지르면 줄마다 따로 감싼다
+      // (여러 줄에 걸친 한 쌍의 **…** 는 마크다운이 강조로 읽지 못해 별표가 그대로 남는다)
+      const t = inline(n).trim().replace(/[*][*]/g, "");
+      if (!t) return "";
+      return t
+        .split("\n")
+        .map((line) => (line.trim() ? `**${line.trim()}**` : line))
+        .join("\n");
     }
     if (tag === "i" || tag === "em") {
       const t = inline(n).trim();

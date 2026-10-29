@@ -2,7 +2,7 @@
 title: "LIKE YOU BETTER (Japanese ver.)"
 source: https://namu.wiki/w/LIKE%20YOU%20BETTER%20(Japanese%20ver.)
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-28
+fetched: 2026-10-29
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/LIKE%20YOU%20BETTER%20(Japanese%20ver.))의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -106,8 +106,8 @@ CD에는 한국에서 대히트를 기록하며 fromis_9의 대명사인 밝고 
 
 ### 비디오
 
-**LIKE YOU BETTER((Japanese ver.))
-HIGHLIGHT MEDLEY**
+**LIKE YOU BETTER((Japanese ver.))**
+**HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=TX4vs6eVzWc)
 
@@ -137,11 +137,11 @@ HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=mfX0Zhm9PUA)
 
-**LIKE YOU BETTER((Japanese ver.))
+**LIKE YOU BETTER((Japanese ver.))**
 
-01 3:07
+**01 3:07**
 
-TITLE**
+**TITLE**
 
 [ 가사 보기 ]
 
@@ -260,10 +260,10 @@ Our love is true cause this is too great
 
 [▶ YouTube](https://www.youtube.com/watch?v=3201UJ09DmQ)
 
-**Love=Disaster((Japanese ver.))
+**Love=Disaster((Japanese ver.))**
 
-02
- 2:36**
+**02**
+**2:36**
 
 [ 가사 보기 ]
 
@@ -354,10 +354,10 @@ Love is disaster
 
 [▶ YouTube](https://www.youtube.com/watch?v=9mT-p9LeXQs)
 
-**Sky Runner
+**Sky Runner**
 
-03
- 3:32**
+**03**
+**3:32**
 
 [ 가사 보기 ]
 
@@ -490,8 +490,8 @@ We are sky runners We’ll never fall
 
 #### 스페셜 비디오
 
-**Sky Runner
-SPECIAL VIDEO**
+**Sky Runner**
+**SPECIAL VIDEO**
 
 [▶ YouTube](https://www.youtube.com/watch?v=3ivuYBVadVY)
 
@@ -499,28 +499,28 @@ SPECIAL VIDEO**
 
 [▶ YouTube](https://www.youtube.com/watch?v=pm1EQyQBy8w)
 
-**LIKE YOU BETTER((Japanese ver.)) -instrumental-
+**LIKE YOU BETTER((Japanese ver.)) -instrumental-**
 
-04
- 3:06**
+**04**
+**3:06**
 
 ### Love=Disaster (Japanese ver.) -instrumental-
 
 [▶ YouTube](https://www.youtube.com/watch?v=CNUv23lCGqo)
 
-**Love=Disaster((Japanese ver.)) -instrumental-
+**Love=Disaster((Japanese ver.)) -instrumental-**
 
-05
- 2:36**
+**05**
+**2:36**
 
 ### Sky Runner -instrumental-
 
 [▶ YouTube](https://www.youtube.com/watch?v=WNHjPjcVnMk)
 
-**Sky Runner -instrumental-
+**Sky Runner -instrumental-**
 
-06
- 3:31**
+**06**
+**3:31**
 
 ## 앨범 사양
 
@@ -542,8 +542,8 @@ SPECIAL VIDEO**
 
 ### 챌린지
 
-**LIKE YOU BETTER((Japanese ver.))
-Challenge**
+**LIKE YOU BETTER((Japanese ver.))**
+**Challenge**
 
 [ 펼치기 · 접기 ]
 
@@ -553,13 +553,13 @@ Challenge**
 
 ### 비하인드
 
-**LIKE YOU BETTER((Japanese ver.))
-Jacket Shooting Behind the Scene**
+**LIKE YOU BETTER((Japanese ver.))**
+**Jacket Shooting Behind the Scene**
 
 [▶ YouTube](https://www.youtube.com/watch?v=fm1PU8X8d14)
 
-**LIKE YOU BETTER((Japanese ver.))
-데뷔 비하인드**
+**LIKE YOU BETTER((Japanese ver.))**
+**데뷔 비하인드**
 
 [▶ YouTube](https://www.youtube.com/watch?v=BMSRZKCoaX8)
 

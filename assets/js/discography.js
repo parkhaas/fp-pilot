@@ -134,7 +134,6 @@
       `<div class="grid-head"><h2>Discography</h2><span class="grid-count">앨범 ${albums.length}개 · 최신순</span></div>` +
       `<div class="dg-filters" role="group" aria-label="앨범 종류">${chips}</div>` +
       `<div class="dg-years">${body}</div>` +
-      docsHtml() +
       `<section class="dg-extras" id="dgExtras"></section>` +
       sourceNote
     );
@@ -142,20 +141,8 @@
 
   /* ---------- 주요 문서 (그룹·멤버·응원법 …) ---------- */
 
-  const docHref = (slug) => `?view=discography&doc=${encodeURIComponent(slug)}`;
+  const docHref = (slug) => `?view=group&doc=${encodeURIComponent(slug)}`;
 
-  function docsHtml() {
-    const docs = indexData.docs || [];
-    if (!docs.length) return "";
-    const group = (kind, title) => {
-      const items = docs.filter((d) => d.kind === kind);
-      if (!items.length) return "";
-      return `<div class="dg-doc-row"><h4>${title}</h4><div class="dg-doc-links">${items
-        .map((d) => `<a class="dg-doc" href="${docHref(d.slug)}" data-doc="${esc(d.slug)}">${esc(kind === "guide" ? d.label : d.title)}</a>`)
-        .join("")}</div></div>`;
-    };
-    return `<section class="dg-docs"><h3 class="dg-extras-h">프로미스나인 문서</h3>${group("group", "그룹")}${group("member", "멤버")}${group("guide", "모아보기")}</section>`;
-  }
 
   // 멤버 인물 정보(이름·출생·국적·본관·신체·가족·학력·상징 색·MBTI·좌우명·서명·링크 …) 카드
   function profileCard(info) {
@@ -172,56 +159,81 @@
     const sec = (s, open) =>
       `<details class="dg-sec"${open ? " open" : ""}><summary><span>${esc(s.title)}</span><i data-lucide="chevron-down" class="dg-chev"></i></summary><div class="dg-prose">${s.html}</div></details>`;
     const isMember = d.kind === "member";
+    const chapters = isMember || d.kind === "group" || d.layout === "cards"; // 멤버·그룹·카드형 문서는 접고 펼치는 대신 소제목 카드로 늘어놓는다
+    const hero = d.kind === "group" || d.layout === "cards"; // 큰 제목 영역(윤곽선 글자가 흐르는 히어로)
+    const groupSlug = (((indexData && indexData.docs) || []).find((x) => x.kind === "group") || {}).slug || "프로미스나인";
     // 멤버 문서: 접고 펼치는 큰 카드 대신, 소제목(h3)마다 따로 카드를 만들어 쭉 늘어놓는다. 활동 표는 행마다 카드(빌드가 만든다).
     const part = (sc) => {
-      const cards = sc.html
+      // 카드 후보를 먼저 만든 뒤, 긴 글·표 카드 사이에 혼자 끼는 짧은 카드는 한 줄을 다 쓰게 해서 옆이 비지 않게 한다
+      const items = sc.html
         .split(/(?=<h3>)/)
         .map((c) => {
           const m = c.match(/^<h3>([\s\S]*?)<\/h3>\s*([\s\S]*)$/);
-          const body = m ? m[2] : c;
-          if (!body.replace(/<[^>]*>/g, "").trim() && !/<(img|table|a )/.test(body)) return "";
-          const wide = /dg-rows|<table/.test(body);
-          return `<article class="dg-subcard${wide ? " is-wide" : ""}${m ? "" : " is-lead"}">${m ? `<h4 class="dg-subcard-h">${m[1]}</h4>` : ""}<div class="dg-prose">${body}</div></article>`;
+          // 숨겨 둔 안내 주석(<!-- hidden:pointer … -->)뿐인 조각은 빈 카드가 되므로 주석을 먼저 걷어 내고 판단한다
+          const body = (m ? m[2] : c).replace(/<!--[\s\S]*?-->/g, "");
+          if (!body.replace(/<[^>]*>/g, "").trim() && !/<(img|table|a )/.test(body)) return null;
+          const wide = /dg-rows|<table|dg-members|dg-logo-grid|dg-albums|dg-stages|dg-mvs|dg-events|dg-linkcards/.test(body);
+          const long = !wide && body.replace(/<[^>]*>/g, "").length > 2200; // 아주 긴 글: 한 줄을 다 쓰고 본문을 2단으로
+          return { m, body, wide, long, solo: false, lead: !m };
         })
+        .filter(Boolean);
+      for (let i = 0; i < items.length; ) {
+        if (items[i].wide || items[i].long || items[i].lead) {
+          i++;
+          continue;
+        }
+        let j = i;
+        while (j < items.length && !(items[j].wide || items[j].long || items[j].lead)) j++;
+        if (j - i === 1) items[i].solo = true; // 이어지는 짧은 카드가 하나뿐이면 단 하나짜리 단이 되어 한쪽이 빈다
+        i = j;
+      }
+      const cards = items
+        .map((it) => `<article class="dg-subcard${it.wide ? " is-wide" : ""}${it.long ? " is-long" : ""}${it.solo ? " is-solo" : ""}${(it.long || it.solo || it.lead) && it.body.replace(/<[^>]*>/g, "").length > 300 && !/<img|dg-gallery|dg-spec|<table/.test(it.body) ? " is-cols" : ""}${it.lead ? " is-lead" : ""}">${it.m ? `<h4 class="dg-subcard-h">${it.m[1]}</h4>` : ""}<div class="dg-prose">${it.body}</div></article>`)
         .join("");
       return `<section class="dg-part"><h3 class="dg-part-h">${esc(sc.title)}</h3><div class="dg-subs">${cards}</div></section>`;
     };
-    const toc = !isMember && d.sections.length > 1 ? `<p class="dg-doc-count">${d.sections.length}개 항목 · 눌러서 펼치기</p>` : "";
+    const toc = !chapters && d.sections.length > 1 ? `<p class="dg-doc-count">${d.sections.length}개 항목 · 눌러서 펼치기</p>` : "";
     const headInner =
-      `<p class="dg-kind">${esc(d.label)}</p><h2 class="dg-hero-title">${esc(d.title)}</h2>` +
+      (d.kind === "group"
+        ? `<p class="dg-kind">${esc(d.label)}</p>` +
+          `<div class="dg-group-logo"><img class="dg-logo-light" src="${BASE}group/logo.svg" alt="프로미스나인 로고"><img class="dg-logo-dark" src="${BASE}group/logo-white.svg" alt="" aria-hidden="true"></div>` +
+          `<h2 class="dg-hero-title dg-group-names"><span>${esc(d.title)}</span><span class="dg-group-en">fromis_9</span></h2>`
+        : d.layout === "cards"
+        ? `<p class="dg-kind">${esc(d.label)}</p><h2 class="dg-hero-title dg-group-names"><span>${esc(d.title)}</span></h2>`
+        : `<p class="dg-kind">${esc(d.label)}</p><h2 class="dg-hero-title">${esc(d.title)}</h2>`) +
       (d.info && (d.info.name.hanja || d.info.name.en) ? `<p class="dg-names">${[d.info.name.hanja, d.info.name.en].filter(Boolean).map(esc).join(" <span>｜</span> ")}</p>` : "") +
       (d.updated ? `<p class="dg-meta"><span>원문 최근 수정 ${esc(d.updated)}</span></p>` : "");
     const head = `<header class="dg-doc-head">${headInner}</header>`;
     return {
       title: d.title,
       html:
-        `<a class="dg-back" href="${href()}" data-album=""><i data-lucide="arrow-left"></i>Discography</a>` +
+        (d.kind === "group" ? "" : `<a class="dg-back" href="${docHref(groupSlug)}" data-doc="${esc(groupSlug)}"><i data-lucide="arrow-left"></i>그룹소개</a>`) +
         (d.profile && d.info
           ? `<div class="dg-member-hero"><img class="dg-hero-photo" src="${BASE + d.profile}" alt="${esc(d.title)} 프로필 사진"><div class="dg-hero-side">${head}${profileCard(d.info)}</div></div>`
-          : `<header class="dg-doc-head${d.profile ? " has-photo" : ""}">` +
+          : `<header class="dg-doc-head${d.profile ? " has-photo" : ""}${hero ? " dg-group-hero" : ""}">` +
+            (hero ? (() => { const t = d.kind === "group" ? "fromis_9" : esc(d.title); return `<div class="dg-marquee" aria-hidden="true"><span>${t}</span><span>${t}</span><span>${t}</span></div>`; })() : "") +
             (d.profile ? `<img class="dg-doc-photo" src="${BASE + d.profile}" alt="${esc(d.title)} 프로필 사진">` : "") +
             `<div>${headInner}</div></header>` + (d.info ? profileCard(d.info) : "")) +
         (d.summary ? `<div class="dg-prose dg-summary dg-doc-summary">${d.summary}</div>` : "") +
         toc +
-        (isMember ? d.sections.map(part) : d.sections.map((x, i) => sec(x, i === 0))).join("") +
+        (chapters ? d.sections.map(part) : d.sections.map((x, i) => sec(x, i === 0))).join("") +
         `<p class="dg-source">이 문서는 <a href="${esc(d.source.url)}" target="_blank" rel="noopener noreferrer">나무위키 ‘${esc(d.source.title)}’</a>의 내용을 ` +
         `<a href="https://creativecommons.org/licenses/by-nc-sa/2.0/kr/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 2.0 KR</a> 조건에 따라 정리한 것입니다(원 저작자: 나무위키 기여자, 비영리, 동일 조건 공유).</p>`,
     };
   }
 
+  // 목록 맨 아래: 방송·OST·참여 음반 (카드로 늘어놓는다). 노래방 수록 목록·여담은 뺐다(여담은 그룹소개 문서로 옮겼다).
   async function loadExtras(root) {
     const host = root.querySelector("#dgExtras");
     if (!host) return;
-    host.innerHTML =
-      `<h3 class="dg-extras-h">그 밖의 기록</h3>` +
-      [
-        ["방송 / OST / 참여 음반", "방송·OST·참여 음반"],
-        ["여담", "여담"],
-        ["노래방 수록 목록", "노래방 수록 목록"],
-      ]
-        .map(([k, label]) => `<details class="dg-sec" data-extra="${esc(k)}"><summary><span>${label}</span><i data-lucide="chevron-down" class="dg-chev"></i></summary><div class="dg-prose dg-extra-body"></div></details>`)
-        .join("");
-    window.lucide && window.lucide.createIcons();
+    try {
+      extrasData = extrasData || (await getJson("extras.json"));
+    } catch (e) {
+      return;
+    }
+    const html = extrasData["방송 / OST / 참여 음반"];
+    if (!html) return;
+    host.innerHTML = `<h3 class="dg-extras-h">방송 · OST · 참여 음반</h3><div class="dg-prose">${html}</div>`;
   }
 
   /* ---------- 상세 ---------- */
@@ -343,7 +355,7 @@
       return null;
     }
     if (opts.doc) {
-      const r = await docPageHtml(opts.doc);
+      const r = await docPageHtml((indexData.aliases || {})[opts.doc] || opts.doc); // 합쳐진 문서(음악 방송 직캠 → 음악 방송)의 옛 주소도 연다
       if (boundRoot !== root) return null;
       if (r) {
         root.innerHTML = `<div class="dg dg-detail">${r.html}</div>`;

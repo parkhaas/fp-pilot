@@ -2,7 +2,7 @@
 title: "FUN FACTORY"
 source: https://namu.wiki/w/FUN%20FACTORY
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-28
+fetched: 2026-10-29
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/FUN%20FACTORY)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -26,9 +26,9 @@ FUN FACTORY
 
 **FUN FACTORY** ｜The 1st Single Album
 2019. 06. 04. (화) 18:00 발매
-**프로미스나인, 즐거움이 ‘펑!’ 터지는 첫 번째 싱글 앨범 [FUN FACTORY] 발매
-프로미스나인, 더욱 업그레이드되어 돌아온다…송하영, 박지원 수록곡 작사-작곡에도 참여!
-‘프톤치드돌’ 프로미스나인, 상쾌한 힐링이 느껴지는 타이틀곡 ‘FUN!’…청량美 UP!**
+**프로미스나인, 즐거움이 ‘펑!’ 터지는 첫 번째 싱글 앨범 [FUN FACTORY] 발매**
+**프로미스나인, 더욱 업그레이드되어 돌아온다…송하영, 박지원 수록곡 작사-작곡에도 참여!**
+**‘프톤치드돌’ 프로미스나인, 상쾌한 힐링이 느껴지는 타이틀곡 ‘FUN!’…청량美 UP!**
 
 지난해 10월 발매한 스페셜 싱글 타이틀곡 ‘LOVE BOMB’으로 걸그룹 기대주 반열에 오른 프로미스나인(fromis_9)이 6월 4일, 약 8개월만에 첫 번째 싱글 앨범 [FUN FACTORY]를 전격 발매하며 중독성 강한 타이틀 곡 ‘FUN!’으로 보기만해도 기분 좋은 ‘프톤치드돌’로서의 입지를 다시 한번 확고히 할 예정이다.
 
@@ -116,8 +116,8 @@ FUN FACTORY
 
 ### 비디오
 
-**FUN FACTORY
-WANNA HAVE SOME FUN**
+**FUN FACTORY**
+**WANNA HAVE SOME FUN**
 
 [ 펼치기 · 접기 ]
 
@@ -126,8 +126,8 @@ WANNA HAVE SOME FUN**
 | [▶ YouTube](https://www.youtube.com/watch?v=4FSx0cYy16E) | [▶ YouTube](https://www.youtube.com/watch?v=pRTJshaiHVU) | [▶ YouTube](https://www.youtube.com/watch?v=npj1e4WAqX4) |
 | [▶ YouTube](https://www.youtube.com/watch?v=8vDg8m2K4c4) | [▶ YouTube](https://www.youtube.com/watch?v=iQtukIqDLv4) | [▶ YouTube](https://www.youtube.com/watch?v=SJCP0q6k4Ic) |
 
-**FUN FACTORY
-HIGHLIGHT MEDLEY**
+**FUN FACTORY**
+**HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=oh2qJdTCj2U)
 
@@ -152,13 +152,13 @@ HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=MnNBj8vyZjo)
 
-**FUN!
+**FUN!**
 
-01 3:03
+**01 3:03**
 
-TITLE
+**TITLE**
 
-하우스와 디스코 리듬을 기반으로 하는 업템포 댄스곡으로 그루비한 리듬 패턴과 신스사운드의 조화가 프로미스나인의 발랄한 에너지를 더욱 끌어올려준다. 프로미스나인과 함께 지루한 일상을 벗어나자는 내용이 담겨있으며 'FUN!', '펑!' 등 경쾌하고 키치한 가사가 듣는 재미를 더해 유쾌하고 발랄한 프로미스나인만의 분위기를 형성하였다.**
+**하우스와 디스코 리듬을 기반으로 하는 업템포 댄스곡으로 그루비한 리듬 패턴과 신스사운드의 조화가 프로미스나인의 발랄한 에너지를 더욱 끌어올려준다. 프로미스나인과 함께 지루한 일상을 벗어나자는 내용이 담겨있으며 'FUN!', '펑!' 등 경쾌하고 키치한 가사가 듣는 재미를 더해 유쾌하고 발랄한 프로미스나인만의 분위기를 형성하였다.**
 
 [ 가사 보기 ]
 
@@ -350,25 +350,25 @@ We just wanna have some fun
 
 #### 뮤직 비디오
 
-| **FUN!<br>M/V Teaser 1** |  |
+| **FUN!**<br>**M/V Teaser 1** |  |
 | --- | --- |
 | [▶ YouTube](https://www.youtube.com/watch?v=se2JbMjqZ68) |  |
 | [**스톤뮤직**](https://youtu.be/N6H3tyCr2hU) | [**fromis_9**](https://youtu.be/se2JbMjqZ68) |
 
-| **FUN!<br>M/V Teaser 2** |  |
+| **FUN!**<br>**M/V Teaser 2** |  |
 | --- | --- |
 | [▶ YouTube](https://www.youtube.com/watch?v=hGGyDFTSMVM) |  |
 | [**스톤뮤직**](https://youtu.be/Uzj85Uzo8vw) | [**fromis_9**](https://youtu.be/hGGyDFTSMVM) |
 
-**FUN!
-Music Video**
+**FUN!**
+**Music Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=zsRyyLtcXho)
 
 #### 안무 영상
 
-**FUN!
-Choreography Video**
+**FUN!**
+**Choreography Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=0kWtMnrTiuc)
 
@@ -376,8 +376,8 @@ Choreography Video**
 
 #### 교차 편집
 
-**FUN!
-Stage Mix (M COUNTDOWN Ver.)**
+**FUN!**
+**Stage Mix (M COUNTDOWN Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=7_dEeQAklTM)
 
@@ -385,12 +385,12 @@ Stage Mix (M COUNTDOWN Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=xnDhMAxQMuA)
 
-**LOVE RUMPUMPUM
+**LOVE RUMPUMPUM**
 
-02
- 3:05
+**02**
+**3:05**
 
-레트로 신스팝 사운드를 바탕으로 쌓아 올린 쉽고 간결한 멜로디가 인상적인 곡으로 누구나 들으면 편하게 리듬 탈 수 있는 비트가 특징적이며 상대방을 보고 애타는 마음을 톡톡 튀는 가사로 표현하여 레트로 느낌을 한층 더 업그레이드시켰다.**
+**레트로 신스팝 사운드를 바탕으로 쌓아 올린 쉽고 간결한 멜로디가 인상적인 곡으로 누구나 들으면 편하게 리듬 탈 수 있는 비트가 특징적이며 상대방을 보고 애타는 마음을 톡톡 튀는 가사로 표현하여 레트로 느낌을 한층 더 업그레이드시켰다.**
 
 [ 가사 보기 ]
 
@@ -552,12 +552,12 @@ LOVE RUMPUMPUM
 
 [▶ YouTube](https://www.youtube.com/watch?v=DeC7KrvKNO4)
 
-**FLY HIGH
+**FLY HIGH**
 
-03
- 3:39
+**03**
+**3:39**
 
-강렬한 비트에 모던락 사운드를 가미한 곡으로 이상향을 향해 달려가는 마음을 가사로 표현해냈으며, 가사에 맞는 청량한 보컬과 더불어 서정적인 멜로디가 아련한 느낌도 심어준다. 또한 이 곡은 프로미스나인 멤버 송하영, 박지원이 작사, 작곡에 참여해 아티스트로서의 진정성과 색깔을 온전히 담았다.**
+**강렬한 비트에 모던락 사운드를 가미한 곡으로 이상향을 향해 달려가는 마음을 가사로 표현해냈으며, 가사에 맞는 청량한 보컬과 더불어 서정적인 멜로디가 아련한 느낌도 심어준다. 또한 이 곡은 프로미스나인 멤버 송하영, 박지원이 작사, 작곡에 참여해 아티스트로서의 진정성과 색깔을 온전히 담았다.**
 
 [ 가사 보기 ]
 
@@ -723,14 +723,14 @@ As time goes by
 | **〈FUN FACTORY〉 초동 판매량** |  |  |  |
 | --- | --- | --- | --- |
 | **날짜** | **일간 판매량** | **누적 판매량** | **비고** |
-| 6월 4일 (1일차) | **7,4**장** |  | 앨범 발매 |
-| 6월 5일 (2일차) | 9,4**장 | **16,8**장** | **1만 장 돌파** |
-| 6월 6일 (3일차) | 9**장 | **17,8**장** | **커리어 하이** |
-| 6월 7일 (4일차) | 6,2**장 | **24,1**장** | **2만 장 돌파** |
-| 6월 8일 (5일차) | 1,8**장 | **25,9**장** |  |
-| 6월 9일 (6일차) | 1,3**장 | **27,3**장** |  |
-| 6월 10일 (7일차) | 1,4**장 | **28,7**장** |  |
-| **초동 판매량** | **28,7**장** |  |  |
+| 6월 4일 (1일차) | **7,4장** |  | 앨범 발매 |
+| 6월 5일 (2일차) | 9,4**장 | **16,8장** | **1만 장 돌파** |
+| 6월 6일 (3일차) | 9**장 | **17,8장** | **커리어 하이** |
+| 6월 7일 (4일차) | 6,2**장 | **24,1장** | **2만 장 돌파** |
+| 6월 8일 (5일차) | 1,8**장 | **25,9장** |  |
+| 6월 9일 (6일차) | 1,3**장 | **27,3장** |  |
+| 6월 10일 (7일차) | 1,4**장 | **28,7장** |  |
+| **초동 판매량** | **28,7장** |  |  |
 | * 순위 및 기록은 집계 종료일 당시를 기준으로 한다. |  |  |  |
 
 #### 월간 판매량

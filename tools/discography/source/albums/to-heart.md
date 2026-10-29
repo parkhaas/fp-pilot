@@ -2,7 +2,7 @@
 title: "To. Heart"
 source: https://namu.wiki/w/To.%20Heart
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-28
+fetched: 2026-10-29
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/To.%20Heart)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -23,11 +23,11 @@ To. Heart
 
 **To. Heart** ｜The 1st Mini Album
 2018. 01. 24. (수) 18:00 발매
-**fromis_9! 첫 번째 미니앨범 ‘To. Heart’로 떨리는 데뷔!
-프로미스나인 데뷔 앨범 ‘To. Heart’ 발매! 실력+외모+퍼포먼스 겸비한 ‘2018 기대주’
-fromis_9 데뷔 앨범 ‘To. Heart’! 설레는 마음 담아 풋풋하고 사랑스러운 매력 발산!
-프로미스나인, 중독성 강한 타이틀곡부터 멤버 전원 작사 참여한 수록곡까지!
-꽉 채운 첫 번째 “선물 상자”를 전하다.**
+**fromis_9! 첫 번째 미니앨범 ‘To. Heart’로 떨리는 데뷔!**
+**프로미스나인 데뷔 앨범 ‘To. Heart’ 발매! 실력+외모+퍼포먼스 겸비한 ‘2018 기대주’**
+**fromis_9 데뷔 앨범 ‘To. Heart’! 설레는 마음 담아 풋풋하고 사랑스러운 매력 발산!**
+**프로미스나인, 중독성 강한 타이틀곡부터 멤버 전원 작사 참여한 수록곡까지!**
+**꽉 채운 첫 번째 “선물 상자”를 전하다.**
 
 프로미스나인(fromis_9)이 데뷔 앨범 [To. Heart]를 발매하며 2018년 가요계에 전격 출사표를 던졌다. 프로미스나인은 Mnet ‘아이돌학교’에서 대중의 투표를 통해 선발된 9명의 멤버 노지선, 송하영, 이새롬, 이채영, 이나경, 박지원, 이서연, 백지헌, 장규리로 구성되어 있으며 2018년 차세대 K팝 기대주로 떠오르고 있다.
 
@@ -136,18 +136,18 @@ fromis_9 데뷔 앨범 ‘To. Heart’! 설레는 마음 담아 풋풋하고 사
 
 ### 비디오
 
-**10m away from me
-Debut Teaser**
+**10m away from me**
+**Debut Teaser**
 
 [▶ YouTube](https://www.youtube.com/watch?v=w2DVbiBYnpA)
 
-**To. Heart
-Prologue**
+**To. Heart**
+**Prologue**
 
 [▶ YouTube](https://www.youtube.com/watch?v=AQ-i9-1GkVw)
 
-**To. Heart
-나에게로 오는 길**
+**To. Heart**
+**나에게로 오는 길**
 
 [▶ YouTube](https://www.youtube.com/watch?v=Co9H3xLBv6M)
 
@@ -161,8 +161,8 @@ Prologue**
 | [▶ YouTube](https://www.youtube.com/watch?v=TzQXJaymie0) | [▶ YouTube](https://www.youtube.com/watch?v=1rl8uh46JTE) | [▶ YouTube](https://www.youtube.com/watch?v=-Nfv2eMfsKQ) |
 | [**이채영**](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81) | [**이나경**](https://namu.wiki/w/%EC%9D%B4%EB%82%98%EA%B2%BD) | [**백지헌**](https://namu.wiki/w/%EB%B0%B1%EC%A7%80%ED%97%8C) |
 
-**To. Heart
-HIGHLIGHT MEDLEY**
+**To. Heart**
+**HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=ydioKLxF5uU)
 
@@ -196,12 +196,12 @@ HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=JJ_kfKeolD4)
 
-**나에게로 오는 길 (Intro.)
+**나에게로 오는 길 (Intro.)**
 
-01
- 2:11
+**01**
+**2:11**
 
-'나에게로 오고 있을 소중한 누군가를 생각하며 작성한 편지로, 프로미스나인 멤버 전원이 작사에 참여해 진정성을 높였다. 또한 멤버들이 직접 내레이션, 아직은 알 수 없지만 나에게 오고 있을 '그대'에 대한 설렘과 '그대'에게 다가가기 위한 노력을 담았다.**
+**'나에게로 오고 있을 소중한 누군가를 생각하며 작성한 편지로, 프로미스나인 멤버 전원이 작사에 참여해 진정성을 높였다. 또한 멤버들이 직접 내레이션, 아직은 알 수 없지만 나에게 오고 있을 '그대'에 대한 설렘과 '그대'에게 다가가기 위한 노력을 담았다.**
 
 [ 가사 보기 ]
 
@@ -243,13 +243,13 @@ HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=FjvhLNWOeWM)
 
-**To Heart
+**To Heart**
 
-02 3:08
+**02 3:08**
 
-TITLE
+**TITLE**
 
-'표현이 서툴고 사랑을 시작하고 싶은 소녀의 마음을 수줍게 써 내려간, 미리 쓴 러브레터라는 독특한 콘셉트에 담았다. 락킹한 기타리프와 현악기의 독특한 조화, 댄서블하면서도 통통 튀는 드럼 사운드가 어우러진 팝 댄스 곡이다. 또한 힘차며 중독성 강한 후렴구는 프로미스나인만의 밝은 에너지가 가득 담겨 있어 그들의 색을 온전히 느낄 수 있다.**
+**'표현이 서툴고 사랑을 시작하고 싶은 소녀의 마음을 수줍게 써 내려간, 미리 쓴 러브레터라는 독특한 콘셉트에 담았다. 락킹한 기타리프와 현악기의 독특한 조화, 댄서블하면서도 통통 튀는 드럼 사운드가 어우러진 팝 댄스 곡이다. 또한 힘차며 중독성 강한 후렴구는 프로미스나인만의 밝은 에너지가 가득 담겨 있어 그들의 색을 온전히 느낄 수 있다.**
 
 [ 가사 보기 ]
 
@@ -407,12 +407,12 @@ Heart to heart to heart
 
 #### 뮤직 비디오
 
-| **To Heart<br>M/V Teaser** |  |
+| **To Heart**<br>**M/V Teaser** |  |
 | --- | --- |
 | [▶ YouTube](https://www.youtube.com/watch?v=8qWSngu45eU) |  |
 | [**스톤뮤직**](https://youtu.be/8qWSngu45eU) | [**fromis_9**](https://youtu.be/FBTZxqQxV1M) |
 
-| **To Heart<br>Music Video** |  |
+| **To Heart**<br>**Music Video** |  |
 | --- | --- |
 | [▶ YouTube](https://www.youtube.com/watch?v=iFUHS1Ei7qw) |  |
 | [**스톤뮤직**](https://youtu.be/iFUHS1Ei7qw) | [**fromis_9**](https://youtu.be/BzZ8NmYUldE) |
@@ -422,20 +422,20 @@ Heart to heart to heart
 
 #### 안무 영상
 
-**To Heart
-Choreography Video**
+**To Heart**
+**Choreography Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=E6k1hRBfAMI)
 
 #### 교차 편집
 
-**To Heart
-Stage Mix (Show Champion Ver.)**
+**To Heart**
+**Stage Mix (Show Champion Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=Epu2nibtSH8)
 
-**To Heart
-Stage Mix (Show! Music Core Ver.)**
+**To Heart**
+**Stage Mix (Show! Music Core Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=Joxpnj5vYyg)
 
@@ -443,12 +443,12 @@ Stage Mix (Show! Music Core Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=FQw-egUublA)
 
-**환상속의 그대
+**환상속의 그대**
 
-03
- 3:42
+**03**
+**3:42**
 
-Mnet '아이돌학교' 파이널 무대에서 프로미스나인 멤버 이새롬, 이서연, 노지선, 송하영, 장규리가 무대를 꾸민 곡으로, 가상 속의 그대에게 전하는 소녀들의 간절한 마음을 담아 개성 넘치는 비트위에 중독성 강한 후렴이 포인트다. 파워풀함과 청순함이 공존하는 곡.**
+**Mnet '아이돌학교' 파이널 무대에서 프로미스나인 멤버 이새롬, 이서연, 노지선, 송하영, 장규리가 무대를 꾸민 곡으로, 가상 속의 그대에게 전하는 소녀들의 간절한 마음을 담아 개성 넘치는 비트위에 중독성 강한 후렴이 포인트다. 파워풀함과 청순함이 공존하는 곡.**
 
 [ 가사 보기 ]
 
@@ -579,8 +579,8 @@ Get me closer
 
 #### 안무 영상
 
-**환상속의 그대
-Choreography Video**
+**환상속의 그대**
+**Choreography Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=l-H58ZExdWA)
 
@@ -588,12 +588,12 @@ Choreography Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=4dlYexMXJwk)
 
-**피노키오
+**피노키오**
 
-04
- 3:20
+**04**
+**3:20**
 
-Mnet '아이돌학교' 파이널 무대에서 프로미스나인 멤버 박지원, 이나경, 이채영, 백지헌이 선보였던 곡으로, 경쾌하고 발랄한 퍼포먼스로 화제를 모았다. 브라스 사운드가 돋보이는 팝 댄스곡이다. 거짓말을 자주 하는 남자친구에게 마법을 부려 피노키오로 만들겠다는 귀여운 가사가 인상적이다. 그 과정을 장난기 가득하고 호기심 많은 소녀의 모습으로 표현했으며, 중독성 있는 멜로디와 버라이어티한 구성이 듣는 내내 귀를 사로잡는다.**
+**Mnet '아이돌학교' 파이널 무대에서 프로미스나인 멤버 박지원, 이나경, 이채영, 백지헌이 선보였던 곡으로, 경쾌하고 발랄한 퍼포먼스로 화제를 모았다. 브라스 사운드가 돋보이는 팝 댄스곡이다. 거짓말을 자주 하는 남자친구에게 마법을 부려 피노키오로 만들겠다는 귀여운 가사가 인상적이다. 그 과정을 장난기 가득하고 호기심 많은 소녀의 모습으로 표현했으며, 중독성 있는 멜로디와 버라이어티한 구성이 듣는 내내 귀를 사로잡는다.**
 
 [ 가사 보기 ]
 
@@ -686,13 +686,13 @@ Make it make it ta ta ta
 
 #### 안무 영상
 
-**피노키오
-Choreography Video (캐릭터 커넥트 Ver.)**
+**피노키오**
+**Choreography Video (캐릭터 커넥트 Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=6pJUtZKdE5E)
 
-**피노키오
-Choreography Video (사복 커넥트 Ver.)**
+**피노키오**
+**Choreography Video (사복 커넥트 Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=Vd15ldafxWM)
 
@@ -700,12 +700,12 @@ Choreography Video (사복 커넥트 Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=TLvtoIy4Q30)
 
-**Be With You
+**Be With You**
 
-05
- 3:50
+**05**
+**3:50**
 
-고백을 앞둔 수줍은 소녀의 마음을 표현했다. 특히 '꿈아 이뤄져라'라고 속삭이듯, 간절한 마음을 담은 가사가 인상적으로 소녀의 순수한 마음을 담았다. 설렘을 가득 담은 인트로 메인 테마는 중독적이면서 동양적인 색채를 담고 있어 더욱 신비한 느낌이 든다. 이처럼 'Be With You'는 발랄하고 통통 튀는 모습과는 또 다른 느낌을 담아낸 만큼 새로운 프로미스나인의 매력을 느낄 수 있다.**
+**고백을 앞둔 수줍은 소녀의 마음을 표현했다. 특히 '꿈아 이뤄져라'라고 속삭이듯, 간절한 마음을 담은 가사가 인상적으로 소녀의 순수한 마음을 담았다. 설렘을 가득 담은 인트로 메인 테마는 중독적이면서 동양적인 색채를 담고 있어 더욱 신비한 느낌이 든다. 이처럼 'Be With You'는 발랄하고 통통 튀는 모습과는 또 다른 느낌을 담아낸 만큼 새로운 프로미스나인의 매력을 느낄 수 있다.**
 
 [ 가사 보기 ]
 
@@ -764,12 +764,12 @@ Always wanna be with you
 
 [▶ YouTube](https://www.youtube.com/watch?v=5Y5tW1v0R68)
 
-**유리구두 (MAMA Ver.)
+**유리구두 (MAMA Ver.)**
 
-06
- 3:34
+**06**
+**3:34**
 
-동화 속 신데렐라가 남기고 떠난 유리구두를 통해 왕자님을 다시 만나듯, 소중한 마음을 남기고 갈 테니 먼 훗날 꼭 만나자는 프로미스나인의 마음을 담은 곡으로 소망의 메시지를 전달하고 있다. 뮤지컬적인 구성과 록적인 요소가 돋보여 프로미스나인의 청량함을 극대화했으며 '2017 MAMA in JAPAN'에서 보여주었던 '유리구두' 무대의 인트로가 포함되어있어 곡의 극적인 요소를 더했다.**
+**동화 속 신데렐라가 남기고 떠난 유리구두를 통해 왕자님을 다시 만나듯, 소중한 마음을 남기고 갈 테니 먼 훗날 꼭 만나자는 프로미스나인의 마음을 담은 곡으로 소망의 메시지를 전달하고 있다. 뮤지컬적인 구성과 록적인 요소가 돋보여 프로미스나인의 청량함을 극대화했으며 '2017 MAMA in JAPAN'에서 보여주었던 '유리구두' 무대의 인트로가 포함되어있어 곡의 극적인 요소를 더했다.**
 
 [ 가사 보기 ]
 
@@ -896,14 +896,14 @@ Always wanna be with you
 | **〈To. Heart〉 초동 판매량** |  |  |  |
 | --- | --- | --- | --- |
 | **날짜** | **일간 판매량** | **누적 판매량** | **비고** |
-| 1월 24일 (1일차) | **1,4**장** |  | 앨범 발매 |
-| 1월 25일 (2일차) | 1,1**장 | **2,5**장** |  |
-| 1월 26일 (3일차) | 5**장 | **3,0**장** |  |
-| 1월 27일 (4일차) | 1**장 | **3,2**장** |  |
-| 1월 28일 (5일차) | 1**장 | **3,3**장** |  |
-| 1월 29일 (6일차) | 1**장 | **3,5**장** |  |
-| 1월 30일 (7일차) | 1**장 | **3,7**장** |  |
-| **초동 판매량** | **3,7**장** |  |  |
+| 1월 24일 (1일차) | **1,4장** |  | 앨범 발매 |
+| 1월 25일 (2일차) | 1,1**장 | **2,5장** |  |
+| 1월 26일 (3일차) | 5**장 | **3,0장** |  |
+| 1월 27일 (4일차) | 1**장 | **3,2장** |  |
+| 1월 28일 (5일차) | 1**장 | **3,3장** |  |
+| 1월 29일 (6일차) | 1**장 | **3,5장** |  |
+| 1월 30일 (7일차) | 1**장 | **3,7장** |  |
+| **초동 판매량** | **3,7장** |  |  |
 | * 순위 및 기록은 집계 종료일 당시를 기준으로 한다. |  |  |  |
 
 #### 월간 판매량
@@ -915,7 +915,7 @@ Always wanna be with you
 | 2018년 1월 | 13,452장 | 13,452장 | 4,3**장 | 4,3**장 | 약속회 1, 2회차 응모기간 |
 | 2018년 2월 | 3,387장 | 16,839장 | 3,0**장 | 7,3**장 | 약속회 3, 4, 5, 6회차 응모기간 |
 | 2018년 3월 | 2,689장 | 19,528장 | 1,2**장 | 8,5**장[2] | 약속회 7회차 응모기간 |
-| **총 판매량** | **19,528장** |  | **8,5**장** |  |  |
+| **총 판매량** | **19,528장** |  | **8,5장** |  |  |
 
 - 한터차트 기준으로는 3,7**장 나왔으나 가온차트 기준으로는 13,4**장이 나오면서 신인으로는 이례적으로 만장을 넘겼다. 또한 초동이 지난 1월 31일 ~ 2월 6일 동안은 약속회의 영향으로 무려 **5,000여 장**이 팔리면서 신인 걸그룹에도 음반 판매량에서 준수한 모습을 보였다.
 
@@ -945,8 +945,8 @@ Always wanna be with you
 
 ## 관련 영상
 
-**To Heart
-M/V Behind**
+**To Heart**
+**M/V Behind**
 
 [▶ YouTube](https://www.youtube.com/watch?v=YFWH-6hfSCs)
 

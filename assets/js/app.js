@@ -295,10 +295,15 @@
     const hasSel = sel.cat || sel.cats || sel.year || sel.song || sel.member || state.q;
     if (p.get("view") === "about") state.view = "about";
     else if (p.get("view") === "photos") state.view = "photos";
-    else if (p.get("view") === "discography") {
+    else if (p.get("view") === "group" || (p.get("view") === "discography" && p.get("doc") && !p.get("album"))) {
+      // 그룹소개: 그룹 문서와 멤버·모아보기 문서. 예전 주소(view=discography&doc=…)도 여기로 온다
+      state.view = "group";
+      state.album = null;
+      state.doc = p.get("doc") || null;
+    } else if (p.get("view") === "discography") {
       state.view = "discography";
       state.album = p.get("album") || null;
-      state.doc = p.get("doc") || null;
+      state.doc = null;
     }
     else if (p.get("view") === "browse" || hasSel) state.view = "browse";
     else state.view = "browse"; // 파라미터 없음 = 시작 페이지(전체보기)
@@ -308,10 +313,12 @@
     const p = new URLSearchParams();
     if (state.view === "about" || state.view === "photos") {
       p.set("view", state.view); // 파라미터 없는 "/" 는 전체보기
+    } else if (state.view === "group") {
+      p.set("view", "group");
+      if (state.doc) p.set("doc", state.doc);
     } else if (state.view === "discography") {
       p.set("view", "discography");
       if (state.album) p.set("album", state.album);
-      if (state.doc) p.set("doc", state.doc);
     } else {
       const s = state.sel;
       if (s.cat) p.set("cat", s.cat);
@@ -515,6 +522,13 @@
         el.pane1.appendChild(hr);
         continue;
       }
+      if (node.view === "group") {
+        const b = navBtn(node.label, null, { active: state.view === "group", icon: node.icon });
+        b.classList.add("nav-lv1");
+        b.addEventListener("click", () => goDisco(null, GROUP_SLUG));
+        el.pane1.appendChild(b);
+        continue;
+      }
       if (node.view === "discography") {
         const b = navBtn(node.label, state.discoCount, { active: state.view === "discography", icon: node.icon });
         b.classList.add("nav-lv1");
@@ -596,14 +610,15 @@
     const about = state.view === "about";
     const photos = state.view === "photos";
     const disco = state.view === "discography";
-    const pageTitle = about ? "소개" : photos ? PHOTO_TITLE : disco ? "Discography" : titleFor(state.sel);
+    const group = state.view === "group";
+    const pageTitle = about ? "소개" : photos ? PHOTO_TITLE : group ? "그룹소개" : disco ? "Discography" : titleFor(state.sel);
     el.topbarTitle.textContent = pageTitle;
     document.title = about ? "About. · FLOVER-FLIX" : `${pageTitle} · FLOVER-FLIX`;
 
     document.body.classList.toggle("is-about", about); // 넓은 화면의 About 에서는 사이드바 고정(CSS)
     if (about) renderAbout();
     else if (photos) renderPhotos();
-    else if (disco) renderDisco();
+    else if (disco || group) renderDisco();
     else renderGrid();
 
     if (about) {
@@ -731,23 +746,29 @@
 
   /* ---------- 디스코그래피 ---------- */
 
+  const GROUP_SLUG = "프로미스나인"; // 그룹소개의 기본 문서 (data/discography/docs/프로미스나인.json)
+
   function renderDisco() {
     const wrap = document.createElement("div");
     wrap.className = "disco-root";
     el.content.appendChild(wrap);
-    const album = state.album;
-    const doc = state.doc;
+    const inGroup = state.view === "group";
+    const album = inGroup ? null : state.album;
+    const doc = inGroup ? state.doc || GROUP_SLUG : null; // 그룹소개의 첫 화면은 그룹 문서
+    const view = state.view;
     window.FFDiscography.render(wrap, { album, doc, onNav: goDisco }).then((title) => {
-      if (state.view !== "discography" || state.album !== album || state.doc !== doc) return;
+      if (state.view !== view || (!inGroup && state.album !== album) || (inGroup && (state.doc || GROUP_SLUG) !== doc)) return;
       state.discoCount = window.FFDiscography.count();
-      if (title) document.title = `${title} · Discography · FLOVER-FLIX`;
-      el.topbarTitle.textContent = title ? "Discography" : "Discography";
+      const area = inGroup ? "그룹소개" : "Discography";
+      if (title) document.title = `${title} · ${area} · FLOVER-FLIX`;
+      el.topbarTitle.textContent = area;
       paintIcons();
     });
   }
 
+  // 문서(그룹·멤버·모아보기)는 그룹소개 화면에서, 앨범은 Discography 화면에서 연다
   function goDisco(id, doc) {
-    state.view = "discography";
+    state.view = doc ? "group" : "discography";
     state.album = id || null;
     state.doc = doc || null;
     state.subGroup = null;

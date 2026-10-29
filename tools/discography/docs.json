@@ -9,7 +9,8 @@
   {"title":"이채영","kind":"member","label":"멤버","status":"current"},
   {"title":"이나경","kind":"member","label":"멤버","status":"current"},
   {"title":"백지헌","kind":"member","label":"멤버","status":"current"},
-  {"title":"프로미스나인/응원법","kind":"guide","label":"응원법"},
-  {"title":"프로미스나인/음악 방송","kind":"guide","label":"음악 방송"},
-  {"title":"프로미스나인/음악 방송 직캠","kind":"guide","label":"음악 방송 직캠"}
+  {"title":"프로미스나인/응원법","kind":"guide","label":"응원법","layout":"cards"},
+  {"title":"프로미스나인/음악 방송","kind":"guide","label":"음악 방송","layout":"cards"},
+  {"title":"프로미스나인/음악 방송 직캠","kind":"guide","label":"음악 방송 직캠","mergeInto":"프로미스나인/음악 방송"},
+  {"title":"flover","kind":"guide","label":"flover (팬덤)","layout":"cards","nolist":true}
 ]

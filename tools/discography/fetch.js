@@ -112,7 +112,7 @@ function extractDetails(html) {
     if (!refresh && !mdOnly && fs.existsSync(out)) continue;
     try {
       const r = await getHtml("doc-" + slug, href);
-      fs.writeFileSync(out, convert(r.html, new URL(href, ORIGIN).href, { repeatRowspan: true }), "utf8");
+      fs.writeFileSync(out, convert(r.html, new URL(href, ORIGIN).href, { repeatRowspan: true, keepImages: d.layout === "cards" && !d.noImages, dropImages: !!d.noImages }), "utf8");
       docN++;
       console.log(`  문서 ${d.title} ${r.cached ? "(캐시)" : ""} → source/docs/${slug}.md`);
     } catch (e) {

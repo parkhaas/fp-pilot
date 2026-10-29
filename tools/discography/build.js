@@ -21,6 +21,8 @@ const { marked } = require("marked");
 marked.use({ renderer: { del(text) { return "~" + text + "~"; } } });
 const sharp = require("sharp");
 const { hidePointers, isPointerOnly } = require("./lib/pointers");
+const { mergeMusicShows } = require("./lib/music-shows");
+const { logoGallery, albumCards, parseAlbumTable, mvCards, activityCards, galleryTables } = require("./lib/group-cards");
 
 const ROOT = __dirname;
 const SRC = path.join(ROOT, "source");
@@ -89,9 +91,12 @@ function stripFootnotes(html) {
     .replace(/<tr>\s*<td>\s*\[ 펼치기 · 접기 \]\s*(<br>)?\s*<\/td>\s*(<td>\s*<\/td>\s*)*<\/tr>/g, "")
     .replace(/\[ 펼치기 · 접기 \]\s*(<br>)?/g, "")
     .replace(/<p>\s*<\/p>/g, "")
+    // 문단 전체가 굵은 글씨 하나뿐이면 굵은 소제목으로 표시한다 (문장 중간의 굵은 글씨는 그대로 이어서 흐른다)
+    .replace(/<p>\s*(<strong>[^<]*<\/strong>)\s*<\/p>/g, '<p class="dg-boldhead">$1</p>')
     // 접힌 블록의 제목("[ 데뷔 후 ]")은 작은 구분 표시로
     .replace(/<p>\s*\[ ([^\]<]{1,14}) \]\s*<\/p>/g, '<p class="dg-fold-label">$1</p>');
-  return html.replace(/>([^<]*)</g, (m, t) => ">" + t.replace(/ *[[][0-9]{1,3}[\]]/g, "") + "<");
+  // 짝이 맞는 **굵게**는 앞 단계에서 <strong> 이 되었다. 남은 별표는 나무위키 원문에 오타로 들어 있는 것("3,7**장", "8*장")이라 지운다.
+  return html.replace(/>([^<]*)</g, (m, t) => ">" + t.replace(/ *[[][0-9]{1,3}[\]]/g, "").replace(/[*][*]/g, "").replace(/([0-9])[*]+(?=장)/g, "$1") + "<");
 }
 
 /* 멤버 문서의 활동 표(날짜 | 방송사 | 프로그램 | 역할 | 비고 …)를 행마다 카드로 바꾼다.
@@ -221,7 +226,11 @@ function sanitize(html) {
   $("table").each((i, t) => {
     const rows = $(t).find("tr").toArray().map((tr) => $(tr).children("th,td").toArray());
     if (!rows.length || !rows.every((c) => c.length === 2)) return;
-    if (!/(^|[^a-z])ver\.?\s*$|(^|[^a-z])version\s*$/i.test($(rows[0][0]).text().trim()) || $(rows[0][1]).text().trim()) return;
+    if (!$(rows[0][0]).text().trim() || $(rows[0][1]).text().trim()) return;
+    // 이미지(로고·상세 사진)만 있던 행은 이미지를 싣지 않아 텅 빈 행이 된다 → 버린다
+    $(t).find("tr").each((j, tr) => {
+      if (j > 0 && !$(tr).text().trim()) $(tr).remove();
+    });
     $(t).addClass("dg-spec");
     $(rows[0][0]).attr("colspan", "2");
     $(rows[0][1]).remove();
@@ -280,6 +289,9 @@ const FLAGS = new Map();
 const flagName = (alt) => slugify(alt.replace(/\s*국기.*$/, "")) || "flag";
 const flagImg = (name, label) => `<img class="dg-nation" src="data/discography/flags/${name}.svg" alt="${label}" title="${label}" height="14">`;
 
+// 이미지가 본문인 문서(layout: cards)를 만드는 동안만 켠다: { 원본URL: { file, w, h } } (fetch-doc-images.js 가 만든 source/doc-images.json)
+let DOC_IMAGES = null;
+
 function mdToHtml(md) {
   const noImg = md
     // 국기 이미지(링크로 감싼 것 포함)는 자리표시로 바꿔 두었다가 sanitize 뒤에 <img> 로 넣는다
@@ -287,6 +299,11 @@ function mdToHtml(md) {
       const n = flagName(alt);
       FLAGS.set(n, src);
       return `@@FLAG:${n}:${alt.replace(/[@:]/g, "")}@@`;
+    })
+    // 받아 둔 이미지는 자리표시로 바꿔 두었다가 sanitize 뒤에 <img> 로 넣는다 (링크로 감싼 이미지는 링크를 그대로 둔다). 목록에 없는 이미지는 아래 규칙대로 처리된다.
+    .replace(/!\[([^\]]*)\]\((https?:[/][/][^)\s]+)\)/g, (m, alt, src) => {
+      const im = DOC_IMAGES && DOC_IMAGES[src];
+      return im ? `@@IMG:${im.file};${encodeURIComponent(alt.trim())}@@` : m;
     })
     // 이미지로만 된 문서 링크 [![alt](이미지)](주소 "문서 이름"): 이미지는 빼고 문서 이름을 글자로 남긴다 (표의 방송·채널·앨범 칸)
     .replace(/\[!\[([^\]]*)\]\([^)]*\)\]\(((?:[^()\s]|\([^()]*\))+)(?: "([^"]*)")?\)/g, (m, alt, url, title) => {
@@ -296,8 +313,20 @@ function mdToHtml(md) {
     // 이미지는 싣지 않는다(커버·프로필만 따로 저장). 다만 방송·채널 "로고" 이미지는 이름표 역할이라 alt 글자로 대신한다.
     .replace(/!\[([^\]]*)\]\([^)]*\)/g, (m, alt) => (/로고\s*$|로고[ (]/.test(alt) ? alt.replace(/\([^)]*\)/g, "").replace(/\s*로고.*$/, "").trim() : ""))
     .replace(/^\[ (?:펼치기 · 접기|펼치기|접기) \]\s*$/gm, "")
-    .replace(/(\S)\[\d{1,3}\](?!\()/g, "$1"); // 각주 번호([13] 등)는 각주 본문을 싣지 않으므로 뺀다
-  return stripFootnotes(brandLinks(sanitize(marked.parse(noImg, { gfm: true, breaks: false })).replace(/@@FLAG:([^:@]+):([^@]*)@@/g, (m, n, label) => flagImg(n, label))));
+    .replace(/(^|\n)\[?CC-white[\s\S]*?(?=\n[ \t]*\n|$)/g, "$1") //"CC-white 이 문단의 내용 중 전체 또는 일부는 … 문서의 r3679 판에서 가져왔습니다" 같은 나무위키 문단 출처 안내
+    // 이미지 캡션 링크("[2022 fromis_9 1st concert2022\ fromis\_9\ 1st\ concert](주소)"): 이미지 설명이 이스케이프된 채 한 번 더 붙은 줄이라 뺀다
+    .replace(/^\[[^\]\n]*\\ [^\]\n]*\]\([^)\n]*\)[ \t]*$/gm, "")
+    .replace(/(\S)\[\d{1,3}\](?!\()/g, "$1") // 각주 번호([13] 등)는 각주 본문을 싣지 않으므로 뺀다
+    // 굵게(**…**): 닫는 ** 앞이 문장부호이고 뒤가 한글일 때(`**나인(9)**는`) CommonMark 가 강조로 보지 않아 별표가 그대로 남았다.
+    // 한 줄 안에서 짝이 맞는 것은 <strong> 으로 직접 바꾼다 (안쪽의 링크 등 마크다운은 그대로 처리된다).
+    .replace(/[*][*]([^*\n]+?)[*][*]/g, "<strong>$1</strong>");
+  return stripFootnotes(
+    brandLinks(
+      sanitize(marked.parse(noImg, { gfm: true, breaks: false }))
+        .replace(/@@FLAG:([^:@]+):([^@]*)@@/g, (m, n, label) => flagImg(n, label))
+        .replace(/@@IMG:([^;@]+)[;]([^@]*)@@/g, (m, file, alt) => `<img class="dg-pic" src="data/discography/${file}" alt="${escHtml(decodeURIComponent(alt))}" loading="lazy" decoding="async">`)
+    )
+  );
 }
 
 const plain = (s) =>
@@ -345,6 +374,50 @@ function parseTracks(lines) {
     }
   }
   return tracks;
+}
+
+/* "방송 / OST / 참여 음반": 항목마다 [![커버](이미지)\n\n**곡**\n**프로그램**\n날짜｜시간｜N곡](출처) 가 한 덩어리의 링크로 이어져 있어서 일반 마크다운으로는 깨졌다.
+   덩어리마다 커버·제목·날짜·곡 수와 트랙 표(곡 정보 | 크레딧)를 읽어 카드로 만든다. */
+async function partAlbums(lines) {
+  const text = lines.join("\n");
+  const blocks = text.split(/\n(?=\[!\[)/).map((b) => b.trim()).filter((b) => /^\[!\[/.test(b));
+  const cards = [];
+  for (const b of blocks) {
+    const linkAt = b.search(/\]\(https:\/\/namu\.wiki/);
+    const head = linkAt > 0 ? b.slice(0, linkAt) : b;
+    const info = head.match(/(\d{4}\. \d{2}\. \d{2}\.)[^｜\n]*｜([^｜\n]*)｜(\d+)곡/);
+    const bold = [...head.matchAll(/\*\*([^*]+)\*\*/g)].map((m) => plain(m[1]).trim()).filter(Boolean);
+    if (!info || !bold.length) continue;
+    const src = (b.slice(linkAt).match(/ "([^"]*)"\)/) || [])[1] || "";
+    const coverUrl = (b.match(/!\[[^\]]*\]\((https:\/\/i\.namu\.wiki\/[^)\s]+)\)/) || [])[1] || "";
+    // 표 맨 끝의 앨범 소개 행("…｜Digital Single")은 곡이 아니다
+    const tracks = parseTracks(b.split("\n")).filter((t) => !t.title.includes("｜"));
+    const id = `part-${dateIso(info[1])}-${slugify(bold[0])}`;
+    let cover = null;
+    try {
+      cover = await getCover({ id, coverSource: coverUrl });
+    } catch (e) {
+      console.warn(`  [경고] 참여 음반 커버 실패 ${bold[0]}: ${e.message}`);
+    }
+    const trackHtml = tracks
+      .map((t) => {
+        const cr = Object.entries(t.credits).map(([k, v]) => `${escHtml(k)} ${escHtml(v.join(", "))}`).join(" · ");
+        return `<li><span class="n">${String(t.no).padStart(2, "0")}</span><b>${escHtml(t.title)}${t.isTitle ? ' <em class="dg-tt-badge">타이틀</em>' : ""}</b>${t.runtime ? `<time>${t.runtime}</time>` : ""}${cr ? `<i>${cr}</i>` : ""}</li>`;
+      })
+      .join("");
+    const runtime = /^\d+['’:]/.test(info[2].trim()) ? info[2].trim() : "";
+    cards.push(
+      `<article class="dg-extra-album">` +
+        `<span class="dg-album-cover">${cover ? `<img src="data/discography/${cover.file}" alt="${escHtml(bold[0])} 커버" loading="lazy" decoding="async">` : ""}</span>` +
+        `<div class="dg-extra-info"><h5>${escHtml(bold[0])}</h5>` +
+        (bold.length > 1 ? `<p class="dg-extra-sub">${escHtml(bold.slice(1).join(" "))}</p>` : "") +
+        `<p class="dg-extra-meta">${escHtml([info[1].replace(/\.$/, "").replace(/\. /g, "."), runtime, info[3] + "곡"].filter(Boolean).join(" · "))}</p>` +
+        (src ? `<p class="dg-extra-src">출처 · ${escHtml(src)}</p>` : "") +
+        (trackHtml ? `<ol class="dg-extra-tracks">${trackHtml}</ol>` : "") +
+        `</div></article>`
+    );
+  }
+  return cards.length ? `<div class="dg-extra-albums">${cards.join("")}</div>` : "";
 }
 
 const dateIso = (d) => d.replace(/\.\s*/g, "-").replace(/-$/, "");
@@ -421,7 +494,7 @@ function parseMain(md) {
 }
 
 /* ---------- 그룹 문서의 멤버 소개: 5열 표 대신 나이순 세로 카드 ---------- */
-function memberSection(md, profilePath) {
+function memberSection(md, profilePath, infoAll) {
   const dotted = (s) => {
     const m = (s || "").match(/(\d{4})\.\s*(\d{2})\.\s*(\d{2})/);
     return m ? `${m[1]}-${m[2]}-${m[3]}` : "";
@@ -472,17 +545,38 @@ function memberSection(md, profilePath) {
   const noteMd = noteCell.replace(/<br>\s*(?=- )/g, "\n\n").replace(/<br>/g, "\n\n");
   const noteHtml = noteMd ? mdToHtml(noteMd) : "";
 
+  // 카드에 보여 줄 인물 정보 항목 (원문 인물 정보 표에서). 출생은 첫 줄(날짜)만.
+  const FACTS = ["별자리", "신체", "MBTI", "상징 색", "좌우명", "별명"];
+  const facts = (slug) => {
+    const raw = infoAll && infoAll[slug];
+    if (!raw) return { names: "", rows: [] };
+    const built = buildInfo(slug, raw, {});
+    const rows = [];
+    for (const k of FACTS) {
+      const r = built && built.rows.find((x) => x.k.replace(/\s+/g, " ") === k);
+      if (!r) continue;
+      let html = r.html;
+      if (k === "출생") html = html.split("<br>")[0];
+      if (k === "신체") html = html.replace(/<br>/g, " ");
+      rows.push(`<div><dt>${k}</dt><dd>${html}</dd></div>`);
+    }
+    const n = raw.name || {};
+    return { names: [n.hanja, n.en].filter(Boolean).map(escHtml).join(" <span>｜</span> "), rows };
+  };
   const card = (m) => {
     const slug = LINKS.docs[norm(m.name)];
     const img = slug && profilePath[slug];
     const link = (inner, cls) => (slug ? `<a class="${cls}" href="?view=discography&doc=${encodeURIComponent(slug)}" data-doc="${slug}">${inner}</a>` : inner);
+    const f = facts(slug);
     return (
       `<li class="dg-member">` +
       link(img ? `<img src="data/discography/${img}" alt="${m.name} 프로필 사진" loading="lazy" decoding="async">` : `<span class="dg-member-noimg"></span>`, "dg-member-photo") +
       `<div class="dg-member-info"><h4>${link(m.name, "dg-member-name")}</h4>` +
-      (m.birth ? `<p class="dg-member-birth">${m.flag ? flagImg(m.flag.name, m.flag.label) : ""}${m.birth.replace(/-/g, ".")} (${ageOf(m.birth)}세)</p>` : "") +
+      (f.names ? `<p class="dg-member-names">${f.names}</p>` : "") +
       (m.pos.length ? `<p class="dg-member-pos">${m.pos.map((p) => `<span>${p.replace(/ *[[][0-9]{1,3}[\]]/g, "")}</span>`).join("")}</p>` : "") +
+      (m.birth ? `<p class="dg-member-birth">${m.flag ? flagImg(m.flag.name, m.flag.label) : ""}${m.birth.replace(/-/g, ".")} (${ageOf(m.birth)}세)</p>` : "") +
       (m.left ? `<p class="dg-member-left">탈퇴 ${m.left.replace(/-/g, ".")}</p>` : "") +
+      (f.rows.length ? `<dl class="dg-member-facts">${f.rows.join("")}</dl>` : "") +
       `</div></li>`
     );
   };
@@ -495,8 +589,36 @@ function memberSection(md, profilePath) {
 
   return (
     `<h3>현재 멤버</h3>${list("current")}` +
-    (noteHtml ? `<details class="dg-note"><summary>포지션 관련 참고 사항</summary><div class="dg-prose">${noteHtml}</div></details>` : "") +
+    // 접지 않고 펼친 소제목 카드로 보여 준다 (본문 앞의 같은 이름 구분 칩은 중복이라 뺀다)
+    (noteHtml ? `<h3>포지션 관련 참고 사항</h3>${noteHtml.replace(/<p class="dg-fold-label">포지션 관련 참고 사항<\/p>/, "")}` : "") +
     `<h3>전 멤버</h3>${list("former")}`
+  );
+}
+
+/* 그룹소개 "팬덤" 소절: flover 문서(source/docs/flover.md)의 팬덤명·규모·성비를 발췌하고 flover·굿즈 문서로 가는 카드를 붙인다 */
+const docHrefFor = (slug) => `?view=discography&doc=${encodeURIComponent(slug)}`;
+function fandomSection(docHref) {
+  const file = path.join(SRC, "docs", "flover.md");
+  if (!fs.existsSync(file)) return "";
+  const lines = fs.readFileSync(file, "utf8").split("\n");
+  // "### 제목" 아래 ~ 다음 제목 전까지의 글을 빈 줄 기준 덩어리로 나눠 앞에서 max 개만
+  const excerpt = (title, max) => {
+    const i = lines.findIndex((l) => l.trim() === "### " + title);
+    if (i < 0) return "";
+    let j = i + 1;
+    while (j < lines.length && !/^#{2,3} /.test(lines[j])) j++;
+    const blocks = lines.slice(i + 1, j).join("\n").split(/\n\s*\n/).map((b) => b.trim()).filter((b) => b && !/^[|!]/.test(b));
+    return mdToHtml(blocks.slice(0, max).join("\n\n"));
+  };
+  const card = (title, body) => (body ? `<h3>${title}</h3>${body}` : "");
+  // 큰 링크 카드 대신, 첫 카드 제목 오른쪽에 "더 알아보기" 버튼 하나
+  const more = `<a class="dg-more" href="${docHref("flover")}" data-doc="flover">더 알아보기</a>`;
+  const cheer = `<a class="dg-more" href="${docHref("응원법")}" data-doc="응원법">더 알아보기</a>`;
+  return (
+    card(`팬덤명 · flover${more}`, excerpt("팬덤명", 3)) +
+    card("규모", excerpt("규모", 3)) +
+    card("성비", excerpt("성비", 2)) +
+    card(`응원법${cheer}`, "<p>앨범과 곡별 응원법을 발매 순서대로 정리한 문서입니다.</p>")
   );
 }
 
@@ -659,6 +781,13 @@ async function getCover(album) {
     LINKS.docs[norm(d.title.replace(/\(프로미스나인\)$/, ""))] = d.slug;
     LINKS.docs[norm(d.title)] = d.slug;
   }
+  // 다른 문서에 합쳐진 문서(직캠 → 음악 방송)로 가는 링크는 합친 문서로 보낸다
+  for (const d of docList) {
+    if (!d.mergeInto) continue;
+    const target = slugify(d.mergeInto);
+    LINKS.docs[norm(d.title)] = target;
+    LINKS.docs[norm(d.title.replace(/^프로미스나인[/]/, ""))] = target;
+  }
   for (const a of albums) {
     a.id = `${a.releaseDate || "undated"}-${slugify(a.title)}`;
     LINKS.albums[norm(a.title)] = a.id;
@@ -778,6 +907,10 @@ async function getCover(album) {
   // 인물 정보 표의 서명 이미지(작은 svg)를 내려받는다. 밝은 배경용과 어두운 배경용(화이트) 두 장이 있다.
   const infoFile = path.join(SRC, "profile-info.json");
   const infoAll = fs.existsSync(infoFile) ? JSON.parse(fs.readFileSync(infoFile, "utf8")) : {};
+  const docImgFile = path.join(SRC, "doc-images.json");
+  const docImages = fs.existsSync(docImgFile) ? JSON.parse(fs.readFileSync(docImgFile, "utf8")) : {};
+  const logoFile = path.join(SRC, "group-logos.json");
+  const groupLogos = fs.existsSync(logoFile) ? JSON.parse(fs.readFileSync(logoFile, "utf8")) : null;
   const signFiles = {};
   for (const [slug, info] of Object.entries(infoAll)) {
     const row = info.rows.find((r) => r.k === "서명");
@@ -813,42 +946,90 @@ async function getCover(album) {
       console.warn(`  [경고] 문서 없음: ${d.title} (node fetch.js 로 받으세요)`);
       continue;
     }
+    if (d.mergeInto) continue; // 다른 문서에 합쳐진 문서는 따로 페이지를 만들지 않는다
     const dd = parseDetail(fs.readFileSync(file, "utf8"));
+    // 이미지가 본문인 문서는 받아 둔 이미지(source/doc-images.json)를 문서에 싣는다
+    DOC_IMAGES = d.layout === "cards" && !d.noImages ? docImages : null;
     const url = "https://namu.wiki/w/" + encodeURIComponent(d.title).replace(/%2F/g, "/");
     let summary = "";
     const sections = [];
     const hidden = [];
+    // 그룹소개: "음반" 표는 "로고" 소절과 겹치므로 읽어 두었다가 로고 카드에 합치고, 따로 소절로는 싣지 않는다
+    let groupAlbums = null;
+    if (d.kind === "group") {
+      const albumSec = dd.sections.find((x) => x.title === "음반");
+      groupAlbums = albumSec ? parseAlbumTable(mdToHtml(albumSec.md)) : null;
+    }
     for (const s of dd.sections) {
       if (SKIP.has(s.title)) continue;
+      if (d.kind === "group" && s.title === "여담") continue; // 안내뿐인 원문 소절은 아래에서 음반 문서의 여담으로 대신한다
+      if (d.kind === "group" && s.title === "팬덤") {
+        // 나무위키의 이 소절은 flover·응원법·굿즈 문서 안내뿐이다. 응원법은 "모아보기"에 있으니 빼고, flover 문서에서 팬덤 소개를 가져와 채운다.
+        const fh = fandomSection(docHrefFor);
+        if (fh) sections.push({ id: "팬덤", title: "팬덤", html: fh });
+        continue;
+      }
       if (s.hidden) {
         hidden.push({ title: s.title, md: s.md });
         continue;
       }
-      let html = d.kind === "group" && s.title === "멤버" ? memberSection(s.md, profilePath) : mdToHtml(s.md);
+      let html = d.kind === "group" && s.title === "멤버" ? memberSection(s.md, profilePath, infoAll) : mdToHtml(s.md);
       if (!html) continue;
+      // 숨겨진 안내 주석뿐이라 화면에 보일 내용이 없는 소절은 제목만 남지 않게 뺀다
+      if (!html.replace(/<!--[\s\S]*?-->/g, "").replace(/<[^>]*>/g, "").trim() && !/<img/.test(html)) continue;
       if (d.kind === "member") html = rowCards(html);
+      if (d.layout === "cards") html = galleryTables(html);
+      if (d.kind === "group") {
+        // 그룹소개: 밋밋한 표·글 덩어리를 카드로
+        const docHref = (slug) => `?view=discography&doc=${encodeURIComponent(slug)}`;
+        const people = docList
+          .filter((x) => x.kind === "member")
+          .map((x) => ({ name: x.title.replace(/[(]프로미스나인[)]$/, ""), slug: slugify(x.title), status: x.status || "current" }));
+        const coverFor = (id) => (fs.existsSync(path.join(OUT, "covers", id + ".webp")) ? `covers/${id}.webp` : "");
+        if (s.title === "음반" && groupAlbums && groupAlbums.length) html = albumCards(groupAlbums, (label) => LINKS.albums[norm(label)], coverFor);
+        if (s.title === "특징") html = logoGallery(html, groupLogos, (label) => LINKS.albums[norm(label)], groupAlbums, coverFor);
+        if (s.title === "뮤직비디오") html = mvCards(html);
+        if (s.title === "활동") html = activityCards(html, people, docHref);
+      }
       if (s.title === "개요") summary = html;
       else sections.push({ id: slugify(s.title) || "sec", title: s.title, html });
     }
+    // 그룹소개 맨 아래: 음반 문서에 있던 여담(초동 판매량 기록 등)
+    if (d.kind === "group" && extras["여담"]) {
+      const gossip = mdToHtml(extras["여담"].join("\n").trim());
+      if (gossip.replace(/<[^>]*>/g, "").trim()) sections.push({ id: "여담", title: "여담", html: gossip });
+    }
+    // 음악 방송: 직캠 문서와 합쳐 무대마다 [무대 영상 + 그 무대의 직캠] 카드로
+    if (docList.some((x) => x.mergeInto === d.title)) {
+      const camDoc = docList.find((x) => x.mergeInto === d.title);
+      const camFile = path.join(SRC, "docs", camDoc.slug + ".md");
+      if (fs.existsSync(camFile)) {
+        const camSections = parseDetail(fs.readFileSync(camFile, "utf8")).sections.filter((x) => !x.hidden).map((x) => ({ title: x.title, html: mdToHtml(x.md) }));
+        const merged = mergeMusicShows(sections.map((x) => ({ title: x.title, html: x.html })), camSections);
+        sections.length = 0;
+        merged.forEach((m) => sections.push(m));
+      }
+    }
     const shown = d.title.replace(/\(프로미스나인\)$/, "").replace(/^프로미스나인\//, "프로미스나인 ");
-    fs.writeFileSync(path.join(OUT, "docs", d.slug + ".json"), JSON.stringify({ slug: d.slug, title: shown, kind: d.kind, label: d.label, updated: dd.updated, profile: profilePath[d.slug] || undefined, info: buildInfo(d.slug, infoAll[d.slug], signFiles), source: { title: d.title, url }, summary, sections, hidden: hidden.length ? hidden : undefined }) + "\n", "utf8");
-    docsMeta.push({ slug: d.slug, title: shown, kind: d.kind, label: d.label });
+    fs.writeFileSync(path.join(OUT, "docs", d.slug + ".json"), JSON.stringify({ slug: d.slug, title: shown, kind: d.kind, label: d.label, layout: d.layout || undefined, updated: dd.updated, profile: profilePath[d.slug] || undefined, info: buildInfo(d.slug, infoAll[d.slug], signFiles), source: { title: d.title, url }, summary, sections, hidden: hidden.length ? hidden : undefined }) + "\n", "utf8");
+    docsMeta.push({ slug: d.slug, title: shown, kind: d.kind, label: d.label, layout: d.layout || undefined, nolist: d.nolist || undefined });
   }
 
   const idx = {
     docs: docsMeta,
+    aliases: Object.fromEntries(docList.filter((x) => x.mergeInto).map((x) => [slugify(x.title), slugify(x.mergeInto)])), // 합쳐진 문서의 옛 주소 → 합친 문서
     updatedAt: new Date().toISOString().slice(0, 10),
     source: { name: "나무위키", title: "프로미스나인/음반", url: MAIN_URL, license: "CC BY-NC-SA 2.0 KR", licenseUrl: "https://creativecommons.org/licenses/by-nc-sa/2.0/kr/" },
     albums: index.map((it) => it.meta),
   };
   fs.writeFileSync(path.join(OUT, "index.json"), JSON.stringify(idx) + "\n", "utf8");
 
-  // extras: 앨범이 아닌 내용
+  // extras: 앨범이 아닌 내용. 노래방 수록 목록은 내용이 없어 뺐고, 여담은 그룹소개로 옮겼다.
   const ex = {};
-  for (const [k, ls] of Object.entries(extras)) {
-    if (["국내 음반", "일본 음반"].includes(k)) continue;
-    const md = ls.join("\n").trim();
-    if (md) ex[k] = mdToHtml(md);
+  const partKey = "방송 / OST / 참여 음반";
+  if (extras[partKey]) {
+    const html = await partAlbums(extras[partKey]);
+    if (html) ex[partKey] = html;
   }
   fs.writeFileSync(path.join(OUT, "extras.json"), JSON.stringify(ex) + "\n", "utf8");
 

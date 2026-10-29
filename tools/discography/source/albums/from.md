@@ -2,7 +2,7 @@
 title: "from(프로미스나인)"
 source: https://namu.wiki/w/from(%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8)
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-28
+fetched: 2026-10-29
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/from(%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8))의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -31,14 +31,14 @@ fetched: 2026-10-28
 
 [▶ YouTube](https://www.youtube.com/watch?v=eeZzCoghZzw)
 
-**from
+**from**
 
-01 3:22
+**01 3:22**
 
-TITLE
+**TITLE**
 
-Dear. my flover
-From. fromis_9**
+**Dear. my flover**
+**From. fromis_9**
 
 [ 가사 보기 ]
 
@@ -187,7 +187,7 @@ I just wanna live in this moment forever
 
 ### 음원
 
-| **from<br>주요 음원 차트 최고 순위** |  |  |  |
+| **from**<br>**주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **2위** |
@@ -223,8 +223,8 @@ I just wanna live in this moment forever
 
 ## 관련 영상
 
-**from
-RECORDING BEHIND**
+**from**
+**RECORDING BEHIND**
 
 [▶ YouTube](https://www.youtube.com/watch?v=TQQ9sr_r52w)
 

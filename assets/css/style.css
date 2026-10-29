@@ -1269,7 +1269,7 @@ details[open] > summary > .dg-chev { transform: rotate(180deg); }
 }
 .dg-prose a.dg-vid svg, .dg-prose a.dg-vid i { width: 14px; height: 14px; padding: 3px; box-sizing: content-box; border-radius: 50%; background: var(--brand); color: #fff; fill: #fff; }
 .dg-prose a.dg-vid:hover { background: var(--brand-weak); border-color: var(--brand); color: var(--brand-strong); }
-.dg-prose p > strong:only-child { display: block; margin-top: 1.2em; }
+.dg-prose p.dg-boldhead { margin-top: 1.2em; }
 
 /* 주요 문서 (그룹·멤버·응원법) */
 .dg-docs { margin: 12px 0 28px; }
@@ -1773,7 +1773,7 @@ html.dark #themeToggle .ico-dark { opacity: 1; transform: none; filter: none; }
       color: transparent; -webkit-text-stroke: 1.5px var(--text);
       background: linear-gradient(90deg, var(--text) 0 50%, transparent 50% 100%) 100% 0 / 200% 100% no-repeat;
       -webkit-background-clip: text; background-clip: text;
-      animation: fx-year linear both, fx-fill linear both; animation-timeline: view(), view(); animation-range: entry 0% entry 45%, entry 10% cover 40%;
+      animation: fx-year linear both, fx-fill linear both; animation-timeline: view(), view(); animation-range: entry 0% cover 30%, entry 6% cover 38%;
     }
   }
 }
@@ -1781,11 +1781,12 @@ html.dark #themeToggle .ico-dark { opacity: 1; transform: none; filter: none; }
 /* ============================================================
    멤버 문서 레이아웃 — 넓은 화면을 쓰고, 단어가 쪼개지지 않게, 활동은 소제목·행마다 카드로
    ============================================================ */
-.dg { max-width: 1240px; }
+.dg { max-width: none; } /* 넓은 모니터의 폭을 그대로 쓴다 (본문 컨테이너 상한은 .content 의 2400px) */
 /* 한글은 단어(어절) 단위로만 줄을 바꾼다. 글자째 쪼개지던 overflow-wrap: anywhere 를 걷어낸다 */
 .dg-prose { overflow-wrap: break-word; word-break: keep-all; }
 .dg-prose td, .dg-prose th { word-break: keep-all; overflow-wrap: break-word; }
 .dg-prose > p, .dg-prose > ul, .dg-prose > ol { max-width: 82ch; }
+.dg-subcard .dg-prose > p, .dg-subcard .dg-prose > ul, .dg-subcard .dg-prose > ol { max-width: none; } /* 카드 폭은 카드가 정한다: 카드는 넓은데 글만 중간에서 끊기지 않게. 긴 글은 2단(is-cols)으로 읽기 좋은 줄 길이를 만든다 */
 /* 남아 있는 일반 표: 날짜 칸은 한 줄로, 내용 칸이 남은 폭을 쓴다 */
 .dg-prose table { display: table; width: 100%; min-width: 0; }
 .dg-prose th:first-child, .dg-prose td:first-child { white-space: nowrap; }
@@ -1909,3 +1910,294 @@ html, body { overflow-x: clip; }
 @media (prefers-reduced-motion: no-preference) {
   .dg-chap-body.fx-lit::after, .dg-subcard.fx-lit::after { opacity: 0.9; }
 }
+
+/* ============================================================
+   그룹소개 문서 — 접고 펼치는 대신 소제목 카드 + 큰 제목·멤버 카드 연출 (web-animation-design 지침)
+   ============================================================ */
+.dg-group-hero { position: relative; overflow: hidden; margin-bottom: 28px; padding: clamp(28px, 6vw, 64px) clamp(20px, 5vw, 56px); border: 1px solid color-mix(in srgb, var(--brand) 28%, var(--border)); border-radius: 28px; background: linear-gradient(135deg, color-mix(in srgb, var(--brand) 22%, var(--surface)) 0%, var(--surface) 72%); }
+.dg-group-hero > *:not(.dg-marquee) { position: relative; z-index: 1; }
+.dg-group-hero .dg-hero-title { font-size: clamp(2.6rem, 1.6rem + 4.5vw, 5rem); }
+.dg-group-hero .dg-marquee { -webkit-text-stroke-color: color-mix(in srgb, var(--brand) 40%, transparent); }
+
+/* 멤버 목록: 한 줄에 여러 장의 카드 */
+.dg-subcard .dg-members { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)); gap: 14px; margin: 0; padding: 0; list-style: none; }
+.dg-subcard .dg-member { margin: 0; }
+.dg-member-photo img { transition: transform 0.5s var(--ease-out); }
+.dg-member:hover .dg-member-photo img { transform: scale(1.12); }
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    /* 멤버 카드: 열마다 왼쪽·오른쪽에서 번갈아 날아 들어온다 (화면 위쪽에서 완성) */
+    .dg-subcard .dg-member { animation: fx-row-l linear backwards; animation-timeline: view(); animation-range: entry 0% cover 34%; }
+    .dg-subcard .dg-member:nth-child(even) { animation-name: fx-row-r; animation-range: entry 4% cover 38%; }
+    .dg-subcard .dg-member:nth-child(4n + 3) { animation-name: fx-row-m; animation-range: entry 8% cover 42%; }
+  }
+}
+
+/* ============================================================
+   그룹소개 개편 — 로고 히어로, 큰 멤버 카드, 로고 갤러리, 뮤직비디오·활동 카드
+   ============================================================ */
+
+/* 1) 히어로: 로고를 크게, 한글·영문 이름을 나란히 */
+.dg-group-hero { display: grid; justify-items: start; gap: 6px; }
+.dg-group-logo { display: flex; align-items: center; margin: 4px 0 14px; }
+.dg-group-logo img { height: clamp(110px, 22vw, 210px); width: auto; display: block; filter: drop-shadow(0 14px 26px color-mix(in srgb, var(--brand) 40%, transparent)); }
+.dg-logo-dark { display: none !important; }
+html.dark .dg-logo-light { display: none !important; }
+html.dark .dg-logo-dark { display: block !important; }
+.dg-group-names { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 18px; margin: 0; font-size: clamp(1.7rem, 1.1rem + 2.6vw, 3rem); }
+.dg-group-names .dg-group-en { font-weight: 500; letter-spacing: -0.02em; color: var(--text-2); }
+.dg-group-hero .dg-marquee { opacity: 0.55; }
+
+/* 2) 멤버 카드: 사진이 카드 폭의 절반, 늘어난 높이만큼 정보를 더 보여 준다 */
+.dg-subcard .dg-members { grid-template-columns: repeat(auto-fill, minmax(min(100%, 440px), 1fr)); gap: 16px; }
+.dg-subcard .dg-members .dg-member { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0; padding: 0; align-items: stretch; overflow: hidden; border-radius: 22px; }
+.dg-subcard .dg-members .dg-member-photo { width: auto; height: 100%; min-height: 300px; aspect-ratio: auto; border-radius: 0; }
+.dg-subcard .dg-members .dg-member-photo img { height: 100%; min-height: 300px; }
+.dg-subcard .dg-members .dg-member-info { padding: 18px 18px 18px 16px; gap: 5px; justify-content: flex-start; }
+.dg-subcard .dg-members .dg-member-info h4 { font-size: 1.45rem; }
+.dg-member-names { color: var(--text-3); font-size: 0.78rem !important; letter-spacing: 0.02em; }
+.dg-member-names span { margin: 0 3px; }
+.dg-member-facts { display: grid; gap: 0; margin: 8px 0 0; }
+.dg-member-facts > div { display: grid; grid-template-columns: 54px minmax(0, 1fr); gap: 8px; padding: 6px 0; border-top: 1px solid var(--border); font-size: 0.78rem; line-height: 1.45; }
+.dg-member-facts dt { color: var(--text-3); font-weight: 650; }
+.dg-member-facts dd { margin: 0; color: var(--text); word-break: keep-all; overflow-wrap: break-word; }
+
+/* 3) 역대 활동별 로고 */
+.dg-logo-main { display: flex; justify-content: center; padding: clamp(20px, 5vw, 44px); margin: 0 0 14px; border-radius: 22px; background: linear-gradient(135deg, color-mix(in srgb, var(--brand) 14%, var(--surface-2)), var(--surface-2)); }
+.dg-logo-main img { height: clamp(120px, 26vw, 200px); width: auto; }
+.dg-logo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr)); gap: 12px; }
+.dg-logo-card { display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 12px 10px 14px; border: 1px solid var(--border); border-radius: 18px; background: var(--bg); text-align: center; text-decoration: none; color: var(--text); transition: transform 0.3s var(--ease-out), box-shadow 0.3s ease, border-color 0.2s ease; }
+a.dg-logo-card:hover { transform: translateY(-5px) scale(1.03); border-color: var(--brand); box-shadow: var(--shadow-md); }
+.dg-logo-img { display: grid; place-items: center; width: 100%; aspect-ratio: 4 / 3; margin-bottom: 8px; padding: 12px; border-radius: 12px; background: #fff; }
+.dg-logo-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.dg-logo-card b { font-family: var(--font-display); font-size: 0.86rem; letter-spacing: -0.02em; }
+.dg-logo-card i { font-style: normal; font-size: 0.72rem; color: var(--text-3); }
+
+/* 4) 뮤직비디오 카드 */
+.dg-mvs { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 270px), 1fr)); gap: 14px; }
+.dg-mv { display: flex; flex-direction: column; gap: 6px; padding: 16px 18px 14px; border: 1px solid var(--border); border-radius: 20px; background: var(--bg); transition: transform 0.3s var(--ease-out), box-shadow 0.3s ease, border-color 0.2s ease; }
+.dg-mv:hover { transform: translateY(-4px); border-color: var(--brand); box-shadow: var(--shadow-md); }
+.dg-mv header { display: flex; align-items: baseline; gap: 10px; }
+.dg-mv-no { font-family: var(--font-display); font-weight: 800; font-size: 1.9rem; line-height: 1; letter-spacing: -0.05em; color: transparent; -webkit-text-stroke: 1.5px var(--brand); font-variant-numeric: tabular-nums; }
+.dg-prose .dg-mv h5 { margin: 0; font-family: var(--font-display); font-size: 1.1rem; line-height: 1.25; letter-spacing: -0.03em; color: var(--text); word-break: keep-all; }
+.dg-mv-album { margin: 0; font-size: 0.78rem; color: var(--text-3); }
+.dg-mv-album a { color: var(--text-2); }
+.dg-mv-views { display: flex; align-items: baseline; gap: 5px; margin: 6px 0 0; }
+.dg-mv-views b { font-family: var(--font-display); font-size: 1.55rem; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; color: var(--text); }
+.dg-mv-views span { font-size: 0.78rem; color: var(--text-3); }
+.dg-mv-bar { display: block; height: 6px; overflow: hidden; border-radius: 999px; background: var(--surface-2); }
+.dg-mv-bar i { display: block; width: var(--w, 50%); height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--brand), color-mix(in srgb, var(--brand) 50%, #7c5cff)); transform-origin: left; }
+.dg-mv footer { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 8px; }
+.dg-mv time { font-size: 0.76rem; color: var(--text-3); font-variant-numeric: tabular-nums; }
+.dg-mv-links { display: flex; gap: 6px; }
+.dg-prose a.dg-mv-play { display: inline-flex; align-items: center; padding: 4px 10px; border-radius: 8px; background: var(--brand-weak); color: var(--brand-strong); font-size: 0.76rem; font-weight: 700; text-decoration: none; background-image: none; }
+.dg-mv-play:hover { background: var(--brand) !important; color: #fff !important; }
+
+/* 5) 활동: 링크 카드·멤버 칩·공연 카드 */
+.dg-linkcards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 14px; margin-bottom: 14px; }
+.dg-prose a.dg-linkcard { display: flex; flex-direction: column; gap: 4px; padding: 20px 22px; border: 1px solid var(--border); border-radius: 20px; background: linear-gradient(135deg, color-mix(in srgb, var(--brand) 12%, var(--bg)), var(--bg)); color: var(--text); text-decoration: none; background-image: none; transition: transform 0.3s var(--ease-out), border-color 0.2s ease, box-shadow 0.3s ease; }
+.dg-prose a.dg-linkcard:hover { transform: translateY(-4px); border-color: var(--brand); box-shadow: var(--shadow-md); }
+.dg-linkcard b { font-family: var(--font-display); font-size: 1.2rem; letter-spacing: -0.03em; }
+.dg-linkcard span { font-size: 0.82rem; color: var(--text-2); }
+.dg-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.dg-prose a.dg-chip-link { padding: 6px 14px; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); color: var(--text); font-size: 0.84rem; font-weight: 650; text-decoration: none; background-image: none; transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, translate 0.2s var(--ease-out); }
+.dg-prose a.dg-chip-link:hover { border-color: var(--brand); background: var(--brand-weak); color: var(--brand-strong); }
+.dg-events { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); gap: 12px; margin-bottom: 14px; }
+.dg-event { position: relative; display: flex; flex-direction: column; gap: 4px; padding: 16px 18px 14px 22px; border: 1px solid var(--border); border-radius: 18px; background: var(--bg); overflow: hidden; transition: transform 0.3s var(--ease-out), border-color 0.2s ease, box-shadow 0.3s ease; }
+.dg-event::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; background: linear-gradient(180deg, var(--brand), color-mix(in srgb, var(--brand) 40%, #7c5cff)); }
+.dg-event:hover { transform: translateY(-4px); border-color: var(--brand); box-shadow: var(--shadow-md); }
+.dg-prose .dg-event h5 { margin: 0; font-family: var(--font-display); font-size: 1.02rem; line-height: 1.3; letter-spacing: -0.03em; color: var(--text); word-break: keep-all; }
+.dg-event-sub { margin: 0; font-size: 0.8rem; color: var(--text-2); }
+.dg-event time { align-self: flex-start; margin-top: 4px; padding: 2px 9px; border-radius: 999px; background: var(--brand-weak); color: var(--brand-strong); font-size: 0.74rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+@media (max-width: 520px) {
+  .dg-subcard .dg-members .dg-member-photo, .dg-subcard .dg-members .dg-member-photo img { min-height: 240px; }
+  .dg-subcard .dg-members .dg-member-info h4 { font-size: 1.2rem; }
+  .dg-member-facts > div { grid-template-columns: 44px minmax(0, 1fr); gap: 6px; }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes dg-bar-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .dg-logo-card, .dg-mv, .dg-event, .dg-linkcard { animation: fx-row-l linear backwards; animation-timeline: view(); animation-range: entry 0% cover 34%; }
+    .dg-logo-card:nth-child(even), .dg-mv:nth-child(even), .dg-event:nth-child(even), .dg-linkcard:nth-child(even) { animation-name: fx-row-r; animation-range: entry 4% cover 38%; }
+    .dg-logo-card:nth-child(4n + 3), .dg-mv:nth-child(4n + 3), .dg-event:nth-child(4n + 3) { animation-name: fx-row-m; animation-range: entry 8% cover 42%; }
+    .dg-logo-main { animation: fx-zoom linear backwards; animation-timeline: view(); animation-range: entry 0% cover 30%; }
+    .dg-mv-bar i { animation: dg-bar-grow linear backwards; animation-timeline: view(); animation-range: entry 10% cover 40%; }
+    .dg-group-logo img { animation: dg-hero-cover-out linear both; animation-timeline: scroll(root); animation-range: 0 460px; transform-origin: 50% 100%; }
+  }
+}
+
+/* 읽기 폭 제한(82ch)은 글 문단용: 멤버 카드 목록은 카드 영역을 다 쓴다 */
+.dg-prose > ul.dg-members { max-width: none; }
+
+/* 소제목 카드 배치: 행 단위(grid)로 놓으면 키가 다른 카드 옆이 텅 비었다.
+   단(column)으로 위에서부터 차곡차곡 흘려 보내 빈틈 없이 모은다. 표·목록처럼 넓은 카드는 단을 가로질러 한 줄을 다 쓴다. */
+.dg-subs { display: block; column-width: 420px; column-gap: 16px; }
+.dg-subs > .dg-subcard { display: block; width: auto; break-inside: avoid; margin: 0 0 16px; }
+.dg-subs > .dg-subcard.is-wide, .dg-subs > .dg-subcard.is-lead { column-span: all; }
+
+/* 긴 글 카드: 가로로 한 줄을 다 쓰고 본문은 2단으로 (한 단 폭 약 38자 이상 유지) */
+.dg-subs > .dg-subcard.is-long { column-span: all; }
+.dg-subcard.is-cols > .dg-prose { column-width: 360px; column-gap: 40px; } /* 글만 있는 긴 카드 · 혼자 놓인 카드만 2단으로 흘린다(사진·갤러리·표가 있으면 단을 가로질러 깨지므로 제외) */
+.dg-subcard.is-long .dg-prose > p, .dg-subcard.is-long .dg-prose > ul { max-width: none; }
+.dg-subcard.is-long .dg-prose > :is(p, ul, ol) { break-inside: auto; }
+.dg-subs > .dg-subcard.is-solo { column-span: all; }
+
+
+/* 음반 + 로고 합친 카드: 그때의 변화(데뷔·체제·소속사)를 칩으로 */
+.dg-logo-card.has-note { border-color: color-mix(in srgb, var(--brand) 40%, var(--border)); background: linear-gradient(180deg, color-mix(in srgb, var(--brand) 8%, var(--bg)), var(--bg)); }
+.dg-logo-img.is-empty { background: var(--surface-2); }
+.dg-logo-img img.is-cover { width: 100%; height: 100%; max-width: none; max-height: none; padding: 0; object-fit: cover; border-radius: 8px; }
+.dg-logo-notes { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; margin-top: 6px; }
+.dg-logo-notes em { padding: 2px 8px; border-radius: 8px; background: var(--brand-weak); color: var(--brand-strong); font-style: normal; font-size: 0.68rem; font-weight: 700; line-height: 1.35; word-break: keep-all; }
+
+/* 음반: 발매 순서의 커버 카드 (그룹에 변화가 있던 때는 분홍으로) */
+.dg-albums { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 170px), 1fr)); gap: 16px; }
+.dg-album-card { display: flex; flex-direction: column; gap: 3px; padding: 10px 10px 14px; border: 1px solid var(--border); border-radius: 20px; background: var(--bg); color: var(--text); text-decoration: none; transition: transform 0.3s var(--ease-out), box-shadow 0.3s ease, border-color 0.2s ease; }
+a.dg-album-card:hover { transform: translateY(-5px); border-color: var(--brand); box-shadow: var(--shadow-md); }
+.dg-album-card.has-note { border-color: color-mix(in srgb, var(--brand) 40%, var(--border)); background: linear-gradient(180deg, color-mix(in srgb, var(--brand) 9%, var(--bg)), var(--bg)); }
+.dg-album-cover { display: block; aspect-ratio: 1; margin-bottom: 8px; overflow: hidden; border-radius: 14px; background: var(--surface-2); }
+.dg-album-cover img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s var(--ease-out); }
+a.dg-album-card:hover .dg-album-cover img { transform: scale(1.08); }
+.dg-album-card b { padding: 0 4px; font-family: var(--font-display); font-size: 0.95rem; line-height: 1.25; letter-spacing: -0.03em; }
+.dg-album-card i { padding: 0 4px; font-style: normal; font-size: 0.74rem; color: var(--text-3); }
+.dg-album-card .dg-logo-notes { justify-content: flex-start; padding: 0 4px; }
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .dg-album-card { animation: fx-row-l linear backwards; animation-timeline: view(); animation-range: entry 0% cover 34%; }
+    .dg-album-card:nth-child(even) { animation-name: fx-row-r; animation-range: entry 4% cover 38%; }
+    .dg-album-card:nth-child(4n + 3) { animation-name: fx-row-m; animation-range: entry 8% cover 42%; }
+  }
+}
+
+/* 소제목 카드 제목 줄 오른쪽의 "더 알아보기" 버튼 */
+.dg-subcard-h { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+a.dg-more { flex: none; display: inline-flex; align-items: center; padding: 5px 13px; border-radius: 999px; background: var(--brand-weak); color: var(--brand-strong); font-family: var(--font-body, inherit); font-size: 0.76rem; font-weight: 700; letter-spacing: 0; text-decoration: none; transition: background-color 0.15s ease, color 0.15s ease, translate 0.2s var(--ease-out); }
+a.dg-more::after { content: "›"; margin-left: 6px; font-size: 1.05em; line-height: 1; transition: translate 0.2s var(--ease-out); }
+a.dg-more:hover { background: var(--brand); color: #fff; }
+a.dg-more:hover::after { translate: 3px 0; }
+
+/* 카드형 안내 문서(flover·굿즈·응원법): 사양 표는 카드 여러 장을 격자로, 목록은 숨 쉬게 */
+.dg-subcard .dg-prose:has(> .dg-spec) { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 16px; align-items: start; }
+.dg-subcard .dg-prose:has(> .dg-spec) > :not(.dg-spec) { grid-column: 1 / -1; }
+.dg-subcard .dg-prose table.dg-spec { max-width: none; margin: 0; }
+.dg-subcard .dg-prose > ul > li { margin-bottom: 0.45em; }
+.dg-group-hero .dg-hero-title:not(.dg-group-names) { font-size: clamp(2.2rem, 1.4rem + 4vw, 4.2rem); }
+
+/* 문서 속 사진(flover·굿즈): 둥근 사진 + 갤러리 격자(사진 + 캡션 카드) */
+.dg-pic { display: block; max-width: 100%; height: auto; margin: 6px 0; border-radius: 14px; background: var(--surface-2); }
+.dg-gallery { margin: 0 0 14px; }
+.dg-gal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); gap: 14px; }
+.dg-gal-item { display: flex; flex-direction: column; gap: 8px; margin: 0; padding: 10px 10px 12px; border: 1px solid var(--border); border-radius: 18px; background: var(--bg); transition: transform 0.3s var(--ease-out), box-shadow 0.3s ease, border-color 0.2s ease; }
+.dg-gal-item:hover { transform: translateY(-4px); border-color: var(--brand); box-shadow: var(--shadow-md); }
+.dg-gal-item.is-photo .dg-gal-img { aspect-ratio: 5 / 6; background: var(--surface-2); }
+.dg-gal-item.is-photo .dg-gal-img .dg-pic { inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
+.dg-gal-img { --pad: clamp(16px, 3.2vw, 26px); position: relative; display: block; aspect-ratio: 4 / 3; border-radius: 12px; background: #fff; overflow: hidden; } /* 모든 칸이 같은 크기 + 안쪽 여백 넉넉하게 */
+.dg-gal-img .dg-pic { position: absolute; inset: var(--pad); margin: 0; width: calc(100% - 2 * var(--pad)); height: calc(100% - 2 * var(--pad)); max-width: none; max-height: none; object-fit: contain; border-radius: 6px; background: transparent; transition: transform 0.5s var(--ease-out); } /* 안쪽 여백(--pad)을 남기고 사진 전체가 보이게 맞춘다(자르지 않는다) */
+.dg-gal-item:hover .dg-pic { transform: scale(1.06); }
+.dg-gal-item figcaption { padding: 0 4px; font-size: 0.82rem; font-weight: 650; line-height: 1.4; text-align: center; color: var(--text-2); word-break: keep-all; }
+.dg-spec td .dg-pic { margin: 0; max-height: 220px; width: auto; }
+.dg-spec td:has(.dg-pic) { width: auto; }
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .dg-gal-item { animation: fx-zoom linear backwards; animation-timeline: view(); animation-range: entry 0% cover 34%; }
+    .dg-gal-item:nth-child(even) { animation-name: fx-row-r; }
+    .dg-gal-item:nth-child(3n) { animation-name: fx-row-m; }
+  }
+}
+
+/* 긴 글자가 든 유튜브 링크(영상 설명 문장)는 칸 안에서 줄바꿈한다 — nowrap 알약이 카드 밖으로 삐져나가던 문제 */
+a.dg-yt:not(.dg-brand-only), a.dg-x:not(.dg-brand-only) { white-space: normal !important; max-width: 100%; text-align: left; align-items: flex-start; line-height: 1.75 !important; padding-block: 7px !important; word-break: keep-all; overflow-wrap: anywhere; }
+a.dg-yt:not(.dg-brand-only)::before, a.dg-x:not(.dg-brand-only)::before { margin-top: 0.3em; }
+.dg-prose li, .dg-prose td { min-width: 0; }
+
+/* 단(column) 뒤에 한 줄을 다 쓰는 카드가 오면, 단 끝의 아래 여백이 잘려서 바로 위 카드에 붙어 버린다 → 위쪽 여백을 직접 준다 */
+.dg-subs > .dg-subcard:is(.is-wide, .is-lead, .is-long, .is-solo) { margin-top: 16px; }
+.dg-subs > .dg-subcard:first-child { margin-top: 0; }
+
+/* ============================================================
+   음악 방송: 무대마다 [썸네일(직캠) + 방송 + 곡별 무대 영상·직캠 버튼] 카드
+   ============================================================ */
+.dg-stages { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 270px), 1fr)); gap: 16px; margin-bottom: 8px; }
+.dg-stage { display: flex; flex-direction: column; border: 1px solid var(--border); border-radius: 20px; background: var(--bg); overflow: hidden; transition: transform 0.3s var(--ease-out), box-shadow 0.3s ease, border-color 0.2s ease; }
+.dg-stage:hover { transform: translateY(-5px); border-color: var(--brand); box-shadow: var(--shadow-md); }
+.dg-stage.has-cam { border-color: color-mix(in srgb, var(--brand) 32%, var(--border)); }
+.dg-stage-thumb { position: relative; display: block; aspect-ratio: 16 / 9; overflow: hidden; background: var(--surface-2); }
+.dg-stage-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s var(--ease-out); }
+.dg-stage:hover .dg-stage-thumb img { transform: scale(1.08); }
+.dg-stage-thumb.is-empty { display: grid; place-items: center; background: linear-gradient(135deg, color-mix(in srgb, var(--brand) 16%, var(--surface-2)), var(--surface-2)); }
+.dg-stage-thumb.is-empty i { padding: 0 14px; font-style: normal; font-family: var(--font-display); font-size: 1.05rem; text-align: center; color: var(--text-2); }
+.dg-stage.has-cam .dg-stage-thumb::after { content: "직캠"; position: absolute; left: 10px; bottom: 10px; padding: 2px 9px; border-radius: 8px; background: var(--brand); color: #fff; font-size: 0.7rem; font-weight: 800; }
+.dg-stage-body { display: flex; flex-direction: column; gap: 8px; padding: 12px 14px 14px; }
+.dg-stage-body header { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.dg-stage-body time { padding: 1px 9px; border-radius: 999px; background: var(--brand-weak); color: var(--brand-strong); font-size: 0.74rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+.dg-stage-body header span { font-size: 0.82rem; font-weight: 650; color: var(--text-2); }
+.dg-stage-songs { display: grid; gap: 7px; margin: 0; padding: 0; list-style: none; }
+.dg-stage-songs li { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 10px; }
+.dg-stage-songs b { font-family: var(--font-display); font-size: 0.95rem; letter-spacing: -0.02em; line-height: 1.3; }
+.dg-stage-links { display: flex; flex-wrap: wrap; gap: 5px; }
+.dg-prose a.dg-stage-btn { display: inline-flex; align-items: center; gap: 4px; padding: 4px 9px; border-radius: 8px; background: var(--surface-2); color: var(--text-2); font-size: 0.72rem; font-weight: 700; line-height: 1.2; text-decoration: none; background-image: none; white-space: nowrap; }
+.dg-prose a.dg-stage-btn.is-cam { background: var(--brand-weak); color: var(--brand-strong); }
+.dg-prose a.dg-stage-btn:hover { background: var(--brand); color: #fff; }
+.dg-stage-note { margin: 0; font-size: 0.76rem; color: var(--text-3); }
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .dg-stage { animation: fx-row-l linear backwards; animation-timeline: view(); animation-range: entry 0% cover 34%; }
+    .dg-stage:nth-child(even) { animation-name: fx-row-r; animation-range: entry 4% cover 38%; }
+    .dg-stage:nth-child(4n + 3) { animation-name: fx-row-m; animation-range: entry 8% cover 42%; }
+  }
+}
+
+/* 방송 · OST · 참여 음반 카드 */
+.dg-extra-albums { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 420px), 1fr)); gap: 16px; align-items: start; }
+.dg-extra-album { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 16px; padding: 14px; border: 1px solid var(--border); border-radius: 20px; background: var(--surface); box-shadow: var(--shadow-sm); transition: transform 0.3s var(--ease-out), box-shadow 0.3s ease, border-color 0.2s ease; }
+.dg-extra-album:hover { transform: translateY(-4px); border-color: var(--brand); box-shadow: var(--shadow-md); }
+.dg-extra-album .dg-album-cover { margin: 0; align-self: start; box-shadow: var(--shadow-sm); }
+.dg-extra-info { min-width: 0; }
+.dg-prose .dg-extra-info h5 { margin: 2px 0 0; font-family: var(--font-display); font-size: 1.08rem; line-height: 1.3; letter-spacing: -0.03em; color: var(--text); word-break: keep-all; }
+.dg-extra-sub { margin: 2px 0 0; font-size: 0.8rem; color: var(--text-2); }
+.dg-extra-meta { margin: 4px 0 0; font-size: 0.76rem; font-weight: 650; color: var(--brand-strong); font-variant-numeric: tabular-nums; }
+.dg-extra-src { margin: 2px 0 8px; font-size: 0.74rem; color: var(--text-3); }
+.dg-extra-tracks { display: grid; gap: 6px; margin: 8px 0 0; padding: 0; list-style: none; }
+.dg-extra-tracks li { display: grid; grid-template-columns: 22px minmax(0, 1fr) auto; gap: 2px 8px; align-items: baseline; padding-top: 6px; border-top: 1px solid var(--border); font-size: 0.82rem; }
+.dg-extra-tracks .n { color: var(--text-3); font-variant-numeric: tabular-nums; font-size: 0.74rem; }
+.dg-extra-tracks b { font-weight: 650; word-break: keep-all; }
+.dg-extra-tracks time { color: var(--text-3); font-size: 0.74rem; font-variant-numeric: tabular-nums; }
+.dg-extra-tracks i { grid-column: 2 / -1; font-style: normal; font-size: 0.72rem; line-height: 1.5; color: var(--text-3); word-break: keep-all; }
+@media (max-width: 520px) { .dg-extra-album { grid-template-columns: 84px minmax(0, 1fr); gap: 12px; } }
+
+/* Discography 목록: 정사각 썸네일 + 아래 글자 대신, 방송·OST·참여 음반처럼 가로로 긴 카드 (커버 왼쪽, 글 오른쪽). 한 줄에 많아야 3장 */
+.dg-list { grid-template-columns: repeat(auto-fill, minmax(min(100%, 620px), 1fr)); gap: 18px; }
+.dg-card {
+  display: grid; grid-template-columns: clamp(170px, 50%, 320px) minmax(0, 1fr); gap: 22px; align-items: center;
+  padding: 14px; border: 1px solid var(--border); border-radius: 22px; background: var(--surface); box-shadow: var(--shadow-sm);
+  transition: transform 0.3s var(--ease-out), box-shadow 0.3s ease, border-color 0.2s ease;
+}
+.dg-card:hover { transform: translateY(-4px); border-color: color-mix(in srgb, var(--ac, var(--brand)) 55%, var(--border)); box-shadow: 0 20px 36px -20px color-mix(in srgb, var(--ac, #8a8a92) 80%, transparent), var(--shadow-sm); }
+.dg-card .dg-cover { box-shadow: 0 12px 24px -14px color-mix(in srgb, var(--ac, #8a8a92) 75%, transparent); }
+.dg-card:hover .dg-cover { transform: none; }
+.dg-card .dg-body { padding: 0; justify-content: center; gap: 4px; }
+.dg-card .dg-title { font-size: 1.2rem; }
+.dg-card .dg-tt { font-size: 0.82rem; font-weight: 600; color: var(--text); }
+.dg-card .dg-tt span { display: inline; }
+@media (max-width: 520px) { .dg-card { gap: 14px; padding: 12px; } }
+
+/* 앨범 커버는 잘리지 않고 전부 보이게: 스크롤 패럴랙스(커버를 1.16배로 키워 위아래로 움직이던 효과)를 없앤다 */
+.dg-card .dg-cover img, .dg-card:hover .dg-cover img { animation: none !important; transform: none !important; object-fit: contain; }
+
+/* 연도 제목은 앨범 카드보다 튀지 않게 작게 */
+.dg-year-h { font-size: clamp(2.6rem, 1rem + 3.4vw, 4.6rem); line-height: 1; padding-bottom: 12px; margin-bottom: 20px; font-variant-numeric: tabular-nums; }
+/* 연도 제목 아래 선: 스크롤하면 왼쪽부터 분홍 그라데이션으로 그려진다 */
+.dg-year-h::after { height: 3px !important; background: linear-gradient(90deg, var(--brand), color-mix(in srgb, var(--brand) 40%, #7c5cff) 55%, transparent) !important; }
+
+/* 방송 · OST · 참여 음반: 앨범 목록과 확실히 갈라 보이게 — 넉넉한 위 여백 + 구분선 + 별도 배경 패널 + 큰 제목 */
+#dgExtras { position: relative; margin-top: clamp(64px, 9vw, 120px); padding: clamp(28px, 4vw, 52px) clamp(16px, 3vw, 44px) clamp(28px, 4vw, 48px); border: 1px solid color-mix(in srgb, var(--brand) 22%, var(--border)); border-radius: 32px; background: linear-gradient(180deg, color-mix(in srgb, var(--brand) 7%, var(--surface-2)), var(--surface-2) 40%); }
+#dgExtras::before { content: ""; position: absolute; left: clamp(16px, 3vw, 44px); right: clamp(16px, 3vw, 44px); top: -1px; height: 5px; border-radius: 0 0 5px 5px; background: linear-gradient(90deg, var(--brand), color-mix(in srgb, var(--brand) 40%, #7c5cff) 60%, transparent); }
+#dgExtras .dg-extras-h { display: flex; align-items: center; gap: 14px; margin: 0 0 clamp(20px, 3vw, 32px); font-family: var(--font-display); font-size: clamp(1.9rem, 1.1rem + 2.4vw, 3rem); font-weight: 800; letter-spacing: -0.045em; line-height: 1.1; }
+#dgExtras .dg-extras-h::before { content: ""; flex: none; width: 6px; height: 1.05em; border-radius: 3px; background: var(--brand); }
+#dgExtras .dg-extra-album { background: var(--surface); }

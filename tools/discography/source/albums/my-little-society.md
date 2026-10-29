@@ -2,7 +2,7 @@
 title: "My Little Society"
 source: https://namu.wiki/w/My%20Little%20Society
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-28
+fetched: 2026-10-29
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/My%20Little%20Society)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -22,9 +22,9 @@ fetched: 2026-10-28
 
 **My Little Society** ｜The 3rd Mini Album
 2020. 09. 16. (수) 18:00 발매
-**프로미스나인이 건네는 [My Little Society]로의 초대장
-어떤 모습이든 그대로 보여줘도 괜찮은, 우리들의 자유로운 공간
-‘9인 9색’ 매력으로 채운 ‘Feel Good (SECRET CODE)’**
+**프로미스나인이 건네는 [My Little Society]로의 초대장**
+**어떤 모습이든 그대로 보여줘도 괜찮은, 우리들의 자유로운 공간**
+**‘9인 9색’ 매력으로 채운 ‘Feel Good (SECRET CODE)’**
 
 프로미스나인이 팔색조를 뛰어 넘는 ‘구색조’ 매력으로 돌아왔다. 아홉 명의 멤버 개개인의 색다른 매력으로 9인 9색 다채로운 캐릭터를 보여줄 [My Little Society].
 
@@ -131,8 +131,8 @@ fetched: 2026-10-28
 
 ### 비디오
 
-**My Little Society
-HIGHLIGHT MEDLEY**
+**My Little Society**
+**HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=oAa2dt7q2bY)
 
@@ -163,11 +163,11 @@ HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=2hZmEBfy4nE)
 
-**01 3:20
+**01 3:20**
 
-TITLE
+**TITLE**
 
-경쾌한 80년대 펑키 기타 리프 사운드와 중독적인 후렴이 인상적인 타이틀곡 'Feel Good (SECRET CODE)'은 솔직한 그대로의 모습을 보여주며 느끼는 즐거움을 담은 곡이다. 어떤 모습이든 그대로 보여줘도 괜찮은 '우리의 공간'으로 초대한다는 내용을 담아 프로미스나인만의 활기차고 밝은 에너지를 한껏 느낄 수 있다.**
+**경쾌한 80년대 펑키 기타 리프 사운드와 중독적인 후렴이 인상적인 타이틀곡 'Feel Good (SECRET CODE)'은 솔직한 그대로의 모습을 보여주며 느끼는 즐거움을 담은 곡이다. 어떤 모습이든 그대로 보여줘도 괜찮은 '우리의 공간'으로 초대한다는 내용을 담아 프로미스나인만의 활기차고 밝은 에너지를 한껏 느낄 수 있다.**
 
 [ 가사 보기 ]
 
@@ -489,67 +489,67 @@ Feel good (Keep my secret, my love)
 
 #### 뮤직 비디오
 
-| **Feel Good (SECRET CODE)<br>M/V Teaser 1** |  |
+| **Feel Good (SECRET CODE)**<br>**M/V Teaser 1** |  |
 | --- | --- |
 | [▶ YouTube](https://www.youtube.com/watch?v=x5nns3Iodfc) |  |
 | [**스톤뮤직**](https://youtu.be/8TPH7hodXeE) | [**fromis_9**](https://youtu.be/x5nns3Iodfc) |
 
-| **Feel Good (SECRET CODE)<br>M/V Teaser 2** |  |
+| **Feel Good (SECRET CODE)**<br>**M/V Teaser 2** |  |
 | --- | --- |
 | [▶ YouTube](https://www.youtube.com/watch?v=xNenrQfc-B4) |  |
 | [**스톤뮤직**](https://youtu.be/c-c-Rd8JP80) | [**fromis_9**](https://youtu.be/xNenrQfc-B4) |
 
-| **Feel Good (SECRET CODE)<br>Music Video** |  |
+| **Feel Good (SECRET CODE)**<br>**Music Video** |  |
 | --- | --- |
 | [▶ YouTube](https://www.youtube.com/watch?v=jLmJhjCzOTw) |  |
 | [**스톤뮤직**](https://youtu.be/1nvnQcr3CqY) | [**fromis_9**](https://youtu.be/jLmJhjCzOTw) |
 
 #### 안무 영상
 
-**Feel Good (SECRET CODE)
-Choreography Video**
+**Feel Good (SECRET CODE)**
+**Choreography Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=EKOqB-h1TxI)
 
-**Feel Good (SECRET CODE)
-Choreography Video (응원법 Ver.)**
+**Feel Good (SECRET CODE)**
+**Choreography Video (응원법 Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=qT694kZQxIg)
 
-**Feel Good (SECRET CODE)
-Choreography Video (방송국 전달용 Ver.)**
+**Feel Good (SECRET CODE)**
+**Choreography Video (방송국 전달용 Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=a0lxB0v0i6w)
 
-**Feel Good (SECRET CODE)
-Choreography Video (한복 Ver.)**
+**Feel Good (SECRET CODE)**
+**Choreography Video (한복 Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=8OVZooxDkqA)
 
-**Feel Good (SECRET CODE)
-Choreography Video (Moving Ver.)**
+**Feel Good (SECRET CODE)**
+**Choreography Video (Moving Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=ks0oMT5y1k0)
 
-**Feel Good (SECRET CODE)
-Choreography Video (미션 Ver.)**
+**Feel Good (SECRET CODE)**
+**Choreography Video (미션 Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=-kggjO7oP2M)
 
-**Feel Good (SECRET CODE)
-Choreography Video (Suit X Pajamas Ver.)**
+**Feel Good (SECRET CODE)**
+**Choreography Video (Suit X Pajamas Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=33nwVhG7ckc)
 
-**Feel Good (SECRET CODE)
-Choreography Video (9인 Ver.)**
+**Feel Good (SECRET CODE)**
+**Choreography Video (9인 Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=R1oTnyDI8I0)
 
 #### 교차 편집
 
-**Feel Good (SECRET CODE)
-Stage Mix (M COUNTDOWN Ver.)**
+**Feel Good (SECRET CODE)**
+**Stage Mix (M COUNTDOWN Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=EGBcGHll7O4)
 
@@ -557,12 +557,12 @@ Stage Mix (M COUNTDOWN Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=ukZmA7StD8U)
 
-**Weather
+**Weather**
 
-02
- 3:21
+**02**
+**3:21**
 
-키치한 인트로와 후키한 보컬 찹, 미니멀한 구성의 펑키 사운드가 특징인 'Weather'는 시시각각 변화하는 자기 자신을 날씨에 비유한 곡으로, 스스로가 바라는 모습을 드러내는 것 또한 마치 날씨와 같이 자연스러운 것이라는 내용의 메시지를 담고 있다.**
+**키치한 인트로와 후키한 보컬 찹, 미니멀한 구성의 펑키 사운드가 특징인 'Weather'는 시시각각 변화하는 자기 자신을 날씨에 비유한 곡으로, 스스로가 바라는 모습을 드러내는 것 또한 마치 날씨와 같이 자연스러운 것이라는 내용의 메시지를 담고 있다.**
 
 [ 가사 보기 ]
 
@@ -631,8 +631,8 @@ I know your mind 또 생각날 거야
 
 #### 스페셜 비디오
 
-**Weather
-Special Video**
+**Weather**
+**Special Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=r7ucU5ONXn8)
 
@@ -640,12 +640,12 @@ Special Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=ceDQD2glnW4)
 
-**별의 밤
+**별의 밤**
 
-03
- 3:00
+**03**
+**3:00**
 
-멤버 이서연의 자작곡으로 차분한 피아노 사운드를 시작으로 악기가 더해지며 곡의 기승전결을 표현했다. 곡에는 혼자 남겨진 외로움을 담고 있으며 텅 빈 방 안을 까만 밤하늘로, 떠오르는 누군가를 별로 표현해 밝은 상대방의 빛으로 함께 빛날 수 있기를 소원하는 마음이 담겨 있다.**
+**멤버 이서연의 자작곡으로 차분한 피아노 사운드를 시작으로 악기가 더해지며 곡의 기승전결을 표현했다. 곡에는 혼자 남겨진 외로움을 담고 있으며 텅 빈 방 안을 까만 밤하늘로, 떠오르는 누군가를 별로 표현해 밝은 상대방의 빛으로 함께 빛날 수 있기를 소원하는 마음이 담겨 있다.**
 
 [ 가사 보기 ]
 
@@ -742,18 +742,18 @@ I will keep your night
 
 #### 스페셜 비디오
 
-**별의 밤
-Special Video Teaser**
+**별의 밤**
+**Special Video Teaser**
 
 [▶ YouTube](https://www.youtube.com/watch?v=1hqWTq5LsM8)
 
-**별의 밤
-Special Video**
+**별의 밤**
+**Special Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=vA5oAt3oG14)
 
-**별의 밤
-Recording Behind**
+**별의 밤**
+**Recording Behind**
 
 [▶ YouTube](https://www.youtube.com/watch?v=IW2Hjtedc6Q)
 
@@ -761,12 +761,12 @@ Recording Behind**
 
 [▶ YouTube](https://www.youtube.com/watch?v=j9Oh19mZG5k)
 
-**Somebody to love
+**Somebody to love**
 
-04
- 3:12
+**04**
+**3:12**
 
-산뜻한 E.piano와 Jazzy한 피아노 선율이 가미된 세련된 미디엄 팝 곡으로 설렘이 담긴 청량한 보컬이 인상적인 곡이다. 멤버 이새롬이 작사에 참여해 누구나 한 번쯤은 마음속에 가져 봤음직한 풋풋한 설렘을 담아 그려냈다.**
+**산뜻한 E.piano와 Jazzy한 피아노 선율이 가미된 세련된 미디엄 팝 곡으로 설렘이 담긴 청량한 보컬이 인상적인 곡이다. 멤버 이새롬이 작사에 참여해 누구나 한 번쯤은 마음속에 가져 봤음직한 풋풋한 설렘을 담아 그려냈다.**
 
 [ 가사 보기 ]
 
@@ -826,12 +826,12 @@ Hello 손을 내줄 땐 너에게 날아갈 거야
 
 [▶ YouTube](https://www.youtube.com/watch?v=35Qzgl-Kgg8)
 
-**물고기
+**물고기**
 
-05
- 2:51
+**05**
+**2:51**
 
-뉴디스코 장르를 드러내는 디스코 드럼 위 반복되는 리듬을 가진 발랄한 무드의 곡으로, 작은 어항 속 물고기의 시선에서 풀어낸 노래다. 지금 있는 곳은 작은 어항 속이지만 눈을 감으면 펼쳐지는 자유로운 상상은 무한한 즐거운 공간이 된다는 내용을 담고 있으며 멤버 이새롬과 박지원이 작사에 참여해 곡의 재미 요소를 더해주었다.**
+**뉴디스코 장르를 드러내는 디스코 드럼 위 반복되는 리듬을 가진 발랄한 무드의 곡으로, 작은 어항 속 물고기의 시선에서 풀어낸 노래다. 지금 있는 곳은 작은 어항 속이지만 눈을 감으면 펼쳐지는 자유로운 상상은 무한한 즐거운 공간이 된다는 내용을 담고 있으며 멤버 이새롬과 박지원이 작사에 참여해 곡의 재미 요소를 더해주었다.**
 
 [ 가사 보기 ]
 
@@ -895,8 +895,8 @@ I'm waiting for ya
 
 #### 스페셜 비디오
 
-**물고기
-Special Video**
+**물고기**
+**Special Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=Ipi_kedxeN8)
 
@@ -1045,14 +1045,14 @@ Special Video**
 | **〈My Little Society〉 초동 판매량** |  |  |  |
 | --- | --- | --- | --- |
 | **날짜** | **일간 판매량** | **누적 판매량** | **비고** |
-| 9월 16일 (1일차) | **11,0**장** |  | 앨범 발매<br>**1만 장 돌파** |
-| 9월 17일 (2일차) | 7,3**장 | **18,4**장** |  |
-| 9월 18일 (3일차) | 5,8**장 | **24,2**장** | **2만 장 돌파** |
-| 9월 19일 (4일차) | 3**장 | **24,6**장** |  |
-| 9월 20일 (5일차) | 1,9**장 | **26,5**장** |  |
-| 9월 21일 (6일차) | 3,2**장 | **29,7**장** | **커리어 하이** |
-| 9월 22일 (7일차) | 2,0**장 | **31,8**장** | **3만 장 돌파** |
-| **초동 판매량** | **31,8**장** |  |  |
+| 9월 16일 (1일차) | **11,0장** |  | 앨범 발매<br>**1만 장 돌파** |
+| 9월 17일 (2일차) | 7,3**장 | **18,4장** |  |
+| 9월 18일 (3일차) | 5,8**장 | **24,2장** | **2만 장 돌파** |
+| 9월 19일 (4일차) | 3**장 | **24,6장** |  |
+| 9월 20일 (5일차) | 1,9**장 | **26,5장** |  |
+| 9월 21일 (6일차) | 3,2**장 | **29,7장** | **커리어 하이** |
+| 9월 22일 (7일차) | 2,0**장 | **31,8장** | **3만 장 돌파** |
+| **초동 판매량** | **31,8장** |  |  |
 | * 순위 및 기록은 집계 종료일 당시를 기준으로 한다. |  |  |  |
 
 #### 월간 판매량

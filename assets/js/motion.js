@@ -57,12 +57,15 @@
   function countUp(el) {
     const raw = el.dataset.fxTarget;
     const target = Number(raw.replace(/,/g, ""));
+    const from = Number(el.dataset.fxFrom || 0); // 연도 제목은 0 이 아니라 30년 전부터 차르르 넘어온다
+    const year = el.dataset.fxFrom !== undefined;
     const t0 = performance.now();
-    const dur = 1100;
+    const dur = year ? 900 : 1100;
     const tick = (now) => {
       const p = Math.min(1, (now - t0) / dur);
       const eased = 1 - Math.pow(1 - p, 4);
-      el.textContent = Math.round(target * eased).toLocaleString("ko");
+      const v = Math.round(from + (target - from) * eased);
+      el.textContent = year ? String(v) : v.toLocaleString("ko");
       if (p < 1) requestAnimationFrame(tick);
       else el.textContent = raw;
     };
@@ -73,6 +76,11 @@
     const t = el.textContent.trim();
     if (!/^[0-9][0-9,]*$/.test(t)) return;
     el.dataset.fxTarget = t;
+    if (el.classList.contains("dg-year-h")) {
+      el.dataset.fxFrom = String(Number(t) - 30);
+      el.textContent = el.dataset.fxFrom;
+      return; // 연도 제목은 스크롤 위치로 진행한다(아래 rAF 루프)
+    }
     el.textContent = "0";
     countIO.observe(el);
   }
@@ -85,7 +93,7 @@
       node.querySelectorAll(sel).forEach(fn);
     };
     hit(SPLIT, split);
-    hit(".stat b, .about-stats b", prepCount);
+    hit(".stat b, .about-stats b, .dg-mv-views b, .dg-year-h", prepCount);
   }
   new MutationObserver((list) => list.forEach((m) => m.addedNodes.forEach(scan))).observe(document.body, { childList: true, subtree: true });
   scan(document.body);
@@ -101,6 +109,16 @@
     const target = Math.max(-1, Math.min(1, vel / 40)) * 2.2;
     skew += (target - skew) * 0.18;
     root.style.setProperty("--fx-skew", Math.abs(skew) < 0.01 ? "0deg" : skew.toFixed(3) + "deg");
+    // 연도 제목: 카드 입장 효과와 같은 기준선까지 스크롤하는 동안 연도가 30년 전에서 차르르 넘어온다 (시간이 아니라 스크롤 위치로 진행)
+    const vh = window.innerHeight;
+    document.querySelectorAll(".dg-year-h[data-fx-from]").forEach((el) => {
+      const from = Number(el.dataset.fxFrom);
+      const target = Number(el.dataset.fxTarget);
+      const r = el.getBoundingClientRect();
+      const p = Math.max(0, Math.min(1, (vh - r.top) / (0.34 * (vh + r.height))));
+      const v = String(Math.round(from + (target - from) * (1 - Math.pow(1 - p, 3))));
+      if (el.textContent !== v) el.textContent = v;
+    });
     requestAnimationFrame(loop);
   })();
 

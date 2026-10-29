@@ -2,7 +2,7 @@
 title: "Supersonic(프로미스나인)"
 source: https://namu.wiki/w/Supersonic(%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8)
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-28
+fetched: 2026-10-29
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/Supersonic(%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8))의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -25,9 +25,9 @@ fetched: 2026-10-28
 
 **Supersonic** ｜The 3rd Single Album
 2024. 08. 12. (월) 18:00 발매
-**‘Supersonic' 서머 히로인이 떴다…프로미스나인, 세 번째 싱글 앨범 발매
-무더위에 지친 일상·갈증 날려버릴 시원한 음악과 퍼포먼스 기대
-경쾌한 멜로디·에너제틱 매력 폭발…올여름 주인공은 프로미스나인!**
+**‘Supersonic' 서머 히로인이 떴다…프로미스나인, 세 번째 싱글 앨범 발매**
+**무더위에 지친 일상·갈증 날려버릴 시원한 음악과 퍼포먼스 기대**
+**경쾌한 멜로디·에너제틱 매력 폭발…올여름 주인공은 프로미스나인!**
 
 프로미스나인의 세 번째 싱글 앨범 ‘Supersonic'이 12일 발매됐다. 뜨거운 여름, 무더위에 지친 일상과 갈증을 초음속으로 달려가 한 방에 날려버릴 ‘서머 히로인'의 출격이다.
 
@@ -183,14 +183,14 @@ fetched: 2026-10-28
 
 ### 비디오
 
-**Supersonic
-HIGHLIGHT MEDLEY**
+**Supersonic**
+**HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=l44su6UIa8Y)
 
 ## 수록곡
 
-| **3rd Single Album<br> 〈Supersonic〉** |  |
+| **3rd Single Album**<br>**〈Supersonic〉** |  |
 | --- | --- |
 | [ TRACK LIST ]<br>![Supersonic(프로미스나...](https://i.namu.wiki/i/VSaPepFgAQN9EIOqCYl58-zR8fe0TrmD9fwPfpKQWS8uh8Pg97LWVqYC7Nws7xAApn4E7B9u1bFsMcaWF2jm1A.gif) |  |
 | 2024. 08. 12. (월) 18:00 발매 |  |
@@ -209,11 +209,11 @@ HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=MR2ela9evnk)
 
-**01 2:54
+**01 2:54**
 
-TITLE
+**TITLE**
 
-'Supersonic'은 마이애미 베이스(Miami Bass)를 기반으로 한 곡이다. 묵직한 808 베이스와 속도감 있는 비트가 조화롭게 어우러져 시원한 느낌을 선사한다. 지치고 더운 여름날, 나를 부르면 언제든 바로 달려가 무더위 속에서 구해주겠다는 메시지를 담고 있다. 후렴구에서 반복되는 'Supersonic' 키워드는 소리의 속도를 초과하는 속도를 의미한다. 리스너들에게 빠르게 달려가겠다는 뜻을 담았다. 쉽게 따라 부를 수 있는 가사로 여름에 듣기에 신나는 곡이다.**
+**'Supersonic'은 마이애미 베이스(Miami Bass)를 기반으로 한 곡이다. 묵직한 808 베이스와 속도감 있는 비트가 조화롭게 어우러져 시원한 느낌을 선사한다. 지치고 더운 여름날, 나를 부르면 언제든 바로 달려가 무더위 속에서 구해주겠다는 메시지를 담고 있다. 후렴구에서 반복되는 'Supersonic' 키워드는 소리의 속도를 초과하는 속도를 의미한다. 리스너들에게 빠르게 달려가겠다는 뜻을 담았다. 쉽게 따라 부를 수 있는 가사로 여름에 듣기에 신나는 곡이다.**
 
 [ 가사 보기 ]
 
@@ -361,25 +361,25 @@ Show me oh Supersonic
 
 #### 뮤직비디오
 
-**Supersonic
-Official Teaser**
+**Supersonic**
+**Official Teaser**
 
 [▶ YouTube](https://www.youtube.com/watch?v=k48x4iI_Fn4)
 
-**Supersonic
-Official MV**
+**Supersonic**
+**Official MV**
 
 [▶ YouTube](https://www.youtube.com/watch?v=0LiQp7y8Wwc)
 
 #### 안무 영상
 
-**Supersonic
-Choreography Video**
+**Supersonic**
+**Choreography Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=ESjayREZIFw)
 
-**Supersonic
-ORIGINAL**
+**Supersonic**
+**ORIGINAL**
 
 [▶ YouTube](https://www.youtube.com/watch?v=2LVZJANYzQ8)
 
@@ -391,61 +391,61 @@ ORIGINAL**
 
 [▶ YouTube](https://www.youtube.com/watch?v=sUzMsKqgusk)
 
-**Supersonic
-NPOP LIMITED EDITION- SIDE B**
+**Supersonic**
+**NPOP LIMITED EDITION- SIDE B**
 
 [▶ YouTube](https://www.youtube.com/watch?v=SjRWtUdADRU)
 
-**Supersonic
-DANCE PERFORMANCE (4K) | ISSUE CLUB**
+**Supersonic**
+**DANCE PERFORMANCE (4K) | ISSUE CLUB**
 
 [▶ YouTube](https://www.youtube.com/watch?v=JCSuy4rDDK0)
 
 #### 릴레이 댄스
 
-**Supersonic
-릴레이 댄스**
+**Supersonic**
+**릴레이 댄스**
 
 [▶ YouTube](https://www.youtube.com/watch?v=KuKDcn_k6QU)
 
 #### 잇츠라이브
 
-**Supersonic
-it's Live**
+**Supersonic**
+**it's Live**
 
 [▶ YouTube](https://www.youtube.com/watch?v=c_epdiJWS1g)
 
 #### 리액션
 
-**Supersonic
-Reaction**
+**Supersonic**
+**Reaction**
 
 [▶ YouTube](https://www.youtube.com/watch?v=CLnxiJlfxMY)
 
 #### 비하인드
 
-**Supersonic
-MV 촬영 비하인드 #1**
+**Supersonic**
+**MV 촬영 비하인드 #1**
 
 [▶ YouTube](https://www.youtube.com/watch?v=ZqVbbYRN_hM)
 
-**Supersonic
-MV 촬영 비하인드 #2**
+**Supersonic**
+**MV 촬영 비하인드 #2**
 
 [▶ YouTube](https://www.youtube.com/watch?v=SvlcDngTKgI)
 
-**Supersonic
-활동기 비하인드 Part.1**
+**Supersonic**
+**활동기 비하인드 Part.1**
 
 [▶ YouTube](https://www.youtube.com/watch?v=U4aGtf6SjMQ)
 
-**Supersonic
-활동기 비하인드 Part.2**
+**Supersonic**
+**활동기 비하인드 Part.2**
 
 [▶ YouTube](https://www.youtube.com/watch?v=E15DAp_drHw)
 
-**Supersonic
-RECORDING BEHIND**
+**Supersonic**
+**RECORDING BEHIND**
 
 [▶ YouTube](https://www.youtube.com/watch?v=8x87yHfo4bQ)
 
@@ -453,12 +453,12 @@ RECORDING BEHIND**
 
 [▶ YouTube](https://www.youtube.com/watch?v=54p-bKUx1JE)
 
-**Beat the Heat
+**Beat the Heat**
 
-02
- 2:54
+**02**
+**2:54**
 
-'Beat the Heat'는 프로미스나인만의 시원함이 가득한 여름 곡이다. 펑키한 베이스, 기타, 스트링 등 여러 악기가 어우러진 리드미컬한 멜로디가 특징이다. 이 곡은 더운 여름을 피해 당장 어디론가 떠나고 싶은 기분이나 마치 이미 휴양지에 와있는 듯한 상쾌한 느낌을 전달한다. 청량감이 가득한 이 팝 댄스곡은 “지루하고 더운 여름을 함께 즐겁게 이겨내자”는 메시지를 담고 있다. 여름을 상쾌하고 기분 좋게 보낼 수 있는 곡이다.**
+**'Beat the Heat'는 프로미스나인만의 시원함이 가득한 여름 곡이다. 펑키한 베이스, 기타, 스트링 등 여러 악기가 어우러진 리드미컬한 멜로디가 특징이다. 이 곡은 더운 여름을 피해 당장 어디론가 떠나고 싶은 기분이나 마치 이미 휴양지에 와있는 듯한 상쾌한 느낌을 전달한다. 청량감이 가득한 이 팝 댄스곡은 “지루하고 더운 여름을 함께 즐겁게 이겨내자”는 메시지를 담고 있다. 여름을 상쾌하고 기분 좋게 보낼 수 있는 곡이다.**
 
 [ 가사 보기 ]
 
@@ -534,8 +534,8 @@ When we beat the heat
 
 #### 스페셜 비디오
 
-**Beat the Heat
-Special Video (📹by fromis_9)**
+**Beat the Heat**
+**Special Video (📹by fromis_9)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=jkH89xvz2v8)
 
@@ -545,12 +545,12 @@ Special Video (📹by fromis_9)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=06_3xYmZUig)
 
-**Take A Chance
+**Take A Chance**
 
-03
- 3:29
+**03**
+**3:29**
 
-'Take A Chance'는 1980년대 신스 바이브를 느낄 수 있는, 살랑이는 여름 바람 같은 몽환적인 유포릭 팝(Euphoric pop) 장르의 곡이다. 목적지가 정해지지 않았다는 두려움이 있어도, 후렴구 가사처럼 “나를 믿고 함께 도전해보라”는 메시지를 담았다. 두려움을 극복하고 인생을 즐기며, 이 순간을 포착해 기회를 잡으라는 격려의 메시지를 전한다.**
+**'Take A Chance'는 1980년대 신스 바이브를 느낄 수 있는, 살랑이는 여름 바람 같은 몽환적인 유포릭 팝(Euphoric pop) 장르의 곡이다. 목적지가 정해지지 않았다는 두려움이 있어도, 후렴구 가사처럼 “나를 믿고 함께 도전해보라”는 메시지를 담았다. 두려움을 극복하고 인생을 즐기며, 이 순간을 포착해 기회를 잡으라는 격려의 메시지를 전한다.**
 
 [ 가사 보기 ]
 
@@ -708,7 +708,7 @@ Take a chance on me tonight
 
 **연도별 리스트:** [2018년](https://namu.wiki/w/%ED%8B%80:%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%202018%EB%85%84%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP) / [2019년](https://namu.wiki/w/%ED%8B%80:%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%202019%EB%85%84%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP) / [2020년](https://namu.wiki/w/%ED%8B%80:%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%202020%EB%85%84%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP) / [2021년](https://namu.wiki/w/%ED%8B%80:%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%202021%EB%85%84%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP) / [2022년](https://namu.wiki/w/%ED%8B%80:%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%202022%EB%85%84%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP) / [2023년](https://namu.wiki/w/%ED%8B%80:%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%202023%EB%85%84%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP) / **2024년** / [2025년](https://namu.wiki/w/%ED%8B%80:%EB%B9%8C%EB%B3%B4%EB%93%9C%20%EC%84%A0%EC%A0%95%202025%EB%85%84%20%EC%B5%9C%EA%B3%A0%EC%9D%98%20K-POP)
 
-| **Supersonic<br>주요 음원 차트 최고 순위** |  |  |  |
+| **Supersonic**<br>**주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | **5위** |
@@ -744,7 +744,7 @@ Take a chance on me tonight
 |  | 디지털 월간 차트 |  | **8위** |
 | [주요 음원 서비스의 〈Supersonic〉 차트 순위 추이](https://xn--o39an51b2re.com/song/melon/37884934)<br>모든 음원 성적은 **가이섬.com**, [kworb](https://kworb.net/charts/)을 바탕으로 제작되었습니다. |  |  |  |
 
-| **Beat The Heat<br>주요 음원 차트 최고 순위** |  |  |  |
+| **Beat The Heat**<br>**주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **6위** |
@@ -758,7 +758,7 @@ Take a chance on me tonight
 | [네이버 VIBE네이버 VIBE<br>네이버 VIBE](https://namu.wiki/w/%EB%84%A4%EC%9D%B4%EB%B2%84%20VIBE) | 일간 차트 |  | 124위 |
 | [Spotify<br>Spotify](https://namu.wiki/w/Spotify) | Korea Top Song | Daily | 157위 |
 
-| **Take A Chance<br>주요 음원 차트 최고 순위** |  |  |  |
+| **Take A Chance**<br>**주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **7위** |
@@ -800,14 +800,14 @@ Take a chance on me tonight
 | **〈Supersonic〉 초동 판매량** |  |  |  |
 | --- | --- | --- | --- |
 | **날짜** | **일간 판매량** | **누적 판매량** | **비고** |
-| 8월 12일 (1일차) | **46,2**장** |  | 앨범 발매<br>**4만 장 돌파** |
-| 8월 13일 (2일차) | 12,3**장 | **58,5**장** | **5만 장 돌파** |
-| 8월 14일 (3일차) | 3,4**장 | **62,0**장** | **6만 장 돌파** |
-| 8월 15일 (4일차) | 1**장 | **62,2**장** |  |
-| 8월 16일 (5일차) | 24,1**장 | **86,3**장** | **8만 장 돌파** |
-| 8월 17일 (6일차) | 2,0**장 | **88,4**장** |  |
-| 8월 18일 (7일차) | 2,1**장 | **90,5**장** | **9만 장 돌파** |
-| **초동 판매량** | **90,5**장** |  |  |
+| 8월 12일 (1일차) | **46,2장** |  | 앨범 발매<br>**4만 장 돌파** |
+| 8월 13일 (2일차) | 12,3**장 | **58,5장** | **5만 장 돌파** |
+| 8월 14일 (3일차) | 3,4**장 | **62,0장** | **6만 장 돌파** |
+| 8월 15일 (4일차) | 1**장 | **62,2장** |  |
+| 8월 16일 (5일차) | 24,1**장 | **86,3장** | **8만 장 돌파** |
+| 8월 17일 (6일차) | 2,0**장 | **88,4장** |  |
+| 8월 18일 (7일차) | 2,1**장 | **90,5장** | **9만 장 돌파** |
+| **초동 판매량** | **90,5장** |  |  |
 | * 순위 및 기록은 집계 종료일 당시를 기준으로 한다. |  |  |  |
 
 - 지난 앨범에 비해 초동 판매량이 감소하여 10만 장 돌파에는 실패했지만, [광복절](https://namu.wiki/w/%EA%B4%91%EB%B3%B5%EC%A0%88)과 휴일을 포함하여 7일 중 3일이 온라인 집계가 안 되었던 것을 감안한다면 초동 9만 장 이상의 판매량은 충분히 긍정적인 성과로 볼 수 있다. 이번 음반이 [싱글](https://namu.wiki/w/%EC%8B%B1%EA%B8%80(%EC%9D%8C%EC%95%85))이라는 것과 약 1년 2개월이라는 공백기, [2022년](https://namu.wiki/w/2022%EB%85%84)까지와는 다른 자체 콘텐츠의 감소, 회사 차원에서 팬덤을 붙잡기 위한 노력 등을 제대로 하지 않은 것을 감안하면 낙폭이 그리 크지도 않다는 반응이다.
@@ -914,21 +914,21 @@ Take a chance on me tonight
 
 ### 관련 영상
 
-**Supersonic
-관련 영상**
+**Supersonic**
+**관련 영상**
 
 [ 펼치기 · 접기 ]
 
-**Supersonic
-Supersonic**
+**Supersonic**
+**Supersonic**
 
-**Supersonic
-추후 공개**
+**Supersonic**
+**추후 공개**
 
 ### 숏폼
 
-**Supersonic
-챌린지**
+**Supersonic**
+**챌린지**
 
 [ 펼치기 · 접기 ]
 
@@ -940,8 +940,8 @@ Supersonic**
 | **추후 공개** | **추후 공개** | **추후 공개** |
 | ※ 콜라보 챌린지만 작성 ※ |  |  |
 
-**Supersonic
-프로모션**
+**Supersonic**
+**프로모션**
 
 [ 펼치기 · 접기 ]
 

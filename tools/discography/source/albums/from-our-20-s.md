@@ -2,7 +2,7 @@
 title: "From Our 20’s"
 source: https://namu.wiki/w/From%20Our%2020%E2%80%99s
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-28
+fetched: 2026-10-29
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/From%20Our%2020%E2%80%99s)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -176,8 +176,8 @@ From Our 20’s
 
 ### 비디오
 
-**From Our 20’s
-HIGHLIGHT MEDLEY**
+**From Our 20’s**
+**HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=5ty7c5t8lUY)
 
@@ -211,11 +211,11 @@ HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=IYYpLHBu-kY)
 
-**01 3:05
+**01 3:05**
 
-TITLE
+**TITLE**
 
-'프로미스나인'의 여섯 번째 미니앨범 타이틀곡인 'LIKE YOU BETTER'는 시원한 신스 사운드와 경쾌한 기타 리프 위에, 폭발적이면서도 팝적인 후렴구의 멜로디가 더해져 한층 짙어진 청량감을 선사하며, '프로미스나인'의 여름을 감각적으로 그려낸다. 사랑을 더욱 뜨겁고 열렬히 마주하고, 그 감정 속에서 너라는 존재로, 그리고 사랑이라는 이름으로 미래를 그려 나가겠다는 다짐을 담은 메시지가 깊은 인상을 남기며, 듣는 이의 마음에 설렘 과 여운을 동시에 전해준다.**
+**'프로미스나인'의 여섯 번째 미니앨범 타이틀곡인 'LIKE YOU BETTER'는 시원한 신스 사운드와 경쾌한 기타 리프 위에, 폭발적이면서도 팝적인 후렴구의 멜로디가 더해져 한층 짙어진 청량감을 선사하며, '프로미스나인'의 여름을 감각적으로 그려낸다. 사랑을 더욱 뜨겁고 열렬히 마주하고, 그 감정 속에서 너라는 존재로, 그리고 사랑이라는 이름으로 미래를 그려 나가겠다는 다짐을 담은 메시지가 깊은 인상을 남기며, 듣는 이의 마음에 설렘 과 여운을 동시에 전해준다.**
 
 [ 가사 보기 ]
 
@@ -325,36 +325,36 @@ Our love is true cause this is too great
 
 #### 뮤직비디오
 
-**LIKE YOU BETTER
-Music Video**
+**LIKE YOU BETTER**
+**Music Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=r1QapH1SIAI)
 
 ##### 티저
 
-**LIKE YOU BETTER
-MV Teaser**
+**LIKE YOU BETTER**
+**MV Teaser**
 
 [▶ YouTube](https://www.youtube.com/watch?v=Km6TsKQngHY)
 
 ##### 리액션
 
-**LIKE YOU BETTER
-MV Reaction**
+**LIKE YOU BETTER**
+**MV Reaction**
 
 [▶ YouTube](https://www.youtube.com/watch?v=If153tgB5ec)
 
 #### 레코딩 비하인드
 
-**LIKE YOU BETTER
-RECORDING BEHIND**
+**LIKE YOU BETTER**
+**RECORDING BEHIND**
 
 [▶ YouTube](https://www.youtube.com/watch?v=qxgBE8Bj8Q8)
 
 #### 안무 영상
 
-**LIKE YOU BETTER
-Dance Practice**
+**LIKE YOU BETTER**
+**Dance Practice**
 
 [▶ YouTube](https://www.youtube.com/watch?v=KHFtbVgdKwQ)
 
@@ -362,12 +362,12 @@ Dance Practice**
 
 [▶ YouTube](https://www.youtube.com/watch?v=T7jbYrgJk08)
 
-**REBELUTIONAL
+**REBELUTIONAL**
 
-02
- 3:06
+**02**
+**3:06**
 
-새로운 나로 다시 태어나는 '내면의 혁명'을 다룬다. 'REBELUTIONAL'은 단순한 반항을 넘어, 나와 우릴 둘러싼 틀을 스스로 깨부수고 세상과 대치하는 당당한 선언이다. 차가운 현실 속에서도 타협하지 않는 자아, 무너져도 다시 일어서 사랑하는 이를 일으킬 수 있는 대담함을 그려낸다. 사랑으로서 겁 없이 달릴 수 있는 감정을 그대로 실은 멜로디와 직설적인 가사로, 듣는 이에게도 자기 안의 '혁명'을 일으킬 용기를 전한다.**
+**새로운 나로 다시 태어나는 '내면의 혁명'을 다룬다. 'REBELUTIONAL'은 단순한 반항을 넘어, 나와 우릴 둘러싼 틀을 스스로 깨부수고 세상과 대치하는 당당한 선언이다. 차가운 현실 속에서도 타협하지 않는 자아, 무너져도 다시 일어서 사랑하는 이를 일으킬 수 있는 대담함을 그려낸다. 사랑으로서 겁 없이 달릴 수 있는 감정을 그대로 실은 멜로디와 직설적인 가사로, 듣는 이에게도 자기 안의 '혁명'을 일으킬 용기를 전한다.**
 
 [ 가사 보기 ]
 
@@ -473,8 +473,8 @@ Now REBELUTIONAL
 
 #### 스페셜 비디오
 
-**REBELUTIONAL
-Special Video**
+**REBELUTIONAL**
+**Special Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=SrW-ILDJxdM)
 
@@ -482,12 +482,12 @@ Special Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=-gN0ykmV1C4)
 
-**Love=Disaster
+**Love=Disaster**
 
-03
- 2:36
+**03**
+**2:36**
 
-Love=Disaster는 하이틴 펑크락 장르로, 시원한 고음과 강렬한 락 사운드가 특징이다. 사랑에 빠졌을 때 느끼는 혼란과 감정을 거침없이 표현하며, 폭발적인 후렴과 기타 리프가 시원한 해방감을 선사한다. 청량함과 에너지를 유지하면서도 성숙한 매력을 더해 프로미스나인의 새로운 음악적 변신을 보여준다.**
+**Love=Disaster는 하이틴 펑크락 장르로, 시원한 고음과 강렬한 락 사운드가 특징이다. 사랑에 빠졌을 때 느끼는 혼란과 감정을 거침없이 표현하며, 폭발적인 후렴과 기타 리프가 시원한 해방감을 선사한다. 청량함과 에너지를 유지하면서도 성숙한 매력을 더해 프로미스나인의 새로운 음악적 변신을 보여준다.**
 
 [ 가사 보기 ]
 
@@ -561,13 +561,13 @@ Yeah yeah yeah
 
 [▶ YouTube](https://www.youtube.com/watch?v=7M4hrsyS2mA)
 
-**Strawberry Mimosa
+**Strawberry Mimosa**
 
-04
- 2:45
+**04**
+**2:45**
 
-멤버 '지원'이 직접 작사·작곡에 참여한 이번 곡은, 여름날 사랑의 달콤하고 눈부신 순간들을 'Strawberry Mimosa'라는 칵테일에 빗대어 감각적으로 풀어낸 곡이다. 막 시작된 사랑의 설렘과 두근거림을 한 모금씩 천천히 퍼져가는 칵테일의 향과 맛에 비유해 표현했으며, 그 속에서 느껴지는 상큼하고 짜릿한 감정들이 고스란히 담겨 있다.
-시원하고 경쾌하게 흐르는 기타 리프 위에 반복되는 코러스가 자연스럽게 어우러져 무더운 여름날을 식혀주는 청량감과 동시에 점점 뜨거워지는 감정선을 섬세하게 그려낸다. 듣는 이로 하여금 사랑에 빠지는 순간의 황홀함과 설렘을 생생하게 떠올리게 하는, 감각적이고 몰입감 있는 곡이다.**
+**멤버 '지원'이 직접 작사·작곡에 참여한 이번 곡은, 여름날 사랑의 달콤하고 눈부신 순간들을 'Strawberry Mimosa'라는 칵테일에 빗대어 감각적으로 풀어낸 곡이다. 막 시작된 사랑의 설렘과 두근거림을 한 모금씩 천천히 퍼져가는 칵테일의 향과 맛에 비유해 표현했으며, 그 속에서 느껴지는 상큼하고 짜릿한 감정들이 고스란히 담겨 있다.**
+**시원하고 경쾌하게 흐르는 기타 리프 위에 반복되는 코러스가 자연스럽게 어우러져 무더운 여름날을 식혀주는 청량감과 동시에 점점 뜨거워지는 감정선을 섬세하게 그려낸다. 듣는 이로 하여금 사랑에 빠지는 순간의 황홀함과 설렘을 생생하게 떠올리게 하는, 감각적이고 몰입감 있는 곡이다.**
 
 [ 가사 보기 ]
 
@@ -682,13 +682,13 @@ You taste like
 
 [▶ YouTube](https://www.youtube.com/watch?v=-ArKRflpTxM)
 
-**Twisted Love
+**Twisted Love**
 
-05
- 2:59
+**05**
+**2:59**
 
-멤버 '하영'이 직접 작사와 작곡에 참여해 섬세한 감정선을 고스란히 담아 낸 곡으로, 사랑이라는 감정이 지닌 이중적이고 복합적인 면모를 깊이 있 게 풀어낸다.
-감성적인 기타 리프 위에 얹힌 멜로디는 후렴에 이르러 폭발 적인 에너지로 치닫으며, 이해할 수 없고 때론 상처로 다가오기도 하지만, 그럼에도 불구하고 계속해서 얽히고 머물고 싶은 마음, 사랑의 역설적인 아름다움을 섬세하게 그려낸다.**
+**멤버 '하영'이 직접 작사와 작곡에 참여해 섬세한 감정선을 고스란히 담아 낸 곡으로, 사랑이라는 감정이 지닌 이중적이고 복합적인 면모를 깊이 있 게 풀어낸다.**
+**감성적인 기타 리프 위에 얹힌 멜로디는 후렴에 이르러 폭발 적인 에너지로 치닫으며, 이해할 수 없고 때론 상처로 다가오기도 하지만, 그럼에도 불구하고 계속해서 얽히고 머물고 싶은 마음, 사랑의 역설적인 아름다움을 섬세하게 그려낸다.**
 
 [ 가사 보기 ]
 
@@ -774,12 +774,12 @@ Oh – yeah
 
 [▶ YouTube](https://www.youtube.com/watch?v=b_CpQdKpmjQ)
 
-**Merry Go Round
+**Merry Go Round**
 
-06
- 3:13
+**06**
+**3:13**
 
-앨범의 마지막을 장식하는 트랙으로, 유년 시절의 추억을 떠오르게 하는 따뜻한 브라스 사운드와 함께 마치 회전목마를 타고 있는 듯한 감각적인 분위기를 자아낸다. 끊임없이 제자리로 돌아오는 회전목마처럼, 어떤 상황 이 닥치더라도 결국 너에게 돌아오겠다는 다짐과, 찬란한 모든 순간을 너 와 함께할 것이며, 무엇보다 그 찬란함은 바로 너와 함께이기에 가능하다는 메시지를 담고 있다. 이 곡은 '프로미스나인'이 언제나 플로버 곁으로 되 돌아올 것이라는 믿음과 진심을 따뜻하게 전하며, 앨범의 마지막을 한층 더 감동적으로 완성시킨다.**
+**앨범의 마지막을 장식하는 트랙으로, 유년 시절의 추억을 떠오르게 하는 따뜻한 브라스 사운드와 함께 마치 회전목마를 타고 있는 듯한 감각적인 분위기를 자아낸다. 끊임없이 제자리로 돌아오는 회전목마처럼, 어떤 상황 이 닥치더라도 결국 너에게 돌아오겠다는 다짐과, 찬란한 모든 순간을 너 와 함께할 것이며, 무엇보다 그 찬란함은 바로 너와 함께이기에 가능하다는 메시지를 담고 있다. 이 곡은 '프로미스나인'이 언제나 플로버 곁으로 되 돌아올 것이라는 믿음과 진심을 따뜻하게 전하며, 앨범의 마지막을 한층 더 감동적으로 완성시킨다.**
 
 [ 가사 보기 ]
 
@@ -906,12 +906,12 @@ Dadada-dada-dadada
 
 ### 음원
 
-**From Our 20’s
-주요 음원 차트 최고 순위**
+**From Our 20’s**
+**주요 음원 차트 최고 순위**
 
 [ LIKE YOU BETTER 음원 순위 ]
 
-| **LIKE YOU BETTER<br>주요 음원 차트 최고 순위** |  |  |  |
+| **LIKE YOU BETTER**<br>**주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | TOP 100 |  | 18위 |
@@ -950,7 +950,7 @@ Dadada-dada-dadada
 
 [ REBELUTIONAL 음원 순위 ]
 
-| **REBELUTIONAL<br>주요 음원 차트 최고 순위** |  |  |  |
+| **REBELUTIONAL**<br>**주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | **9위** |
@@ -967,7 +967,7 @@ Dadada-dada-dadada
 
 [ Love=Disaster 음원 순위 ]
 
-| **Love=Disaster<br>주요 음원 차트 최고 순위** |  |  |  |
+| **Love=Disaster**<br>**주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | 13위 |
@@ -981,7 +981,7 @@ Dadada-dada-dadada
 
 [ Strawberry Mimosa 음원 순위 ]
 
-| **Strawberry Mimosa<br>주요 음원 차트 최고 순위** |  |  |  |
+| **Strawberry Mimosa**<br>**주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | 14위 |
@@ -995,7 +995,7 @@ Dadada-dada-dadada
 
 [ Twisted Love 음원 순위 ]
 
-| **Twisted Love<br>주요 음원 차트 최고 순위** |  |  |  |
+| **Twisted Love**<br>**주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | 16위 |
@@ -1008,7 +1008,7 @@ Dadada-dada-dadada
 
 [ Merry Go Round 음원 순위 ]
 
-| **Merry Go Round<br>주요 음원 차트 최고 순위** |  |  |  |
+| **Merry Go Round**<br>**주요 음원 차트 최고 순위** |  |  |  |
 | --- | --- | --- | --- |
 | **음원 서비스** | **차트 종류** |  | **순위** |
 | [멜론<br>멜론](https://namu.wiki/w/%EB%A9%9C%EB%A1%A0(%EC%9D%8C%EC%9B%90%20%EC%84%9C%EB%B9%84%EC%8A%A4)) | HOT 100 | 30일 | 17위 |
@@ -1029,14 +1029,14 @@ Dadada-dada-dadada
 | **〈From Our 20’s〉 초동 판매량** |  |  |  |
 | --- | --- | --- | --- |
 | **날짜** | **일간 판매량** | **누적 판매량** | **비고** |
-| 6월 25일<br>(1일차) | **29,8**장** |  | 앨범 발매<br>**2만 장 돌파** |
-| 6월 26일<br>(2일차) | 9,5**장 | **39,3**장** | **3만 장 돌파** |
-| 6월 27일<br>(3일차) | 4,6**장 | **43,9**장** | **4만 장 돌파** |
-| 6월 28일<br>(4일차) | 3**장 | **44,3**장** |  |
-| 6월 29일<br>(5일차) | 3,5**장 | **47,8**장** |  |
-| 6월 30일<br>(6일차) | 9,6**장 | **57,4**장** | **5만 장 돌파** |
-| 7월 1일<br>(7일차) | 11,0**장 | **68,5**장** | **6만 장 돌파** |
-| **초동 판매량** | **68,5**장** |  | [**역대 걸그룹 음반 초동 149위**](https://namu.wiki/w/%EC%97%AD%EB%8C%80%20%EA%B1%B8%EA%B7%B8%EB%A3%B9%20%EC%9D%8C%EB%B0%98%20%EC%B4%88%EB%8F%99%20%EA%B8%B0%EB%A1%9D/%EC%83%81%EC%84%B8%20%EB%82%B4%EC%9A%A9#5%EB%A7%8C%20%EC%9E%A5%20%EC%9D%B4%EC%83%81) |
+| 6월 25일<br>(1일차) | **29,8장** |  | 앨범 발매<br>**2만 장 돌파** |
+| 6월 26일<br>(2일차) | 9,5**장 | **39,3장** | **3만 장 돌파** |
+| 6월 27일<br>(3일차) | 4,6**장 | **43,9장** | **4만 장 돌파** |
+| 6월 28일<br>(4일차) | 3**장 | **44,3장** |  |
+| 6월 29일<br>(5일차) | 3,5**장 | **47,8장** |  |
+| 6월 30일<br>(6일차) | 9,6**장 | **57,4장** | **5만 장 돌파** |
+| 7월 1일<br>(7일차) | 11,0**장 | **68,5장** | **6만 장 돌파** |
+| **초동 판매량** | **68,5장** |  | [**역대 걸그룹 음반 초동 149위**](https://namu.wiki/w/%EC%97%AD%EB%8C%80%20%EA%B1%B8%EA%B7%B8%EB%A3%B9%20%EC%9D%8C%EB%B0%98%20%EC%B4%88%EB%8F%99%20%EA%B8%B0%EB%A1%9D/%EC%83%81%EC%84%B8%20%EB%82%B4%EC%9A%A9#5%EB%A7%8C%20%EC%9E%A5%20%EC%9D%B4%EC%83%81) |
 | * 순위 및 기록은 집계 종료일 당시를 기준으로 한다. |  |  |  |
 
 ### 음악 방송 순위
@@ -1091,8 +1091,8 @@ Dadada-dada-dadada
 
 ### 챌린지
 
-**LIKE YOU BETTER
-Challenge**
+**LIKE YOU BETTER**
+**Challenge**
 
 [ 펼치기 · 접기 ]
 
@@ -1105,13 +1105,13 @@ Challenge**
 
 ### 비하인드
 
-**From Our 20's
-Jacket Shooting Behind the Scene**
+**From Our 20's**
+**Jacket Shooting Behind the Scene**
 
 [▶ YouTube](https://www.youtube.com/watch?v=lcJK08T4xHA)
 
-**LIKE YOU BETTER
-MV Behind the Scene**
+**LIKE YOU BETTER**
+**MV Behind the Scene**
 
 [▶ YouTube](https://www.youtube.com/watch?v=7moHyzUP0UE)
 

@@ -2,7 +2,7 @@
 title: "Midnight Guest"
 source: https://namu.wiki/w/Midnight%20Guest
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-28
+fetched: 2026-10-29
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/Midnight%20Guest)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -25,10 +25,10 @@ fetched: 2026-10-28
 
 **Midnight Guest** ｜The 4th Mini Album
 2022. 01. 17. (월) 18:00 발매
-**[Midnight Guest] 프로미스나인, 당신의 밤을 함께할 깜짝 손님
-짜릿한 일탈과 과감한 변신 담은 미니 4집 [Midnight Guest] 발매
-‘톡 쏘는 고백송' 타이틀곡 ‘DM'…사랑스러운 새벽 감성 선사
-지루한 일상을 설렘으로 바꿀 프로미스나인표 ‘황홀한 심야 데이트**'
+**[Midnight Guest] 프로미스나인, 당신의 밤을 함께할 깜짝 손님**
+**짜릿한 일탈과 과감한 변신 담은 미니 4집 [Midnight Guest] 발매**
+**‘톡 쏘는 고백송' 타이틀곡 ‘DM'…사랑스러운 새벽 감성 선사**
+**지루한 일상을 설렘으로 바꿀 프로미스나인표 ‘황홀한 심야 데이트**'
 
 그룹 프로미스나인이 [Midnight Guest]로 리스너들의 밤을 찾아간다.
 
@@ -182,13 +182,13 @@ fetched: 2026-10-28
 
 ### 비디오
 
-**Midnight Guest
-Concept Trailer**
+**Midnight Guest**
+**Concept Trailer**
 
 [▶ YouTube](https://www.youtube.com/watch?v=tIS51ovM0YA)
 
-**Midnight Guest
-Concept film (After Midnight Ver.)**
+**Midnight Guest**
+**Concept film (After Midnight Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=B6toivFoYvg)
 
@@ -202,8 +202,8 @@ Concept film (After Midnight Ver.)**
 | [▶ YouTube](https://www.youtube.com/watch?v=2ny0RWm0-bQ) | [▶ YouTube](https://www.youtube.com/watch?v=_2LQ7-t-WxY) | [▶ YouTube](https://www.youtube.com/watch?v=nd6yUGZIHD0) |
 | [**이채영**](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81) | [**이나경**](https://namu.wiki/w/%EC%9D%B4%EB%82%98%EA%B2%BD) | [**백지헌**](https://namu.wiki/w/%EB%B0%B1%EC%A7%80%ED%97%8C) |
 
-**Midnight Guest
-HIGHLIGHT MEDLEY**
+**Midnight Guest**
+**HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=43J7eYxhZEs)
 
@@ -234,12 +234,12 @@ HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=w3gH3rHwqCk)
 
-**Escape Room
+**Escape Room**
 
-01
- 3:26
+**01**
+**3:26**
 
-중독적인 피아노 라인으로 시작해 몽환적인 기타 사운드와 신스 베이스 사운드에 감각적인 코드 진행이 조화를 이루어 완성된 R&B 댄스곡으로, 남몰래 탈출을 감행하기 직전의 긴장감과 탈출을 통해 새로운 곳으로 갈 수 있다는 기대감을 생생하게 표현했다.**
+**중독적인 피아노 라인으로 시작해 몽환적인 기타 사운드와 신스 베이스 사운드에 감각적인 코드 진행이 조화를 이루어 완성된 R&B 댄스곡으로, 남몰래 탈출을 감행하기 직전의 긴장감과 탈출을 통해 새로운 곳으로 갈 수 있다는 기대감을 생생하게 표현했다.**
 
 [ 가사 보기 ]
 
@@ -403,8 +403,8 @@ Give me that better
 
 #### 스페셜 비디오
 
-**Escape Room
-Performance Video**
+**Escape Room**
+**Performance Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=BPTcweDPdnU)
 
@@ -412,13 +412,13 @@ Performance Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=QT60l6MSoz8)
 
-**DM
+**DM**
 
-02 3:24
+**02 3:24**
 
-TITLE
+**TITLE**
 
-타이틀곡 'DM'은 아련한 느낌의 코드 진행과 펑키한 베이스라인이 돋보이는 팝 장르 곡이다. 프로미스나인만의 사랑스러운 감성을 가득 느낄 수 있으며 시원하게 터지는 후렴 파트가 인상적이다.**
+**타이틀곡 'DM'은 아련한 느낌의 코드 진행과 펑키한 베이스라인이 돋보이는 팝 장르 곡이다. 프로미스나인만의 사랑스러운 감성을 가득 느낄 수 있으며 시원하게 터지는 후렴 파트가 인상적이다.**
 
 [ 가사 보기 ]
 
@@ -685,59 +685,59 @@ Doesn't matter
 
 #### 뮤직 비디오
 
-**DM
-M/V Teaser 1**
+**DM**
+**M/V Teaser 1**
 
 [▶ YouTube](https://www.youtube.com/watch?v=1jReyHHLxH8)
 
-**DM
-M/V Teaser 2**
+**DM**
+**M/V Teaser 2**
 
 [▶ YouTube](https://www.youtube.com/watch?v=Gfuky4g1jso)
 
-**DM
-Music Video**
+**DM**
+**Music Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=4gXmClk8rKI)
 
-**DM
-M/V Reaction**
+**DM**
+**M/V Reaction**
 
 [▶ YouTube](https://www.youtube.com/watch?v=WivDMRlZPPA)
 
 #### 스페셜 비디오
 
-**DM
-Performance Video**
+**DM**
+**Performance Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=1TyYpFW8X9U)
 
 #### 안무 영상
 
-**DM
-Choreography Video**
+**DM**
+**Choreography Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=Oe-suEenVck)
 
-**DM
-2022 SBS 가요대전 Choreography Video**
+**DM**
+**2022 SBS 가요대전 Choreography Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=Pd6t77dDq0Y)
 
 #### 교차 편집
 
-**DM
-StageMix (Show Champion Ver.)**
+**DM**
+**StageMix (Show Champion Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=XfCdLhDTEYQ)
 
-**DM
-StageMix (M COUNTDOWN Ver.)**
+**DM**
+**StageMix (M COUNTDOWN Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=I2EhpQ-yG88)
 
-**DM
-StageMix (Music Bank Ver.)**
+**DM**
+**StageMix (Music Bank Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=cBGK7hXefp4)
 
@@ -745,12 +745,12 @@ StageMix (Music Bank Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=8VGyWD8Pq9o)
 
-**Love is Around
+**Love is Around**
 
-03
- 3:16
+**03**
+**3:16**
 
-이새롬, 송하영, 장규리, 이채영의 유닛 곡으로, 서정적인 건반 위에 아름다운 멜로디가 얹힌 팝 발라드곡이다. 새벽에 과감한 고백을 한 직후 부풀어 오르는 기대감을 부드러운 감성으로 그렸다.**
+**이새롬, 송하영, 장규리, 이채영의 유닛 곡으로, 서정적인 건반 위에 아름다운 멜로디가 얹힌 팝 발라드곡이다. 새벽에 과감한 고백을 한 직후 부풀어 오르는 기대감을 부드러운 감성으로 그렸다.**
 
 [ 가사 보기 ]
 
@@ -832,12 +832,12 @@ Love is around
 
 [▶ YouTube](https://www.youtube.com/watch?v=0TfGtiD2HXc)
 
-**Hush Hush
+**Hush Hush**
 
-04
- 3:03
+**04**
+**3:03**
 
-박지원, 노지선, 이서연, 이나경, 백지헌의 유닛 곡인 네 번째 트랙 'Hush Hush'는 어쿠스틱 악기 기반의 미니멀한 하우스 장르의 곡으로, 박지원과 이서연이 작사, 작곡에 참여해 완성도를 높였으며 새벽의 도시가 우리만의 놀이터가 되는 통통 튀는 상상을 재치 있게 풀어냈다.**
+**박지원, 노지선, 이서연, 이나경, 백지헌의 유닛 곡인 네 번째 트랙 'Hush Hush'는 어쿠스틱 악기 기반의 미니멀한 하우스 장르의 곡으로, 박지원과 이서연이 작사, 작곡에 참여해 완성도를 높였으며 새벽의 도시가 우리만의 놀이터가 되는 통통 튀는 상상을 재치 있게 풀어냈다.**
 
 [ 가사 보기 ]
 
@@ -917,12 +917,12 @@ and running around
 
 [▶ YouTube](https://www.youtube.com/watch?v=l2S7HPsWW7Y)
 
-**0g
+**0g**
 
-05
- 3:16
+**05**
+**3:16**
 
-아무도 없는 새벽의 거리에서 느껴지는 공허한 마음의 무게가 마치 '0g' 같다고 표현한 곡으로, 따뜻한 신스 사운드와 함께 다양한 악기로 만들어 낸 하모니 속 프로미스나인의 부드러운 음색이 돋보인다.**
+**아무도 없는 새벽의 거리에서 느껴지는 공허한 마음의 무게가 마치 '0g' 같다고 표현한 곡으로, 따뜻한 신스 사운드와 함께 다양한 악기로 만들어 낸 하모니 속 프로미스나인의 부드러운 음색이 돋보인다.**
 
 [ 가사 보기 ]
 
@@ -1188,7 +1188,7 @@ Plastic heart 같은 텅 빈 그 맘은
 
 | **날짜** | **Melon 일간 이용자 수 추이** |  |  |  | **Genie 실시간/일간 순위** |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | **순위**[M] | **이용자 수**[M] | **이용자 수 증감**[M] | **TOP 100 순위**[M2] | **최고 실시간<br>순위**[G] | **최저 실시간<br>순위**[G] | **평균 실시간<br>순위**[G2] | **일간 순위**[G3] |
+|  | **순위**[M] | **이용자 수**[M] | **이용자 수 증감**[M] | **TOP 100 순위**[M2] | **최고 실시간**<br>**순위**[G] | **최저 실시간**<br>**순위**[G] | **평균 실시간**<br>**순위**[G2] | **일간 순위**[G3] |
 | 2022.01.17. | 144 | 36,871 | - | 차트 미진입 | 45 | 104 | 68 | 214 |
 | 2022.01.18. | 161 (-17) | 36,173 | -698 |  | 60 (-15) | 172 (-68) | 101 (-33) | 234 (-20) |
 | 2022.01.19. | 172 (-11) | 34,280 | -1,893 |  | 107 (-47) | 197 (-25) | 125 (-24) | Out (-) |
@@ -1196,7 +1196,7 @@ Plastic heart 같은 텅 빈 그 맘은
 | 2022.01.21. | 172 (+6) | 35,213 | +1,385 |  | 140 (+2) | 217 (-7) | 148 (-6) | Out (-) |
 | 2022.01.22. | 158 (+14) | 33,907 | -1,306 |  | 147 (-7) | 206 (+11) | 146 (+2) | Out (-) |
 | **날짜** | **FLO 차트 추이** |  |  | **Bugs 순위 추이** |  |  |  | **VIBE 순위 추이** |
-|  | **최고 24시간<br>순위**[F] | **최저 24시간<br>순위**[F] | **평균 24시간<br>순위**[F2] | **최고 실시간<br>순위**[B] | **최저 실시간<br>순위**[B] | **평균 실시간<br>순위**[B2] | **일간 순위**[B3] | **일간 순위** |
+|  | **최고 24시간**<br>**순위**[F] | **최저 24시간**<br>**순위**[F] | **평균 24시간**<br>**순위**[F2] | **최고 실시간**<br>**순위**[B] | **최저 실시간**<br>**순위**[B] | **평균 실시간**<br>**순위**[B2] | **일간 순위**[B3] | **일간 순위** |
 | 2022.01.17. | 차트 미진입 |  |  | **1** | 2 | 2 | 2 | - |
 | 2022.01.18. |  |  |  | **1** | 19 (-17) | 5 (-3) | 2 (-22) | 237 |
 | 2022.01.19. |  |  |  | **1** | 57 (-38) | 18 (-13) | 7 (-5) | 101 (+136) |
@@ -1208,7 +1208,7 @@ Plastic heart 같은 텅 빈 그 맘은
 
 | **날짜** | **Melon 일간 이용자 수 추이** |  |  |  | **Genie 실시간/일간 순위** |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | **순위**[M] | **이용자 수**[M] | **이용자 수 증감**[M] | **TOP 100 순위**[M2] | **최고 실시간<br>순위**[G] | **최저 실시간<br>순위**[G] | **평균 실시간<br>순위**[G2] | **일간 순위**[G3] |
+|  | **순위**[M] | **이용자 수**[M] | **이용자 수 증감**[M] | **TOP 100 순위**[M2] | **최고 실시간**<br>**순위**[G] | **최저 실시간**<br>**순위**[G] | **평균 실시간**<br>**순위**[G2] | **일간 순위**[G3] |
 | 2022.01.23. | 146 (+12) | 36,518 | +2,611 | 차트 미진입 | 133 (+14) | 206 (-) | 137 (+9) | Out (-) |
 | 2022.01.24. | 141 (+5) | 39,462 | +2,944 |  | 129 (+4) | 198 (+8) | 128 (+9) | 249 (NEW) |
 | 2022.01.25. | 147 (-6) | 39,570 | +108 |  | 119 (+10) | 208 (-10) | 136 (-8) | 247 (+2) |
@@ -1217,7 +1217,7 @@ Plastic heart 같은 텅 빈 그 맘은
 | 2022.01.28. | 125 (+8) | 45,770 | +1,974 |  | 104 (+12) | 183 (+13) | 121 (+5) | 210 (+8) |
 | 2022.01.29. | 118 (+7) | 43,832 | -1,938 |  | 102 (+2) | 175 (+8) | 116 (+5) | 199 (+11) |
 | **날짜** | **FLO 차트 추이** |  |  | **Bugs 순위 추이** |  |  |  | **VIBE 순위 추이** |
-|  | **최고 24시간<br>순위**[F] | **최저 24시간<br>순위**[F] | **평균 24시간<br>순위**[F2] | **최고 실시간<br>순위**[B] | **최저 실시간<br>순위**[B] | **평균 실시간<br>순위**[B2] | **일간 순위**[B3] | **일간 순위** |
+|  | **최고 24시간**<br>**순위**[F] | **최저 24시간**<br>**순위**[F] | **평균 24시간**<br>**순위**[F2] | **최고 실시간**<br>**순위**[B] | **최저 실시간**<br>**순위**[B] | **평균 실시간**<br>**순위**[B2] | **일간 순위**[B3] | **일간 순위** |
 | 2022.01.23. | 차트 미진입 |  |  | 1 (-) | 42 (-11) | 17 (-8) | 6 (-) | 114 (-7) |
 | 2022.01.24. |  |  |  | 2 (-1) | 32 (+10) | 14 (+3) | 29 (-23) | 119 (-5) |
 | 2022.01.25. |  |  |  | 7 (-5) | 39 (-7) | 20 (-6) | 29 (-) | 103 (+16) |
@@ -1239,14 +1239,14 @@ Plastic heart 같은 텅 빈 그 맘은
 | **〈Midnight Guest〉 초동 판매량** |  |  |  |
 | --- | --- | --- | --- |
 | **날짜** | **일간 판매량** | **누적 판매량** | **비고** |
-| 1월 17일 (1일차) | **49,7**장** |  | 앨범 발매<br>CD 36,1**장｜KiT 3,0**장｜Jewel 10,5**장 |
-| 1월 18일 (2일차) | 6,6**장 | **56,3**장** | CD 4,5**장｜KiT 4**장｜ Jewel 1,6**장 |
-| 1월 19일 (3일차) | 16,9**장 | **73,3**장** | CD 14,6**장｜KiT 6**장｜Jewel 1,7**장 |
-| 1월 20일 (4일차) | 3,6*장 | **77,0**장** | CD 2,9**장｜KiT 1**장｜Jewel 5**장 |
-| 1월 21일 (5일차) | 10,5**장 | **87,5**장** | CD 6,2**장｜KiT 8*장｜Jewel 4,2**장 |
-| 1월 22일 (6일차) | 9,8**장 | **97,4**장** | CD 9,6**장｜KiT 2*장｜Jewel 2**장 |
-| 1월 23일 (7일차) | 7,0**장 | **104,4**장** | CD 5,3**장｜KiT 5*장｜Jewel 1,6**장 |
-| **초동 판매량** | **104,4**장** |  | **데뷔 첫 초동 10만 장 돌파** |
+| 1월 17일 (1일차) | **49,7장** |  | 앨범 발매<br>CD 36,1**장｜KiT 3,0**장｜Jewel 10,5**장 |
+| 1월 18일 (2일차) | 6,6**장 | **56,3장** | CD 4,5**장｜KiT 4**장｜ Jewel 1,6**장 |
+| 1월 19일 (3일차) | 16,9**장 | **73,3장** | CD 14,6**장｜KiT 6**장｜Jewel 1,7**장 |
+| 1월 20일 (4일차) | 3,6*장 | **77,0장** | CD 2,9**장｜KiT 1**장｜Jewel 5**장 |
+| 1월 21일 (5일차) | 10,5**장 | **87,5장** | CD 6,2**장｜KiT 8*장｜Jewel 4,2**장 |
+| 1월 22일 (6일차) | 9,8**장 | **97,4장** | CD 9,6**장｜KiT 2*장｜Jewel 2**장 |
+| 1월 23일 (7일차) | 7,0**장 | **104,4장** | CD 5,3**장｜KiT 5*장｜Jewel 1,6**장 |
+| **초동 판매량** | **104,4장** |  | **데뷔 첫 초동 10만 장 돌파** |
 | * 순위 및 기록은 집계 종료일 당시를 기준으로 한다. |  |  |  |
 
 - 발매 첫날부터 종전 최고 기록을 **약 12,000장 웃돌며** 신기록을 세웠다. 가장 많은 양이 판매되었을 것으로 예상되는 [Weverse Shop](https://namu.wiki/w/Weverse%20Shop)의 주문 건이 단 한 장도 출고되지 않았음을 감안하면 놀라운 수치이다.
@@ -1294,18 +1294,18 @@ Plastic heart 같은 텅 빈 그 맘은
 
 ## 관련 영상
 
-**'Before Midnight'
-Jacket Film**
+**'Before Midnight'**
+**Jacket Film**
 
 [▶ YouTube](https://www.youtube.com/watch?v=F0J-G-wGdJk)
 
-**Midnight Guest
-Talk Show**
+**Midnight Guest**
+**Talk Show**
 
 [▶ YouTube](https://www.youtube.com/watch?v=NxPb0a4v8jA)
 
-**Midnight Guest
-앨범 언박싱 Welcome to f9홈쇼핑 ver.**
+**Midnight Guest**
+**앨범 언박싱 Welcome to f9홈쇼핑 ver.**
 
 [▶ YouTube](https://www.youtube.com/watch?v=Ht69zwFnWmI)
 

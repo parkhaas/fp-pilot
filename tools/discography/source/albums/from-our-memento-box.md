@@ -2,7 +2,7 @@
 title: "from our Memento Box"
 source: https://namu.wiki/w/from%20our%20Memento%20Box
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-28
+fetched: 2026-10-29
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/from%20our%20Memento%20Box)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -25,10 +25,10 @@ fetched: 2026-10-28
 
 **from our Memento Box** ｜The 5th Mini Album
 2022. 06. 27. (월) 18:00 발매
-**프로미스나인, ‘서머 여신'으로 돌아왔다! 여름 가요계 정조준!
-뜨겁고 눈부신 여름날의 기억 담긴 [from our Memento Box] 발매
-“우리 떠날래?”…프로미스나인과 함께하는 여기가 파라다이스
-서머송 ‘Stay This Way'으로 무더위·월요병 시원하게 날린다!**
+**프로미스나인, ‘서머 여신'으로 돌아왔다! 여름 가요계 정조준!**
+**뜨겁고 눈부신 여름날의 기억 담긴 [from our Memento Box] 발매**
+**“우리 떠날래?”…프로미스나인과 함께하는 여기가 파라다이스**
+**서머송 ‘Stay This Way'으로 무더위·월요병 시원하게 날린다!**
 
 그룹 프로미스나인이 미니 5집 [from our Memento Box]로 뜨겁고 눈부신 여름날의 기억을 나눈다.
 
@@ -46,8 +46,8 @@ fetched: 2026-10-28
 
 미니 5집에는 화려한 작가진들이 크레디트에 이름을 올렸다. 프로미스나인의 ‘DM', ‘WE GO' 등을 작곡한 이우민 “collapsedone”과 ‘Feel Good (SECRET CODE)'을 작사한 서지음이 타이틀곡 ‘Stay This Way'에 참여해 여름 가요계를 정조준할 새로운 서머송을 완성했다. 멤버 백지헌은 첫 번째 트랙 ‘Up And' 작사에 참여해 음악적 역량을 뽐냈고, 그룹 방탄소년단과 투모로우바이투게더 다수의 곡을 만든 빅히트 뮤직 소속 프로듀서 Slow Rabbit과 싱어송라이터 ADORA가 세 번째 트랙 ‘Blind Letter'에 참여해 완성도를 높였다.
 
-**#“우리 떠날래?” 출발한 뒤에 고민해도 늦지 않아!
-무더운 여름날…찌든 하루를 훌훌 털어버리고 무작정 문 밖으로 나서는 즉흥 여행 ‘Stay This Way**'
+**#“우리 떠날래?” 출발한 뒤에 고민해도 늦지 않아!**
+**무더운 여름날…찌든 하루를 훌훌 털어버리고 무작정 문 밖으로 나서는 즉흥 여행 ‘Stay This Way**'
 
 타이틀곡 ‘Stay This Way'는 해 질 무렵 ‘즉흥 여행'을 떠나면서 시작되는 이야기로, 매일 반복되는 일상에서 벗어나 여행을 떠나 도착한 ‘여기'에서 매일 일요일처럼 파도소리에 몸을 맡기고픈 마음을 표현한 곡이다. 펑키한 베이스와 기타가 메인인 곡으로, 어디론가 훌쩍 떠나고 싶은 생각이 들 만큼 신나고 중독성 넘치는 후렴과 댄서블한 팝 감성을 느낄 수 있는 브리지가 인상적이다.
 
@@ -197,13 +197,13 @@ fetched: 2026-10-28
 
 ### 비디오
 
-**from our Memento Box
-Concept Trailer**
+**from our Memento Box**
+**Concept Trailer**
 
 [▶ YouTube](https://www.youtube.com/watch?v=Hj45wcmxvYI)
 
-**from our Memento Box
-#Shorts Track**
+**from our Memento Box**
+**#Shorts Track**
 
 [ 펼치기 · 접기 ]
 
@@ -213,8 +213,8 @@ Concept Trailer**
 | [▶ YouTube](https://www.youtube.com/watch?v=-iCB1yE9fa4) | [▶ YouTube](https://www.youtube.com/watch?v=U7SRg47IXs4) |
 | **Blind Letter** | **Rewind** |
 
-**from our Memento Box
-Concept film (Dream Ver.)**
+**from our Memento Box**
+**Concept film (Dream Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=VLfbWlohKl8)
 
@@ -228,8 +228,8 @@ Concept film (Dream Ver.)**
 | [▶ YouTube](https://www.youtube.com/watch?v=AZKZaJUS0cQ) | [▶ YouTube](https://www.youtube.com/watch?v=hQLqn6hwvz8) | [▶ YouTube](https://www.youtube.com/watch?v=r9R2WGOxmJI) |
 | [**이채영**](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81) | [**이나경**](https://namu.wiki/w/%EC%9D%B4%EB%82%98%EA%B2%BD) | [**백지헌**](https://namu.wiki/w/%EB%B0%B1%EC%A7%80%ED%97%8C) |
 
-**from our Memento Box
-HIGHLIGHT MEDLEY**
+**from our Memento Box**
+**HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=J0ZIQsgRRYU)
 
@@ -260,12 +260,12 @@ HIGHLIGHT MEDLEY**
 
 [▶ YouTube](https://www.youtube.com/watch?v=44AIBLEJfmQ)
 
-**Up And
+**Up And**
 
-01
- 3:12
+**01**
+**3:12**
 
-'Up And'은 무더위를 시원하게 날려 보낼 '청량한 사운드'를 표현한 신스와 이에 어우러지는 2-Step 개러지 기반의 드럼이 인상적인 곡이다. 상대와 더 가까워지기 위해 '조개껍데기'로 동전 던지기 게임을 하며 속마음을 드러내는 가사는 당당하면서도 꾸밈없는 프로미스나인만의 사랑법을 구사하고 있다. 눈앞에 그려지는 섬세한 묘사로, 곡의 완성도를 높인 작사에 멤버 백지헌이 직접 참여해 프로미스나인만의 음악 색을 더욱 공고히 했다.**
+**'Up And'은 무더위를 시원하게 날려 보낼 '청량한 사운드'를 표현한 신스와 이에 어우러지는 2-Step 개러지 기반의 드럼이 인상적인 곡이다. 상대와 더 가까워지기 위해 '조개껍데기'로 동전 던지기 게임을 하며 속마음을 드러내는 가사는 당당하면서도 꾸밈없는 프로미스나인만의 사랑법을 구사하고 있다. 눈앞에 그려지는 섬세한 묘사로, 곡의 완성도를 높인 작사에 멤버 백지헌이 직접 참여해 프로미스나인만의 음악 색을 더욱 공고히 했다.**
 
 [ 가사 보기 ]
 
@@ -467,8 +467,8 @@ Up and love
 
 #### 스페셜 비디오
 
-**Up And
-Stage Cam @ 2023 Weverse Con Festival**
+**Up And**
+**Stage Cam @ 2023 Weverse Con Festival**
 
 [▶ YouTube](https://www.youtube.com/watch?v=W_Ii14_CCi0)
 
@@ -476,13 +476,13 @@ Stage Cam @ 2023 Weverse Con Festival**
 
 [▶ YouTube](https://www.youtube.com/watch?v=1UJCm2ZzrnE)
 
-**Stay This Way
+**Stay This Way**
 
-02 3:15
+**02 3:15**
 
-TITLE
+**TITLE**
 
-타이틀곡 'Stay This Way'는 해 질 무렵 '즉흥 여행'을 떠나면서 시작되는 이야기로, 매일 반복되는 일상에서 벗어나 여행을 떠나 도착한 '여기'에서 매일 일요일처럼 파도소리에 몸을 맡기고픈 마음을 표현한 곡이다. 그동안 밝은 에너지가 넘치고, 가슴 벅차오르는 감정을 끌어내는 명곡들로 사랑받았던 프로미스나인은 서머송 'Stay This Way'로 시원한 바닷바람과 꿈만 같은 시간을 만끽하며 함께 떠난 즉흥 여행의 묘미에 흠뻑 빠져들게 한다. '프로미스나인=여름' 공식을 단번에 성립시키며 찌든 무더위와 월요일마다 찾아오는 피로감을 시원하게 날려 준다.**
+**타이틀곡 'Stay This Way'는 해 질 무렵 '즉흥 여행'을 떠나면서 시작되는 이야기로, 매일 반복되는 일상에서 벗어나 여행을 떠나 도착한 '여기'에서 매일 일요일처럼 파도소리에 몸을 맡기고픈 마음을 표현한 곡이다. 그동안 밝은 에너지가 넘치고, 가슴 벅차오르는 감정을 끌어내는 명곡들로 사랑받았던 프로미스나인은 서머송 'Stay This Way'로 시원한 바닷바람과 꿈만 같은 시간을 만끽하며 함께 떠난 즉흥 여행의 묘미에 흠뻑 빠져들게 한다. '프로미스나인=여름' 공식을 단번에 성립시키며 찌든 무더위와 월요일마다 찾아오는 피로감을 시원하게 날려 준다.**
 
 [ 가사 보기 ]
 
@@ -794,49 +794,49 @@ So, Last forever Stay this way
 
 #### 뮤직 비디오
 
-**Stay This Way
-M/V Teaser**
+**Stay This Way**
+**M/V Teaser**
 
 [▶ YouTube](https://www.youtube.com/watch?v=7mYE4-vFT0o)
 
-**Stay This Way
-Music Video**
+**Stay This Way**
+**Music Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=JC6budcACNE)
 
 #### 스페셜 비디오
 
-**Stay This Way
-Performance Video**
+**Stay This Way**
+**Performance Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=9Upzg5NmudI)
 
 #### 안무 영상
 
-**Stay This Way
-Choreography Video**
+**Stay This Way**
+**Choreography Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=rRQuNfQ1Of4)
 
-**Stay This Way
-2022 KBS 가요대축제 Choreography Video**
+**Stay This Way**
+**2022 KBS 가요대축제 Choreography Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=Pea1zAv_Q1c)
 
 #### 교차 편집
 
-**Stay This Way
-StageMix (Show Champion Ver.)**
+**Stay This Way**
+**StageMix (Show Champion Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=cbIyeBihsXM)
 
-**Stay This Way
-StageMix (M COUNTDOWN Ver.)**
+**Stay This Way**
+**StageMix (M COUNTDOWN Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=VEFSalssr6c)
 
-**Stay This Way
-StageMix (Music Bank Ver.)**
+**Stay This Way**
+**StageMix (Music Bank Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=Sc4ydlnv1U4)
 
@@ -844,12 +844,12 @@ StageMix (Music Bank Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=S7xpvOVfclg)
 
-**Blind Letter
+**Blind Letter**
 
-03
- 2:40
+**03**
+**2:40**
 
-Indie Rock 느낌에 Trap Beat가 섞인 기타 루프가 매력적인 Pop 곡으로, 프로미스나인 멤버들의 특색 있는 보컬이 만나 또 한 번 새로운 장르를 완벽히 재탄생시켰다. 파도에 떠밀려 온 유리병 속 편지를 읽은 후 갖게 되는 '미지의 세계에 대한 기대감과 호기심'을 표현한 가사로 R&B 느낌의 멜로디가 감성적이며, 호소력 있는 목소리에서 단단한 에너지마저 느낄 수 있다.**
+**Indie Rock 느낌에 Trap Beat가 섞인 기타 루프가 매력적인 Pop 곡으로, 프로미스나인 멤버들의 특색 있는 보컬이 만나 또 한 번 새로운 장르를 완벽히 재탄생시켰다. 파도에 떠밀려 온 유리병 속 편지를 읽은 후 갖게 되는 '미지의 세계에 대한 기대감과 호기심'을 표현한 가사로 R&B 느낌의 멜로디가 감성적이며, 호소력 있는 목소리에서 단단한 에너지마저 느낄 수 있다.**
 
 [ 가사 보기 ]
 
@@ -987,12 +987,12 @@ From where?
 
 [▶ YouTube](https://www.youtube.com/watch?v=xKI1gdlDzxc)
 
-**Cheese
+**Cheese**
 
-04
- 3:01
+**04**
+**3:01**
 
-특별하지 않아도, 완벽하지 않아도 있는 그대로 자연스럽고 예쁜 우리의 추억들을 사진 속에 새기겠다는 내용을 담은 'Cheese'는 하우스 리듬을 기반으로 한 Pop dance 장르이며, 곡 구간마다 전환되는 다채로운 스펙트럼의 사운드와 함께 베이스 리프 위에 그려진 중독적 후렴구가 인상적인 곡이다. 밝고 긍정적인 메시지에 그루비하고 매혹적인 반전 보이스가 가미된 'Cheese'만의 새로운 매력으로 리스너들에게 다가선다**
+**특별하지 않아도, 완벽하지 않아도 있는 그대로 자연스럽고 예쁜 우리의 추억들을 사진 속에 새기겠다는 내용을 담은 'Cheese'는 하우스 리듬을 기반으로 한 Pop dance 장르이며, 곡 구간마다 전환되는 다채로운 스펙트럼의 사운드와 함께 베이스 리프 위에 그려진 중독적 후렴구가 인상적인 곡이다. 밝고 긍정적인 메시지에 그루비하고 매혹적인 반전 보이스가 가미된 'Cheese'만의 새로운 매력으로 리스너들에게 다가선다**
 
 [ 가사 보기 ]
 
@@ -1146,12 +1146,12 @@ Cheese
 
 [▶ YouTube](https://www.youtube.com/watch?v=pujG9jmL9QY)
 
-**Rewind
+**Rewind**
 
-05
- 3:33
+**05**
+**3:33**
 
-딥하우스와 퓨처하우스를 기반으로 한 몽환적인 신시사이저와 리듬감 넘치는 베이스라인이 인상적인 'Rewind'는 후렴부로 갈수록 기타와 현악기가 곡의 분위기를 이끌어 가며 화려함을 더한다. 그 위에 쌓여진 프로미스나인의 보컬은 한층 성숙해진 분위기를 풍겨 마지막 트랙까지 색다른 매력을 선사한다. 원하는 장면을 보게 될 때까지 시간을 돌려 보겠다는 내용이 담겨 시공간을 넘나드는 신비로운 매력까지 엿볼 수 있다.**
+**딥하우스와 퓨처하우스를 기반으로 한 몽환적인 신시사이저와 리듬감 넘치는 베이스라인이 인상적인 'Rewind'는 후렴부로 갈수록 기타와 현악기가 곡의 분위기를 이끌어 가며 화려함을 더한다. 그 위에 쌓여진 프로미스나인의 보컬은 한층 성숙해진 분위기를 풍겨 마지막 트랙까지 색다른 매력을 선사한다. 원하는 장면을 보게 될 때까지 시간을 돌려 보겠다는 내용이 담겨 시공간을 넘나드는 신비로운 매력까지 엿볼 수 있다.**
 
 [ 가사 보기 ]
 
@@ -1470,13 +1470,13 @@ It's time to rewind
 
 #### 안무 영상
 
-**Rewind
-Choreography Video**
+**Rewind**
+**Choreography Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=dmsxXRqR9F4)
 
-**2022 SBS 가요대전
-Choreography Video**
+**2022 SBS 가요대전**
+**Choreography Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=Pd6t77dDq0Y)
 
@@ -1666,7 +1666,7 @@ Choreography Video**
 
 | **날짜** | **Melon 일간 이용자 수 추이** |  |  |  | **Genie 실시간/일간 순위** |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | **순위**[M] | **이용자 수**[M] | **이용자 수 증감**[M] | **TOP 100 순위**[M2] | **최고 실시간<br>순위**[G] | **최저 실시간<br>순위**[G] | **평균 실시간<br>순위**[G2] | **일간 순위**[G3] |
+|  | **순위**[M] | **이용자 수**[M] | **이용자 수 증감**[M] | **TOP 100 순위**[M2] | **최고 실시간**<br>**순위**[G] | **최저 실시간**<br>**순위**[G] | **평균 실시간**<br>**순위**[G2] | **일간 순위**[G3] |
 | 2022.06.27. | 129 | 46,120 |  | 차트 미진입 | 57 | 62 |  | 162 (NEW) |
 | 2022.06.28. | 137 (-8) | 44,356 | -1,764 |  | 61 | 113 |  | 173 (-11) |
 | 2022.06.29. | 151 (-14) | 41,085 | -3,271 |  | 77 | 111 |  | 184 (-11) |
@@ -1675,7 +1675,7 @@ Choreography Video**
 | 2022.07.02. | 124 (+13) | 44,889 | -791 |  | 92 | 117 |  | 183 (+5) |
 | 2022.07.03. | 117 (+7) | 48,590 | +3,701 |  | 77 | 115 |  | 166 (+17) |
 | **날짜** | **FLO 차트 추이** |  |  | **Bugs 순위 추이** |  |  |  | **VIBE 순위 추이** |
-|  | **최고 24시간<br>순위**[F] | **최저 24시간<br>순위**[F] | **평균 24시간<br>순위**[F2] | **최고 실시간<br>순위**[B] | **최저 실시간<br>순위**[B] | **평균 실시간<br>순위**[B2] | **일간 순위**[B3] | **일간 순위** |
+|  | **최고 24시간**<br>**순위**[F] | **최저 24시간**<br>**순위**[F] | **평균 24시간**<br>**순위**[F2] | **최고 실시간**<br>**순위**[B] | **최저 실시간**<br>**순위**[B] | **평균 실시간**<br>**순위**[B2] | **일간 순위**[B3] | **일간 순위** |
 | 2022.06.27. | 차트 미진입 |  |  | **1** | 6 |  | 2 (HOT) | - |
 | 2022.06.28. |  |  |  | **1** | 6 (-) |  | 2 (-) | 249 (NEW) |
 | 2022.06.29. |  |  |  | **1** | 7 (-1) |  | 6 (-4) | 100 (+149) |
@@ -1688,7 +1688,7 @@ Choreography Video**
 
 | **날짜** | **Melon 일간 이용자 수 추이** |  |  |  | **Genie 실시간/일간 순위** |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | **순위**[M] | **이용자 수**[M] | **이용자 수 증감**[M] | **TOP 100 순위**[M2] | **최고 실시간<br>순위**[G] | **최저 실시간<br>순위**[G] | **평균 실시간<br>순위**[G2] | **일간 순위**[G3] |
+|  | **순위**[M] | **이용자 수**[M] | **이용자 수 증감**[M] | **TOP 100 순위**[M2] | **최고 실시간**<br>**순위**[G] | **최저 실시간**<br>**순위**[G] | **평균 실시간**<br>**순위**[G2] | **일간 순위**[G3] |
 | 2022.07.04. | 119 (-2) | 48,778 | +188 | 차트 미진입 | 85 | 110 |  | 163 (+3) |
 | 2022.07.05. | 121 (-2) | 48,491 | -287 |  | 88 | 101 |  | 168 (-5) |
 | 2022.07.06. | 120 (+1) | 49,095 | +604 |  | 94 | 118 |  | 171 (-3) |
@@ -1697,7 +1697,7 @@ Choreography Video**
 | 2022.07.09. | 109 (+2) | 53,724 | +540 |  | 88 | 105 |  | 171 (-4) |
 | 2022.07.10. | 102 (+7) | 56,408 | +2,684 |  | 79 | 124 |  | 163 (+8) |
 | **날짜** | **FLO 차트 추이** |  |  | **Bugs 순위 추이** |  |  |  | **VIBE 순위 추이** |
-|  | **최고 24시간<br>순위**[F] | **최저 24시간<br>순위**[F] | **평균 24시간<br>순위**[F2] | **최고 실시간<br>순위**[B] | **최저 실시간<br>순위**[B] | **평균 실시간<br>순위**[B2] | **일간 순위**[B3] | **일간 순위** |
+|  | **최고 24시간**<br>**순위**[F] | **최저 24시간**<br>**순위**[F] | **평균 24시간**<br>**순위**[F2] | **최고 실시간**<br>**순위**[B] | **최저 실시간**<br>**순위**[B] | **평균 실시간**<br>**순위**[B2] | **일간 순위**[B3] | **일간 순위** |
 | 2022.07.04. | 91 (+2) | 96 (+1) |  | 7 (-6) | 23 (+5) |  | 11 (-1) | 88 (+2) |
 | 2022.07.05. | 차트 미진입 |  |  | 9 (-2) | 32 (-9) |  | 19 (-8) | 80 (+8) |
 | 2022.07.06. |  |  |  | 13 (-4) | 34 (-2) |  | 21 (-2) | 61 (+19) |
@@ -1729,14 +1729,14 @@ Choreography Video**
 | **〈from our Memento Box〉 초동 판매량** |  |  |  |  |
 | --- | --- | --- | --- | --- |
 | **날짜** | **일간 판매량** | **누적 판매량** | **세부 판매량** | **비고** |
-| 6월 27일 (1일차) | **80,6**장** |  | CD 46,1**장<br>KiT 4,8**장<br>Jewel 23,3**<br>Weverse 6,3**장 | 앨범 발매<br>**8만 장 돌파** |
-| 6월 28일 (2일차) | 7,3**장 | **88,0**장** | CD 4,4**장<br>KiT 6**장<br>Jewel 1,7**<br>Weverse 5**장 |  |
-| 6월 29일 (3일차) | 19,1**장 | **107,1**장** | CD 9,5**장<br>KiT 4**장<br>Jewel 2,5**장<br>Weverse 6,5**장 | **10만 장 돌파<br>커리어 하이** |
-| 6월 30일 (4일차) | 11,5*장 | **118,6**장** | CD 10,8**장<br>KiT 8*장<br>Jewel 4**장<br>Weverse 1**장 | **11만 장 돌파** |
-| 7월 1일 (5일차) | 1,5**장 | **120,2**장** | CD CD 1,2**장<br>KiT 6*장<br>Jewel 1**장<br>Weverse 8*장 | **12만 장 돌파** |
-| 7월 2일 (6일차) | 5**장 | **120,7**장** | CD 4**장<br>KiT 2*장<br>Jewel 7*장<br>Weverse 4*장 |  |
-| 7월 3일 (7일차) | 17,3**장 | **138,1**장** | CD 7,9**장<br>KiT 2**장<br>Jewel 4,8**장<br>Weverse 4,2*장 | **13만 장 돌파** |
-| **초동 판매량** | **138,1**장** |  |  |  |
+| 6월 27일 (1일차) | **80,6장** |  | CD 46,1**장<br>KiT 4,8**장<br>Jewel 23,3**<br>Weverse 6,3**장 | 앨범 발매<br>**8만 장 돌파** |
+| 6월 28일 (2일차) | 7,3**장 | **88,0장** | CD 4,4**장<br>KiT 6**장<br>Jewel 1,7**<br>Weverse 5**장 |  |
+| 6월 29일 (3일차) | 19,1**장 | **107,1장** | CD 9,5**장<br>KiT 4**장<br>Jewel 2,5**장<br>Weverse 6,5**장 | **10만 장 돌파**<br>**커리어 하이** |
+| 6월 30일 (4일차) | 11,5*장 | **118,6장** | CD 10,8**장<br>KiT 8*장<br>Jewel 4**장<br>Weverse 1**장 | **11만 장 돌파** |
+| 7월 1일 (5일차) | 1,5**장 | **120,2장** | CD CD 1,2**장<br>KiT 6*장<br>Jewel 1**장<br>Weverse 8*장 | **12만 장 돌파** |
+| 7월 2일 (6일차) | 5**장 | **120,7장** | CD 4**장<br>KiT 2*장<br>Jewel 7*장<br>Weverse 4*장 |  |
+| 7월 3일 (7일차) | 17,3**장 | **138,1장** | CD 7,9**장<br>KiT 2**장<br>Jewel 4,8**장<br>Weverse 4,2*장 | **13만 장 돌파** |
+| **초동 판매량** | **138,1장** |  |  |  |
 | * 순위 및 기록은 집계 종료일 당시를 기준으로 한다. |  |  |  |  |
 
 #### 월간 판매량
@@ -1820,6 +1820,6 @@ Choreography Video**
 - [장규리](https://namu.wiki/w/%EC%9E%A5%EA%B7%9C%EB%A6%AC)는 이번 앨범 활동 중에서 일부 활동에 불참할 예정이었다. SBS 드라마 [치얼업](https://namu.wiki/w/%EC%B9%98%EC%96%BC%EC%97%85)의 '태초희' 역에 캐스팅되어 5월 중순부터 촬영 중에 있었고, 활동기까지 촬영이 이어짐에 따라 개인 컨디션 관리 측면에서 일부 활동에 불참한다고 밝혔었다. 그러나 결국 드라마 관계자 분들과의 스케쥴 조율을 통해 음악방송에는 차질 없이 참여할 수 있었다.
 - 컴백을 앞둔 6월 25일, 멤버 [송하영](https://namu.wiki/w/%EC%86%A1%ED%95%98%EC%98%81), [박지원](https://namu.wiki/w/%EB%B0%95%EC%A7%80%EC%9B%90(%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8)), [이서연](https://namu.wiki/w/%EC%9D%B4%EC%84%9C%EC%97%B0), [이채영](https://namu.wiki/w/%EC%9D%B4%EC%B1%84%EC%98%81), [백지헌](https://namu.wiki/w/%EB%B0%B1%EC%A7%80%ED%97%8C)이 탑승한 차량이 [교통사고](https://namu.wiki/w/%EA%B5%90%ED%86%B5%EC%82%AC%EA%B3%A0)를 당해 컴백 일정에 문제가 발생했다. 다행히도 정밀 검사 결과 큰 부상을 입은 멤버는 없으나 [근육통](https://namu.wiki/w/%EA%B7%BC%EC%9C%A1%ED%86%B5)과 [타박상](https://namu.wiki/w/%ED%83%80%EB%B0%95%EC%83%81)으로 인해 주기적인 치료가 필요하다는 진단 및 컴백 스케줄을 곧바로 소화하는 것은 무리가 될 수 있다는 의료진 소견을 받았다고 밝혔다. 이 사고로 앨범 발매 당일 진행되는 온/오프라인 쇼케이스와 6월 29일 [웬디의 영스트리트](https://namu.wiki/w/%EC%9B%AC%EB%94%94%EC%9D%98%20%EC%98%81%EC%8A%A4%ED%8A%B8%EB%A6%AC%ED%8A%B8/1%EA%B8%B0) 출연이 취소되었으며, 해당 멤버들은 컴백 스케줄에 유동적으로 참여하기로 결정했고 상황에 따라 안무 소화가 어려울 수 있다고 밝혔다. [#](https://entertain.v.daum.net/v/20220626212040541) 그러나 다행히도 모든 멤버들의 몸 상태가 양호했고, 안무를 비롯한 무대활동을 무사히 잘 마칠 수 있었다.
 - 2022년 7월 8일, [뮤직뱅크](https://namu.wiki/w/%EB%AE%A4%EC%A7%81%EB%B1%85%ED%81%AC)에서 **데뷔 이후 1627일 만에 지상파 1위**를 달성, 다음날 진행된 [쇼! 음악중심](https://namu.wiki/w/%EC%87%BC!%20%EC%9D%8C%EC%95%85%EC%A4%91%EC%8B%AC)에서도 1위를 기록하며[51] 지상파 음악방송 2관왕을 포함하여 총 **5관왕**을 달성하게 되었다.
-- 2022년 7월 31일, [장규리](https://namu.wiki/w/%EC%9E%A5%EA%B7%9C%EB%A6%AC)가 그룹을 떠나게 되어, 이번이 9인조로 활동한 마지막 앨범이 되었다. [#](https://entertain.v.daum.net/v/20220728101356633) **Stay This Way 2022 KBS 가요대축제** [▶ YouTube](https://www.youtube.com/watch?v=j9z7sgawn5w)
+- 2022년 7월 31일, [장규리](https://namu.wiki/w/%EC%9E%A5%EA%B7%9C%EB%A6%AC)가 그룹을 떠나게 되어, 이번이 9인조로 활동한 마지막 앨범이 되었다. [#](https://entertain.v.daum.net/v/20220728101356633) **Stay This Way** **2022 KBS 가요대축제** [▶ YouTube](https://www.youtube.com/watch?v=j9z7sgawn5w)
 - [2022 KBS 가요대축제: Y2K](https://namu.wiki/w/2022%20KBS%20%EA%B0%80%EC%9A%94%EB%8C%80%EC%B6%95%EC%A0%9C:%20Y2K)에서 타이틀곡 [Stay This Way](https://namu.wiki/w/Stay%20This%20Way)를 여름 느낌이었던 원곡 대신 **겨울 느낌으로 편곡**한 무대를 선보였는데 이 편곡 또한 호평이 많다. 건강 문제로 휴식 중이라 불참한 캡틴 [이새롬](https://namu.wiki/w/%EC%9D%B4%EC%83%88%EB%A1%AC)의 파트는 [노지선](https://namu.wiki/w/%EB%85%B8%EC%A7%80%EC%84%A0)이 대신 불렀다.
 - 일본의 야구선수인 [코조노 켄타](https://namu.wiki/w/%EC%BD%94%EC%A1%B0%EB%85%B8%20%EC%BC%84%ED%83%80)가 본인 등판 시 나오는 등장곡으로 [Stay This Way](https://namu.wiki/w/Stay%20This%20Way)를 선택했는데, 이를 본인의 [소셜 네트워크 서비스](https://namu.wiki/w/%EC%86%8C%EC%85%9C%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%84%9C%EB%B9%84%EC%8A%A4)에 올리며 [프로미스나인](https://namu.wiki/w/%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4%EB%82%98%EC%9D%B8)을 홍보하는 모습을 보여주기도 했다.[52]

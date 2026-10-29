@@ -2,7 +2,7 @@
 title: "Talk & Talk"
 source: https://namu.wiki/w/Talk%20%26%20Talk
 license: CC BY-NC-SA 2.0 KR (나무위키)
-fetched: 2026-10-28
+fetched: 2026-10-29
 ---
 > 이 문서는 [나무위키](https://namu.wiki/w/Talk%20%26%20Talk)의 내용을 [CC BY-NC-SA 2.0 KR](https://creativecommons.org/licenses/by-nc-sa/2.0/kr/) 조건에 따라 옮겨 정리한 것입니다. 원문의 저작자는 나무위키 기여자들입니다.
 
@@ -26,9 +26,9 @@ Talk & Talk
 
 **Talk & Talk** ｜Special Single Album
 2021. 09. 01. (수) 18:00 발매
-**프로미스나인이 들려주는 풋풋하고 달콤한 속삭임
-전작 ‘WE GO'에서 새롭게 펼쳐지는 스핀오프 이야기 ‘Talk & Talk'
-무한한 대화로 채운 ‘설렘 100%' 시간 속으로!**
+**프로미스나인이 들려주는 풋풋하고 달콤한 속삭임**
+**전작 ‘WE GO'에서 새롭게 펼쳐지는 스핀오프 이야기 ‘Talk & Talk'**
+**무한한 대화로 채운 ‘설렘 100%' 시간 속으로!**
 
 걸그룹 프로미스나인이 가을 청량송으로 다시 한번 짜릿한 설렘을 안고 찾아온다.
 
@@ -120,8 +120,8 @@ Talk & Talk
 
 ### 비디오
 
-**Talk & Talk
-Reminder**
+**Talk & Talk**
+**Reminder**
 
 [▶ YouTube](https://www.youtube.com/watch?v=AlfHQzdpy2I)
 
@@ -139,13 +139,13 @@ Reminder**
 
 [▶ YouTube](https://www.youtube.com/watch?v=pgXcMZ0MxUc)
 
-**Talk & Talk
+**Talk & Talk**
 
-01 3:40
+**01 3:40**
 
-TITLE
+**TITLE**
 
-신스 사운드가 돋보이는 트랙에 레트로 감성이 더해진 멜로디가 조화를 이루며, 중독성 강한 후렴구가 귀에 맴도는 댄스 팝 곡이다. 밤새도록 전화 통화를 이어가고 싶은 풋풋한 설렘을 '아무 말 파티', '끝말잇기'에 비유해 재치있게 풀어냈다.**
+**신스 사운드가 돋보이는 트랙에 레트로 감성이 더해진 멜로디가 조화를 이루며, 중독성 강한 후렴구가 귀에 맴도는 댄스 팝 곡이다. 밤새도록 전화 통화를 이어가고 싶은 풋풋한 설렘을 '아무 말 파티', '끝말잇기'에 비유해 재치있게 풀어냈다.**
 
 [ 가사 보기 ]
 
@@ -285,18 +285,18 @@ Duduru Dudu Duru Duru Duru Dudu Du-du
 
 #### 뮤직 비디오
 
-**Talk & Talk
-M/V Teaser 1**
+**Talk & Talk**
+**M/V Teaser 1**
 
 [▶ YouTube](https://www.youtube.com/watch?v=eNFgcj1bxEs)
 
-**Talk & Talk
-M/V Teaser 2**
+**Talk & Talk**
+**M/V Teaser 2**
 
 [▶ YouTube](https://www.youtube.com/watch?v=9xJFw4oZIoA)
 
-**Talk & Talk
-Music Video**
+**Talk & Talk**
+**Music Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=BjmmvBMXbSU)
 
@@ -304,37 +304,37 @@ Music Video**
 
 #### 스페셜 비디오
 
-**Talk & Talk
-Special Video**
+**Talk & Talk**
+**Special Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=bRxO_AQK9Rg)
 
-**Talk & Talk
-Special Video (Halloween Ver.)**
+**Talk & Talk**
+**Special Video (Halloween Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=PI65X5t7ozU)
 
-**Talk & Talk
-Performance Video**
+**Talk & Talk**
+**Performance Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=aN2b-4MpIuc)
 
 #### 안무 영상
 
-**Talk & Talk
-Choreography Video**
+**Talk & Talk**
+**Choreography Video**
 
 [▶ YouTube](https://www.youtube.com/watch?v=lrsFRKpgZLY)
 
-**Talk & Talk
-Choreography Video (한복 Ver.)**
+**Talk & Talk**
+**Choreography Video (한복 Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=iq4rsg8umEs)
 
 #### 교차 편집
 
-**Talk & Talk
-Stage Mix (M COUNTDOWN Ver.)**
+**Talk & Talk**
+**Stage Mix (M COUNTDOWN Ver.)**
 
 [▶ YouTube](https://www.youtube.com/watch?v=4xYfkM-4MYo)
 
@@ -385,13 +385,13 @@ Stage Mix (M COUNTDOWN Ver.)**
 
 | **날짜** | **Melon 일간 이용자 수 추이** |  |  | **Genie 실시간/일간 순위** |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | **순위**[M] | **이용자 수**[M] | **이용자 수 증감**[M] | **최고 실시간<br>순위**[G] | **최저 실시간<br>순위**[G] | **평균 실시간<br>순위**[G2] | **일간 이용자수<br>순위**[G3] |
+|  | **순위**[M] | **이용자 수**[M] | **이용자 수 증감**[M] | **최고 실시간**<br>**순위**[G] | **최저 실시간**<br>**순위**[G] | **평균 실시간**<br>**순위**[G2] | **일간 이용자수**<br>**순위**[G3] |
 | 2021.09.01. | 204 | 29,962 | - | 80 | 117 | 103 | 9,137 |
 | 2021.09.02. | 259 (-55) | 26,780 | -3,182 | 114 (-34) | 246 (-129) | 191 (-88) | 18,335<br>(+9,198) |
 | 2021.09.03. | 359 (-100) | 22,952 | -3,828 | 244 | Out (-54-@) | 284+@<br>(-93-@) | 23,060<br>(+ 4,725) |
 | 2021.09.04. | 367 (-8) | 21,139 | -1,813 | 차트 미진입 |  |  | 24,947<br>(+ 1,887) |
 | **날짜** | **FLO 차트 추이** |  |  | **Bugs 순위 추이** |  |  |  |
-|  | **최고 24시간<br>순위**[F] | **최저 24시간<br>순위**[F] | **평균 24시간<br>순위**[F2] | **최고 실시간<br>순위**[B] | **최저 실시간<br>순위**[B] | **평균 실시간<br>순위**[B2] | **일간 순위**[B3] |
+|  | **최고 24시간**<br>**순위**[F] | **최저 24시간**<br>**순위**[F] | **평균 24시간**<br>**순위**[F2] | **최고 실시간**<br>**순위**[B] | **최저 실시간**<br>**순위**[B] | **평균 실시간**<br>**순위**[B2] | **일간 순위**[B3] |
 | 2021.09.01. | 차트 미진입 |  |  | **1** | 11 | 8 | 5 |
 | 2021.09.02. |  |  |  | 2 (-1) | 102 (-91) | 39 (-31) | 17 (-12) |
 | 2021.09.03. |  |  |  | **1** (+1) | 116 (-14) | 28 (+11) | 12 (+5) |
@@ -401,7 +401,7 @@ Stage Mix (M COUNTDOWN Ver.)**
 
 | **날짜** | **Melon 일간 이용자 수 추이** |  |  | **Genie 실시간/일간 순위** |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | **순위**[M] | **이용자 수**[M] | **이용자 수 증감**[M] | **최고 실시간<br>순위**[G] | **최저 실시간<br>순위**[G] | **평균 실시간<br>순위**[G2] | **일간 이용자수<br>순위**[G3] |
+|  | **순위**[M] | **이용자 수**[M] | **이용자 수 증감**[M] | **최고 실시간**<br>**순위**[G] | **최저 실시간**<br>**순위**[G] | **평균 실시간**<br>**순위**[G2] | **일간 이용자수**<br>**순위**[G3] |
 | 2021.09.05. | 314 (+53) | 23,527 | +2,388 | 246 (+4+@) | Out (-@) | 246+@<br>(+@) | 26,334<br>(+ 1,387) |
 | 2021.09.06. | 311 (+3) | 23,653 | +126 | 차트 미진입 |  |  | 29,883<br>(+ 3,549) |
 | 2021.09.07. | 302 (+9) | 23,963 | +310 |  |  |  | 31,488<br>(+1,605) |
@@ -410,7 +410,7 @@ Stage Mix (M COUNTDOWN Ver.)**
 | 2021.09.10. | 381 (-24) | 22,560 | -555 |  |  |  | 35,970<br>(+1,028) |
 | 2021.09.11. | 381 (-) | 21,218 | -1,342 |  |  |  | 36,780<br>(+810) |
 | **날짜** | **FLO 차트 추이** |  |  | **Bugs 순위 추이** |  |  |  |
-|  | **최고 24시간<br>순위**[F] | **최저 24시간<br>순위**[F] | **평균 24시간<br>순위**[F2] | **최고 실시간<br>순위**[B] | **최저 실시간<br>순위**[B] | **평균 실시간<br>순위**[B2] | **일간 순위**[B3] |
+|  | **최고 24시간**<br>**순위**[F] | **최저 24시간**<br>**순위**[F] | **평균 24시간**<br>**순위**[F2] | **최고 실시간**<br>**순위**[B] | **최저 실시간**<br>**순위**[B] | **평균 실시간**<br>**순위**[B2] | **일간 순위**[B3] |
 | 2021.05.23. | 차트 미진입 |  |  | 46 (-23) | Out (-) | 96+@ (+19) | 74 (+17) |
 | 2021.09.06. |  |  |  | 53 (-6) | Out | 85+@<br>(+2+@) | 96 (-13) |
 | 2021.09.07. |  |  |  | 31 (+22) | Out | 79+@<br>(+6+@) | 88 (+8) |
@@ -428,14 +428,14 @@ Stage Mix (M COUNTDOWN Ver.)**
 | **〈Talk & Talk〉 초동 판매량** |  |  |  |
 | --- | --- | --- | --- |
 | **날짜** | **일간 판매량** | **누적 판매량** | **비고** |
-| 9월 1일 (1일차) | **3,1**장** |  | 앨범 발매 |
-| 9월 2일 (2일차) | 5,6**장 | **8,8**장** |  |
-| 9월 3일 (3일차) | 5**장 | **9,3**장** |  |
-| 9월 4일 (4일차) | 7*장 | **9,4**장** |  |
-| 9월 5일 (5일차) | 8**장 | **10,2**장** | **1만 장 돌파** |
-| 9월 6일 (6일차) | 7**장 | **10,9**장** |  |
-| 9월 7일 (7일차) | 1**장 | **11,1**장** |  |
-| **초동 판매량** | **11,1**장** |  |  |
+| 9월 1일 (1일차) | **3,1장** |  | 앨범 발매 |
+| 9월 2일 (2일차) | 5,6**장 | **8,8장** |  |
+| 9월 3일 (3일차) | 5**장 | **9,3장** |  |
+| 9월 4일 (4일차) | 7*장 | **9,4장** |  |
+| 9월 5일 (5일차) | 8**장 | **10,2장** | **1만 장 돌파** |
+| 9월 6일 (6일차) | 7**장 | **10,9장** |  |
+| 9월 7일 (7일차) | 1**장 | **11,1장** |  |
+| **초동 판매량** | **11,1장** |  |  |
 | * 순위 및 기록은 집계 종료일 당시를 기준으로 한다. |  |  |  |
 
 #### 월간 판매량
@@ -472,28 +472,28 @@ Stage Mix (M COUNTDOWN Ver.)**
 
 ## 관련 영상
 
-**Talk & Talk
-MV Making**
+**Talk & Talk**
+**MV Making**
 
 [▶ YouTube](https://www.youtube.com/watch?v=5VrcM4l8K84)
 
-**Talk & Talk
-MV Reaction**
+**Talk & Talk**
+**MV Reaction**
 
 [▶ YouTube](https://www.youtube.com/watch?v=OZru49uXpJg)
 
-**Talk & Talk
-첫 1위 소감**
+**Talk & Talk**
+**첫 1위 소감**
 
 [▶ YouTube](https://www.youtube.com/watch?v=_UoXrXQd0oo)
 
-**Talk & Talk
-촬영 비하인드**
+**Talk & Talk**
+**촬영 비하인드**
 
 [▶ YouTube](https://www.youtube.com/watch?v=yXi-4R8et68)
 
-**Talk & Talk
-Recording Behind**
+**Talk & Talk**
+**Recording Behind**
 
 [▶ YouTube](https://www.youtube.com/watch?v=54C4BN4yWO0)
 
