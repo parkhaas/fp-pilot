@@ -609,6 +609,7 @@
 
     if (about) {
       paintHistoryChart();
+      bindHistoryTable();
       loadVisitCount();
     }
     paintIcons();
@@ -1197,6 +1198,43 @@
     });
   }
 
+  // 수집 이력 표: 행 펼치기(추가된 영상 제목), "더 보기"로 오래된 회차 전체 보기
+  function bindHistoryTable() {
+    const wrap = document.getElementById("historyChartWrapper");
+    if (!wrap) return;
+    const toggleRow = (tr) => {
+      const d = wrap.querySelector(`tr[data-hist-detail="${tr.dataset.hist}"]`);
+      if (!d) return;
+      const open = d.hidden;
+      d.hidden = !open;
+      tr.setAttribute("aria-expanded", String(open));
+    };
+    wrap.addEventListener("click", (e) => {
+      if (e.target.closest("a")) return;
+      const tr = e.target.closest("tr.has-detail");
+      if (tr) return toggleRow(tr);
+      const btn = e.target.closest("#historyExpandBtn");
+      if (btn) {
+        const more = btn.getAttribute("aria-expanded") !== "true";
+        wrap.querySelectorAll("tr[data-old]").forEach((r) => {
+          r.hidden = !more;
+          if (!more) {
+            r.setAttribute("aria-expanded", "false");
+            const d = wrap.querySelector(`tr[data-hist-detail="${r.dataset.hist}"]`);
+            if (d) d.hidden = true;
+          }
+        });
+        btn.setAttribute("aria-expanded", String(more));
+        btn.textContent = more ? "접기" : btn.dataset.label;
+      }
+    });
+    wrap.addEventListener("keydown", (e) => {
+      if (e.key !== "Enter" && e.key !== " ") return;
+      const tr = e.target.closest("tr.has-detail");
+      if (tr) { e.preventDefault(); toggleRow(tr); }
+    });
+  }
+
   function buildHistoryChart() {
     const history = state.meta.history || [];
     if (!history.length || history.length < 2) {
@@ -1218,23 +1256,36 @@
         return `<div class="delta-card"><b>${label}</b><br />${count}</div>`;
       }).join("");
 
-    // 이력 테이블
-    const tableHtml = displayData.slice().reverse().map(item => {
-      const topItemCat = getTopCategory(item.delta);
+    // 이력 테이블: 행을 누르면 그 회차에 추가된 영상 제목이 펼쳐진다. 영상의 addedAt 을 가장 가까운 수집 시점(5분 여유)에 묶는다.
+    const addedBy = history.map(() => []);
+    const stamps = history.map((h) => Date.parse(h.timestamp));
+    for (const v of state.videos) {
+      if (!v.addedAt) continue;
+      const t = Date.parse(v.addedAt) - 5 * 60 * 1000;
+      const i = stamps.findIndex((x) => x >= t);
+      if (i >= 0 && Date.parse(v.addedAt) - stamps[i] < 3 * 60 * 60 * 1000) addedBy[i].push(v);
+    }
+    const recentStart = history.length - displayCount;
+    const tableHtml = history.map((item, idx) => ({ item, idx })).reverse().map(({ item, idx }) => {
       const catList = Object.entries(item.delta || {})
         .sort((a, b) => b[1] - a[1])
         .slice(0, 3)
         .map(([cat, count]) => `${catLabel(cat)}(${count})`)
         .join(", ");
-
+      const vids = addedBy[idx];
+      const hidden = idx < recentStart ? " hidden" : "";
       const ts = item.timestamp.slice(0, 10);
+      const toggle = vids.length ? ` class="history-row has-detail" data-hist="${idx}" tabindex="0" aria-expanded="false"` : ` class="history-row"`;
+      const detail = vids.length
+        ? `<tr class="history-detail" data-hist-detail="${idx}" hidden><td colspan="4"><ul>${vids.map((v) => `<li><span class="hd-cat">${escapeHtml(catLabel(v.category))}</span><a href="https://www.youtube.com/watch?v=${escapeHtml(v.videoId)}" target="_blank" rel="noopener noreferrer">${escapeHtml(v.title)}</a></li>`).join("")}</ul></td></tr>`
+        : "";
       return `
-        <tr>
+        <tr${toggle}${hidden ? " data-old" : ""}${hidden}>
           <td>${ts}</td>
           <td>+${item.added}</td>
           <td>${item.total.toLocaleString("ko")}</td>
-          <td style="font-size: 0.8rem; color: var(--text-3);">${catList}</td>
-        </tr>`;
+          <td style="font-size: 0.8rem; color: var(--text-3);">${catList}${vids.length ? '<i class="hd-chev" aria-hidden="true"></i>' : ""}</td>
+        </tr>${detail}`;
     }).join("");
 
     return `
@@ -1248,12 +1299,12 @@
               <th>날짜</th>
               <th>추가</th>
               <th>합계</th>
-              <th>상위 카테고리</th>
+              <th>상위 카테고리 <span class="hist-hint">(행을 누르면 추가된 영상)</span></th>
             </tr>
           </thead>
           <tbody>${tableHtml}</tbody>
         </table>
-        ${history.length > displayCount ? `<button class="history-expand-btn" id="historyExpandBtn">더 보기 (전체 ${history.length}회)</button>` : ""}
+        ${history.length > displayCount ? `<button class="history-expand-btn" id="historyExpandBtn" aria-expanded="false" data-label="더 보기 (전체 ${history.length}회)">더 보기 (전체 ${history.length}회)</button>` : ""}
       </div>`;
   }
 

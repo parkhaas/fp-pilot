@@ -1381,3 +1381,17 @@ a.dg-ig::before, a.dg-tt::before, a.dg-fb::before, a.dg-nv::before, a.dg-xhs::be
   .dg-member-hero { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   .dg-hero-photo { position: static; max-width: 300px; margin: 0 auto; }
 }
+
+/* 수집 이력: 행 펼치기 */
+.history-table tr[hidden] { display: none; }
+.history-row.has-detail { cursor: pointer; }
+.history-row.has-detail:focus-visible { outline: 2px solid var(--brand); outline-offset: -2px; }
+.history-table .hist-hint { font-weight: 500; color: var(--text-3); font-size: 0.75rem; }
+.hd-chev { display: inline-block; width: 7px; height: 7px; margin-left: 8px; border-right: 2px solid var(--text-3); border-bottom: 2px solid var(--text-3); transform: rotate(45deg) translateY(-2px); transition: transform 0.15s ease; }
+.history-row[aria-expanded="true"] .hd-chev { transform: rotate(-135deg) translateY(-2px); }
+.history-detail td { padding: 4px 10px 12px; background: var(--surface-2); }
+.history-detail ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.history-detail li { display: flex; gap: 8px; align-items: baseline; font-size: 0.84rem; line-height: 1.5; }
+.history-detail .hd-cat { flex: none; padding: 1px 8px; border-radius: 6px; background: var(--brand-weak); color: var(--brand-strong); font-size: 0.72rem; font-weight: 650; }
+.history-detail a { color: var(--text); text-decoration: none; min-width: 0; overflow-wrap: anywhere; }
+.history-detail a:hover { color: var(--brand-strong); text-decoration: underline; }
