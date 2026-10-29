@@ -169,17 +169,20 @@
     const sec = (s, open) =>
       `<details class="dg-sec"${open ? " open" : ""}><summary><span>${esc(s.title)}</span><i data-lucide="chevron-down" class="dg-chev"></i></summary><div class="dg-prose">${s.html}</div></details>`;
     const toc = d.sections.length > 1 ? `<p class="dg-doc-count">${d.sections.length}개 항목 · 눌러서 펼치기</p>` : "";
+    const headInner =
+      `<p class="dg-kind">${esc(d.label)}</p><h2 class="dg-hero-title">${esc(d.title)}</h2>` +
+      (d.info && (d.info.name.hanja || d.info.name.en) ? `<p class="dg-names">${[d.info.name.hanja, d.info.name.en].filter(Boolean).map(esc).join(" <span>｜</span> ")}</p>` : "") +
+      (d.updated ? `<p class="dg-meta"><span>원문 최근 수정 ${esc(d.updated)}</span></p>` : "");
+    const head = `<header class="dg-doc-head">${headInner}</header>`;
     return {
       title: d.title,
       html:
         `<a class="dg-back" href="${href()}" data-album=""><i data-lucide="arrow-left"></i>Discography</a>` +
-        `<header class="dg-doc-head${d.profile ? " has-photo" : ""}">` +
-        (d.profile ? `<img class="dg-doc-photo" src="${BASE + d.profile}" alt="${esc(d.title)} 프로필 사진">` : "") +
-        `<div><p class="dg-kind">${esc(d.label)}</p><h2 class="dg-hero-title">${esc(d.title)}</h2>` +
-        (d.info && (d.info.name.hanja || d.info.name.en) ? `<p class="dg-names">${[d.info.name.hanja, d.info.name.en].filter(Boolean).map(esc).join(" <span>｜</span> ")}</p>` : "") +
-        (d.updated ? `<p class="dg-meta"><span>원문 최근 수정 ${esc(d.updated)}</span></p>` : "") +
-        `</div></header>` +
-        (d.info ? profileCard(d.info) : "") +
+        (d.profile && d.info
+          ? `<div class="dg-member-hero"><img class="dg-hero-photo" src="${BASE + d.profile}" alt="${esc(d.title)} 프로필 사진"><div class="dg-hero-side">${head}${profileCard(d.info)}</div></div>`
+          : `<header class="dg-doc-head${d.profile ? " has-photo" : ""}">` +
+            (d.profile ? `<img class="dg-doc-photo" src="${BASE + d.profile}" alt="${esc(d.title)} 프로필 사진">` : "") +
+            `<div>${headInner}</div></header>` + (d.info ? profileCard(d.info) : "")) +
         (d.summary ? `<div class="dg-prose dg-summary dg-doc-summary">${d.summary}</div>` : "") +
         toc +
         d.sections.map((s, i) => sec(s, i === 0)).join("") +

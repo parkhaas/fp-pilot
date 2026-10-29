@@ -54,6 +54,37 @@ const resolvable = (url) => {
   return !!(LINKS.docs[k] || LINKS.docs[norm(t)] || LINKS.albums[k]);
 };
 
+/* X(트위터)·YouTube 링크에 앱 아이콘 클래스를 붙인다. 글자가 "X Corp"·"▶ YouTube"·"#" 처럼 이름표뿐이면 글자를 지우고 아이콘만 남긴다. */
+const BRANDS = [
+  { cls: "dg-x", host: /^(www[.]|mobile[.])?(x|twitter)[.]com$/, label: "X (트위터)", bare: /^(X Corp[.]?|X|트위터|Twitter|#)?$/i },
+  { cls: "dg-yt", host: /^((www|m)[.])?youtube[.]com$|^youtu[.]be$/, label: "YouTube", bare: /^(▶ *)?(YouTube|유튜브|영상 보기|영상|#)?$/i },
+  { cls: "dg-ig", host: /(^|[.])instagram[.]com$/, label: "인스타그램", bare: /^(인스타그램|Instagram|인스타|#)?$/i },
+  { cls: "dg-tt", host: /(^|[.])(tiktok|douyin)[.]com$/, label: "틱톡", bare: /^(틱톡|TikTok|抖音|도우인|#)?$/i },
+  { cls: "dg-fb", host: /(^|[.])facebook[.]com$/, label: "페이스북", bare: /^(페이스북|Facebook|#)?$/i },
+  { cls: "dg-nv", host: /^(m[.])?tv[.]naver[.]com$/, label: "네이버TV", bare: /^(네이버 *TV|네이버TV|#)?$/i },
+  { cls: "dg-xhs", host: /(^|[.])xiaohongshu[.]com$/, label: "샤오훙슈", bare: /^(샤오홍슈|샤오훙슈|小红书|Xiaohongshu|#)?$/i },
+];
+function brandLinks(html) {
+  const $ = cheerio.load(`<div id="r">${html}</div>`, null, false);
+  $("#r a[href]").each((i, a) => {
+    let host = "";
+    try { host = new URL($(a).attr("href")).hostname; } catch { return; }
+    const b = BRANDS.find((x) => x.host.test(host));
+    if (!b) return;
+    $(a).addClass(b.cls);
+    $(a).find("i[data-lucide=play]").remove();
+    if (!$(a).hasClass("dg-vid") && b.bare.test($(a).text().trim()) && !$(a).find("img").length) {
+      $(a).empty().attr("aria-label", b.label).attr("title", b.label).addClass("dg-brand-only");
+    }
+  });
+  return $("#r").html();
+}
+
+/* 나무위키 각주 번호 흔적("[15]", "[2]")을 지운다. 태그 사이의 글자에서만 찾는다. */
+function stripFootnotes(html) {
+  return html.replace(/>([^<]*)</g, (m, t) => ">" + t.replace(/ *[[][0-9]{1,3}[\]]/g, "") + "<");
+}
+
 function sanitize(html) {
   const $ = cheerio.load(`<div id="r">${html}</div>`, null, false);
   $("#r *").each((i, e) => {
@@ -167,7 +198,7 @@ function mdToHtml(md) {
     .replace(/!\[([^\]]*)\]\([^)]*\)/g, (m, alt) => (/로고\s*$|로고[ (]/.test(alt) ? alt.replace(/\([^)]*\)/g, "").replace(/\s*로고.*$/, "").trim() : ""))
     .replace(/^\[ (?:펼치기 · 접기|펼치기|접기) \]\s*$/gm, "")
     .replace(/(\S)\[\d{1,3}\](?!\()/g, "$1"); // 각주 번호([13] 등)는 각주 본문을 싣지 않으므로 뺀다
-  return sanitize(marked.parse(noImg, { gfm: true, breaks: false })).replace(/@@FLAG:([^:@]+):([^@]*)@@/g, (m, n, label) => flagImg(n, label));
+  return stripFootnotes(brandLinks(sanitize(marked.parse(noImg, { gfm: true, breaks: false })).replace(/@@FLAG:([^:@]+):([^@]*)@@/g, (m, n, label) => flagImg(n, label))));
 }
 
 const plain = (s) =>
@@ -351,7 +382,7 @@ function memberSection(md, profilePath) {
       link(img ? `<img src="data/discography/${img}" alt="${m.name} 프로필 사진" loading="lazy" decoding="async">` : `<span class="dg-member-noimg"></span>`, "dg-member-photo") +
       `<div class="dg-member-info"><h4>${link(m.name, "dg-member-name")}</h4>` +
       (m.birth ? `<p class="dg-member-birth">${m.flag ? flagImg(m.flag.name, m.flag.label) : ""}${m.birth.replace(/-/g, ".")} (${ageOf(m.birth)}세)</p>` : "") +
-      (m.pos.length ? `<p class="dg-member-pos">${m.pos.map((p) => `<span>${p}</span>`).join("")}</p>` : "") +
+      (m.pos.length ? `<p class="dg-member-pos">${m.pos.map((p) => `<span>${p.replace(/ *[[][0-9]{1,3}[\]]/g, "")}</span>`).join("")}</p>` : "") +
       (m.left ? `<p class="dg-member-left">탈퇴 ${m.left.replace(/-/g, ".")}</p>` : "") +
       `</div></li>`
     );
@@ -430,6 +461,7 @@ function buildInfo(slug, info, signFiles) {
     // 상징 색: 색 견본을 붙인다
     if (/상징\s*색/.test(r.k)) html = html.replace(/(#[0-9A-Fa-f]{6})/, '<i class="dg-swatch" style="background:$1"></i>$1');
     if (!html.replace(/<[^>]*>/g, "").trim() && !/<img/.test(html)) continue;
+    html = brandLinks(html);
     rows.push({ k: r.k, html });
     // 출생 아래에는 계산한 별자리를 덧붙인다 (원문 표에는 따로 없다)
     if (r.k === "출생") {
