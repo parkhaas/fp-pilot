@@ -42,6 +42,9 @@
     return `<img class="${cls || ""}" src="${BASE + a.cover.file}" width="${a.cover.w}" height="${a.cover.h}" alt="${esc(a.title)} 앨범 커버" loading="lazy" decoding="async" />`;
   }
 
+  // 커버 대표색(빌드가 뽑아 둔다)을 --ac 로 넘겨 카드 그림자·상세 화면 강조색에 쓴다
+  const accentStyle = (a) => (a.cover && /^#[0-9a-f]{6}$/i.test(a.cover.accent || "") ? ` style="--ac:${a.cover.accent}"` : "");
+
   function kindLine(a) {
     return [a.seq, a.label].filter(Boolean).map(esc).join(" · ");
   }
@@ -93,7 +96,7 @@
     const tt = a.titleTracks.length ? `<p class="dg-tt"><span>타이틀곡</span>${a.titleTracks.map(esc).join(", ")}</p>` : "";
     const canOpen = a.tracks.length > 0;
     return (
-      `<article class="dg-card${a.status === "cancelled" ? " is-cancelled" : ""}" data-id="${esc(a.id)}">` +
+      `<article class="dg-card${a.status === "cancelled" ? " is-cancelled" : ""}" data-id="${esc(a.id)}"${accentStyle(a)}>` +
       `<a class="dg-cover" href="${href(a.id)}" data-album="${esc(a.id)}" tabindex="-1" aria-hidden="true">${coverImg(a)}</a>` +
       `<div class="dg-body">` +
       `<p class="dg-kind">${kindLine(a)}</p>` +
@@ -168,7 +171,22 @@
     }
     const sec = (s, open) =>
       `<details class="dg-sec"${open ? " open" : ""}><summary><span>${esc(s.title)}</span><i data-lucide="chevron-down" class="dg-chev"></i></summary><div class="dg-prose">${s.html}</div></details>`;
-    const toc = d.sections.length > 1 ? `<p class="dg-doc-count">${d.sections.length}개 항목 · 눌러서 펼치기</p>` : "";
+    const isMember = d.kind === "member";
+    // 멤버 문서: 접고 펼치는 큰 카드 대신, 소제목(h3)마다 따로 카드를 만들어 쭉 늘어놓는다. 활동 표는 행마다 카드(빌드가 만든다).
+    const part = (sc) => {
+      const cards = sc.html
+        .split(/(?=<h3>)/)
+        .map((c) => {
+          const m = c.match(/^<h3>([\s\S]*?)<\/h3>\s*([\s\S]*)$/);
+          const body = m ? m[2] : c;
+          if (!body.replace(/<[^>]*>/g, "").trim() && !/<(img|table|a )/.test(body)) return "";
+          const wide = /dg-rows|<table/.test(body);
+          return `<article class="dg-subcard${wide ? " is-wide" : ""}${m ? "" : " is-lead"}">${m ? `<h4 class="dg-subcard-h">${m[1]}</h4>` : ""}<div class="dg-prose">${body}</div></article>`;
+        })
+        .join("");
+      return `<section class="dg-part"><h3 class="dg-part-h">${esc(sc.title)}</h3><div class="dg-subs">${cards}</div></section>`;
+    };
+    const toc = !isMember && d.sections.length > 1 ? `<p class="dg-doc-count">${d.sections.length}개 항목 · 눌러서 펼치기</p>` : "";
     const headInner =
       `<p class="dg-kind">${esc(d.label)}</p><h2 class="dg-hero-title">${esc(d.title)}</h2>` +
       (d.info && (d.info.name.hanja || d.info.name.en) ? `<p class="dg-names">${[d.info.name.hanja, d.info.name.en].filter(Boolean).map(esc).join(" <span>｜</span> ")}</p>` : "") +
@@ -185,7 +203,7 @@
             `<div>${headInner}</div></header>` + (d.info ? profileCard(d.info) : "")) +
         (d.summary ? `<div class="dg-prose dg-summary dg-doc-summary">${d.summary}</div>` : "") +
         toc +
-        d.sections.map((s, i) => sec(s, i === 0)).join("") +
+        (isMember ? d.sections.map(part) : d.sections.map((x, i) => sec(x, i === 0))).join("") +
         `<p class="dg-source">이 문서는 <a href="${esc(d.source.url)}" target="_blank" rel="noopener noreferrer">나무위키 ‘${esc(d.source.title)}’</a>의 내용을 ` +
         `<a href="https://creativecommons.org/licenses/by-nc-sa/2.0/kr/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 2.0 KR</a> 조건에 따라 정리한 것입니다(원 저작자: 나무위키 기여자, 비영리, 동일 조건 공유).</p>`,
     };
@@ -223,6 +241,10 @@
     const sec = (title, html, open) =>
       `<details class="dg-sec"${open ? " open" : ""}><summary><span>${esc(title)}</span><i data-lucide="chevron-down" class="dg-chev"></i></summary><div class="dg-prose">${html}</div></details>`;
 
+    // 접고 펼치는 대신 장(章)으로 쭉 늘어놓는다: 제목은 한쪽에 붙어 있고, 내용이 반대쪽에서 들어온다. 짝수 장은 좌우가 뒤집힌다.
+    const chap = (title, html, k, cls) =>
+      `<section class="dg-chap${k % 2 ? " is-flip" : ""}${cls ? " " + cls : ""}"><h3 class="dg-chap-h"><span>${esc(title)}</span></h3><div class="dg-chap-body">${html}</div></section>`;
+
     const nav = indexData.albums;
     const i = nav.findIndex((x) => x.id === a.id);
     const newer = nav[i - 1];
@@ -233,20 +255,20 @@
         : "<span></span>";
 
     return (
+      `<div class="dg-album"${accentStyle(a)}>` +
       `<a class="dg-back" href="${href()}" data-album=""><i data-lucide="arrow-left"></i>Discography</a>` +
-      `<header class="dg-hero">${coverImg(a, "dg-hero-cover")}` +
+      `<header class="dg-hero"><div class="dg-marquee" aria-hidden="true"><span>${esc(a.title)}</span><span>${esc(a.title)}</span><span>${esc(a.title)}</span></div>${coverImg(a, "dg-hero-cover")}` +
       `<div class="dg-hero-info"><p class="dg-kind">${kindLine(a)}</p><h2 class="dg-hero-title">${esc(a.title)}</h2>` +
       `<p class="dg-meta">${metaLine(a)}</p>` +
       (a.titleTracks.length ? `<p class="dg-tt"><span>타이틀곡</span>${a.titleTracks.map(esc).join(", ")}</p>` : "") +
       (d && d.summary ? `<div class="dg-prose dg-summary">${d.summary}</div>` : "") +
       `</div></header>` +
       (a.note ? `<div class="dg-prose dg-notice">${a.note}</div>` : "") +
-      (a.tracks.length
-        ? sec("수록곡", trackList(a, d && d.trackNotes), true)
-        : "") +
-      intro.map((s) => sec(s.title, s.html, true)).join("") +
-      rest.map((s) => sec(s.title, s.html, false)).join("") +
-      `<nav class="dg-pager" aria-label="앨범 이동">${pn(newer, "prev")}${pn(older, "next")}</nav>` +
+      `<div class="dg-chaps">` +
+      (a.tracks.length ? chap("수록곡", trackList(a, d && d.trackNotes), 0, "dg-chap-tracks") : "") +
+      intro.concat(rest).map((x, k) => chap(x.title, `<div class="dg-prose">${x.html}</div>`, k + 1)).join("") +
+      `</div>` +
+      `<nav class="dg-pager" aria-label="앨범 이동">${pn(newer, "prev")}${pn(older, "next")}</nav></div>` +
       (a.namu ? `<p class="dg-source">이 앨범의 자세한 문서: <a href="${esc(a.namu.url)}" target="_blank" rel="noopener noreferrer">나무위키 ‘${esc(a.namu.title)}’</a>${d && d.updated ? ` (원문 최근 수정 ${esc(d.updated)})` : ""}</p>` : "") +
       sourceNote
     );

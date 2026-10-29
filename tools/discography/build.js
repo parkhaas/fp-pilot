@@ -17,6 +17,8 @@ const path = require("path");
 const crypto = require("crypto");
 const cheerio = require("cheerio");
 const { marked } = require("marked");
+// 나무위키 글의 기간 표기("6월 15일~10월 21일")에서 물결표 한 쌍이 취소선으로 해석되던 것을 막는다: 취소선 대신 글자 그대로 되돌려 쓴다
+marked.use({ renderer: { del(text) { return "~" + text + "~"; } } });
 const sharp = require("sharp");
 const { hidePointers, isPointerOnly } = require("./lib/pointers");
 
@@ -82,7 +84,81 @@ function brandLinks(html) {
 
 /* 나무위키 각주 번호 흔적("[15]", "[2]")을 지운다. 태그 사이의 글자에서만 찾는다. */
 function stripFootnotes(html) {
+  // 나무위키의 접기 버튼 글자("[ 펼치기 · 접기 ]")도 같이 지운다: 그것뿐인 표 행·빈 문단까지
+  html = html
+    .replace(/<tr>\s*<td>\s*\[ 펼치기 · 접기 \]\s*(<br>)?\s*<\/td>\s*(<td>\s*<\/td>\s*)*<\/tr>/g, "")
+    .replace(/\[ 펼치기 · 접기 \]\s*(<br>)?/g, "")
+    .replace(/<p>\s*<\/p>/g, "")
+    // 접힌 블록의 제목("[ 데뷔 후 ]")은 작은 구분 표시로
+    .replace(/<p>\s*\[ ([^\]<]{1,14}) \]\s*<\/p>/g, '<p class="dg-fold-label">$1</p>');
   return html.replace(/>([^<]*)</g, (m, t) => ">" + t.replace(/ *[[][0-9]{1,3}[\]]/g, "") + "<");
+}
+
+/* 멤버 문서의 활동 표(날짜 | 방송사 | 프로그램 | 역할 | 비고 …)를 행마다 카드로 바꾼다.
+   표는 칸 너비가 내용에 끌려가 날짜가 두 줄로 꺾이고 짧은 칸에서 이름이 글자째 쪼개졌다. 카드는 칸 너비와 상관없이 읽힌다.
+   연도 행은 소제목, 날짜·방송사·제목·역할·비고를 자리별로 나눠 배치한다. 로고 이미지 글자가 겹친 칸("MBCMBC / MBC / 프로그램")도 정리한다. */
+const RC_DATE = /^(날짜|연도|방영일|출연일|발매일|방송 날짜|수상 연도|호수)$/;
+const RC_TITLE = ["프로그램명", "프로그램", "방송 프로그램", "제목", "콘텐츠", "곡명", "작품", "브랜드명", "광고명", "브랜드", "채널명", "채널"];
+const RC_SRC = /^(방송사|채널|채널명|가수|아티스트|잡지명|기업\/기관|기업명|시상식)$/;
+const RC_CHIP = /^(역할|배역|분류|활동|구분)$/;
+function rowCards(html) {
+  const $ = cheerio.load(`<div id="r">${html}</div>`, null, false);
+  const txt = (x) => x.replace(/<[^>]*>/g, "").replace(/&amp;/g, "&").trim();
+  const dbl = (t) => t.length > 1 && t.length % 2 === 0 && t.slice(0, t.length / 2) === t.slice(t.length / 2);
+  const lines = (h) => {
+    const L = h.split(/<br\s*\/?>\s*/).map((x) => x.trim()).filter((x) => txt(x) || /<img/.test(x));
+    if (L.length >= 2 && dbl(txt(L[0]))) L.shift();
+    if (L.length >= 2 && txt(L[0]) === txt(L[1])) L.shift();
+    return L;
+  };
+  const oneLine = (h) => h.replace(/<br\s*\/?>\s*~\s*<br\s*\/?>/g, " ~ ").replace(/<br\s*\/?>/g, " ").replace(/<\/?strong>/g, "").trim();
+  $("#r table").each((i, t) => {
+    const ths = $(t).find("thead th").toArray().map((th) => $(th).text().replace(/\s+/g, " ").trim());
+    if (ths.length < 3 || !(RC_DATE.test(ths[0]) || /^(분류|기업명)$/.test(ths[0]))) return;
+    let ti = -1;
+    for (const k of RC_TITLE) { const j = ths.indexOf(k); if (j > 0) { ti = j; break; } }
+    if (ti < 0) ti = 1;
+    const si = ths.findIndex((h, j) => j !== ti && j > 0 && RC_SRC.test(h));
+    const groups = [{ head: "", cards: [] }];
+    $(t).find("tbody tr").each((j, tr) => {
+      if ($(tr).hasClass("dg-yearrow") || $(tr).hasClass("dg-titlerow")) {
+        groups.push({ head: $(tr).text().replace(/\s+/g, " ").trim(), cards: [] });
+        return;
+      }
+      const cells = $(tr).children("td,th").toArray().map((c) => $(c).html() || "");
+      if (cells.length < ths.length) return;
+      const date = RC_DATE.test(ths[0]) ? oneLine(cells[0]) : "";
+      let src = si >= 0 ? lines(cells[si])[0] || "" : "";
+      const tl = lines(cells[ti]);
+      let title = tl.join(" ");
+      if (tl.length >= 2 && si < 0) { src = tl[0]; title = tl.slice(1).join(" "); }
+      const chips = [];
+      const notes = [];
+      cells.forEach((c, k) => {
+        if (k === 0 && RC_DATE.test(ths[0])) return;
+        if (k === ti || k === si) return;
+        const v = oneLine(c);
+        if (!txt(v) && !/<a /.test(v)) return;
+        (RC_CHIP.test(ths[k]) ? chips : notes).push(v);
+      });
+      if (!txt(title) && !/<a /.test(title)) title = txt(src) || "";
+      groups[groups.length - 1].cards.push(
+        `<article class="dg-rowcard">` +
+          (date ? `<time class="dg-rc-date">${date}</time>` : "") +
+          (src ? `<p class="dg-rc-src">${src}</p>` : "") +
+          `<h5 class="dg-rc-title">${title}</h5>` +
+          (chips.length ? `<p class="dg-rc-chips">${chips.map((x) => `<span>${x}</span>`).join("")}</p>` : "") +
+          (notes.length ? `<p class="dg-rc-note">${notes.join(" · ")}</p>` : "") +
+          `</article>`
+      );
+    });
+    const body = groups
+      .filter((g) => g.cards.length)
+      .map((g) => (g.head ? `<h4 class="dg-rows-year">${g.head}</h4>` : "") + `<div class="dg-rowcards">${g.cards.join("")}</div>`)
+      .join("");
+    $(t).replaceWith(`<div class="dg-rows">${body}</div>`);
+  });
+  return $("#r").html();
 }
 
 function sanitize(html) {
@@ -139,6 +215,29 @@ function sanitize(html) {
         $(tr).addClass(/^\d{4}/.test(first) ? "dg-yearrow" : "dg-titlerow");
         cells.slice(1).forEach((c) => $(c).remove());
       }
+    });
+  });
+  // 앨범 사양 표(2열: 구분 | 내용, 맨 윗줄은 "Photobook Ver." 같은 제목만): 제목 줄을 한 칸으로 합치고, "- " 로 시작하는 줄은 목록으로 바꾼다
+  $("table").each((i, t) => {
+    const rows = $(t).find("tr").toArray().map((tr) => $(tr).children("th,td").toArray());
+    if (!rows.length || !rows.every((c) => c.length === 2)) return;
+    if (!/(^|[^a-z])ver\.?\s*$|(^|[^a-z])version\s*$/i.test($(rows[0][0]).text().trim()) || $(rows[0][1]).text().trim()) return;
+    $(t).addClass("dg-spec");
+    $(rows[0][0]).attr("colspan", "2");
+    $(rows[0][1]).remove();
+    $(t).find("tr").first().addClass("dg-spec-h");
+    $(t).find("tr").slice(1).each((j, tr) => {
+      const td = $(tr).children("td,th").eq(1);
+      const parts = (td.html() || "").split(/<br\s*\/?>\s*/);
+      if (parts.filter((x) => /^\s*- /.test(x)).length < 2) return;
+      let out = "", list = [];
+      const flush = () => { if (list.length) out += "<ul>" + list.map((x) => `<li>${x}</li>`).join("") + "</ul>"; list = []; };
+      for (const x of parts) {
+        if (/^\s*- /.test(x)) list.push(x.replace(/^\s*- /, "").trim());
+        else { flush(); if (x.trim()) out += `<p>${x.trim()}</p>`; }
+      }
+      flush();
+      td.html(out);
     });
   });
   // 유튜브 링크가 든 표(멤버별 영상 등)는 "이름 + 재생 버튼" 목록으로 바꾼다.
@@ -461,7 +560,7 @@ function buildInfo(slug, info, signFiles) {
     // 상징 색: 색 견본을 붙인다
     if (/상징\s*색/.test(r.k)) html = html.replace(/(#[0-9A-Fa-f]{6})/, '<i class="dg-swatch" style="background:$1"></i>$1');
     if (!html.replace(/<[^>]*>/g, "").trim() && !/<img/.test(html)) continue;
-    html = brandLinks(html);
+    html = stripFootnotes(brandLinks(html));
     rows.push({ k: r.k, html });
     // 출생 아래에는 계산한 별자리를 덧붙인다 (원문 표에는 따로 없다)
     if (r.k === "출생") {
@@ -498,12 +597,33 @@ function splitTrackNotes(md) {
 }
 
 /* ---------- 커버 ---------- */
+// 커버에서 대표색(채도·빈도가 높은 색)을 뽑는다. 앨범 상세 화면의 강조색으로 쓴다.
+async function accentOf(file) {
+  const { data } = await sharp(file).resize(24, 24, { fit: "cover" }).removeAlpha().raw().toBuffer({ resolveWithObject: true });
+  const bins = new Map();
+  for (let i = 0; i < data.length; i += 3) {
+    const [r, g, b] = [data[i], data[i + 1], data[i + 2]];
+    const mx = Math.max(r, g, b), mn = Math.min(r, g, b);
+    const sat = mx === 0 ? 0 : (mx - mn) / mx;
+    if (mx < 70 || sat < 0.28) continue; // 어둡거나 탁한 색은 제외
+    const key = [r, g, b].map((v) => v >> 5).join(",");
+    const e = bins.get(key) || { n: 0, r: 0, g: 0, b: 0, sat: 0 };
+    e.n++; e.r += r; e.g += g; e.b += b; e.sat += sat;
+    bins.set(key, e);
+  }
+  let best = null;
+  for (const e of bins.values()) if (!best || e.n * (e.sat / e.n + 0.5) > best.n * (best.sat / best.n + 0.5)) best = e;
+  if (!best) return "";
+  const hex = [best.r, best.g, best.b].map((v) => Math.round(v / best.n).toString(16).padStart(2, "0")).join("");
+  return "#" + hex;
+}
+
 async function getCover(album) {
   if (!album.coverSource) return null;
   const outFile = path.join(OUT, "covers", album.id + ".webp");
   if (!redoCovers && fs.existsSync(outFile)) {
     const meta = await sharp(outFile).metadata();
-    return { file: `covers/${album.id}.webp`, w: meta.width, h: meta.height };
+    return { file: `covers/${album.id}.webp`, w: meta.width, h: meta.height, accent: await accentOf(outFile) };
   }
   const key = crypto.createHash("sha1").update(album.coverSource).digest("hex");
   const cacheFile = path.join(IMG_CACHE, key);
@@ -519,7 +639,7 @@ async function getCover(album) {
   }
   fs.mkdirSync(path.dirname(outFile), { recursive: true });
   const info = await sharp(buf).resize({ width: 640, withoutEnlargement: true }).webp({ quality: 80 }).toFile(outFile);
-  return { file: `covers/${album.id}.webp`, w: info.width, h: info.height };
+  return { file: `covers/${album.id}.webp`, w: info.width, h: info.height, accent: await accentOf(outFile) };
 }
 
 /* ---------- 실행 ---------- */
@@ -704,8 +824,9 @@ async function getCover(album) {
         hidden.push({ title: s.title, md: s.md });
         continue;
       }
-      const html = d.kind === "group" && s.title === "멤버" ? memberSection(s.md, profilePath) : mdToHtml(s.md);
+      let html = d.kind === "group" && s.title === "멤버" ? memberSection(s.md, profilePath) : mdToHtml(s.md);
       if (!html) continue;
+      if (d.kind === "member") html = rowCards(html);
       if (s.title === "개요") summary = html;
       else sections.push({ id: slugify(s.title) || "sec", title: s.title, html });
     }

@@ -1395,3 +1395,468 @@ a.dg-ig::before, a.dg-tt::before, a.dg-fb::before, a.dg-nv::before, a.dg-xhs::be
 .history-detail .hd-cat { flex: none; padding: 1px 8px; border-radius: 6px; background: var(--brand-weak); color: var(--brand-strong); font-size: 0.72rem; font-weight: 650; }
 .history-detail a { color: var(--text); text-decoration: none; min-width: 0; overflow-wrap: anywhere; }
 .history-detail a:hover { color: var(--brand-strong); text-decoration: underline; }
+
+/* ===== Discography 리디자인: 커버 중심 격자 + 커버 색을 따라가는 상세 화면 ===== */
+.dg-year { display: block; margin-bottom: 52px; }
+.dg-year-h {
+  position: static; display: flex; align-items: baseline; gap: 12px; margin: 0 0 22px; padding: 0 0 12px;
+  border-bottom: 1px solid var(--border); color: var(--text); font-size: 2.2rem;
+}
+.dg-list { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 32px 24px; }
+.dg-card { display: flex; flex-direction: column; padding: 0; border: 0; border-radius: 0; background: none; box-shadow: none; }
+.dg-card:hover { box-shadow: none; border-color: transparent; }
+.dg-cover {
+  width: 100%; height: auto; aspect-ratio: 1; border-radius: 16px;
+  box-shadow: 0 14px 30px -16px color-mix(in srgb, var(--ac, #8a8a92) 80%, transparent), 0 2px 6px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.dg-card:hover .dg-cover { transform: translateY(-4px); box-shadow: 0 22px 36px -16px color-mix(in srgb, var(--ac, #8a8a92) 90%, transparent), 0 2px 6px rgba(0, 0, 0, 0.06); }
+.dg-card:hover .dg-cover img { transform: none; }
+.dg-body { padding: 14px 2px 0; justify-content: flex-start; gap: 3px; }
+.dg-title { font-size: 1.12rem; }
+.dg-card .dg-tt { font-size: 0.8rem; font-weight: 500; color: var(--text-2); }
+.dg-card .dg-tt span { display: none; }
+.dg-card .dg-actions, .dg-card .dg-expand { display: none; }
+@media (max-width: 520px) { .dg-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 14px; } }
+
+/* 앨범 상세 */
+.dg-album { --ac-soft: color-mix(in srgb, var(--ac, var(--brand)) 16%, var(--surface)); }
+.dg-hero {
+  grid-template-columns: minmax(180px, 260px) minmax(0, 1fr); align-items: center; gap: 36px; padding: 32px; margin-bottom: 28px;
+  border: 1px solid color-mix(in srgb, var(--ac, var(--brand)) 28%, var(--border)); border-radius: 28px;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--ac, var(--brand)) 26%, var(--surface)) 0%, var(--surface) 72%);
+}
+.dg-hero-cover { border-radius: 18px; box-shadow: 0 24px 44px -20px color-mix(in srgb, var(--ac, #000) 85%, transparent); }
+.dg-hero-title { font-size: clamp(2.1rem, 1.4rem + 3vw, 3.6rem); }
+.dg-hero .dg-kind { color: color-mix(in srgb, var(--ac, var(--text-3)) 55%, var(--text)); }
+@media (max-width: 720px) { .dg-hero { grid-template-columns: minmax(0, 1fr); padding: 20px; gap: 22px; } .dg-hero-cover { max-width: 240px; } }
+
+/* 앨범 사양 표: 버전마다 한 장의 명세서 */
+.dg-prose table.dg-spec { display: table; width: 100%; max-width: 640px; min-width: 0; margin: 0 0 18px; border: 1px solid var(--border); border-radius: 14px; border-collapse: separate; border-spacing: 0; overflow: hidden; font-size: 0.86rem; }
+.dg-spec th, .dg-spec td { border: 0; border-bottom: 1px solid var(--border); padding: 10px 16px; }
+.dg-spec tr:last-child td { border-bottom: 0; }
+.dg-spec tr.dg-spec-h th { padding: 11px 16px; background: color-mix(in srgb, var(--ac, var(--brand)) 20%, var(--surface)); color: var(--text); font-family: var(--font-display); font-size: 0.95rem; letter-spacing: -0.02em; }
+.dg-spec td:first-child { width: 92px; white-space: nowrap; color: var(--text-3); }
+.dg-spec td:first-child strong { font-weight: 650; }
+.dg-spec ul { margin: 6px 0 0; padding: 0; list-style: none; display: grid; gap: 3px; }
+.dg-spec li { position: relative; padding-left: 14px; color: var(--text-2); line-height: 1.55; }
+.dg-spec li::before { content: ""; position: absolute; left: 2px; top: 0.72em; width: 4px; height: 4px; border-radius: 50%; background: color-mix(in srgb, var(--ac, var(--brand)) 80%, var(--text-3)); }
+.dg-spec td p { margin: 0; }
+
+/* ===== Discography 스크롤 연동 모션 (지원 브라우저 + 동작 줄이기 꺼짐일 때만) ===== */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes dg-rise { from { opacity: 0; transform: translateY(44px) scale(0.95); } to { opacity: 1; transform: none; } }
+    @keyframes dg-slide { from { opacity: 0; transform: translateX(-32px); } to { opacity: 1; transform: none; } }
+    @keyframes dg-parallax { from { transform: translateY(-8%) scale(1.16); } to { transform: translateY(8%) scale(1.16); } }
+    @keyframes dg-hero-cover-out { to { transform: translateY(70px) scale(0.88) rotate(-3deg); } }
+    @keyframes dg-hero-info-out { to { opacity: 0.15; transform: translateY(-34px); } }
+    @keyframes dg-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes dg-rule { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+    /* 목록: 카드가 아래에서 떠오르고(열마다 시차), 커버 안의 그림은 스크롤에 따라 천천히 움직인다 */
+    .dg-card { animation: dg-rise linear both; animation-timeline: view(); animation-range: entry 0% entry 60%; }
+    .dg-card:nth-child(3n + 2) { animation-range: entry 8% entry 68%; }
+    .dg-card:nth-child(3n + 3) { animation-range: entry 16% entry 76%; }
+    .dg-card .dg-cover img { animation: dg-parallax linear both; animation-timeline: view(); animation-range: cover 0% cover 100%; }
+    .dg-year-h { animation: dg-slide linear both; animation-timeline: view(); animation-range: entry 0% entry 45%; position: relative; top: auto; }
+    .dg-year-h::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 2px; background: var(--text); transform-origin: left; animation: dg-rule linear both; animation-timeline: view(); animation-range: entry 10% entry 70%; }
+
+    /* 상세: 위로 스크롤하면 커버는 작아지며 기울고 제목은 흐려진다. 아래 섹션은 순서대로 떠오른다 */
+    .dg-album .dg-hero-cover { animation: dg-hero-cover-out linear both; animation-timeline: scroll(root); animation-range: 0 460px; transform-origin: 50% 100%; }
+    .dg-album .dg-hero-info { animation: dg-hero-info-out linear both; animation-timeline: scroll(root); animation-range: 0 380px; }
+    .dg-album .dg-sec, .dg-album .dg-pager, .dg-album .dg-prose table.dg-spec { animation: dg-rise linear both; animation-timeline: view(); animation-range: entry 0% entry 50%; }
+    .dg-album .dg-prose table.dg-spec { animation-range: entry 0% entry 70%; }
+
+    /* 멤버 문서: 큰 프로필 사진이 스크롤에 따라 살짝 확대 */
+    .dg-hero-photo { animation: dg-photo-zoom linear both; animation-timeline: scroll(root); animation-range: 0 600px; }
+    @keyframes dg-photo-zoom { to { transform: scale(1.035) translateY(-6px); } }
+
+    /* 위쪽 읽기 진행 막대 */
+    :root:has(.dg)::before { content: ""; position: fixed; z-index: 60; left: 0; right: 0; top: 0; height: 3px; background: linear-gradient(90deg, var(--brand), color-mix(in srgb, var(--brand) 55%, #7c5cff)); transform-origin: left; animation: dg-grow linear both; animation-timeline: scroll(root); pointer-events: none; }
+  }
+}
+
+/* ============================================================
+   사이트 전체 모션 — web-animation-design · make-interfaces-feel-better 지침 적용
+   · 들어올 때는 ease-out(빠르게 시작해 안착), 화면 안에서 움직일 때는 ease-in-out, 호버·색은 ease
+   · UI 전환 300ms 이하, 가로·세로 이동은 transform/opacity 만 (layout 을 건드리지 않는다)
+   · 눌렀을 때 scale(0.97), 모든 모션은 동작 줄이기 설정에서 꺼진다
+   ============================================================ */
+:root {
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+/* 글자·숫자·이미지 마감 */
+html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+h1, h2, h3, .grid-head h2, .about-title, .dg-hero-title, .dg-title { text-wrap: balance; }
+.card-title, .about p, .dg-prose p, .about-lead { text-wrap: pretty; }
+.nav-count, .grid-count, .dg-chip span, .crumb-opt b { font-variant-numeric: tabular-nums; }
+.thumb img, .photo-thumb img, .dg-cover img, .dg-hero-cover { outline: 1px solid rgba(0, 0, 0, 0.07); outline-offset: -1px; }
+html.dark .thumb img, html.dark .photo-thumb img, html.dark .dg-cover img, html.dark .dg-hero-cover { outline-color: rgba(255, 255, 255, 0.09); }
+.icon-btn { width: 40px; height: 40px; } /* 최소 터치 영역 40px */
+
+/* 누르면 살짝 눌리는 느낌: 모든 누를 수 있는 컨트롤에 같은 규칙 (색·테두리 전환과 함께 scale 도 부드럽게 돌아온다) */
+.icon-btn, .nav-item, .dg-btn, .dg-chip, .crumb-trigger, .history-expand-btn, .dg-pn, .dg-doc, .card, .photo-thumb {
+  transition-property: background-color, background, color, border-color, box-shadow, transform, scale, opacity, filter;
+  transition-duration: 0.16s;
+  transition-timing-function: var(--ease-out);
+}
+.card, .photo-thumb { transition-duration: 0.22s; }
+.icon-btn:active, .nav-item:active, .dg-btn:active, .dg-chip:active, .crumb-trigger:active, .history-expand-btn:active, .dg-pn:active, .dg-doc:active { scale: 0.97; }
+.card:active, .photo-thumb:active { scale: 0.985; }
+
+/* 테마 토글: 해·달 아이콘이 회전하며 교차한다 (display 전환 대신 opacity·scale·blur) */
+#themeToggle { position: relative; }
+#themeToggle .ico-light, #themeToggle .ico-dark,
+html.dark #themeToggle .ico-light, html.dark #themeToggle .ico-dark {
+  display: block; position: absolute; inset: 0; margin: auto;
+  transition: opacity 0.28s var(--ease-out), transform 0.36s var(--ease-out), filter 0.28s var(--ease-out);
+}
+#themeToggle .ico-light { opacity: 1; transform: none; filter: none; }
+#themeToggle .ico-dark { opacity: 0; transform: rotate(-70deg) scale(0.5); filter: blur(3px); }
+html.dark #themeToggle .ico-light { opacity: 0; transform: rotate(70deg) scale(0.5); filter: blur(3px); }
+html.dark #themeToggle .ico-dark { opacity: 1; transform: none; filter: none; }
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes ff-fade { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes ff-enter { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+  @keyframes ff-pop { from { opacity: 0; transform: translateY(8px) scale(0.96); } to { opacity: 1; transform: none; } }
+  @keyframes ff-menu { from { opacity: 0; transform: translateY(-4px) scale(0.97); } to { opacity: 1; transform: none; } }
+  @keyframes ff-nav-in { from { opacity: 0; transform: translateX(-14px); } to { opacity: 1; transform: none; } }
+
+  /* 화면이 바뀔 때 본문이 아래에서 살짝 올라온다 (한 번, 빠르게) */
+  .content > * { animation: ff-enter 0.34s var(--ease-out) both; }
+
+  /* 서랍: 배경이 흐려지며 열리고, 메뉴 항목이 위에서부터 차례로 들어온다 */
+  .drawer-backdrop { animation: ff-fade 0.22s ease-out both; }
+  .sidebar.is-open .nav > * { animation: ff-nav-in 0.36s var(--ease-out) backwards; }
+    .sidebar.is-open .nav > :nth-child(1) { animation-delay: 68ms; }
+    .sidebar.is-open .nav > :nth-child(2) { animation-delay: 96ms; }
+    .sidebar.is-open .nav > :nth-child(3) { animation-delay: 124ms; }
+    .sidebar.is-open .nav > :nth-child(4) { animation-delay: 152ms; }
+    .sidebar.is-open .nav > :nth-child(5) { animation-delay: 180ms; }
+    .sidebar.is-open .nav > :nth-child(6) { animation-delay: 208ms; }
+    .sidebar.is-open .nav > :nth-child(7) { animation-delay: 236ms; }
+    .sidebar.is-open .nav > :nth-child(8) { animation-delay: 264ms; }
+    .sidebar.is-open .nav > :nth-child(9) { animation-delay: 292ms; }
+    .sidebar.is-open .nav > :nth-child(10) { animation-delay: 320ms; }
+    .sidebar.is-open .nav > :nth-child(11) { animation-delay: 348ms; }
+    .sidebar.is-open .nav > :nth-child(12) { animation-delay: 376ms; }
+    .sidebar.is-open .nav > :nth-child(13) { animation-delay: 404ms; }
+    .sidebar.is-open .nav > :nth-child(14) { animation-delay: 432ms; }
+
+  /* 영상 보기 창 / 빵부스러기 메뉴: 눌린 자리에서 커지며 나타난다 (scale(0)이 아니라 0.96부터) */
+  .modal:not([hidden]) .modal-backdrop { animation: ff-fade 0.2s ease-out both; }
+  .modal:not([hidden]) .modal-panel { animation: ff-pop 0.26s var(--ease-out) both; }
+  .crumb-pop:not([hidden]) { animation: ff-menu 0.16s var(--ease-out) both; transform-origin: top left; }
+}
+
+/* 스크롤 연동: 카드·사진·About 블록이 화면에 들어올 때 떠오르고, 상단 바는 스크롤하면 그림자가 생긴다 */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes ff-reveal { from { opacity: 0; transform: translateY(32px) scale(0.97); } to { opacity: 1; transform: none; } }
+    @keyframes ff-topbar { from { box-shadow: 0 0 0 rgba(17, 17, 26, 0); } to { box-shadow: 0 8px 24px -12px rgba(17, 17, 26, 0.28); } }
+    /* fill 은 backwards 만: 끝난 뒤에는 호버로 올라오는 transform 이 그대로 먹는다 */
+    .grid > .card, .photo-grid > .photo-thumb { animation: ff-reveal linear backwards; animation-timeline: view(); animation-range: entry 0% entry 42%; }
+    .grid > .card:nth-child(even), .photo-grid > .photo-thumb:nth-child(even) { animation-range: entry 6% entry 48%; }
+    .grid > .card:nth-child(3n), .photo-grid > .photo-thumb:nth-child(3n) { animation-range: entry 12% entry 54%; }
+    .about > *, .about-stats > *, .history-chart-wrapper, .photo-group { animation: ff-reveal linear backwards; animation-timeline: view(); animation-range: entry 0% entry 40%; }
+    .topbar { animation: ff-topbar linear both; animation-timeline: scroll(root); animation-range: 0 90px; }
+  }
+}
+
+/* ============================================================
+   펼침/접기 섹션(.dg-sec): 열고 닫을 때 높이가 부드럽게 변하고, 스크롤하면 제목줄이 따라붙고 강조 막대가 자란다
+   ============================================================ */
+@media (prefers-reduced-motion: no-preference) {
+  /* 열기·닫기: 내용이 접힌 높이에서 자연 높이까지 transition (지원 브라우저에서만, 아니면 즉시 열림) */
+  @supports (interpolate-size: allow-keywords) and selector(::details-content) {
+    :root { interpolate-size: allow-keywords; }
+    .dg-sec::details-content, .dg-track::details-content {
+      block-size: 0; overflow: clip; opacity: 0;
+      transition: block-size 0.36s var(--ease-out), opacity 0.22s ease-out, content-visibility 0.36s allow-discrete;
+    }
+    .dg-sec[open]::details-content, .dg-track[open]::details-content { block-size: auto; opacity: 1; }
+    .dg-sec > summary .dg-chev { transition: transform 0.3s var(--ease-out); }
+  }
+
+  /* 펼친 섹션의 제목줄은 읽는 동안 위쪽에 붙어 있다 (긴 수록곡·사양·여담에서 지금 어느 섹션인지 계속 보인다) */
+  .dg-sec[open] > summary { position: sticky; top: 56px; z-index: 5; background: var(--surface); border-radius: var(--radius-lg) var(--radius-lg) 0 0; box-shadow: 0 1px 0 var(--border); }
+  .dg-sec > summary { position: relative; }
+  .dg-sec > summary:hover { color: var(--brand-strong); }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes dg-bar { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+    @keyframes dg-title-in { from { opacity: 0.35; transform: translateX(-14px); } to { opacity: 1; transform: none; } }
+    /* 섹션이 화면에 들어올 때: 떠오르며, 왼쪽 강조 막대(커버 색)가 자라고 제목이 밀려 들어온다 */
+    .dg-detail .dg-sec, .dg-extras .dg-sec { animation: dg-rise linear backwards; animation-timeline: view(); animation-range: entry 0% entry 50%; }
+    .dg-sec > summary::before { content: ""; position: absolute; left: 0; top: 14px; bottom: 14px; width: 3px; border-radius: 0 3px 3px 0; background: var(--ac, var(--brand)); transform-origin: top; animation: dg-bar linear both; animation-timeline: view(); animation-range: entry 10% entry 90%; }
+    .dg-sec > summary > span { animation: dg-title-in linear both; animation-timeline: view(); animation-range: entry 0% entry 60%; }
+  }
+}
+
+/* ============================================================
+   앨범 상세 — 장(章) 구조 · 스크롤 연출
+   접고 펼치는 대신 쭉 이어지는 장면: 제목은 옆에 붙고(sticky), 내용은 좌우에서 번갈아 들어온다
+   ============================================================ */
+.dg-hero { position: relative; overflow: hidden; }
+.dg-hero > *:not(.dg-marquee) { position: relative; z-index: 1; }
+.dg-marquee { position: absolute; left: 0; bottom: -0.2em; z-index: 0; display: flex; gap: 0.5em; white-space: nowrap; pointer-events: none; user-select: none; font-family: var(--font-display); font-weight: 800; font-size: clamp(5rem, 14vw, 11rem); line-height: 1; letter-spacing: -0.05em; color: transparent; -webkit-text-stroke: 1.5px color-mix(in srgb, var(--ac, var(--brand)) 38%, transparent); opacity: 0.8; }
+
+.dg-chaps { display: grid; gap: clamp(36px, 7vw, 84px); margin: clamp(20px, 4vw, 48px) 0; }
+.dg-chap { display: grid; grid-template-columns: minmax(150px, 220px) minmax(0, 1fr); gap: 28px 40px; align-items: start; }
+.dg-chap.is-flip { grid-template-columns: minmax(0, 1fr) minmax(150px, 220px); }
+.dg-chap.is-flip .dg-chap-h { order: 2; text-align: right; }
+.dg-chap-h { position: sticky; top: 92px; margin: 0; font-family: var(--font-display); font-size: clamp(1.5rem, 1rem + 1.8vw, 2.3rem); font-weight: 800; letter-spacing: -0.045em; line-height: 1.15; text-wrap: balance; }
+.dg-chap-h span { display: inline-block; padding-top: 12px; border-top: 3px solid var(--ac, var(--brand)); }
+.dg-chap-body { min-width: 0; padding: clamp(18px, 3vw, 30px); border: 1px solid var(--border); border-radius: 24px; background: var(--surface); box-shadow: var(--shadow-sm); }
+.dg-chap-body > .dg-prose, .dg-chap-body > .dg-tracklist { padding: 0; }
+/* 사양 카드는 넓은 화면에서 2열 */
+.dg-chap-body .dg-prose:has(> .dg-spec) { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 18px; align-items: start; }
+.dg-chap-body .dg-prose:has(> .dg-spec) > :not(.dg-spec) { grid-column: 1 / -1; }
+.dg-chap-body .dg-prose table.dg-spec { max-width: none; margin: 0; }
+@media (max-width: 820px) {
+  .dg-chap, .dg-chap.is-flip { grid-template-columns: minmax(0, 1fr); }
+  .dg-chap.is-flip .dg-chap-h { order: 0; text-align: left; }
+  .dg-chap-h { position: static; }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes dg-from-left { from { opacity: 0; transform: translateX(-110px); } to { opacity: 1; transform: none; } }
+    @keyframes dg-from-right { from { opacity: 0; transform: translateX(110px) scale(0.96); } to { opacity: 1; transform: none; } }
+    @keyframes dg-focus { 0% { opacity: 0.28; transform: translateX(-34px) scale(0.97); } 28%, 72% { opacity: 1; transform: none; } 100% { opacity: 0.28; transform: translateX(34px) scale(0.97); } }
+    @keyframes dg-focus-r { 0% { opacity: 0.28; transform: translateX(34px) scale(0.97); } 28%, 72% { opacity: 1; transform: none; } 100% { opacity: 0.28; transform: translateX(-34px) scale(0.97); } }
+    @keyframes dg-marquee { to { transform: translateX(-42%); } }
+    @keyframes dg-pop-l { from { opacity: 0; transform: translateX(-70px) rotate(-2deg) scale(0.94); } to { opacity: 1; transform: none; } }
+    @keyframes dg-pop-r { from { opacity: 0; transform: translateX(70px) rotate(2deg) scale(0.94); } to { opacity: 1; transform: none; } }
+
+    /* 큰 글자가 스크롤을 따라 옆으로 흘러간다 */
+    .dg-marquee { animation: dg-marquee linear both; animation-timeline: scroll(root); animation-range: 0 900px; }
+
+    /* 장: 제목은 왼쪽(짝수 장은 오른쪽)에서, 내용은 반대쪽에서 들어온다 */
+    .dg-chap .dg-chap-h { animation: dg-from-left linear backwards; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+    .dg-chap .dg-chap-body { animation: dg-from-right linear backwards; animation-timeline: view(); animation-range: entry 0% entry 60%; }
+    .dg-chap.is-flip .dg-chap-h { animation-name: dg-from-right; }
+    .dg-chap.is-flip .dg-chap-body { animation-name: dg-from-left; }
+
+    /* 수록곡: 화면 가운데 줄이 또렷하고, 위아래로 갈수록 흐려지며 좌우로 밀린다 */
+    .dg-chap-tracks .dg-track { animation: dg-focus linear both; animation-timeline: view(); animation-range: cover 0% cover 100%; }
+    .dg-chap-tracks .dg-track:nth-child(even) { animation-name: dg-focus-r; }
+
+    /* 사양 카드: 왼쪽 열은 왼쪽에서, 오른쪽 열은 오른쪽에서 약간 기울어 들어온다 */
+    .dg-chap-body .dg-spec { animation: dg-pop-l linear backwards; animation-timeline: view(); animation-range: entry 0% entry 70%; }
+    .dg-chap-body .dg-spec:nth-of-type(even) { animation-name: dg-pop-r; }
+  }
+}
+
+/* ============================================================
+   ★ 모션 맥시멈 — 사이트의 거의 모든 요소에 움직임 (assets/js/motion.js 와 함께 동작)
+   · 전부 "동작 줄이기"가 꺼져 있을 때만. transform·opacity 위주.
+   ============================================================ */
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes fx-drift-a { to { transform: translate(14vw, 10vh) scale(1.25); } }
+  @keyframes fx-drift-b { to { transform: translate(-16vw, -12vh) scale(0.85); } }
+  @keyframes fx-drift-c { to { transform: translate(8vw, -18vh) scale(1.15); } }
+  @keyframes fx-letter { from { opacity: 0; transform: translateY(0.85em) rotate(9deg) scale(0.8); filter: blur(6px); } to { opacity: 1; transform: none; filter: none; } }
+  @keyframes fx-enter-big { from { opacity: 0; transform: translateY(46px) scale(0.97); filter: blur(10px); } to { opacity: 1; transform: none; filter: blur(0); } }
+  @keyframes fx-sheen { to { background-position: -200% 0; } }
+  @keyframes fx-pulse { 0% { box-shadow: 0 0 0 0 rgba(255, 77, 151, 0.55); } 70%, 100% { box-shadow: 0 0 0 10px rgba(255, 77, 151, 0); } }
+  @keyframes fx-glow { 0%, 100% { box-shadow: 0 0 0 0 rgba(255, 77, 151, 0.35); } 50% { box-shadow: 0 0 0 6px rgba(255, 77, 151, 0.12); } }
+  @keyframes fx-wiggle { 0%, 100% { transform: rotate(0); } 20% { transform: rotate(-14deg) scale(1.12); } 50% { transform: rotate(11deg) scale(1.12); } 80% { transform: rotate(-5deg); } }
+  @keyframes fx-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+  @keyframes fx-spark { 0% { opacity: 1; transform: translate(-50%, -50%) scale(var(--s)); } 100% { opacity: 0; transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) scale(0); } }
+  @keyframes fx-shine { from { transform: translateX(-130%) skewX(-20deg); } to { transform: translateX(260%) skewX(-20deg); } }
+
+  /* 배경에 천천히 떠다니는 빛 덩어리 */
+  .fx-orbs { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; }
+  .fx-orbs i { position: absolute; width: 56vmax; height: 56vmax; border-radius: 50%; opacity: 0.5; }
+  .fx-orbs i:nth-child(1) { left: -16vmax; top: -12vmax; background: radial-gradient(closest-side, rgba(255, 77, 151, 0.26), transparent); animation: fx-drift-a 26s ease-in-out infinite alternate; }
+  .fx-orbs i:nth-child(2) { right: -18vmax; top: 22vh; background: radial-gradient(closest-side, rgba(124, 92, 255, 0.2), transparent); animation: fx-drift-b 32s ease-in-out infinite alternate; }
+  .fx-orbs i:nth-child(3) { left: 24vw; bottom: -26vmax; background: radial-gradient(closest-side, rgba(70, 200, 255, 0.18), transparent); animation: fx-drift-c 29s ease-in-out infinite alternate; }
+  html.dark .fx-orbs i { opacity: 0.75; }
+
+  /* 제목 글자가 하나씩 튀어 오른다 */
+  .fx-ch { display: inline-block; animation: fx-letter 0.8s var(--ease-out) backwards; animation-delay: calc(var(--i, 0) * 32ms + 120ms); }
+  .fx-sp { display: inline-block; width: 0.28em; }
+
+  /* 화면이 바뀔 때: 크게 떠오르며 초점이 맞는다 */
+  .content > * { animation: fx-enter-big 0.7s var(--ease-out) both; }
+
+  /* 로고: 모양이 둥둥 뜨고, 글자 색이 빛처럼 흐른다. 올리면 한 바퀴 돈다 */
+  .brand-mark { animation: fx-float 3.6s ease-in-out infinite; transition: rotate 0.6s var(--ease-out); }
+  .brand:hover .brand-mark { rotate: 360deg; }
+  .brand-accent { background: linear-gradient(100deg, var(--brand) 20%, #ffd0e4 45%, #b69cff 55%, var(--brand) 80%); background-size: 200% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; animation: fx-sheen 3.2s linear infinite; }
+
+  /* 서랍은 살짝 튕기며 열린다. 메뉴 항목은 호버하면 밀려나고 아이콘이 흔들린다 */
+  .sidebar { transition-duration: 0.55s; transition-timing-function: cubic-bezier(0.22, 1.25, 0.36, 1); }
+  .nav-item:hover { translate: 5px 0; }
+  .nav-item:hover .nav-ico, .icon-btn:hover svg { animation: fx-wiggle 0.55s var(--ease-out); }
+  .nav-item { transition-property: background-color, background, color, border-color, box-shadow, transform, scale, opacity, filter, translate; }
+  .nav-count { transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1); }
+  .nav-item:hover .nav-count { transform: scale(1.25); }
+
+  /* 검색창은 포커스되면 맥박처럼 빛난다 */
+  .search-box:focus-within { animation: fx-glow 1.8s ease-in-out infinite; border-radius: 999px; }
+
+  /* 카드·사진·통계·장 본문: 마우스를 따라 3D 로 기울고, 커서 자리에 빛이 맺힌다 */
+  .card, .photo-thumb, .stat, .dg-chap-body, .dg-member, .dg-doc { position: relative; }
+  .card::after, .photo-thumb::after, .stat::after, .dg-chap-body::after, .dg-member::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; opacity: 0; transition: opacity 0.25s ease; background: radial-gradient(circle at var(--mx, 50%) var(--my, 50%), color-mix(in srgb, #fff 55%, var(--brand) 20%), transparent 46%); mix-blend-mode: soft-light; }
+  .card.fx-on::after, .photo-thumb.fx-on::after, .stat.fx-on::after, .dg-chap-body.fx-on::after, .dg-member.fx-on::after { opacity: 0.9; }
+  :is(.card, .photo-thumb, .stat, .dg-chap-body, .dg-member, .dg-doc, .dg-card .dg-cover).fx-on {
+    transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateY(-4px);
+    transition-duration: 0.12s; transition-timing-function: linear;
+  }
+
+  /* 스크롤 속도에 따라 목록이 기울어졌다 돌아온다 */
+  .grid, .dg-list, .photo-grid { transform: skewY(var(--fx-skew, 0deg)); transform-origin: 50% 0; will-change: transform; }
+
+  /* 눌러서 반짝이는 버튼 · 살아 있는 배지 */
+  .dg-btn-fill, .history-expand-btn { position: relative; overflow: hidden; }
+  .dg-btn-fill::after, .history-expand-btn::after { content: ""; position: absolute; top: 0; bottom: 0; left: 0; width: 40%; background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.55), transparent); transform: translateX(-130%) skewX(-20deg); pointer-events: none; }
+  .dg-btn-fill:hover::after, .history-expand-btn:hover::after { animation: fx-shine 0.8s var(--ease-out); }
+  .dg-chip:hover { scale: 1.07; transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1); }
+  .tag-shorts { animation: fx-pulse 2.2s ease-out infinite; }
+  .badge { background-image: linear-gradient(100deg, transparent 30%, rgba(255, 255, 255, 0.7) 50%, transparent 70%); background-size: 200% 100%; background-repeat: no-repeat; animation: fx-sheen 2.8s linear infinite; }
+  .play svg { transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1); }
+  .card:hover .play svg { transform: scale(1.25) rotate(-8deg); }
+
+  /* 썸네일이 올라오기 전에는 빛이 훑고 지나간다 */
+  .thumb { background-image: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.5) 50%, transparent 70%); background-size: 200% 100%; background-repeat: no-repeat; animation: fx-sheen 1.4s linear 3; }
+
+  /* 본문 링크: 밑줄이 왼쪽에서 그려진다 */
+  .dg-prose a:not([class]), .about-link { background: linear-gradient(currentColor, currentColor) 0 100% / 0 2px no-repeat; text-decoration: none; transition: background-size 0.35s var(--ease-out), color 0.15s ease; }
+  .dg-prose a:not([class]):hover, .about-link:hover { background-size: 100% 2px; }
+
+  /* 클릭 파티클 · 커서 링 */
+  .fx-spark { position: fixed; z-index: 9998; width: 9px; height: 9px; border-radius: 50%; background: var(--c, #ff4d97); pointer-events: none; animation: fx-spark 0.75s cubic-bezier(0.15, 0.8, 0.3, 1) forwards; }
+  .fx-cursor { position: fixed; left: 0; top: 0; z-index: 9999; width: 30px; height: 30px; border: 2px solid var(--brand); border-radius: 50%; pointer-events: none; opacity: 0; transition: opacity 0.2s ease, width 0.25s var(--ease-out), height 0.25s var(--ease-out), background 0.25s ease; }
+  .fx-cursor.is-on { opacity: 0.8; }
+  .fx-cursor.is-link { width: 58px; height: 58px; background: color-mix(in srgb, var(--brand) 16%, transparent); }
+}
+
+/* 스크롤 연동 연출 — 방향·회전·크기가 제각각 */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes fx-card-l { from { opacity: 0; transform: translateX(-90px) rotate(-6deg) scale(0.9); } to { opacity: 1; transform: none; } }
+    @keyframes fx-card-m { from { opacity: 0; transform: translateY(90px) scale(0.86); } to { opacity: 1; transform: none; } }
+    @keyframes fx-card-r { from { opacity: 0; transform: translateX(90px) rotate(6deg) scale(0.9); } to { opacity: 1; transform: none; } }
+    @keyframes fx-zoom { from { opacity: 0; transform: scale(0.6) rotate(-8deg); } to { opacity: 1; transform: none; } }
+    @keyframes fx-flip { from { opacity: 0; transform: perspective(700px) rotateX(-80deg) translateY(40px); } to { opacity: 1; transform: none; } }
+    @keyframes fx-slide-r { from { opacity: 0; transform: translateX(60px); } to { opacity: 1; transform: none; } }
+    @keyframes fx-spin-in { from { opacity: 0; transform: rotate(-140deg) scale(0.55); } to { opacity: 1; transform: none; } }
+    @keyframes fx-fill { to { background-position: 0 0; } }
+    @keyframes fx-year { from { opacity: 0; transform: translateX(-80px) skewX(-12deg); } to { opacity: 1; transform: none; } }
+
+    /* 영상 카드: 왼쪽·아래·오른쪽에서 번갈아, 살짝 회전하며 */
+    .grid > .card:nth-child(3n + 1) { animation-name: fx-card-l; }
+    .grid > .card:nth-child(3n + 2) { animation-name: fx-card-m; }
+    .grid > .card:nth-child(3n) { animation-name: fx-card-r; }
+    .photo-grid > .photo-thumb { animation-name: fx-zoom; animation-range: entry 0% entry 60%; }
+    .dg-card:nth-child(3n + 1) { animation-name: dg-pop-l; }
+    .dg-card:nth-child(3n + 2) { animation-name: dg-rise; }
+    .dg-card:nth-child(3n) { animation-name: dg-pop-r; }
+
+    /* About: 통계는 뒤집혀 올라오고, 도넛은 돌며 들어오고, 범례는 오른쪽에서 줄줄이 */
+    .about-stats > .stat { animation: fx-flip linear backwards; animation-timeline: view(); animation-range: entry 0% entry 60%; }
+    .donut { animation: fx-spin-in linear backwards; animation-timeline: view(); animation-range: entry 0% entry 80%; }
+    .chart-legend li { animation: fx-slide-r linear backwards; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+    .history-table tbody tr { animation: fx-slide-r linear backwards; animation-timeline: view(); animation-range: entry 0% entry 60%; }
+
+    /* 연도 제목: 커다란 윤곽선 숫자가 스크롤에 따라 채워진다 */
+    .dg-year-h {
+      font-size: clamp(3rem, 9vw, 6.5rem); line-height: 0.95; letter-spacing: -0.06em; padding-bottom: 14px;
+      color: transparent; -webkit-text-stroke: 1.5px var(--text);
+      background: linear-gradient(90deg, var(--text) 0 50%, transparent 50% 100%) 100% 0 / 200% 100% no-repeat;
+      -webkit-background-clip: text; background-clip: text;
+      animation: fx-year linear both, fx-fill linear both; animation-timeline: view(), view(); animation-range: entry 0% entry 45%, entry 10% cover 40%;
+    }
+  }
+}
+
+/* ============================================================
+   멤버 문서 레이아웃 — 넓은 화면을 쓰고, 단어가 쪼개지지 않게, 활동은 소제목·행마다 카드로
+   ============================================================ */
+.dg { max-width: 1240px; }
+/* 한글은 단어(어절) 단위로만 줄을 바꾼다. 글자째 쪼개지던 overflow-wrap: anywhere 를 걷어낸다 */
+.dg-prose { overflow-wrap: break-word; word-break: keep-all; }
+.dg-prose td, .dg-prose th { word-break: keep-all; overflow-wrap: break-word; }
+.dg-prose > p, .dg-prose > ul, .dg-prose > ol { max-width: 82ch; }
+/* 남아 있는 일반 표: 날짜 칸은 한 줄로, 내용 칸이 남은 폭을 쓴다 */
+.dg-prose table { display: table; width: 100%; min-width: 0; }
+.dg-prose th:first-child, .dg-prose td:first-child { white-space: nowrap; }
+
+/* 부분(원래 섹션) → 소제목 카드들 */
+.dg-part { margin: 0 0 clamp(28px, 5vw, 56px); }
+.dg-part-h { display: flex; align-items: center; gap: 12px; margin: 0 0 16px; font-family: var(--font-display); font-size: clamp(1.4rem, 1.1rem + 1.2vw, 2rem); font-weight: 800; letter-spacing: -0.045em; }
+.dg-part-h::before { content: ""; width: 5px; height: 1.1em; border-radius: 3px; background: var(--brand); }
+.dg-subs { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 16px; align-items: start; }
+.dg-subcard { min-width: 0; padding: clamp(16px, 2.4vw, 24px); border: 1px solid var(--border); border-radius: 22px; background: var(--surface); box-shadow: var(--shadow-sm); }
+.dg-subcard.is-wide, .dg-subcard.is-lead { grid-column: 1 / -1; }
+.dg-subcard-h { margin: 0 0 14px; padding-bottom: 10px; border-bottom: 1px solid var(--border); font-family: var(--font-display); font-size: 1.12rem; font-weight: 700; letter-spacing: -0.03em; }
+.dg-subcard .dg-prose > :last-child { margin-bottom: 0; }
+
+/* 활동 행 카드: 날짜 · 방송사 · 제목 · 역할 · 비고 */
+.dg-rows { display: grid; gap: 6px; }
+.dg-rows-year { margin: 10px 0 2px; font-family: var(--font-display); font-size: 1.05rem; font-weight: 800; letter-spacing: -0.03em; color: var(--brand-strong); }
+.dg-rows-year:first-child { margin-top: 0; }
+.dg-rowcards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); gap: 12px; }
+.dg-rowcard { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: 5px; min-width: 0; padding: 14px 16px; border: 1px solid var(--border); border-radius: 16px; background: var(--bg); transition: border-color 0.2s ease, box-shadow 0.25s ease, transform 0.25s var(--ease-out); }
+.dg-rowcard:hover { border-color: var(--brand); box-shadow: var(--shadow-md); transform: translateY(-3px); }
+.dg-rc-date { padding: 2px 9px; border-radius: 999px; background: var(--brand-weak); color: var(--brand-strong); font-size: 0.74rem; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.dg-rc-src { margin: 4px 0 0; font-size: 0.76rem; font-weight: 650; color: var(--text-3); }
+.dg-rc-title { margin: 0; font-size: 0.98rem; font-weight: 700; line-height: 1.4; letter-spacing: -0.02em; color: var(--text); word-break: keep-all; overflow-wrap: break-word; }
+.dg-rc-chips { display: flex; flex-wrap: wrap; gap: 5px; margin: 2px 0 0; }
+.dg-rc-chips span { padding: 1px 9px; border-radius: 8px; background: var(--surface-2); font-size: 0.76rem; font-weight: 650; color: var(--text-2); white-space: nowrap; }
+.dg-rc-note { margin: 2px 0 0; font-size: 0.8rem; line-height: 1.55; color: var(--text-2); word-break: keep-all; overflow-wrap: break-word; }
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    /* 소제목 카드는 번갈아 좌우에서, 행 카드는 열마다 시차를 두고 떠오른다 */
+    .dg-subcard { animation: dg-pop-l linear backwards; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+    .dg-subcard:nth-child(even) { animation-name: dg-pop-r; }
+    .dg-part-h { animation: dg-slide linear backwards; animation-timeline: view(); animation-range: entry 0% entry 50%; }
+    .dg-rowcard { animation: dg-rise linear backwards; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+    .dg-rowcard:nth-child(3n + 2) { animation-range: entry 8% entry 63%; }
+    .dg-rowcard:nth-child(3n) { animation-range: entry 16% entry 71%; }
+  }
+}
+
+/* 모션 맥시멈(motion.js)과 연결: 소제목·행 카드도 3D 로 기울고 커서 자리에 빛이 맺힌다 */
+@media (prefers-reduced-motion: no-preference) {
+  .dg-subcard::after, .dg-rowcard::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; opacity: 0; transition: opacity 0.25s ease; background: radial-gradient(circle at var(--mx, 50%) var(--my, 50%), color-mix(in srgb, #fff 55%, var(--brand) 20%), transparent 46%); mix-blend-mode: soft-light; }
+  .dg-subcard { position: relative; }
+  .dg-subcard.fx-on::after, .dg-rowcard.fx-on::after { opacity: 0.9; }
+  :is(.dg-subcard, .dg-rowcard).fx-on { transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateY(-3px); transition-duration: 0.12s; transition-timing-function: linear; }
+}
+
+.dg-prose .dg-fold-label { display: inline-block; margin: 0 0 10px; padding: 2px 11px; border-radius: 999px; background: var(--surface-2); font-size: 0.76rem; font-weight: 700; color: var(--text-2); }
+
+/* 활동 행 카드: 위에서 아래로 떠오르던 것을 좌우에서 번갈아 날아 들어오게 (회전·초점 포함) */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes fx-row-l { from { opacity: 0; transform: translateX(-150px) rotate(-7deg) scale(0.86); filter: blur(4px); } to { opacity: 1; transform: none; filter: blur(0); } }
+    @keyframes fx-row-r { from { opacity: 0; transform: translateX(150px) rotate(7deg) scale(0.86); filter: blur(4px); } to { opacity: 1; transform: none; filter: blur(0); } }
+    @keyframes fx-row-m { from { opacity: 0; transform: translateY(80px) scale(0.84); filter: blur(4px); } to { opacity: 1; transform: none; filter: blur(0); } }
+    .dg-rowcard { animation: fx-row-l linear backwards; animation-timeline: view(); animation-range: entry 0% entry 62%; }
+    .dg-rowcard:nth-child(even) { animation-name: fx-row-r; animation-range: entry 6% entry 68%; }
+    .dg-rowcard:nth-child(4n + 3) { animation-name: fx-row-m; animation-range: entry 12% entry 74%; }
+    .dg-rows-year { animation: dg-slide linear backwards; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+  }
+}
+
+/* 스크롤 입장 효과가 끝나는 지점을 화면 위쪽으로 올린다: 카드는 화면 중간쯤(한 줄 이상 위)에서 완성된다.
+   작은 카드는 등장 시작부터 `cover` 구간의 34% 까지 천천히, 큰 블록은 화면에 완전히 들어올 때까지 */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .grid > .card, .photo-grid > .photo-thumb, .dg-card, .dg-rowcard, .chart-legend li, .history-table tbody tr, .about-stats > .stat, .donut { animation-range: entry 0% cover 34%; }
+    .grid > .card:nth-child(even), .photo-grid > .photo-thumb:nth-child(even), .dg-card:nth-child(even), .dg-rowcard:nth-child(even) { animation-range: entry 4% cover 38%; }
+    .grid > .card:nth-child(3n), .dg-card:nth-child(3n), .dg-rowcard:nth-child(4n + 3) { animation-range: entry 8% cover 42%; }
+    .dg-rows-year, .dg-part-h, .dg-chap .dg-chap-h { animation-range: entry 0% cover 28%; }
+    .dg-subcard, .dg-chap .dg-chap-body, .dg-chap-body .dg-spec, .about > * { animation-range: entry 0% entry 100%; }
+  }
+}

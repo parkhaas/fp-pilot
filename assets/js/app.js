@@ -53,7 +53,6 @@
     pvSub: document.getElementById("pvSub"),
     pvPrev: document.getElementById("pvPrev"),
     pvNext: document.getElementById("pvNext"),
-    pvOpen: document.getElementById("pvOpen"),
     pvDown: document.getElementById("pvDown"),
   };
 
@@ -783,7 +782,6 @@
     el.pvSub.textContent = `${idx + 1} / ${post.images.length}  ·  ${post.date}`;
     el.pvPrev.disabled = idx === 0;
     el.pvNext.disabled = idx === post.images.length - 1;
-    el.pvOpen.href = im.u;
     el.pvDown.href = im.u;
     el.pvDown.setAttribute("download", im.u.split("/").pop());
 
