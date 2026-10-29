@@ -1880,7 +1880,27 @@ html.dark #themeToggle .ico-dark { opacity: 1; transform: none; filter: none; }
   /* 재생 버튼: 카드를 덮는 어두운 막 위로 큰 원이 튀어 오른다 */
   .grid > .card:hover .play { opacity: 1; background: radial-gradient(circle at 50% 50%, rgba(255, 77, 151, 0.35), rgba(0, 0, 0, 0.35) 70%); }
   .grid > .card:hover .play svg { transform: scale(1.5) rotate(-8deg); filter: drop-shadow(0 4px 14px rgba(255, 77, 151, 0.8)); }
-  /* 나머지 카드는 물러나 흐려진다 (포커스 효과) */
-  .grid:has(.card:hover) > .card:not(:hover) { scale: 0.965; opacity: 0.5; filter: saturate(0.55) blur(0.6px); }
-  .grid > .card { transition-property: background-color, background, color, border-color, box-shadow, transform, scale, opacity, filter; transition-duration: 0.35s; transition-timing-function: var(--ease-out); }
+  .grid > .card, .photo-grid > .photo-thumb { transition-property: background-color, background, color, border-color, box-shadow, transform, scale, opacity, filter; transition-duration: 0.35s; transition-timing-function: var(--ease-out); }
+}
+
+/* 포토 갤러리 썸네일도 영상 카드와 같은 호버 강조 (앞으로 나오고, 분홍 후광이 맥박치고, 사진이 확대된다) */
+@media (prefers-reduced-motion: no-preference) and (hover: hover) {
+  .photo-grid > .photo-thumb:hover { z-index: 5; scale: 1.07; border-color: var(--brand); animation: fx-ring 1.6s ease-in-out infinite; }
+  .photo-grid > .photo-thumb:hover img { transform: scale(1.16) rotate(-1.2deg); filter: saturate(1.25) contrast(1.04); }
+  .photo-thumb img { transition: transform 0.55s var(--ease-out), filter 0.4s ease; }
+  .photo-thumb:hover .photo-num { background: var(--brand); transform: scale(1.15); }
+  .photo-num { transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.2s ease; }
+}
+
+/* 모바일: 스크롤 입장 효과의 가로 이동·기울임이 페이지 폭을 넓혀 화면(레이아웃 뷰포트)이 늘어나던 문제.
+   가로 방향 넘침은 잘라내서 스크롤 영역에 포함되지 않게 하고, 재생·사진 창은 기기 화면 안에 맞춘다. */
+html, body { overflow-x: clip; }
+.content { overflow-x: clip; }
+.modal { padding: max(12px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) max(12px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left)); }
+.modal-panel, .pv-panel { max-width: 100%; max-height: calc(100dvh - 24px); }
+.modal-panel { width: min(920px, 100%); }
+.modal-player iframe { max-width: 100%; }
+@media (max-width: 520px) {
+  .modal { padding: 10px; }
+  .modal-info { padding: 14px 16px 18px; }
 }

@@ -107,8 +107,8 @@
   /* ---------- 카드 → 재생 창 전환 ----------
      누른 썸네일 카드 자리에서 재생 창이 커지며 펼쳐지고(FLIP), 닫으면 창이 카드 자리로 오그라들며 돌아간다.
      app.js 는 그대로 두고, 카드 위치만 클릭 때 기억해 두었다가 모달이 열리고 닫히는 순간(hidden 속성)에 이어 붙인다. */
-  const modal = document.getElementById("videoModal");
-  if (modal) {
+  function bindFlip(modal, TRIGGER, PANEL) {
+    if (!modal) return;
     let card = null;
     let from = null;
     let at = 0;
@@ -116,7 +116,7 @@
     document.addEventListener(
       "click",
       (e) => {
-        const c = e.target.closest && e.target.closest(".grid > .card");
+        const c = e.target.closest && e.target.closest(TRIGGER);
         if (!c) return;
         card = c;
         from = c.getBoundingClientRect();
@@ -131,7 +131,7 @@
       return `translate(${dx}px, ${dy}px) scale(${to.width / r.width}, ${to.height / r.height})`;
     };
     new MutationObserver(() => {
-      const panel = modal.querySelector(".modal-panel");
+      const panel = modal.querySelector(PANEL);
       if (!panel) return;
       if (!modal.hidden) {
         if (!from || performance.now() - at > 900) return;
@@ -159,6 +159,8 @@
       }
     }).observe(modal, { attributes: true, attributeFilter: ["hidden"] });
   }
+  bindFlip(document.getElementById("videoModal"), ".grid > .card", ".modal-panel");
+  bindFlip(document.getElementById("photoViewer"), ".photo-thumb", ".pv-panel");
 
   if (!fine) return; // 아래는 마우스가 있는 기기 전용
 
