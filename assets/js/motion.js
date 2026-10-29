@@ -186,7 +186,7 @@
   document.documentElement.addEventListener("pointerleave", () => ring.classList.remove("is-on"));
 
   /* ---------- 3D 기울기 + 커서를 따라오는 빛 ---------- */
-  const TILT = ".card, .photo-thumb, .dg-card .dg-cover, .stat, .dg-chap-body, .dg-doc, .dg-member, .dg-subcard, .dg-rowcard";
+  const TILT = ".card, .photo-thumb, .dg-card .dg-cover, .stat, .dg-doc, .dg-member, .dg-rowcard, .dg-chap-body, .dg-subcard";
   let tiltEl = null;
   document.addEventListener("pointermove", (e) => {
     const el = e.target.closest && e.target.closest(TILT);
@@ -196,8 +196,14 @@
     const r = el.getBoundingClientRect();
     const px = (e.clientX - r.left) / r.width;
     const py = (e.clientY - r.top) / r.height;
-    const big = r.width > 420;
-    const max = big ? 3 : 9;
+    // 큰 카드(폭 420px 초과)는 기울이지 않고 커서 주변만 밝게 한다: 기울이면 가장자리에서 튀고 읽기 불편했다
+    if (r.width > 420) {
+      el.classList.add("fx-lit");
+      el.style.setProperty("--mx", (px * 100).toFixed(1) + "%");
+      el.style.setProperty("--my", (py * 100).toFixed(1) + "%");
+      return;
+    }
+    const max = 9;
     el.classList.add("fx-on");
     el.style.setProperty("--ry", ((px - 0.5) * max * 2).toFixed(2) + "deg");
     el.style.setProperty("--rx", ((0.5 - py) * max * 2).toFixed(2) + "deg");
@@ -205,7 +211,7 @@
     el.style.setProperty("--my", (py * 100).toFixed(1) + "%");
   });
   function reset(el) {
-    el.classList.remove("fx-on");
+    el.classList.remove("fx-on", "fx-lit");
     el.style.removeProperty("--rx");
     el.style.removeProperty("--ry");
   }

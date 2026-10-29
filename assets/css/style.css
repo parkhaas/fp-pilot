@@ -1904,3 +1904,8 @@ html, body { overflow-x: clip; }
   .modal { padding: 10px; }
   .modal-info { padding: 14px 16px 18px; }
 }
+
+/* 큰 카드: 기울이지 않고 커서 주변만 밝게 (motion.js 가 fx-lit 와 --mx/--my 를 넣는다) */
+@media (prefers-reduced-motion: no-preference) {
+  .dg-chap-body.fx-lit::after, .dg-subcard.fx-lit::after { opacity: 0.9; }
+}
