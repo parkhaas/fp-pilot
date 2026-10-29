@@ -1860,3 +1860,27 @@ html.dark #themeToggle .ico-dark { opacity: 1; transform: none; filter: none; }
     .dg-subcard, .dg-chap .dg-chap-body, .dg-chap-body .dg-spec, .about > * { animation-range: entry 0% entry 100%; }
   }
 }
+
+/* ============================================================
+   썸네일 카드: 호버 강조를 대담하게 + 카드 → 재생 창 전환 (motion.js)
+   ============================================================ */
+.modal.fx-flip .modal-panel { animation: none; }
+.fx-ghost { position: fixed; z-index: 99; pointer-events: none; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--surface); box-shadow: var(--shadow-lg); }
+
+@media (prefers-reduced-motion: no-preference) and (hover: hover) {
+  @keyframes fx-ring { 0%, 100% { box-shadow: 0 34px 60px -24px color-mix(in srgb, var(--brand) 60%, transparent), 0 0 0 2px var(--brand), 0 0 0 7px color-mix(in srgb, var(--brand) 22%, transparent); } 50% { box-shadow: 0 40px 70px -22px color-mix(in srgb, var(--brand) 75%, transparent), 0 0 0 2px var(--brand), 0 0 0 12px color-mix(in srgb, var(--brand) 10%, transparent); } }
+
+  /* 호버한 카드는 앞으로 튀어나오고 분홍 후광이 맥박친다 */
+  .grid > .card:hover { z-index: 5; scale: 1.06; border-color: var(--brand); animation: fx-ring 1.6s ease-in-out infinite; }
+  .grid > .card:hover .thumb img { transform: scale(1.16) rotate(-1.2deg); filter: saturate(1.25) contrast(1.04); }
+  .grid > .card:hover .card-title { color: var(--brand-strong); }
+  .grid > .card:hover .dur { transform: scale(1.12) translateY(-2px); background: var(--brand); }
+  .dur { transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.2s ease; }
+  .thumb img { transition: transform 0.55s var(--ease-out), filter 0.4s ease; }
+  /* 재생 버튼: 카드를 덮는 어두운 막 위로 큰 원이 튀어 오른다 */
+  .grid > .card:hover .play { opacity: 1; background: radial-gradient(circle at 50% 50%, rgba(255, 77, 151, 0.35), rgba(0, 0, 0, 0.35) 70%); }
+  .grid > .card:hover .play svg { transform: scale(1.5) rotate(-8deg); filter: drop-shadow(0 4px 14px rgba(255, 77, 151, 0.8)); }
+  /* 나머지 카드는 물러나 흐려진다 (포커스 효과) */
+  .grid:has(.card:hover) > .card:not(:hover) { scale: 0.965; opacity: 0.5; filter: saturate(0.55) blur(0.6px); }
+  .grid > .card { transition-property: background-color, background, color, border-color, box-shadow, transform, scale, opacity, filter; transition-duration: 0.35s; transition-timing-function: var(--ease-out); }
+}
