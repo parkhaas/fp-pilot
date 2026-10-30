@@ -127,7 +127,9 @@ function stageCard(st, ytThumb) {
   const rows = [...songs.entries()]
     .map(([name, v]) => {
       const stageLinks = v.stage.map((s) => `<a class="dg-stage-btn ${brandLink(s.href)}" href="${esc(s.href)}" target="_blank" rel="noopener noreferrer" title="무대 영상"><span>무대</span></a>`).join("");
-      const camLinks = v.cams.map((c) => `<a class="dg-stage-btn is-cam dg-yt" href="${esc(c.href)}" target="_blank" rel="noopener noreferrer" title="직캠"><span>${esc(c.label)}</span></a>`).join("");
+      const seen = {};
+      v.cams.forEach((c) => (seen[c.label] = (seen[c.label] || 0) + 1));
+      const camLinks = v.cams.map((c) => `<a class="dg-stage-btn is-cam dg-yt" href="${esc(c.href)}" target="_blank" rel="noopener noreferrer" title="${esc(c.title || "직캠")}"><span>${esc(seen[c.label] > 1 && c.variant ? `${c.label} · ${c.variant}` : c.label)}</span></a>`).join("");
       return `<li><b>${esc(name || "무대")}</b><span class="dg-stage-links">${stageLinks}${camLinks}</span></li>`;
     })
     .join("");
@@ -142,9 +144,15 @@ function stageCard(st, ytThumb) {
 }
 
 // 합치기: 반환 [{ id, title, html }] (연도 소절들 + "그 밖의 직캠")
-function mergeMusicShows(broadcastSections, fancamSections) {
+function mergeMusicShows(broadcastSections, fancamSections, moreCams) {
   const years = parseBroadcast(broadcastSections);
   const cams = parseFancams(fancamSections);
+  // 영상 목록(videos.json)에서 읽은 멤버별 직캠: 나무위키 문서에 이미 있는 영상은 빼고 덧붙인다
+  if (moreCams) {
+    const known = new Set(cams.map((c) => ytId(c.href)));
+    years.forEach((y) => y.albums.forEach((a) => a.stages.forEach((st) => st.vids.forEach((v) => known.add(ytId(v.href))))));
+    cams.push(...moreCams(known));
+  }
   const used = new Set();
   const byDate = new Map();
   years.forEach((y) => y.albums.forEach((a) => a.stages.forEach((st) => {

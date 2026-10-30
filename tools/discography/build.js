@@ -22,6 +22,7 @@ marked.use({ renderer: { del(text) { return "~" + text + "~"; } } });
 const sharp = require("sharp");
 const { hidePointers, isPointerOnly } = require("./lib/pointers");
 const { mergeMusicShows } = require("./lib/music-shows");
+const { videoFancams } = require("./lib/video-fancams");
 const { logoGallery, albumCards, parseAlbumTable, mvCards, activityCards, galleryTables } = require("./lib/group-cards");
 
 const ROOT = __dirname;
@@ -378,6 +379,14 @@ function parseTracks(lines) {
 
 /* "방송 / OST / 참여 음반": 항목마다 [![커버](이미지)\n\n**곡**\n**프로그램**\n날짜｜시간｜N곡](출처) 가 한 덩어리의 링크로 이어져 있어서 일반 마크다운으로는 깨졌다.
    덩어리마다 커버·제목·날짜·곡 수와 트랙 표(곡 정보 | 크레딧)를 읽어 카드로 만든다. */
+// 영상 버튼 이름표: 원 영상 제목(fetch-yt-titles.js 가 받아 둔 것)을 쓴다. 앞의 "'프로미스나인 - 곡명'" 은 카드 제목과 겹치니 떼고, 제목을 모르면 "YouTube 영상"
+const YT_TITLES = fs.existsSync(path.join(SRC, "yt-titles.json")) ? JSON.parse(fs.readFileSync(path.join(SRC, "yt-titles.json"), "utf8")) : {};
+function ytLabel(id) {
+  const t = YT_TITLES[id];
+  if (!t) return "YouTube 영상";
+  return t.replace(/^['‘][^'’]*['’]\s+/, "").trim() || t;
+}
+
 async function partAlbums(lines) {
   const text = lines.join("\n");
   const blocks = text.split(/\n(?=\[!\[)/).map((b) => b.trim()).filter((b) => /^\[!\[/.test(b));
@@ -418,12 +427,12 @@ async function partAlbums(lines) {
         for (const m of ln.matchAll(/youtube\.com\/watch\?v=([\w-]{11})/g)) {
           if (seen.has(m[1])) continue;
           seen.add(m[1]);
-          vids.push({ id: m[1], label });
+          vids.push({ id: m[1] });
         }
       }
     }
     const vidHtml = vids.length
-      ? `<p class="dg-extra-vids">${vids.map((v) => `<a class="dg-yt" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener noreferrer">${escHtml(v.label || "영상")}</a>`).join("")}</p>`
+      ? `<p class="dg-extra-vids">${vids.map((v) => `<a class="dg-yt" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener noreferrer">${escHtml(ytLabel(v.id))}</a>`).join("")}</p>`
       : "";
     cards.push(
       `<article class="dg-extra-album">` +
@@ -1050,7 +1059,9 @@ function pruneImageLeftovers(html) {
       const camFile = path.join(SRC, "docs", camDoc.slug + ".md");
       if (fs.existsSync(camFile)) {
         const camSections = parseDetail(fs.readFileSync(camFile, "utf8").replace(/\r\n/g, "\n")).sections.filter((x) => !x.hidden).map((x) => ({ title: x.title, html: mdToHtml(x.md) }));
-        const merged = mergeMusicShows(sections.map((x) => ({ title: x.title, html: x.html })), camSections);
+        const memberName = Object.fromEntries(JSON.parse(fs.readFileSync(path.join(REPO, "data", "members.json"), "utf8")).members.map((m) => [m.id, m.name]));
+        const videos = JSON.parse(fs.readFileSync(path.join(REPO, "data", "videos.json"), "utf8")).videos;
+        const merged = mergeMusicShows(sections.map((x) => ({ title: x.title, html: x.html })), camSections, (known) => videoFancams(videos, memberName, known));
         sections.length = 0;
         merged.forEach((m) => sections.push(m));
       }

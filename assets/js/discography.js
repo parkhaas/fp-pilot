@@ -96,7 +96,7 @@
     const tt = a.titleTracks.length ? `<p class="dg-tt"><span>타이틀곡</span>${a.titleTracks.map(esc).join(", ")}</p>` : "";
     const canOpen = a.tracks.length > 0;
     return (
-      `<article class="dg-card${a.status === "cancelled" ? " is-cancelled" : ""}" data-id="${esc(a.id)}"${accentStyle(a)}>` +
+      `<article class="dg-card${a.status === "cancelled" ? " is-cancelled" : ""}" data-id="${esc(a.id)}" data-md="${esc((a.releaseDate || "").slice(5).replace("-", "."))}"${accentStyle(a)}>` +
       `<a class="dg-cover" href="${href(a.id)}" data-album="${esc(a.id)}" tabindex="-1" aria-hidden="true">${coverImg(a)}</a>` +
       `<div class="dg-body">` +
       `<p class="dg-kind">${kindLine(a)}</p>` +
@@ -127,7 +127,7 @@
       years[years.length - 1].items.push(a);
     }
     const body = years.length
-      ? years.map((g) => `<section class="dg-year"><h3 class="dg-year-h">${g.y}</h3><div class="dg-list">${g.items.map(cardHtml).join("")}</div></section>`).join("")
+      ? years.map((g) => `<section class="dg-year"><h3 class="dg-year-h">${g.y}</h3><div class="dg-list n${Math.min(g.items.length, 3)}">${g.items.map(cardHtml).join("")}</div></section>`).join("")
       : `<div class="empty"><p>조건에 맞는 앨범이 없습니다.</p></div>`;
 
     return (

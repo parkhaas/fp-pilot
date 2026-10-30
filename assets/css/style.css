@@ -2205,3 +2205,60 @@ a.dg-yt:not(.dg-brand-only)::before, a.dg-x:not(.dg-brand-only)::before { margin
 /* 방송·OST·참여 음반 카드: 임베드돼 있던 영상 링크 */
 .dg-extra-vids { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 0; }
 .dg-extra-vids a.dg-yt { font-size: 0.76rem; }
+
+/* ============================================================
+   Discography 목록 꾸밈: 앨범 대표색(--ac)으로 번지는 카드, 큰 발매일 워터마크, 지나가는 빛줄기.
+   한 해에 앨범이 1~2장뿐이어도 빈 칸 없이 그 줄을 꽉 채운다 (.n1 / .n2).
+   ============================================================ */
+.dg-card { position: relative; isolation: isolate; overflow: hidden; background: radial-gradient(110% 150% at 0% 0%, color-mix(in srgb, var(--ac, var(--brand)) 20%, var(--surface)), var(--surface) 68%); }
+.dg-card::before { content: ""; position: absolute; z-index: -1; width: 46%; aspect-ratio: 1; left: -8%; top: 50%; translate: 0 -50%; border-radius: 50%; background: radial-gradient(closest-side, color-mix(in srgb, var(--ac, var(--brand)) 38%, transparent), transparent); filter: blur(10px); opacity: 0.8; transition: opacity 0.4s ease, scale 0.5s var(--ease-out); }
+.dg-card::after { content: attr(data-md); position: absolute; z-index: -1; right: 18px; bottom: -0.14em; font-family: var(--font-display); font-size: clamp(4.4rem, 3rem + 4.6vw, 9rem); font-weight: 800; letter-spacing: -0.06em; line-height: 1; font-variant-numeric: tabular-nums; color: color-mix(in srgb, var(--ac, var(--brand)) 14%, transparent); pointer-events: none; transition: transform 0.5s var(--ease-out), color 0.3s ease; }
+.dg-card:hover::before { opacity: 1; scale: 1.12; }
+.dg-card:hover::after { transform: translateX(-8px); color: color-mix(in srgb, var(--ac, var(--brand)) 22%, transparent); }
+.dg-card .dg-cover { border-radius: 16px; transition: transform 0.45s var(--ease-out), box-shadow 0.45s ease; }
+.dg-card:hover .dg-cover { transform: translateY(-3px) rotate(-1deg) scale(1.02); box-shadow: 0 26px 40px -18px color-mix(in srgb, var(--ac, #8a8a92) 85%, transparent); }
+.dg-card .dg-kind { align-self: flex-start; padding: 2px 11px; border-radius: 999px; background: color-mix(in srgb, var(--ac, var(--brand)) 16%, var(--surface)); color: color-mix(in srgb, var(--ac, var(--brand-strong)) 55%, var(--text)); font-size: 0.74rem; font-weight: 750; }
+.dg-card .dg-title { font-size: clamp(1.25rem, 1rem + 0.9vw, 1.9rem); letter-spacing: -0.04em; text-wrap: balance; }
+.dg-card .dg-tt { align-self: flex-start; margin-top: 4px; padding: 3px 12px; border-radius: 999px; background: color-mix(in srgb, var(--surface) 70%, transparent); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ac, var(--brand)) 26%, var(--border)); }
+
+/* 앨범이 한 해에 2장: 두 장이 줄을 반반 — 커버를 더 크게 */
+@media (min-width: 1100px) {
+  .dg-list.n2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .dg-list.n2 .dg-card { grid-template-columns: clamp(200px, 48%, 360px) minmax(0, 1fr); padding: 18px; gap: 26px; }
+}
+/* 앨범이 한 해에 1장: 가운데로 끝없이 늘어지지 않게 적당한 폭의 큰 카드 */
+@media (min-width: 900px) {
+  .dg-list.n1 { grid-template-columns: minmax(0, 1fr); max-width: 1120px; }
+  .dg-list.n1 .dg-card { grid-template-columns: clamp(240px, 40%, 400px) minmax(0, 1fr); padding: 20px; gap: 32px; }
+  .dg-list.n1 .dg-title { font-size: clamp(1.6rem, 1.1rem + 1.2vw, 2.4rem); }
+}
+@media (max-width: 720px) { .dg-card::after { font-size: 3.6rem; right: 10px; } .dg-card:hover .dg-cover { transform: none; } }
+@media (prefers-reduced-motion: reduce) { .dg-card::before, .dg-card::after, .dg-card .dg-cover { transition: none; } .dg-card:hover::before, .dg-card:hover::after, .dg-card:hover .dg-cover { transform: none; scale: 1; } }
+
+/* ============================================================
+   앨범 상세 — 넓은 화면에서 더 크고 화려하게
+   히어로는 커버·제목을 키우고 대표색 빛을 깔며, 장 제목 칸과 사진 카드·수록곡이 화면 폭을 따라 커진다
+   ============================================================ */
+.dg-hero::before { content: ""; position: absolute; z-index: 0; width: 60%; aspect-ratio: 1; left: -12%; top: -40%; border-radius: 50%; background: radial-gradient(closest-side, color-mix(in srgb, var(--ac, var(--brand)) 42%, transparent), transparent); filter: blur(24px); opacity: 0.7; pointer-events: none; }
+.dg-hero-cover { transition: transform 0.5s var(--ease-out), box-shadow 0.5s ease; }
+.dg-hero:hover .dg-hero-cover { transform: translateY(-4px) rotate(-1.2deg) scale(1.02); }
+@media (min-width: 1200px) {
+  .dg-hero { grid-template-columns: clamp(260px, 24vw, 440px) minmax(0, 1fr); gap: clamp(36px, 4vw, 72px); padding: clamp(32px, 3.4vw, 64px); border-radius: 36px; }
+  .dg-hero-title { font-size: clamp(3rem, 1.2rem + 3.6vw, 5.6rem); text-wrap: balance; }
+  .dg-hero .dg-kind { font-size: 0.95rem; }
+  .dg-hero .dg-meta, .dg-hero .dg-tt { font-size: clamp(0.95rem, 0.6rem + 0.45vw, 1.2rem); }
+  .dg-summary { font-size: clamp(1rem, 0.7rem + 0.4vw, 1.25rem); line-height: 1.8; max-width: 64ch; }
+}
+@media (min-width: 1200px) {
+  .dg-chap { grid-template-columns: clamp(170px, 15vw, 320px) minmax(0, 1fr); gap: 28px clamp(40px, 4vw, 80px); }
+  .dg-chap.is-flip { grid-template-columns: minmax(0, 1fr) clamp(170px, 15vw, 320px); }
+  .dg-chap-h { font-size: clamp(1.8rem, 0.9rem + 1.8vw, 3.2rem); }
+  .dg-chap-body { padding: clamp(24px, 2.6vw, 52px); border-radius: clamp(24px, 2vw, 36px); }
+}
+@media (min-width: 1400px) {
+  .dg-chap-body > .dg-tracklist { column-count: 2; column-gap: clamp(32px, 4vw, 72px); } /* 1~5번이 왼쪽, 6번부터 오른쪽: 위에서 아래로 읽는다 */
+  .dg-chap-body > .dg-tracklist .dg-track { break-inside: avoid; }
+  .dg-gal-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, clamp(200px, 13vw, 300px)), 1fr)); gap: clamp(14px, 1.2vw, 24px); }
+  .dg-gal-item figcaption { font-size: 0.9rem; }
+}
+@media (prefers-reduced-motion: reduce) { .dg-hero-cover { transition: none; } .dg-hero:hover .dg-hero-cover { transform: none; } }
