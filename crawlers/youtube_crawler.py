@@ -504,6 +504,13 @@ def main() -> None:
             print(f"[경고] 재생목록 {pl['id']} 건너뜀: {e}", file=sys.stderr)
 
     for ex in cfg.get("extraChannels", []):
+        if not ex.get("playlistId") and ex.get("handle"):
+            # 채널 전체(uploads) 재생목록 = "UU" + channelId[2:]
+            cid = resolve_channel_id(ex["handle"], args.api_key)
+            if not cid:
+                print(f"[경고] 핸들 {ex['handle']} 를 찾지 못해 건너뜀", file=sys.stderr)
+                continue
+            ex["playlistId"] = "UU" + cid[2:]
         if not ex.get("playlistId"):
             continue
         if incremental and ex.get("skipIncremental"):

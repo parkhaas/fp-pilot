@@ -59,6 +59,11 @@
       "label": "방판소녀들 (@bangpan_sonyeodeul 채널 전체)"
     },
     {
+      "handle": "@18K_official",
+      "category": "k18",
+      "label": "18K (@18K_official 채널 전체)"
+    },
+    {
       "playlistId": "PL1w6LtN-WoruKKKUE4f4K-VOIWlRf-NuF",
       "category": "kpan_ipdeok",
       "label": "LG전자 · K판 입덕투어 (프로미스나인 회차만, 시즌2~)",
@@ -127,6 +132,7 @@
   "_shortsNote": "Shorts 는 길이로 판정하지 않음. (1) shortsChannels = 채널 /shorts 탭 (2) --shorts-aspect = 3분 이내 후보를 /shorts/ 리다이렉트+세로비율로 확인. 키워드 검색은 Shorts 를 안 돌려줌(테스트 확인).",
   "shortsChannels": [
     { "handle": "@studiofromis_9", "category": "shorts" },
-    { "handle": "@bangpan_sonyeodeul", "category": "shorts" }
+    { "handle": "@bangpan_sonyeodeul", "category": "shorts" },
+    { "handle": "@18K_official", "category": "shorts" }
   ]
 }
