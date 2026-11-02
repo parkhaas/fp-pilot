@@ -1,16 +1,19 @@
 {
-  "updatedAt": "2026-11-02T05:56:57Z",
+  "updatedAt": "2026-11-02T07:39:11Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 1684,
+  "total": 2166,
   "counts": {
-    "shorts": 464,
-    "k18": 3,
+    "shorts": 941,
+    "k18_work": 5,
+    "k18_play": 3,
     "unsorted": 15,
     "workdol": 38,
     "plunen_idanjang": 88,
-    "bangpan": 20,
+    "bangpan": 5,
+    "bangpan_s2": 8,
     "music_show": 583,
     "kpan_ipdeok": 9,
+    "bangpan_s1": 7,
     "sp_original": 18,
     "sp_beauty": 8,
     "stage_fancam": 216,
@@ -326,6 +329,15 @@
       "added": 17,
       "delta": {
         "k18": 17
+      }
+    },
+    {
+      "timestamp": "2026-11-02T07:39:11Z",
+      "total": 2166,
+      "added": 482,
+      "delta": {
+        "k18_work": 5,
+        "shorts": 477
       }
     }
   ]
