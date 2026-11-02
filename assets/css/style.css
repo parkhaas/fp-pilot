@@ -1717,7 +1717,7 @@ html.dark #themeToggle .ico-dark { opacity: 1; transform: none; filter: none; }
   }
 
   /* 스크롤 속도에 따라 목록이 기울어졌다 돌아온다 */
-  .grid, .dg-list, .photo-grid { transform: skewY(var(--fx-skew, 0deg)); transform-origin: 50% 0; will-change: transform; }
+  .grid, .dg-list { transform: skewY(var(--fx-skew, 0deg)); transform-origin: 50% 0; will-change: transform; }
 
   /* 눌러서 반짝이는 버튼 · 살아 있는 배지 */
   .dg-btn-fill, .history-expand-btn { position: relative; overflow: hidden; }
