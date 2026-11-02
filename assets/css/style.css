@@ -409,6 +409,10 @@ body.is-about .site-footer .link-btn { display: none; }
   flex-wrap: wrap;
   gap: 6px 10px;
   margin-bottom: 18px;
+  /* .grid 는 transform(skew 효과)로 자체 쌓임 맥락을 만들어 뒤에 오는 DOM 이 위에 그려진다.
+     하위 분류 풀다운(.crumb-pop)이 썸네일 뒤로 숨지 않도록 헤더를 그리드 위로 올린다. */
+  position: relative;
+  z-index: 10;
 }
 .grid-head h2 {
   margin: 0;
