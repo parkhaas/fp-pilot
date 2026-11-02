@@ -71,6 +71,15 @@
     }
   ],
 
+  "_discoveryNote": "crawlers/discover.py 설정. 후보를 무시하려면 ignoreChannels / ignorePlaylists 에 ID 추가.",
+  "discovery": {
+    "queries": ["프로미스나인", "fromis_9"],
+    "maxPerQuery": 50,
+    "minVideos": 2,
+    "ignoreChannels": [],
+    "ignorePlaylists": []
+  },
+
   "_searchNote": "searchPublishedAfter 는 로컬 전체 백필용(2018 데뷔). 정기 실행(update-data.yml)은 --since 로 최근 며칠만 검색해 쿼터를 아낌.",
   "searchPublishedAfter": "2018-01-01T00:00:00Z",
 
