@@ -332,3 +332,15 @@ python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --sho
 - **search**: 방송무대(KBS·MBC·SBS·Mnet) · 직캠(M2·STUDIO CHOOM) · 스페셜(딩고·퍼스트테이크)
 - **shortsChannels**: `@studiofromis_9` (`@fromis_9` 은 쇼츠 탭 없어 제외)
 - `searchPublishedAfter`: `2018-01-01`
+
+## 신규 채널·재생목록 자동 탐지 (`discover.py`)
+
+등록은 사람이 승인하고, 발견만 자동화합니다.
+
+- **새 재생목록**: 추적 중인 채널(메인 + `extraChannels`)의 재생목록 중 `sources.json` 에 없는 것. 매 실행(몇 유닛).
+- **새 채널 후보**: `discovery.queries` 키워드 검색(채널 제한 없음) 결과 중 추적 중이 아닌 채널.
+  `defaultFilter` 통과 영상이 `minVideos` 개 이상이면 후보. 주 1회(월요일 UTC 오전) 또는 수동 실행 때만(~200 유닛).
+- 결과는 `data/discoveries.json` 에 누적되고, **처음 발견된 항목만** GitHub 이슈로 올라갑니다.
+- 승인: `extraChannels` 에 `{ "handle": "@...", "category": "...", "label": "..." }` 추가(새 카테고리는 `assets/js/config.js` 도).
+- 무시: `discovery.ignoreChannels` / `discovery.ignorePlaylists` 에 ID 추가.
+- 로컬 실행: `python crawlers/discover.py --dry-run` (`--playlists-only` 로 검색 생략).

@@ -22,6 +22,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
   pages: write
   id-token: write
 
@@ -55,6 +56,19 @@ jobs:
           [ -z "$SINCE" ] && SINCE=$(date -u -d '30 days ago' +%Y-%m-%d)
           echo "증분 수집 --since $SINCE"
           python crawlers/youtube_crawler.py --config crawlers/sources.json --out data --since "$SINCE"
+
+      # 신규 재생목록(매 실행, ~수 유닛) + 신규 채널 후보(주 1회 월요일 UTC 오전 또는 수동 실행, ~200 유닛).
+      # 등록은 자동으로 하지 않고 data/discoveries.json 에 쌓은 뒤 새 항목만 이슈로 알린다.
+      - name: Discover new playlists / channels (best-effort)
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          FLAGS="--playlists-only"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || { [ "$(date -u +%u)" = 1 ] && [ "$(date -u +%H)" -lt 12 ]; }; then
+            FLAGS="--since $(date -u -d '60 days ago' +%Y-%m-%d)"
+          fi
+          python crawlers/discover.py --config crawlers/sources.json --out data $FLAGS --report "$RUNNER_TEMP/discoveries.md"
 
       - name: Collect Shorts (yt-dlp, best-effort)
         continue-on-error: true   # GitHub IP 봇 차단 시 기존 쇼츠 유지하고 계속
@@ -91,6 +105,16 @@ jobs:
             git add data
             git commit -m "chore(data): refresh archive"
             git push
+          fi
+
+      - name: Open issue for newly discovered sources
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -s "$RUNNER_TEMP/discoveries.md" ]; then
+            gh issue create --title "새 YouTube 채널/재생목록 발견 ($(date -u +%Y-%m-%d))" \
+              --body-file "$RUNNER_TEMP/discoveries.md"
           fi
 
       # tools/ 는 로컬 전용(편집 서버·화면). 커밋은 이미 끝났으므로 배포 아티팩트에서만 제외된다.
