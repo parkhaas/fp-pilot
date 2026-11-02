@@ -95,7 +95,9 @@ def tracked(cfg: dict, key: str) -> tuple[set[str], set[str]]:
             if c:
                 cids.add(c)
     for s in cfg.get("shortsChannels", []):
-        if s.get("handle"):
+        if s.get("channelId"):
+            cids.add(s["channelId"])
+        elif s.get("handle"):
             c = yc.resolve_channel_id(s["handle"], key)
             if c:
                 cids.add(c)

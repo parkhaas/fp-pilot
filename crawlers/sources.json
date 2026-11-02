@@ -58,11 +58,17 @@
       "category": "bangpan",
       "label": "방판소녀들 (@bangpan_sonyeodeul 채널 전체)"
     },
+    { "playlistId": "PLOruwRcSkRa4", "category": "bangpan_s1", "label": "방판소녀들 시즌1 · FULL",   "members": ["hayoung", "nagyung"] },
+    { "playlistId": "PLLH2Jok8foqc", "category": "bangpan_s1", "label": "방판소녀들 시즌1 · SHORTS", "members": ["hayoung", "nagyung"] },
+    { "playlistId": "PLe_XOweB92MI", "category": "bangpan_s2", "label": "방판소녀들 시즌2 · 본편" },
+    { "playlistId": "PLeA4DKU_JdZk", "category": "bangpan_s2", "label": "방판소녀들 시즌2 · SHORTS" },
     {
       "handle": "@18K_official",
       "category": "k18",
       "label": "18K (@18K_official 채널 전체)"
     },
+    { "playlistId": "PLaq-w5IOSArw", "category": "k18_work", "label": "18K · 지원 오늘 일함!", "members": ["jiwon"] },
+    { "playlistId": "PLKZqZq4ntReg", "category": "k18_play", "label": "18K · 지원 오늘 뭐함?", "members": ["jiwon"] },
     {
       "playlistId": "PL1w6LtN-WoruKKKUE4f4K-VOIWlRf-NuF",
       "category": "kpan_ipdeok",
@@ -76,7 +82,7 @@
     "queries": ["프로미스나인", "fromis_9"],
     "maxPerQuery": 50,
     "minVideos": 2,
-    "ignoreChannels": [],
+    "ignoreChannels": ["UCRB5U21GAwW0ECd1F8xQ4xA"],
     "ignorePlaylists": []
   },
 
@@ -142,6 +148,11 @@
   "shortsChannels": [
     { "handle": "@studiofromis_9", "category": "shorts" },
     { "handle": "@bangpan_sonyeodeul", "category": "shorts" },
-    { "handle": "@18K_official", "category": "shorts" }
+    { "handle": "@18K_official", "category": "shorts" },
+    { "_note": "나는꿀벌입니다", "channelId": "UCKGufvw09tZ3nuwrInBEcPA", "category": "shorts", "filterKeywords": ["프로미스나인", "fromis"] },
+    { "_note": "배꼽루팡",       "channelId": "UCCywK2q82bR8-1CynRg-JeA", "category": "shorts", "filterKeywords": ["프로미스나인", "fromis"] },
+    { "_note": "최애컷",         "channelId": "UCwwqeQXwJ6YqBTSD6vByEjA", "category": "shorts", "filterKeywords": ["프로미스나인", "fromis"] },
+    { "_note": "요란한지원은똑똑하다", "channelId": "UCAP-f-orAl7xoCSC_CsUQMA", "category": "shorts", "filterKeywords": ["프로미스나인", "fromis"] },
+    { "_note": "몽글몽글이",     "channelId": "UCobNm7lQQVaZo4anFpkSmaQ", "category": "shorts", "filterKeywords": ["프로미스나인", "fromis"] }
   ]
 }
