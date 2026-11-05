@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-05T06:07:47Z",
+  "updatedAt": "2026-11-05T19:47:45Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 2195,
+  "total": 2202,
   "counts": {
-    "shorts": 968,
+    "shorts": 974,
+    "unsorted": 16,
     "k18_work": 7,
     "k18_play": 3,
-    "unsorted": 15,
     "workdol": 38,
     "plunen_idanjang": 88,
     "bangpan": 5,
@@ -389,6 +389,16 @@
       "added": 3,
       "delta": {
         "shorts": 3
+      }
+    },
+    {
+      "timestamp": "2026-11-05T19:47:45Z",
+      "total": 2202,
+      "added": 7,
+      "delta": {
+        "unsorted": 1,
+        "k18_play": 1,
+        "shorts": 5
       }
     }
   ]
