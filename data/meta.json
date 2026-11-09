@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-09T05:45:09Z",
+  "updatedAt": "2026-11-09T22:11:50Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 2229,
+  "total": 2233,
   "counts": {
-    "shorts": 1001,
+    "shorts": 1005,
     "unsorted": 16,
     "k18_work": 7,
     "k18_play": 3,
@@ -453,6 +453,14 @@
     {
       "timestamp": "2026-11-09T05:45:09Z",
       "total": 2229,
+      "added": 4,
+      "delta": {
+        "shorts": 4
+      }
+    },
+    {
+      "timestamp": "2026-11-09T22:11:50Z",
+      "total": 2233,
       "added": 4,
       "delta": {
         "shorts": 4
