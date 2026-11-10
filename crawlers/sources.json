@@ -82,7 +82,15 @@
     "queries": ["프로미스나인", "fromis_9"],
     "maxPerQuery": 50,
     "minVideos": 2,
-    "ignoreChannels": ["UCRB5U21GAwW0ECd1F8xQ4xA"],
+    "ignoreChannels": [
+      "UCRB5U21GAwW0ECd1F8xQ4xA",
+      "UCNwIUizyuAVj586VXMj_u6A",
+      "UC1XJ3rV4Us5ZUMgnqmhyF5g",
+      "UCQ4bSO78XtT5sH-9WGg1rrg",
+      "UCtPrs3EGV5jIEt6BD1jk5bw",
+      "UC7gOZZ_2v8CoVikTCo2SiIA",
+      "UCO-ahjypG7Y9pCymxNA25IA"
+    ],
     "ignorePlaylists": []
   },
 
