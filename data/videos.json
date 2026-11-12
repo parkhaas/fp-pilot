@@ -1,12 +1,94 @@
 {
   "videos": [
     {
+      "id": "yt:un-V6Zy94GU",
+      "videoId": "un-V6Zy94GU",
+      "title": "의욕은 넘치는데 아는게 많이없는 송하영 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-12T19:46:43Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:P8BaKY7wGeY",
+      "videoId": "P8BaKY7wGeY",
+      "title": "송하영에게 번호 물어본 남자들 참교육 당함 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-12T19:46:43Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:xeZTlSnLm3s",
+      "videoId": "xeZTlSnLm3s",
+      "title": "보면 PTSD올 정도로 후임 잘 갈구는 박지원 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-12T19:46:43Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:BN5NJAR3XfE",
+      "videoId": "BN5NJAR3XfE",
+      "title": "[미방] AI 고백 VS AI 사과",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-11-12T09:00:07Z",
+      "addedAt": "2026-11-12T19:45:33Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:8_tEadP0U1c",
+      "videoId": "8_tEadP0U1c",
+      "title": "젠지 제대로 느끼고 왔습니다... 벽 느껴지네...  l 게임할꼬 EP4",
+      "category": "sp_game",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-11-12T09:00:01Z",
+      "addedAt": "2026-11-12T19:45:33Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": "PT14M6S",
+      "source": "youtube"
+    },
+    {
       "id": "yt:fJPWYHPNq-k",
       "videoId": "fJPWYHPNq-k",
       "title": "무인도는 무조건 송하영이랑 가야하는 이유 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-12T04:57:20Z",
       "addedAt": "2026-11-12T06:49:18Z",
       "members": [
         "chaeyoung",
@@ -24,7 +106,7 @@
       "title": "침착하영vs요란지원 놀이기구 반응 차이 레전드 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-12T01:34:14Z",
       "addedAt": "2026-11-12T06:49:18Z",
       "members": [
         "chaeyoung",
@@ -42,7 +124,7 @@
       "title": "하나도 안 귀엽고 그냥 걱정되는 송하영 먹방 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-11T22:01:39Z",
       "addedAt": "2026-11-12T06:49:18Z",
       "members": [
         "chaeyoung",
@@ -9937,7 +10019,7 @@
       "id": "yt:PZggvQftCvk",
       "videoId": "PZggvQftCvk",
       "title": "왼얼사까지 포기한 이채영의 운전 실력 최초 공개🚗💨",
-      "category": "unsorted",
+      "category": "sp_survive",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
       "publishedAt": "2026-10-29T09:00:00Z",
       "addedAt": "2026-10-29T18:18:58Z",
@@ -10640,7 +10722,7 @@
       "id": "yt:SAFVFPQN--4",
       "videoId": "SAFVFPQN--4",
       "title": "인생 샌드위치 먹다가 데뷔 전 충격 다짐 이야기하는 프로미스나인🫢 l 하냥카세",
-      "category": "unsorted",
+      "category": "sp_hayoung",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
       "publishedAt": "2026-10-01T09:00:01Z",
       "addedAt": "2026-10-16T06:43:44Z",

@@ -1,15 +1,18 @@
 {
-  "updatedAt": "2026-11-12T06:49:18Z",
+  "updatedAt": "2026-11-12T19:46:43Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 2254,
+  "total": 2259,
   "counts": {
-    "shorts": 1024,
+    "shorts": 1028,
+    "sp_game": 4,
     "workdol": 39,
     "k18_play": 4,
-    "unsorted": 16,
+    "unsorted": 14,
     "k18_work": 7,
+    "sp_survive": 8,
     "plunen_idanjang": 88,
     "bangpan": 5,
+    "sp_hayoung": 4,
     "bangpan_s2": 8,
     "music_show": 583,
     "kpan_ipdeok": 9,
@@ -23,11 +26,8 @@
     "sp_ch9": 128,
     "sp_corp": 3,
     "sp_vlog": 8,
-    "sp_hayoung": 3,
     "sp_chaeng": 4,
-    "sp_jiwon": 5,
-    "sp_game": 3,
-    "sp_survive": 7
+    "sp_jiwon": 5
   },
   "history": [
     {
@@ -505,6 +505,16 @@
       "total": 2254,
       "added": 3,
       "delta": {
+        "shorts": 3
+      }
+    },
+    {
+      "timestamp": "2026-11-12T19:46:43Z",
+      "total": 2259,
+      "added": 5,
+      "delta": {
+        "k18_play": 1,
+        "sp_game": 1,
         "shorts": 3
       }
     }
