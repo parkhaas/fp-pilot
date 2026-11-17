@@ -1,41 +1,4 @@
 {
-  "updatedAt": "2026-11-16T21:52:52Z",
-  "items": [
-    {
-      "kind": "channel",
-      "channelId": "UCtVYkqcxyEuF5DbOeFhZFlQ",
-      "channel": "우연히내게프미",
-      "videoCount": 2,
-      "sample": [
-        "프로미스나인 뜻밖의 반응 TOP3 #프로미스나인 #fromis_9 #송하영 #박지원 #이채영 #아이돌 #TOP3",
-        "프로미스나인 표정관리위기 TOP3 #프로미스나인 #fromis_9 #송하영 #아이돌 #TOP3"
-      ],
-      "url": "https://www.youtube.com/channel/UCtVYkqcxyEuF5DbOeFhZFlQ",
-      "firstSeen": "2026-11-16T05:54:36Z"
-    },
-    {
-      "kind": "channel",
-      "channelId": "UCEmmCtqPjES0-OiTworjXkw",
-      "channel": "핫잉",
-      "videoCount": 2,
-      "sample": [
-        "구경하다 날아간 나경 #프로미스나인 #fromis_9 #kpop #kpopidol",
-        "입으로 경적 연습한 초보 채영 #프로미스나인 #fromis_9 #kpop #kpopidol"
-      ],
-      "url": "https://www.youtube.com/channel/UCEmmCtqPjES0-OiTworjXkw",
-      "firstSeen": "2026-11-16T05:54:36Z"
-    },
-    {
-      "kind": "channel",
-      "channelId": "UCfQ7IBrQMsu48DI4KnTdo-g",
-      "channel": "프로미스9.1",
-      "videoCount": 2,
-      "sample": [
-        "261115 프로미스나인 사운드 체크 #Airplane Mode",
-        "261114 프로미스나인 럽밤 및 레볼루션(발롯코)"
-      ],
-      "url": "https://www.youtube.com/channel/UCfQ7IBrQMsu48DI4KnTdo-g",
-      "firstSeen": "2026-11-16T05:54:36Z"
-    }
-  ]
+  "updatedAt": "2026-11-17T07:31:12Z",
+  "items": []
 }
