@@ -1,0 +1,348 @@
+/* FLOVER-FLIX — "효과 최대" 층 (선택 사항)
+   상단 바의 반짝이 버튼을 켰을 때만 style.css 뒤에 얹힌다(index.html 의 인라인 스크립트가 불러온다).
+   2026-10-29 의 "모션 맥시멈" 규칙을 그대로 옮긴 것으로, assets/js/motion-max.js 와 짝이다.
+   기본 화면(절제된 모션)은 style.css + motion.js 만으로 동작하므로, 이 파일은 지워도 사이트는 멀쩡하다. */
+
+/* ===== Discography 스크롤 연동 모션 (지원 브라우저 + 동작 줄이기 꺼짐일 때만) ===== */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes dg-rise { from { opacity: 0; transform: translateY(44px) scale(0.95); } to { opacity: 1; transform: none; } }
+    @keyframes dg-slide { from { opacity: 0; transform: translateX(-32px); } to { opacity: 1; transform: none; } }
+    @keyframes dg-parallax { from { transform: translateY(-8%) scale(1.16); } to { transform: translateY(8%) scale(1.16); } }
+    @keyframes dg-hero-cover-out { to { transform: translateY(70px) scale(0.88) rotate(-3deg); } }
+    @keyframes dg-hero-info-out { to { opacity: 0.15; transform: translateY(-34px); } }
+    @keyframes dg-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes dg-rule { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+    /* 목록: 카드가 아래에서 떠오르고(열마다 시차), 커버 안의 그림은 스크롤에 따라 천천히 움직인다 */
+    .dg-card { animation: dg-rise linear both; animation-timeline: view(); animation-range: entry 0% entry 60%; }
+    .dg-card:nth-child(3n + 2) { animation-range: entry 8% entry 68%; }
+    .dg-card:nth-child(3n + 3) { animation-range: entry 16% entry 76%; }
+    .dg-card .dg-cover img { animation: dg-parallax linear both; animation-timeline: view(); animation-range: cover 0% cover 100%; }
+    .dg-year-h { animation: dg-slide linear both; animation-timeline: view(); animation-range: entry 0% entry 45%; position: relative; top: auto; }
+    .dg-year-h::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 2px; background: var(--text); transform-origin: left; animation: dg-rule linear both; animation-timeline: view(); animation-range: entry 10% entry 70%; }
+
+    /* 상세: 위로 스크롤하면 커버는 작아지며 기울고 제목은 흐려진다. 아래 섹션은 순서대로 떠오른다 */
+    .dg-album .dg-hero-cover { animation: dg-hero-cover-out linear both; animation-timeline: scroll(root); animation-range: 0 460px; transform-origin: 50% 100%; }
+    .dg-album .dg-hero-info { animation: dg-hero-info-out linear both; animation-timeline: scroll(root); animation-range: 0 380px; }
+    .dg-album .dg-sec, .dg-album .dg-pager, .dg-album .dg-prose table.dg-spec { animation: dg-rise linear both; animation-timeline: view(); animation-range: entry 0% entry 50%; }
+    .dg-album .dg-prose table.dg-spec { animation-range: entry 0% entry 70%; }
+
+    /* 멤버 문서: 큰 프로필 사진이 스크롤에 따라 살짝 확대 */
+    .dg-hero-photo { animation: dg-photo-zoom linear both; animation-timeline: scroll(root); animation-range: 0 600px; }
+    @keyframes dg-photo-zoom { to { transform: scale(1.035) translateY(-6px); } }
+
+    /* 위쪽 읽기 진행 막대 */
+    :root:has(.dg)::before { content: ""; position: fixed; z-index: 60; left: 0; right: 0; top: 0; height: 3px; background: linear-gradient(90deg, var(--brand), color-mix(in srgb, var(--brand) 55%, #7c5cff)); transform-origin: left; animation: dg-grow linear both; animation-timeline: scroll(root); pointer-events: none; }
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes ff-reveal { from { opacity: 0; transform: translateY(32px) scale(0.97); } to { opacity: 1; transform: none; } }
+    @keyframes ff-topbar { from { box-shadow: 0 0 0 rgba(17, 17, 26, 0); } to { box-shadow: 0 8px 24px -12px rgba(17, 17, 26, 0.28); } }
+    /* fill 은 backwards 만: 끝난 뒤에는 호버로 올라오는 transform 이 그대로 먹는다 */
+    .grid > .card, .photo-grid > .photo-thumb { animation: ff-reveal linear backwards; animation-timeline: view(); animation-range: entry 0% entry 42%; }
+    .grid > .card:nth-child(even), .photo-grid > .photo-thumb:nth-child(even) { animation-range: entry 6% entry 48%; }
+    .grid > .card:nth-child(3n), .photo-grid > .photo-thumb:nth-child(3n) { animation-range: entry 12% entry 54%; }
+    .about > *, .about-stats > *, .history-chart-wrapper, .photo-group { animation: ff-reveal linear backwards; animation-timeline: view(); animation-range: entry 0% entry 40%; }
+    .topbar { animation: ff-topbar linear both; animation-timeline: scroll(root); animation-range: 0 90px; }
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes dg-from-left { from { opacity: 0; transform: translateX(-110px); } to { opacity: 1; transform: none; } }
+    @keyframes dg-from-right { from { opacity: 0; transform: translateX(110px) scale(0.96); } to { opacity: 1; transform: none; } }
+    @keyframes dg-focus { 0% { opacity: 0.28; transform: translateX(-34px) scale(0.97); } 28%, 72% { opacity: 1; transform: none; } 100% { opacity: 0.28; transform: translateX(34px) scale(0.97); } }
+    @keyframes dg-focus-r { 0% { opacity: 0.28; transform: translateX(34px) scale(0.97); } 28%, 72% { opacity: 1; transform: none; } 100% { opacity: 0.28; transform: translateX(-34px) scale(0.97); } }
+    @keyframes dg-marquee { to { transform: translateX(-42%); } }
+    @keyframes dg-pop-l { from { opacity: 0; transform: translateX(-70px) rotate(-2deg) scale(0.94); } to { opacity: 1; transform: none; } }
+    @keyframes dg-pop-r { from { opacity: 0; transform: translateX(70px) rotate(2deg) scale(0.94); } to { opacity: 1; transform: none; } }
+
+    /* 큰 글자가 스크롤을 따라 옆으로 흘러간다 */
+    .dg-marquee { animation: dg-marquee linear both; animation-timeline: scroll(root); animation-range: 0 900px; }
+
+    /* 장: 제목은 왼쪽(짝수 장은 오른쪽)에서, 내용은 반대쪽에서 들어온다 */
+    .dg-chap .dg-chap-h { animation: dg-from-left linear backwards; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+    .dg-chap .dg-chap-body { animation: dg-from-right linear backwards; animation-timeline: view(); animation-range: entry 0% entry 60%; }
+    .dg-chap.is-flip .dg-chap-h { animation-name: dg-from-right; }
+    .dg-chap.is-flip .dg-chap-body { animation-name: dg-from-left; }
+
+    /* 수록곡: 화면 가운데 줄이 또렷하고, 위아래로 갈수록 흐려지며 좌우로 밀린다 */
+    .dg-chap-tracks .dg-track { animation: dg-focus linear both; animation-timeline: view(); animation-range: cover 0% cover 100%; }
+    .dg-chap-tracks .dg-track:nth-child(even) { animation-name: dg-focus-r; }
+
+    /* 사양 카드: 왼쪽 열은 왼쪽에서, 오른쪽 열은 오른쪽에서 약간 기울어 들어온다 */
+    .dg-chap-body .dg-spec { animation: dg-pop-l linear backwards; animation-timeline: view(); animation-range: entry 0% entry 70%; }
+    .dg-chap-body .dg-spec:nth-of-type(even) { animation-name: dg-pop-r; }
+  }
+}
+
+/* ============================================================
+   ★ 모션 맥시멈 — 사이트의 거의 모든 요소에 움직임 (assets/js/motion.js 와 함께 동작)
+   · 전부 "동작 줄이기"가 꺼져 있을 때만. transform·opacity 위주.
+   ============================================================ */
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes fx-drift-a { to { transform: translate(14vw, 10vh) scale(1.25); } }
+  @keyframes fx-drift-b { to { transform: translate(-16vw, -12vh) scale(0.85); } }
+  @keyframes fx-drift-c { to { transform: translate(8vw, -18vh) scale(1.15); } }
+  @keyframes fx-letter { from { opacity: 0; transform: translateY(0.85em) rotate(9deg) scale(0.8); filter: blur(6px); } to { opacity: 1; transform: none; filter: none; } }
+  @keyframes fx-enter-big { from { opacity: 0; transform: translateY(46px) scale(0.97); filter: blur(10px); } to { opacity: 1; transform: none; filter: blur(0); } }
+  @keyframes fx-sheen { to { background-position: -200% 0; } }
+  @keyframes fx-pulse { 0% { box-shadow: 0 0 0 0 rgba(255, 77, 151, 0.55); } 70%, 100% { box-shadow: 0 0 0 10px rgba(255, 77, 151, 0); } }
+  @keyframes fx-glow { 0%, 100% { box-shadow: 0 0 0 0 rgba(255, 77, 151, 0.35); } 50% { box-shadow: 0 0 0 6px rgba(255, 77, 151, 0.12); } }
+  @keyframes fx-wiggle { 0%, 100% { transform: rotate(0); } 20% { transform: rotate(-14deg) scale(1.12); } 50% { transform: rotate(11deg) scale(1.12); } 80% { transform: rotate(-5deg); } }
+  @keyframes fx-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+  @keyframes fx-spark { 0% { opacity: 1; transform: translate(-50%, -50%) scale(var(--s)); } 100% { opacity: 0; transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) scale(0); } }
+  @keyframes fx-shine { from { transform: translateX(-130%) skewX(-20deg); } to { transform: translateX(260%) skewX(-20deg); } }
+
+  /* 배경에 천천히 떠다니는 빛 덩어리 */
+  .fx-orbs { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; }
+  .fx-orbs i { position: absolute; width: 56vmax; height: 56vmax; border-radius: 50%; opacity: 0.5; }
+  .fx-orbs i:nth-child(1) { left: -16vmax; top: -12vmax; background: radial-gradient(closest-side, rgba(255, 77, 151, 0.26), transparent); animation: fx-drift-a 26s ease-in-out infinite alternate; }
+  .fx-orbs i:nth-child(2) { right: -18vmax; top: 22vh; background: radial-gradient(closest-side, rgba(124, 92, 255, 0.2), transparent); animation: fx-drift-b 32s ease-in-out infinite alternate; }
+  .fx-orbs i:nth-child(3) { left: 24vw; bottom: -26vmax; background: radial-gradient(closest-side, rgba(70, 200, 255, 0.18), transparent); animation: fx-drift-c 29s ease-in-out infinite alternate; }
+  html.dark .fx-orbs i { opacity: 0.75; }
+
+  /* 제목 글자가 하나씩 튀어 오른다 */
+  .fx-ch { display: inline-block; animation: fx-letter 0.8s var(--ease-out) backwards; animation-delay: calc(var(--i, 0) * 32ms + 120ms); }
+  .fx-sp { display: inline-block; width: 0.28em; }
+
+  /* 화면이 바뀔 때: 크게 떠오르며 초점이 맞는다 */
+  .content > * { animation: fx-enter-big 0.7s var(--ease-out) both; }
+
+  /* 로고: 모양이 둥둥 뜨고, 글자 색이 빛처럼 흐른다. 올리면 한 바퀴 돈다 */
+  .brand-mark { animation: fx-float 3.6s ease-in-out infinite; transition: rotate 0.6s var(--ease-out); }
+  .brand:hover .brand-mark { rotate: 360deg; }
+  .brand-accent { background: linear-gradient(100deg, var(--brand) 20%, #ffd0e4 45%, #b69cff 55%, var(--brand) 80%); background-size: 200% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; animation: fx-sheen 3.2s linear infinite; }
+
+  /* 서랍은 살짝 튕기며 열린다. 메뉴 항목은 호버하면 밀려나고 아이콘이 흔들린다 */
+  .sidebar { transition-duration: 0.55s; transition-timing-function: cubic-bezier(0.22, 1.25, 0.36, 1); }
+  .nav-item:hover { translate: 5px 0; }
+  .nav-item:hover .nav-ico, .icon-btn:hover svg { animation: fx-wiggle 0.55s var(--ease-out); }
+  .nav-item { transition-property: background-color, background, color, border-color, box-shadow, transform, scale, opacity, filter, translate; }
+  .nav-count { transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1); }
+  .nav-item:hover .nav-count { transform: scale(1.25); }
+
+  /* 검색창은 포커스되면 맥박처럼 빛난다 */
+  .search-box:focus-within { animation: fx-glow 1.8s ease-in-out infinite; border-radius: 999px; }
+
+  /* 카드·사진·통계·장 본문: 마우스를 따라 3D 로 기울고, 커서 자리에 빛이 맺힌다 */
+  .card, .photo-thumb, .stat, .dg-chap-body, .dg-member, .dg-doc { position: relative; }
+  .card::after, .photo-thumb::after, .stat::after, .dg-chap-body::after, .dg-member::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; opacity: 0; transition: opacity 0.25s ease; background: radial-gradient(circle at var(--mx, 50%) var(--my, 50%), color-mix(in srgb, #fff 55%, var(--brand) 20%), transparent 46%); mix-blend-mode: soft-light; }
+  .card.fx-on::after, .photo-thumb.fx-on::after, .stat.fx-on::after, .dg-chap-body.fx-on::after, .dg-member.fx-on::after { opacity: 0.9; }
+  :is(.card, .photo-thumb, .stat, .dg-chap-body, .dg-member, .dg-doc, .dg-card .dg-cover).fx-on {
+    transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateY(-4px);
+    transition-duration: 0.12s; transition-timing-function: linear;
+  }
+
+  /* 스크롤 속도에 따라 목록이 기울어졌다 돌아온다 */
+  .grid, .dg-list { transform: skewY(var(--fx-skew, 0deg)); transform-origin: 50% 0; will-change: transform; }
+
+  /* 눌러서 반짝이는 버튼 · 살아 있는 배지 */
+  .dg-btn-fill, .history-expand-btn { position: relative; overflow: hidden; }
+  .dg-btn-fill::after, .history-expand-btn::after { content: ""; position: absolute; top: 0; bottom: 0; left: 0; width: 40%; background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.55), transparent); transform: translateX(-130%) skewX(-20deg); pointer-events: none; }
+  .dg-btn-fill:hover::after, .history-expand-btn:hover::after { animation: fx-shine 0.8s var(--ease-out); }
+  .dg-chip:hover { scale: 1.07; transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1); }
+  .tag-shorts { animation: fx-pulse 2.2s ease-out infinite; }
+  .badge { background-image: linear-gradient(100deg, transparent 30%, rgba(255, 255, 255, 0.7) 50%, transparent 70%); background-size: 200% 100%; background-repeat: no-repeat; animation: fx-sheen 2.8s linear infinite; }
+  .play svg { transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1); }
+  .card:hover .play svg { transform: scale(1.25) rotate(-8deg); }
+
+  /* 썸네일이 올라오기 전에는 빛이 훑고 지나간다 */
+  .thumb { background-image: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.5) 50%, transparent 70%); background-size: 200% 100%; background-repeat: no-repeat; animation: fx-sheen 1.4s linear 3; }
+
+  /* 본문 링크: 밑줄이 왼쪽에서 그려진다 */
+  .dg-prose a:not([class]), .about-link { background: linear-gradient(currentColor, currentColor) 0 100% / 0 2px no-repeat; text-decoration: none; transition: background-size 0.35s var(--ease-out), color 0.15s ease; }
+  .dg-prose a:not([class]):hover, .about-link:hover { background-size: 100% 2px; }
+
+  /* 클릭 파티클 · 커서 링 */
+  .fx-spark { position: fixed; z-index: 9998; width: 9px; height: 9px; border-radius: 50%; background: var(--c, #ff4d97); pointer-events: none; animation: fx-spark 0.75s cubic-bezier(0.15, 0.8, 0.3, 1) forwards; }
+  .fx-cursor { position: fixed; left: 0; top: 0; z-index: 9999; width: 30px; height: 30px; border: 2px solid var(--brand); border-radius: 50%; pointer-events: none; opacity: 0; transition: opacity 0.2s ease, width 0.25s var(--ease-out), height 0.25s var(--ease-out), background 0.25s ease; }
+  .fx-cursor.is-on { opacity: 0.8; }
+  .fx-cursor.is-link { width: 58px; height: 58px; background: color-mix(in srgb, var(--brand) 16%, transparent); }
+}
+
+/* 스크롤 연동 연출 — 방향·회전·크기가 제각각 */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes fx-card-l { from { opacity: 0; transform: translateX(-90px) rotate(-6deg) scale(0.9); } to { opacity: 1; transform: none; } }
+    @keyframes fx-card-m { from { opacity: 0; transform: translateY(90px) scale(0.86); } to { opacity: 1; transform: none; } }
+    @keyframes fx-card-r { from { opacity: 0; transform: translateX(90px) rotate(6deg) scale(0.9); } to { opacity: 1; transform: none; } }
+    @keyframes fx-zoom { from { opacity: 0; transform: scale(0.6) rotate(-8deg); } to { opacity: 1; transform: none; } }
+    @keyframes fx-flip { from { opacity: 0; transform: perspective(700px) rotateX(-80deg) translateY(40px); } to { opacity: 1; transform: none; } }
+    @keyframes fx-slide-r { from { opacity: 0; transform: translateX(60px); } to { opacity: 1; transform: none; } }
+    @keyframes fx-spin-in { from { opacity: 0; transform: rotate(-140deg) scale(0.55); } to { opacity: 1; transform: none; } }
+    @keyframes fx-fill { to { background-position: 0 0; } }
+    @keyframes fx-year { from { opacity: 0; transform: translateX(-80px) skewX(-12deg); } to { opacity: 1; transform: none; } }
+
+    /* 영상 카드: 왼쪽·아래·오른쪽에서 번갈아, 살짝 회전하며 */
+    .grid > .card:nth-child(3n + 1) { animation-name: fx-card-l; }
+    .grid > .card:nth-child(3n + 2) { animation-name: fx-card-m; }
+    .grid > .card:nth-child(3n) { animation-name: fx-card-r; }
+    .photo-grid > .photo-thumb { animation-name: fx-zoom; animation-range: entry 0% entry 60%; }
+    .dg-card:nth-child(3n + 1) { animation-name: dg-pop-l; }
+    .dg-card:nth-child(3n + 2) { animation-name: dg-rise; }
+    .dg-card:nth-child(3n) { animation-name: dg-pop-r; }
+
+    /* About: 통계는 뒤집혀 올라오고, 도넛은 돌며 들어오고, 범례는 오른쪽에서 줄줄이 */
+    .about-stats > .stat { animation: fx-flip linear backwards; animation-timeline: view(); animation-range: entry 0% entry 60%; }
+    .donut { animation: fx-spin-in linear backwards; animation-timeline: view(); animation-range: entry 0% entry 80%; }
+    .chart-legend li { animation: fx-slide-r linear backwards; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+    .history-table tbody tr { animation: fx-slide-r linear backwards; animation-timeline: view(); animation-range: entry 0% entry 60%; }
+
+    /* 연도 제목: 커다란 윤곽선 숫자가 스크롤에 따라 채워진다 */
+    .dg-year-h {
+      font-size: clamp(3rem, 9vw, 6.5rem); line-height: 0.95; letter-spacing: -0.06em; padding-bottom: 14px;
+      color: transparent; -webkit-text-stroke: 1.5px var(--text);
+      background: linear-gradient(90deg, var(--text) 0 50%, transparent 50% 100%) 100% 0 / 200% 100% no-repeat;
+      -webkit-background-clip: text; background-clip: text;
+      animation: fx-year linear both, fx-fill linear both; animation-timeline: view(), view(); animation-range: entry 0% cover 30%, entry 6% cover 38%;
+    }
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    /* 소제목 카드는 번갈아 좌우에서, 행 카드는 열마다 시차를 두고 떠오른다 */
+    .dg-subcard { animation: dg-pop-l linear backwards; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+    .dg-subcard:nth-child(even) { animation-name: dg-pop-r; }
+    .dg-part-h { animation: dg-slide linear backwards; animation-timeline: view(); animation-range: entry 0% entry 50%; }
+    .dg-rowcard { animation: dg-rise linear backwards; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+    .dg-rowcard:nth-child(3n + 2) { animation-range: entry 8% entry 63%; }
+    .dg-rowcard:nth-child(3n) { animation-range: entry 16% entry 71%; }
+  }
+}
+
+/* 모션 맥시멈(motion.js)과 연결: 소제목·행 카드도 3D 로 기울고 커서 자리에 빛이 맺힌다 */
+@media (prefers-reduced-motion: no-preference) {
+  .dg-subcard::after, .dg-rowcard::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; opacity: 0; transition: opacity 0.25s ease; background: radial-gradient(circle at var(--mx, 50%) var(--my, 50%), color-mix(in srgb, #fff 55%, var(--brand) 20%), transparent 46%); mix-blend-mode: soft-light; }
+  .dg-subcard { position: relative; }
+  .dg-subcard.fx-on::after, .dg-rowcard.fx-on::after { opacity: 0.9; }
+  :is(.dg-subcard, .dg-rowcard).fx-on { transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) translateY(-3px); transition-duration: 0.12s; transition-timing-function: linear; }
+}
+
+/* 활동 행 카드: 위에서 아래로 떠오르던 것을 좌우에서 번갈아 날아 들어오게 (회전·초점 포함) */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes fx-row-l { from { opacity: 0; transform: translateX(-150px) rotate(-7deg) scale(0.86); filter: blur(4px); } to { opacity: 1; transform: none; filter: blur(0); } }
+    @keyframes fx-row-r { from { opacity: 0; transform: translateX(150px) rotate(7deg) scale(0.86); filter: blur(4px); } to { opacity: 1; transform: none; filter: blur(0); } }
+    @keyframes fx-row-m { from { opacity: 0; transform: translateY(80px) scale(0.84); filter: blur(4px); } to { opacity: 1; transform: none; filter: blur(0); } }
+    .dg-rowcard { animation: fx-row-l linear backwards; animation-timeline: view(); animation-range: entry 0% entry 62%; }
+    .dg-rowcard:nth-child(even) { animation-name: fx-row-r; animation-range: entry 6% entry 68%; }
+    .dg-rowcard:nth-child(4n + 3) { animation-name: fx-row-m; animation-range: entry 12% entry 74%; }
+    .dg-rows-year { animation: dg-slide linear backwards; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+  }
+}
+
+/* 스크롤 입장 효과가 끝나는 지점을 화면 위쪽으로 올린다: 카드는 화면 중간쯤(한 줄 이상 위)에서 완성된다.
+   작은 카드는 등장 시작부터 `cover` 구간의 34% 까지 천천히, 큰 블록은 화면에 완전히 들어올 때까지 */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .grid > .card, .photo-grid > .photo-thumb, .dg-card, .dg-rowcard, .chart-legend li, .history-table tbody tr, .about-stats > .stat, .donut { animation-range: entry 0% cover 34%; }
+    .grid > .card:nth-child(even), .photo-grid > .photo-thumb:nth-child(even), .dg-card:nth-child(even), .dg-rowcard:nth-child(even) { animation-range: entry 4% cover 38%; }
+    .grid > .card:nth-child(3n), .dg-card:nth-child(3n), .dg-rowcard:nth-child(4n + 3) { animation-range: entry 8% cover 42%; }
+    .dg-rows-year, .dg-part-h, .dg-chap .dg-chap-h { animation-range: entry 0% cover 28%; }
+    .dg-subcard, .dg-chap .dg-chap-body, .dg-chap-body .dg-spec, .about > * { animation-range: entry 0% entry 100%; }
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) and (hover: hover) {
+  @keyframes fx-ring { 0%, 100% { box-shadow: 0 34px 60px -24px color-mix(in srgb, var(--brand) 60%, transparent), 0 0 0 2px var(--brand), 0 0 0 7px color-mix(in srgb, var(--brand) 22%, transparent); } 50% { box-shadow: 0 40px 70px -22px color-mix(in srgb, var(--brand) 75%, transparent), 0 0 0 2px var(--brand), 0 0 0 12px color-mix(in srgb, var(--brand) 10%, transparent); } }
+
+  /* 호버한 카드는 앞으로 튀어나오고 분홍 후광이 맥박친다 */
+  .grid > .card:hover { z-index: 5; scale: 1.06; border-color: var(--brand); animation: fx-ring 1.6s ease-in-out infinite; }
+  .grid > .card:hover .thumb img { transform: scale(1.16) rotate(-1.2deg); filter: saturate(1.25) contrast(1.04); }
+  .grid > .card:hover .card-title { color: var(--brand-strong); }
+  .grid > .card:hover .dur { transform: scale(1.12) translateY(-2px); background: var(--brand); }
+  .dur { transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.2s ease; }
+  .thumb img { transition: transform 0.55s var(--ease-out), filter 0.4s ease; }
+  /* 재생 버튼: 카드를 덮는 어두운 막 위로 큰 원이 튀어 오른다 */
+  .grid > .card:hover .play { opacity: 1; background: radial-gradient(circle at 50% 50%, rgba(255, 77, 151, 0.35), rgba(0, 0, 0, 0.35) 70%); }
+  .grid > .card:hover .play svg { transform: scale(1.5) rotate(-8deg); filter: drop-shadow(0 4px 14px rgba(255, 77, 151, 0.8)); }
+  .grid > .card, .photo-grid > .photo-thumb { transition-property: background-color, background, color, border-color, box-shadow, transform, scale, opacity, filter; transition-duration: 0.35s; transition-timing-function: var(--ease-out); }
+}
+
+/* 포토 갤러리 썸네일도 영상 카드와 같은 호버 강조 (앞으로 나오고, 분홍 후광이 맥박치고, 사진이 확대된다) */
+@media (prefers-reduced-motion: no-preference) and (hover: hover) {
+  .photo-grid > .photo-thumb:hover { z-index: 5; scale: 1.07; border-color: var(--brand); animation: fx-ring 1.6s ease-in-out infinite; }
+  .photo-grid > .photo-thumb:hover img { transform: scale(1.16) rotate(-1.2deg); filter: saturate(1.25) contrast(1.04); }
+  .photo-thumb img { transition: transform 0.55s var(--ease-out), filter 0.4s ease; }
+  .photo-thumb:hover .photo-num { background: var(--brand); transform: scale(1.15); }
+  .photo-num { transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.2s ease; }
+}
+
+/* 큰 카드: 기울이지 않고 커서 주변만 밝게 (motion.js 가 fx-lit 와 --mx/--my 를 넣는다) */
+@media (prefers-reduced-motion: no-preference) {
+  .dg-chap-body.fx-lit::after, .dg-subcard.fx-lit::after { opacity: 0.9; }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    /* 멤버 카드: 열마다 왼쪽·오른쪽에서 번갈아 날아 들어온다 (화면 위쪽에서 완성) */
+    .dg-subcard .dg-member { animation: fx-row-l linear backwards; animation-timeline: view(); animation-range: entry 0% cover 34%; }
+    .dg-subcard .dg-member:nth-child(even) { animation-name: fx-row-r; animation-range: entry 4% cover 38%; }
+    .dg-subcard .dg-member:nth-child(4n + 3) { animation-name: fx-row-m; animation-range: entry 8% cover 42%; }
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes dg-bar-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .dg-logo-card, .dg-mv, .dg-event, .dg-linkcard { animation: fx-row-l linear backwards; animation-timeline: view(); animation-range: entry 0% cover 34%; }
+    .dg-logo-card:nth-child(even), .dg-mv:nth-child(even), .dg-event:nth-child(even), .dg-linkcard:nth-child(even) { animation-name: fx-row-r; animation-range: entry 4% cover 38%; }
+    .dg-logo-card:nth-child(4n + 3), .dg-mv:nth-child(4n + 3), .dg-event:nth-child(4n + 3) { animation-name: fx-row-m; animation-range: entry 8% cover 42%; }
+    .dg-logo-main { animation: fx-zoom linear backwards; animation-timeline: view(); animation-range: entry 0% cover 30%; }
+    .dg-mv-bar i { animation: dg-bar-grow linear backwards; animation-timeline: view(); animation-range: entry 10% cover 40%; }
+    .dg-group-logo img { animation: dg-hero-cover-out linear both; animation-timeline: scroll(root); animation-range: 0 460px; transform-origin: 50% 100%; }
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .dg-album-card { animation: fx-row-l linear backwards; animation-timeline: view(); animation-range: entry 0% cover 34%; }
+    .dg-album-card:nth-child(even) { animation-name: fx-row-r; animation-range: entry 4% cover 38%; }
+    .dg-album-card:nth-child(4n + 3) { animation-name: fx-row-m; animation-range: entry 8% cover 42%; }
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .dg-gal-item { animation: fx-zoom linear backwards; animation-timeline: view(); animation-range: entry 0% cover 34%; }
+    .dg-gal-item:nth-child(even) { animation-name: fx-row-r; }
+    .dg-gal-item:nth-child(3n) { animation-name: fx-row-m; }
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .dg-stage { animation: fx-row-l linear backwards; animation-timeline: view(); animation-range: entry 0% cover 34%; }
+    .dg-stage:nth-child(even) { animation-name: fx-row-r; animation-range: entry 4% cover 38%; }
+    .dg-stage:nth-child(4n + 3) { animation-name: fx-row-m; animation-range: entry 8% cover 42%; }
+  }
+}
+
+.dg-year-h { font-size: clamp(2.6rem, 1rem + 3.4vw, 4.6rem); line-height: 1; padding-bottom: 12px; margin-bottom: 20px; font-variant-numeric: tabular-nums; }
+/* 연도 제목 아래 선: 스크롤하면 왼쪽부터 분홍 그라데이션으로 그려진다 */
+.dg-year-h::after { height: 3px !important; background: linear-gradient(90deg, var(--brand), color-mix(in srgb, var(--brand) 40%, #7c5cff) 55%, transparent) !important; }
+
+.dg-card { position: relative; isolation: isolate; overflow: hidden; background: radial-gradient(110% 150% at 0% 0%, color-mix(in srgb, var(--ac, var(--brand)) 20%, var(--surface)), var(--surface) 68%); }
+.dg-card::before { content: ""; position: absolute; z-index: -1; width: 46%; aspect-ratio: 1; left: -8%; top: 50%; translate: 0 -50%; border-radius: 50%; background: radial-gradient(closest-side, color-mix(in srgb, var(--ac, var(--brand)) 38%, transparent), transparent); filter: blur(10px); opacity: 0.8; transition: opacity 0.4s ease, scale 0.5s var(--ease-out); }
+.dg-card::after { content: attr(data-md); position: absolute; z-index: -1; right: 18px; bottom: -0.14em; font-family: var(--font-display); font-size: clamp(4.4rem, 3rem + 4.6vw, 9rem); font-weight: 800; letter-spacing: -0.06em; line-height: 1; font-variant-numeric: tabular-nums; color: color-mix(in srgb, var(--ac, var(--brand)) 14%, transparent); pointer-events: none; transition: transform 0.5s var(--ease-out), color 0.3s ease; }
+.dg-card:hover::before { opacity: 1; scale: 1.12; }
+.dg-card:hover::after { transform: translateX(-8px); color: color-mix(in srgb, var(--ac, var(--brand)) 22%, transparent); }
+.dg-card .dg-cover { border-radius: 16px; transition: transform 0.45s var(--ease-out), box-shadow 0.45s ease; }
+.dg-card:hover .dg-cover { transform: translateY(-3px) rotate(-1deg) scale(1.02); box-shadow: 0 26px 40px -18px color-mix(in srgb, var(--ac, #8a8a92) 85%, transparent); }
+.dg-card .dg-kind { align-self: flex-start; padding: 2px 11px; border-radius: 999px; background: color-mix(in srgb, var(--ac, var(--brand)) 16%, var(--surface)); color: color-mix(in srgb, var(--ac, var(--brand-strong)) 55%, var(--text)); font-size: 0.74rem; font-weight: 750; }
+.dg-card .dg-title { font-size: clamp(1.25rem, 1rem + 0.9vw, 1.9rem); letter-spacing: -0.04em; text-wrap: balance; }
+.dg-card .dg-tt { align-self: flex-start; margin-top: 4px; padding: 3px 12px; border-radius: 999px; background: color-mix(in srgb, var(--surface) 70%, transparent); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ac, var(--brand)) 26%, var(--border)); }
+
+@media (max-width: 720px) { .dg-card::after { font-size: 3.6rem; right: 10px; } .dg-card:hover .dg-cover { transform: none; } }
+@media (prefers-reduced-motion: reduce) { .dg-card::before, .dg-card::after, .dg-card .dg-cover { transition: none; } .dg-card:hover::before, .dg-card:hover::after, .dg-card:hover .dg-cover { transform: none; scale: 1; } }
+
+.dg-hero::before { content: ""; position: absolute; z-index: 0; width: 60%; aspect-ratio: 1; left: -12%; top: -40%; border-radius: 50%; background: radial-gradient(closest-side, color-mix(in srgb, var(--ac, var(--brand)) 42%, transparent), transparent); filter: blur(24px); opacity: 0.7; pointer-events: none; }
+.dg-hero-cover { transition: transform 0.5s var(--ease-out), box-shadow 0.5s ease; }
+.dg-hero:hover .dg-hero-cover { transform: translateY(-4px) rotate(-1.2deg) scale(1.02); }
+
+@media (prefers-reduced-motion: reduce) { .dg-hero-cover { transition: none; } .dg-hero:hover .dg-hero-cover { transform: none; } }

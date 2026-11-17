@@ -21,14 +21,23 @@
     })();
   </script>
 
-  <!-- 제목: 함렛(Google Fonts) · 본문: 나눔스퀘어라운드(style.css 의 @font-face) · Pretendard 는 빠진 글자용 보조 -->
+  <!-- 제목: 함렛(Google Fonts) · 본문·UI: Pretendard -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://hangeul.pstatic.net" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@600;700;800&display=swap" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
-  <link rel="stylesheet" href="assets/css/nanum-round.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- 효과 최대: 기본은 켜짐. 버튼으로 끄면(저장값 off) 화려한 모션 층을 빼고 절제된 화면만 남는다 -->
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem("ff-fx") !== "off") {
+          document.documentElement.classList.add("fx-max");
+          document.write('<link rel="stylesheet" href="assets/css/fx-max.css" />');
+        }
+      } catch (e) {}
+    })();
+  </script>
 </head>
 
 <body>
@@ -73,6 +82,9 @@
           <i data-lucide="search" class="search-ico"></i>
           <input type="search" id="searchInput" placeholder="영상 검색…" autocomplete="off" aria-label="영상 검색" />
         </div>
+        <button class="icon-btn" id="fxToggle" aria-label="화려한 효과" aria-pressed="false" title="화려한 효과 켜기/끄기">
+          <i data-lucide="sparkles"></i>
+        </button>
         <button class="icon-btn" id="themeToggle" aria-label="테마 전환">
           <i data-lucide="sun" class="ico-light"></i>
           <i data-lucide="moon" class="ico-dark"></i>
@@ -139,6 +151,8 @@
   <script src="assets/js/config.js"></script>
   <script src="assets/js/discography.js"></script>
   <script src="assets/js/app.js"></script>
-  <script src="assets/js/motion.js"></script>
+  <script>
+    document.write('<script src="assets/js/' + (document.documentElement.classList.contains("fx-max") ? "motion-max" : "motion") + '.js"><\/script>');
+  </script>
 </body>
 </html>

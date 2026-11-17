@@ -1399,17 +1399,12 @@
           <li>
             <span class="af-role">제목</span>
             <span class="af-name af-head">함렛 (Hahmlet)</span>
-            <span class="af-meta">로고, 화면 제목, 메뉴명 · <a href="https://fonts.google.com/specimen/Hahmlet" target="_blank" rel="noopener noreferrer" class="about-link">Google Fonts</a> · SIL OFL 1.1</span>
+            <span class="af-meta">로고, 화면 제목, 앨범·문서 제목 · <a href="https://fonts.google.com/specimen/Hahmlet" target="_blank" rel="noopener noreferrer" class="about-link">Google Fonts</a> · SIL OFL 1.1</span>
           </li>
           <li>
             <span class="af-role">본문</span>
-            <span class="af-name">나눔스퀘어라운드</span>
-            <span class="af-meta">카드, 개수, 안내 글 · <a href="https://hangeul.naver.com/font/nanum" target="_blank" rel="noopener noreferrer" class="about-link">네이버 나눔글꼴</a> · SIL OFL 1.1</span>
-          </li>
-          <li>
-            <span class="af-role">보조</span>
             <span class="af-name">Pretendard</span>
-            <span class="af-meta">나눔스퀘어라운드에 없는 글자를 대신 표시 · <a href="https://github.com/orioncactus/pretendard" target="_blank" rel="noopener noreferrer" class="about-link">GitHub</a> · SIL OFL 1.1</span>
+            <span class="af-meta">메뉴, 카드, 개수, 안내 글 · <a href="https://github.com/orioncactus/pretendard" target="_blank" rel="noopener noreferrer" class="about-link">GitHub</a> · SIL OFL 1.1</span>
           </li>
           <li>
             <span class="af-role">아이콘</span>
@@ -1551,6 +1546,16 @@
     );
 
     el.themeToggle.addEventListener("click", toggleTheme);
+    // 화려한 효과 켜기/끄기: 효과 층(CSS·JS)을 통째로 바꿔 끼우므로 저장한 뒤 새로 고친다
+    const fxBtn = document.getElementById("fxToggle");
+    if (fxBtn) {
+      const fxOn = document.documentElement.classList.contains("fx-max");
+      fxBtn.setAttribute("aria-pressed", String(fxOn));
+      fxBtn.addEventListener("click", () => {
+        try { localStorage.setItem("ff-fx", fxOn ? "off" : "on"); } catch (e) {}
+        location.reload();
+      });
+    }
 
     document.addEventListener("click", (e) => {
       const aboutBtn = e.target.closest('[data-view="about"]');
