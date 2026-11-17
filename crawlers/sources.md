@@ -84,7 +84,7 @@ sources.json
 오타면 저장은 되지만 어느 탭에도 안 보입니다.
 
 ```
-music_show  stage_fancam  special_stage
+music_show  stage_fancam  fancam_fromis91  special_stage
 sp_original  sp_vlog  sp_game  sp_survive  sp_beauty  sp_corp  sp_hayoung  sp_jiwon  sp_chaeng
 sp_ch9  workdol  plunen_idanjang  pulmuone_ei2  musinsa_seongsugi
 shorts  variety_external
@@ -114,6 +114,7 @@ shorts  variety_external
 | M2 | `UCTQVIXvcHrR9jYoJ6qaBAow` | 직캠 (MPD직캠·입덕직캠) |
 | STUDIO CHOOM | `UCEIi7zFR_wE23jFncVtd6-A` | 포커스캠·퍼포먼스 |
 | 딩고 뮤직 | `UCtCiO5t2voB14CmZKTkIzPQ` | 킬링보이스 등 |
+| 프로미스9.1 | `UCfQ7IBrQMsu48DI4KnTdo-g` | 팬캠 `fancam_fromis91` (콘서트·사운드체크) — 채널 전체 |
 
 ---
 
@@ -340,6 +341,9 @@ python crawlers/collect_ytdlp.py --config crawlers/sources.json --out data --sho
 - **새 재생목록**: 추적 중인 채널(메인 + `extraChannels`)의 재생목록 중 `sources.json` 에 없는 것. 매 실행(몇 유닛).
 - **새 채널 후보**: `discovery.queries` 키워드 검색(채널 제한 없음) 결과 중 추적 중이 아닌 채널.
   `defaultFilter` 통과 영상이 `minVideos` 개 이상이면 후보. 주 1회(월요일 UTC 오전) 또는 수동 실행 때만(~200 유닛).
+  **쇼츠만 있는 채널은 후보에서 제외**합니다(`discovery.skipShortsOnly`, 기본 `true`). 채널의 형식별 자동
+  재생목록으로 판정: 일반 영상(`UULF…`)·라이브(`UULV…`)가 비어 있고 쇼츠(`UUSH…`)만 있으면 제외
+  (후보당 2~3 유닛). 판단이 안 되면 후보로 남깁니다.
 - 결과는 `data/discoveries.json` 에 누적되고, **처음 발견된 항목만** GitHub 이슈로 올라갑니다.
 - 승인: `extraChannels` 에 `{ "handle": "@...", "category": "...", "label": "..." }` 추가(새 카테고리는 `assets/js/config.js` 도).
 - 무시: `discovery.ignoreChannels` / `discovery.ignorePlaylists` 에 ID 추가.

@@ -7,6 +7,7 @@ window.FF_CONFIG = {
   catLabels: {
     music_show: "음악방송",
     stage_fancam: "직캠",
+    fancam_fromis91: "팬캠-프로미스9.1",
     special_stage: "스페셜무대",
     sp_original: "스프 오리지널",
     sp_vlog: "슾log",
@@ -62,7 +63,8 @@ window.FF_CONFIG = {
     { id: "k18", label: "18K", icon: "tv", sel: { cats: ["k18", "k18_work", "k18_play"] }, children: ["k18_work", "k18_play"], withAll: true },
     { id: "music",   label: "음악방송",    icon: "music",        sel: { cat: "music_show" },    subBy: "song", withAll: true },
     { id: "fancam",  label: "직캠",        icon: "video",        sel: { cat: "stage_fancam" },  subBy: "song", withAll: true },
-    { id: "special", label: "스페셜무대",  icon: "sparkles",     sel: { cat: "special_stage" }, subBy: "year", withAll: true },
+    { id: "fancam_fromis91", label: "팬캠-프로미스9.1", icon: "camera", sel: { cat: "fancam_fromis91" }, subBy: "year", withAll: true },
+    { id: "special", label: "스페셜무대", icon: "sparkles",     sel: { cat: "special_stage" }, subBy: "year", withAll: true },
     { id: "shorts",  label: "Shorts",     icon: "smartphone",   sel: { cat: "shorts" },  subBy: "year", withAll: true },
     { divider: true },
     { id: "group", label: "그룹소개", icon: "users", view: "group" },

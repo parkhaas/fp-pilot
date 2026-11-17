@@ -20,6 +20,7 @@ sources.json 의 "discovery" 블록(선택):
       "queries": ["프로미스나인", "fromis_9"],   # 채널 탐지 검색어
       "maxPerQuery": 50,                          # 검색어당 최대 결과(50 단위)
       "minVideos": 2,                             # 후보로 올릴 최소 관련 영상 수
+      "skipShortsOnly": true,                     # 쇼츠만 있는 채널(일반 영상·라이브 0개)은 후보에서 제외 (기본 true)
       "ignoreChannels": ["UC..."],                # 후보에서 영구 제외할 channelId
       "ignorePlaylists": ["PL..."]                # 새 재생목록 알림에서 영구 제외
     }
@@ -139,11 +140,33 @@ def discover_playlists(cfg: dict, key: str, known_pids: set[str], ignore: set[st
     return found
 
 
+def _tab_has_items(prefix: str, cid: str, key: str) -> bool | None:
+    """채널의 형식별 자동 재생목록(UULF=일반 영상, UULV=라이브, UUSH=쇼츠)에 항목이 있는지.
+    목록이 없으면(404) False, 그 밖의 오류는 None(판단 불가)."""
+    try:
+        data = yc.api_get("playlistItems",
+                          {"part": "id", "playlistId": prefix + cid[2:], "maxResults": 1}, key, retries=1)
+    except RuntimeError as e:
+        return False if "HTTP 404" in str(e) else None
+    return bool(data.get("items"))
+
+
+def is_shorts_only(cid: str, key: str) -> bool:
+    """일반 영상·라이브가 하나도 없고 쇼츠만 있는 채널인지 (후보당 2~3 유닛).
+    하나라도 판단 불가면 False — 애매하면 후보로 남겨 사람이 보게 한다."""
+    if _tab_has_items("UULF", cid, key) is not False:
+        return False
+    if _tab_has_items("UULV", cid, key) is not False:
+        return False
+    return _tab_has_items("UUSH", cid, key) is True
+
+
 def discover_channels(cfg: dict, key: str, known_cids: set[str], ignore: set[str], after: str) -> list[dict]:
     dc = cfg.get("discovery", {})
     queries = dc.get("queries") or ["프로미스나인", "fromis_9"]
     per = int(dc.get("maxPerQuery", 50))
     min_videos = int(dc.get("minVideos", 2))
+    skip_shorts_only = bool(dc.get("skipShortsOnly", True))
     flt = cfg.get("defaultFilter", {})
     agg: dict[str, dict] = {}
     for q in queries:
@@ -173,6 +196,9 @@ def discover_channels(cfg: dict, key: str, known_cids: set[str], ignore: set[str
     found = []
     for cid, e in agg.items():
         if len(e["videos"]) < min_videos:
+            continue
+        if skip_shorts_only and is_shorts_only(cid, key):
+            print(f"  [쇼츠 전용 채널 제외] {e['channel']} ({cid})")
             continue
         titles = list(e["videos"].values())
         found.append({
