@@ -1,12 +1,80 @@
 {
   "videos": [
     {
+      "id": "yt:vXAGqD2pyYs",
+      "videoId": "vXAGqD2pyYs",
+      "title": "사실 기존쎄였던 박지원이 이빨빠진 메건이 된 이유 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-17T20:44:03Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:sjjVaEDf168",
+      "videoId": "sjjVaEDf168",
+      "title": "자 이제 누가 이채영이지 분신술 써도 될 듯한 이채영 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-17T20:44:03Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:BV71A4FAthQ",
+      "videoId": "BV71A4FAthQ",
+      "title": "사격중지 아군 플로버인데 못알아보는 박지원 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-17T20:44:03Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:5cFgPqQIVpc",
+      "videoId": "5cFgPqQIVpc",
+      "title": "입으로 운전하면 생기는 일 #프로미스나인 #지원 #ITZY #유나",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-17T20:44:03Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
       "id": "yt:xhRgb62lNJ4",
       "videoId": "xhRgb62lNJ4",
       "title": "라디오 하는데 땡땡 부은 이채영 미모상태 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-17T05:04:31Z",
       "addedAt": "2026-11-17T07:31:15Z",
       "members": [
         "chaeyoung",
@@ -24,7 +92,7 @@
       "title": "광고 중 친구때문에 박지원이 나락 갈뻔한 이유 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-17T01:31:18Z",
       "addedAt": "2026-11-17T07:31:15Z",
       "members": [
         "chaeyoung",
@@ -42,7 +110,7 @@
       "title": "그동안 쌓아왔던 이채영의 입담이 빛을 발하는 순간 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-16T21:55:04Z",
       "addedAt": "2026-11-17T07:31:15Z",
       "members": [
         "chaeyoung",
@@ -903,7 +971,8 @@
         "jiwon"
       ],
       "duration": "PT2M49S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:x-Gb2Os9TH4",
@@ -917,7 +986,8 @@
         "all"
       ],
       "duration": "PT1M34S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:h-Qv0KAsPjQ",
@@ -1047,7 +1117,8 @@
         "jiwon"
       ],
       "duration": "PT28S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:uDhyAq0TyEU",
@@ -1075,7 +1146,8 @@
         "all"
       ],
       "duration": "PT1M56S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:mNquT2SdSiA",
@@ -1089,7 +1161,8 @@
         "jiwon"
       ],
       "duration": "PT2M1S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:LDDBYzwwfhI",
@@ -1103,7 +1176,8 @@
         "jiwon"
       ],
       "duration": "PT3S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:k09UP_YGGSY",
@@ -1117,7 +1191,8 @@
         "jiwon"
       ],
       "duration": "PT1M13S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:8qLfJj-S4ps",
@@ -1131,7 +1206,8 @@
         "jiwon"
       ],
       "duration": "PT37S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:3Ws_cy76OCY",
@@ -1159,7 +1235,8 @@
         "all"
       ],
       "duration": "PT1M14S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:ih2-fAiwShs",
@@ -1173,7 +1250,8 @@
         "all"
       ],
       "duration": "PT1M40S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:v5kUWox5D_s",
@@ -1187,7 +1265,8 @@
         "jiwon"
       ],
       "duration": "PT13S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:dNMftPHtAbE",
@@ -1201,7 +1280,8 @@
         "jiwon"
       ],
       "duration": "PT47S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:OLVuaUzLgRk",
@@ -1215,7 +1295,8 @@
         "nagyung"
       ],
       "duration": "PT28S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:MASJbWeI8O0",
@@ -1257,7 +1338,8 @@
         "nagyung"
       ],
       "duration": "PT2M2S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:8zjDznjM2rU",
@@ -1271,7 +1353,8 @@
         "nagyung"
       ],
       "duration": "PT44S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:dP6wlJXASFo",
@@ -1285,7 +1368,8 @@
         "all"
       ],
       "duration": "PT8S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:dMaNaJ2RyGg",
@@ -1299,7 +1383,8 @@
         "all"
       ],
       "duration": "PT21S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:8BYj6q_thlE",
@@ -1327,7 +1412,8 @@
         "all"
       ],
       "duration": "PT2M58S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:kEYCQpXUflA",
@@ -1341,7 +1427,8 @@
         "jiheon"
       ],
       "duration": "PT9S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:OKnHPq4NYkY",
@@ -1369,7 +1456,8 @@
         "chaeyoung"
       ],
       "duration": "PT8S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:Au8Jxolg7Wk",
@@ -1383,7 +1471,8 @@
         "all"
       ],
       "duration": "PT2M59S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:uXCTFSt85Tg",
@@ -1439,7 +1528,8 @@
         "chaeyoung"
       ],
       "duration": "PT2M57S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:3hhK7R-yfBI",
@@ -1453,7 +1543,8 @@
         "hayoung"
       ],
       "duration": "PT3M",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:3Yr8_T_XWtw",
