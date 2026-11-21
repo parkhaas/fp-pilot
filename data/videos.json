@@ -1,12 +1,108 @@
 {
   "videos": [
     {
+      "id": "yt:oraCnpRc_W8",
+      "videoId": "oraCnpRc_W8",
+      "title": "데뷔 9년차 박지원 방송에서 이렇게까지 한다고 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-21T06:41:21Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:_Ewz-cY9r1o",
+      "videoId": "_Ewz-cY9r1o",
+      "title": "누가 송하영보고 애기래 위엄있는 꼰대 하빵 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-21T06:41:21Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Xu2B2aw_w7Q",
+      "videoId": "Xu2B2aw_w7Q",
+      "title": "12살때부터 성인들에게 번따 당했던 이채영 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-21T06:41:21Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:ZEUWkdAbIcI",
+      "videoId": "ZEUWkdAbIcI",
+      "title": "춘천 사람과 멀어지는 법",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-11-21T05:00:05Z",
+      "addedAt": "2026-11-21T06:40:05Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:i-zjGClpoxc",
+      "videoId": "i-zjGClpoxc",
+      "title": "내가 타잔이 되어볼게! 얍!🌟",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-11-21T05:00:02Z",
+      "addedAt": "2026-11-21T06:40:05Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:SEG-xQVDTyQ",
+      "videoId": "SEG-xQVDTyQ",
+      "title": "엉금..엉금..기어서..가자🐊",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-11-21T03:00:21Z",
+      "addedAt": "2026-11-21T06:40:05Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
       "id": "yt:KePZAO2N5sg",
       "videoId": "KePZAO2N5sg",
       "title": "현생과 무섭도록 이어지는 송하영 전생 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-20T15:25:05Z",
       "addedAt": "2026-11-20T19:53:49Z",
       "members": [
         "chaeyoung",
@@ -24,7 +120,7 @@
       "title": "아니 이걸 왜 못해 플러팅 한 수 가르쳐주는 이채영 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-20T11:56:36Z",
       "addedAt": "2026-11-20T19:53:49Z",
       "members": [
         "chaeyoung",
@@ -42,7 +138,7 @@
       "title": "송하영 냄새가 얼마나 좋길래 다들 이러는거임 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-20T08:25:23Z",
       "addedAt": "2026-11-20T19:53:49Z",
       "members": [
         "chaeyoung",
@@ -5050,7 +5146,8 @@
         "all"
       ],
       "duration": "PT33S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:sXuBOcagW4s",
@@ -5078,7 +5175,8 @@
         "hayoung"
       ],
       "duration": "PT27S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:tN9A3Qrt6-Q",
@@ -5163,7 +5261,8 @@
         "jiwon"
       ],
       "duration": "PT18S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:69YGPm7yWQ0",
@@ -5177,7 +5276,8 @@
         "jiheon"
       ],
       "duration": "PT14S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:Qao1Bs3NF8o",
@@ -5191,7 +5291,8 @@
         "all"
       ],
       "duration": "PT1M1S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:AwdVpzpu0GA",
@@ -5205,7 +5306,8 @@
         "all"
       ],
       "duration": "PT14S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:YCCf8zqopOs",
@@ -5219,7 +5321,8 @@
         "all"
       ],
       "duration": "PT11S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:utw_RnQqMa8",
@@ -5234,7 +5337,8 @@
         "jiwon"
       ],
       "duration": "PT22S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:Z6BbXr1T7kg",
@@ -5248,7 +5352,8 @@
         "all"
       ],
       "duration": "PT6S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:UZiYLdyItHo",
@@ -5262,7 +5367,8 @@
         "saerom"
       ],
       "duration": "PT13S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:C8LmEqhxhC0",
@@ -5291,7 +5397,8 @@
         "saerom"
       ],
       "duration": "PT1M25S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:Rw7YHuTEiKY",
@@ -5305,7 +5412,8 @@
         "jisun"
       ],
       "duration": "PT44S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:Gw8FPojMRWY",
@@ -5348,7 +5456,8 @@
         "nagyung"
       ],
       "duration": "PT21S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:zDAs_IwvREc",
