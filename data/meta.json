@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2026-11-23T07:01:19Z",
+  "updatedAt": "2026-11-23T23:42:49Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 3154,
+  "total": 3161,
   "counts": {
-    "shorts": 1117,
-    "fancam_fromis91": 802,
+    "shorts": 1121,
+    "fancam_fromis91": 804,
+    "unsorted": 11,
     "bangpan": 7,
     "sp_vlog": 10,
     "workdol": 40,
@@ -15,7 +16,6 @@
     "sp_survive": 8,
     "plunen_idanjang": 88,
     "sp_original": 20,
-    "unsorted": 10,
     "sp_hayoung": 4,
     "bangpan_s2": 8,
     "music_show": 583,
@@ -699,6 +699,16 @@
       "delta": {
         "fancam_fromis91": 1,
         "shorts": 3
+      }
+    },
+    {
+      "timestamp": "2026-11-23T23:42:49Z",
+      "total": 3161,
+      "added": 7,
+      "delta": {
+        "fancam_fromis91": 2,
+        "unsorted": 1,
+        "shorts": 4
       }
     }
   ]
