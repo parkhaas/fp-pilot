@@ -1,12 +1,81 @@
 {
   "videos": [
     {
+      "id": "yt:IiAOoD3V3_s",
+      "videoId": "IiAOoD3V3_s",
+      "title": "길에서 송하영을 만났는데 무시하고 지나가버린 이유 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-23T07:01:19Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:39uqKWT-Wj0",
+      "videoId": "39uqKWT-Wj0",
+      "title": "표창원과 한편 먹더니 PD잡기 시작한 송하영 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-23T07:01:19Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:qWq_4koBP0s",
+      "videoId": "qWq_4koBP0s",
+      "title": "투어스 팬 건드렸다가 나락 갈 뻔한 송하영 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-23T07:01:19Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:x-1QvyorMhA",
+      "videoId": "x-1QvyorMhA",
+      "title": "261122 프로미스나인 홍콩콘 Send off",
+      "category": "fancam_fromis91",
+      "channelTitle": "프로미스9.1",
+      "publishedAt": "2026-11-23T00:21:58Z",
+      "addedAt": "2026-11-23T06:59:53Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT22S",
+      "source": "youtube",
+      "short": false
+    },
+    {
       "id": "yt:4XK8DbhYhS0",
       "videoId": "4XK8DbhYhS0",
       "title": "이제 하다하다 표창원도 조롱할 깡이 생긴 송하영 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-22T15:28:04Z",
       "addedAt": "2026-11-22T19:21:29Z",
       "members": [
         "chaeyoung",
@@ -24,7 +93,7 @@
       "title": "운동..하실 줄 알잖아요 ㅎ 남자 조련할 줄 아는 송하영 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-22T12:03:37Z",
       "addedAt": "2026-11-22T19:21:29Z",
       "members": [
         "chaeyoung",
@@ -42,7 +111,7 @@
       "title": "송하영이 한마디 할 때마다 무장 해제 되는 표창원(66) #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-22T08:27:03Z",
       "addedAt": "2026-11-22T19:21:29Z",
       "members": [
         "chaeyoung",
@@ -60,7 +129,7 @@
       "title": "🐤💛 #프로미스나인 #송하영",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-22T06:42:57Z",
       "addedAt": "2026-11-22T19:21:29Z",
       "members": [
         "hayoung"
@@ -772,7 +841,7 @@
       "id": "yt:OlDFs0gG8b4",
       "videoId": "OlDFs0gG8b4",
       "title": "칭다오 느좋 코스 싹 훑고 온 채영&나경✈️ ㅣ 은어항거리, 메이다얼, 따룬파 마트, 카이하이, 타이동 야시장",
-      "category": "unsorted",
+      "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
       "publishedAt": "2026-11-19T09:00:01Z",
       "addedAt": "2026-11-19T20:21:01Z",
@@ -6534,7 +6603,8 @@
         "all"
       ],
       "duration": "PT56S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:q9T52gsSFCw",
@@ -6632,7 +6702,8 @@
         "all"
       ],
       "duration": "PT50S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:5RM6GxbEdaE",
@@ -6646,7 +6717,8 @@
         "all"
       ],
       "duration": "PT29S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:jfGDBcnP0EI",
@@ -6660,7 +6732,8 @@
         "jiwon"
       ],
       "duration": "PT33S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:RZZ6jSR6cPY",
@@ -6675,7 +6748,8 @@
         "seoyeon"
       ],
       "duration": "PT23S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:umMhsx9GU8Q",
@@ -6690,7 +6764,8 @@
         "seoyeon"
       ],
       "duration": "PT8S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:8qEzu-ekvmw",
@@ -6755,7 +6830,8 @@
         "all"
       ],
       "duration": "PT23S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:ocXXKx2pSEc",
@@ -6769,7 +6845,8 @@
         "all"
       ],
       "duration": "PT1M27S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:CSByUFctLjs",
@@ -6800,7 +6877,8 @@
         "all"
       ],
       "duration": "PT45S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:fNcIsvPPbkQ",
@@ -14037,7 +14115,7 @@
       "id": "yt:hFrCUrOYkvU",
       "videoId": "hFrCUrOYkvU",
       "title": "가을 워크샵 떠난 프로미스나인 마켓팅 1팀, 프로미스나인 아님 아무튼 아님 l 프나상사 EP4",
-      "category": "unsorted",
+      "category": "sp_corp",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
       "publishedAt": "2026-11-05T09:00:21Z",
       "addedAt": "2026-11-05T19:46:35Z",
@@ -23346,7 +23424,7 @@
       "id": "yt:mEFv9fCKlts",
       "videoId": "mEFv9fCKlts",
       "title": "프로미스나인 박지원, 헬스키친에선 앨리?!🗽ㅣ 헬스키친 백스테이지 비하인드",
-      "category": "unsorted",
+      "category": "sp_vlog",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
       "publishedAt": "2026-10-22T09:00:50Z",
       "addedAt": "2026-10-22T16:58:30Z",
@@ -23655,7 +23733,7 @@
       "id": "yt:ERx9Luz0YdU",
       "videoId": "ERx9Luz0YdU",
       "title": "💰100만 원 뺏고 뺏다가 손절까지한 프로미스나인?! l 돈가방을 들고 튀어라",
-      "category": "unsorted",
+      "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
       "publishedAt": "2026-10-15T10:10:36Z",
       "addedAt": "2026-10-16T06:43:44Z",
@@ -23697,7 +23775,7 @@
       "id": "yt:fG5NLFThv1I",
       "videoId": "fG5NLFThv1I",
       "title": "내가 세자빈이 될 관상인가?! 혼인 금지 당한 프로미스나인?!",
-      "category": "unsorted",
+      "category": "sp_original",
       "channelTitle": "스프 : 스튜디오 프로미스나인",
       "publishedAt": "2026-09-24T09:00:01Z",
       "addedAt": "2026-10-16T06:43:44Z",

@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-11-22T19:21:29Z",
+  "updatedAt": "2026-11-23T07:01:19Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 3150,
+  "total": 3154,
   "counts": {
-    "shorts": 1114,
-    "fancam_fromis91": 801,
+    "shorts": 1117,
+    "fancam_fromis91": 802,
     "bangpan": 7,
-    "unsorted": 15,
+    "sp_vlog": 10,
     "workdol": 40,
     "sp_game": 4,
     "k18_play": 4,
+    "sp_corp": 4,
     "k18_work": 7,
     "sp_survive": 8,
     "plunen_idanjang": 88,
+    "sp_original": 20,
+    "unsorted": 10,
     "sp_hayoung": 4,
     "bangpan_s2": 8,
     "music_show": 583,
     "kpan_ipdeok": 9,
     "bangpan_s1": 7,
-    "sp_original": 18,
     "sp_beauty": 8,
     "stage_fancam": 216,
     "special_stage": 12,
     "pulmuone_ei2": 28,
     "musinsa_seongsugi": 21,
     "sp_ch9": 128,
-    "sp_corp": 3,
-    "sp_vlog": 8,
     "sp_chaeng": 4,
     "sp_jiwon": 5
   },
@@ -690,6 +690,15 @@
         "fancam_fromis91": 1,
         "bangpan": 1,
         "shorts": 4
+      }
+    },
+    {
+      "timestamp": "2026-11-23T07:01:19Z",
+      "total": 3154,
+      "added": 4,
+      "delta": {
+        "fancam_fromis91": 1,
+        "shorts": 3
       }
     }
   ]
