@@ -1,12 +1,48 @@
 {
   "videos": [
     {
+      "id": "yt:5cNBJKMt60I",
+      "videoId": "5cNBJKMt60I",
+      "title": "퍼스널컬러 ㄷ진다돈까스 매울수록 예뻐지는 이나경 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-25T07:59:16Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:srLvmoKfzUE",
+      "videoId": "srLvmoKfzUE",
+      "title": "이채영 긁는데는 누구보다 진심인 미미미누 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-25T07:59:16Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
       "id": "yt:66tvw_ZvwIs",
       "videoId": "66tvw_ZvwIs",
       "title": "미3누를 가질사람 누구인가 불 튀는 박지원 이채영 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-24T21:58:15Z",
       "addedAt": "2026-11-24T22:13:59Z",
       "members": [
         "chaeyoung",
@@ -24,7 +60,7 @@
       "title": "역시 입담은 이채영 갈수록 매워지는 챙이 ㅋㅋ #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-24T15:31:07Z",
       "addedAt": "2026-11-24T22:13:59Z",
       "members": [
         "chaeyoung",
@@ -42,7 +78,7 @@
       "title": "순수악으로 자꾸 박지원을 긁는 남자들 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-24T12:02:40Z",
       "addedAt": "2026-11-24T22:13:59Z",
       "members": [
         "chaeyoung",
@@ -7820,7 +7856,8 @@
         "hayoung"
       ],
       "duration": "PT25S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:ZeOQtHcuGpU",
@@ -7890,7 +7927,8 @@
         "all"
       ],
       "duration": "PT2M57S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:giFgshurMvk",
@@ -7904,7 +7942,8 @@
         "chaeyoung"
       ],
       "duration": "PT8S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:GZpZ99BWAWI",
@@ -7918,7 +7957,8 @@
         "saerom"
       ],
       "duration": "PT19S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:0sa3PekqQys",
@@ -7932,7 +7972,8 @@
         "saerom"
       ],
       "duration": "PT23S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:sdKPq40ZgK0",
@@ -7946,7 +7987,8 @@
         "all"
       ],
       "duration": "PT4S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:THzJqcnJ7g0",
@@ -7974,7 +8016,8 @@
         "all"
       ],
       "duration": "PT26S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:fdPJhaYjwfU",
@@ -7988,7 +8031,8 @@
         "all"
       ],
       "duration": "PT11S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:Yk7mxPKclB8",
@@ -8002,7 +8046,8 @@
         "all"
       ],
       "duration": "PT2M13S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:zzRTLp6hK-g",
