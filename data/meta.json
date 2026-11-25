@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-11-25T07:59:16Z",
+  "updatedAt": "2026-11-25T21:30:13Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 3176,
+  "total": 3182,
   "counts": {
-    "shorts": 1134,
-    "fancam_fromis91": 805,
+    "shorts": 1137,
+    "fancam_fromis91": 807,
+    "workdol": 41,
     "k18_play": 5,
     "unsorted": 11,
     "bangpan": 7,
     "sp_vlog": 10,
-    "workdol": 40,
     "sp_game": 4,
     "sp_corp": 4,
     "k18_work": 7,
@@ -737,6 +737,16 @@
       "added": 2,
       "delta": {
         "shorts": 2
+      }
+    },
+    {
+      "timestamp": "2026-11-25T21:30:13Z",
+      "total": 3182,
+      "added": 6,
+      "delta": {
+        "fancam_fromis91": 2,
+        "workdol": 1,
+        "shorts": 3
       }
     }
   ]
