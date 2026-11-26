@@ -17,10 +17,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -31,5 +28,14 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: "."
+
+  # 업로드와 배포를 같은 job 에 두면 아티팩트 조회가 비어 실패할 수 있어 분리한다 (update-data.yml 참고).
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
         uses: actions/deploy-pages@v5

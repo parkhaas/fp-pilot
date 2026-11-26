@@ -33,9 +33,6 @@ concurrency:
 jobs:
   crawl:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v5
 
@@ -126,5 +123,16 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: "."
+
+  # 배포는 별도 job 으로 분리한다. 같은 job 에서 업로드 직후(0.4초 뒤) deploy-pages 를 부르면
+  # 아티팩트 목록 조회가 아직 비어 "No artifacts named github-pages" 로 실패하는 일이 있었다
+  # (2026-11-25 두 번 연속). job 경계를 두면 업로드가 확정된 뒤에 조회한다 — GitHub 공식 예제 구성.
+  deploy:
+    needs: crawl
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
         uses: actions/deploy-pages@v5

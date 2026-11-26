@@ -410,3 +410,11 @@ Tailwind 로 바꾸지 않는다"로 남겨서, 전역 지침보다 프로젝트
 - 폰트: 본문·UI 를 나눔스퀘어라운드에서 Pretendard 로 바꾸고, 함렛(세리프)은 로고·화면 제목·앨범/문서 제목에만 쓴다(메뉴명·풀다운 항목·통계 라벨은 본문 폰트). `nanum-round.css` 는 더 이상 불러오지 않는다(파일과 생성 도구는 남김).
 - 효과 토글: 상단 바 반짝이 버튼으로 예전 화려한 효과를 켜고 끈다. 기본값은 켜짐, 선택은 `localStorage["ff-fx"]` 에 저장. 예전 효과 규칙을 `assets/css/fx-max.css` + `assets/js/motion-max.js` 로 떼어 켰을 때만 얹는다(끄면 `style.css` + `motion.js` 만). 효과용 CSS·JS 를 통째로 바꿔 끼우므로 누르면 페이지를 새로 고친다. 서비스 워커 ff-v107.
 - 알아둘 점: 효과를 켠 화면은 "예전 화면 그대로"가 아니라 "새 정적 디자인 위에 예전 효과"다(폰트·배지·간격은 그대로). 켠 상태는 홈만 확인했고 Discography·앨범 상세·그룹소개는 따로 열어 보지 않았다. 쇼츠 전용 판정은 스텁으로만 검증했고(로컬에 API 키 없음) 실제 API 응답은 다음 주간 탐지 실행에서 확인된다. 로컬에 yt-dlp 가 설치돼 있지 않았다(`python -m pip install --user yt-dlp`).
+
+### 2026-11-26 — Pages 배포 실패 수정 (업로드/배포 job 분리), Vercel 이전 검토
+
+- 증상: 11/25 정기 갱신 두 번(07:57, 21:28 UTC)이 `deploy-pages` 에서 "No artifacts named github-pages" 로 실패. 데이터 커밋은 푸시됐지만 사이트에는 반영되지 않았다.
+- 원인: 아티팩트(59MB) 업로드는 성공·확정됐는데 같은 job 에서 0.4초 뒤 조회하니 목록이 비어 있었다. 나중에 API 로 보면 아티팩트는 정상 존재 — 업로드 직후 목록 반영이 늦는 GitHub 쪽 지연으로 보인다. 용량 한도 문제는 아니었다.
+- 수정: `update-data.yml`·`deploy.yml` 모두 업로드(crawl/build) job 과 배포(deploy) job 을 나누고 `needs:` 로 잇는다(GitHub 공식 예제 구성). `environment: github-pages` 는 deploy job 으로 옮겼다.
+- Vercel 이전 검토: Hobby 도 월 대역폭 100GB 로 Pages 와 같아 옮길 이득이 없어 GitHub Pages 를 유지하기로 했다. 근거·이전 절차·재검토 조건은 `docs/vercel-review.md`.
+- 알아둘 점: 분리 구성은 이번 푸시(deploy.yml)와 다음 정기 실행(update-data.yml)에서 처음 실제로 돈다.
