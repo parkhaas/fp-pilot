@@ -418,3 +418,10 @@ Tailwind 로 바꾸지 않는다"로 남겨서, 전역 지침보다 프로젝트
 - 수정: `update-data.yml`·`deploy.yml` 모두 업로드(crawl/build) job 과 배포(deploy) job 을 나누고 `needs:` 로 잇는다(GitHub 공식 예제 구성). `environment: github-pages` 는 deploy job 으로 옮겼다.
 - Vercel 이전 검토: Hobby 도 월 대역폭 100GB 로 Pages 와 같아 옮길 이득이 없어 GitHub Pages 를 유지하기로 했다. 근거·이전 절차·재검토 조건은 `docs/vercel-review.md`.
 - 알아둘 점: 분리 구성은 이번 푸시(deploy.yml)와 다음 정기 실행(update-data.yml)에서 처음 실제로 돈다.
+
+### 2026-11-26 — 이슈 #4: 다른 가수 직캠 채널에서 프로미스나인 영상만 수집
+
+- shingshingbomi Fancam(`UC8cqWYyB3zTjz4vhBS5dmEw`)은 다른 가수 직캠이 대부분이라 채널 메뉴 없이 프로미스나인 영상만 가져온다. `extraChannels` 에 일반 영상 탭(`UULF…`, 쇼츠 제외) + 제목 필터(프로미스나인/fromis_9/fromis9/fromis 9). 882개 중 39개가 해당(yt-dlp 로 확인).
+- 새 카테고리 `fancam_fan`("팬캠")은 `catLabels` 에만 넣고 내비 메뉴는 만들지 않았다 — 전체보기·기간별·멤버별·검색에서만 보인다.
+- Mashattted, 새롬워늘짜릿해는 `discovery.ignoreChannels` 로 패스.
+- 알아둘 점: 채널 ID `UC8c…` 에서 재생목록 ID 를 만들 때 앞 두 글자 `UC` 만 떼야 한다(`UULF` + `8c…`). 처음에 `8` 까지 떼서 404 가 났다. `UULF…` 는 26자라 discover.py 의 `uploads_to_channel` 이 아니라 재생목록 소유자 조회로 채널을 알아내며, 그 덕에 이 채널의 다른 재생목록은 새 재생목록 후보로 뜨지 않는다.

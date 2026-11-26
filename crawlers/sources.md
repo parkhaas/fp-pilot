@@ -84,7 +84,7 @@ sources.json
 오타면 저장은 되지만 어느 탭에도 안 보입니다.
 
 ```
-music_show  stage_fancam  fancam_fromis91  special_stage
+music_show  stage_fancam  fancam_fromis91  fancam_fan  special_stage
 sp_original  sp_vlog  sp_game  sp_survive  sp_beauty  sp_corp  sp_hayoung  sp_jiwon  sp_chaeng
 sp_ch9  workdol  plunen_idanjang  pulmuone_ei2  musinsa_seongsugi
 shorts  variety_external
@@ -115,6 +115,7 @@ shorts  variety_external
 | STUDIO CHOOM | `UCEIi7zFR_wE23jFncVtd6-A` | 포커스캠·퍼포먼스 |
 | 딩고 뮤직 | `UCtCiO5t2voB14CmZKTkIzPQ` | 킬링보이스 등 |
 | 프로미스9.1 | `UCfQ7IBrQMsu48DI4KnTdo-g` | 팬캠 `fancam_fromis91` (콘서트·사운드체크) — 채널 전체 |
+| shingshingbomi Fancam | `UC8cqWYyB3zTjz4vhBS5dmEw` | 팬캠 `fancam_fan` — 프로미스나인 제목만, 일반 영상 탭(`UULF…`)이라 쇼츠 제외, 내비 메뉴 없음 |
 
 ---
 

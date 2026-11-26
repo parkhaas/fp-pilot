@@ -79,6 +79,12 @@
       "playlistId": "UUfQ7IBrQMsu48DI4KnTdo-g",
       "category": "fancam_fromis91",
       "label": "팬캠 · 프로미스9.1 (팬 촬영 채널 전체 — 콘서트·사운드체크)"
+    },
+    {
+      "playlistId": "UULF8cqWYyB3zTjz4vhBS5dmEw",
+      "category": "fancam_fan",
+      "label": "팬캠 · shingshingbomi Fancam (여러 가수 직캠 채널 — 프로미스나인 영상만. 일반 영상 탭 UULF 라 쇼츠 제외. 메뉴 없음)",
+      "filterKeywords": ["프로미스나인", "fromis_9", "fromis9", "fromis 9"]
     }
   ],
 
@@ -97,7 +103,9 @@
       "UC7gOZZ_2v8CoVikTCo2SiIA",
       "UCO-ahjypG7Y9pCymxNA25IA",
       "UCtVYkqcxyEuF5DbOeFhZFlQ",
-      "UCEmmCtqPjES0-OiTworjXkw"
+      "UCEmmCtqPjES0-OiTworjXkw",
+      "UC76Q1xQLj6PsbwVp7MCAmfg",
+      "UC59G-HRAIPS3wVkJX4lwecQ"
     ],
     "ignorePlaylists": []
   },

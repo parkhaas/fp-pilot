@@ -8,6 +8,7 @@ window.FF_CONFIG = {
     music_show: "음악방송",
     stage_fancam: "직캠",
     fancam_fromis91: "팬캠-프로미스9.1",
+    fancam_fan: "팬캠",  // 메뉴 없음 — 전체보기·기간별·멤버별·검색에서만 보인다 (shingshingbomi)
     special_stage: "스페셜무대",
     sp_original: "스프 오리지널",
     sp_vlog: "슾log",
