@@ -1,12 +1,94 @@
 {
   "videos": [
     {
+      "id": "yt:Z5UW3gJTJ5Y",
+      "videoId": "Z5UW3gJTJ5Y",
+      "title": "언니 공연에 빈손으로 온 챙이 맞을까봐 무서운 이채영 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-26T21:18:07Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:u7hMcUbBu8w",
+      "videoId": "u7hMcUbBu8w",
+      "title": "07년생이라 해도 그냥 납득 되는 송하영 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-26T21:18:07Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:j1aDOTuZkFk",
+      "videoId": "j1aDOTuZkFk",
+      "title": "본인도 인정해버린 이나경의 타고난 퀸력 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-26T21:18:07Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:_9Z7QPXpbkE",
+      "videoId": "_9Z7QPXpbkE",
+      "title": "[미방] 박지원 현시점 최애 아이돌",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-11-26T09:00:15Z",
+      "addedAt": "2026-11-26T21:16:52Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:FSyT8o7RCWs",
+      "videoId": "FSyT8o7RCWs",
+      "title": "박지원 돈으로 하이디라오 회식하기 | 하이디라오 터는 프로미스나인 vs 젼자두뇌 박지원🤖",
+      "category": "sp_original",
+      "channelTitle": "스프 : 스튜디오 프로미스나인",
+      "publishedAt": "2026-11-26T09:00:00Z",
+      "addedAt": "2026-11-26T21:16:52Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": "PT17M50S",
+      "source": "youtube"
+    },
+    {
       "id": "yt:7QKahkHpDos",
       "videoId": "7QKahkHpDos",
       "title": "머리끝까지 화난 박지원에 이채영이 무릎 꿇은 이유 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-26T05:04:31Z",
       "addedAt": "2026-11-26T07:50:28Z",
       "members": [
         "chaeyoung",
@@ -24,7 +106,7 @@
       "title": "고양이 그 자체인 퀸나경의 너무 독특한 추구미 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-26T01:28:28Z",
       "addedAt": "2026-11-26T07:50:28Z",
       "members": [
         "chaeyoung",
@@ -42,7 +124,7 @@
       "title": "표창원도 무장해제 시키는 송하영의 애교영업 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-25T22:03:03Z",
       "addedAt": "2026-11-26T07:50:28Z",
       "members": [
         "chaeyoung",
@@ -9125,7 +9207,8 @@
         "hayoung"
       ],
       "duration": "PT16S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:CFPNNlI2Tmo",
@@ -9140,7 +9223,8 @@
         "jiheon"
       ],
       "duration": "PT12S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:xpfI9B8dVNw",
@@ -9168,7 +9252,8 @@
         "all"
       ],
       "duration": "PT2M53S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:ITB_l21FRDo",
@@ -9224,7 +9309,8 @@
         "jisun"
       ],
       "duration": "PT22S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:pGuMmYNqRps",
@@ -9238,7 +9324,8 @@
         "all"
       ],
       "duration": "PT24S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:Ipyu_I7x4iU",
@@ -9252,7 +9339,8 @@
         "all"
       ],
       "duration": "PT36S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:gP7WBV8uNLU",
@@ -9266,7 +9354,8 @@
         "all"
       ],
       "duration": "PT2M54S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:n50NfsqpVpo",
@@ -9280,7 +9369,8 @@
         "nagyung"
       ],
       "duration": "PT17S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:wE4DJyKDNAs",
