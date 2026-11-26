@@ -1,12 +1,612 @@
 {
   "videos": [
     {
+      "id": "yt:7QKahkHpDos",
+      "videoId": "7QKahkHpDos",
+      "title": "머리끝까지 화난 박지원에 이채영이 무릎 꿇은 이유 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-26T07:50:28Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:jExJW04cj6w",
+      "videoId": "jExJW04cj6w",
+      "title": "고양이 그 자체인 퀸나경의 너무 독특한 추구미 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-26T07:50:28Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:hLr8E0reFcc",
+      "videoId": "hLr8E0reFcc",
+      "title": "표창원도 무장해제 시키는 송하영의 애교영업 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-26T07:50:28Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:irc0GGrW3gM",
+      "videoId": "irc0GGrW3gM",
+      "title": "261122 프로미스나인 - '너를 따라, 너에게' 직캠(2차 앵콜) 2026 fromis_9 ASIA TOUR [TOMORROW GLOW.] IN HONG KONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-11-22T16:41:05Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M50S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:6dNFvpWRySw",
+      "videoId": "6dNFvpWRySw",
+      "title": "[4K]261122 프로미스나인 - 'Stay This Way' 직캠 Fancam 2026 fromis_9 ASIA TOUR [TOMORROW GLOW.] IN HONG KONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-11-22T16:40:57Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M14S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:nq3zvRTEeqo",
+      "videoId": "nq3zvRTEeqo",
+      "title": "[4K]261122 프로미스나인 - 'DM' 직캠 Fancam 2026 fromis_9 ASIA TOUR [TOMORROW GLOW.] IN HONG KONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-11-22T16:35:11Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M25S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Q4Z5e--nqf4",
+      "videoId": "Q4Z5e--nqf4",
+      "title": "[4K]261122 프로미스나인 - 'WE GO' 직캠 Fancam 2026 fromis_9 ASIA TOUR [TOMORROW GLOW.] IN HONG KONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-11-22T16:29:04Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT2M56S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:VsFWKy8VYc4",
+      "videoId": "VsFWKy8VYc4",
+      "title": "[4K]261122 프로미스나인 - 'Why do I cry?' 직캠 Fancam 2026 fromis_9 ASIA TOUR [TOMORROW GLOW.] IN HONG KONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-11-22T16:14:19Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT32S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:oQDkdjji68k",
+      "videoId": "oQDkdjji68k",
+      "title": "[4K]261122 프로미스나인 - 'Cold Blood' 직캠 Fancam 2026 fromis_9 ASIA TOUR [TOMORROW GLOW.] IN HONG KONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-11-22T16:11:56Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT26S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:HyB45zIWyw4",
+      "videoId": "HyB45zIWyw4",
+      "title": "[4K]261122 프로미스나인 - 'Vitamin ME' 직캠 Fancam 2026 fromis_9 ASIA TOUR [TOMORROW GLOW.] IN HONG KONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-11-22T16:09:13Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M12S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:v4eag6hrLfQ",
+      "videoId": "v4eag6hrLfQ",
+      "title": "[4K]261122 프로미스나인 - 'Love=Disaster' 직캠 Fancam 2026 fromis_9 ASIA TOUR [TOMORROW GLOW.] IN HONG KONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-11-22T16:02:31Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT2M28S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:p7O8oytjJLs",
+      "videoId": "p7O8oytjJLs",
+      "title": "[4K]261122 프로미스나인 - 'Teacher' 직캠 Fancam 2026 fromis_9 ASIA TOUR [TOMORROW GLOW.] IN HONG KONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-11-22T15:55:49Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M21S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:wdZMVdeFzhM",
+      "videoId": "wdZMVdeFzhM",
+      "title": "[4K]261122 프로미스나인 - 'Blue Heart' 직캠 Fancam 2026 fromis_9 ASIA TOUR [TOMORROW GLOW.] IN HONG KONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-11-22T15:49:38Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT2M39S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:tBzHuCFbPWQ",
+      "videoId": "tBzHuCFbPWQ",
+      "title": "[4K]261122 프로미스나인 - 'Airplane Mode' 직캠 Fancam 2026 fromis_9 ASIA TOUR [TOMORROW GLOW.] IN HONG KONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-11-22T15:43:20Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M1S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:y-FS41zpepE",
+      "videoId": "y-FS41zpepE",
+      "title": "[4K] 261122 프로미스나인 - 'LIKE YOU BETTER' 직캠 2026 fromis_9 ASIA TOUR [TOMORROW GLOW.] IN HONG KONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-11-22T15:28:57Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M5S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:_SYLQtFqetY",
+      "videoId": "_SYLQtFqetY",
+      "title": "[4K]261122 프로미스나인 - 'Supersonic' 직캠 Fancam 2026 fromis_9 ASIA TOUR [TOMORROW GLOW.] IN HONG KONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-11-22T15:21:49Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT2M48S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:bqBqTLCXVps",
+      "videoId": "bqBqTLCXVps",
+      "title": "260117 프로미스나인 fromis_9 '하얀 그리움(White Memories)' 직캠 Fancam @THE SHINE BIG2 IN MACAO",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-01-18T05:58:40Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT2M54S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:tlXuR26PRDI",
+      "videoId": "tlXuR26PRDI",
+      "title": "260117 프로미스나인 fromis_9 'Stay This Way' (Sound Check) 직캠 Fancam @THE SHINE BIG2 IN MACAO",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-01-18T05:48:10Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M14S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:qxCbtm8ogcU",
+      "videoId": "qxCbtm8ogcU",
+      "title": "260117 프로미스나인 fromis_9 'Supersonic' (Sound Check) 직캠 Fancam @THE SHINE BIG2 IN MACAO",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-01-18T05:47:23Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M1S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:8SO_SdgUjpE",
+      "videoId": "8SO_SdgUjpE",
+      "title": "260117 프로미스나인 fromis_9 'DM' (Sound Check) 직캠 Fancam @THE SHINE BIG2 IN MACAO",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2026-01-18T05:46:35Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M28S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:74aQrbBpOUo",
+      "videoId": "74aQrbBpOUo",
+      "title": "[4K]251024 프로미스나인 fromis_9 'from' 직캠 Fancam @2025 fromis_9 WORLD TOUR [NOW TOMORROW.] IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-25T02:03:11Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT4M12S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:A2aAP6Dv3eE",
+      "videoId": "A2aAP6Dv3eE",
+      "title": "[4K]251024 프로미스나인 fromis_9 'Merry Go Round' 직캠 Fancam @fromis_9 WORLD TOUR[NOW TOMORROW.]IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-25T02:02:58Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M15S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:6ZmwVdeVd7o",
+      "videoId": "6ZmwVdeVd7o",
+      "title": "[4K]251024 프로미스나인 fromis_9 멘트 직캠 Talk Fancam @2025 fromis_9 WORLD TOUR [NOW TOMORROW.] IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-25T02:02:40Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT8M11S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:8y4q_ivTMws",
+      "videoId": "8y4q_ivTMws",
+      "title": "[4K]251024 프로미스나인 fromis_9 'LOVE BOMB + Stay This Way' 직캠 Fancam @fromis_9 WORLD TOUR IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-25T02:02:22Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT7M42S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:y4GMoDxf-4w",
+      "videoId": "y4GMoDxf-4w",
+      "title": "[4K]251024 프로미스나인 fromis_9 'DM' 직캠 Fancam @2025 fromis_9 WORLD TOUR [NOW TOMORROW.] IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T18:06:04Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M22S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:jmWHm0oMYFs",
+      "videoId": "jmWHm0oMYFs",
+      "title": "[4K]251024 프로미스나인 fromis_9 'LIKE YOU BETTER' 직캠 Fancam@fromis_9 WORLD TOUR[NOW TOMORROW.]IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T18:06:01Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M3S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:tYSSdm0ma-4",
+      "videoId": "tYSSdm0ma-4",
+      "title": "[4K]251024 프로미스나인 fromis_9 'Supersonic' 직캠 Fancam @fromis_9 WORLD TOUR [NOW TOMORROW.] IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T18:05:58Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT2M55S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:tmuPQH095S0",
+      "videoId": "tmuPQH095S0",
+      "title": "[4K]251024 프로미스나인 fromis_9 'Rewind' 직캠 Fancam @2025 fromis_9 WORLD TOUR [NOW TOMORROW.] IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T18:05:55Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M58S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:5CzTmcegzDU",
+      "videoId": "5CzTmcegzDU",
+      "title": "[4K]251024 박지원 JiWon 'Greedy' 직캠 Fancam @2025 fromis_9 WORLD TOUR [NOW TOMORROW.] IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T17:48:31Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "jiwon"
+      ],
+      "duration": "PT3M33S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:WGThkZJ9VEw",
+      "videoId": "WGThkZJ9VEw",
+      "title": "[4K]251024 백지헌 JiHeon 'Love Story' 직캠 Fancam @2025 fromis_9 WORLD TOUR [NOW TOMORROW.] IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T17:48:28Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "jiheon"
+      ],
+      "duration": "PT3M53S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:1uqX41yAPro",
+      "videoId": "1uqX41yAPro",
+      "title": "[4K]251024 송하영 HaYoung 'Lost Stars' 직캠 Fancam @2025 fromis_9 WORLD TOUR [NOW TOMORROW.] IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T17:48:26Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "hayoung"
+      ],
+      "duration": "PT3M9S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:fcHaiB0PJhU",
+      "videoId": "fcHaiB0PJhU",
+      "title": "[4K]251024 이나경 NaGyung 'Those Bygone Years' 직캠 Fancam @fromis_9 WORLD TOUR[NOW TOMORROW.]IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T17:48:22Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "nagyung"
+      ],
+      "duration": "PT2M57S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:ceF7_-1q8rc",
+      "videoId": "ceF7_-1q8rc",
+      "title": "[4K]251024 이채영 ChaeYoung 'YouAreMyEverything' 직캠Fancam@fromis_9 WORLD TOUR[NOW TOMORROW.]IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T17:48:19Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "chaeyoung"
+      ],
+      "duration": "PT2M52S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:rsH-GPs95bs",
+      "videoId": "rsH-GPs95bs",
+      "title": "[4K]251024 프로미스나인fromis_9 'Strawberry Mimosa' 직캠Fancam@fromis_9 WORLD TOUR[NOW TOMORROW.]IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T17:31:42Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT2M44S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:50-Il0_ei58",
+      "videoId": "50-Il0_ei58",
+      "title": "[4K]251024 프로미스나인 fromis_9 'Blind Letter' 직캠 Fancam @fromis_9 WORLD TOUR [NOW TOMORROW.] IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T17:31:37Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT2M38S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:vOOn_4bno3E",
+      "videoId": "vOOn_4bno3E",
+      "title": "[4K]251024 프로미스나인 fromis_9 'Twisted love' 직캠 Fancam @fromis_9 WORLD TOUR [NOW TOMORROW.] IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T17:31:33Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT2M59S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:52DXg5dLG44",
+      "videoId": "52DXg5dLG44",
+      "title": "[4K]251024 프로미스나인 fromis_9 멘트 직캠 Talk Fancam @2025 fromis_9 WORLD TOUR [NOW TOMORROW.] IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T17:31:30Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT8M3S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:GZRb0-WD1_0",
+      "videoId": "GZRb0-WD1_0",
+      "title": "[4K]251024 프로미스나인 fromis_9 'Love=Disaster' 직캠 Fancam@fromis_9 WORLD TOUR [NOW TOMORROW.] IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T17:31:27Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT2M35S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:LaWRGL9m7NY",
+      "videoId": "LaWRGL9m7NY",
+      "title": "[4K]251024 프로미스나인fromis_9 'REBELUTIONAL' 직캠Fancam@2025 fromis_9 WORLD TOUR[NOW TOMORROW.]IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T17:31:23Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT3M9S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:VwS6h2tQQK4",
+      "videoId": "VwS6h2tQQK4",
+      "title": "[4K]251024 프로미스나인 fromis_9 'WE GO' 직캠 Fancam @2025 fromis_9 WORLD TOUR [NOW TOMORROW.] IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T17:31:20Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT2M53S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:PgZy3-79vH4",
+      "videoId": "PgZy3-79vH4",
+      "title": "[4K]251024 프로미스나인 fromis_9 'Love Bomb' 직캠 Fancam@2025 fromis_9 WORLD TOUR[NOW TOMORROW.] IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T17:06:11Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT5M19S",
+      "source": "youtube"
+    },
+    {
+      "id": "yt:Et3l7ouJuYY",
+      "videoId": "Et3l7ouJuYY",
+      "title": "[4K]251024 프로미스나인 fromis_9 'Supersonic' 직캠 Fancam@2025 fromis_9 WORLD TOUR[NOW TOMORROW.]IN HONGKONG",
+      "category": "fancam_fan",
+      "channelTitle": "shingshingbomi Fancam",
+      "publishedAt": "2025-10-24T17:05:54Z",
+      "addedAt": "2026-11-26T07:49:16Z",
+      "members": [
+        "all"
+      ],
+      "duration": "PT2M56S",
+      "source": "youtube"
+    },
+    {
       "id": "yt:hxALTyFZwBU",
       "videoId": "hxALTyFZwBU",
       "title": "데뷔초 몸무게가 미미미누랑 똑같았던 이채영 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-25T15:32:34Z",
       "addedAt": "2026-11-25T21:30:13Z",
       "members": [
         "chaeyoung",
@@ -24,7 +624,7 @@
       "title": "화장실도 못 갔다는 나경 지금에서야 말하는 흑역사 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-25T11:56:39Z",
       "addedAt": "2026-11-25T21:30:13Z",
       "members": [
         "chaeyoung",
@@ -42,7 +642,7 @@
       "title": "프로미스나인이 놓친 히트곡 2개의 정체 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-25T08:32:30Z",
       "addedAt": "2026-11-25T21:30:13Z",
       "members": [
         "chaeyoung",
@@ -8334,7 +8934,8 @@
         "all"
       ],
       "duration": "PT1M51S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:bpti7v-YGHc",
@@ -8348,7 +8949,8 @@
         "all"
       ],
       "duration": "PT7S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:nO_2WRxUo28",
@@ -8376,7 +8978,8 @@
         "hayoung"
       ],
       "duration": "PT5S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:0uXAOGkca9g",
@@ -8390,7 +8993,8 @@
         "seoyeon"
       ],
       "duration": "PT5S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:TekUD-oipew",
@@ -8404,7 +9008,8 @@
         "all"
       ],
       "duration": "PT1M54S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:T8_DdbZJdfk",
@@ -8418,7 +9023,8 @@
         "all"
       ],
       "duration": "PT19S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:bHJLvje6oRo",
@@ -8474,7 +9080,8 @@
         "nagyung"
       ],
       "duration": "PT9S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:8T_vOUZoNUU",
@@ -8488,7 +9095,8 @@
         "jiwon"
       ],
       "duration": "PT22S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:0wKdtnws0tg",
@@ -8502,7 +9110,8 @@
         "hayoung"
       ],
       "duration": "PT41S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:4fRs6nPmKa4",
