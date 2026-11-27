@@ -1,12 +1,66 @@
 {
   "videos": [
     {
+      "id": "yt:Z8n3G_9VPDc",
+      "videoId": "Z8n3G_9VPDc",
+      "title": "헤어나오기 힘든 독특한 송하영 입꼬리 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-27T07:51:17Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:iuoF7Ad5oiQ",
+      "videoId": "iuoF7Ad5oiQ",
+      "title": "코디가 누군지 궁금해지는 감다살 프미나 축제의상 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-27T07:51:17Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:nLi13jlFONY",
+      "videoId": "nLi13jlFONY",
+      "title": "일 좀 한다 싶으면 바로 극딜 먹는 박지원 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-27T07:51:17Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
       "id": "yt:Z5UW3gJTJ5Y",
       "videoId": "Z5UW3gJTJ5Y",
       "title": "언니 공연에 빈손으로 온 챙이 맞을까봐 무서운 이채영 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-26T15:33:30Z",
       "addedAt": "2026-11-26T21:18:07Z",
       "members": [
         "chaeyoung",
@@ -24,7 +78,7 @@
       "title": "07년생이라 해도 그냥 납득 되는 송하영 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-26T12:03:32Z",
       "addedAt": "2026-11-26T21:18:07Z",
       "members": [
         "chaeyoung",
@@ -42,7 +96,7 @@
       "title": "본인도 인정해버린 이나경의 타고난 퀸력 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-26T08:35:20Z",
       "addedAt": "2026-11-26T21:18:07Z",
       "members": [
         "chaeyoung",
@@ -9426,7 +9480,8 @@
         "all"
       ],
       "duration": "PT2M55S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:29V_5zB3K-c",
@@ -9454,7 +9509,8 @@
         "all"
       ],
       "duration": "PT10S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:NvDAeDtl6-U",
@@ -9468,7 +9524,8 @@
         "all"
       ],
       "duration": "PT32S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:hxnmbepfhCk",
@@ -9482,7 +9539,8 @@
         "saerom"
       ],
       "duration": "PT18S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:JV5GhArCy84",
@@ -9496,7 +9554,8 @@
         "saerom"
       ],
       "duration": "PT1M21S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:SUDdkxTV044",
@@ -9524,7 +9583,8 @@
         "all"
       ],
       "duration": "PT45S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:6eO509CvkFI",
@@ -9538,7 +9598,8 @@
         "jisun"
       ],
       "duration": "PT17S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:D_pEXFV3iaY",
@@ -9594,7 +9655,8 @@
         "seoyeon"
       ],
       "duration": "PT18S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:vtn4WjrIlEc",
