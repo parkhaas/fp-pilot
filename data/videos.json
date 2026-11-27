@@ -1,12 +1,80 @@
 {
   "videos": [
     {
+      "id": "yt:23aNkI4-8pc",
+      "videoId": "23aNkI4-8pc",
+      "title": "은비언니보다 섹시하기 이채영 비웃는 미3누 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-27T20:59:40Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:NdvdKARHkK0",
+      "videoId": "NdvdKARHkK0",
+      "title": "생각과 많이 다른 첫사랑에 한걸음 멀어진 미미미누 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-27T20:59:40Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:YyINOLEgoBI",
+      "videoId": "YyINOLEgoBI",
+      "title": "N빵체이 날먹하는 멤버들에게 분노하는 챙젼 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-27T20:59:40Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:8QXHwIKHBQY",
+      "videoId": "8QXHwIKHBQY",
+      "title": "[미방] 방향 전환 갑 꼬리 콥터",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-11-27T09:00:30Z",
+      "addedAt": "2026-11-27T20:58:22Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
       "id": "yt:Z8n3G_9VPDc",
       "videoId": "Z8n3G_9VPDc",
       "title": "헤어나오기 힘든 독특한 송하영 입꼬리 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-27T05:04:09Z",
       "addedAt": "2026-11-27T07:51:17Z",
       "members": [
         "chaeyoung",
@@ -24,7 +92,7 @@
       "title": "코디가 누군지 궁금해지는 감다살 프미나 축제의상 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-27T01:30:36Z",
       "addedAt": "2026-11-27T07:51:17Z",
       "members": [
         "chaeyoung",
@@ -42,7 +110,7 @@
       "title": "일 좀 한다 싶으면 바로 극딜 먹는 박지원 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-26T22:04:03Z",
       "addedAt": "2026-11-27T07:51:17Z",
       "members": [
         "chaeyoung",
@@ -9670,7 +9738,8 @@
         "all"
       ],
       "duration": "PT45S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:IehM_8-HABM",
@@ -9684,7 +9753,8 @@
         "nagyung"
       ],
       "duration": "PT29S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:qqaQT8KyifM",
@@ -9698,7 +9768,8 @@
         "nagyung"
       ],
       "duration": "PT15S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:sB2WHgxP7Jc",
@@ -9726,7 +9797,8 @@
         "hayoung"
       ],
       "duration": "PT2M17S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:7KgzS0vGPPg",
@@ -9754,7 +9826,8 @@
         "hayoung"
       ],
       "duration": "PT26S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:7tU7-7y1xx0",
@@ -9796,7 +9869,8 @@
         "seoyeon"
       ],
       "duration": "PT38S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:kXZ3AD5EC8E",
@@ -9810,7 +9884,8 @@
         "nagyung"
       ],
       "duration": "PT12S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:RYeoDE0wpzU",
