@@ -1,12 +1,122 @@
 {
   "videos": [
     {
+      "id": "yt:AfwIiCWAEfE",
+      "videoId": "AfwIiCWAEfE",
+      "title": "동료의 비즈니스를 절대 참지 않는 프로미스나인 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-28T07:19:45Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:cvLLUDxAc78",
+      "videoId": "cvLLUDxAc78",
+      "title": "재채기처럼 숨기지 못하는 미3누 최애 이채영 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-28T07:19:45Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:ArZUYxm7Ex0",
+      "videoId": "ArZUYxm7Ex0",
+      "title": "이채영과 이나경의 관계를 질투하는 미미미누 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": null,
+      "addedAt": "2026-11-28T07:19:45Z",
+      "members": [
+        "chaeyoung",
+        "hayoung",
+        "jiheon",
+        "jiwon",
+        "nagyung"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:iWyqzYnxfT8",
+      "videoId": "iWyqzYnxfT8",
+      "title": "더 늦게 자서 영원히 못 자기",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-11-28T07:00:17Z",
+      "addedAt": "2026-11-28T07:18:32Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:aPZeJzMDZHA",
+      "videoId": "aPZeJzMDZHA",
+      "title": "이별 조정 기간이 필요했던 멤버들",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-11-28T05:00:36Z",
+      "addedAt": "2026-11-28T07:18:32Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:3aJmqtkeBOg",
+      "videoId": "3aJmqtkeBOg",
+      "title": "안정형 룸메이트",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-11-28T03:00:03Z",
+      "addedAt": "2026-11-28T07:18:32Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
+      "id": "yt:tZvRNnSr1gY",
+      "videoId": "tZvRNnSr1gY",
+      "title": "오늘 하루도 고생했어 잘자",
+      "category": "shorts",
+      "channelTitle": "",
+      "publishedAt": "2026-11-28T01:00:13Z",
+      "addedAt": "2026-11-28T07:18:32Z",
+      "members": [
+        "all"
+      ],
+      "duration": null,
+      "source": "youtube"
+    },
+    {
       "id": "yt:23aNkI4-8pc",
       "videoId": "23aNkI4-8pc",
       "title": "은비언니보다 섹시하기 이채영 비웃는 미3누 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-27T15:26:32Z",
       "addedAt": "2026-11-27T20:59:40Z",
       "members": [
         "chaeyoung",
@@ -24,7 +134,7 @@
       "title": "생각과 많이 다른 첫사랑에 한걸음 멀어진 미미미누 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-27T11:57:37Z",
       "addedAt": "2026-11-27T20:59:40Z",
       "members": [
         "chaeyoung",
@@ -42,7 +152,7 @@
       "title": "N빵체이 날먹하는 멤버들에게 분노하는 챙젼 #예능 #송하영 #프로미스나인 #박지원 #이채영 #이나경 #백지헌 #플로버",
       "category": "shorts",
       "channelTitle": "",
-      "publishedAt": null,
+      "publishedAt": "2026-11-27T08:26:04Z",
       "addedAt": "2026-11-27T20:59:40Z",
       "members": [
         "chaeyoung",
@@ -9899,7 +10009,8 @@
         "hayoung"
       ],
       "duration": "PT2M29S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": false
     },
     {
       "id": "yt:KSw0dUymViI",
@@ -9913,7 +10024,8 @@
         "nagyung"
       ],
       "duration": "PT37S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:5QtP5iX6Q_g",
@@ -9927,7 +10039,8 @@
         "all"
       ],
       "duration": "PT12S",
-      "source": "youtube"
+      "source": "youtube",
+      "short": true
     },
     {
       "id": "yt:SyTcks5Mlm4",

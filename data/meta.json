@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-27T20:59:40Z",
+  "updatedAt": "2026-11-28T07:19:45Z",
   "generator": "youtube-api + yt-dlp(shorts)",
-  "total": 3236,
+  "total": 3243,
   "counts": {
-    "shorts": 1151,
+    "shorts": 1158,
     "sp_original": 21,
     "fancam_fan": 39,
     "fancam_fromis91": 807,
@@ -783,6 +783,15 @@
       "added": 4,
       "delta": {
         "k18_play": 1,
+        "shorts": 3
+      }
+    },
+    {
+      "timestamp": "2026-11-28T07:19:45Z",
+      "total": 3243,
+      "added": 7,
+      "delta": {
+        "unsorted": 4,
         "shorts": 3
       }
     }
